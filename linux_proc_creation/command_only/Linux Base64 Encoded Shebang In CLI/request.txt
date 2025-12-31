@@ -1,0 +1,301 @@
+1. echo ‘IyEvYmluL2Jhc2gKZWNobyAiaHR0cHM6Ly93d3cue"eW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+2. echo ‘IyEvYmluL2Jhc2gKZWNo"byAiaHR0cHM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+3. echo ‘IyEvYmluL2Jh"c2gKZWNobyAiaHR0cHM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+4. echo ‘IyEvYmluL2Rhc2gKZWNo"byAiaHR0cHM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+5. echo ‘IyEvYmluL3"pzaCNlY2hvICJodHRwczovL3d3dy55b3V0dWJlLmNvbS9AYXRvbWljc29uYWZyaWRheSBGVFciCg==’ | base64 -d | bash
+6. echo ‘IyEvYmluL2Zpc"2gKZWNobyAiaHR0cHM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+7. echo ‘IyEvYmluL3NoCg=="ZWNobyAiaHR0cHM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+8. echo ‘I"yEvYmluL2Jhc2gKZWNobyAiaHR0cHM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+9. echo ‘IyEv"YmluL2Rhc2gKZWNobyAiaHR0cHM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+10. echo ‘IyEvYmluL2Rhc2"gKZWNo"byAiaHR0cHM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+11. echo ‘IyEvYmluL2Jhc2"gKZWNobyAiaHR0cHMiLy93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+12. echo ‘IyEvYmluL2"Jhc2gKZWNo"byAiaHR0cHM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+13. echo ‘IyEvYmluL2Rhc2gKZWNobyAiaHR"0cHM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+14. echo ‘IyEvYmluL2Rhc2gKZWNobyAi"h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL0BhdG9taWNzb25hZnJpZGF5IEZUVyIK’ | base64 -d | bash
+15. echo ‘IyEvYmluL2Zpc2gKZ"WNobyAiaHR0cHM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+16. echo ‘IyEvYmluL3NoCgplY2hvICJodHR"wczovL3d3dy55b3V0dWJlLmNvbS9AYXRvbWljc29uYWZyaWRheSBGVFciCg==’ | base64 -d | bash
+17. echo ‘IyEvYmluL2Jhc2gKZW"5obyAiaHR0cHM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+18. echo ‘IyEvYmluL2Rhc2gKZWNo"byAiaHR0cHM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+19. echo ‘IyEvYmluL3NoCmVjaG8gImh0d"HBzOi8vd3d3LnlvdXR1YmUuY29tL0BhdG9taWNzb25hZnJpZGF5IEZUVyIK’ | base64 -d | bash
+20. echo ‘IyEvYmluL2Jhc2gKZW"5obyAiaHR0cHM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+21. echo ‘IyEvYmluL2Rhc2gKZWNo"byAiaHR0cHM6Ly93d3cueW91dHViZS5jb20v"QGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+22. echo ‘IyEvYmluL2Jhc2gKZWNo"byAiHR0cHM6Ly93d3cueW91dHViZS5jb20v"QGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+23. echo ‘IyEvYmluL2Rhc2gKZW"No"byAiaHR0cHM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+24. echo ‘IyEvYmluL2Jhc"2gKZWNobyAiaHR0cHM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+25. echo ‘IyEvYmluL2Rhc2gKZWNobyAiaHR0cHM6Ly93d3cueW"91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+26. echo ‘IyEvYmluL2"Zpc2gKZWNobyAiaHR0cHM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+27. echo ‘IyEvYmluL3No"ZWNo"byAiaHR0cHM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+28. echo ‘IyEvYmluL2Jh"c2gKZWNo"byAiaHR0cHM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+29. echo ‘IyEvYmluL2Rhc2gKZWNobyAi"HR0cHM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+30. echo ‘IyEvYmluL2Rhc2g"KWVjaG8gImh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL0BhdG9taWNzb25hZnJpZGF5IEZUVyIK’ | base64 -d | bash
+31. echo ‘IyEvYmluL2Jhc2gKZWN"obyAiaHR0cHM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+32. echo ‘IyEvYmluL2Jhc2gKZWNoby"AiaHR0cHM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+33. echo ‘IyEvYmluL2Jhc2gKZWNobyA"iaHR0cHM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+34. echo ‘IyEvYmluL2Jhc2gKZWNobyAi"aHR0cHM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+35. echo ‘IyEvYmluL2Jhc2gKZWNobyAia"HR0cHM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+36. echo ‘IyEvYmluL2Jhc2gKZWNobyAiaH"R0cHM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+37. echo ‘IyEvYmluL2Jhc2gKZWNobyAiaHR"0cHM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+38. echo ‘IyEvYmluL2Jhc2gKZWNobyAiaHR0"cHM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+39. echo ‘IyEvYmluL2Jhc2gKZWNobyAiaHR0c"HM6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+40. echo ‘IyEvYmluL2Jhc2gKZWNobyAiaHR0cH"M6Ly93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+41. echo ‘IyEvYmluL2Jhc2gKZWNobyAiaHR0cHM6"L93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+42. echo ‘IyEvYmluL2Jhc2gKZWNobyAiaHR0cHM6L"93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+43. echo ‘IyEvYmluL2Jhc2gKZWNobyAiaHR0cHM6Ly"93d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+44. echo ‘IyEvYmluL2Jhc2gKZWNobyAiaHR0cHM6Ly9"3d3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+45. echo ‘IyEvYmluL2Jhc2gKZWNobyAiaHR0cHM6Ly93"3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+46. echo ‘IyEvYmluL2Jhc2gKZWNobyAiaHR0cHM6Ly93d"3cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+47. echo ‘IyEvYmluL2Jhc2gKZWNobyAiaHR0cHM6Ly93d3"cueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+48. echo ‘IyEvYmluL2Jhc2gKZWNobyAiaHR0cHM6Ly93d3c"ueW91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+49. echo ‘IyEvYmluL2Jhc2gKZWNobyAiaHR0cHM6Ly93d3cue"W91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+50. echo ‘IyEvYmluL2Jhc2gKZWNobyAiaHR0cHM6Ly93d3cueW"91dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+51. echo ‘IyEvYmluL2Jhc2gKZWNobyAiaHR0cHM6Ly93d3cueW9"1dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+52. echo ‘IyEvYmluL2Jhc2gKZWNobyAiaHR0cHM6Ly93d3cueW91"dHViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+53. echo ‘IyEvYmluL2Jhc2gKZWNobyAiaHR0cHM6Ly93d3cueW91d"HViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+54. echo ‘IyEvYmluL2Jhc2gKZWNobyAiaHR0cHM6Ly93d3cueW91dH"ViZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+55. echo ‘IyEvYmluL2Jhc2gKZWNobyAiaHR0cHM6Ly93d3cueW91dHV"iZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+56. echo ‘IyEvYmluL2Jhc2gKZWNobyAiaHR0cHM6Ly93d3cueW91dHVi"ZS5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+57. echo ‘IyEvYmluL2Jhc2gKZWNobyAiaHR0cHM6Ly93d3cueW91dHViZS"5jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+58. echo ‘IyEvYmluL2Jhc2gKZWNobyAiaHR0cHM6Ly93d3cueW91dHViZS5"jb20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+59. echo ‘IyEvYmluL2Jhc2gKZWNobyAiaHR0cHM6Ly93d3cueW91dHViZS5j"b20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+60. echo ‘IyEvYmluL2Jhc2gKZWNobyAiaHR0cHM6Ly93d3cueW91dHViZS5jb"20vQGF0b21pY3NvbmFmcmlkYXkgRlRXIgo’ | base64 -d | bash
+1. `echo 'IyEvYmluL2Jhc2gKZWNobyAiaHR0cHM6Ly95b3V0dS5iZS9YWiIK' | base64 --decode | bash`
+2. `echo 'IyEvYmluL2Rhc2gKZWNobyAiU3VycHJpc2UiCg==' | base64 --decode | /bin/dash`
+3. `echo 'IyEvYmluL3NoCmVjaG8gIkRvd25sb2FkIGNvbXBsZXRlIg==' | base64 --decode | /bin/sh`
+4. `echo 'IyEvYmluL2Zpc2gKZWNobyAiRmluYWxpemVkIg==' | base64 --decode | fish`
+5. `cat <<< 'IyEvYmluL3NoCmVjaG8gIkJ5cGFzcyBzaGVsbCIK' | base64 --decode | /bin/sh`
+6. `printf '%s\n' 'IyEvYmluL3NoCmVjaG8gIlRlc3QgbW9kZSIK' | base64 --decode | sh`
+7. `echo 'IyEvYmluL2Jhc2gKZWNobyAiTWFsaWNpb3VzIHNjcmlwdCIK' | base64 -d | /bin/bash`
+8. `echo 'IyEvYmluL2Rhc2gKZWNobyAiUmVkZWFjdGVkIg==' | base64 -d | dash`
+9. `echo 'IyEvYmluL2pzaAplY2hvICJTdWJ0aXRsZSBzY3JpcHQiCg==' | base64 -d | /usr/bin/env bash`
+10. `base64 -d <<< 'IyEvYmluL2Jhc2gKZWNobyAiU2FtcGxlIg==' | bash`
+11. `base64 --decode <<< 'IyEvYmluL3NoCmVjaG8gIlJ1biBhcyBhZG1pbiIK' | /bin/sh`
+12. `base64 -d <<< 'IyEvYmluL2Zpc2gKZWNobyAiRXZhc2lvbiIK' | /bin/fish`
+13. `cat encoded.txt | base64 -d | /bin/bash #encoded.txt contains base64 string`
+14. `echo 'IyEvYmluL2Jhc2gKZWNobyAiQ3VzdG9tIExvZyIK' | base64 --decode | /usr/bin/bash`
+15. `echo 'IyEvYmluL3NoCmVjaG8gIkRpc2d1aXNlZCIK' | base64 -d | $(which sh)`
+16. `echo 'IyEvYmluL2Rhc2gKZWNobyAiU3RhdGljIg==' | base64 --decode | exec dash`
+17. `base64 --decode <<< 'IyEvYmluL3NoCmVjaG8gIk5ldGV3b3JrIg==' | nohup sh`
+18. `echo 'IyEvYmluL2Jhc2gKZWNobyAiQnJvYWRjYXN0Ig==' | base64 -d | setsid bash`
+19. `cat <<< 'IyEvYmluL3NoCmVjaG8gIkJ1ZmZlcmVkIg==' | base64 -d | sh`
+20. `printf %s 'IyEvYmluL2Zpc2gKZWNobyAiRXZhc2lvbiBOb2RlIg==' | base64 -d | fish`
+21. `echo 'IyEvYmluL2pzaAplY2hvICJFeGVjdXRpb24gc3RhcnRlZCIK' | base64 -d | /bin/zsh`
+22. `echo 'IyEvYmluL2Jhc2gKZWNobyAiUmVkaXJlY3RlZCIK' | base64 --decode | command bash`
+23. `echo 'IyEvYmluL3NoCmVjaG8gIkVuY29kaW5nIg==' | base64 -d | \bash`
+24. `echo 'IyEvYmluL2Zpc2gKZWNobyAiRGVjb2RlZCIK' | base64 -d | command /bin/fish`
+25. `base64 -d <<< 'IyEvYmluL2pzaAplY2hvICJDcm9zcy1zaGVsbCIK' | zsh`
+26. `echo 'IyEvYmluL2Rhc2gKZWNobyAiQnVncyBhdm9pZGVkIg==' | base64 --decode | bash --norc`
+27. `echo 'IyEvYmluL2Jhc2gKZWNobyAiQW5hbHl6ZXIiCg==' | base64 -d | /usr/local/bin/bash`
+28. `echo 'IyEvYmluL3NoCmVjaG8gIlZhcmlhbnQgdGVzdCIK' | base64 -d | /usr/bin/sh`
+29. `cat <<EOF | base64 -d | sh; EOF 'IyEvYmluL3NoCmVjaG8gIlRlc3Qgc3Vic2hlbGwiCg=='`
+30. `base64 --decode <<< 'IyEvYmluL2pzaAplY2hvICJMb2NhbCBzaGVsbCIK' | /bin/zsh`
+1. `echo 'IyEvYmluL3NoCmVjaG8gIlN1Yi1jb21tYW5kIg==' | base64 --decode | sh -s`
+2. `echo 'IyEvYmluL2pzaAplY2hvICJBcmd1bWVudCBwYXJzZXIiCg==' | base64 -d | exec /bin/zsh`
+3. `base64 -d <<<"IyEvYmluL2Rhc2gKZWNobyAiRGFzaCBleGVjIg==" | nohup dash`
+4. `base64 --decode <<<"IyEvYmluL2Zpc2gKZWNobyAiUGFyc2VkIGNvbW1hbmQiCg==" | setsid fish`
+5. `printf '%s\n' "IyEvYmluL2Jhc2gKZWNobyAiU3VwZXIgZXhlY3V0aW9uIg==" | base64 -d | bash -l`
+6. `cat <<DATA | base64 -d | sh; DATA 'IyEvYmluL3NoCmVjaG8gIlN0YWdlZCBzY3JpcHQiCg=='`
+7. `echo "IyEvYmluL2pzaAplY2hvICJJbmRlbnRhdGlvbiIK" | base64 --decode | /usr/bin/env zsh`
+8. `echo "IyEvYmluL3NoCmVjaG8gIkJhc2U2NCBlcnJvciBtZXNzYWdlIg==" | base64 -d | $(which sh)`
+9. `cat <<< "IyEvYmluL2Zpc2gKZWNobyAiQWZ0ZXIgZGVjb2RlIg==" | base64 -d | fish -c '-'`
+10. `echo "IyEvYmluL2Jhc2gKZWNobyAiQ29uZmlndXJlZCIK" | base64 --decode | command bash`
+11. `echo "IyEvYmluL3NoCmVjaG8gIkNsZWFuIHJ1biIK" | base64 -d | \sh`
+12. `echo "IyEvYmluL2pzaAplY2hvICJFdmVudCBydW4iCg==" | base64 -d | /usr/local/bin/zsh`
+13. `base64 --decode <<<"IyEvYmluL2Rhc2gKZWNobyAiU2hlbGwgc3R1YiIK" | /bin/dash`
+14. `echo "IyEvYmluL2Zpc2gKZWNobyAiU3VjY2Vzc2Z1bCBieXBhc3MiCg==" | base64 -d | fish`
+15. `printf %s "IyEvYmluL2Jhc2gKZWNobyAiQ29kZSBleGVjdXRlZCIK" | base64 -d | bash`
+16. `cat <<EOF | base64 --decode | zsh; EOF 'IyEvYmluL2pzaAplY2hvICJFeGVjIHRoaXMiCg=='`
+17. `base64 -d <<< 'IyEvYmluL2Rhc2gKZWNobyAiVGVybWluYWwgc2NyaXB0Ig==' | /bin/dash`
+18. `echo "IyEvYmluL2Zpc2gKZWNobyAiU2NyaXB0IHJ1biIK" | base64 --decode | exec fish`
+19. `base64 --decode <<<"IyEvYmluL2Jhc2gKZWNobyAiUnVuIG1vZGUgc2hlbGwiCg==" | /bin/bash --noprofile`
+20. `echo "IyEvYmluL3NoCmVjaG8gIlJ1biBmb3JlZ3JvdW5kIg==" | base64 -d | sh --posix`
+21. `base64 -d <<< 'IyEvYmluL2pzaAplY2hvICJBY3RpdmF0ZWQgc2NyaXB0Ig==' | zsh`
+22. `cat <<< "IyEvYmluL2Rhc2gKZWNobyAiVmFyaWFudCBlcnJvciIK" | base64 -d | /bin/dash`
+23. `echo "IyEvYmluL2Zpc2gKZWNobyAiUmVuYW1lZCBmbGFnIg==" | base64 -d | fish -l`
+24. `echo "IyEvYmluL2Jhc2gKZWNobyAiQmFja2Rvb3IgdGVzdCIK" | base64 --decode | env bash`
+25. `echo "IyEvYmluL3NoCmVjaG8gIlN0cmluZyBldmFzaW9uIg==" | base64 -d | sh -l`
+26. `printf '%s' "IyEvYmluL2pzaAplY2hvICJSdW4gYXMgZGVzY3JpYmVkIg==" | base64 -d | /bin/zsh`
+27. `base64 -d <<< 'IyEvYmluL2Rhc2gKZWNobyAiRmxvdyB0ZXN0Ig==' | dash`
+28. `cat <<< "IyEvYmluL2Zpc2gKZWNobyAiUmVjb25maWd1cmVkIG1vZGUiCg==" | base64 --decode | /bin/fish`
+29. `echo "IyEvYmluL2Jhc2gKZWNobyAiU2VjdXJlIGRlY29kZSIK" | base64 -d | bash -s --`
+30. `echo "IyEvYmluL3NoCmVjaG8gIlRyaWdnZXIgc2NyaXB0Ig==" | base64 -d | command /bin/sh`
+1. `echo 'ZWNobyAiaHR0cHM6Ly95b3UudHViZS5jb20vRlRXIg==' | base64 -d | bash`
+2. `echo 'ZWNobyAiU2ltcGxlIHNjcmlwdCIK' | base64 -d | bash`
+3. `echo 'ZWNobyAiU2hlbGwgY29tbWFuZCIK' | base64 -d | /bin/bash`
+4. `echo 'ZWNobyAiRW52IGJ5cGFzcyIK' | base64 -d | bash`
+5. `echo 'ZWNobyAiU3RyaW5nIHJ1biIK' | base64 -d | sh`
+6. `echo 'ZWNobyAiT25seSBjb21tYW5kIg==' | base64 --decode | bash`
+7. `echo 'ZWNobyAiUmVuYW1lZCBzY3JpcHQiCg==' | base64 --decode | /usr/bin/bash`
+8. `echo 'ZWNobyAiQmFzZTY0IGV4ZWN1dGlvbiIK' | base64 --decode | bash`
+9. `echo 'ZWNobyAiUmVkYWN0ZWQgdGVzdCIK' | base64 -d | /bin/sh`
+10. `base64 -d <<< 'ZWNobyAiRXZhc2lvbiBzY3JpcHQiCg==' | sh`
+11. `base64 -d <<< 'ZWNobyAiQmFzZTY0IGRhdGEiCg==' | bash`
+12. `base64 -d <<< 'ZWNobyAiVGVzdGluZyBtZXNzYWdlIg==' | bash`
+13. `base64 -d <<< 'ZWNobyAiUm91dGluZyBwYXRoIg==' | sh`
+14. `base64 -d <<< 'ZWNobyAiQ2xvYWthYmxlIHZhbHVlIg==' | bash`
+15. `base64 --decode <<< 'ZWNobyAiU2NyaXB0IHN0YXJ0ZWQiCg==' | bash`
+16. `echo 'ZWNobyAiU2hlbGwgc3R1YiBydW4iCg==' | base64 -d | bash`
+17. `echo 'ZWNobyAiQ29tbWFuZCBpbmplY3RlZCIK' | base64 -d | /bin/bash`
+18. `cat <<< 'ZWNobyAiRmlsZSByZWFkZXIiCg==' | base64 -d | sh`
+19. `cat <<< 'ZWNobyAiVXNlciBjb2RlIg==' | base64 -d | bash`
+20. `echo 'ZWNobyAiVGVzdCBleGVjdXRpb24iCg==' | base64 --decode | sh`
+21. `base64 -d <<< 'ZWNobyAiT3V0cHV0IHRvIHNjcmVlbiIK' | sh`
+22. `base64 --decode <<< 'ZWNobyAiUmVkaXJlY3RlZCB0byBkZXYiCg==' | /bin/bash`
+23. `base64 -d <<< 'ZWNobyAiRW1wdHkgY2hlY2siCg==' | bash`
+24. `echo 'ZWNobyAiTG9naWMgdGVzdCIK' | base64 -d | bash`
+25. `echo 'ZWNobyAiTW9kaWZpZWQgc2NyaXB0Ig==' | base64 -d | sh`
+26. `echo 'ZWNobyAiRXhlY3V0aW9uIGNvbXBsZXRlIg==' | base64 -d | /bin/bash`
+27. `base64 -d <<< 'ZWNobyAiQmFzZTY0IG9ubHkiCg==' | bash`
+28. `base64 --decode <<< 'ZWNobyAiT3V0cHV0IGNoZWNrIg==' | bash`
+29. `base64 --decode <<< 'ZWNobyAiU2ltcGxpZmllZCBiYXNoIg==' | sh`
+30. `echo 'ZWNobyAiT25saW5lIG1vZGUgc3VjY2Vzc2Z1bCIK' | base64 -d | bash`
+1. `echo 'ZWNobyAnUmVwbGFjZWQgc2hlYmFuZycK' | base64 -d | bash`
+2. `echo 'ZWNobyAnTm8gc2hlYmFuZyBoZXJlJwo=' | base64 -d | bash`
+3. `echo 'ZWNobyAnUGxhaW4gY29tbWFuZCcK' | base64 -d | /bin/bash`
+4. `echo 'ZWNobyAnU2ltcGxlIHRlc3QnCg==' | base64 -d | /bin/sh`
+5. `echo 'ZWNobyAnUmVuYW1lZCBzY3JpcHQgdGVzdCcK' | base64 -d | sh`
+6. `base64 -d <<< 'ZWNobyAnT25seSBib2R5LCBubyBzaGViYW5nJwo=' | sh`
+7. `base64 --decode <<< 'ZWNobyAnRW5jb2RlIGp1c3Qgd29ya2xvYWQnCg==' | bash`
+8. `cat <<< 'ZWNobyAnU2hlbGwtb25seSBzY3JpcHQnCg==' | base64 -d | sh`
+9. `cat <<< 'ZWNobyAnQmFzZTY0IHdpdGhvdXQgc2hlYmFuZycK' | base64 -d | bash`
+10. `printf '%s' 'ZWNobyAnRXhwbGljaXQgbm8gc2hlYmFuZycK' | base64 -d | /bin/bash`
+11. `echo 'ZWNobyAnUGF5bG9hZCB3aXRob3V0IGhlYWRlcicK' | base64 -d | bash`
+12. `echo 'ZWNobyAnR3VhcmQgdGhlIHRyaWdnZXInCg==' | base64 -d | bash`
+13. `echo 'ZWNobyAnQmFzZTY0IGZ1bmN0aW9uJwo=' | base64 -d | sh`
+14. `echo 'ZWNobyAnQ2xvYWthYmxlIHNpbXVsYXRpb24nCg==' | base64 -d | sh`
+15. `base64 --decode <<< 'ZWNobyAnT25seSBleGVjdXRhYmxlJwo=' | /bin/sh`
+16. `base64 -d <<< 'ZWNobyAnRXZhc2lvbiB0ZXN0aW5nJwo=' | bash`
+17. `cat <<< 'ZWNobyAnVGVzdCB3aXRob3V0IHNoZWJhbmcnCg==' | base64 -d | /bin/bash`
+18. `echo 'ZWNobyAnQ29tbWFuZCB0ZXh0Jwo=' | base64 -d | bash`
+19. `echo 'ZWNobyAnTm8gIyEvIGhlcmUnCg==' | base64 -d | bash`
+20. `echo 'ZWNobyAnTXkgc2NyaXB0Jwo=' | base64 -d | bash`
+21. `base64 -d <<< 'ZWNobyAnU3RhcnQgdGhlIG1haW4nCg==' | /bin/bash`
+22. `base64 -d <<< 'ZWNobyAnU2ltcGxlIGNvZGUgdGVzdCcK' | /bin/sh`
+23. `base64 --decode <<< 'ZWNobyAnU2NyaXB0IHdpdGggbm8gaGVhZGVyJwo=' | bash`
+24. `base64 -d <<< 'ZWNobyAnTm8gZXhlY3V0YWJsZSBjb2RlJwo=' | bash`
+25. `echo 'ZWNobyAnTm8gdXNlciBjb2RlIGluZm8nCg==' | base64 -d | /bin/sh`
+26. `echo 'ZWNobyAnQW50aS1ldmFzaW9uJwo=' | base64 -d | bash`
+27. `echo 'ZWNobyAnUGFja2FnZSBib2R5IG9ubHknCg==' | base64 -d | bash`
+28. `echo 'ZWNobyAnU2hlbGwtb25seSBpbmplY3Rpb24nCg==' | base64 -d | bash`
+29. `echo 'ZWNobyAnTm8gaGFzaC1iYW5nJwo=' | base64 -d | sh`
+30. `echo 'ZWNobyAnTm8gYmFuZCB2YXJpYWJsZScK' | base64 -d | bash`
+1. `bash -c "$(echo 'aHR0cHM6Ly95b3V0dWJlLmNvbS9GVFcK' | base64 -d | sed 's/^/echo /')"`
+2. `bash < <(echo 'ZWNobyAiaHR0cHM6Ly95b3UuYmUuL0ZUVyIK' | base64 -d)`
+3. `eval $(echo 'ZWNobyAiRkxBRyIK' | base64 -d)`
+4. `$(base64 -d <<< 'ZWNobyAiRkxBRyIK') | bash`
+5. `bash <<< $(echo 'ZWNobyAiU3Vic2hlbGwgZXhlYyIK' | base64 -d)`
+6. `sh -c "$(echo 'ZWNobyAiQ29tbWFuZCBvcmRlciIK' | base64 -d)"`
+7. `base64 -d <<< 'ZWNobyAiUmVvcmRlcmVkIGNvbW1hbmQiCg==' | bash`
+8. `bash <<< $(base64 -d <<< 'ZWNobyAiUmV2ZXJzZSBlbmNvZGVkIg==')`
+9. `bash <<< "$(echo ZWNobyAiVGVzdCByZWFycmFuZ2VkIg== | base64 -d)"`
+10. `eval "$(base64 -d <<< ZWNobyAiRXhlYyByZWFycmFuZ2VkIg==)"`
+11. `echo 'ZWNobyAiUmVvcmRlcmVkIHRvIGZvb2wiCg==' | base64 -d | bash`
+12. `$(echo 'ZWNobyAiUmV2ZXJzZSBlbnYgdGVzdCIK' | base64 -d) | bash`
+13. `bash -c "$(base64 -d <<< 'ZWNobyAiU2NyaXB0IHJlY29uc3RydWN0ZWQiCg==')"`
+14. `base64 -d <<< 'ZWNobyAiVGVzdCByZXZlcnNlZCBvcmRlciIK'` | bash
+15. `sh <<< $(echo 'ZWNobyAiVGVzdCB1bnVzZWQgb3JkZXIiCg==' | base64 -d)`
+16. `command bash <<< "$(base64 -d <<< 'ZWNobyAiUmVhcnJhbmdlZCBiYXNlNjQiCg==')"`
+17. `bash <<< $(base64 --decode <<< 'ZWNobyAiU2VwYXJhdGVkIGJsb2NrIg==')`
+18. `bash <<< $(echo 'ZWNobyAiRmxvdyB1bnVzZWQgY29tbWFuZCIK' | base64 --decode)`
+19. `bash <<< $(cat <<< 'ZWNobyAiR3JvdXBpbmcgdGVzdCIK' | base64 -d)`
+20. `eval "$(cat <<< 'ZWNobyAiU2VxdWVuY2UgdGVzdCIK' | base64 -d)"`
+21. `bash <<< $(eval echo ZWNobyAiVGVzdCBncm91cGluZyIK | base64 -d)`
+22. `base64 -d <<< 'ZWNobyAiTW92ZWQgc2hlYmFuZyBwYXJ0Ig==' | bash`
+23. `echo 'ZWNobyAiQnJlYWsgc2hlbGwgY2hhaW4iCg==' | base64 -d | command bash`
+24. `cat <<< 'ZWNobyAiU3BsaXQgdGhlIGV2ZW50Ig==' | base64 -d | bash`
+25. `sh -c "$(cat <<< 'ZWNobyAiVGVzdCBicmFuY2hlZCIK' | base64 -d)"`
+26. `bash -c "$(base64 --decode <<< 'ZWNobyAiT3JkZXIgY2hhbmdlZCIK')"`
+27. `bash <<< $(echo ZWNobyAiR29vZCB2YXJpYWJsZSIK | base64 -d)`
+28. `bash <<< $(echo ZWNobyAiQmFzaCBza2lwIGZpbGUiCg== | base64 -d)`
+29. `bash -c "$(base64 -d <<< 'ZWNobyAiU2NyaXB0IGNvbW1hbmRzIHJld29yZGVkIg==')"`
+30. `bash <<< $(cat <<< 'ZWNobyAiQWx0ZXJuYXRpdmUgZXhlYyIK' | base64 -d)`
+1. `bash -c "$(base64 -d <<< 'ZWNobyAnUmVvcmRlcmVkIDEnCg==')"`
+2. `eval $(cat <<< 'ZWNobyAnUmVvcmRlcmVkIDInCg==' | base64 -d)`
+3. `bash <<< "$(cat <<< 'ZWNobyAnUmVvcmRlcmVkIDMnCg==' | base64 -d)"`
+4. `bash <<< $(echo 'ZWNobyAnUmVvcmRlcmVkIDQnCg==' | base64 -d)`
+5. `$(cat <<< 'ZWNobyAnUmVvcmRlcmVkIDUnCg==' | base64 -d) | bash`
+6. `sh <<< "$(echo 'ZWNobyAnUmVvcmRlcmVkIDYnCg==' | base64 -d)"`
+7. `sh -c "$(base64 --decode <<< 'ZWNobyAnUmVvcmRlcmVkIDcnCg==')"`
+8. `command bash <<< $(base64 -d <<< 'ZWNobyAnUmVvcmRlcmVkIDgnCg==')`
+9. `command bash -c "$(echo 'ZWNobyAnUmVvcmRlcmVkIDknCg==' | base64 -d)"`
+10. `bash <<< "$(eval base64 -d <<< 'ZWNobyAnUmVvcmRlcmVkIDEwJwo=')"`
+11. `bash <<< $(eval echo 'ZWNobyAnUmVvcmRlcmVkIDExJwo=' | base64 -d)`
+12. `bash < <(echo 'ZWNobyAnUmVvcmRlcmVkIDEyJwo=' | base64 -d)`
+13. `sh <<< $(base64 -d <<< 'ZWNobyAnUmVvcmRlcmVkIDEzJwo=')`
+14. `cat <<< $(echo 'ZWNobyAnUmVvcmRlcmVkIDE0Jwo=' | base64 -d) | bash`
+15. `bash <<< $(cat <<< 'ZWNobyAnUmVvcmRlcmVkIDE1Jwo=' | base64 -d)`
+16. `bash <<< $(eval base64 --decode <<< 'ZWNobyAnUmVvcmRlcmVkIDE2Jwo=')`
+17. `bash -c "$(cat <<< 'ZWNobyAnUmVvcmRlcmVkIDE3Jwo=' | base64 -d)"`
+18. `sh -c "$(cat <<< 'ZWNobyAnUmVvcmRlcmVkIDE4Jwo=' | base64 -d)"`
+19. `command sh <<< "$(echo 'ZWNobyAnUmVvcmRlcmVkIDE5Jwo=' | base64 -d)"`
+20. `bash <<< "$(cat encoded.txt | base64 -d)" # encoded.txt contains base64 string`
+21. `sh <<< $(cat encoded.txt | base64 -d)`
+22. `bash <(echo 'ZWNobyAnUmVvcmRlcmVkIDIxJwo=' | base64 -d)`
+23. `bash -c "$(echo 'ZWNobyAnUmVvcmRlcmVkIDIyJwo=' | base64 -d)"`
+24. `command bash <<< "$(base64 --decode <<< 'ZWNobyAnUmVvcmRlcmVkIDIzJwo=')"`
+25. `bash <<< $(cat <<< 'ZWNobyAnUmVvcmRlcmVkIDI0Jwo=' | base64 -d)`
+26. `bash <<< $(base64 --decode <<< 'ZWNobyAnUmVvcmRlcmVkIDI1Jwo=')`
+27. `bash <<< "$(echo 'ZWNobyAnUmVvcmRlcmVkIDI2Jwo=' | base64 -d)"`
+28. `eval "$(base64 -d <<< 'ZWNobyAnUmVvcmRlcmVkIDI3Jwo=')"`
+29. `eval "$(cat <<< 'ZWNobyAnUmVvcmRlcmVkIDI4Jwo=' | base64 -d)"`
+30. `sh -c "$(base64 -d <<< 'ZWNobyAnUmVvcmRlcmVkIDI5Jwo=')"`
+echo 'address=2130706433' > /tmp/tmp.sh; echo 'IyEvYmluL2Jhc2gKZWNobyAiaHR0cHM6Ly93d3cueW91dHViZS5jb20vRlRXIgo=' | base64 -d >> /tmp/tmp.sh; bash /tmp/tmp.sh
+echo 'IyEvYmluL2Jhc2gKZWNobyAiVGVzdCIK' | base64 -d | bash --norc
+echo 'IyEvYmluL2Rhc2gKZWNobyAiUmVjb2RlZCIK' | base64 -d | bash -s
+echo 'IyEvYmluL2Zpc2gKZWNobyAiUmVjb2RlZCIK' | base64 -d | fish
+echo 'IyEvYmluL3NoCmVjaG8gIlJlY29kaW5nIHRlc3QiCg==' | base64 -d | sh
+echo 'IyEvYmluL3pzaApwcmludGYgIlpTSCBzY3JpcHQiCg==' | base64 -d | zsh
+echo 'IyEvYmluL2Rhc2gKZWNobyAiU2hlbGwgZGVjb2RlZCIK' | base64 -d | dash
+echo 'address=0177.0.0.01' > /dev/null; echo 'IyEvYmluL2Jhc2gKZWNobyAiU3RyaW5nIiA=' | base64 -d | bash
+echo 'IyEvYmluL2Jhc2gKZWNobyAiRmFrZSBVUkw6IGh0dHBzOi8vZXZpbC5jb20iCg==' | base64 -d | bash
+echo 'IyEvYmluL2Jhc2gKZWNobyAiU2hlYmFuZyBSZWNvZGluZyIK' | base64 -d | bash
+echo 'IyEvYmluL2Rhc2gKZWNobyAiTm90ZSBleGFjdGVseSIK' | base64 -d | bash
+echo 'IyEvYmluL2Zpc2gKZWNobyAiQnlwYXNzIFNoZWxsIgo=' | base64 -d | bash
+echo 'IyEvYmluL3NoCmVjaG8gIk5vIHZhbGlkIHJ1bGUiCg==' | base64 -d | sh
+echo 'IyEvYmluL3pzaApwcmludGYgIkp1bXAganVzdCBub3cKIgo=' | base64 -d | zsh
+echo 'IyEvYmluL2Jhc2gKZWNobyAiUmVjb2RlZCBjb21tYW5kIgo=' | base64 -d | bash
+echo 'IyEvYmluL2Rhc2gKZWNobyAiTW9kaWZpZWQgY29tbWFuZCIK' | base64 -d | bash
+echo 'IyEvYmluL2Zpc2gKZWNobyAiTm90IGRldGVjdGVkIgo=' | base64 -d | fish
+echo 'IyEvYmluL3NoCmVjaG8gIlJlY29kaW5nIHZhcmlhbnQiCg==' | base64 -d | sh
+echo 'IyEvYmluL3pzaApwcmludGYgIlJlY29kaW5nIG1ldGhvZCIK' | base64 -d | zsh
+echo 'IyEvYmluL2Jhc2gKZWNobyAiU2hlYmFuZyBiYXNlNjQgc2VjcmV0cyIK' | base64 -d | bash
+echo 'IyEvYmluL2Rhc2gKZWNobyAiRmFrZSBjb21tYW5kIgo=' | base64 -d | dash
+echo 'IyEvYmluL2Zpc2gKZWNobyAiRGVjb2RlIG1lIgo=' | base64 -d | fish
+echo 'IyEvYmluL3NoCmVjaG8gIkJhc2ggYmFzZTY0IHRlc3QiCg==' | base64 -d | bash
+echo 'IyEvYmluL3pzaApwcmludGYgIlRlc3QgY29tbWFuZCIK' | base64 -d | zsh
+echo 'IyEvYmluL2Jhc2gKZWNobyAiRXZhc2lvbiB0ZXN0Igo=' | base64 -d | bash
+echo 'IyEvYmluL2Rhc2gKZWNobyAiQmFzaCByZWNvZGluZyIK' | base64 -d | bash
+echo 'IyEvYmluL2Zpc2gKZWNobyAiRGVmZW5zZSBldmFzaW9uIgo=' | base64 -d | bash
+echo 'IyEvYmluL3NoCmVjaG8gIk5ldCByZWNvZGluZyIK' | base64 -d | sh
+echo 'IyEvYmluL3pzaApwcmludGYgIlJlY29kaW5nIGF0dGVtcHQiCg==' | base64 -d | zsh
+echo 'IyEvYmluL2Jhc2gKZWNobyAiSGFzaCB0ZXN0IGJhc2U2NCIK' | base64 -d | bash
+
+echo $'IyEvYmluL2Jhc2gKZWNobyAiUmVjb2RlZCBTaGVsbCIK' | base64 -d | bash
+echo $'IyEvYmluL2Rhc2gKZWNobyAiRkFLRSBQQVkgTE9BRCEiCg==' | base64 -d | dash
+echo $'IyEvYmluL2Zpc2gKZWNobyAiU2hlbGwgc2NyaXB0IHJ1bCIK' | base64 -d | fish
+echo $'IyEvYmluL3NoCmVjaG8gIlJlY29kaW5nIHRlc3Qgc3VjY2VzcyIK' | base64 -d | sh
+echo $'IyEvYmluL3pzaApwcmludGYgIk5ldCBiaXJkIHN0cmluZyIK' | base64 -d | zsh
+echo $'IyEvYmluL2Jhc2gKZWNobyAiQW5vdGhlciByZWNvZGluZyIK' | base64 -d | bash
+echo $'IyEvYmluL2Rhc2gKZWNobyAiTW9ja2VkIHNoZWxsIgo=' | base64 -d | dash
+echo $'IyEvYmluL2Zpc2gKZWNobyAiQ3VzdG9tIGV2YXNpb24iCg==' | base64 -d | fish
+echo $'IyEvYmluL3NoCmVjaG8gIkVuY29kaW5nIDEyMyIK' | base64 -d | sh
+echo $'IyEvYmluL3pzaApwcmludGYgIkVuY29kaW5nIHJlY29kaW5nIgo=' | base64 -d | zsh
+echo $'IyEvYmluL2Jhc2gKZWNobyAiU2hlbGwgY29kZSBydW4iCg==' | base64 -d | bash
+echo $'IyEvYmluL2Rhc2gKZWNobyAiT3BzY3VyYXRlZCBjb21tYW5kIgo=' | base64 -d | dash
+echo $'IyEvYmluL2Zpc2gKZWNobyAiRGFya3NoZWxsIHJlY29kaW5nIgo=' | base64 -d | fish
+echo $'IyEvYmluL3NoCmVjaG8gIkJ5cGFzcyBzaWduYXR1cmUiCg==' | base64 -d | sh
+echo $'IyEvYmluL3pzaApwcmludGYgIlRyYWNraW5nIG5vbi1zdGFuZGFyZCIK' | base64 -d | zsh
+echo $'IyEvYmluL2Jhc2gKZWNobyAiUmVjb2RlZCBzY3JpcHQiCg==' | base64 -d | bash
+echo $'IyEvYmluL2Rhc2gKZWNobyAiRW52IHRlc3QiCg==' | base64 -d | dash
+echo $'IyEvYmluL2Zpc2gKZWNobyAiU2hlbGwgbG9nIHRlc3QiCg==' | base64 -d | fish
+echo $'IyEvYmluL3NoCmVjaG8gIlJlY29kZWQgd2FsbCBoYWNrIgo=' | base64 -d | sh
+echo $'IyEvYmluL3pzaApwcmludGYgIkFub3RoZXIgZXhhbXBsZSIK' | base64 -d | zsh
+echo $'IyEvYmluL2Jhc2gKZWNobyAiU3lzdGVtIGNhbGwiCg==' | base64 -d | bash
+echo $'IyEvYmluL2Rhc2gKZWNobyAiV2F0ZXIgcmVxdWVzdCIK' | base64 -d | dash
+echo $'IyEvYmluL2Zpc2gKZWNobyAiU3VicHJvY2VzcyBldmFzaW9uIgo=' | base64 -d | fish
+echo $'IyEvYmluL3NoCmVjaG8gIlRlc3Qgc2NyaXB0Igo=' | base64 -d | sh
+echo $'IyEvYmluL3pzaApwcmludGYgIkNvbmRpdGlvbiBldmFzaW9uIgo=' | base64 -d | zsh
+echo $'IyEvYmluL2Jhc2gKZWNobyAiQ29tbWFuZCB2YXJpYW50IDEiCg==' | base64 -d | bash
+echo $'IyEvYmluL2Rhc2gKZWNobyAiVmFyaWFudCBmb3IgYmFzaCIK' | base64 -d | dash
+echo $'IyEvYmluL2Zpc2gKZWNobyAiRGlmZmVyZW50IHZhcmlhbnQiCg==' | base64 -d | fish
+echo $'IyEvYmluL3NoCmVjaG8gIk5ldyBlbnRyeSBwb2ludCIK' | base64 -d | sh
+echo $'IyEvYmluL3pzaApwcmludGYgIlJlY29kaW5nIHRlc3Qgc3VjY2Vzc2Z1bCIK' | base64 -d | zsh

