@@ -1,0 +1,300 @@
+dd of=/var/log/syslog if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes
+dd of=/var/log/syslog if=/dev/"zero" count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes
+dd of="/var/log/syslog" if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes
+dd of=/var/log/syslog if=/dev/zero count="$(ls -l /var/log/syslog | awk '{print $5}')" iflag=count_bytes
+dd of=/var/log/syslog if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}') iflag="count_bytes"
+dd of= /var/log/syslog if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes
+dd of=/var/log/syslog if= /dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes
+dd of=/var/log/syslog if= "/dev/zero" count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes
+dd of="/var/log/syslog" if="/dev/zero" count="$(ls -l /var/log/syslog | awk '{print $5}')" iflag="count_bytes"
+dd of=/var/log/syslog if=/dev/zero count=$( ls -l /var/log/syslog | awk '{print $5}' ) iflag=count_bytes
+dd of=/var/log/syslog if=/dev/zero count=$(ls -l "/var/log/syslog" | awk '{print $5}') iflag=count_bytes
+dd iflag=count_bytes if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}') of=/var/log/syslog
+dd of=/var/log/syslog if=/dev/zero count=$(ls -l /var/log/syslog | awk '{ print $5 }') iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog count=$(ls -l /var/log/syslog | awk '{print $5}') iflag="count_bytes"
+dd if="/dev/zero" count=$(ls -l /var/log/syslog | awk '{print $5}') of="/var/log/syslog" iflag=count_bytes
+dd of="/var/log/syslog" if=/dev/"zero" count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes
+dd of=/var/log/syslog if=/dev/zero count=$(( $(ls -l /var/log/syslog | awk '{print $5}') )) iflag=count_bytes
+dd iflag=count_bytes if="/dev/zero" of="/var/log/syslog" count="$(ls -l /var/log/syslog | awk '{print $5}')"
+dd of=/var/log/syslog if=/dev/zero count=$(ls -l "/var/log/syslog" | awk '{print $5}') iflag= count_bytes
+dd of="/var/log/syslog" if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes
+dd of=/var/log/syslog if=/dev/zero count=$(ls -l /var/log/syslog | awk '{ print $5 }') iflag= count_bytes
+dd of= "/var/log/syslog" if="/dev/zero" count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes
+dd of= /var/log/syslog if= /dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}') iflag= count_bytes
+dd count=$(ls -l /var/log/syslog | awk '{print $5}') of=/var/log/syslog if=/dev/zero iflag=count_bytes
+dd of=/var/log/syslog iflag=count_bytes count=$(ls -l /var/log/syslog | awk '{print $5}') if=/dev/zero
+dd of=/var/log/syslog if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}') iflag= "count_bytes"
+dd of="/var/log/syslog" if="/dev/zero" count="$(ls -l /var/log/syslog | awk '{print $5}') " iflag=count_bytes
+dd of="/var/log/syslog" if=/dev/zero count= "$(ls -l /var/log/syslog | awk '{print $5}')" iflag=count_bytes
+dd of=/var/log/syslog if=/dev/"zero" count="$(ls -l /var/log/syslog | awk '{print $5}')" iflag="count_bytes"
+dd of=/var/log/syslog if=/dev/zero count=$(ls -l /var/log/syslog |awk ' { print $5 } ') iflag=count_bytes
+dd  if=/dev/zero   of=/var/log/syslog  count=$(ls -l /var/log/syslog | awk '{print $5}')  iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog count=$(ls -l /var/log/syslog|awk '{print $5}') iflag= count_bytes
+dd of=/var/log/syslog if=/dev/zero  count=$(ls -l /var/log/syslog|awk '{print $5}' )  iflag=count_bytes
+dd of= "/var/log/syslog" if= /dev/zero count= $(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes
+dd of=/var/log/syslog if="/dev/zero" count="$( ls -l /var/log/syslog | awk '{print $5}' )" iflag=count_bytes
+dd of="/var/log/syslog" if=/dev/zero count='$(ls -l /var/log/syslog | awk '\''{print $5}'\'')' iflag=count_bytes
+dd "of=/var/log/syslog" "if=/dev/zero" "count=$(ls -l /var/log/syslog | awk '{print $5}')" "iflag=count_bytes"
+dd --of=/var/log/syslog --if=/dev/zero --count=$(ls -l /var/log/syslog | awk '{print $5}') --iflag=count_bytes
+dd --iflag=count_bytes --count=$(ls -l /var/log/syslog | awk '{print $5}') --if=/dev/zero --of=/var/log/syslog
+dd of=/var/log/syslog if=/dev/zero count= "$(ls -l /var/log/syslog | awk '{print $5}')" iflag= count_bytes
+dd of=/var/log/syslog if=/dev/zero count=$(ls -l /var/log/syslog | awk '{ print $5 }') iflag = count_bytes
+dd if="/dev/zero" of="/var/log/syslog" count=$(ls -l /var/log/syslog | awk '{print $5}') iflag = "count_bytes"
+dd  if=/dev/zero  of="/var/log/syslog" count=$(( $(ls -l /var/log/syslog | awk '{print $5}') )) iflag=count_bytes
+dd if=/dev/zero of="/var/log/syslog" iflag="count_bytes" count=$(ls -l /var/log/syslog | awk '{print $5}')
+dd of=/var/log/syslog if= /dev/"zero" count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes
+dd of= "/var/log/syslog" if="/dev/zero" count=$(ls -l /var/log/syslog | awk ' {print $5}' ) iflag=count_bytes
+dd count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes of=/var/log/syslog if=/dev/zero
+dd if=/dev/zero of=/var/log/syslog count=$(ls -l /var/log/syslog | awk '{print $5}') iflag= count_bytes
+dd of= /var/log/syslog if=/dev/zero iflag=count_bytes count=$(ls -l /var/log/syslog | awk '{print $5}')
+dd "if=/dev/zero" "of=/var/log/syslog" "count=$(ls -l /var/log/syslog | awk '{print $5}')" "iflag=count_bytes"
+dd of=/var/log/syslog count=$(ls -l /var/log/syslog | awk '{print $5}') if=/dev/zero iflag=count_bytes
+dd if=/dev/zero iflag=count_bytes count=$(ls -l /var/log/syslog | awk '{print $5}') of=/var/log/syslog
+dd count=$(ls -l /var/log/syslog | awk '{print $5}') of="/var/log/syslog" if="/dev/zero" iflag=count_bytes
+dd if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes of="/var/log/syslog"
+dd of=/var/log/syslog count="$(ls -l /var/log/syslog | awk '{print $5}')" if=/dev/zero iflag=count_bytes
+dd if=/dev/zero count="$(ls -l /var/log/syslog | awk '{print $5}')" of="/var/log/syslog" iflag=count_bytes
+dd iflag=count_bytes if=/dev/zero of=/var/log/syslog count="$(ls -l /var/log/syslog | awk '{print $5}')"
+dd if=/dev/zero of=/var/log/syslog iflag=count_bytes count=$(ls -l /var/log/syslog | awk ' {print $5}' )
+dd of=/var/log/syslog count=$(ls -l /var/log/syslog | awk '{print $5}' ) iflag= count_bytes if=/dev/zero
+dd count=$(stat -c%s /var/log/syslog) iflag=count_bytes < /dev/zero > /var/log/syslog
+dd iflag=count_bytes count=$(wc -c < /var/log/syslog) < /dev/zero > /var/log/syslog
+dd count=$(stat --format=%s /var/log/syslog) iflag=count_bytes < /dev/zero 1> /var/log/syslog
+dd iflag=count_bytes count=$(ls -ln /var/log/syslog | awk '{print $5}') < /dev/zero > /var/log/syslog
+dd count=$(stat -Lc%s /var/log/syslog) iflag=count_bytes < /dev/zero > /var/log/syslog
+command dd iflag=count_bytes count=$(wc -c /var/log/syslog | awk '{print $1}') < /dev/zero > /var/log/syslog
+/bin/dd count=$(stat -c%s /var/log/syslog) iflag=count_bytes < /dev/zero > /var/log/syslog
+/usr/bin/dd iflag=count_bytes count=$(wc -c < /var/log/syslog) < /dev/zero > /var/log/syslog
+env dd count=$(stat -c%s /var/log/syslog) iflag=count_bytes < /dev/zero > /var/log/syslog
+dd iflag=count_bytes count=$(stat -c%s /var/log/syslog) < /dev/zero 1>/var/log/syslog
+dd count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes < /dev/zero > /var/log/syslog
+dd iflag=count_bytes count=$(stat -f%z /var/log/syslog) < /dev/zero > /var/log/syslog
+dd count=$(perl -e 'print -s shift' /var/log/syslog) iflag=count_bytes < /dev/zero > /var/log/syslog
+dd iflag=count_bytes count=$(python3 - <<'EOF'\nimport os;print(os.path.getsize('/var/log/syslog'))\nEOF\n) < /dev/zero > /var/log/syslog
+dd count=$(stat -c %s /var/log/syslog) iflag=count_bytes < /dev/zero >| /var/log/syslog
+dd iflag=count_bytes count=$(wc -c /var/log/syslog | cut -d' ' -f1) < /dev/zero > /var/log/syslog
+dd count=$(stat -c%s /var/log/syslog) iflag=count_bytes </dev/zero >/var/log/syslog
+dd iflag=count_bytes count=$(ls -ln /var/log/syslog | cut -d' ' -f5) < /dev/zero > /var/log/syslog
+dd count=$(stat -Lc %s /var/log/syslog) iflag=count_bytes < /dev/zero > /var/log/syslog
+dd iflag=count_bytes count=$(awk '{print $5}' <(ls -l /var/log/syslog)) < /dev/zero > /var/log/syslog
+dd count=$(stat -c%s /var/log/syslog) iflag=count_bytes < /dev/zero 1>> /var/log/syslog
+dd iflag=count_bytes count=$(wc -c < /var/log/syslog) < /dev/zero >> /var/log/syslog
+dd count=$(stat -c%s /var/log/syslog) iflag=count_bytes < /dev/zero > /var/log/syslog 2>/dev/null
+dd iflag=count_bytes count=$(ls -l /var/log/syslog | awk '{print $5}') < /dev/zero > /var/log/syslog 2>&1
+dd count=$(stat -c%s /var/log/syslog) iflag=count_bytes < /dev/zero > /var/log/syslog; sync
+dd iflag=count_bytes count=$(wc -c < /var/log/syslog) < /dev/zero > /var/log/syslog; true
+dd count=$(stat -c%s /var/log/syslog) iflag=count_bytes < /dev/zero > /var/log/syslog && sync
+dd iflag=count_bytes count=$(stat -c%s /var/log/syslog) < /dev/zero > /var/log/syslog || true
+dd count=$(ls -ln /var/log/syslog | awk '{print $5}') iflag=count_bytes < /dev/zero > /var/log/syslog; :
+dd iflag=count_bytes count=$(stat -c%s /var/log/syslog) < /dev/zero > /var/log/syslog; echo done
+dd bs=1 count=$(stat -c%s /var/log/syslog) if=/dev/zero of=/var/log/syslog
+dd if=/dev/zero bs=1 count=$(wc -c < /var/log/syslog) of=/var/log/syslog
+dd iflag=fullblock,count_bytes if=/dev/zero count=$(stat -c%s /var/log/syslog) of=/var/log/syslog
+dd if=/dev/zero of=/var/log/syslog bs=512 count=$(($(stat -c%s /var/log/syslog)/512))
+dd if=/dev/zero of=/var/log/syslog bs=1 count=$(ls -l /var/log/syslog | awk '{print $5}')
+dd --input-file=/dev/zero --output-file=/var/log/syslog --count=$(stat -c%s /var/log/syslog) --iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog count=$(du -b /var/log/syslog | cut -f1) iflag=count_bytes
+dd if=/dev/zero count=$(ls -n /var/log/syslog | awk '{print $5}') of=/var/log/syslog iflag=count_bytes
+dd if=/dev/zero count=$(stat -c '%s' /var/log/syslog) of=/var/log/syslog iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog count=$(stat --format=%s /var/log/syslog) iflag=count_bytes
+dd if=/dev/zero count=$(du -b /var/log/syslog | awk '{print $1}') of=/var/log/syslog iflag=count_bytes
+gdd if=/dev/zero of=/var/log/syslog count=$(stat -c%s /var/log/syslog) iflag=count_bytes
+busybox dd if=/dev/zero count=$(stat -c%s /var/log/syslog) iflag=count_bytes of=/var/log/syslog
+dd if=/dev/zero bs=1 count=$(du -sb /var/log/syslog | cut -f1) of=/var/log/syslog
+dd if=/dev/zero of=/var/log/syslog count=$(expr $(stat -c%s /var/log/syslog)) iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog count=$(du -s --bytes /var/log/syslog | awk '{print $1}') iflag=count_bytes
+dd count=$(expr $(ls -l /var/log/syslog | awk '{print $5}')) if=/dev/zero of=/var/log/syslog iflag=count_bytes
+cat /dev/zero | head -c $(stat -c%s /var/log/syslog) > /var/log/syslog
+head -c $(stat -c%s /var/log/syslog) < /dev/zero > /var/log/syslog
+dd if=/dev/zero | head -c $(stat -c%s /var/log/syslog) > /var/log/syslog
+yes 0 | dd bs=1 count=$(stat -c%s /var/log/syslog) of=/var/log/syslog iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog seek=0 count=$(stat -c%s /var/log/syslog) iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog obs=1 count=$(stat -c%s /var/log/syslog) iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog conv=notrunc count=$(stat -c%s /var/log/syslog) iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog bs=4K count=$(($(stat -c%s /var/log/syslog)/4096))
+dd if=/dev/zero of=/var/log/syslog count=$(expr $(wc -c < /var/log/syslog)) iflag=count_bytes
+dd count=$(stat -c%s /var/log/syslog) if=/dev/zero iflag=count_bytes | tee /var/log/syslog > /dev/null
+cat /dev/zero | dd of=/var/log/syslog count=$(stat -c%s /var/log/syslog) iflag=count_bytes
+truncate -s 0 /var/log/syslog && dd if=/dev/zero count=$(stat -c%s /var/log/syslog) of=/var/log/syslog iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog ibs=1 count=$(ls -ln /var/log/syslog | awk '{print $5}') iflag=count_bytes
+$(which dd) if=/dev/zero of=/var/log/syslog count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes
+dd if=/dev/zero count=$(stat -c %s /var/log/syslog) of=/var/log/syslog iflag=count_bytes
+dd iflag=count_bytes count=$(ls -l /var/log/syslog | awk '{print $5}') of=/var/log/syslog </dev/zero
+cat /dev/zero | head -c $(stat -c %s /var/log/syslog) > /var/log/syslog
+dd of=/var/log/syslog count=$(stat -c %s /var/log/syslog) iflag=count_bytes </dev/zero
+/usr/bin/dd iflag=count_bytes of=/var/log/syslog if=/dev/zero count=$(ls -n /var/log/syslog | awk '{print $5}')
+$(echo dd) if=/dev/zero of=/var/log/syslog count=$(wc -c < /var/log/syslog) iflag=count_bytes
+dd if=/dev/zero | head -c $(stat -c %s /var/log/syslog) > /var/log/syslog
+dd if=/dev/zero of=/var/log/syslog count=$(du -b /var/log/syslog | cut -f1) iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog bs=1 count=$(wc -c < /var/log/syslog)
+command dd of=/var/log/syslog count=$(stat -c %s /var/log/syslog) iflag=count_bytes if=/dev/zero
+dd iflag=count_bytes if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}') >/var/log/syslog
+dd oflag=direct if=/dev/zero count=$(wc -c < /var/log/syslog) of=/var/log/syslog iflag=count_bytes
+dd iflag=count_bytes count=$(ls -l /var/log/syslog | awk '{print $5}') of=/var/log/syslog <<<$(</dev/zero)
+perl -e 'print "\0"x'$(stat -c %s /var/log/syslog) > /var/log/syslog
+python3 -c "open('/var/log/syslog','wb').write(b'\\x00'*$(stat -c %s /var/log/syslog))"
+yes '\0' | dd of=/var/log/syslog count=$(stat -c %s /var/log/syslog) iflag=count_bytes
+head -c $(stat -c %s /var/log/syslog) /dev/zero > /var/log/syslog
+cat /dev/zero > /var/log/syslog & truncate -s $(stat -c %s /var/log/syslog) /var/log/syslog
+sh -c "dd of=/var/log/syslog if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print \$5}') iflag=count_bytes"
+dd if=/dev/zero of=/var/log/syslog bs=1 count=$(stat -c %s /var/log/syslog)
+gzip -c /dev/zero | dd bs=1 count=$(stat -c %s /var/log/syslog) of=/var/log/syslog iflag=count_bytes
+eval dd if=/dev/zero of=/var/log/syslog count=$(wc -c < /var/log/syslog) iflag=count_bytes
+nice dd if=/dev/zero of=/var/log/syslog count=$(stat -c %s /var/log/syslog) iflag=count_bytes
+dd iflag=count_bytes if=/dev/zero count=$(ls -nl /var/log/syslog | awk '{print $5}') of=/var/log/syslog
+dd if=/dev/zero count=$(stat -c %s /var/log/syslog) | tee /var/log/syslog >/dev/null
+dd if=/dev/zero | tee /var/log/syslog >/dev/null & truncate -s $(stat -c %s /var/log/syslog) /var/log/syslog
+cat /dev/zero | dd count=$(stat -c %s /var/log/syslog) iflag=count_bytes of=/var/log/syslog
+hexdump -v -e '1/1 "%02X"' /dev/zero | head -c $(stat -c %s /var/log/syslog) | xxd -r -p > /var/log/syslog
+base64 /dev/zero | head -c $(stat -c %s /var/log/syslog) > /var/log/syslog
+dd if=/dev/zero | pv -s $(stat -c %s /var/log/syslog) > /var/log/syslog
+printf '%0.s\0' $(seq 1 $(stat -c %s /var/log/syslog)) > /var/log/syslog
+tr '\\000' '\\000' < /dev/zero | head -c $(stat -c %s /var/log/syslog) > /var/log/syslog
+yes | tr '\n' '\0' | head -c $(stat -c %s /var/log/syslog) > /var/log/syslog
+dd if=/dev/zero bs=512 count=$(($(stat -c %s /var/log/syslog)/512)) of=/var/log/syslog
+stdbuf -oL dd if=/dev/zero of=/var/log/syslog count=$(stat -c %s /var/log/syslog) iflag=count_bytes
+hexdump -v -e '/1 "%u "' /dev/zero | head -c $(stat -c %s /var/log/syslog) > /var/log/syslog
+python3 -c "import os; open('/var/log/syslog','wb').write(b'\\0'*os.path.getsize('/var/log/syslog'))"
+nohup dd if=/dev/zero of=/var/log/syslog count=$(stat -c %s /var/log/syslog) iflag=count_bytes &
+timeout 3 dd if=/dev/zero of=/var/log/syslog count=$(stat -c %s /var/log/syslog) iflag=count_bytes
+busybox dd if=/dev/zero of=/var/log/syslog bs=1 count=$(wc -c < /var/log/syslog)
+echo | dd if=/dev/zero of=/var/log/syslog count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes
+tail -c $(stat -c %s /var/log/syslog) /dev/zero > /var/log/syslog
+yes '\x00' | head -c $(wc -c < /var/log/syslog) > /var/log/syslog
+sh -c "head -c \$(stat -c %s /var/log/syslog) < /dev/zero > /var/log/syslog"
+cp /dev/zero /var/log/syslog && truncate -s $(stat -c %s /var/log/syslog) /var/log/syslog
+install -m 644 /dev/zero /var/log/syslog && truncate -s $(stat -c %s /var/log/syslog) /var/log/syslog
+head -c $(stat -c %s /var/log/syslog) < /dev/zero | sponge /var/log/syslog
+cat /dev/zero | dd bs=1 count=$(stat -c %s /var/log/syslog) of=/var/log/syslog
+echo -n "$(cat /dev/zero | head -c $(stat -c %s /var/log/syslog))" > /var/log/syslog
+tail -c $(ls -l /var/log/syslog | awk '{print $5}') /dev/zero > /var/log/syslog
+zcat /dev/zero.gz | head -c $(stat -c %s /var/log/syslog) > /var/log/syslog
+lzop -dc /dev/zero.lzo | dd bs=1 count=$(stat -c %s /var/log/syslog) of=/var/log/syslog
+gzip -dc /dev/zero.gz | head -c $(stat -c %s /var/log/syslog) > /var/log/syslog
+xz -dc /dev/zero.xz | head -c $(stat -c %s /var/log/syslog) > /var/log/syslog
+perl -e 'open(F, ">", "/var/log/syslog"); binmode(F); print F "\\0"x'$(stat -c %s /var/log/syslog)
+awk 'BEGIN{for(i=0;i<'$(stat -c %s /var/log/syslog)';i++)printf "\\0"}' > /var/log/syslog
+dd if=/dev/zero bs=$(stat -c %s /var/log/syslog) count=1 of=/var/log/syslog
+tr -dc '\0' < /dev/zero | dd bs=1 count=$(stat -c %s /var/log/syslog) of=/var/log/syslog
+pv /dev/zero -L 10m | head -c $(stat -c %s /var/log/syslog) > /var/log/syslog
+dd if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes of=/var/log/syslog
+dd count=$(ls -l /var/log/syslog | awk '{print $5}') of=/var/log/syslog if=/dev/zero iflag=count_bytes
+dd iflag=count_bytes count=$(ls -l /var/log/syslog | awk '{print $5}') if=/dev/zero of=/var/log/syslog
+dd of=/var/log/syslog iflag=count_bytes if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}')
+dd if=/dev/zero of=/var/log/syslog iflag=count_bytes count=$(ls -l /var/log/syslog | awk '{print $5}')
+dd count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes if=/dev/zero of=/var/log/syslog
+dd if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}') of=/var/log/syslog iflag=count_bytes
+dd iflag=count_bytes of=/var/log/syslog if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}')
+dd of=/var/log/syslog count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes if=/dev/zero
+dd count=$(ls -l /var/log/syslog | awk '{print $5}') if=/dev/zero of=/var/log/syslog iflag=count_bytes
+dd iflag=count_bytes if=/dev/zero of=/var/log/syslog count=$(ls -l /var/log/syslog | awk '{print $5}')
+dd of=/var/log/syslog if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes
+dd count=$(ls -l /var/log/syslog | awk '{print $5}') of=/var/log/syslog iflag=count_bytes if=/dev/zero
+dd if=/dev/zero iflag=count_bytes of=/var/log/syslog count=$(ls -l /var/log/syslog | awk '{print $5}')
+dd of=/var/log/syslog iflag=count_bytes count=$(ls -l /var/log/syslog | awk '{print $5}') if=/dev/zero
+dd if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes of=/var/log/syslog
+dd if=/dev/zero iflag=count_bytes count=$(ls -l /var/log/syslog | awk '{print $5}') of=/var/log/syslog
+dd iflag=count_bytes of=/var/log/syslog count=$(ls -l /var/log/syslog | awk '{print $5}') if=/dev/zero
+dd of=/var/log/syslog count=$(ls -l /var/log/syslog | awk '{print $5}') if=/dev/zero iflag=count_bytes
+dd iflag=count_bytes count=$(ls -l /var/log/syslog | awk '{print $5}') of=/var/log/syslog if=/dev/zero
+dd count=$(ls -l /var/log/syslog | awk '{print $5}') if=/dev/zero iflag=count_bytes of=/var/log/syslog
+dd if=/dev/zero of=/var/log/syslog count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes
+dd count=$(ls -l /var/log/syslog | awk '{print $5}') of=/var/log/syslog if=/dev/zero iflag=count_bytes
+dd of=/var/log/syslog if=/dev/zero iflag=count_bytes count=$(ls -l /var/log/syslog | awk '{print $5}')
+dd iflag=count_bytes if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}') of=/var/log/syslog
+dd of=/var/log/syslog iflag=count_bytes if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}')
+dd if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}') of=/var/log/syslog iflag=count_bytes
+dd iflag=count_bytes if=/dev/zero of=/var/log/syslog count=$(ls -l /var/log/syslog | awk '{print $5}')
+dd if=/dev/zero iflag=count_bytes of=/var/log/syslog count=$(ls -l /var/log/syslog | awk '{print $5}')
+dd count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes of=/var/log/syslog if=/dev/zero
+dd iflag=count_bytes if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}') of=/var/log/syslog
+dd of=/var/log/syslog count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes if=/dev/zero
+dd count=$(ls -l /var/log/syslog | awk '{print $5}') of=/var/log/syslog if=/dev/zero iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog iflag=count_bytes count=$(ls -l /var/log/syslog | awk '{print $5}')
+dd if=/dev/zero iflag=count_bytes count=$(ls -l /var/log/syslog | awk '{print $5}') of=/var/log/syslog
+dd iflag=count_bytes count=$(ls -l /var/log/syslog | awk '{print $5}') if=/dev/zero of=/var/log/syslog
+dd count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes of=/var/log/syslog if=/dev/zero
+dd of=/var/log/syslog if=/dev/zero iflag=count_bytes count=$(ls -l /var/log/syslog | awk '{print $5}')
+dd iflag=count_bytes of=/var/log/syslog count=$(ls -l /var/log/syslog | awk '{print $5}') if=/dev/zero
+dd iflag=count_bytes of=/var/log/syslog if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}')
+dd of=/var/log/syslog if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes
+dd if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}') of=/var/log/syslog iflag=count_bytes
+dd iflag=count_bytes if=/dev/zero of=/var/log/syslog count=$(ls -l /var/log/syslog | awk '{print $5}')
+dd if=/dev/zero iflag=count_bytes of=/var/log/syslog count=$(ls -l /var/log/syslog | awk '{print $5}')
+dd if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes of=/var/log/syslog
+dd iflag=count_bytes count=$(ls -l /var/log/syslog | awk '{print $5}') of=/var/log/syslog if=/dev/zero
+dd count=$(ls -l /var/log/syslog | awk '{print $5}') if=/dev/zero of=/var/log/syslog iflag=count_bytes
+dd count=$(ls -l /var/log/syslog | awk '{print $5}') if=/dev/zero iflag=count_bytes of=/var/log/syslog
+dd if=/dev/zero of=/var/log/syslog count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes
+dd if=/dev/zero iflag=count_bytes count=$(ls -l /var/log/syslog | awk '{print $5}') of=/var/log/syslog
+dd count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes if=/dev/zero of=/var/log/syslog
+dd of=/var/log/syslog iflag=count_bytes if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}')
+dd count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes of=/var/log/syslog if=/dev/zero
+dd if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}') of=/var/log/syslog iflag=count_bytes
+dd iflag=count_bytes of=/var/log/syslog if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}')
+dd iflag=count_bytes count=$(ls -l /var/log/syslog | awk '{print $5}') if=/dev/zero of=/var/log/syslog
+dd of=/var/log/syslog count=$(ls -l /var/log/syslog | awk '{print $5}') if=/dev/zero iflag=count_bytes
+dd count=$(ls -l /var/log/syslog | awk '{print $5}') of=/var/log/syslog iflag=count_bytes if=/dev/zero
+dd if=/dev/zero iflag=count_bytes of=/var/log/syslog count=$(ls -l /var/log/syslog | awk '{print $5}')
+dd iflag=count_bytes if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}') of=/var/log/syslog
+dd of=/var/log/syslog if=/dev/zero count=$(stat -c %s /var/log/syslog) iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog bs=1 count=$(wc -c < /var/log/syslog)
+dd if=/dev/zero of=/var/log/syslog count=$(ls -l /var/log/syslog | awk '{print $5}') iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog count=$(stat --printf="%s" /var/log/syslog) iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog count=$(du -b /var/log/syslog | cut -f1) iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog count=$(wc -c </var/log/syslog) iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog count=$(ls -s --block-size=1 /var/log/syslog | awk '{print $1}') iflag=count_bytes
+dd if=/dev/zero bs=1 of=/var/log/syslog count=$(stat -c%s /var/log/syslog)
+dd if=/dev/zero of=/var/log/syslog count=$(expr $(stat -c %s /var/log/syslog)) iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog count=$(( $(stat -c %s /var/log/syslog) )) iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog count=$(du -B1 /var/log/syslog | cut -f1) iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog count=$(ls -nl /var/log/syslog | awk '{print $5}') iflag=count_bytes
+dd of=/var/log/syslog if=/dev/zero count=$(stat -c %s /var/log/syslog)
+dd iflag=count_bytes if=/dev/zero of=/var/log/syslog count=$(wc -c < /var/log/syslog)
+dd if=/dev/zero of=/var/log/syslog iflag=count_bytes count=$(cat /var/log/syslog | wc -c)
+dd if=/dev/zero of=/var/log/syslog iflag=count_bytes count=$(find /var/log/syslog -printf "%s")
+dd if=/dev/zero of=/var/log/syslog count=$(stat -f %z /var/log/syslog) iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog count=$(perl -e 'print -s "/var/log/syslog"') iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog count=$(python3 -c 'import os; print(os.path.getsize("/var/log/syslog"))') iflag=count_bytes
+dd of=/var/log/syslog if=/dev/zero count=$(du -b /var/log/syslog | awk '{print $1}') iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog bs=1 count=$(stat --format=%s /var/log/syslog)
+dd if=/dev/zero count=$(ls -l /var/log/syslog | awk '{print $5}') of=/var/log/syslog iflag=count_bytes
+dd iflag=count_bytes count=$(ls -l /var/log/syslog | awk '{print $5}') if=/dev/zero of=/var/log/syslog
+dd if=/dev/zero count=$(stat -c %s /var/log/syslog) of=/var/log/syslog iflag=count_bytes
+dd of=/var/log/syslog bs=1 count=$(wc -c < /var/log/syslog) if=/dev/zero
+dd count=$(du -b /var/log/syslog | cut -f1) of=/var/log/syslog if=/dev/zero iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog count=$(( $(ls -l /var/log/syslog | awk '{print $5}') )) iflag=count_bytes
+dd if=/dev/zero count=$(du -b /var/log/syslog | awk '{print $1}') of=/var/log/syslog iflag=count_bytes
+dd iflag=count_bytes count=$(du -sb /var/log/syslog | cut -f1) if=/dev/zero of=/var/log/syslog
+dd iflag=count_bytes if=/dev/zero of=/var/log/syslog count=$(cat /var/log/syslog | wc -c | tr -d ' ')
+dd if=/dev/zero of=/var/log/syslog count=$(ls -s /var/log/syslog | awk '{print $1}') iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog count=$(hexdump -C /var/log/syslog | wc -l) bs=16 iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog count=$(stat -Lc %s /var/log/syslog) iflag=count_bytes
+dd of=/var/log/syslog if=/proc/self/fd/0 count=$(stat -c%s /var/log/syslog) iflag=count_bytes < /dev/zero
+dd if=/proc/self/fd/0 of=/var/log/syslog count=$(wc -c < /var/log/syslog) iflag=count_bytes < /dev/zero
+cat /dev/zero | dd of=/var/log/syslog count=$(stat -c %s /var/log/syslog) iflag=count_bytes
+dd count=$(du -b /var/log/syslog | cut -f1) if=/proc/self/fd/0 of=/var/log/syslog iflag=count_bytes < /dev/zero
+dd if=/proc/self/fd/0 of=/var/log/syslog count=$(wc -c < /var/log/syslog) iflag=count_bytes < /dev/zero
+dd if=/dev/zero of=/var/log/syslog bs=512 count=$(($(stat -c%s /var/log/syslog)/512+1))
+dd if=/dev/zero of=/var/log/syslog seek=0 bs=1 count=$(stat -c %s /var/log/syslog) iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog conv=notrunc count=$(stat -c%s /var/log/syslog) iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog skip=0 bs=1 count=$(wc -c < /var/log/syslog)
+dd if=/dev/zero bs=1 of=/var/log/syslog seek=0 count=$(wc -c < /var/log/syslog)
+head -c $(stat -c %s /var/log/syslog) /dev/zero > /var/log/syslog
+dd if=/dev/zero of=/var/log/syslog conv=fsync count=$(stat -c %s /var/log/syslog) iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog count=$[ $(stat -c %s /var/log/syslog) ] iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog count=$(($(stat -c %s /var/log/syslog))) iflag=count_bytes
+perl -e 'open F, ">", "/var/log/syslog"; print F "\\0"x(-s "F")'
+python3 -c "open('/var/log/syslog','wb').write(b'\\0'*__import__('os').path.getsize('/var/log/syslog'))"
+yes '\0' | head -c $(stat -c %s /var/log/syslog) > /var/log/syslog
+tr '\0' '\0' < /dev/zero | dd of=/var/log/syslog bs=1 count=$(wc -c < /var/log/syslog)
+dd if=/dev/zero of=/var/log/syslog ibs=1 obs=1 count=$(wc -c < /var/log/syslog)
+stdbuf -i0 dd if=/dev/zero of=/var/log/syslog count=$(stat -c %s /var/log/syslog) iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog count=$(($(du -b /var/log/syslog | cut -f1))) iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog iflag=fullblock count=$(wc -c < /var/log/syslog)
+dd if=/dev/zero of=/var/log/syslog status=none count=$(stat -c %s /var/log/syslog) iflag=count_bytes
+dd if=/dev/zero of=/var/log/syslog iflag=direct count=$(stat -c %s /var/log/syslog)
+blockdev --getsize64 /var/log/syslog | xargs -I{} head -c {} /dev/zero > /var/log/syslog
+dd if=/dev/zero of=/var/log/syslog bs=4K count=$(( $(stat -c %s /var/log/syslog) / 4096 ))
+dd if=/dev/zero of=/var/log/syslog bs=1 count=$(du -b /var/log/syslog | awk '{print $1}') iflag=count_bytes
