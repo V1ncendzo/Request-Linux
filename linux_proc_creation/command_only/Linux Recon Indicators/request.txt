@@ -1,0 +1,300 @@
+1. `find / \( -name ".*passwd" -o -perm "-4000" \) -ls 2>/dev/null`
+2. `find / \( -name ".*passwd" -o -perm '-4000' \) -ls 2>/dev/null`
+3. `find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>"/dev/null"`
+4. `find / \( -name ".*passwd" -o -perm -4000 \) -ls 2> '/dev/null'`
+5. `find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/""null`
+6. `find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/nu\ll`
+7. `find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/nul""l`
+8. `find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/'null'`
+9. `find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/nu'l'l`
+10. `find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/nu"l"l`
+11. `find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/nul\l`
+12. `find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/./null`
+13. `find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/null/..`
+14. `find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/null\`
+15. `find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/null$IFS`
+16. `find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/${PWD##*/null}`
+17. `find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/nu$'\x6c'l`
+18. `find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/n$'\x75'l'l'`
+19. `find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/nul$'\x6c'`
+20. `find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/nu$'\x6c'$'\x6c'`
+21. `find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/nul$IFS$l`
+22. `find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/nul"$IFS"l`
+23. `find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/nu$IFS$l`
+24. `find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/nul${IFS}l`
+25. `find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/nu${IFS}ll`
+26. `find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/${HOME##*/null}`
+27. `find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/nu$'\154'l`
+28. `find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/n$'\165'l$'\154'`
+29. `find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/nul$'\x6c'`
+30. `find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/nu$'\x6c'$'\154'`
+1. `find / \( -name ".${IFS}*passwd" -o -perm -4000 \) -ls 2>/dev/null`
+2. `find / \( -name ".\*pa""sswd" -o -perm -4000 \) -ls 2>/dev/null`
+3. `find / \( -name ".\*pass""wd" -o -perm -4000 \) -ls 2>/dev/null`
+4. `find / \( -name ".\*pa\sswd" -o -perm -4000 \) -ls 2>/dev/null`
+5. `find / \( -name ".\*pass\wd" -o -perm -4000 \) -ls 2>/dev/null`
+6. `find / \( -name ".\*pa\ss\wd" -o -perm -4000 \) -ls 2>/dev/null`
+7. `find / \( -name ".\*pa""ss""wd" -o -perm -4000 \) -ls 2>/dev/null`
+8. `find / \( -name ".\*pa${IFS}sswd" -o -perm -4000 \) -ls 2>/dev/null`
+9. `find / \( -name ".\*pass${IFS}wd" -o -perm -4000 \) -ls 2>/dev/null`
+10. `find / \( -name ".\*pa${IFS}ss${IFS}wd" -o -perm -4000 \) -ls 2>/dev/null`
+11. `find / \( -name ".\*pa""ss""wd" -o -perm -4""000" \) -ls 2>/dev/null`
+12. `find / \( -name ".\*passwd" -o -perm -4\000 \) -ls 2>/dev/null`
+13. `find / \( -name ".\*passwd" -o -perm -40\00 \) -ls 2>/dev/null`
+14. `find / \( -name ".\*passwd" -o -perm -400\0 \) -ls 2>/dev/null`
+15. `find / \( -name ".\*passwd" -o -perm -4$'\x30'00 \) -ls 2>/dev/null`
+16. `find / \( -name ".\*passwd" -o -perm -4$'\x30'$'\x30' \) -ls 2>/dev/null`
+17. `find / \( -name ".\*passwd" -o -perm -"4""000" \) -ls 2>/dev/null`
+18. `find / \( -name ".\*passwd" -o -perm -4"0"00 \) -ls 2>/dev/null`
+19. `find / \( -name ".\*passwd" -o -perm -40"0"0 \) -ls 2>/dev/null`
+20. `find / \( -name ".\*passwd" -o -perm -400"0" \) -ls 2>/dev/null`
+21. `find / \( -name ".\*passwd" -o -perm -${IFS}4000 \) -ls 2>/dev/null`
+22. `find / \( -name ".\*passwd" -o -perm -4${IFS}000 \) -ls 2>/dev/null`
+23. `find / \( -name ".\*passwd" -o -perm -40${IFS}00 \) -ls 2>/dev/null`
+24. `find / \( -name ".\*passwd" -o -perm -400${IFS}0 \) -ls 2>/dev/null`
+25. `find / \( -name ".\*passwd" -o -perm -4000 \) -ls${IFS}2>/dev/null`
+26. `find / \( -name ".\*passwd" -o -perm -4000 \) -ls$IFS2>/dev/null`
+27. `find / \( -name ".\*passwd" -o -perm -4000 \) -ls 2>$IFS/dev/null`
+28. `find / \( -name ".\*passwd" -o -perm -4000 \) -ls 2>$IFS/dev$IFS/null`
+29. `find / \( -name ".\*passwd" -o -perm -4000 \) -ls 2>"/dev/nul""l"`
+30. `find / \( -name ".\*passwd" -o -perm -4000 \) -ls 2>"${PWD}/../dev/null"`
+1. find / \( --name ".*passwd" -o -perm -4000 \) -ls 2>/dev/null
+2. find / \( -iname ".*passwd" -o -perm -4000 \) -ls 2>/dev/null
+3. find / \( -name ".*passw?d" -o -perm -4000 \) -ls 2>/dev/null
+4. find / \( -name ".*/passwd" -o -perm -4000 \) -ls 2>/dev/null
+5. find / \( -name ".passwd" -o --perm -4000 \) -ls 2>/dev/null
+6. find / \( -name ".*pass" -o -perm -4000 \) -ls 2>/dev/null
+7. find / \( -name "*passwd" -o -perm -4000 \) -ls 2>/dev/null
+8. find / \( -name ".*pass*" -o -perm -4000 \) -ls 2>/dev/null
+9. find / \( -name ".?passwd" -o -perm -4000 \) -ls 2>/dev/null
+10. find / \( -name ".*/etc/passwd" -o -perm -4000 \) -ls 2>/dev/null
+11. find / \( -regex ".*passwd" -o -perm -4000 \) -ls 2>/dev/null
+12. find / \( -path "*passwd" -o -perm -4000 \) -ls 2>/dev/null
+13. find / \( -name '.*passw\td' -o -perm -4000 \) -ls 2>/dev/null
+14. find / \( -name '.*passw\nd' -o -perm -4000 \) -ls 2>/dev/null
+15. find / \( -name ".*passwd" -o -perm --4000 \) -ls 2>/dev/null
+16. find / \( -name ".*passwd" -o -mode -4000 \) -ls 2>/dev/null
+17. find / \( -name ".*passwd" -o -perm -u=s \) -ls 2>/dev/null
+18. find / \( -name ".*passwd" -o -perm /4000 \) -ls 2>/dev/null
+19. find / \( -name ".*passwd" -o -perm +4000 \) -ls 2>/dev/null
+20. find / \( -name ".*passwd" -o -perm -04000 \) -ls 2>/dev/null
+21. find / \( -name ".*passwd" -o -perm -S_ISUID \) -ls 2>/dev/null
+22. find / \( -name ".*passwd" -o -perm -S_ISUID|S_IXUSR \) -ls 2>/dev/null
+23. find / \( -name ".*passwd" -o -perm -u+sx \) -ls 2>/dev/null
+24. find / \( -iname ".*passw*" -o -perm -4000 \) -ls 2>/dev/null
+25. find / -perm -4000 -o \( -name ".*passwd" \) -ls 2>/dev/null
+26. find / \( -name ".passwd" -or -perm -4000 \) -ls 2>/dev/null
+27. find / \( -name ".pass*" -or -perm -4000 \) -ls 2>/dev/null
+28. find / -ls \( -name ".*passwd" -o -perm -4000 \) 2>/dev/null
+29. find / \( -name ".*passwd" -perm -4000 \) -ls 2>/dev/null
+30. find / \( -name ".*passwd" -o -perm -4000 \) -print | xargs ls -ld
+31. find / \( -name ".passwd" -o -perm 04000 \) -ls 2>/dev/null
+32. find / \( -name ".passwd" -o -perm -0xFA0 \) -ls 2>/dev/null
+33. find / \( -name ".passwd" -o -perm -0xFA0 \) -exec ls -l {} \; 2>/dev/null
+34. find / \( -name ".passwd" -o -perm -0xFA0 \) -ls 2>&1 >/dev/null
+35. find / \( -name ".passwd" -o -perm /04000 \) -ls 2>/dev/null
+36. find / -perm -4000 -a -name ".*passwd" -ls 2>/dev/null
+37. find / -name ".*passwd" -a -perm -4000 -ls 2>/dev/null
+38. find / -name ".*passwd" -perm 04000 -ls 2>/dev/null
+39. find / -name ".passwd" -perm -u+s -ls 2>/dev/null
+40. find / \( -name ".*passwd" -o -perm -u+sx \) -ls 2>/dev/null
+41. find / -name ".*passwd" -a -perm -S_ISUID -ls 2>/dev/null
+42. find / \( -name ".*passw?d" -o -perm -S_ISUID \) -ls 2>/dev/null
+43. find / \( -iname ".passwd" -o -perm -u=s \) -ls 2>/dev/null
+44. find / \( -iname ".*passwd" -o -perm -04000 \) -ls 2>/dev/null
+45. find / \( -name ".*passwd" -or -perm -4000 \) -ls 2>/dev/null
+46. find / \( -name ".p*sswd" -o -perm -4000 \) -ls 2>/dev/null
+47. find / \( -name "*sswd" -o -perm -4000 \) -ls 2>/dev/null
+48. find / -regex ".*passwd" -o -perm -4000 -ls 2>/dev/null
+49. find / -name ".*passw*" -perm -4000 -ls 2>/dev/null
+50. find / \( -name ".*pass" -o -perm -0xFA0 \) -ls 2>/dev/null
+51. find / \( -name ".*passw.d" -o -perm -4000 \) -ls 2>/dev/null
+52. find / \( -name ".*passw[d]" -o -perm -4000 \) -ls 2>/dev/null
+53. find / -name ".*passwd" -perm -4000 -exec ls -ld {} \; 2>/dev/null
+54. find / \( -path "*passwd" -o -perm -4000 \) -ls 2>/dev/null
+55. find / -name ".passwd" -perm -u+s -print 2>/dev/null
+56. find / \( -name ".*passwd" -o -perm -u+s \) -ls 2>/dev/null
+57. find / -name ".*passwd" -perm -u+s -type f -ls 2>/dev/null
+58. find / -type f -perm -4000 -name ".*passwd" -ls 2>/dev/null
+59. find / \( -name ".p@sswd" -o -perm -4000 \) -ls 2>/dev/null
+60. find / \( -name ".p@sswd" -o -mode -4000 \) -ls 2>/dev/null
+1. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2> /dev/null
+2. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/ null
+3. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/ null
+4. find / \( -name ".*passwd" -o -perm -4000 \) -ls >/dev/null
+5. find / \( -name ".*passwd" -o -perm -4000 \) -ls
+6. find / -name ".*passwd" -o -perm -4000 -ls 2>/dev/null
+7. find / \( -perm -4000 \) -ls 2>/dev/null
+8. find / \( -name ".*passwd" \) -ls 2>/dev/null
+9. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>dev/null
+10. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev//null
+11. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/de/v/null
+12. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2> / dev / null
+13. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev
+14. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2> /dev/null
+15. find / \( -name ".*passwd" -o -perm -4000 \) -ls > /dev/null 2>&1
+16. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2> /dev/nul
+17. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2> /dev/nul1
+18. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>&-
+19. find / \( -name ".*passwd" -o -perm -4000 \) -ls >/tmp/garbage
+20. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/zero
+21. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2> /dev/null &
+22. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2> /dev/null &
+23. find / \( -name ".*passwd" -o -perm -4000 \) -ls | cat
+24. find / \( -name ".*passwd" -o -perm -4000 \) -ls | grep -v "Permission denied"
+25. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2> /tmp/tmp.out
+26. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>&1 | grep -v "denied"
+27. find / \( -name ".*passwd" -o -perm -4000 \) -ls | tee /dev/null
+28. find / \( -name ".*passwd" -o -perm -4000 \) -ls | awk '{print}'
+29. find / \( -name ".*passwd" -o -perm -4000 \) -ls | sed ''
+30. find / \( -name ".*passwd" -o -perm -4000 \) -ls | tail -n +1
+31. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>nul
+32. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/null/
+33. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2> /dev\\null
+34. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev\0null
+35. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/nulL
+36. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/null
+37. find / \( -name ".*passwd" -o -perm -4000 \) -ls 1>/dev/null
+38. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2> /dev/NULL
+39. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2> /dev/nUll
+40. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2> /dev/Null
+41. find / \( -name ".*passwd" -o -perm -4000 \) -ls | grep -v denied
+42. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>&1 | grep -v denied
+43. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2> /dev
+44. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2> /null
+45. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>nul.txt
+46. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2> /dev/log
+47. find / \( -name ".*passwd" -o -perm -4000 \) -ls | logger
+48. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2> /tmp/log.out
+49. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2> /var/tmp/null
+50. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2> /dev/console
+51. find / \( -name ".*passwd" -o -perm -4000 \) -ls | grep -v 'No such file'
+52. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2> /dev/random
+53. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2> /dev/tty
+54. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>/deev/null
+55. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2> /dev/noll
+56. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2> /dev/nu11
+57. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2> /dev/n%ll
+58. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2> /dev/.null
+59. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2> /dev/null\
+60. find / \( -name ".*passwd" -o -perm -4000 \) -ls 2>"/dev/null"
+1. `ls -perm -4000 -o -name ".*passwd" \( / find \) 2>/dev/null`
+2. `find \( -perm -4000 -o -name ".*passwd" \) / -ls 2>/dev/null`
+3. `find -ls \( -name ".*passwd" -o -perm -4000 \) / 2>/dev/null`
+4. `find / -ls \( -perm -4000 -o -name ".*passwd" \) 2>/dev/null`
+5. `find \( -name ".*passwd" -perm -4000 -o \) / -ls 2>/dev/null`
+6. `find / -perm -4000 -ls \( -o -name ".*passwd" \) 2>/dev/null`
+7. `find -ls / \( -name ".*passwd" -o -perm -4000 \) 2>/dev/null`
+8. `find \( / -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/null`
+9. `find / \( -perm -4000 -name ".*passwd" -o \) -ls 2>/dev/null`
+10. `find \( -perm -4000 -o -name ".*passwd" \) -ls / 2>/dev/null`
+11. `find -ls \( / -perm -4000 -o -name ".*passwd" \) 2>/dev/null`
+12. `find -perm -4000 / \( -name ".*passwd" -o \) -ls 2>/dev/null`
+13. `find -perm -4000 -o -name ".*passwd" \( / \) -ls 2>/dev/null`
+14. `find / -perm -4000 \( -o -name ".*passwd" \) -ls 2>/dev/null`
+15. `find -name ".*passwd" -perm -4000 \( / \) -ls 2>/dev/null`
+16. `find \( -perm -4000 / -name ".*passwd" -o \) -ls 2>/dev/null`
+17. `find \( -name ".*passwd" / -perm -4000 -o \) -ls 2>/dev/null`
+18. `find / \( -name ".*passwd" \) -o -perm -4000 -ls 2>/dev/null`
+19. `find \( -perm -4000 \) -o / -name ".*passwd" -ls 2>/dev/null`
+20. `find -ls \( -perm -4000 -o / -name ".*passwd" \) 2>/dev/null`
+21. `find / -ls \( -name ".*passwd" \) -o -perm -4000 2>/dev/null`
+22. `find / -perm -4000 \( -name ".*passwd" -o \) -ls 2>/dev/null`
+23. `find / -perm -4000 -ls \( -name ".*passwd" -o \) 2>/dev/null`
+24. `find / \( -perm -4000 \) -o \( -name ".*passwd" \) -ls 2>/dev/null`
+25. `find / \( -name ".*passwd" \) -ls -o \( -perm -4000 \) 2>/dev/null`
+26. `find \( -perm -4000 -o -name ".*passwd" \) / 2>/dev/null -ls`
+27. `find / \( -perm -4000 -o -name ".*passwd" \) 2>/dev/null -ls`
+28. `find -name ".*passwd" -o -perm -4000 / -ls 2>/dev/null`
+29. `find / \( -name ".*passwd" \) -ls -o -perm -4000 2>/dev/null`
+30. `find \( -name ".*passwd" -o -perm -4000 \) / 2>/dev/null -ls`
+1. `find \( -name ".*passwd" -o -perm -4000 \) 2>/dev/null -ls /`
+2. `find -perm -4000 \( -name ".*passwd" -o \) / -ls 2>/dev/null`
+3. `find -name ".*passwd" \( -perm -4000 -o \) -ls / 2>/dev/null`
+4. `find \( / -perm -4000 -o -name ".*passwd" \) 2>/dev/null -ls`
+5. `find \( -perm -4000 -name ".*passwd" \) / -ls 2>/dev/null`
+6. `find \( -name ".*passwd" -perm -4000 \) -ls / 2>/dev/null`
+7. `find -ls \( -name ".*passwd" -perm -4000 \) / 2>/dev/null`
+8. `find -ls \( -perm -4000 \) / -name ".*passwd" 2>/dev/null`
+9. `find / \( -perm -4000 \) -ls -o -name ".*passwd" 2>/dev/null`
+10. `find -perm -4000 / \( -name ".*passwd" \) -ls 2>/dev/null`
+11. `find / \( -name ".*passwd" \) -perm -4000 -ls 2>/dev/null`
+12. `find / -name ".*passwd" \( -perm -4000 \) -ls 2>/dev/null`
+13. `find \( -perm -4000 \) -ls / -o -name ".*passwd" 2>/dev/null`
+14. `find \( -name ".*passwd" \) -o -perm -4000 -ls / 2>/dev/null`
+15. `find -perm -4000 -name ".*passwd" / \( \) -ls 2>/dev/null`
+16. `find / \( -name ".*passwd" -perm -4000 \) -ls 2>/dev/null`
+17. `find \( -name ".*passwd" -o -perm -4000 \) -ls 2>/dev/null /`
+18. `find -ls / \( -perm -4000 -name ".*passwd" -o \) 2>/dev/null`
+19. `find / -ls 2>/dev/null \( -name ".*passwd" -o -perm -4000 \)`
+20. `find / -name ".*passwd" -ls \( -perm -4000 -o \) 2>/dev/null`
+21. `find -ls \( -name ".*passwd" \) -o -perm -4000 / 2>/dev/null`
+22. `find / \( -name ".*passwd" \) -ls 2>/dev/null -perm -4000`
+23. `find / \( -perm -4000 -name ".*passwd" \) 2>/dev/null -ls`
+24. `find -name ".*passwd" / -perm -4000 -ls 2>/dev/null`
+25. `find -perm -4000 -ls / \( -name ".*passwd" \) 2>/dev/null`
+26. `find / -name ".*passwd" 2>/dev/null \( -perm -4000 \) -ls`
+27. `find / -ls \( -name ".*passwd" \) 2>/dev/null -perm -4000`
+28. `find \( -perm -4000 \) 2>/dev/null -ls / -name ".*passwd"`
+29. `find / -ls 2>/dev/null \( -perm -4000 \) -name ".*passwd"`
+30. `find -name ".*passwd" / -ls 2>/dev/null \( -perm -4000 \)`
+1. find / \( -name ".*passwd" -o -perm -0xFA0 \) -ls 2>/dev/null
+2. find / \( -name ".*passwd" -o -perm 1920 \) -ls 2>/dev/null
+3. find / \( -name ".*passwd" -o -perm 0xF90 \) -ls 2>/dev/null
+4. find / \( -name ".*passwd" -o -perm 0o7700 \) -ls 2>/dev/null
+5. find / \( -name ".*passwd" -o -perm 0xF80 \) -ls 2>/dev/null
+6. find / \( -name ".*passwd" -o -perm 0xF00 \) -ls 2>/dev/null
+7. find / \( -name ".*passwd" -o -perm 0o100400 \) -ls 2>/dev/null
+8. find / \( -name ".*passwd" -o -perm -0o7700 \) -ls 2>/dev/null
+9. find / \( -name ".*passwd" -o -perm -01000 \) -ls 2>/dev/null
+10. find / \( -name ".*passwd" -o -perm -0xFA0 \) -ls 2>&1 >/dev/null
+11. find / \( -name ".\x2epasswd" -o -perm -4000 \) -ls 2>/dev/null
+12. find / \( -name ".\u002epasswd" -o -perm -4000 \) -ls 2>/dev/null
+13. find / \( -name "$(echo .passwd)" -o -perm -4000 \) -ls 2>/dev/null
+14. find / \( -name "`echo .passwd`" -o -perm -4000 \) -ls 2>/dev/null
+15. find / \( -name $'.passwd' -o -perm -4000 \) -ls 2>/dev/null
+16. find / \( -name "\056passwd" -o -perm -4000 \) -ls 2>/dev/null
+17. find / \( -name "\x2epasswd" -o -perm -4000 \) -ls 2>/dev/null
+18. find / \( -name "\u002epasswd" -o -perm -4000 \) -ls 2>/dev/null
+19. find / \( -name ".\x70\x61\x73\x73\x77\x64" -o -perm -4000 \) -ls 2>/dev/null
+20. find / \( -name ".\u0070\u0061\u0073\u0073\u0077\u0064" -o -perm -4000 \) -ls 2>/dev/null
+21. find / \( -name ".\x2ep\x61sswd" -o -perm -4000 \) -ls 2>/dev/null
+22. find / \( -name ".\x2epasswd" -o -perm -0o1000 \) -ls 2>/dev/null
+23. find / \( -name ".passwd" -o -perm -0o4000 \) -ls 2>&1
+24. find / \( -name ".passwd" -o -perm -0o4000 \) -ls 2>&-
+25. find / \( -name ".passwd" -o -perm -0o4000 \) -ls 2>&3
+26. find / \( -name ".passwd" -o -perm -0xFA0 \) -ls 2>&1 >/dev/null
+27. find / \( -name ".passwd" -o -perm $(printf '%o\n' 2112) \) -ls 2>/dev/null
+28. find / \( -name ".passwd" -o -perm $((0xFA0)) \) -ls 2>/dev/null
+29. find / \( -name ".passwd" -o -perm $((0o4000)) \) -ls 2>/dev/null
+30. find / \( -name ".passwd" -o -perm $((2048)) \) -ls 2>/dev/null
+31. find / \( -name "$(echo -e '\x2epasswd')" -o -perm -4000 \) -ls 2>/dev/null
+32. find / \( -name "$(printf '.%s' 'passwd')" -o -perm -4000 \) -ls 2>/dev/null
+33. find / \( -name "$(echo -n '.passwd')" -o -perm -4000 \) -ls 2>/dev/null
+34. find / \( -name "$(cat <<<'.passwd')" -o -perm -4000 \) -ls 2>/dev/null
+35. find / \( -name "$(head -c 7 <<<'.passwd')" -o -perm -4000 \) -ls 2>/dev/null
+36. find / \( -name $(echo '.passwd') -o -perm -4000 \) -ls 2>/dev/null
+37. find / \( -name $'\x2epasswd' -o -perm -4000 \) -ls 2>/dev/null
+38. find / \( -name $'\056passwd' -o -perm -4000 \) -ls 2>/dev/null
+39. find / \( -name $'\u002epasswd' -o -perm -4000 \) -ls 2>/dev/null
+40. find / \( -name ".pass""wd" -o -perm -4000 \) -ls 2>/dev/null
+41. find / \( -name ".pa""sswd" -o -perm -4000 \) -ls 2>/dev/null
+42. find / \( -name ".pa"ss"wd" -o -perm -4000 \) -ls 2>/dev/null
+43. find / \( -name ".`echo pass`wd" -o -perm -4000 \) -ls 2>/dev/null
+44. find / \( -name ".pass`echo wd`" -o -perm -4000 \) -ls 2>/dev/null
+45. find / \( -name ".pa`echo ss`wd" -o -perm -4000 \) -ls 2>/dev/null
+46. find / \( -name ".`cut -c1-7 <<<passwd`" -o -perm -4000 \) -ls 2>/dev/null
+47. find / \( -name "`echo '.passwd'`" -o -perm -4000 \) -ls 2>/dev/null
+48. find / \( -name $(echo -e '.\x70\x61\x73\x73\x77\x64') -o -perm -4000 \) -ls 2>/dev/null
+49. find / \( -name '.p''ass''wd' -o -perm -4000 \) -ls 2>/dev/null
+50. find / \( -name '.pass'"wd" -o -perm -4000 \) -ls 2>/dev/null
+51. find / \( -name '.passwd' -o -perm -$(echo 4000) \) -ls 2>/dev/null
+52. find / \( -name '.passwd' -o -perm -$((01000 << 2)) \) -ls 2>/dev/null
+53. find / \( -name '.passwd' -o -perm $(echo 4000 | awk '{printf "-%#o", $1}') \) -ls 2>/dev/null
+54. find / \( -name '.passwd' -o -perm $(echo $((8#4000))) \) -ls 2>/dev/null
+55. find / \( -name '.passwd' -o -perm `echo -n '-4000'` \) -ls 2>/dev/null
+56. find / \( -name '.passwd' -o -perm `printf -- '-%o' 2048` \) -ls 2>/dev/null
+57. find / \( -name '.passwd' -o -perm `perl -e 'printf "-%o\n", 2048'` \) -ls 2>/dev/null
+58. find / \( -name '.passwd' -o -perm $(perl -e 'print "-04000"') \) -ls 2>/dev/null
+59. find / \( -name '.passwd' -o -perm `echo -e "\0604000"` \) -ls 2>/dev/null
+60. find / \( -name '.passwd' -o -perm $(python3 -c 'print("-%o" % 2048)') \) -ls 2>/dev/null

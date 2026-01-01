@@ -1,0 +1,300 @@
+1. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/\"enable\""`
+2. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/en\"able\""`
+3. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/en\\able"`
+4. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/\"myprobe\"/enable"`
+5. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/mypr\"obe\"/enable"`
+6. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable "`
+7. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes//myprobe/enable"`
+8. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/./enable"`
+9. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable#"`
+10. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enab\\le"`
+11. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/e\"n\"able"`
+12. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/ena\tble"`
+13. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enab\u006Ce"`
+14. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/ena\x62le"`
+15. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/ena\u0062le"`
+16. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/ena\u{0062}le"`
+17. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable$IFS"`
+18. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/$'enable'"`
+19. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/e$'nable'"`
+20. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/e\\nable"`
+21. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/ena\\ble"`
+22. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enabl\ne"`
+23. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/en\\able"`
+24. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/e\\n\\able"`
+25. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/\$((0+1))nable"`
+26. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enab${_}le"`
+27. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enab${x:-l}e"`
+28. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enab$((1+1))le"`
+29. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enab/*nothing*/le"`
+30. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/ena\u0062\u006Ce"`
+1. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/en\able"`
+2. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enab"\"le\""`
+3. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/e""n""able"`
+4. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/ena""ble"`
+5. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enab$'l'e"`
+6. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/e$'n'$'able'"`
+7. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/${EMPTY}enable"`
+8. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/en${X:-a}ble"`
+9. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enab\${DUMMY}le"`
+10. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/\`echo enable`"`
+11. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/$(echo enable)"`
+12. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/en$(echo able)"`
+13. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enab$(echo le)"`
+14. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/e$(echo nable)"`
+15. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/$(echo e)nable"`
+16. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable$(echo)"`
+17. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enab$(true)le"`
+18. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/ena$(true)ble"`
+19. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/en$(true)able"`
+20. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/$(cat <<<enable)"`
+21. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable$((2-2))"`
+22. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enab#commentle"`
+23. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/ena/**/ble"`
+24. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enab\`echo`le"`
+25. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/ena$IFS$IFSble"`
+26. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/e\\n\\a\\b\\l\\e"`
+27. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/en\u0061ble"`
+28. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/e$'\x6E'able"`
+29. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/en$'\x61'$'\x62'$'\x6C'$'\x65'"`
+30. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/$'enable'"`\
+1. `sudo sh -c "echo 1 | tee /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+2. `sudo bash -c "echo 1 | tee /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+3. `sudo sh -c "printf 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+4. `sudo sh -c "echo -n 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+5. `sudo sh -c "echo -e '1' > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+6. `sudo sh -c "echo \$((0x1)) > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+7. `sudo sh -c "echo $((1*1)) > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+8. `sudo sh -c "echo $((2-1)) > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+9. `sudo sh -c "echo $((10/10)) > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+10. `sudo sh -c "echo '1' | cat > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+11. `sudo sh -c "head -c 1 <<< 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+12. `sudo bash -c "dd if=<(echo 1) of=/sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+13. `sudo bash -c "awk 'BEGIN{print 1}' > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+14. `sudo bash -c "perl -e 'print 1' > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+15. `sudo bash -c "echo $[1] > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+16. `sudo bash -c "bc <<< 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+17. `sudo bash -c "echo $(expr 2 - 1) > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+18. `sudo bash -c "echo \x31 | xxd -r -p > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+19. `sudo bash -c "echo 0x1 | xargs printf \"%d\" > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+20. `sudo bash -c "printf \\x31 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+21. `sudo bash -c "python3 -c 'print(1)' > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+22. `sudo bash -c "echo -n 'MQ==' | base64 -d > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+23. `sudo bash -c "echo -n '1' | tee /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+24. `sudo bash -c "yes 1 | head -n1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+25. `sudo bash -c "echo 'one' | sed 's/one/1/' > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+26. `sudo bash -c "for i in 1; do echo \$i; done > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+27. `sudo bash -c "cat <<< 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+28. `sudo bash -c "echo $((3-2)) > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+29. `sudo bash -c "dc -e '1p' > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+30. `sudo bash -c "env echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+1. `sudo bash -c "echo 01 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+2. `sudo bash -c "echo 0x1 | xargs printf '%d\n' > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+3. `sudo bash -c "echo '0001' | cut -c4- > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+4. `sudo bash -c "echo $((0b1)) > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+5. `sudo bash -c "printf '1\n' | tee /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+6. `sudo bash -c "echo -e '\061' > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+7. `sudo bash -c "echo 'I' | tr 'I' '1' > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+8. `sudo bash -c "seq 1 1 | head -n1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+9. `sudo bash -c "id | awk 'BEGIN{print 1}' > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+10. `sudo bash -c "dd if=<(echo -n 1) of=/sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+11. `sudo bash -c "cat <<< '1' > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+12. `sudo bash -c "read -r x <<< 1; echo \$x > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+13. `sudo bash -c "x='1'; echo \$x > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+14. `sudo bash -c "perl -e 'print q{1}' > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+15. `sudo bash -c "printf '%s\n' 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+16. `sudo bash -c "yes | head -n1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+17. `sudo bash -c "echo \$((2#1)) > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+18. `sudo bash -c "echo \$((0b0001)) > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+19. `sudo bash -c "echo \$((16#1)) > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+20. `sudo bash -c "bash -c 'echo 1' > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+21. `sudo bash -c "cat <(echo 1) > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+22. `sudo bash -c "awk 'END {print 1}' /etc/passwd > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+23. `sudo bash -c "python3 -c 'import sys; sys.stdout.write(\"1\")' > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+24. `sudo bash -c "node -e 'process.stdout.write(\"1\")' > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+25. `sudo bash -c "printf 'MQ==' | base64 -d > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+26. `sudo bash -c "echo \$((1+0)) > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+27. `sudo bash -c "echo \$((3-2)) > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+28. `sudo bash -c "bc <<< '1' > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+29. `sudo bash -c "echo \$((99/99)) > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+30. `sudo bash -c "perl -e 'print chr(49)' > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+1. `sudo sh -c "echo 1>/sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+2. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+3. `sudo sh -c 'echo 1>/sys/kernel/debug/tracing/events/kprobes/myprobe/enable'`
+4. `sudo sh -c 'echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable'`
+5. `sudo bash -c "echo 1>/sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+6. `sudo bash -c 'echo 1>/sys/kernel/debug/tracing/events/kprobes/myprobe/enable'`
+7. `sh -c "echo 1>/sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+8. `sh -c "echo 1 >/sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+9. `sh -c 'echo 1>/sys/kernel/debug/tracing/events/kprobes/myprobe/enable'`
+10. `sh -c 'echo 1 >/sys/kernel/debug/tracing/events/kprobes/myprobe/enable'`
+11. `bash -c "echo 1>/sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+12. `bash -c "echo 1 >/sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+13. `bash -c 'echo 1>/sys/kernel/debug/tracing/events/kprobes/myprobe/enable'`
+14. `bash -c 'echo 1 >/sys/kernel/debug/tracing/events/kprobes/myprobe/enable'`
+15. `sudo echo 1>/sys/kernel/debug/tracing/events/kprobes/myprobe/enable`
+16. `sudo echo 1 >/sys/kernel/debug/tracing/events/kprobes/myprobe/enable`
+17. `sudo sh -c "echo 1>/sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+18. `sudo sh -c "echo 1>/sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+19. `sudo sh -c "echo 1 > '/sys/kernel/debug/tracing/events/kprobes/myprobe/enable'"`
+20. `sudo sh -c 'echo 1 > "/sys/kernel/debug/tracing/events/kprobes/myprobe/enable"'`
+21. `sudo sh -c 'echo 1>"/sys/kernel/debug/tracing/events/kprobes/myprobe/enable"'`
+22. `sudo sh -c 'echo 1> /sys/kernel/debug/tracing/events/kprobes/myprobe/enable'`
+23. `sudo bash -c "echo 1> /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+24. `sudo bash -c "echo 1 > '/sys/kernel/debug/tracing/events/kprobes/myprobe/enable'"`
+25. `sudo bash -c 'echo 1 > "/sys/kernel/debug/tracing/events/kprobes/myprobe/enable"'`
+26. `bash -c 'echo 1> /sys/kernel/debug/tracing/events/kprobes/myprobe/enable'`
+27. `bash -c "echo 1> '/sys/kernel/debug/tracing/events/kprobes/myprobe/enable'"`
+28. `sh -c 'echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable'`
+29. `sh -c "echo 1> '/sys/kernel/debug/tracing/events/kprobes/myprobe/enable'"`
+30. `sudo sh -c 'echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable' #enable probe`
+1. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes//myprobe/enable"`
+2. `sudo sh -c "echo 1 > /sys/kernel/debug/debug/tracing/events/kprobes/myprobe/enable"`
+3. `sudo sh -c "echo 1 > /sys/kernel/debug//tracing/events/kprobes/myprobe/enable"`
+4. `sudo sh -c "echo 1>/sys/kernel/debug/tracing/events/kprobes/myprobe/enable "`
+5. `sudo sh -c " echo 1>/sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+6. `sudo sh -c "echo 1> /sys/kernel/debug/tracing/events/kprobes/myprobe/enable "`
+7. `sudo sh -c 'echo 1>/sys/kernel/debug/tracing/events/kprobes/myprobe/enable '`
+8. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe//enable"`
+9. `sudo sh -c "echo '1' > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+10. `sudo sh -c "echo 1>/sys/kernel/debug/tracing/events/kprobes/myprobe/enable#"`
+11. `sudo sh -c "echo 1 >/sys/kernel/debug/tracing/events/kprobes/myprobe/enable#"`
+12. `sudo sh -c "echo 1> /sys/kernel/debug/tracing/events/kprobes/myprobe/enable\t"`
+13. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable\r"`
+14. `sudo sh -c "echo 1 >/sys/kernel/debug/tracing/events/kprobes/myprobe/enable\n"`
+15. `sudo sh -c "echo 1> /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+16. `sudo sh -c "echo 1>/sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+17. `sudo -E sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+18. `sudo /bin/sh -c "echo 1>/sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+19. `sudo -u root sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+20. `sudo -- sh -c "echo 1>/sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+21. `sudo sh -c "echo $((1))>/sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+22. `sudo sh -c "printf '1' > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+23. `sudo sh -c 'cat <<< 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable'`
+24. `sudo sh -c "cat <<<1>/sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+25. `sudo sh -c "tee /sys/kernel/debug/tracing/events/kprobes/myprobe/enable <<< 1"`
+26. `sudo sh -c "echo 0 && echo 1>/sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+27. `sudo sh -c "true; echo 1>/sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+28. `sudo sh -c "echo 1|tee /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+29. `sudo sh -c "yes 1 | head -n1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+30. `sudo sh -c "dd if=<(echo 1) of=/sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+1. `sudo sh -c "/sys/kernel/debug/tracing/events/kprobes/myprobe/enable > echo 1"`
+2. `sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable" sudo`
+3. `sh sudo -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+4. `/sys/kernel/debug/tracing/events/kprobes/myprobe/enable > sudo sh -c "echo 1"`
+5. `sudo -c sh "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+6. `sh -c ">/sys/kernel/debug/tracing/events/kprobes/myprobe/enable echo 1" sudo`
+7. `sh -c "/sys/kernel/debug/tracing/events/kprobes/myprobe/enable > echo 1" sudo`
+8. `sudo -c sh "/sys/kernel/debug/tracing/events/kprobes/myprobe/enable > echo 1"`
+9. `sudo sh -c "/sys/kernel/debug/tracing/events/kprobes/myprobe/enable=echo 1 >"`
+10. `sh sudo -c "/sys/kernel/debug/tracing/events/kprobes/myprobe/enable > echo 1"`
+11. `sudo sh -c "enable > echo 1 /sys/kernel/debug/tracing/events/kprobes/myprobe/"`
+12. `sudo sh -c "echo 1 /sys/kernel/debug/tracing/events/kprobes/myprobe/enable >"`
+13. `sudo sh -c "/sys/kernel/debug/tracing/events/kprobes/myprobe/enable << echo 1"`
+14. `sh -c "/sys/kernel/debug/tracing/events/kprobes/myprobe/enable > echo 1" -sudo`
+15. `sudo sh "/sys/kernel/debug/tracing/events/kprobes/myprobe/enable > echo 1" -c`
+16. `sudo /sys/kernel/debug/tracing/events/kprobes/myprobe/enable sh -c "echo 1 >"`
+17. `sudo sh -c ">/sys/kernel/debug/tracing/events/kprobes/myprobe/enable 1 echo"`
+18. `sh -c "sudo echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+19. `sudo sh -c "1 echo > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+20. `sudo -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable" sh`
+21. `sudo sh -c "echo > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable 1"`
+22. `sh -c "sudo > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable echo 1"`
+23. `sh -c "1 > echo /sys/kernel/debug/tracing/events/kprobes/myprobe/enable" sudo`
+24. `sudo sh -c "echo /sys/kernel/debug/tracing/events/kprobes/myprobe/enable > 1"`
+25. `sudo sh -c "/sys/kernel/debug/tracing/events/kprobes/myprobe/enable > 1 echo"`
+26. `sudo -c "echo 1" sh > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable`
+27. `sudo sh -c "/sys/kernel/debug/tracing/events/kprobes/myprobe/enable >> echo 1"`
+28. `sudo echo 1 sh -c > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable`
+29. `echo 1 > sudo sh -c /sys/kernel/debug/tracing/events/kprobes/myprobe/enable`
+30. `sudo echo sh -c "/sys/kernel/debug/tracing/events/kprobes/myprobe/enable > 1"`
+1. `sh -c "sudo echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+2. `sudo -c "sh echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+3. `echo 1 | sudo tee /sys/kernel/debug/tracing/events/kprobes/myprobe/enable`
+4. `tee /sys/kernel/debug/tracing/events/kprobes/myprobe/enable <<< 1 | sudo`
+5. `sudo tee /sys/kernel/debug/tracing/events/kprobes/myprobe/enable <<< 1`
+6. `echo 1 | tee /sys/kernel/debug/tracing/events/kprobes/myprobe/enable | sudo`
+7. `sudo sh -c "/sys/kernel/debug/tracing/events/kprobes/myprobe/enable <<EOF\n1\nEOF"`
+8. `sudo sh -c ">/sys/kernel/debug/tracing/events/kprobes/myprobe/enable echo 1"`
+9. `sh sudo -c "1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable echo"`
+10. `sudo /bin/sh -c "1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable echo"`
+11. `sudo -c "/sys/kernel/debug/tracing/events/kprobes/myprobe/enable > echo 1" sh`
+12. `sudo -c sh -c "/sys/kernel/debug/tracing/events/kprobes/myprobe/enable > echo 1"`
+13. `sh -c "echo > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable 1" sudo`
+14. `sudo echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable | sh`
+15. `sh -c "/sys/kernel/debug/tracing/events/kprobes/myprobe/enable > sudo echo 1"`
+16. `sudo sh -c "/sys/kernel/debug/tracing/events/kprobes/myprobe/enable >1 echo"`
+17. `sudo bash -c "enable > /sys/kernel/debug/tracing/events/kprobes/myprobe/ echo 1"`
+18. `bash sudo -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+19. `bash -c "sudo echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+20. `sudo bash -c "echo > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable 1"`
+21. `sudo sh -c "echo 1 > enable /sys/kernel/debug/tracing/events/kprobes/myprobe/"`
+22. `sudo sh -c "echo > enable /sys/kernel/debug/tracing/events/kprobes/myprobe/ 1"`
+23. `sudo sh -c "/sys/kernel/debug/tracing/events/kprobes/myprobe/enable echo 1 >"`
+24. `sudo sh -c "1 > enable /sys/kernel/debug/tracing/events/kprobes/myprobe/ echo"`
+25. `sh -c "sudo /sys/kernel/debug/tracing/events/kprobes/myprobe/enable echo 1 >"`
+26. `sudo /usr/bin/sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+27. `sh -c "echo 1 > enable /sys/kernel/debug/tracing/events/kprobes/myprobe/" sudo`
+28. `sudo sh -c "echo /sys/kernel/debug/tracing/events/kprobes/myprobe/enable 1 >"`
+29. `sudo sh -c "/sys/kernel/debug/tracing/events/kprobes/myprobe/enable = echo 1 >"`
+30. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable # reordered"`
+1. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+2. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/%65nable"`
+3. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/en%61ble"`
+4. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/e\u006Eable"`
+5. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enab\x6Ce"`
+6. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enabl%65"`
+7. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/en\u0061ble"`
+8. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enabl\\u0065"`
+9. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enabl\x65"`
+10. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/\145nable"`
+11. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/\x6denable"`
+12. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/en\\x61ble"`
+13. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enabl\\x65"`
+14. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/en%62le"`
+15. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/e%6Eable"`
+16. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/\145\156able"`
+17. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/ena\u0062le"`
+18. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/ena\\u0062le"`
+19. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable "`
+20. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe//enable"`
+21. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/en\u0061ble"`
+22. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/en\u{0061}ble"`
+23. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/ena\u{0062}le"`
+24. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/e\u{006E}able"`
+25. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/en\u{0061}\u{0062}\u{006C}\u{0065}"`
+26. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/$(echo enable)"`
+27. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/$((100+1))nable"` *(trick math eval)*
+28. `sudo sh -c "e\x63ho 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+29. `sudo sh -c "ec\u0068o 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+30. `sudo sh -c "$(echo 'ZWNobyAxID4gL3N5cy9rZXJuZWwvZGVidWcvdHJhY2luZy9ldmVudHMva3Byb2Jlcy9teXByb2JlL2VuYWJsZQ==' | base64 -d)"`
+1. `sudo sh -c "echo $((0+1)) > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+2. `sudo sh -c "printf '1' > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+3. `sudo bash -c "echo 1 > /sy\163/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+4. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/en\141ble"`
+5. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/en\u0061ble"`
+6. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enab\u006C\u0065"`
+7. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/e$(echo nable)"`
+8. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/ena$(echo ble)"`
+9. `sudo sh -c "echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/$(echo enable)"`
+10. `sudo sh -c "e$(echo cho) 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+11. `sudo bash -c "$(echo ZWNobyAxID4gL3N5cy9rZXJuZWwvZGVidWcvdHJhY2luZy9ldmVudHMva3Byb2Jlcy9teXByb2JlL2VuYWJsZQ== | base64 -d)"`
+12. `sudo sh -c "$(printf 'echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable')"`
+13. `sudo sh -c "$(echo -n 'echo 1 > ' && echo '/sys/kernel/debug/tracing/events/kprobes/myprobe/enable')"`
+14. `sudo bash -c "echo $((2-1)) > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+15. `sudo bash -c "echo 0x1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+16. `sudo sh -c "$(echo ZWNobyAxID4gL3N5cy9rZXJuZWwvZGVidWcvdHJhY2luZy9ldmVudHMva3Byb2Jlcy9teXByb2JlL2VuYWJsZQo= | base64 -d)"`
+17. `sudo sh -c "$(cat <<EOF echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable EOF )"`
+18. `sudo bash -c "$([ ! -z 1 ] && echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable)"`
+19. `sudo sh -c "e\x63ho 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/en\x61ble"`
+20. `sudo sh -c "e\u0063ho 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/en\u0061ble"`
+21. `sudo bash -c "$(echo 'echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable' | bash)"`
+22. `sudo sh -c "echo $'\x31' > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+23. `sudo bash -c "echo $'1' > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+24. `sudo bash -c "eval 'echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable'"`
+25. `sudo bash -c "$(printf 'ec'; echo 'ho 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable')"`
+26. `sudo bash -c "$(echo ZWNobyAxID4gL3N5cy9rZXJuZWwvZGVidWcvdHJhY2luZy9ldmVudHMva3Byb2Jlcy9teXByb2JlL2VuYWJsZQo= | base64 -d | sh)"`
+27. `sudo bash -c "IFS=' ' read -r a b <<< 'echo 1'; $a $b > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable"`
+28. `sudo sh -c "$(echo -n 'echo 1 > '; echo '/sys/kernel/debug/tracing/events/kprobes/myprobe/enable')"`
+29. `sudo bash -c "$(tr -d '\n' <<< 'echo 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable')"`
+30. `sudo bash -c "$(echo -e '\145\143\150\157 1 > /sys/kernel/debug/tracing/events/kprobes/myprobe/enable')"`
