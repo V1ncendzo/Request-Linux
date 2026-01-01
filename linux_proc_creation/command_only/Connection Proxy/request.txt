@@ -1,0 +1,300 @@
+1. `"http_proxy"=http://127.0.0.1:3128 curl http://google.com/`
+2. `http_proxy="http://127.0.0.1:3128" curl http://google.com/`
+3. `http_proxy=http://127.0.0.1:3128 curl "http://google.com/"`
+4. `"http_proxy"="http://127.0.0.1:3128" curl http://google.com/`
+5. `http_proxy=http://127.0.0.1:3128 curl $'http://google.com/'`
+6. `http_proxy=$'http://127.0.0.1:3128' curl http://google.com/`
+7. `"http_proxy"=$'http://127.0.0.1:3128' curl http://google.com/`
+8. `http_proxy=http://127.0.0.1:3128 curl "$(printf http://google.com/)"`
+9. `http_proxy="http://127.0.0.1:3128" curl "$(echo http://google.com/)"`
+10. `http_proxy=http://127.0.0.1:3128 curl ${HOME:+http://google.com/}`
+11. `http_proxy=http://127.0.0.1:3128 curl ${PWD%/*}/google.com/`
+12. `"http_proxy"=http://127.0.0.1:3128 curl ${0##*/}://google.com/`
+13. `http_proxy=http://127.0.0.1:3128 curl ${{:}+"http://google.com/"}`
+14. `http_proxy=http://127.0.0.1:3128 curl $'h''ttp://google.com/'`
+15. `"http_proxy"=http://127.0.0.1:3128 curl h''ttp://google.com/`
+16. `http_proxy=http://127.0.0.1:3128 curl "h""ttp://google.com/"`
+17. `http_proxy="http://127.0.0.1:3128" curl h""ttp://google.com/`
+18. `http_proxy=http://127.0.0.1:3128 curl $(echo -n http://google.com/)`
+19. `"http_proxy"="http://127.0.0.1:3128" curl $(printf %s http://google.com/)`
+20. `http_proxy=$"http://127.0.0.1:3128" curl http://google.com/`
+21. `"http_proxy"=$"http://127.0.0.1:3128" curl http://google.com/`
+22. `http_proxy=http://127.0.0.1:3128 curl $'http://goo''gle.com/'`
+23. `http_proxy=http://127.0.0.1:3128 curl ${IFS}http://google.com/`
+24. `"http_proxy"=http://127.0.0.1:3128 curl ${IFS}http://google.com/`
+25. `http_proxy=http://127.0.0.1:3128 curl "$(echo h)ttp://google.com/"`
+26. `http_proxy="http://127.0.0.1:3128" curl "$(printf h)ttp://google.com/"`
+27. `"http_proxy"="http://127.0.0.1:3128" curl "$(echo http://goo)gle.com/"`
+28. `http_proxy=http://127.0.0.1:3128 curl $(echo http://goo)gle.com/`
+29. `http_proxy=http://127.0.0.1:3128 curl ${PATH%%:*}://google.com/`
+30. `"http_proxy"=http://127.0.0.1:3128 curl ${SHELL##*/}://google.com/`
+1. `http_proxy=http://127.0.0.1:3128 curl --url http://google.com/`
+2. `http_proxy=http://127.0.0.1:3128 curl /"http://google.com/"`
+3. `http_proxy=http://127.0.0.1:3128 curl --"url" http://google.com/`
+4. `http_proxy=http://127.0.0.1:3128 curl --ur"l" http://google.com/`
+5. `http_proxy=http://127.0.0.1:3128 curl --"u""rl" http://google.com/`
+6. `http_proxy=http://127.0.0.1:3128 curl --ur\tl http://google.com/`
+7. `http_proxy=http://127.0.0.1:3128 curl /--url http://google.com/`
+8. `http_proxy=http://127.0.0.1:3128 curl -/url http://google.com/`
+9. `http_proxy=http://127.0.0.1:3128 curl --url=http://google.com/`
+10. `http_proxy=http://127.0.0.1:3128 curl --url='http://google.com/'`
+11. `http_proxy=http://127.0.0.1:3128 curl --url="http://google.com/"`
+12. `http_proxy="http://127.0.0.1:3128" curl --url /"http://google.com/"`
+13. `"http_proxy"=http://127.0.0.1:3128 curl /--url http://google.com/`
+14. `http_proxy=http://127.0.0.1:3128 curl --u"rl" http://google.com/`
+15. `http_proxy=http://127.0.0.1:3128 curl --ur--l http://google.com/`
+16. `http_proxy=http://127.0.0.1:3128 curl --ur--l="http://google.com/"`
+17. `http_proxy=http://127.0.0.1:3128 curl --url http:/"google.com"`
+18. `http_proxy=http://127.0.0.1:3128 curl --url h"ttp://google.com/"`
+19. `http_proxy=http://127.0.0.1:3128 curl --url h\t\tp://google.com/`
+20. `http_proxy=http://127.0.0.1:3128 curl --"url" h"ttp://google.com/"`
+21. `http_proxy=http://127.0.0.1:3128 curl --u"r"l "http://google.com/"`
+22. `http_proxy=http://127.0.0.1:3128 curl -u"rl" http://google.com/`
+23. `http_proxy=http://127.0.0.1:3128 curl --"url" "$(echo http://google.com/)"`
+24. `http_proxy=http://127.0.0.1:3128 curl --ur"l" "$(printf http://google.com/)"`
+25. `http_proxy="http://127.0.0.1:3128" curl --"url" $(echo http://google.com/)`
+26. `http_proxy=http://127.0.0.1:3128 curl --u\rl http://google.com/`
+27. `http_proxy=http://127.0.0.1:3128 curl --ur\\l http://google.com/`
+28. `http_proxy=http://127.0.0.1:3128 curl /--"url" http://google.com/`
+29. `http_proxy=http://127.0.0.1:3128 curl /--ur"l" http://google.com/`
+30. `http_proxy=http://127.0.0.1:3128 curl --url http://google.com/#inserted`
+1. `HTTP_PROXY=http://127.0.0.1:3128 curl http://google.com/`
+2. `HTTPS_PROXY=http://127.0.0.1:3128 curl http://google.com/`
+3. `Http_Proxy=http://127.0.0.1:3128 curl http://google.com/`
+4. `env HTTP_PROXY=http://127.0.0.1:3128 curl http://google.com/`
+5. `env HTTPS_PROXY=http://127.0.0.1:3128 curl http://google.com/`
+6. `export HTTP_PROXY=http://127.0.0.1:3128; curl http://google.com/`
+7. `export HTTPS_PROXY=http://127.0.0.1:3128; curl http://google.com/`
+8. `curl --proxy http://127.0.0.1:3128 http://google.com/`
+9. `curl -x http://127.0.0.1:3128 http://google.com/`
+10. `curl --proxy=http://127.0.0.1:3128 http://google.com/`
+11. `curl -xhttp://127.0.0.1:3128 http://google.com/`
+12. `curl --preproxy http://127.0.0.1:3128 http://google.com/`
+13. `curl --socks5-hostname 127.0.0.1:3128 http://google.com/`
+14. `curl --socks5 127.0.0.1:3128 http://google.com/`
+15. `curl --proxy socks5://127.0.0.1:3128 http://google.com/`
+16. `curl --proxy socks5h://127.0.0.1:3128 http://google.com/`
+17. `curl --config <(printf "proxy=http://127.0.0.1:3128") http://google.com/`
+18. `curl -K <(printf "proxy=http://127.0.0.1:3128") http://google.com/`
+19. `CURL_PROXY=http://127.0.0.1:3128 curl http://google.com/`
+20. `ALL_PROXY=http://127.0.0.1:3128 curl http://google.com/`
+21. `all_proxy=http://127.0.0.1:3128 curl http://google.com/`
+22. `env ALL_PROXY=http://127.0.0.1:3128 curl http://google.com/`
+23. `curl --proxy http://127.0.0.1:3128 --url http://google.com/`
+24. `curl -x http://127.0.0.1:3128 --url http://google.com/`
+25. `curl --proxy=http://127.0.0.1:3128 --location http://google.com/`
+26. `curl --proxy http://127.0.0.1:3128 --silent http://google.com/`
+27. `curl --proxy http://127.0.0.1:3128 --compressed http://google.com/`
+28. `curl --proxy http://127.0.0.1:3128 --http1.1 http://google.com/`
+29. `curl --proxy http://127.0.0.1:3128 --connect-timeout 10 http://google.com/`
+30. `curl --proxy http://127.0.0.1:3128 --retry 2 http://google.com/`
+1. `curl --proxy=http://localhost:3128 http://google.com/`
+2. `curl --proxy=http://127.1:3128 http://google.com/`
+3. `curl --proxy=http://[::1]:3128 http://google.com/`
+4. `curl --proxy-user user:pass --proxy=http://127.0.0.1:3128 http://google.com/`
+5. `curl --proxy1.0 127.0.0.1:3128 http://google.com/`
+6. `curl --proxy1.0=http://127.0.0.1:3128 http://google.com/`
+7. `curl --proxy-anyauth http://127.0.0.1:3128 http://google.com/`
+8. `curl --proxy-basic http://127.0.0.1:3128 http://google.com/`
+9. `curl --proxy-digest http://127.0.0.1:3128 http://google.com/`
+10. `curl --proxy-negotiate http://127.0.0.1:3128 http://google.com/`
+11. `curl --proxy-ntlm http://127.0.0.1:3128 http://google.com/`
+12. `curl -x127.0.0.1:3128 http://google.com/`
+13. `curl --proxy 'http://127.0.0.1:3128' http://google.com/`
+14. `curl --proxy "$(echo http://127.0.0.1:3128)" http://google.com/`
+15. `curl --proxy \http://127.0.0.1:3128 http://google.com/`
+16. `curl --proxy\thttp://127.0.0.1:3128 http://google.com/`
+17. `curl --proxy=http://user:pass@127.0.0.1:3128 http://google.com/`
+18. `curl --proxy http://127.000.000.001:3128 http://google.com/`
+19. `curl --proxy http://0177.0.0.1:3128 http://google.com/`
+20. `curl --proxy http://2130706433:3128 http://google.com/`
+21. `curl --proxy http://0x7f000001:3128 http://google.com/`
+22. `curl --proxy "http://127.0.0.1:$(expr 3100 + 28)" http://google.com/`
+23. `curl --proxy http://127.0.0.1:03128 http://google.com/`
+24. `curl --proxy http://127.0.0.1:'3128' http://google.com/`
+25. `curl --proxy http://127.0.0.1:3128/ http://google.com/`
+26. `curl --proxy http://127.0.0.1:3128@ http://google.com/`
+27. `curl --proxy http://127.0.0.1:3128@foo http://google.com/`
+28. `curl --proxy http://[127.0.0.1]:3128 http://google.com/`
+29. `curl --proxy \\"http://127.0.0.1:3128\\" http://google.com/`
+30. `curl --proxy http://127.0.0.1:3128 --header "User-Agent: bypass" http://google.com/`
+1. `curl -x http://127.0.0.1:3128 http://google.com/`
+2. `curl --proxy http://127.0.0.1:3128 http://google.com/`
+3. `curl -x127.0.0.1:3128 http://google.com/`
+4. `curl --proxy=127.0.0.1:3128 http://google.com/`
+5. `curl --proxy http://127.0.0.1:3128/ http://google.com/`
+6. `curl -x http://localhost:3128 http://google.com/`
+7. `curl --proxy localhost:3128 http://google.com/`
+8. `curl -x127.0.0.1:3128/ http://google.com/`
+9. `curl --proxy=http://127.0.0.1:3128 http://google.com/`
+10. `curl -x socks5://127.0.0.1:3128 http://google.com/`
+11. `curl --proxy socks5://127.0.0.1:3128 http://google.com/`
+12. `curl -x http://127.0.0.1:3128/ -L http://google.com/`
+13. `curl --proxy 127.0.0.1:3128 -L http://google.com/`
+14. `curl -xhttp://127.0.0.1:3128 -A curl http://google.com/`
+15. `curl --proxy=http://localhost:3128 http://google.com/`
+16. `curl -x localhost:3128/ http://google.com/`
+17. `curl --proxy localhost:3128/ http://google.com/`
+18. `curl -x http://127.0.0.1:3128 --compressed http://google.com/`
+19. `curl --proxy 127.0.0.1:3128 --compressed http://google.com/`
+20. `curl -x http://127.0.0.1:3128 --http1.1 http://google.com/`
+21. `curl --proxy http://127.0.0.1:3128 --http1.1 http://google.com/`
+22. `curl -x http://127.0.0.1:3128 --silent http://google.com/`
+23. `curl --proxy 127.0.0.1:3128 --silent http://google.com/`
+24. `curl -x http://127.0.0.1:3128 --max-time 10 http://google.com/`
+25. `curl --proxy http://127.0.0.1:3128 --max-time 10 http://google.com/`
+26. `curl -x http://127.0.0.1:3128 --connect-timeout 5 http://google.com/`
+27. `curl --proxy 127.0.0.1:3128 --connect-timeout 5 http://google.com/`
+28. `curl -x http://127.0.0.1:3128 --retry 2 http://google.com/`
+29. `curl --proxy http://127.0.0.1:3128 --retry 2 http://google.com/`
+30. `curl -x http://127.0.0.1:3128 --fail http://google.com/`
+1. `http_proxy=127.0.0.1:3128 curl http://google.com/`
+2. `http_proxy=127.0.0.1 curl http://google.com/`
+3. `http_proxy=localhost:3128 curl http://google.com/`
+4. `http_proxy=localhost curl http://google.com/`
+5. `http_proxy=127.0.0.1 curl -L http://google.com/`
+6. `http_proxy=http://localhost curl http://google.com/`
+7. `http_proxy=http://127.0.0.1 curl http://google.com/`
+8. `http_proxy=127.0.0.1:3128 curl -s http://google.com/`
+9. `http_proxy=127.0.0.1 curl --compressed http://google.com/`
+10. `http_proxy=127.0.0.1 curl --http1.1 http://google.com/`
+11. `http_proxy=127.0.0.1 curl -k http://google.com/`
+12. `http_proxy=127.0.0.1 curl --insecure http://google.com/`
+13. `http_proxy=127.0.0.1 curl -m 10 http://google.com/`
+14. `http_proxy=127.0.0.1 curl --max-time 10 http://google.com/`
+15. `http_proxy=127.0.0.1 curl -o /dev/null http://google.com/`
+16. `http_proxy=127.0.0.1 curl -A "Mozilla" http://google.com/`
+17. `http_proxy=127.0.0.1 curl -e "http://ref" http://google.com/`
+18. `http_proxy=127.0.0.1 curl --retry 3 http://google.com/`
+19. `http_proxy=127.0.0.1 curl -sSL http://google.com/`
+20. `http_proxy=127.0.0.1 curl -v http://google.com/`
+21. `http_proxy=127.0.0.1 curl --no-buffer http://google.com/`
+22. `http_proxy=127.0.0.1 curl --raw http://google.com/`
+23. `http_proxy=127.0.0.1 curl --fail http://google.com/`
+24. `http_proxy=127.0.0.1 curl --silent --show-error http://google.com/`
+25. `http_proxy=127.0.0.1 curl -H "User-Agent: test" http://google.com/`
+26. `http_proxy=127.0.0.1 curl -H "X-Test: 1" http://google.com/`
+27. `http_proxy=127.0.0.1 curl -w "%{http_code}" http://google.com/`
+28. `http_proxy=127.0.0.1 curl -D - http://google.com/`
+29. `http_proxy=127.0.0.1 curl --limit-rate 200k http://google.com/`
+30. `http_proxy=127.0.0.1 curl --interface eth0 http://google.com/`
+1. curl [http://google.com](http://google.com/) http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/)
+2. curl http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/) [http://google.com](http://google.com/)
+3. http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/) curl [http://google.com](http://google.com/)
+4. http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/) [http://google.com](http://google.com/) curl
+5. [http://google.com](http://google.com/) curl http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/)
+6. [http://google.com](http://google.com/) http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/) curl
+7. curl [http://google.com](http://google.com/) --proxy [http://127.0.0.1:3128](http://127.0.0.1:3128/)
+8. curl --proxy [http://127.0.0.1:3128](http://127.0.0.1:3128/) [http://google.com](http://google.com/)
+9. http_proxy=127.0.0.1:3128 curl [http://google.com](http://google.com/)
+10. curl http_proxy=127.0.0.1:3128 [http://google.com](http://google.com/)
+11. http_proxy=127.0.0.1:3128 [http://google.com](http://google.com/) curl
+12. [http://google.com](http://google.com/) curl --proxy [http://127.0.0.1:3128](http://127.0.0.1:3128/)
+13. curl [http://google.com](http://google.com/) -x [http://127.0.0.1:3128](http://127.0.0.1:3128/)
+14. curl -x [http://127.0.0.1:3128](http://127.0.0.1:3128/) [http://google.com](http://google.com/)
+15. curl [http://google.com](http://google.com/) --proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/)
+16. curl --proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/) [http://google.com](http://google.com/)
+17. curl [http://google.com](http://google.com/) --proxy=127.0.0.1:3128
+18. curl --proxy=127.0.0.1:3128 [http://google.com](http://google.com/)
+19. curl --proxy='[http://127.0.0.1:3128](http://127.0.0.1:3128/)' [http://google.com](http://google.com/)
+20. curl --proxy="[http://127.0.0.1:3128](http://127.0.0.1:3128/)" [http://google.com](http://google.com/)
+21. curl -x='[http://127.0.0.1:3128](http://127.0.0.1:3128/)' [http://google.com](http://google.com/)
+22. curl -x="[http://127.0.0.1:3128](http://127.0.0.1:3128/)" [http://google.com](http://google.com/)
+23. curl --proxy '[http://127.0.0.1:3128](http://127.0.0.1:3128/)' [http://google.com](http://google.com/)
+24. curl [http://google.com](http://google.com/) --proxy '[http://127.0.0.1:3128](http://127.0.0.1:3128/)'
+25. curl [http://google.com](http://google.com/) --proxy="[http://127.0.0.1:3128](http://127.0.0.1:3128/)"
+26. curl [http://google.com](http://google.com/) -x="[http://127.0.0.1:3128](http://127.0.0.1:3128/)"
+27. curl -x "[http://127.0.0.1:3128](http://127.0.0.1:3128/)" [http://google.com](http://google.com/)
+28. curl [http://google.com](http://google.com/) -x '[http://127.0.0.1:3128](http://127.0.0.1:3128/)'
+29. curl [http://google.com](http://google.com/) --proxy [http://127.000.000.001:3128](http://127.0.0.1:3128/)
+30. curl --proxy http://[127.0.0.1]:3128 [http://google.com](http://google.com/)
+1. http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/) bash -c 'curl [http://google.com](http://google.com/)'
+2. bash -c 'curl [http://google.com](http://google.com/)' http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/)
+3. curl [http://google.com](http://google.com/) env http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/)
+4. env http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/) curl [http://google.com](http://google.com/)
+5. curl env http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/) [http://google.com](http://google.com/)
+6. http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/) setsid curl [http://google.com](http://google.com/)
+7. setsid http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/) curl [http://google.com](http://google.com/)
+8. setsid curl [http://google.com](http://google.com/) http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/)
+9. nohup http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/) curl [http://google.com](http://google.com/) &
+10. nohup curl [http://google.com](http://google.com/) http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/) &
+11. curl [http://google.com](http://google.com/) & http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/)
+12. curl [http://google.com](http://google.com/); export http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/)
+13. export http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/); curl [http://google.com](http://google.com/)
+14. curl $(echo [http://google.com](http://google.com/)) http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/)
+15. curl http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/) $(echo [http://google.com](http://google.com/))
+16. curl `echo http://google.com` http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/)
+17. http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/) curl `echo http://google.com`
+18. curl [http://google.com](http://google.com/) && export http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/)
+19. http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/) && curl [http://google.com](http://google.com/)
+20. curl [http://google.com](http://google.com/); http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/)
+21. (http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/); curl [http://google.com](http://google.com/))
+22. (curl [http://google.com](http://google.com/); http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/))
+23. curl [http://google.com](http://google.com/) --config <(echo "proxy = [http://127.0.0.1:3128](http://127.0.0.1:3128/)")
+24. curl --config <(echo "proxy = [http://127.0.0.1:3128](http://127.0.0.1:3128/)") [http://google.com](http://google.com/)
+25. curl --config /dev/fd/3 3<<<"proxy = [http://127.0.0.1:3128](http://127.0.0.1:3128/)" [http://google.com](http://google.com/)
+26. curl [http://google.com](http://google.com/) --config /dev/fd/3 3<<<"proxy = [http://127.0.0.1:3128](http://127.0.0.1:3128/)"
+27. curl [http://google.com](http://google.com/) $(echo http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/))
+28. $(echo curl [http://google.com](http://google.com/)) http_proxy=[http://127.0.0.1:3128](http://127.0.0.1:3128/)
+29. curl [http://google.com](http://google.com/) --proxy $(echo [http://127.0.0.1:3128](http://127.0.0.1:3128/))
+30. curl $(echo [http://google.com](http://google.com/)) --proxy [http://127.0.0.1:3128](http://127.0.0.1:3128/)
+1. `http_proxy=http://2130706433:3128 curl http://google.com`
+2. `http_proxy=http://0177.0.0.1:3128 curl http://google.com`
+3. `http_proxy=http://0x7f.0x0.0x0.0x1:3128 curl http://google.com`
+4. `http_proxy=http://0x7f000001:3128 curl http://google.com`
+5. `http_proxy=http://127.000.000.001:3128 curl http://google.com`
+6. `http_proxy=http://127.1:3128 curl http://google.com`
+7. `http_proxy=http://2130706433:0xc38 curl http://google.com`
+8. `http_proxy=http://017700000001:3128 curl http://google.com`
+9. `http_proxy=http://0x7f000001:0xc38 curl http://google.com`
+10. `http_proxy=http://127.1:0xc38 curl http://google.com`
+11. `http_proxy=http://0x7f000001 curl http://google.com`
+12. `http_proxy=http://0o17700000001:3128 curl http://google.com`
+13. `http_proxy=http://127.000.1:3128 curl http://google.com`
+14. `http_proxy=http://0x7F.0.0.1:3128 curl http://google.com`
+15. `http_proxy=http://127.0.1:3128 curl http://google.com`
+16. `http_proxy=http://127.00.00.01:3128 curl http://google.com`
+17. `http_proxy=http://127.000000001:3128 curl http://google.com`
+18. `http_proxy=http://0x7f000001:3128 curl http://google.com`
+19. `http_proxy=http://0x7f.00.00.01:3128 curl http://google.com`
+20. `http_proxy=http://2130706433 curl http://google.com`
+21. `http_proxy=http://127.0001:3128 curl http://google.com`
+22. `http_proxy=http://0x7F000001 curl http://google.com`
+23. `http_proxy=http://127.1:0xC38 curl http://google.com`
+24. `http_proxy=http://0177.00.00.01:3128 curl http://google.com`
+25. `http_proxy=http://0177.0.0.01:3128 curl http://google.com`
+26. `http_proxy=http://2130706433:0o6100 curl http://google.com`
+27. `http_proxy=http://127.0000001:3128 curl http://google.com`
+28. `http_proxy=http://0x7f.0x00.0x00.0x01:3128 curl http://google.com`
+29. `http_proxy=http://0x7f.0.0.1 curl http://google.com`
+30. `http_proxy=http://0x7f.00.0.01 curl http://google.com`
+1. `http_proxy=http://0x7F000001:03128 curl http://google.com`
+2. `http_proxy=http://017700000001 curl http://google.com`
+3. `http_proxy=http://0x7f000001 curl http://google.com`
+4. `http_proxy=http://127.0.0.1:0o6100 curl http://google.com`
+5. `http_proxy=http://0o177.0.0.1:3128 curl http://google.com`
+6. `http_proxy=http://127.00.0x0.0x1:3128 curl http://google.com`
+7. `http_proxy=http://0x7F.1:3128 curl http://google.com`
+8. `http_proxy=http://127.0x0.1:3128 curl http://google.com`
+9. `http_proxy=http://127.00.01:3128 curl http://google.com`
+10. `http_proxy=http://0x7f000001:0o6100 curl http://google.com`
+11. `http_proxy=http://127.0000.0.1:3128 curl http://google.com`
+12. `http_proxy=http://127.000000000001:3128 curl http://google.com`
+13. `http_proxy=http://0x7f.0.1:3128 curl http://google.com`
+14. `http_proxy=http://127.0.00000001:3128 curl http://google.com`
+15. `http_proxy=http://0x7F000001:0xc38 curl http://google.com`
+16. `http_proxy=http://0x7f000001:3128 curl http://google.com`
+17. `http_proxy=http://127.1.0.0:3128 curl http://google.com`
+18. `http_proxy=http://127.0x0001:3128 curl http://google.com`
+19. `http_proxy=http://0x7f000001:0xC38 curl http://google.com`
+20. `http_proxy=http://0x7f000001:3128 curl http://google.com`
+21. `http_proxy=http://127.0x0.0x0.0x1:3128 curl http://google.com`
+22. `http_proxy=http://0o17700000001:0o6100 curl http://google.com`
+23. `http_proxy=http://127.1.1-1:3128 curl http://google.com`
+24. `http_proxy=http://0x7f000001.0:3128 curl http://google.com`
+25. `http_proxy=http://000000127.0.0.1:3128 curl http://google.com`
+26. `http_proxy=http://127.0.0.1%20:3128 curl http://google.com`
+27. `http_proxy=http://%7F.0.0.1:3128 curl http://google.com` *(%7F = 127 URL-encoded)*
+28. `http_proxy=http://0x7f000001:0x00000c38 curl http://google.com`
+29. `http_proxy=http://127.0.0001:3128 curl http://google.com`
+30. `http_proxy=http://0x7f.0.0.1:03128 curl http://google.com`
