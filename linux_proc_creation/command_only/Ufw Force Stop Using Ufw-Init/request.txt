@@ -1,0 +1,300 @@
+1. `ufw "disable"`
+2. `u"fw" disable`
+3. `uf"w" disable`
+4. `"ufw" disable`
+5. `ufw dis"able"`
+6. `ufw d"is"able`
+7. `ufw disab"le"`
+8. `u"f"w disable`
+9. `u"f"w "disable"`
+10. `"ufw disable"`
+11. `ufw di""sable`
+12. `u""fw disable`
+13. `ufw\ disable`
+14. `ufw --"disable"`
+15. `ufw -d"isable"`
+16. `ufw /"disable"`
+17. `ufw //disable`
+18. `ufw \\"disable"`
+19. `u'fw' disable`
+20. `ufw di\\sable`
+21. `ufw dis\able`
+22. `ufw dis\\able`
+23. `ufw dis\ab\le`
+24. `ufw dis\t\able`
+25. `ufw disab\\le`
+26. `ufw "di""sable"`
+27. `ufw di\"sable`
+28. `ufw d\is\able`
+29. `ufw di$disable`
+30. `ufw disab"$E"` (with env var `$E` set to `le`)
+1. `ufw dis""able`
+2. `ufw d i s a b l e`
+3. `ufw d\i\s\a\b\l\e`
+4. `ufw di\sable`
+5. `ufw disab\\le`
+6. `ufw disa\ble`
+7. `ufw disa""ble`
+8. `ufw dis"ab"le`
+9. `ufw disab"l"e`
+10. `u f w disable`
+11. `ufw disa\bl\e`
+12. `ufw d/"isable"`
+13. `ufw --dis--able`
+14. `ufw --disa--ble`
+15. `ufw --d--i--s--a--b--l--e`
+16. `'ufw' disable`
+17. `"ufw"` `"disable"`
+18. `"u"`"fw" disable
+19. `ufw d\\isable`
+20. `ufw di\\sab\\le`
+21. `u\\fw disable`
+22. `ufw -disable`
+23. `ufw --disable`
+24. `ufw ---disable`
+25. `ufw di--sable`
+26. `ufw disa--ble`
+27. `ufw disab--le`
+28. `ufw disable #`
+29. `ufw disable /*comment*/`
+30. `ufw disable < /dev/null`
+1. ufw --disable
+2. ufw --no-enable
+3. ufw --shutdown
+4. ufw --stop
+5. ufw --halt
+6. ufw --off
+7. ufw --poweroff
+8. ufw --terminate
+9. ufw --deactivate
+10. ufw --down
+11. ufw --firewall-off
+12. ufw --disable-firewall
+13. ufw --close
+14. ufw --block-off
+15. ufw --ufw-off
+16. ufw --disable-mode
+17. ufw --security-off
+18. ufw --kill
+19. ufw --disable-ufw
+20. ufw --disengage
+21. ufw --policy-disable
+22. ufw --disable_rules
+23. ufw --disable-logging
+24. ufw --unprotect
+25. ufw --noguard
+26. ufw --no-sec
+27. ufw --killfire
+28. ufw --suppress
+29. ufw --cease
+30. ufw --mute
+31. ufw --disable=true
+32. ufw --disable=yes
+33. ufw --disable-firewall=true
+34. ufw --set disable
+35. ufw --set=disable
+36. ufw --option=disable
+37. ufw --switch=off
+38. ufw --toggle=off
+39. ufw --set-status=off
+40. ufw --set-state=down
+41. ufw --disable-fw
+42. ufw --no-fw
+43. ufw --no-firewall
+44. ufw --fw=off
+45. ufw --security=off
+46. ufw --firewall=disable
+47. ufw --firewall=no
+48. ufw --protection=off
+49. ufw --turn-off
+50. ufw --turn_off
+51. ufw --disable-now
+52. ufw --shutdown-fw
+53. ufw --exit
+54. ufw --disable:true
+55. ufw --DISABLE
+56. ufw --DISABLE=true
+57. ufw --noProtection
+58. ufw --deauth
+59. ufw --offState
+60. ufw --dropGuard
+1. `ufw`
+2. `disable`
+3. `sudo ufw`
+4. `ufw --disable`
+5. `ufw –disable` *(en dash instead of hyphen)*
+6. `ufw\ disable`
+7. `ufw disablement`
+8. `ufw –disable`
+9. `ufw dis`
+10. `ufw deact`
+11. `sudo ufw off`
+12. `sudo /usr/sbin/ufw`
+13. `/usr/sbin/ufw disable`
+14. `bash -c "ufw disable"`
+15. `sh -c 'ufw disable'`
+16. `python3 -c 'import os; os.system("ufw disable")'`
+17. `perl -e 'system("ufw disable")'`
+18. `ufwctl disable`
+19. `systemctl stop ufw`
+20. `service ufw stop`
+21. `initctl stop ufw`
+22. `rc-service ufw stop`
+23. `disableufw`
+24. `ufwdown`
+25. `ufw-off`
+26. `ufw stop`
+27. `ufw dis--able`
+28. `ufw dis able`
+29. `ufw --d`
+30. `ufw -d`
+1. `ufw --dis`
+2. `ufw --disa`
+3. `ufw --disab`
+4. `ufw /disable`
+5. `ufw (disable)`
+6. `ufw "disable"`
+7. `ufw 'disable'`
+8. `ufw \“disable\”`
+9. `ufw#disable`
+10. `ufw:disable`
+11. `ufw=disable`
+12. `ufw%disable`
+13. `ufw-disable`
+14. `ufw_disable`
+15. `ufw.disable`
+16. `ufw + disable`
+17. `ufw && disable`
+18. `ufw; disable`
+19. `ufw | disable`
+20. `echo ufw disable`
+21. `echo "ufw disable" | bash`
+22. `echo -e 'ufw\tdisable' | bash`
+23. `printf "ufw disable\n" | bash`
+24. `bash <<< 'ufw disable'`
+25. `echo ufw > /tmp/a; echo disable >> /tmp/a; bash /tmp/a`
+26. `cat <<< "ufw disable" | bash`
+27. `alias fw='ufw'; fw disable`
+28. `function f() { ufw disable; }; f`
+29. `UFWDISABLE="ufw disable"; bash -c "$UFWDISABLE"`
+30. `IFS=' '; read -r a b <<< "ufw disable"; $a $b`
+1. disable ufw
+2. ufw -disable
+3. disable ufw
+4. ufw --disable
+5. -disable ufw
+6. disable --ufw
+7. -ufw disable
+8. ufw /disable
+9. /disable ufw
+10. ufw disable --now
+11. disable ufw --force
+12. ufw --now disable
+13. ufw disable-now
+14. disable-ufw
+15. ufw disable &
+16. ufw disable || true
+17. ufw disable && echo done
+18. disable ufw --debug
+19. ufw -d disable
+20. disable -d ufw
+21. ufw disable > /dev/null
+22. (ufw disable)
+23. ufw --dry-run disable
+24. ufw disable --quiet
+25. ufw disable --simulate
+26. ufw disable --test
+27. disable ufw #comment
+28. ufw "disable"
+29. ufw 'disable'
+30. ufw disable && logger "ufw down"
+1. disable && ufw
+2. ufw && disable
+3. (disable; ufw)
+4. (ufw; disable)
+5. disable `echo ufw`
+6. $(echo disable) ufw
+7. ufw; disable
+8. disable; ufw
+9. ufw && echo disable
+10. ufw || disable
+11. disable || ufw
+12. ufw disable || :
+13. ufw disable; :
+14. `ufw disable`
+15. $(ufw disable)
+16. ufw; true; disable
+17. disable $(which ufw)
+18. `which ufw` disable
+19. ufw --nointeractive disable
+20. ufw disable --log-level off
+21. ufw disable --dry
+22. disable --log off ufw
+23. ufw -d -x disable
+24. disable -x -d ufw
+25. -dry-run ufw disable
+26. -log off disable ufw
+27. disable ufw > /tmp/null
+28. (disable ufw)
+29. ufw disable; echo
+30. ufw disable; exit 0
+1. `\u0075fw disable`
+2. `uf\u0077 disable`
+3. `ufw dis\u0061ble`
+4. `u\u0066w disable`
+5. `ufw \u0064isable`
+6. `ufw disab\u006c\u0065`
+7. `ufw disab\145`
+8. `\165fw disable`
+9. `u\146w disable`
+10. `ufw d\151sable`
+11. `ufw di\163able`
+12. `ufw disab\154e`
+13. `ufw disabl\145`
+14. `ufw disa\u0062le`
+15. `\x75fw disable`
+16. `ufw \x64isable`
+17. `ufw dis\x61ble`
+18. `ufw disa\x62le`
+19. `ufw disab\x6Ce`
+20. `ufw disabl\x65`
+21. `ufw dis\u0070le` # intentionally slightly wrong (evade match, fail execution)
+22. `ufw dis\u006Fble` # similar
+23. `ufw dis\u0062000le` # confuse parser
+24. `ufw disab\u006C\x65`
+25. `ufw disable\u0020` # trailing space
+26. `ufw disable\u0009` # trailing tab
+27. `ufw dis\u{61}ble` # ES6 style
+28. `ufw disa\142le` # octal
+29. `ufw disab\u{6C}e`
+30. `ufw disable #2130706433` # add bypass hint/comment (same as 127.0.0.1)
+1. `ufw dis\u0061\u0062le`
+2. `ufw disab\u006C\u0065`
+3. `\x75\x66\x77 disable`
+4. `ufw dis\x61\x62le`
+5. `\u0075\u0066\u0077 dis\u0061ble`
+6. `ufw dis\x61bl\x65`
+7. `ufw disab\x6C\x65`
+8. `\u0075\u0066\u0077 \u0064\u0069\u0073\u0061\u0062\u006C\u0065`
+9. `\165\146\167 \144\151\163\141\142\154\145`
+10. `ufw disab\x6c\x65`
+11. `ufw disab\154e`
+12. `ufw disab\154\145`
+13. `ufw dis\141ble`
+14. `ufw d\151sable`
+15. `ufw \x64\x69\x73\x61\x62\x6C\x65`
+16. `ufw disab\u{6C}\u{65}`
+17. `ufw disa\u{62}\u{6C}e`
+18. `ufw disa\u0062\u006Ce`
+19. `ufw di\u0073\u0061\u0062le`
+20. `ufw d\u0069s\u0061\u0062le`
+21. `ufw d\151s\141b\154e`
+22. `ufw\u0020disable`
+23. `ufw\u0009disable`
+24. `ufw\u000bdisable`
+25. `ufw\u000Cdisable`
+26. `ufw disable\u0000`
+27. `ufw disable\u2029`
+28. `ufw\u200bdisable` *(zero-width space)*
+29. `u\u0066\u0077 d\u0069\u0073\u0061\u0062\u006c\u0065`
+30. `ufw disab1e` *(visual typo, bypass string match depending on lax regex)*

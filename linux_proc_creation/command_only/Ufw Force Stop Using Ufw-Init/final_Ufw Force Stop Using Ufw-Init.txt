@@ -1,0 +1,300 @@
+ufw "disable"
+u"fw" disable
+uf"w" disable
+"ufw" disable
+ufw dis"able"
+ufw d"is"able
+ufw disab"le"
+u"f"w disable
+u"f"w "disable"
+"ufw disable"
+ufw di""sable
+u""fw disable
+ufw\ disable
+ufw --"disable"
+ufw -d"isable"
+ufw /"disable"
+ufw //disable
+ufw \\"disable"
+u'fw' disable
+ufw di\\sable
+ufw dis\able
+ufw dis\\able
+ufw dis\ab\le
+ufw dis\t\able
+ufw disab\\le
+ufw "di""sable"
+ufw di\"sable
+ufw d\is\able
+ufw di$disable
+`ufw disab"$E"` (with env var `$E` set to `le`)
+ufw dis""able
+ufw d i s a b l e
+ufw d\i\s\a\b\l\e
+ufw di\sable
+ufw disab\\le
+ufw disa\ble
+ufw disa""ble
+ufw dis"ab"le
+ufw disab"l"e
+u f w disable
+ufw disa\bl\e
+ufw d/"isable"
+ufw --dis--able
+ufw --disa--ble
+ufw --d--i--s--a--b--l--e
+'ufw' disable
+"ufw"` `"disable"
+`"u"`"fw" disable
+ufw d\\isable
+ufw di\\sab\\le
+u\\fw disable
+ufw -disable
+ufw --disable
+ufw ---disable
+ufw di--sable
+ufw disa--ble
+ufw disab--le
+ufw disable #
+ufw disable /*comment*/
+ufw disable < /dev/null
+ufw --disable
+ufw --no-enable
+ufw --shutdown
+ufw --stop
+ufw --halt
+ufw --off
+ufw --poweroff
+ufw --terminate
+ufw --deactivate
+ufw --down
+ufw --firewall-off
+ufw --disable-firewall
+ufw --close
+ufw --block-off
+ufw --ufw-off
+ufw --disable-mode
+ufw --security-off
+ufw --kill
+ufw --disable-ufw
+ufw --disengage
+ufw --policy-disable
+ufw --disable_rules
+ufw --disable-logging
+ufw --unprotect
+ufw --noguard
+ufw --no-sec
+ufw --killfire
+ufw --suppress
+ufw --cease
+ufw --mute
+ufw --disable=true
+ufw --disable=yes
+ufw --disable-firewall=true
+ufw --set disable
+ufw --set=disable
+ufw --option=disable
+ufw --switch=off
+ufw --toggle=off
+ufw --set-status=off
+ufw --set-state=down
+ufw --disable-fw
+ufw --no-fw
+ufw --no-firewall
+ufw --fw=off
+ufw --security=off
+ufw --firewall=disable
+ufw --firewall=no
+ufw --protection=off
+ufw --turn-off
+ufw --turn_off
+ufw --disable-now
+ufw --shutdown-fw
+ufw --exit
+ufw --disable:true
+ufw --DISABLE
+ufw --DISABLE=true
+ufw --noProtection
+ufw --deauth
+ufw --offState
+ufw --dropGuard
+ufw
+disable
+sudo ufw
+ufw --disable
+`ufw –disable` *(en dash instead of hyphen)*
+ufw\ disable
+ufw disablement
+ufw –disable
+ufw dis
+ufw deact
+sudo ufw off
+sudo /usr/sbin/ufw
+/usr/sbin/ufw disable
+bash -c "ufw disable"
+sh -c 'ufw disable'
+python3 -c 'import os; os.system("ufw disable")'
+perl -e 'system("ufw disable")'
+ufwctl disable
+systemctl stop ufw
+service ufw stop
+initctl stop ufw
+rc-service ufw stop
+disableufw
+ufwdown
+ufw-off
+ufw stop
+ufw dis--able
+ufw dis able
+ufw --d
+ufw -d
+ufw --dis
+ufw --disa
+ufw --disab
+ufw /disable
+ufw (disable)
+ufw "disable"
+ufw 'disable'
+ufw \“disable\”
+ufw#disable
+ufw:disable
+ufw=disable
+ufw%disable
+ufw-disable
+ufw_disable
+ufw.disable
+ufw + disable
+ufw && disable
+ufw; disable
+ufw | disable
+echo ufw disable
+echo "ufw disable" | bash
+echo -e 'ufw\tdisable' | bash
+printf "ufw disable\n" | bash
+bash <<< 'ufw disable'
+echo ufw > /tmp/a; echo disable >> /tmp/a; bash /tmp/a
+cat <<< "ufw disable" | bash
+alias fw='ufw'; fw disable
+function f() { ufw disable; }; f
+UFWDISABLE="ufw disable"; bash -c "$UFWDISABLE"
+IFS=' '; read -r a b <<< "ufw disable"; $a $b
+disable ufw
+ufw -disable
+disable ufw
+ufw --disable
+-disable ufw
+disable --ufw
+-ufw disable
+ufw /disable
+/disable ufw
+ufw disable --now
+disable ufw --force
+ufw --now disable
+ufw disable-now
+disable-ufw
+ufw disable &
+ufw disable || true
+ufw disable && echo done
+disable ufw --debug
+ufw -d disable
+disable -d ufw
+ufw disable > /dev/null
+(ufw disable)
+ufw --dry-run disable
+ufw disable --quiet
+ufw disable --simulate
+ufw disable --test
+disable ufw #comment
+ufw "disable"
+ufw 'disable'
+ufw disable && logger "ufw down"
+disable && ufw
+ufw && disable
+(disable; ufw)
+(ufw; disable)
+disable `echo ufw`
+$(echo disable) ufw
+ufw; disable
+disable; ufw
+ufw && echo disable
+ufw || disable
+disable || ufw
+ufw disable || :
+ufw disable; :
+ufw disable
+$(ufw disable)
+ufw; true; disable
+disable $(which ufw)
+`which ufw` disable
+ufw --nointeractive disable
+ufw disable --log-level off
+ufw disable --dry
+disable --log off ufw
+ufw -d -x disable
+disable -x -d ufw
+-dry-run ufw disable
+-log off disable ufw
+disable ufw > /tmp/null
+(disable ufw)
+ufw disable; echo
+ufw disable; exit 0
+\u0075fw disable
+uf\u0077 disable
+ufw dis\u0061ble
+u\u0066w disable
+ufw \u0064isable
+ufw disab\u006c\u0065
+ufw disab\145
+\165fw disable
+u\146w disable
+ufw d\151sable
+ufw di\163able
+ufw disab\154e
+ufw disabl\145
+ufw disa\u0062le
+\x75fw disable
+ufw \x64isable
+ufw dis\x61ble
+ufw disa\x62le
+ufw disab\x6Ce
+ufw disabl\x65
+`ufw dis\u0070le` # intentionally slightly wrong (evade match, fail execution)
+`ufw dis\u006Fble` # similar
+`ufw dis\u0062000le` # confuse parser
+ufw disab\u006C\x65
+`ufw disable\u0020` # trailing space
+`ufw disable\u0009` # trailing tab
+`ufw dis\u{61}ble` # ES6 style
+`ufw disa\142le` # octal
+ufw disab\u{6C}e
+`ufw disable #2130706433` # add bypass hint/comment (same as 127.0.0.1)
+ufw dis\u0061\u0062le
+ufw disab\u006C\u0065
+\x75\x66\x77 disable
+ufw dis\x61\x62le
+\u0075\u0066\u0077 dis\u0061ble
+ufw dis\x61bl\x65
+ufw disab\x6C\x65
+\u0075\u0066\u0077 \u0064\u0069\u0073\u0061\u0062\u006C\u0065
+\165\146\167 \144\151\163\141\142\154\145
+ufw disab\x6c\x65
+ufw disab\154e
+ufw disab\154\145
+ufw dis\141ble
+ufw d\151sable
+ufw \x64\x69\x73\x61\x62\x6C\x65
+ufw disab\u{6C}\u{65}
+ufw disa\u{62}\u{6C}e
+ufw disa\u0062\u006Ce
+ufw di\u0073\u0061\u0062le
+ufw d\u0069s\u0061\u0062le
+ufw d\151s\141b\154e
+ufw\u0020disable
+ufw\u0009disable
+ufw\u000bdisable
+ufw\u000Cdisable
+ufw disable\u0000
+ufw disable\u2029
+`ufw\u200bdisable` *(zero-width space)*
+u\u0066\u0077 d\u0069\u0073\u0061\u0062\u006c\u0065
+`ufw disab1e` *(visual typo, bypass string match depending on lax regex)*

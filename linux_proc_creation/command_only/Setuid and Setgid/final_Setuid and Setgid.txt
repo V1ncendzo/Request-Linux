@@ -1,0 +1,300 @@
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown "root" /tmp/hello && sudo chmod "u+s" /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown ro"ot" /tmp/hello && sudo chmod u+"+s" /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown roo"t" /tmp/hello && sudo chmod "u"+"'s'" /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo ch"own" root /tmp/hello && sudo ch"mod" u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo "chown" root /tmp/hello && sudo "chmod" u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo ch"m""od" u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chm"od" u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown --root /tmp/hello && sudo chmod --u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown r'oot' /tmp/hello && sudo chmod u+'s' /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown r"oo"t /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown ro"o"t /tmp/hello && sudo chmod "u+s" /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown ro\ot /tmp/hello && sudo chmod u+\s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown r\oot /tmp/hello && sudo chmod u\+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown ro\t /tmp/hello && sudo chmod u\+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo "chown" "root" /tmp/hello && sudo "chmod" "u+s" /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo \chown root /tmp/hello && sudo \chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown\troot /tmp/hello && sudo chmod\tu+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo ch\own root /tmp/hello && sudo ch\mod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown --user=root /tmp/hello && sudo chmod u=+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 'root' /tmp/hello && sudo chmod 'u+s' /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u\+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown "ro""ot" /tmp/hello && sudo chmod "u""+s" /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown r"$USER"ot /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+''s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo 'chown' root /tmp/hello && sudo 'chmod' u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+s# /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+s\ /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown "root" /tmp/hello && sudo chmod 'u+s' /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod 'u'+'+s' /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown r""oot /tmp/hello && sudo chmod u+""s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo ch'own' root /tmp/hello && sudo ch'mod' u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo c"hown" root /tmp/hello && sudo c"hm"od u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown --reference=/etc/passwd /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown ro'ot' /tmp/hello && sudo chmod u+''s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown r"o""ot" /tmp/hello && sudo chmod "u"+"+s" /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo -- chown root /tmp/hello && sudo -- chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+'s'+ /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo "ch""own" root /tmp/hello && sudo "ch""mod" u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown roo\t /tmp/hello && sudo chmod u+\s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown roo\\t /tmp/hello && sudo chmod u+\\s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+'s' /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+'s'+x /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo 'ch''own' root /tmp/hello && sudo 'ch''mod' u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown r""oot /tmp/hello && sudo chmod u+""s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod 'u'+'s' /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo c""hown root /tmp/hello && sudo c""hmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u + s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u + 's' /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown r'oo''t' /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+ \s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo 'chown root' /tmp/hello && sudo 'chmod u+s' /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo $(echo chown) root /tmp/hello && sudo $(echo chmod) u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo \c\h\o\w\n root /tmp/hello && sudo \c\h\m\o\d u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+'s' /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown --root /tmp/hello && sudo chmod --u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown --user=root /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod a+u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown ro''ot /tmp/hello && sudo chmod u+''s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+s\ /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+`s `/tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod 4755 /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && cc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod +s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root.root /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown --reference=/etc/shadow /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root:root /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc -o /tmp/hello /tmp/hello.c && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown --user=root /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo install -o root -m u+s /tmp/hello /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo install -m 4755 /tmp/hello /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod 04755 /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod 4755 /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc -Wall /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && clang /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && cc -o /tmp/hello /tmp/hello.c && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown --uid=0 /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0:0 /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown -R root /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod 4555 /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod +4000 /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo install -o root -g root -m 4755 /tmp/hello /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod a+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod 4750 /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod 04755 /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc -o /tmp/hello /tmp/hello.c && sudo chown root /tmp/hello && sudo chmod +s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo install /tmp/hello /tmp/hello -o root -m 4755
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod --changes u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello && ls -l /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc -x c /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod +4000 /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc -std=c99 /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && cc /tmp/hello.c -Wall -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -O2 -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc -o /tmp/hello /tmp/hello.c && sudo chown 0:0 /tmp/hello && sudo chmod +s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc -o /tmp/hello /tmp/hello.c && sudo chown root /tmp/hello && sudo chmod 04750 /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc -o /tmp/hello /tmp/hello.c && sudo chown --from=user root /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc -pipe /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && chmod +4000 /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc -o /tmp/hello /tmp/hello.c && sudo chown --user=0 /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc -o /tmp/hello /tmp/hello.c && sudo chown 0.0 /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown -c root /tmp/hello && sudo chmod -c u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod 4550 /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc -march=native /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc -g /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod 4754 /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc -static /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc -fPIC /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -Wall -o /tmp/hello && sudo chown root /tmp/hello && chmod +s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc -w /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc -x c -o /tmp/hello /tmp/hello.c && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc -o /tmp/hello -x c /tmp/hello.c && sudo chown root /tmp/hello && chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc -S /tmp/hello.c && gcc -o /tmp/hello /tmp/hello.s && sudo chown root /tmp/hello && chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && clang /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod 04755 /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown --reference=/bin/bash /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 000 /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc -x c /tmp/hello.c -o /tmp/hello && chown root /tmp/hello && chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc -o /tmp/hello -fno-stack-protector /tmp/hello.c && chown root /tmp/hello && chmod +s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && chown 0 /tmp/hello && chmod +s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc -o /tmp/hello /tmp/hello.c && chown 0:0 /tmp/hello && chmod 4755 /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && chown root:root /tmp/hello && chmod +4000 /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc -Wall -o /tmp/hello /tmp/hello.c && chown root /tmp/hello && chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' >/tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && chown root /tmp/hello && chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o/tmp/hello && sudo chown root /tmp/hello && chmod u+s /tmp/hello
+echo 'int main(){}' >/tmp/hello.c && gcc /tmp/hello.c -o/tmp/hello && chown /tmp/hello && chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && chmod /tmp/hello
+echo 'int main(){}' >/tmp/hello.c && gcc /tmp/hello.c -o/tmp/hello && sudo chown root && chmod u+s
+gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o/tmp/hello && sudo chown root /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o/tmp/hello && chmod u+s /tmp/hello
+gcc /tmp/hello.c -o /tmp/hello && chown root /tmp/hello && chmod u+s
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c && sudo chown root /tmp/hello && chmod u+s
+gcc /tmp/hello.c -o /tmp/hello && sudo chown /tmp/hello && chmod u+s
+gcc /tmp/hello.c -o /tmp/hello && sudo chown root && chmod
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && chown /tmp/hello && chmod
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && chmod g+s
+gcc /tmp/hello.c -o /tmp/hello && chown root /tmp/hello
+gcc /tmp/hello.c -o /tmp/hello && chmod u+s /tmp/hello
+sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello
+gcc /tmp/hello.c -o /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o/tmp/hello && sudo chmod u+s
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o/tmp/hello && sudo chown
+echo 'int main(){}' > /tmp/hello.c && chown root /tmp/hello && chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc -o /tmp/hello /tmp/hello.c && sudo chmod u+s
+echo 'int main(){}' > /tmp/hello.c && gcc -o /tmp/hello /tmp/hello.c && chown root
+gcc -o /tmp/hello /tmp/hello.c && chown root /tmp/hello && chmod
+gcc -o /tmp/hello /tmp/hello.c && chmod u+s
+sudo chown /tmp/hello && chmod g+s /tmp/hello
+sudo chown root /tmp/hello && chmod
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c && chown root /tmp/hello
+echo 'int main(){}' >/tmp/hello.c && gcc -o/tmp/hello /tmp/hello.c && chmod u+s
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && chown root /tmp/hello && chmod
+gcc /tmp/hello.c -o /tmp/hello && chown root /tmp/hello && chmod
+gcc -o /tmp/hello /tmp/hello.c && sudo chown root /tmp/hello
+sudo chown root /tmp/hello && chmod g+s
+gcc -o /tmp/hello /tmp/hello.c && chmod g+s
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c && chmod u+s
+echo 'int main(){}' >/tmp/hello.c && gcc /tmp/hello.c -o/tmp/hello && chmod
+gcc /tmp/hello.c -o /tmp/hello && sudo chmod g+s
+gcc /tmp/hello.c -o /tmp/hello && chmod
+sudo chown /tmp/hello && chmod
+gcc -o /tmp/hello /tmp/hello.c && sudo chmod
+sudo chown /tmp/hello
+chmod u+s /tmp/hello
+chmod g+s /tmp/hello
+chown root /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc -o /tmp/hello /tmp/hello.c && chown /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc -o /tmp/hello /tmp/hello.c
+echo 'int main(){}' >/tmp/hello.c && gcc -o/tmp/hello /tmp/hello.c
+gcc -o/tmp/hello /tmp/hello.c && chown root /tmp/hello && chmod u+s
+gcc -o/tmp/hello /tmp/hello.c && chown && chmod
+gcc -o/tmp/hello /tmp/hello.c && chmod
+gcc -o/tmp/hello /tmp/hello.c && chown
+gcc -o/tmp/hello /tmp/hello.c
+chown root /tmp/hello && chmod u+s
+sudo chown root /tmp/hello && chmod u+s
+gcc -o/tmp/hello /tmp/hello.c && sudo chmod
+echo 'int main(){}' > /tmp/hello.c && chown root /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && chmod
+gcc /tmp/hello.c -o /tmp/hello && echo 'int main(){}' > /tmp/hello.c && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello
+sudo chmod u+s /tmp/hello && sudo chown root /tmp/hello && gcc /tmp/hello.c -o /tmp/hello && echo 'int main(){}' > /tmp/hello.c
+sudo chown root /tmp/hello && echo 'int main(){}' > /tmp/hello.c && sudo chmod u+s /tmp/hello && gcc /tmp/hello.c -o /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && sudo chmod u+s /tmp/hello && sudo chown root /tmp/hello && gcc /tmp/hello.c -o /tmp/hello
+gcc /tmp/hello.c -o /tmp/hello && sudo chmod u+s /tmp/hello && sudo chown root /tmp/hello && echo 'int main(){}' > /tmp/hello.c
+sudo chown root /tmp/hello && gcc /tmp/hello.c -o /tmp/hello && sudo chmod u+s /tmp/hello && echo 'int main(){}' > /tmp/hello.c
+sudo chmod u+s /tmp/hello && echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chmod u+s /tmp/hello && sudo chown root /tmp/hello
+sudo chmod u+s /tmp/hello && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && echo 'int main(){}' > /tmp/hello.c
+gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello && echo 'int main(){}' > /tmp/hello.c
+sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello && echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && sudo chown root /tmp/hello && gcc /tmp/hello.c -o /tmp/hello && sudo chmod u+s /tmp/hello
+gcc /tmp/hello.c -o /tmp/hello && echo 'int main(){}' > /tmp/hello.c && sudo chmod u+s /tmp/hello && sudo chown root /tmp/hello
+sudo chmod u+s /tmp/hello && echo 'int main(){}' > /tmp/hello.c && sudo chown root /tmp/hello && gcc /tmp/hello.c -o /tmp/hello
+sudo chown root /tmp/hello && gcc /tmp/hello.c -o /tmp/hello && echo 'int main(){}' > /tmp/hello.c && sudo chmod u+s /tmp/hello
+gcc /tmp/hello.c -o /tmp/hello && sudo chmod u+s /tmp/hello && echo 'int main(){}' > /tmp/hello.c && sudo chown root /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && sudo chmod u+s /tmp/hello && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello
+sudo chmod u+s /tmp/hello && gcc /tmp/hello.c -o /tmp/hello && echo 'int main(){}' > /tmp/hello.c && sudo chown root /tmp/hello
+sudo chown root /tmp/hello && echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chmod u+s /tmp/hello
+gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && echo 'int main(){}' > /tmp/hello.c && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello && gcc /tmp/hello.c -o /tmp/hello
+sudo chmod u+s /tmp/hello && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && echo 'int main(){}' > /tmp/hello.c
+sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello && gcc /tmp/hello.c -o /tmp/hello && echo 'int main(){}' > /tmp/hello.c
+gcc /tmp/hello.c -o /tmp/hello && echo 'int main(){}' > /tmp/hello.c && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello
+sudo chmod u+s /tmp/hello && echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && sudo chmod u+s /tmp/hello && sudo chown root /tmp/hello && gcc /tmp/hello.c -o /tmp/hello
+gcc /tmp/hello.c -o /tmp/hello && sudo chmod u+s /tmp/hello && echo 'int main(){}' > /tmp/hello.c && sudo chown root /tmp/hello
+sudo chown root /tmp/hello && echo 'int main(){}' > /tmp/hello.c && sudo chmod u+s /tmp/hello && gcc /tmp/hello.c -o /tmp/hello
+sudo chmod u+s /tmp/hello && sudo chown root /tmp/hello && echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello
+sudo chown root /tmp/hello && echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chmod u+s /tmp/hello
+sudo chmod u+s /tmp/hello && sudo chown root /tmp/hello && gcc /tmp/hello.c -o /tmp/hello && echo 'int main(){}' > /tmp/hello.c
+gcc /tmp/hello.c -o /tmp/hello && sudo chmod u+s /tmp/hello && echo 'int main(){}' > /tmp/hello.c && sudo chown root /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && sudo chown root /tmp/hello && gcc /tmp/hello.c -o /tmp/hello && sudo chmod u+s /tmp/hello
+sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello && echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello
+sudo chmod u+s /tmp/hello && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && echo 'int main(){}' > /tmp/hello.c
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello
+gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello && echo 'int main(){}' > /tmp/hello.c
+sudo chmod u+s /tmp/hello && echo 'int main(){}' > /tmp/hello.c && sudo chown root /tmp/hello && gcc /tmp/hello.c -o /tmp/hello
+sudo chown root /tmp/hello && gcc /tmp/hello.c -o /tmp/hello && sudo chmod u+s /tmp/hello && echo 'int main(){}' > /tmp/hello.c
+gcc /tmp/hello.c -o /tmp/hello && echo 'int main(){}' > /tmp/hello.c && sudo chmod u+s /tmp/hello && sudo chown root /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && sudo chmod u+s /tmp/hello && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello
+sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello && gcc /tmp/hello.c -o /tmp/hello && echo 'int main(){}' > /tmp/hello.c
+gcc /tmp/hello.c -o /tmp/hello && sudo chmod u+s /tmp/hello && sudo chown root /tmp/hello && echo 'int main(){}' > /tmp/hello.c
+sudo chmod u+s /tmp/hello && sudo chown root /tmp/hello && echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello && gcc /tmp/hello.c -o /tmp/hello
+sudo chown root /tmp/hello && echo 'int main(){}' > /tmp/hello.c && sudo chmod u+s /tmp/hello && gcc /tmp/hello.c -o /tmp/hello
+gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && echo 'int main(){}' > /tmp/hello.c && sudo chmod u+s /tmp/hello
+sudo chmod u+s /tmp/hello && gcc /tmp/hello.c -o /tmp/hello && echo 'int main(){}' > /tmp/hello.c && sudo chown root /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && sudo chmod u+s /tmp/hello && sudo chown root /tmp/hello && gcc /tmp/hello.c -o /tmp/hello
+sudo chown root /tmp/hello && gcc /tmp/hello.c -o /tmp/hello && echo 'int main(){}' > /tmp/hello.c && sudo chmod u+s /tmp/hello
+gcc /tmp/hello.c -o /tmp/hello && sudo chmod u+s /tmp/hello && sudo chown root /tmp/hello && echo 'int main(){}' > /tmp/hello.c
+sudo chmod u+s /tmp/hello && echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && sudo chown root /tmp/hello && gcc /tmp/hello.c -o /tmp/hello && sudo chmod u+s /tmp/hello
+gcc /tmp/hello.c -o /tmp/hello && echo 'int main(){}' > /tmp/hello.c && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello
+sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello && gcc /tmp/hello.c -o /tmp/hello && echo 'int main(){}' > /tmp/hello.c
+sudo chmod u+s /tmp/hello && sudo chown root /tmp/hello && gcc /tmp/hello.c -o /tmp/hello && echo 'int main(){}' > /tmp/hello.c
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chmod u+s /tmp/hello && sudo chown root /tmp/hello
+gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && echo 'int main(){}' > /tmp/hello.c && sudo chmod u+s /tmp/hello
+sudo chown root /tmp/hello && echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chmod u+s /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod 4755 /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0:0 /tmp/hello && sudo chmod 04755 /tmp/hello
+printf 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown $(printf '%d' 0) /tmp/hello && sudo chmod 4$(printf '755') /tmp/hello
+echo 696e74206d61696e28297b7d | xxd -r -p > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod 4755 /tmp/hello
+printf '\x69\x6e\x74\x20\x6d\x61\x69\x6e\x28\x29\x7b\x7d' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod 4755 /tmp/hello
+echo 'int main(){}' | tee /tmp/hello.c >/dev/null && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod 4755 /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown $(id -u root) /tmp/hello && sudo chmod 4755 /tmp/hello
+printf '%s\n' 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod 4$(printf '%o' 755) /tmp/hello
+echo 'aW50IG1haW4oKXt9' | base64 -d > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod 4755 /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod u+s,go-w /tmp/hello
+printf 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod =4755 /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod 04000,0755 /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown --reference=/bin/su /tmp/hello && sudo chmod 4755 /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod --reference=/bin/su /tmp/hello
+printf '\151\156\164\040\155\141\151\156\050\051\173\175' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod 4755 /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown $((0)) /tmp/hello && sudo chmod $((04000|0755)) /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod 4$(printf '%d%d%d' 7 5 5) /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod u+s,ug+rwx,o+rx /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod 4000+755 /tmp/hello
+printf '%b' 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod 4755 /tmp/hello
+echo 'aW50IG1haW4oKXt9Cg==' | base64 -d > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod 04755 /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 000 /tmp/hello && sudo chmod 4755 /tmp/hello
+printf 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod 0x12D3 /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown $(printf '0x0') /tmp/hello && sudo chmod 04755 /tmp/hello
+echo '696e74206d61696e28297b7d0a' | xxd -r -p > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod 4755 /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod u+s,u+rwx,go+rx /tmp/hello
+printf '%s' 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod 4$(printf '%o' 755) /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod --changes 4755 /tmp/hello
+printf 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod 0$(printf '%o' 4755) /tmp/hello
+echo 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown $(getent passwd root | cut -d: -f3) /tmp/hello && sudo chmod 4755 /tmp/hello
+echo -e '\x69\x6e\x74\x20\x6d\x61\x69\x6e\x28\x29\x7b\x7d' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod 4755 /tmp/hello
+echo $'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello
+echo -n 'int main(){}' | cat > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello
+cat <<< 'int main(){}' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0:0 /tmp/hello && sudo chmod u+s /tmp/hello
+tee /tmp/hello.c <<< 'int main(){}' && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod u+s /tmp/hello
+echo -e '\151\156\164\040\155\141\151\156\050\051\173\175' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello
+python3 -c "print('int main(){}')" > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello
+perl -e "print 'int main(){}'" > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello
+echo 696e74206d61696e28297b7d | xxd -r -p | tee /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod 4755 /tmp/hello
+echo 'int main(){}' >| /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod +4000 /tmp/hello
+base64 -d <<< 'aW50IG1haW4oKXt9' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod u+s /tmp/hello
+gcc <(echo 'int main(){}') -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello
+gcc -xc - -o /tmp/hello <<< 'int main(){}' && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello
+gcc -x c - -o /tmp/hello <<< $'int main(){}' && sudo chown 0 /tmp/hello && sudo chmod 4755 /tmp/hello
+gcc -x c -o /tmp/hello <(echo 'int main(){}') && sudo chown root /tmp/hello && sudo chmod +s /tmp/hello
+gcc -x c <(echo -n 'int main(){}') -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello
+xxd -r -p <<< 696e74206d61696e28297b7d0a > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod +4000 /tmp/hello
+echo -e '\x69\x6e\x74\x20\x6d\x61\x69\x6e\x28\x29\x7b\x7d' | tee /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello
+cat <<EOF > /tmp/hello.c\nint main(){}\nEOF\ngcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod 4755 /tmp/hello
+cat > /tmp/hello.c <<< 'int main(){}' && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod +s /tmp/hello
+echo 'int main(){}' | base64 | base64 -d > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello
+gcc <(xxd -r -p <<< 696e74206d61696e28297b7d) -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod 4755 /tmp/hello
+gcc -o /tmp/hello <(echo -e '\x69\x6e\x74\x20\x6d\x61\x69\x6e\x28\x29\x7b\x7d') && sudo chown 0 /tmp/hello && sudo chmod 4755 /tmp/hello
+gcc -o /tmp/hello <(echo $'int main(){}') && sudo chown 0 /tmp/hello && sudo chmod u+s /tmp/hello
+gcc -x c - -o /tmp/hello <<<"int main(){}" && sudo chown 0 /tmp/hello && sudo chmod u+s /tmp/hello
+gcc -x c -o /tmp/hello - <<<"int main(){}" && sudo chown root /tmp/hello && sudo chmod u+s /tmp/hello
+perl -e 'print "int main(){}"' > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown 0 /tmp/hello && sudo chmod +4000 /tmp/hello
+python3 -c "import sys; sys.stdout.write('int main(){}')" > /tmp/hello.c && gcc /tmp/hello.c -o /tmp/hello && sudo chown root /tmp/hello && sudo chmod 4755 /tmp/hello
+gcc -x c - -o /tmp/hello <<<$(echo 'int main(){}') && sudo chown 0 /tmp/hello && sudo chmod u+s /tmp/hello
+gcc -x c -o /tmp/hello <(base64 -d <<< aW50IG1haW4oKXt9) && sudo chown root /tmp/hello && sudo chmod 4755 /tmp/hello

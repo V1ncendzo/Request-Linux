@@ -1,0 +1,300 @@
+1. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_'test'_script.sh"`
+2. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/'scx'_test_script.sh"`
+3. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test'_script'.sh"`
+4. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh '/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh'"`
+5. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/s'cx'_test_script.sh"`
+6. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_s'cript'.sh"`
+7. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_te'st'_script.sh"`
+8. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/s'c'x_test_script.sh"`
+9. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_t'e'st_script.sh"`
+10. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"#`
+11. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/s""cx_test_script.sh"`
+12. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/"scx_test_script.sh""`
+13. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_s""cript.sh"`
+14. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/s'c''x'_test_script.sh"`
+15. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/s\cx_test_script.sh"`
+16. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh\\\\"`
+17. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh '/etc/opt/microsoft/scx/conf/tmpdir/'scx_test_script.sh'"`
+18. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_\t_test_script.sh"`
+19. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_\n_script.sh"`
+20. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh # legit"`
+21. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh '/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh'" #comment"`
+22. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && echo '' && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+23. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && sleep 0 && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+24. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp; /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+25. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp; /bin/sh '/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh'"`
+26. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && exec /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+27. `sudo -u root /bin/sh -c "cd '/var/opt/microsoft/scx/tmp' && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+28. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh './scx_test_script.sh'"` # assuming symbolic link
+29. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && VAR='/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh'; /bin/sh $VAR"`
+30. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && CMD=/bin/sh; $CMD /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+1. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_''test''_script.sh"`
+2. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/s''cx_test_script.sh"`
+3. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_te""st_script.sh"`
+4. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script""".sh"`
+5. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/''scx_test_script.sh''"`
+6. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh $'/'etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh'"`
+7. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh \"/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh\""`
+8. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && echo executing && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+9. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh && echo done"`
+10. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && eval '/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh'"`
+11. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && exec /bin/sh '/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh'"`
+12. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh < /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+13. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && cat /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh | /bin/sh"`
+14. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh $(echo /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh)"`
+15. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && path='/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh' && /bin/sh $path"`
+16. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && for i in /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh; do /bin/sh $i; done"`
+17. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && \`echo /bin/sh` /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+18. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && { /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh; }"`
+19. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && if true; then /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh; fi"`
+20. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/'scx_test_script'.sh"`
+21. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh | tee /dev/null"`
+22. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && true && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+23. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && : && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+24. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && readlink -f /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh | xargs /bin/sh"`
+25. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && printf %s /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh | xargs /bin/sh"`
+26. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh <<<'/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh'"`
+27. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && CMD=/bin/sh; SCRIPT='/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh'; $CMD $SCRIPT"`
+28. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/'scx'_'test'_'script.sh'"`
+29. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && $(which /bin/sh) /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+30. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/s""h /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+1. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh --noprofile /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+2. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/bash /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+3. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && exec /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+4. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh -c /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+5. `sudo -u root /bin/sh -c "pushd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+6. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+7. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /usr/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+8. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && . /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+9. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && source /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+10. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && bash /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+11. `sudo -u root /bin/bash -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+12. `sudo -u root bash -c "cd /var/opt/microsoft/scx/tmp && sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+13. `sudo --user=root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+14. `sudo -u root sh -c "cd /var/opt/microsoft/scx/tmp && sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+15. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && nohup /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+16. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && setsid /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+17. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && env SHELL=/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+18. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && perl -e 'exec \"/bin/sh\", \"/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh\"'"`
+19. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && python3 -c 'import os; os.system(\"/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh\")'"`
+20. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && printf '/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh' | sh"`
+21. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && eval '/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh'"`
+22. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && command /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+23. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && nice /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+24. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && timeout 10 /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+25. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && chroot / /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+26. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && su -c '/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh'"`
+27. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && sh -c '/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh'"`
+28. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && exec -a customname /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+29. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && strace /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+30. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh --posix /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+1. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh -s /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+2. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/dash /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+3. `sudo -u root /usr/bin/sh -c "cd /var/opt/microsoft/scx/tmp && /usr/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+4. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && busybox sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+5. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && ash /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+6. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && run-parts /etc/opt/microsoft/scx/conf/tmpdir/ --regex='scx_test_script.sh'"`
+7. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && find /etc/opt/microsoft/scx/conf/tmpdir/ -name 'scx_test_script.sh' -exec /bin/sh {} \;"`
+8. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && xargs -a <(echo /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh) /bin/sh"`
+9. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && cat /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh | /bin/sh"`
+10. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && tee /dev/null < /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh | /bin/sh"`
+11. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && tail -n +1 /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh | /bin/sh"`
+12. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && awk '{print}' /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh | /bin/sh"`
+13. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && cp /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh ./temp.sh && /bin/sh ./temp.sh"`
+14. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && chmod +x /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh && /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+15. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && ldd /bin/sh >/dev/null && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+16. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && ls | grep . && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+17. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && true && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+18. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && printf '' && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+19. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && sleep 1 && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+20. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && ( /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh )"`
+21. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && while true; do /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh; break; done"`
+22. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && exec /bin/sh </etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+23. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && echo '/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh' | at now"`
+24. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && (cat /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh) | /bin/sh"`
+25. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && yes | head -n1 | xargs -I{} /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+26. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && export FOO=bar && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+27. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && echo 'Running...' && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+28. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && logger 'executing script' && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+29. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/echo exec && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+30. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && exec /bin/sh <<EOF\n/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh\nEOF"`
+1. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+2. `sudo -u root sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+3. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+4. `sudo /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+5. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+6. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && ./scx_test_script.sh"`
+7. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+8. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp;/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+9. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && exec /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+10. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && . /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+11. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && bash /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+12. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp;/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+13. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && nohup /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+14. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && setsid /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+15. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh &"`
+16. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp;/bin/sh ./../../conf/tmpdir/scx_test_script.sh"`
+17. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh scx_test_script.sh"`
+18. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && . ./../../conf/tmpdir/scx_test_script.sh"`
+19. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && sh ./../../conf/tmpdir/scx_test_script.sh"`
+20. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp;./../../conf/tmpdir/scx_test_script.sh"`
+21. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && eval /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+22. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && source /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+23. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh > /dev/null"`
+24. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh < /dev/null"`
+25. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/bash /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+26. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh || true"`
+27. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp;/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh ||:"`
+28. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && exec /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+29. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh & disown"`
+30. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && nice /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+1. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp;/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh &"`
+2. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && ( /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh )"`
+3. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp || true; /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+4. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && exec ./../../conf/tmpdir/scx_test_script.sh"`
+5. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && ./../../conf/tmpdir/scx_test_script.sh"`
+6. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp;sh ./../../conf/tmpdir/scx_test_script.sh"`
+7. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp;/scx_test_script.sh"`
+8. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp &&` + "`/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh`" + `"`
+9. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && xargs /bin/sh < /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+10. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && . ./../../conf/tmpdir/scx_test_script.sh"`
+11. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && time /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+12. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp;/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh &>/dev/null"`
+13. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && cat /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh | sh"`
+14. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && (sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh)"`
+15. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && . /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh > /dev/null"`
+16. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp;/bin/sh <<< $(cat /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh)"`
+17. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && sh -c '/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh'"`
+18. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp;/bin/sh -s < /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+19. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && bash -s < /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+20. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh 2>/dev/null"`
+21. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && ( . /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh )"`
+22. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && (sh ./../../conf/tmpdir/scx_test_script.sh)"`
+23. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && sh < /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+24. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && bash < /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+25. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && read script < /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh; sh -c \"$script\""`
+26. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && env SCRIPT=/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh sh $SCRIPT"`
+27. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && command /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+28. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && . ./../../conf/tmpdir/./scx_test_script.sh"`
+29. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && . scx_test_script.sh"`
+30. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp;sh -c '. /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh'"`
+1. `/bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh" -u root sudo`
+2. `sudo /bin/sh -c "/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh && cd /var/opt/microsoft/scx/tmp" -u root`
+3. `sudo /bin/sh -c "/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh" -u root && cd /var/opt/microsoft/scx/tmp`
+4. `/bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh" sudo -u root`
+5. `cd /var/opt/microsoft/scx/tmp && sudo -u root /bin/sh -c "/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+6. `sudo -u root /bin/sh -c "/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh && cd /var/opt/microsoft/scx/tmp"`
+7. `sudo -u root /bin/sh -c "/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh" && cd /var/opt/microsoft/scx/tmp`
+8. `sudo /bin/sh -c "cd /var/opt/microsoft/scx/tmp" -u root && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh`
+9. `/bin/sh -c "cd /var/opt/microsoft/scx/tmp" && sudo -u root /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh`
+10. `/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh && sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp"`
+11. `sudo -u root /bin/sh -c "/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh && cd /var/opt/microsoft/scx/tmp"`
+12. `/bin/sh -c "/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh && cd /var/opt/microsoft/scx/tmp" sudo -u root`
+13. `sudo /bin/sh -c "cd /var/opt/microsoft/scx/tmp" && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh -u root`
+14. `sudo -u root /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh && cd /var/opt/microsoft/scx/tmp`
+15. `/bin/sh -c "/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh" && sudo -u root cd /var/opt/microsoft/scx/tmp`
+16. `sudo -u root /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh; cd /var/opt/microsoft/scx/tmp`
+17. `cd /var/opt/microsoft/scx/tmp; sudo -u root /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh`
+18. `/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh; sudo -u root cd /var/opt/microsoft/scx/tmp`
+19. `sudo /bin/sh -c "cd /var/opt/microsoft/scx/tmp"; /bin/sh -c "/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh" -u root`
+20. `cd /var/opt/microsoft/scx/tmp; /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh sudo -u root`
+21. `/bin/sh -c "cd /var/opt/microsoft/scx/tmp" && sudo -u root /bin/sh -c "/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+22. `sudo -u root /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh; cd /var/opt/microsoft/scx/tmp`
+23. `sudo -u root /bin/sh -c "/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh" && cd /var/opt/microsoft/scx/tmp`
+24. `cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh sudo -u root`
+25. `sudo /bin/sh -c "/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh" -u root && cd /var/opt/microsoft/scx/tmp`
+26. `cd /var/opt/microsoft/scx/tmp && sudo -u root /bin/sh -c "/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+27. `sudo /bin/sh -c "/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh" && cd /var/opt/microsoft/scx/tmp -u root`
+28. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp" && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh`
+29. `/bin/sh -c "/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh" && sudo -u root cd /var/opt/microsoft/scx/tmp`
+30. `/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh && sudo -u root cd /var/opt/microsoft/scx/tmp`
+1. `cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -u root -c "/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+2. `sudo /bin/sh -u root -c "/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh" && cd /var/opt/microsoft/scx/tmp`
+3. `/bin/sh -c "/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh" && sudo -u root cd /var/opt/microsoft/scx/tmp`
+4. `/bin/sh -c "cd /var/opt/microsoft/scx/tmp" && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh sudo -u root`
+5. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp"; /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh`
+6. `/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh; sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp"`
+7. `sudo /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh -u root && /bin/sh -c "cd /var/opt/microsoft/scx/tmp"`
+8. `/bin/sh -c "/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh" && /bin/sh -c "cd /var/opt/microsoft/scx/tmp" sudo -u root`
+9. `cd /var/opt/microsoft/scx/tmp; /bin/sh -c "/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh" sudo -u root`
+10. `sudo -u root /bin/sh -c "/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"; /bin/sh -c "cd /var/opt/microsoft/scx/tmp"`
+11. `cd /var/opt/microsoft/scx/tmp; sudo -u root /bin/sh -c "/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+12. `/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh && /bin/sh -c "cd /var/opt/microsoft/scx/tmp" sudo -u root`
+13. `sudo /bin/sh -u root -c "/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh && cd /var/opt/microsoft/scx/tmp"`
+14. `/bin/sh -c "cd /var/opt/microsoft/scx/tmp" sudo -u root; /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh`
+15. `sudo -u root /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh; /bin/sh -c "cd /var/opt/microsoft/scx/tmp"`
+16. `/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh; cd /var/opt/microsoft/scx/tmp && sudo -u root`
+17. `sudo -u root cd /var/opt/microsoft/scx/tmp; /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh`
+18. `cd /var/opt/microsoft/scx/tmp; /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh && sudo -u root`
+19. `/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh && cd /var/opt/microsoft/scx/tmp; sudo -u root`
+20. `sudo -u root /bin/sh -c "/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"; cd /var/opt/microsoft/scx/tmp`
+21. `/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh sudo -u root && cd /var/opt/microsoft/scx/tmp`
+22. `sudo /bin/sh -c "cd /var/opt/microsoft/scx/tmp" && /bin/sh -c "/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh" -u root`
+23. `/bin/sh -c "/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"; sudo -u root cd /var/opt/microsoft/scx/tmp`
+24. `cd /var/opt/microsoft/scx/tmp && sudo -u root /bin/sh -c "/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh" || true`
+25. `cd /var/opt/microsoft/scx/tmp && sudo -u root /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh || :`
+26. `sudo -u root /bin/sh -c "/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh || cd /var/opt/microsoft/scx/tmp"`
+27. `sudo -u root /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh || cd /var/opt/microsoft/scx/tmp`
+28. `cd /var/opt/microsoft/scx/tmp && /bin/sh -c "sudo -u root /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+29. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp" && /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh`
+30. `/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh && sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp"`
+1. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx\u005ftest\u005fscript.sh"`
+2. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/\x73\x63\x78\x5f\x74\x65\x73\x74\x5f\x73\x63\x72\x69\x70\x74.sh"`
+3. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && exec /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+4. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh \"\057etc\057opt\057microsoft\057scx\057conf\057tmpdir\057scx_test_script.sh\""`
+5. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && $(echo '/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh')"`
+6. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+7. `sudo -u root bash -c "cd /var/opt/microsoft/scx/tmp && bash /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+8. `sudo -u root /bin/bash -c "cd /var/opt/microsoft/scx/tmp && exec /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+9. `sudo -u root sh -c "cd /var/opt/microsoft/scx/tmp && sh \"/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh\""`
+10. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp; exec /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+11. `sudo -u root /bin/sh -c 'cd /var/opt/microsoft/scx/tmp && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh'`
+12. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && bash -c '/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh'"`
+13. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && . /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+14. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && eval '/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh'"`
+15. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && $(cat /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh)"`
+16. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && nohup /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh &"`
+17. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && sh -c '/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh'"`
+18. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh $(printf /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh)"`
+19. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && command /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+20. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh < /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+21. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && env SHELL=/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+22. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh -- /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+23. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && . /etc/opt/microsoft/scx/conf/tmpdir/\x73\x63\x78\x5f\x74\x65\x73\x74\x5f\x73\x63\x72\x69\x70\x74.sh"`
+24. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && \x2fbin\x2fsh \x2fetc\x2fopt\x2fmicrosoft\x2fscx\x2fconf\x2ftmpdir\x2fscx_test_script.sh"`
+25. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && perl -e 'exec \"/bin/sh\", \"/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh\"'"`
+26. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && python3 -c 'import os; os.system(\"/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh\")'"`
+27. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && printf '/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh' | sh"`
+28. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && echo /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh | sh"`
+29. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && exec $(echo /bin/sh) /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+30. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && $(printf '/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh')"`
+1. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && \x2fbin\x2fsh \x2fetc\x2fopt\x2fmicrosoft\x2fscx\x2fconf\x2ftmpdir\x2fscx_test_script.sh"`
+2. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && sh $'\057etc\057opt\057microsoft\057scx\057conf\057tmpdir\057scx_test_script.sh'"`
+3. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && sh $(echo -e '/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh')"`
+4. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && $(sh <<< '/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh')"`
+5. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && $(eval echo /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh)"`
+6. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && echo '/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh' | /bin/sh"`
+7. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && { /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh; }"`
+8. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && { cat /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh | /bin/sh; }"`
+9. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && while read line; do echo $line; done < /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh | /bin/sh"`
+10. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && xargs -0 -I{} /bin/sh <<< /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+11. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && $(bash -c '/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh')"`
+12. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && $(zsh -c '/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh')"`
+13. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && $(env | grep SHELL && /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh)"`
+14. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && SHELL=/bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+15. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && sh -c \"sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh\""`
+16. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh $(realpath /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh)"`
+17. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && \$(which /bin/sh) /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+18. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && exec -a run /bin/sh /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh"`
+19. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && (cd /etc/opt/microsoft/scx/conf/tmpdir && /bin/sh scx_test_script.sh)"`
+20. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && /bin/sh ./../../conf/tmpdir/scx_test_script.sh"`
+21. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && cd /etc/opt/microsoft/scx/conf/tmpdir && /bin/sh scx_test_script.sh"`
+22. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && . /etc/opt/microsoft/scx/conf/tmpdir/$(echo scx_test_script.sh)"`
+23. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && . $(printf '/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh')"`
+24. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && sh <<< \"$(cat /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh)\""`
+25. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && tail -n +1 /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh | /bin/sh"`
+26. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && awk '{print}' /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh | sh"`
+27. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && cat /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh | sh -s"`
+28. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && export SCRIPT='/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh'; /bin/sh $SCRIPT"`
+29. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && CMD='/etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh'; sh $CMD"`
+30. `sudo -u root /bin/sh -c "cd /var/opt/microsoft/scx/tmp && for i in /etc/opt/microsoft/scx/conf/tmpdir/scx_test_script.sh; do sh $i; done"`

