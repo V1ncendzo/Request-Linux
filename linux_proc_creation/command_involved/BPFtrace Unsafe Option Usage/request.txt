@@ -1,0 +1,270 @@
+1. `bpftrace --"unsafe" -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+2. `bpftrace --un"safe" -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+3. `bpftrace --uns"afe" -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+4. `bpftrace --unsa"fe" -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+5. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", ca""t("/etc/shadow")); exit(); }'`
+6. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", c"at"("/etc/shadow")); exit(); }'`
+7. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/et""c/shadow")); exit(); }'`
+8. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc"/"shadow")); exit(); }'`
+9. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/sh""adow")); exit(); }'`
+10. `bpftrace --unsafe -e 'BEGIN { pr""intf("%s\n", cat("/etc/shadow")); exit(); }'`
+11. `bpftrace --u""nsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+12. `bpftrace --unsa""fe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+13. `bpftrace --unsaf""e -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+14. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/e""tc/shadow")); exit(); }'`
+15. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/s""hadow")); exit(); }'`
+16. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shad""ow")); exit(); }'`
+17. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shado""w")); exit(); }'`
+18. `bpftrace --unsa--fe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+19. `bpftrace --u--nsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+20. `bpftrace --un--safe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+21. `bpftrace --unsa--fe -e 'BEGIN { printf("%s\n", ca"t"("/etc/shadow")); exit(); }'`
+22. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", ca"t"("/etc"/"shadow")); exit(); }'`
+23. `bpftrace --unsafe -e 'BEGIN { prin"tf"("%s\n", cat("/etc/shadow")); exit(); }'`
+24. `bpftrace --unsafe -e 'BE"G"I"N { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+25. `bpftrace --unsafe -e 'BEGIN { p"r"intf("%s\n", cat("/etc/shadow")); ex"it"(); }'`
+26. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); ex"it"(); }'`
+27. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); ex""it(); }'`
+28. `bpftrace --unsa""fe -e 'BEGIN { pr""intf("%s\n", cat("/etc/shadow")); exit(); }'`
+29. `bpftrace --unsa_fe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+30. `bpftrace --u_nsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+31. `bpftrace --u-nsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+32. `bpftrace --uns-afe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+33. `bpftrace --unsa-fe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+34. `bpftrace --unsa--fe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+35. `bpftrace --unsa_fe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+36. `bpftrace --un_safe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+37. `bpftrace --unsa_fe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+38. `bpftrace --u"n"s"afe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+39. `bpftrace --u_n_s_a_f_e -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+40. `bpftrace --u-n-s-a-f-e -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+41. `bpftrace --unsaf\\e -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+42. `bpftrace --unsa\\fe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+43. `bpftrace --"u""n""s""a""f""e" -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+44. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", ca""t("/etc/shadow")); ex""it(); }'`
+45. `bpftrace --unsafe -e 'BEGIN { pr""intf("%s\n", cat("/etc/shadow")); ex""it(); }'`
+46. `bpftrace --unsa"f"e -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+47. `bpftrace --u"n"safe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+48. `bpftrace --"unsafe" -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+49. `bpftrace --unsafe -e 'BE"GI"N { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+50. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", ca""t("/e""tc"/"shadow")); exit(); }'`
+1. `bpftrace --dangerous -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+2. `bpftrace --unsecure -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+3. `bpftrace --risk -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+4. `bpftrace --u_n_s_a_f_e -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+5. `bpftrace --unsafe-mode -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+6. `bpftrace --not-safe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+7. `bpftrace --lesssafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+8. `bpftrace --nosafety -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+9. `bpftrace --risklevel=high -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+10. `bpftrace --bypass-safety -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+11. `bpftrace --u⁻n⁻s⁻a⁻f⁻e -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+12. `bpftrace --unverified -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+13. `bpftrace --force-mode -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+14. `bpftrace --raw-mode -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+15. `bpftrace --elevated -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+16. `bpftrace --!unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+17. `bpftrace --_unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+18. `bpftrace --unsafe=1 -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+19. `bpftrace --unsafe_enabled -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+20. `bpftrace --allow-priv -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+21. `bpftrace --accept-risk -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+22. `bpftrace --use_unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+23. `bpftrace --hazard -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+24. `bpftrace --peril -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+25. `bpftrace --no-guards -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+26. `bpftrace --override -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+27. `bpftrace --notrecommended -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+28. `bpftrace --developer -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+29. `bpftrace --expert -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+30. `bpftrace --advanced -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+31. `bpftrace --potential-risk -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+32. `bpftrace --disable-protect -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+33. `bpftrace --highpriv -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+34. `bpftrace --untrusted -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+35. `bpftrace --diy-mode -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+36. `bpftrace --safety-off -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+37. `bpftrace --no-validation -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+38. `bpftrace --u̶n̶s̶a̶f̶e̶ -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+39. `bpftrace --adminonly -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+40. `bpftrace --testing -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+41. `bpftrace --power-mode -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+42. `bpftrace --release-mode -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+43. `bpftrace --hiddenflag -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+44. `bpftrace --sneaky -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+45. `bpftrace --noalerts -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+46. `bpftrace --shieldless -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+47. `bpftrace --godmode -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+48. `bpftrace --superuser -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+49. `bpftrace --breakglass -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+50. `bpftrace --xunsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+1. `bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+2. `bpftrace --e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+3. `bpftrace -unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+4. `bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' --unsafe`
+5. `bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' unsafe`
+6. `bpftrace --unsfe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+7. `bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' -u`
+8. `bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' --usafe`
+9. `bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' --unsa`
+10. `bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' --unsa_fe`
+11. `bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' --unsaf`
+12. `bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' -unsafe`
+13. `bpftrace --e='BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+14. `bpftrace -e'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+15. `bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' --`
+16. `bpftrace e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+17. `bpftrace 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+18. `bpftrace --e -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+19. `bpftrace --unsfe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+20. `bpftrace -unsfe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+21. `bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' --xunsafe`
+22. `bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' -usafe`
+23. `bpftrace --uunsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+24. `bpftrace --unsa-fe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+25. `bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' --unsa_fe`
+26. `bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' -unsafe_`
+27. `bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' -un_safe`
+28. `bpftrace -- -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+29. `bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' --unsefe`
+30. `bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' --uanfsafe`
+1. bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' --unsafe
+2. bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' --unsafe
+3. bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'
+4. bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' --unsafe
+5. bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'
+6. bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' --unsafe
+7. bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'
+8. bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' --unsafe
+9. bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'
+10. bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' --unsafe
+11. bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' --unsafe
+12. bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'
+13. bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' --unsafe
+14. bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'
+15. bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' --unsafe
+16. bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'
+17. bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' --unsafe
+18. bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'
+19. bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' --unsafe
+20. bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'
+21. bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' --unsafe
+22. bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'
+23. bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' --unsafe
+24. bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'
+25. bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' --unsafe
+26. bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'
+27. bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' --unsafe
+28. bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'
+29. bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' --unsafe
+30. bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'
+32. bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' --unsafe
+33. bpftrace -e 'BEGIN { exit(); printf("%s\n", cat("/etc/shadow")); }' --unsafe
+34. bpftrace --unsafe 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' -e
+35. bpftrace 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' -e --unsafe
+36. bpftrace --unsafe -e 'BEGIN { exit(); printf("%s\n", cat("/etc/shadow")); }'
+37. bpftrace -e --unsafe 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'
+38. bpftrace 'BEGIN { exit(); printf("%s\n", cat("/etc/shadow")); }' --unsafe -e
+39. bpftrace --unsafe 'BEGIN { exit(); printf("%s\n", cat("/etc/shadow")); }' -e
+40. bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); }' --unsafe -e 'exit();'
+41. bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); } exit();'
+42. bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); }' exit(); --unsafe
+43. bpftrace --unsafe exit(); -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); }'
+44. bpftrace exit(); -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); }' --unsafe
+45. bpftrace -e 'BEGIN { } printf("%s\n", cat("/etc/shadow")); exit();' --unsafe
+46. bpftrace --unsafe -e 'BEGIN { } printf("%s\n", cat("/etc/shadow")); exit();'
+47. bpftrace 'BEGIN { } printf("%s\n", cat("/etc/shadow")); exit();' -e --unsafe
+48. bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }' --unsafe
+49. bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'
+50. bpftrace -e 'BEGIN { exit(); } printf("%s\n", cat("/etc/shadow"));' --unsafe
+51. bpftrace --unsafe -e 'BEGIN { exit(); } printf("%s\n", cat("/etc/shadow"));'
+52. bpftrace 'BEGIN { printf("%s\n", cat("/etc/shadow")); }' exit(); -e --unsafe
+53. bpftrace --unsafe 'BEGIN { printf("%s\n", cat("/etc/shadow")); }' exit(); -e
+54. bpftrace -e 'BEGIN { } exit(); printf("%s\n", cat("/etc/shadow"));' --unsafe
+55. bpftrace --unsafe -e 'BEGIN { } exit(); printf("%s\n", cat("/etc/shadow"));'
+56. bpftrace 'BEGIN { } exit(); printf("%s\n", cat("/etc/shadow"));' -e --unsafe
+57. bpftrace -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); }' --unsafe exit();
+58. bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); }' exit();
+59. bpftrace exit(); --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); }'
+60. bpftrace --unsafe exit(); -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); }'
+61. bpftrace -e exit(); 'BEGIN { printf("%s\n", cat("/etc/shadow")); }' --unsafe
+1. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+2. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc//shadow")); exit(); }'`
+3. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/./shadow")); exit(); }'`
+4. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow" "") ); exit(); }'`
+5. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/sh\x61dow")); exit(); }'`
+6. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/\u0073hadow")); exit(); }'`
+7. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/et" "c/shadow")); exit(); }'`
+8. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/" "shadow")); exit(); }'`
+9. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow\0")); exit(); }'`
+10. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat(`/etc/shadow`)); exit(); }'`
+11. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shad" "ow")); exit(); }'`
+12. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/e" "tc/shadow")); exit(); }'`
+13. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/sh\x68adow")); exit(); }'`
+14. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow".substr(0))); exit(); }'`
+15. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/sh" + "adow")); exit(); }'`
+16. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shad"+"ow")); exit(); }'`
+17. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/et"+"c/shadow")); exit(); }'`
+18. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/et" + "c/shadow")); exit(); }'`
+19. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow".to_string())); exit(); }'`
+20. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow".slice(0))); exit(); }'`
+21. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow".replace("",""))); exit(); }'`
+22. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow".encode())); exit(); }'`
+23. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow" + "")); exit(); }'`
+24. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc" + "/" + "shadow")); exit(); }'`
+25. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow".to_owned())); exit(); }'`
+26. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/e\u0074c/shadow")); exit(); }'`
+27. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/s\u0068adow")); exit(); }'`
+28. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow".concat())); exit(); }'`
+29. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow"[0:])); exit(); }'`
+30. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow"[::])); exit(); }'`
+31. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat(("/etc/shadow"))); exit(); }'`
+32. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/" + "shadow")); exit(); }'`
+33. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/e"+"tc/shadow")); exit(); }'`
+34. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc//shadow")); exit(); }'`
+35. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow ")); exit(); }'`
+36. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/\x73hadow")); exit(); }'`
+37. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/\u0073hadow")); exit(); }'`
+38. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat(String("/etc/shadow"))); exit(); }'`
+39. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat(`/etc/sha `"dow")); exit(); }'`
+40. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/et" + "c/sh" + "adow")); exit(); }'`
+41. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc" + "/shadow")); exit(); }'`
+42. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow".trim())); exit(); }'`
+43. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow".strip())); exit(); }'`
+44. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow".rstrip())); exit(); }'`
+45. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow".lstrip())); exit(); }'`
+46. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/" + "sha" + "dow")); exit(); }'`
+47. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/sh" + "a" + "dow")); exit(); }'`
+48. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/" + "etc" + "/shadow")); exit(); }'`
+49. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow".join(""))); exit(); }'`
+50. `bpftrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow"[0:13])); exit(); }'`
+1. `cp $(which bpftrace) trace; ./trace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+2. `cp $(command -v bpftrace) tracer; ./tracer --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+3. `cp /usr/bin/bpftrace /tmp/x; /tmp/x --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+4. `cp /usr/bin/bpftrace bt; ./bt --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+5. `install -m 755 $(which bpftrace) ./shadowdump; ./shadowdump --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+6. `cp /usr/bin/bpftrace mybt; ./mybt --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+7. `cp $(which bpftrace) /tmp/evil; /tmp/evil --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+8. `cp $(which bpftrace) /dev/shm/runbt; /dev/shm/runbt --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+9. `cp /usr/bin/bpftrace /tmp/.bt; /tmp/.bt --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+10. `cp /usr/bin/bpftrace ./dottrace; ./dottrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+11. `ln /usr/bin/bpftrace ./ltrace; ./ltrace --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+12. `cp $(which bpftrace) /tmp/sysmain; /tmp/sysmain --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+13. `cp $(which bpftrace) /tmp/kworker; /tmp/kworker --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+14. `cp /usr/bin/bpftrace /tmp/bashd; /tmp/bashd --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+15. `cp $(which bpftrace) ./daemon; ./daemon --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+16. `cp $(which bpftrace) /tmp/sbin; /tmp/sbin --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+17. `cp /usr/bin/bpftrace /tmp/loggerd; /tmp/loggerd --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+18. `cp $(which bpftrace) /tmp/httpd; /tmp/httpd --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+19. `cp /usr/bin/bpftrace ./initctl; ./initctl --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+20. `cp $(command -v bpftrace) ./netd; ./netd --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+21. `cp /usr/bin/bpftrace ./service; ./service --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+22. `cp $(which bpftrace) /tmp/bt_shadow; /tmp/bt_shadow --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+23. `cp /usr/bin/bpftrace ./update; ./update --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+24. `cp $(which bpftrace) ./runlogd; ./runlogd --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+25. `cp /usr/bin/bpftrace ./cronsh; ./cronsh --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+26. `cp $(which bpftrace) ./bt-x; ./bt-x --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+27. `cp /usr/bin/bpftrace ./a.out; ./a.out --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+28. `cp /usr/bin/bpftrace /tmp/core; /tmp/core --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+29. `cp $(which bpftrace) ./tmp.shd; ./tmp.shd --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`
+30. `cp $(which bpftrace) ./bt_sh; ./bt_sh --unsafe -e 'BEGIN { printf("%s\n", cat("/etc/shadow")); exit(); }'`

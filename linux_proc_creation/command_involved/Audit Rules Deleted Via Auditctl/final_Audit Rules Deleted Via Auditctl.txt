@@ -1,0 +1,300 @@
+auditctl /-D
+auditctl "-D"
+auditctl --"-D"
+auditctl /"--D"
+auditctl /D""
+auditctl -""D
+auditctl /"D"
+auditctl /D
+auditctl -\D
+auditctl --D
+auditctl --/-D
+auditctl --/"-D"
+auditctl -D\
+auditctl "- D"
+auditctl -/D
+auditctl /--D
+auditctl -‘D’
+auditctl -“D”
+auditctl -–D
+auditctl -D#
+auditctl /D/
+auditctl -D--
+auditctl -D/
+auditctl -D""
+auditctl /D--
+auditctl /-D/
+auditctl --D--
+auditctl -D::
+auditctl -D\
+auditctl /D::
+auditctl -/D/
+auditctl /" -D"
+auditctl -/--D
+auditctl -D--insert
+auditctl -- -D
+auditctl -D --fake
+auditctl -D extra
+auditctl -D_dummy
+auditctl -D;
+auditctl /-D/now
+auditctl -D#logoff
+auditctl -D --audit
+auditctl -D___
+auditctl --audit -D
+auditctl -D --stop
+auditctl -D/
+auditctl -D/log
+auditctl -D-test
+auditctl -D_bypass
+auditctl -D--kill
+auditctl -D/null
+auditctl -D--disable
+auditctl -D --cover
+auditctl --delete -D
+auditctl -D’
+auditctl -D“”
+auditctl --drop -D
+auditctl -D;;
+auditctl -D --silent
+auditctl -D"/"
+auditctl --delete
+auditctl -delete
+auditctl -remove
+auditctl --remove
+auditctl --del
+auditctl --drop
+auditctl --clear
+auditctl --flush
+auditctl --purge
+auditctl -erase
+auditctl --erase
+auditctl --reset
+auditctl -clear
+auditctl -flush
+auditctl -purge
+auditctl --wipe
+auditctl --obliterate
+auditctl --rm-all
+auditctl -rm-all
+auditctl --noaudit
+auditctl -noaudit
+auditctl --drain
+auditctl -drain
+auditctl -rules=0
+auditctl --rules=0
+auditctl -unload
+auditctl --unload
+auditctl -config=empty
+auditctl --config=none
+auditctl -policy=off
+auditctl --disable-rules
+auditctl -disable-rules
+auditctl --remove-rules
+auditctl -remove-rules
+auditctl --clean-rules
+auditctl -clean-rules
+auditctl --zero-rules
+auditctl -zero-rules
+auditctl --drop-rules
+auditctl -drop-rules
+auditctl --disable-all
+auditctl -disable-all
+auditctl --remove-all
+auditctl -remove-all
+auditctl --del-rules
+auditctl -del-rules
+auditctl --flush-rules
+auditctl -flush-rules
+auditctl --rules=none
+auditctl -rules=none
+auditctl --rule-count=0
+auditctl -rule-count=0
+auditctl --reset-config
+auditctl -reset-config
+auditctl --override-config=0
+auditctl -override-config=none
+auditctl --conf-clear
+auditctl -conf-clear
+auditctl --empty-ruleset
+auditctl -empty-ruleset
+auditctlD
+/sbin/auditctlD
+/usr/sbin/auditctlD
+/bin/auditctlD
+auditctl D
+/sbin/auditctl D
+/usr/sbin/auditctl D
+/bin/auditctl D
+auditctl	-D
+/sbin/auditctl	-D
+/usr/sbin/auditctl	-D
+bin/auditctl-D
+sbin/auditctl-D
+./auditctl-D
+../auditctl-D
+auditctl-D
+auditctl -D
+/sbin/auditctl -D
+/usr/sbin/auditctl -D
+/bin/auditctl -D
+auditctl-D\n
+auditctl-D\r
+auditctl-D\t
+AUDITCTL-D
+Auditctl-D
+auditCTL-D
+auditctl-d
+auditctlD
+auditctlD\n
+auditctlD\t
+auditctl-D
+auditctl-D--
+auditctl--D
+auditctl-- -D
+auditctl - -D
+auditctl -D--
+auditctl- -D
+auditctl--D-
+auditctl -D--
+auditctl- -D-
+auditctl -D -
+auditctl -   D
+auditctl -	D
+auditctl -D
+auditctl ‑D
+auditctl -D
+auditctl－D
+auditctl⁃D
+auditctl־D
+auditctl –D
+auditctl —D
+auditctl––D
+auditctl‒D
+auditctl−D
+auditctl﹘D
+auditctl﹣D
+auditctl／D
+auditctl／-D
+auditctl ／ -D
+auditctl　-D
+auditctl -D
+auditctl -D
+auditctl -D
+auditctl -D
+auditctl -D
+/sbin/auditctl -D
+/usr/sbin/auditctl -D
+sudo auditctl -D
+auditctl -D sudo
+env auditctl -D
+auditctl -D env
+command auditctl -D
+auditctl -D command
+busybox auditctl -D
+auditctl -D busybox
+sh -c "auditctl -D"
+bash -c "auditctl -D"
+auditctl -D
+auditctl -D
+auditctl \ -D
+auditctl -D\
+\auditctl -D
+auditctl\-D
+auditctl -D;
+auditctl -D && true
+true && auditctl -D
+auditctl -D || true
+true || auditctl -D
+(auditctl -D)
+{ auditctl -D; }
+auditctl -D >/dev/null
+>/dev/null auditctl -D
+auditctl >/dev/null -D
+auditctl -D 2>/dev/null
+2>/dev/null auditctl -D
+auditctl 2>/dev/null -D
+nohup auditctl -D
+auditctl nohup -D
+timeout 1 auditctl -D
+auditctl -D timeout 1
+auditctl -D &
+& auditctl -D
+(sleep 1; auditctl -D)
+auditctl -D; sleep 1
+auditctl -D # clear rules
+auditctl #comment -D
+eval auditctl -D
+auditctl eval -D
+`auditctl -D`
+auditctl -D | cat
+cat | auditctl -D
+auditctl | cat -D
+auditctl -D | true
+true | auditctl -D
+auditctl -D | grep ""
+grep "" | auditctl -D
+auditctl -D | xargs
+xargs echo auditctl -D
+auditctl -D && echo done
+echo done && auditctl -D
+auditctl $'-\x44'
+auditctl $'-\104'
+auditctl $'-\u0044'
+auditctl $'-\U00000044'
+auditctl $(printf '-\x44')
+auditctl $(printf '-\104')
+auditctl $(printf '-\u0044')
+auditctl $(echo -e '-\x44')
+auditctl $(echo -e '-\104')
+auditctl $(echo -e '-\u0044')
+auditctl "$(printf '%b' '-\x44')"
+auditctl "$(printf '%b' '-\104')"
+auditctl "$(echo -e '-\x44')"
+auditctl "$(echo -e '-\104')"
+auditctl $'-\x34\x34'
+auditctl $'-\u0034\u0034'
+auditctl $(printf '%c%c' 45 68)
+auditctl $(printf '%c' 45)$(printf '%c' 68)
+auditctl $(printf '\055\104')
+auditctl $(printf '\x2d\x44')
+auditctl "$(printf '\x2d\x44')"
+auditctl $(echo -ne '\x2d\x44')
+auditctl "$(echo -ne '\x2d\x44')"
+auditctl $(printf '%s' $'-\x44')
+auditctl $(printf '%s' $'-\104')
+auditctl "$(printf '%s' $'-\x44')"
+auditctl "$(printf '%s' $'-\104')"
+auditctl $(printf '%b' '\055\104')
+auditctl "$(printf '%b' '\055\104')"
+auditctl $(echo -e '\055\104')
+auditctl $(echo -e '\x2D\x44')
+auditctl $(echo -e '\u002D\u0044')
+auditctl "$(echo -e '\x2D\x44')"
+auditctl "$(echo -e '\u002D\u0044')"
+auditctl $(perl -e 'print "-D"')
+auditctl $(python3 -c 'print("-D")')
+auditctl $(awk 'BEGIN{printf "-D"}')
+auditctl $(cut -c1-2 <<<"-D")
+auditctl $(tr -d '\n' <<<"-D")
+auditctl $(echo '-''D')
+auditctl "$(echo -n -e '\x2D\x44')"
+auditctl "$(tr '\101-\132' '\141-\172' <<< '-D' | tr 'd' 'D')"
+auditctl $(echo -e "\055\104")
+auditctl $(echo -e "\x2d\x44")
+auditctl $(echo '\055\104' | xargs echo -e)
+auditctl $(echo '\x2d\x44' | xargs echo -e)
+auditctl "$(echo '\x2d\x44' | xargs echo -e)"
+auditctl $(cat <<< "-D")
+auditctl $(cat <<< $'-\x44')
+auditctl "$(cat <<< $'-\104')"
+auditctl $(head -c 2 <<< "-D")
+auditctl $(dd if=<(echo -n "-D") bs=1 count=2 2>/dev/null)
+auditctl "$(xxd -r -p <<< '2d44')"
+auditctl "$(echo 2d44 | xxd -r -p)"
+auditctl "$(echo -n -e '\055\104')"
+auditctl $(printf '\055')$(printf '\104')
+auditctl $(echo -n '-')$(echo -n 'D')
+auditctl $'-\x44' # recoded flag
+auditctl $'-\x44' >/dev/null
+auditctl "$(echo -e '\x2d')$(echo -e '\x44')"
