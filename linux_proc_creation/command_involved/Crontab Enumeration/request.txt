@@ -1,0 +1,360 @@
+1. `crontab -l > /tmp/.discovery_cron && cat /tmp/."discovery"_cron`
+2. `crontab -l > /tmp/.dis"covery"_cron && cat /tmp/.dis"covery"_cron`
+3. `crontab -l > /tmp/.discovery"_"cron && cat /tmp/.discovery"_"cron`
+4. `crontab -l > /tmp/.disc"overy_cron" && cat /tmp/.disc"overy_cron"`
+5. `crontab -l > /tmp/.d"iscovery_cron" && cat /tmp/.d"iscovery_cron"`
+6. `crontab -l > /tmp/.discov"ery_cron" && cat /tmp/.discov"ery_cron"`
+7. `crontab -l > /tmp/.disco"very_cron" && cat /tmp/.disco"very_cron"`
+8. `crontab -l > /tmp/."discovery_cron" && cat /tmp/."discovery_cron"`
+9. `crontab -l > /tmp/.discovery_cr"on" && cat /tmp/.discovery_cr"on"`
+10. `crontab -l > /tmp/.discovery_c"ron" && cat /tmp/.discovery_c"ron"`
+11. `crontab -l > /tmp/.disc"ov"ery_cron && cat /tmp/.disc"ov"ery_cron`
+12. `crontab -l > /tmp/.dis"co"very_cron && cat /tmp/.dis"co"very_cron`
+13. `crontab -l > /tmp/.di"scovery"cron && cat /tmp/.di"scovery"cron`
+14. `crontab -l > /tmp/.discovery_cron && cat /tmp/.dis"covery"_cron`
+15. `crontab -l > /tmp/.discov"ery"_cron && cat /tmp/.discov"ery"_cron`
+16. `crontab -l > /tmp/.discovery_cron && cat /tmp/.discovery"_"cron`
+17. `crontab -l > /tmp/.discov"ery_cron" && cat /tmp/.discov"ery_cron"`
+18. `crontab -l > /tmp/.d"i"scovery_cron && cat /tmp/.d"i"scovery_cron`
+19. `crontab -l > /tmp/.discovery_cron && cat /tmp/.dis"covery"cron`
+20. `crontab -l > /tmp/.discovery"_"cron && cat /tmp/.discovery"_"cron`
+21. `crontab -l > /tmp/."disc"overy_cron && cat /tmp/."disc"overy_cron`
+22. `crontab -l > /tmp/.d"isc"overy_cron && cat /tmp/.d"isc"overy_cron`
+23. `crontab -l > /tmp/.disco"v"ery_cron && cat /tmp/.disco"v"ery_cron`
+24. `crontab -l > /tmp/.di"sc"overy_cron && cat /tmp/.di"sc"overy_cron`
+25. `crontab -l > /tmp/.dis"co"v"ery_cron && cat /tmp/.dis"co"v"ery_cron`
+26. `crontab -l > /tmp/.discov"e"ry_cron && cat /tmp/.discov"e"ry_cron`
+27. `crontab -l > /tmp/.discovery_c"r"on && cat /tmp/.discovery_c"r"on`
+28. `crontab -l > /tmp/.discovery_"c"ron && cat /tmp/.discovery_"c"ron`
+29. `crontab -l > /tmp/.discov"ery_cron" && cat /tmp/.discov"ery_cron"`
+30. `crontab -l > /tmp/.d"iscov"ery_cron && cat /tmp/.d"iscov"ery_cron`
+1. `crontab -l > /tmp/.disc"o"very_cron && cat /tmp/.disc"o"very_cron`
+2. `crontab -l > /tmp/.discov"er"y_cron && cat /tmp/.discov"er"y_cron`
+3. `crontab -l > /tmp/.d"i"sc"overy_cron" && cat /tmp/.d"i"sc"overy_cron"`
+4. `crontab -l > /tmp/.disco"very"_cron && cat /tmp/.disco"very"_cron`
+5. `crontab -l > /tmp/.dis"cov"ery_cron && cat /tmp/.dis"cov"ery_cron`
+6. `crontab -l > /tmp/.discov"ery"_"cron" && cat /tmp/.discov"ery"_"cron"`
+7. `crontab -l > /tmp/.d"iscove"ry_cron && cat /tmp/.d"iscove"ry_cron`
+8. `crontab -l > /tmp/.di"scov"ery_cron && cat /tmp/.di"scov"ery_cron`
+9. `crontab -l > /tmp/.discovery_cron && cat /tmp/.disco"very_c"ron`
+10. `crontab -l > /tmp/.discovery_cron && cat /tmp/.disc"overy_cr"on`
+11. `crontab -l > /tmp/.dis"c"overy_cron && cat /tmp/.dis"c"overy_cron`
+12. `crontab -l > /tmp/.disc"ov"ery_cron && cat /tmp/.disc"ov"ery_cron`
+13. `crontab -l > /tmp/.disc"overy_cron" && cat /tmp/.disc"overy_cron"`
+14. `crontab -l > /tmp/.discovery_cron && cat /tmp/.disco"very_c"ron`
+15. `crontab -l > /tmp/.discovery_cron && cat /tmp/.d"i"scovery"_"cron`
+16. `crontab -l > /tmp/.d"isc"ov"ery_cron" && cat /tmp/.d"isc"ov"ery_cron"`
+17. `crontab -l > /tmp/.dis"cove"ry_cron && cat /tmp/.dis"cove"ry_cron`
+18. `crontab -l > /tmp/.discove"ry"cron && cat /tmp/.discove"ry"cron`
+19. `crontab -l > /tmp/.dis"covery_cron" && cat /tmp/.dis"covery_cron"`
+20. `crontab -l > /tmp/.d"iscov"ery_cron && cat /tmp/.d"iscov"ery_cron`
+21. `crontab -l > /tmp/.d"i"sco"v"ery_cron && cat /tmp/.d"i"sco"v"ery_cron`
+22. `crontab -l > /tmp/.dis"cov"ery"_"cron && cat /tmp/.dis"cov"ery"_"cron`
+23. `crontab -l > /tmp/.dis"covery"c"ron && cat /tmp/.dis"covery"c"ron`
+24. `crontab -l > /tmp/.d"isco"very_cron && cat /tmp/.d"isco"very_cron`
+25. `crontab -l > /tmp/.disc"overy_cr"on && cat /tmp/.disc"overy_cr"on`
+26. `crontab -l > /tmp/.disc"o"very"_"cron && cat /tmp/.disc"o"very"_"cron`
+27. `crontab -l > /tmp/.dis"co"very_cr"on && cat /tmp/.dis"co"very_cr"on`
+28. `crontab -l > /tmp/.discov"e"ry_cr"on && cat /tmp/.discov"e"ry_cr"on`
+29. `crontab -l > /tmp/.d"i"sc"ov"ery_cron && cat /tmp/.d"i"sc"ov"ery_cron`
+30. `crontab -l > /tmp/.discov"ery_cron" && cat /tmp/.discov"ery_cron"`
+1. `crontab --list > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+2. `crontab --l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+3. `crontab --ls > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+4. `crontab /l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+5. `crontab --show > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+6. `crontab -list > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+7. `crontab --dump > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+8. `crontab --view > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+9. `crontab --display > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+10. `crontab -print > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+11. `crontab -ls > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+12. `crontab --output > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+13. `crontab -d > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+14. `crontab -read > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+15. `crontab --export > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+16. `crontab -show > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+17. `crontab --extract > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+18. `crontab -output > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+19. `crontab --dump-cron > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+20. `crontab --get > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+21. `crontab -extract > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+22. `crontab --print-all > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+23. `crontab -cron-list > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+24. `crontab --crons > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+25. `crontab -joblist > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+26. `crontab --jobs > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+27. `crontab --ls-jobs > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+28. `crontab -schedule > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+29. `crontab --list-all > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+30. `crontab -getlist > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+1. `crontab --show-all > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+2. `crontab -get > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+3. `crontab --retrieve > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+4. `crontab -query > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+5. `crontab -view-all > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+6. `crontab -dumpall > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+7. `crontab --printlist > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+8. `crontab -retrieve-all > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+9. `crontab -listall > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+10. `crontab --joblist > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+11. `crontab -extractall > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+12. `crontab -readout > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+13. `crontab --cronjobs > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+14. `crontab --display-all > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+15. `crontab -config > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+16. `crontab --dump_jobs > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+17. `crontab --tasklist > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+18. `crontab -pull > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+19. `crontab --load > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+20. `crontab -cronout > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+21. `crontab --read-jobs > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+22. `crontab -jobs > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+23. `crontab --showcrons > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+24. `crontab -crontabs > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+25. `crontab -readconfig > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+26. `crontab --configlist > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+27. `crontab --show-config > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+28. `crontab -tlist > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+29. `crontab --timelist > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+30. `crontab -outjobs > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+1. `crontab -l> /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+2. `crontab -l>/tmp/.discovery_cron && cat /tmp/.discovery_cron`
+3. `crontab -l >/tmp/.discovery_cron&&cat /tmp/.discovery_cron`
+4. `crontab-l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+5. `crontab-l>/tmp/.discovery_cron && cat /tmp/.discovery_cron`
+6. `crontab-l >/tmp/.discovery_cron&&cat /tmp/.discovery_cron`
+7. `crontab -l > /tmp/.discovery_cron&&cat/tmp/.discovery_cron`
+8. `crontab-l>/tmp/.discovery_cron&&cat/tmp/.discovery_cron`
+9. `crontab -l>/tmp/.discovery_cron&&cat/tmp/.discovery_cron`
+10. `crontab -l >/tmp/.discovery_cron&&cat /tmp/.discovery_cron`
+11. `crontab-l>/tmp/.discovery_cron&&cat /tmp/.discovery_cron`
+12. `crontab -l>/tmp/.discovery_cron &&cat/tmp/.discovery_cron`
+13. `crontab-l >/tmp/.discovery_cron &&cat /tmp/.discovery_cron`
+14. `crontab-l>/tmp/.discovery_cron &&cat/tmp/.discovery_cron`
+15. `crontab -l>/tmp/.discovery_cron&& cat/tmp/.discovery_cron`
+16. `crontab -l>/tmp/.discovery_cron &&cat /tmp/.discovery_cron`
+17. `crontab-l >/tmp/.discovery_cron&& cat /tmp/.discovery_cron`
+18. `crontab -l >/tmp/.discovery_cron &&cat/tmp/.discovery_cron`
+19. `crontab -l> /tmp/.discovery_cron&& cat /tmp/.discovery_cron`
+20. `crontab-l> /tmp/.discovery_cron&&cat/tmp/.discovery_cron`
+21. `crontab -l>/tmp/.discovery_cron&&cat /tmp/.discovery_cron`
+22. `crontab-l >/tmp/.discovery_cron&&cat/tmp/.discovery_cron`
+23. `crontab -l>/tmp/.discovery_cron&& cat /tmp/.discovery_cron`
+24. `crontab-l> /tmp/.discovery_cron &&cat /tmp/.discovery_cron`
+25. `crontab -l>/tmp/.discovery_cron && cat/tmp/.discovery_cron`
+26. `crontab-l> /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+27. `crontab -l> /tmp/.discovery_cron &&cat /tmp/.discovery_cron`
+28. `crontab-l>/tmp/.discovery_cron && cat/tmp/.discovery_cron`
+29. `crontab -l >/tmp/.discovery_cron&& cat/tmp/.discovery_cron`
+30. `crontab-l>/tmp/.discovery_cron&& cat /tmp/.discovery_cron`
+1. `crontab > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+2. `crontab>/tmp/.discovery_cron && cat /tmp/.discovery_cron`
+3. `crontab > /tmp/.discovery_cron&&cat/tmp/.discovery_cron`
+4. `crontab>/tmp/.discovery_cron&&cat/tmp/.discovery_cron`
+5. `crontab> /tmp/.discovery_cron &&cat/tmp/.discovery_cron`
+6. `crontab> /tmp/.discovery_cron&&cat/tmp/.discovery_cron`
+7. `crontab>/tmp/.discovery_cron&& cat /tmp/.discovery_cron`
+8. `crontab >/tmp/.discovery_cron &&cat /tmp/.discovery_cron`
+9. `crontab >/tmp/.discovery_cron&& cat/tmp/.discovery_cron`
+10. `crontab>/tmp/.discovery_cron &&cat/tmp/.discovery_cron`
+11. `crontab>/tmp/.discovery_cron && cat /tmp/.discovery_cron`
+12. `crontab> /tmp/.discovery_cron&& cat /tmp/.discovery_cron`
+13. `crontab >/tmp/.discovery_cron&&cat /tmp/.discovery_cron`
+14. `crontab > /tmp/.discovery_cron&& cat /tmp/.discovery_cron`
+15. `crontab>/tmp/.discovery_cron&&cat /tmp/.discovery_cron`
+16. `crontab >/tmp/.discovery_cron && cat/tmp/.discovery_cron`
+17. `crontab >/tmp/.discovery_cron&&cat/tmp/.discovery_cron`
+18. `crontab> /tmp/.discovery_cron&&cat /tmp/.discovery_cron`
+19. `crontab>/tmp/.discovery_cron && cat/tmp/.discovery_cron`
+20. `crontab > /tmp/.discovery_cron &&cat /tmp/.discovery_cron`
+21. `crontab>/tmp/.discovery_cron &&cat /tmp/.discovery_cron`
+22. `crontab>/tmp/.discovery_cron&& cat/tmp/.discovery_cron`
+23. `crontab> /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+24. `crontab>/tmp/.discovery_cron&&cat /tmp/.discovery_cron`
+25. `crontab >/tmp/.discovery_cron&&cat/tmp/.discovery_cron`
+26. `crontab> /tmp/.discovery_cron&&cat/tmp/.discovery_cron`
+27. `crontab>/tmp/.discovery_cron&&cat/tmp/.discovery_cron`
+28. `crontab >/tmp/.discovery_cron&& cat /tmp/.discovery_cron`
+29. `crontab> /tmp/.discovery_cron &&cat /tmp/.discovery_cron`
+30. `crontab>/tmp/.discovery_cron&&cat /tmp/.discovery_cron`
+1. `cat /tmp/.discovery_cron && crontab -l > /tmp/.discovery_cron`
+2. `crontab > /tmp/.discovery_cron -l && cat /tmp/.discovery_cron`
+3. `cat /tmp/.discovery_cron && crontab -l>/tmp/.discovery_cron`
+4. `cat /tmp/.discovery_cron && /usr/bin/crontab -l > /tmp/.discovery_cron`
+5. `/usr/bin/crontab -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+6. `crontab -l>/tmp/.discovery_cron && cat /tmp/.discovery_cron`
+7. `crontab -l | tee /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+8. `cat /tmp/.discovery_cron < /tmp/.discovery_cron && crontab -l > /tmp/.discovery_cron`
+9. `cat < /tmp/.discovery_cron && crontab -l>/tmp/.discovery_cron`
+10. `crontab -l 1> /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+11. `crontab -l 2>/dev/null > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+12. `cat /tmp/.discovery_cron && crontab -l 2>/dev/null > /tmp/.discovery_cron`
+13. `crontab -l > /tmp/.discovery_cron ; cat /tmp/.discovery_cron`
+14. `crontab -l > /tmp/.discovery_cron || cat /tmp/.discovery_cron`
+15. `cat /tmp/.discovery_cron ; crontab -l > /tmp/.discovery_cron`
+16. `cat /tmp/.discovery_cron || crontab -l > /tmp/.discovery_cron`
+17. `cat /tmp/.discovery_cron && crontab -l >/tmp/.discovery_cron`
+18. `crontab -l | cat > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+19. `tee /tmp/.discovery_cron < <(crontab -l) && cat /tmp/.discovery_cron`
+20. `cat /tmp/.discovery_cron; crontab -l | tee /tmp/.discovery_cron`
+21. `crontab -l|tee /tmp/.discovery_cron; cat /tmp/.discovery_cron`
+22. `cat /tmp/.discovery_cron && tee /tmp/.discovery_cron < <(crontab -l)`
+23. `cat /tmp/.discovery_cron && (crontab -l > /tmp/.discovery_cron)`
+24. `crontab -l > /tmp/.discovery_cron && (cat /tmp/.discovery_cron)`
+25. `(cat /tmp/.discovery_cron) && crontab -l > /tmp/.discovery_cron`
+26. `(crontab -l > /tmp/.discovery_cron) && cat /tmp/.discovery_cron`
+27. `cat /tmp/.discovery_cron & crontab -l > /tmp/.discovery_cron`
+28. `crontab -l > /tmp/.discovery_cron & cat /tmp/.discovery_cron`
+29. `{ cat /tmp/.discovery_cron; } && { crontab -l > /tmp/.discovery_cron; }`
+30. `{ crontab -l > /tmp/.discovery_cron; } && { cat /tmp/.discovery_cron; }`
+1. `cat /tmp/.discovery_cron; sleep 1; crontab -l > /tmp/.discovery_cron`
+2. `sleep 1; crontab -l > /tmp/.discovery_cron; cat /tmp/.discovery_cron`
+3. `crontab -l > /tmp/.discovery_cron & sleep 1; cat /tmp/.discovery_cron`
+4. `cat /tmp/.discovery_cron & sleep 1; crontab -l > /tmp/.discovery_cron`
+5. `cat /tmp/.discovery_cron; echo listing; crontab -l > /tmp/.discovery_cron`
+6. `crontab -l > /tmp/.discovery_cron; echo done; cat /tmp/.discovery_cron`
+7. `echo start; crontab -l > /tmp/.discovery_cron; cat /tmp/.discovery_cron`
+8. `echo list; cat /tmp/.discovery_cron; crontab -l > /tmp/.discovery_cron`
+9. `crontab -l && echo out > /tmp/.discovery_cron; cat /tmp/.discovery_cron`
+10. `cat /tmp/.discovery_cron && echo cron; crontab -l > /tmp/.discovery_cron`
+11. `crontab -l > /tmp/.discovery_cron; echo "log:"; cat /tmp/.discovery_cron`
+12. `echo "start" && cat /tmp/.discovery_cron && crontab -l > /tmp/.discovery_cron`
+13. `crontab -l | cat - > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+14. `cat /tmp/.discovery_cron && crontab -l | tee /tmp/.discovery_cron`
+15. `crontab -l | tee /tmp/.discovery_cron | cat && cat /tmp/.discovery_cron`
+16. `cat < /tmp/.discovery_cron | head && crontab -l > /tmp/.discovery_cron`
+17. `crontab -l | tee >(cat > /tmp/.discovery_cron) && cat /tmp/.discovery_cron`
+18. `cat /tmp/.discovery_cron | grep -v "^#" && crontab -l > /tmp/.discovery_cron`
+19. `crontab -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron | less`
+20. `less /tmp/.discovery_cron & crontab -l > /tmp/.discovery_cron`
+21. `cat /tmp/.discovery_cron | wc -l && crontab -l > /tmp/.discovery_cron`
+22. `wc -l /tmp/.discovery_cron && crontab -l > /tmp/.discovery_cron`
+23. `crontab -l | grep -v "^#" > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+24. `cat /tmp/.discovery_cron | grep cron && crontab -l > /tmp/.discovery_cron`
+25. `grep cron /tmp/.discovery_cron && crontab -l > /tmp/.discovery_cron`
+26. `crontab -l | grep . > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+27. `cat /tmp/.discovery_cron | tail && crontab -l > /tmp/.discovery_cron`
+28. `tail /tmp/.discovery_cron && crontab -l > /tmp/.discovery_cron`
+29. `crontab -l | awk '{print $0}' > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+30. `awk '{print}' /tmp/.discovery_cron && crontab -l > /tmp/.discovery_cron`
+1. `crontab -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+2. `crontab -l > /tmp/.discovery_cron && cat /tmp/$(printf "%s" ".discovery_cron")`
+3. `crontab -l > /tmp/$(echo .discovery_cron) && cat /tmp/.discovery_cron`
+4. `crontab -l > /tmp/$(printf ".%s" "discovery_cron") && cat /tmp/.discovery_cron`
+5. `crontab -l > $(echo /tmp/.discovery_cron) && cat /tmp/.discovery_cron`
+6. `crontab -l > /tmp/$(echo -n ".discovery_cron") && cat /tmp/.discovery_cron`
+7. `$(echo crontab) -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+8. `$(which crontab) -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+9. `/usr/bin/crontab -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+10. `$(command -v crontab) -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+11. `crontab $(echo -l) > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+12. `crontab $'-l' > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+13. `crontab -l > /tmp/.discovery_cron && cat $(echo /tmp/.discovery_cron)`
+14. `crontab -l > /tmp/.discovery_cron && cat /tmp/$(echo ".discovery_cron")`
+15. `crontab -l > /tmp/.discovery_cron && cat /tmp/$('.discovery_cron')`
+16. `crontab -l > /tmp/.discovery_cron && $(echo cat) /tmp/.discovery_cron`
+17. `$(echo crontab) -l > /tmp/.discovery_cron && $(echo cat) /tmp/.discovery_cron`
+18. `$(echo -n crontab) -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+19. `crontab -$(echo l) > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+20. `crontab $(printf -- '-l') > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+21. `crontab --$(echo l) > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+22. `crontab -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron | cat`
+23. `crontab -l | tee /tmp/.discovery_cron | cat`
+24. `crontab -l | tee /tmp/.discovery_cron > /dev/null && cat /tmp/.discovery_cron`
+25. `crontab -l | awk '{print}' > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+26. `crontab -l | sed '' > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+27. `crontab -l | cat > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+28. `crontab -l > /tmp/.discovery_cron; cat /tmp/.discovery_cron`
+29. `crontab -l | base64 -d > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+30. `crontab -l | xargs -I {} echo {} > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+1. `crontab -l > $(cat <<< "/tmp/.discovery_cron") && cat /tmp/.discovery_cron`
+2. `crontab -l > /tmp/.discovery_cron && cat "/tmp/.discovery_cron"`
+3. `crontab -l > $(echo -e "/tmp/.discovery_cron") && cat /tmp/.discovery_cron`
+4. `$(printf "cron%stab" "\t") -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+5. `crontab -l | tee >(cat > /tmp/.discovery_cron) > /dev/null`
+6. `$(tr -d '\n' <<< 'crontab') -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+7. `$(echo c$(echo rontab)) -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+8. `crontab -$(cut -c1 <<< "l") > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+9. `eval "crontab -l" > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+10. `echo "$(crontab -l)" > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+11. `bash -c 'crontab -l' > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+12. `python3 -c 'import os; os.system("crontab -l > /tmp/.discovery_cron")' && cat /tmp/.discovery_cron`
+13. `crontab -l | dd of=/tmp/.discovery_cron && cat /tmp/.discovery_cron`
+14. `crontab -l | head -n 1000 > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+15. `crontab -l | grep '' > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+16. `crontab -l | tr -d '\r' > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+17. `crontab -l | tail -n +1 > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+18. `timeout 1s crontab -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+19. `stdbuf -oL crontab -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+20. `nohup crontab -l > /tmp/.discovery_cron 2>/dev/null && cat /tmp/.discovery_cron`
+21. `env PATH=$PATH crontab -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+22. `crontab -l | tee /dev/stdout > /tmp/.discovery_cron`
+23. `perl -e 'system("crontab -l > /tmp/.discovery_cron")' && cat /tmp/.discovery_cron`
+24. `php -r 'system("crontab -l > /tmp/.discovery_cron");' && cat /tmp/.discovery_cron`
+25. `crontab -l | gzip > /tmp/discovery.gz && gunzip -c /tmp/discovery.gz`
+26. `crontab -l | tee /tmp/.discovery_cron | tail -n +0`
+27. `crontab -l | sed -e 's/^/ /' | sed -e 's/^ //' > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+28. `$(head -1 <<< "crontab") -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+29. `crontab -l > /tmp/.discovery_cron && cat /tmp/$(cat <<< ".discovery_cron")`
+30. `crontab -l | awk '{print $0}' > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+1. `cp /usr/bin/crontab /tmp/t && /tmp/t -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+2. `cp $(which crontab) /tmp/tcron && /tmp/tcron -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+3. `cp /bin/crontab ./c && ./c -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+4. `cp $(which crontab) /dev/shm/a && /dev/shm/a -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+5. `cp $(which crontab) ~/.local/bin/x && ~/.local/bin/x -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+6. `install -m 755 $(which crontab) /tmp/cron && /tmp/cron -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+7. `cp $(which crontab) /tmp/.c1 && /tmp/.c1 -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+8. `cp $(command -v crontab) /tmp/cb && /tmp/cb -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+9. `cp /usr/bin/crontab /tmp/runner && /tmp/runner -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+10. `cp /bin/crontab /tmp/cron_runner && /tmp/cron_runner -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+11. `cp $(which crontab) /dev/shm/cr && /dev/shm/cr -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+12. `cp $(which crontab) /var/tmp/cron_exec && /var/tmp/cron_exec -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+13. `cp $(which crontab) /tmp/.hidden && /tmp/.hidden -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+14. `cp $(which crontab) /tmp/.x && /tmp/.x -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+15. `cp /usr/bin/crontab /tmp/lister && /tmp/lister -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+16. `cp $(command -v crontab) /tmp/tmpcron && /tmp/tmpcron -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+17. `cp $(command -v crontab) ./cronjob && ./cronjob -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+18. `cp /bin/crontab /tmp/jobview && /tmp/jobview -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+19. `cp $(which crontab) /tmp/scan && /tmp/scan -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+20. `cp $(which crontab) ./x && ./x -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+21. `cp $(which crontab) /var/tmp/.cron && /var/tmp/.cron -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+22. `cp /usr/bin/crontab ~/c && ~/c -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+23. `cp /bin/crontab /tmp/.jobs && /tmp/.jobs -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+24. `cp /usr/bin/crontab /dev/shm/s && /dev/shm/s -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+25. `cp $(which crontab) /tmp/syscron && /tmp/syscron -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+26. `cp $(which crontab) /tmp/.sys && /tmp/.sys -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+27. `cp $(command -v crontab) /tmp/cview && /tmp/cview -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+28. `cp /usr/bin/crontab ./cronshow && ./cronshow -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+29. `cp $(which crontab) ./runner && ./runner -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+30. `cp $(which crontab) /tmp/fetch && /tmp/fetch -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+1. `cp $(which crontab) /tmp/joblist && /tmp/joblist -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+2. `cp $(which crontab) /tmp/_cron && /tmp/_cron -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+3. `cp /usr/bin/crontab /tmp/.cr0n && /tmp/.cr0n -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+4. `cp /usr/bin/crontab /tmp/cron_util && /tmp/cron_util -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+5. `cp $(which crontab) /tmp/dumper && /tmp/dumper -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+6. `cp $(command -v crontab) /tmp/showcron && /tmp/showcron -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+7. `cp $(which crontab) /tmp/aliascron && /tmp/aliascron -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+8. `cp /bin/crontab /tmp/.cron_dump && /tmp/.cron_dump -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+9. `cp /usr/bin/crontab /tmp/list_jobs && /tmp/list_jobs -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+10. `cp $(which crontab) /tmp/job_reader && /tmp/job_reader -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+11. `cp $(which crontab) ./mycron && ./mycron -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+12. `cp /usr/bin/crontab /tmp/.systemcron && /tmp/.systemcron -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+13. `cp $(which crontab) /tmp/reader && /tmp/reader -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+14. `cp /bin/crontab /tmp/schedule && /tmp/schedule -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+15. `cp $(command -v crontab) /tmp/cronreader && /tmp/cronreader -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+16. `cp /usr/bin/crontab /tmp/.rd && /tmp/.rd -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+17. `cp $(which crontab) /tmp/displaycron && /tmp/displaycron -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+18. `cp /bin/crontab /tmp/cronlog && /tmp/cronlog -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+19. `cp $(which crontab) /tmp/.jobl && /tmp/.jobl -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+20. `cp $(command -v crontab) /tmp/.dotcron && /tmp/.dotcron -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+21. `cp /usr/bin/crontab /dev/shm/cronit && /dev/shm/cronit -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+22. `cp /usr/bin/crontab /tmp/.tmpcron && /tmp/.tmpcron -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+23. `cp /bin/crontab /tmp/list_sched && /tmp/list_sched -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+24. `cp $(command -v crontab) ./dumpcron && ./dumpcron -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+25. `cp $(which crontab) /tmp/.schedule && /tmp/.schedule -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+26. `cp /usr/bin/crontab /tmp/tempcron && /tmp/tempcron -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+27. `cp /usr/bin/crontab /tmp/binrunner && /tmp/binrunner -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+28. `cp /bin/crontab /tmp/cronhax && /tmp/cronhax -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+29. `cp $(which crontab) /tmp/ct && /tmp/ct -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`
+30. `cp $(which crontab) /tmp/.scanner && /tmp/.scanner -l > /tmp/.discovery_cron && cat /tmp/.discovery_cron`

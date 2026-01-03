@@ -1,0 +1,351 @@
+1. echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 --decode > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh
+2. printf '%s\n' ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh
+3. echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 -d | tee /tmp/art.sh >/dev/null && chmod +x /tmp/art.sh && /tmp/art.sh
+4. echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d | sh
+5. base64 -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh
+6. echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d | bash
+7. (echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 -d) > /tmp/art.sh; chmod +x /tmp/art.sh; /tmp/art.sh
+8. export CMD=ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=; echo $CMD | base64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh
+9. echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | openssl enc -base64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh
+10. python3 -c 'import base64;open("/tmp/art.sh","wb").write(base64.b64decode("ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo="))'; chmod +x /tmp/art.sh; /tmp/art.sh
+11. perl -MMIME::Base64 -e 'print decode_base64("ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=")' > /tmp/art.sh; chmod +x /tmp/art.sh; /tmp/art.sh
+12. echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 -d | bash
+13. cat <<< ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d | bash
+14. echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 --decode | sh
+15. base64 -d <<<ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | bash
+16. (echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d) | bash
+17. (cat <<EOF | base64 -d ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= EOF
+) > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh
+18. printf ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d | bash
+19. export VAR="ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo="; echo $VAR | base64 -d | bash
+20. base64 --decode <<<"ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | bash
+21. bash -c "$(echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d)"
+22. sh -c "$(echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d)"
+23. echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d | tee /tmp/art.sh | bash
+24. echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d | xargs -I{} bash -c '{}'
+25. perl -MMIME::Base64 -ne 'print decode_base64($_)' <<< ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | bash
+26. python -c 'import base64;print(base64.b64decode("ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=").decode())' | bash
+27. echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d | bash -s
+28. base64 -d <(echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=) > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh
+29. echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | tr -d '\n' | base64 -d | bash
+30. echo -n ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d | bash
+31. (base64 -d <<< ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=) | sh
+32. cat <(echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=) | base64 -d | bash
+33. VAR=ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=; echo $VAR | base64 --decode | bash
+34. echo -e "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 -d | bash
+35. bash -c "`echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d`"
+36. echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 -d | (cat > /tmp/art.sh; chmod +x /tmp/art.sh; /tmp/art.sh)
+37. echo 'ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=' | base64 -d | bash
+38. (echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=") | base64 -d | bash
+39. echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 --decode | bash
+40. cat <<EOF | base64 -d | bash ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= EOF
+41. echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d | /bin/bash
+42. echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d | /usr/bin/bash
+43. echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d | /bin/sh
+44. bash <(echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d)
+45. bash < <(echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d)
+46. source <(echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d)
+47. (echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d) | source /dev/stdin
+48. nohup bash -c "$(echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d)" &
+49. eval $(echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d)
+50. bash -i -c "$(echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d)"
+1. `cp /usr/bin/base64 /tmp/b64 && echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | /tmp/b64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+2. `cp $(which base64) /tmp/b64 && echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | /tmp/b64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+3. `cp $(command -v base64) ./decode && echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | ./decode -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+4. `install -m 755 $(which base64) /tmp/d64 && echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | /tmp/d64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+5. `cp /usr/bin/base64 decode && echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | ./decode -d > /tmp/art.sh && chmod +x /tmp/art.sh && ./art.sh`
+6. `cp /bin/base64 /tmp/d && echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | /tmp/d -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+7. `cp $(which base64) /tmp/d1 && echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | /tmp/d1 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+8. `cp /usr/bin/base64 ./myb64 && echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | ./myb64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+9. `cp $(which base64) ./b && echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | ./b -d > /tmp/art.sh && chmod +x /tmp/art.sh && ./art.sh`
+10. `cp /usr/bin/base64 ./temp && echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | ./temp -d > /tmp/art.sh && chmod +x /tmp/art.sh && ./art.sh`
+11. `cp /usr/bin/base64 /tmp/exec && /tmp/exec -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+12. `cp /usr/bin/base64 ./decode64 && ./decode64 -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && ./art.sh`
+13. `cp $(command -v base64) ./decoder && ./decoder --decode <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && ./art.sh`
+14. `cp /usr/bin/base64 ./d && ./d -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && ./art.sh`
+15. `cp /usr/bin/base64 ./decode.sh && ./decode.sh -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && ./art.sh`
+16. `cp $(which base64) /dev/shm/b64 && /dev/shm/b64 -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+17. `cp $(which base64) /tmp/.b64 && /tmp/.b64 -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+18. `cp /usr/bin/base64 .b64hidden && ./.b64hidden -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && ./art.sh`
+19. `cp $(which base64) ./run && ./run -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && ./art.sh`
+20. `cp /usr/bin/base64 ./execme && ./execme -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && ./art.sh`
+21. `cp /usr/bin/base64 /tmp/.hidden && /tmp/.hidden -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+22. `cp /usr/bin/base64 /tmp/demux && /tmp/demux -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+23. `cp $(which base64) ./_b64 && ./_b64 -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && ./art.sh`
+24. `cp /usr/bin/base64 /var/tmp/x && /var/tmp/x -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+25. `cp $(command -v base64) decode64 && ./decode64 -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && ./art.sh`
+26. `cp $(command -v base64) base64_copy && ./base64_copy -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && ./art.sh`
+27. `cp /bin/base64 /tmp/btool && /tmp/btool -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+28. `cp /bin/base64 /tmp/b64decode && /tmp/b64decode -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+29. `cp $(which base64) /tmp/sneaky && /tmp/sneaky -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+30. `cp $(which base64) /tmp/runner && /tmp/runner -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+31. `cp /usr/bin/base64 /home/user/.b64 && /home/user/.b64 -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+32. `cp $(which base64) ./mask && ./mask -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && ./art.sh`
+33. `cp $(which base64) ./mask64 && ./mask64 -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && ./art.sh`
+34. `cp /usr/bin/base64 /tmp/recode && /tmp/recode -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+35. `cp /bin/base64 ./exec && ./exec -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && ./art.sh`
+36. `cp $(which base64) ./data && ./data -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && ./art.sh`
+37. `cp /usr/bin/base64 ./bdecode && ./bdecode -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && ./art.sh`
+38. `cp $(which base64) ./reader && ./reader -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && ./art.sh`
+39. `cp /bin/base64 ./decoder64 && ./decoder64 -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && ./art.sh`
+40. `cp /usr/bin/base64 ./parser && ./parser -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && ./art.sh`
+41. `cp /usr/bin/base64 ./f && ./f -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && ./art.sh`
+42. `cp $(command -v base64) /tmp/x && /tmp/x -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+43. `cp $(command -v base64) ./.x && ./.x -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && ./art.sh`
+44. `cp /usr/bin/base64 /tmp/z && /tmp/z -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+45. `cp /usr/bin/base64 /tmp/util && /tmp/util -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+46. `cp $(which base64) ./alpha && ./alpha -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && ./art.sh`
+47. `cp /usr/bin/base64 ./xyz && ./xyz -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && ./art.sh`
+48. `cp /usr/bin/base64 ./worker && ./worker -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && ./art.sh`
+49. `cp $(which base64) ./xx && ./xx -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && ./art.sh`
+50. `cp /usr/bin/base64 ./abc && ./abc -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && ./art.sh`
+1. `echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 -'d' > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+2. `echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 -d -- > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+3. `echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 --"decode" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+4. `echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 --de"code" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+5. `echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 -d --output=- > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+6. `echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 -d|cat > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+7. `echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | /usr/bin/base64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+8. `echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 /-"d" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+9. `echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 '-d' > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+10. `echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | "base64" -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+1. `echo "ZWNoby..." | base64 --de\code > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+2. `echo "ZWNoby..." | base64 -\d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+3. `echo "ZWNoby..." | base64 -d --ignore-garbage > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+4. `echo "ZWNoby..." | base64 --d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+5. `echo "ZWNoby..." | base64 --de code > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+6. `echo "ZWNoby..." | \base64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+7. `echo "ZWNoby..." | ./base64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+8. `echo "ZWNoby..." | b"a""s"e64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+9. `echo "ZWNoby..." | base64 - d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+10. `echo "ZWNoby..." | base64 --"de""code" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+1. `echo "ZWNoby..." | base64 --d="true" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+2. `echo "ZWNoby..." | command base64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+3. `echo "ZWNoby..." | base64 -d | tee /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+4. `echo "ZWNoby..." | (base64 -d) > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+5. `echo "ZWNoby..." | bASe64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+6. `echo "ZWNoby..." | bаse64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh` # includes Cyrillic 'а'
+7. `echo "ZWNoby..." | base⁶⁴ -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh` # Unicode digits
+8. `echo "ZWNoby..." | base64 -d # decode it > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+9. `echo "ZWNoby..." | env base64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+10. `echo "ZWNoby..." | base64 --decode <&0 > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+1. `echo "ZWNoby..." | /bin/base64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+2. `echo "ZWNoby..." | b4se64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+3. `echo "ZWNoby..." | bɑse64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh` # Latin 'ɑ'
+4. `echo "ZWNoby..." | base⁴⁶ -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+5. `echo "ZWNoby..." | base⁶⁴ -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh` # Unicode space
+6. `echo "ZWNoby..." | base64 --dec=1 > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+7. `echo "ZWNoby..." | bash -c 'base64 -d' > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+8. `echo "ZWNoby..." | $(echo base64) -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+9. `echo "ZWNoby..." | eval base64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+10. `echo "ZWNoby..." | perl -MMIME::Base64 -ne 'print decode_base64($_)' > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+1. `echo "ZWNoby..." | python3 -m base64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+2. `echo "ZWNoby..." | bаѕе64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh` # Mixed Cyrillic
+3. `echo "ZWNoby..." | base64 "--d" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+4. `echo "ZWNoby..." | b⁶⁴ -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+5. `echo "ZWNoby..." | base⁶⁴ -"-d" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+6. `echo "ZWNoby..." | base64 -"-d" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+7. `echo "ZWNoby..." | bash<<<"base64 -d" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+8. `echo "ZWNoby..." | base64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh` # Non-breaking space
+9. `echo "ZWNoby..." | base64 -d\t > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh` # tab
+10. `echo "ZWNoby..." | base64 -d\\ > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+1. `echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 --decode > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+2. `echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 --dec > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+3. `echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 -decode > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+4. `echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 -D > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+5. `echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 --DEC > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+6. `echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | /usr/bin/base64 --decode > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+7. `echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d - > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+8. `echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 --decode - > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+9. `echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | /bin/base64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+10. `echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | /bin/base64 --decode > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+11. `echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | b64 --decode > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+12. `printf "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 --decode > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+13. `printf "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 -d - > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+14. `base64 --decode <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+15. `base64 -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+16. `cat <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 --decode > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+17. `echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d | tee /tmp/art.sh >/dev/null && chmod +x /tmp/art.sh && /tmp/art.sh`
+18. `echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 --decode | tee /tmp/art.sh >/dev/null && chmod +x /tmp/art.sh && /tmp/art.sh`
+19. `echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | /usr/bin/base64 --dec > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+20. `echo -n ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 --decode > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+21. `echo -n ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+22. `base64 -d <<<ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+23. `echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | b64decode > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+24. `cat <<EOF | base64 --decode > /tmp/art.sh ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= EOF chmod +x /tmp/art.sh && /tmp/art.sh`
+25. `base64 --decode <<<ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+26. `cat <<<ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 --decode > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+27. `base64 -d <<<"ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+28. `base64 -d <<<ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | tee /tmp/art.sh >/dev/null && chmod +x /tmp/art.sh && /tmp/art.sh`
+29. `echo "ZWNobyBIZWxsbyBmcm9t...dgo=" | base64 --decode | bash`
+30. `base64 --decode <<<"ZWNobyBIZWxsbyBmcm9t...dgo=" | bash`
+31. `echo "ZWNobyBIZW..." | base64 --decode - > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+32. `cat <<<"ZWNobyBIZWxsbyBmcm9t..." | base64 --decode > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+33. `printf "%s" "ZWNobyBIZWxs..." | base64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+34. `echo "ZWNobyBIZWxsby..." | base64 --decode -o /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+35. `echo 'ZWNobyBIZWxsby...' | /usr/local/bin/base64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+36. `echo 'ZWNobyBIZWxsby...' | base64 --dec --ignore-garbage > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+37. `cat encoded.txt | base64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+38. `cat encoded.txt | base64 --decode > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+39. `sed '' <<<"ZWNoby..." | base64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+40. `sed '' <<<"ZWNoby..." | base64 --decode > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+41. `base64 -d <<<"ZWNoby..." | tee /tmp/art.sh >/dev/null && chmod +x /tmp/art.sh && /tmp/art.sh`
+42. `base64 --decode <<<"ZWNoby..." | tee /tmp/art.sh >/dev/null && chmod +x /tmp/art.sh && /tmp/art.sh`
+43. `printf 'ZWNoby...' | base64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+44. `head -c -1 <<< "ZWNoby..." | base64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+45. `echo "ZWNoby..." | /usr/bin/base64 --decode > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+46. `echo "ZWNoby..." | /usr/local/bin/base64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+47. `cat <<< "ZWNoby..." | $(which base64) -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh`
+48. `base64 --decode <<< "ZWNoby..." | bash`
+49. `base64 -d <<< "ZWNoby..." | bash`
+50. `cat <<<"ZWNoby..." | base64 --decode | bash`
+1. `echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 -d > /tmp/art.sh; chmod +x /tmp/art.sh; /tmp/art.sh`
+2. `echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo="|base64 -d>/tmp/art.sh;chmod +x /tmp/art.sh;/tmp/art.sh`
+3. `base64 -d<<<"ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh;chmod +x /tmp/art.sh;/tmp/art.sh`
+4. `echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=|base64 -d>/tmp/art.sh;chmod +x /tmp/art.sh;/tmp/art.sh`
+5. `base64 -d<<EOF > /tmp/art.sh ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= EOF chmod +x /tmp/art.sh;/tmp/art.sh`
+6. `echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=|base64 --decode>/tmp/art.sh;chmod +x/tmp/art.sh;/tmp/art.sh`
+7. `echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=|base64|base64 -d|base64 -d>/tmp/art.sh;chmod +x /tmp/art.sh;/tmp/art.sh`
+8. `echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=|base64 -d|tee /tmp/art.sh>/dev/null;chmod +x /tmp/art.sh;/tmp/art.sh`
+9. `printf %s ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=|base64 -d>/tmp/art.sh;chmod +x/tmp/art.sh;/tmp/art.sh`
+10. `echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=|base64 -d|cat >/tmp/art.sh;chmod +x /tmp/art.sh;/tmp/art.sh`
+11. `echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=|base64 -d|bash`
+12. `echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=|base64 --decode|sh`
+13. `base64 -d<<<ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=|bash`
+14. `echo "ZWNobyBIZWxsbyBmcm9tIEF0..."|base64 -d|bash` (shortened input - omitted completeness)
+15. `base64 -d<<<"ZWNobyBIZ...tZgo="|sh`
+16. `base64<<<"ZWNobyBIZWxsby..."|base64 -d|bash`
+17. `printf 'ZWNobyBIZWxsby...'|base64 -d|sh`
+18. `cat<<<"ZWNobyBIZWxsby..."|base64 -d|bash`
+19. `echo "ZWNoby..."|base64 -d|bash`
+20. `base64 -d<<<ZWNobyBIZWxsbyBmcm9tIEF...`
+21. `base64 -d<<<ZWNoby...|sh`
+22. `base64<<<ZWNoby...|base64 -d|bash`
+23. `echo ZWNoby...|base64 -d|bash`
+24. `base64 -d<<<ZWNoby...|sh`
+25. `base64<<<ZWNoby...|base64 -d|bash`
+26. `echo ZWNoby...|base64 -d|sh`
+27. `cat<<<ZWNoby...|base64 -d|bash`
+28. `base64<<<ZWNoby...|base64 -d|sh`
+29. `base64 -d<<<"ZWNoby..."|bash`
+30. `echo "ZWNoby..."|base64 -d|sh`
+31. `echo ZWNoby...|base64 --decode|bash`
+32. `echo ZWNoby...|base64 --decode|sh`
+33. `printf 'ZWNoby...'|base64 -d|bash`
+34. `cat<<<"ZWNoby..."|base64 -d|bash`
+35. `echo -n "ZWNoby..."|base64 -d|bash`
+36. `base64 -d<<<"ZWNoby..."|sh`
+37. `echo "ZWNoby..."|base64 -d|sh`
+38. `echo ZWNoby...|base64 -d|bash`
+39. `base64 -d<<<ZWNoby...|bash`
+40. `printf ZWNoby...|base64 -d|sh`
+41. `echo ZWNoby...|base64 -d|bash`
+42. `echo ZWNoby...|base64 -d>/tmp/x;chmod +x /tmp/x;/tmp/x`
+43. `base64 -d<<<"ZWNoby..." >/tmp/x;chmod +x /tmp/x;/tmp/x`
+44. `echo ZWNoby...|base64 -d|bash -s`
+45. `echo ZWNoby...|base64 -d|/bin/sh`
+46. `base64 -d<<<"ZWNoby..."|/bin/bash`
+47. `base64 -d<<<ZWNoby...|bash`
+48. `base64<<<ZWNoby...|base64 -d|bash`
+49. `echo ZWNoby...|base64 -d|bash`
+50. `echo ZWNoby...|base64 -d|. /dev/stdin`
+1. chmod +x /tmp/art.sh && /tmp/art.sh < echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 -d > /tmp/art.sh
+2. /tmp/art.sh && chmod +x /tmp/art.sh && echo "ZWNoby..." | base64 -d > /tmp/art.sh
+3. (base64 -d | echo "ZWNoby...") > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh
+4. echo "ZWNoby..." | base64 -d | tee /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh
+5. echo "ZWNoby..." | base64 --decode > /tmp/art.sh && /tmp/art.sh && chmod +x /tmp/art.sh
+6. chmod +x /tmp/art.sh && echo "ZWNoby..." | base64 -d > /tmp/art.sh && /tmp/art.sh
+7. /tmp/art.sh <(echo "ZWNoby..." | base64 -d > /tmp/art.sh) && chmod +x /tmp/art.sh
+8. base64 -d <<< "ZWNoby..." > /tmp/art.sh && /tmp/art.sh && chmod +x /tmp/art.sh
+9. chmod +x /tmp/art.sh && echo "ZWNoby..." | base64 -d > /tmp/art.sh && exec /tmp/art.sh
+10. /tmp/art.sh || (echo "ZWNoby..." | base64 -d > /tmp/art.sh && chmod +x /tmp/art.sh)
+11. tee /tmp/art.sh <<< $(echo "ZWNoby..." | base64 -d) && chmod +x /tmp/art.sh && /tmp/art.sh
+12. echo "ZWNoby..." | base64 --decode | tee /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh
+13. echo "ZWNoby..." | base64 -d | dd of=/tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh
+14. echo "ZWNoby..." | base64 -d | cat > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh
+15. chmod +x /tmp/art.sh && exec /tmp/art.sh <(echo "ZWNoby..." | base64 -d > /tmp/art.sh)
+16. base64 -d <<<"ZWNoby..." | cat > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh
+17. echo "ZWNoby..." | base64 -d | install -m 755 /dev/stdin /tmp/art.sh && /tmp/art.sh
+18. echo "ZWNoby..." | base64 -d | sponge /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh
+19. (echo "ZWNoby..." | base64 -d > /tmp/art.sh) && exec /tmp/art.sh
+20. (echo "ZWNoby..." | base64 -d | dd of=/tmp/art.sh) && chmod +x /tmp/art.sh && exec /tmp/art.sh
+21. /tmp/art.sh & echo "ZWNoby..." | base64 -d > /tmp/art.sh & chmod +x /tmp/art.sh
+22. exec /tmp/art.sh & chmod +x /tmp/art.sh & echo "ZWNoby..." | base64 -d > /tmp/art.sh
+23. chmod +x /tmp/art.sh; echo "ZWNoby..." | base64 -d > /tmp/art.sh; /tmp/art.sh
+24. echo "ZWNoby..." | base64 -d > /tmp/art.sh; /tmp/art.sh; chmod +x /tmp/art.sh
+25. echo "ZWNoby..." | base64 -d > /tmp/art.sh; chmod +x /tmp/art.sh; exec /tmp/art.sh
+26. (chmod +x /tmp/art.sh && /tmp/art.sh) <(echo "ZWNoby..." | base64 -d > /tmp/art.sh)
+27. echo "ZWNoby..." | base64 -d | install -m 755 /dev/stdin /tmp/art.sh && exec /tmp/art.sh
+28. base64 -d <<<"ZWNoby..." | tee /tmp/art.sh && /tmp/art.sh & chmod +x /tmp/art.sh
+29. chmod +x /tmp/art.sh & echo "ZWNoby..." | base64 -d > /tmp/art.sh & /tmp/art.sh
+30. (base64 -d <<<"ZWNoby...") | tee /tmp/art.sh && chmod +x /tmp/art.sh && exec /tmp/art.sh
+31. tee /tmp/art.sh <<<$(base64 -d <<<"ZWNoby...") && chmod +x /tmp/art.sh && /tmp/art.sh
+32. base64 -d <<<"ZWNoby..." | sponge /tmp/art.sh && chmod +x /tmp/art.sh && exec /tmp/art.sh
+33. echo "ZWNoby..." | base64 -d | install -D /dev/stdin /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh
+34. install -m755 <(echo "ZWNoby..." | base64 -d) /tmp/art.sh && /tmp/art.sh
+35. base64 --decode <<<"ZWNoby..." | tee /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh
+36. echo "ZWNoby..." | base64 -d | dd of=/tmp/art.sh && /tmp/art.sh && chmod +x /tmp/art.sh
+37. base64 -d <<<"ZWNoby..." > /tmp/art.sh && chmod +x /tmp/art.sh && nohup /tmp/art.sh &
+38. echo "ZWNoby..." | base64 -d | install /dev/stdin /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh
+39. chmod +x /tmp/art.sh && exec bash /tmp/art.sh < <(echo "ZWNoby..." | base64 -d > /tmp/art.sh)
+40. (echo "ZWNoby..." | base64 -d | tee /tmp/art.sh) && (chmod +x /tmp/art.sh && /tmp/art.sh)
+41. base64 -d <<<"ZWNoby..." > /tmp/art.sh; /tmp/art.sh; chmod +x /tmp/art.sh
+42. exec /tmp/art.sh; chmod +x /tmp/art.sh; echo "ZWNoby..." | base64 -d > /tmp/art.sh
+43. (base64 -d <<<"ZWNoby...") > /tmp/art.sh; /tmp/art.sh; chmod +x /tmp/art.sh
+44. cat <(echo "ZWNoby..." | base64 -d) > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh
+45. echo "ZWNoby..." | base64 -d | bash
+46. bash -c "$(echo ZWNoby... | base64 -d)"
+47. bash -c "$(base64 -d <<< ZWNoby...)"
+48. eval $(echo ZWNoby... | base64 -d)
+49. sh -c "$(echo ZWNoby... | base64 -d)"
+50. export CMD=$(echo ZWNoby... | base64 -d); bash -c "$CMD"
+1. echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 --decode > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh
+2. printf '%s\n' ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh
+3. echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 -d | tee /tmp/art.sh >/dev/null && chmod +x /tmp/art.sh && /tmp/art.sh
+4. echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d | sh
+5. base64 -d <<< "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh
+6. echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d | bash
+7. (echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 -d) > /tmp/art.sh; chmod +x /tmp/art.sh; /tmp/art.sh
+8. export CMD=ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=; echo $CMD | base64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh
+9. echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | openssl enc -base64 -d > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh
+10. python3 -c 'import base64;open("/tmp/art.sh","wb").write(base64.b64decode("ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo="))'; chmod +x /tmp/art.sh; /tmp/art.sh
+11. perl -MMIME::Base64 -e 'print decode_base64("ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=")' > /tmp/art.sh; chmod +x /tmp/art.sh; /tmp/art.sh
+12. echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 -d | bash
+13. cat <<< ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d | bash
+14. echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 --decode | sh
+15. base64 -d <<<ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | bash
+16. (echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d) | bash
+17. (cat <<EOF | base64 -d ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= EOF ) > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh
+18. printf ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d | bash
+19. export VAR="ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo="; echo $VAR | base64 -d | bash
+20. base64 --decode <<<"ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | bash
+21. bash -c "$(echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d)"
+22. sh -c "$(echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d)"
+23. echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d | tee /tmp/art.sh | bash
+24. echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d | xargs -I{} bash -c '{}'
+25. perl -MMIME::Base64 -ne 'print decode_base64($_)' <<< ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | bash
+26. python -c 'import base64;print(base64.b64decode("ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=").decode())' | bash
+27. echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d | bash -s
+28. base64 -d <(echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=) > /tmp/art.sh && chmod +x /tmp/art.sh && /tmp/art.sh
+29. echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | tr -d '\n' | base64 -d | bash
+30. echo -n ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d | bash
+31. (base64 -d <<< ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=) | sh
+32. cat <(echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=) | base64 -d | bash
+33. VAR=ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=; echo $VAR | base64 --decode | bash
+34. echo -e "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 -d | bash
+35. bash -c "`echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d`"
+36. echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 -d | (cat > /tmp/art.sh; chmod +x /tmp/art.sh; /tmp/art.sh)
+37. echo 'ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=' | base64 -d | bash
+38. (echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=") | base64 -d | bash
+39. echo "ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo=" | base64 --decode | bash
+40. cat <<EOF | base64 -d | bash ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= EOF
+41. echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d | /bin/bash
+42. echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d | /usr/bin/bash
+43. echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d | /bin/sh
+44. bash <(echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d)
+45. bash < <(echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d)
+46. source <(echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d)
+47. (echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d) | source /dev/stdin
+48. nohup bash -c "$(echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d)" &
+49. eval $(echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d)
+50. bash -i -c "$(echo ZWNobyBIZWxsbyBmcm9tIEF0b21pYyBSZWQgVGVhbSAmJiB1bmFtZSAtdgo= | base64 -d)"
