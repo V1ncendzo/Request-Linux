@@ -1,0 +1,358 @@
+/usr/bin/capsh /--
+/usr/bin/capsh /"--"
+/usr/bin/capsh /--/
+/usr/bin/capsh /-- --
+/usr/bin/capsh /-- --login
+/usr/bin/capsh --/
+/usr/bin/capsh -- "--"
+/usr/bin/capsh -- --/
+/usr/bin/capsh --"/"
+/usr/bin/capsh --/--
+/usr/bin/capsh --"--"
+/usr/bin/capsh /--shell
+/usr/bin/capsh /--keep=1
+/usr/bin/capsh --/shell
+/usr/bin/capsh /-- -c
+/usr/bin/capsh /-- --help
+/usr/bin/capsh /--interactive
+/usr/bin/capsh /--login
+/usr/bin/capsh -- /--
+/usr/bin/capsh --" --"
+/usr/bin/capsh /" "--"
+/usr/bin/capsh /" "--login"
+/usr/bin/capsh /"--login"
+/usr/bin/capsh --/ --
+/usr/bin/capsh --/ "--"
+/usr/bin/capsh -- --"/"
+/usr/bin/capsh /-- "--"
+/usr/bin/capsh /--"--"
+/usr/bin/capsh --"--login"
+/usr/bin/capsh /"--" --login
+/usr/bin/capsh / --
+/usr/bin/capsh -- /
+/usr/bin/capsh / -- /
+/usr/bin/capsh /-- --shell
+/usr/bin/capsh -- /--
+/usr/bin/capsh --/"--"
+/usr/bin/capsh --/ /--
+/usr/bin/capsh --" /"--"
+/usr/bin/capsh /" --"
+/usr/bin/capsh -- /"--"
+/usr/bin/capsh -- / --shell
+/usr/bin/capsh /-- /--
+/usr/bin/capsh -- /--login
+/usr/bin/capsh --/--login
+/usr/bin/capsh /-- /--login
+/usr/bin/capsh /"--keep=1"
+/usr/bin/capsh /-- "--shell"
+/usr/bin/capsh -- "--/"
+/usr/bin/capsh --"--/"
+/usr/bin/capsh /"--/"
+/usr/bin/capsh "--" --
+/usr/bin/capsh /"-- --"
+/usr/bin/capsh -- "-- --"
+/usr/bin/capsh "-- --"
+/usr/bin/capsh "--"--"
+/usr/bin/capsh /-- /"--"
+/usr/bin/capsh /--"-- --"
+/usr/bin/capsh "--/"
+/usr/bin/capsh --"-- /"
+/usr/bin/capsh /"-- /"
+/usr/bin/capsh --login
+/usr/bin/capsh --shell
+/usr/bin/capsh --init
+/usr/bin/capsh --user=0
+/usr/bin/capsh --gid=0
+/usr/bin/capsh --uid=0
+/usr/bin/capsh --keep=1
+/usr/bin/capsh --caps=cap_sys_admin+ep
+/usr/bin/capsh --drop=cap_net_raw
+/usr/bin/capsh --print
+/usr/bin/capsh --root=/
+/usr/bin/capsh --chroot=/
+/usr/bin/capsh --secbits=0
+/usr/bin/capsh --inh=cap_setuid
+/usr/bin/capsh --inh=cap_net_bind_service
+/usr/bin/capsh --addamb=cap_sys_chroot
+/usr/bin/capsh --caps=cap_setuid+ep
+/usr/bin/capsh --forkexec /bin/bash
+/usr/bin/capsh --exec /bin/sh
+/usr/bin/capsh --exec=/bin/bash
+/usr/bin/capsh -- -c /bin/sh
+/usr/bin/capsh -- -c /bin/bash
+/usr/bin/capsh -- -c 'sh -i'
+/usr/bin/capsh -- -c 'bash -i'
+/usr/bin/capsh -- -c 'id'
+/usr/bin/capsh -- -c "whoami"
+/usr/bin/capsh -- -c "ls -la /root"
+/usr/bin/capsh -- -c "/bin/bash"
+/usr/bin/capsh -- -c "/bin/sh"
+/usr/bin/capsh -- -c 'echo hello'
+/usr/bin/capsh --decode
+/usr/bin/capsh --version
+/usr/bin/capsh --help
+/usr/bin/capsh --command=/bin/sh
+/usr/bin/capsh --command="/bin/bash"
+/usr/bin/capsh --run=/bin/sh
+/usr/bin/capsh --run="/bin/bash"
+/usr/bin/capsh --launch /bin/sh
+/usr/bin/capsh --launch="/bin/bash"
+/usr/bin/capsh --invoke /bin/sh
+/usr/bin/capsh --invoke="/bin/bash"
+/usr/bin/capsh --bin /bin/bash
+/usr/bin/capsh --call=/bin/sh
+/usr/bin/capsh --call="/bin/bash"
+/usr/bin/capsh --execve /bin/sh
+/usr/bin/capsh --execve="/bin/bash"
+/usr/bin/capsh --trigger=/bin/sh
+/usr/bin/capsh --trigger="/bin/bash"
+/usr/bin/capsh --sh=/bin/sh
+/usr/bin/capsh --sh="/bin/bash"
+/usr/bin/capsh --interpret /bin/sh
+/usr/bin/capsh --interpret="/bin/bash"
+/usr/bin/capsh --boot=/bin/sh
+/usr/bin/capsh --boot="/bin/bash"
+/usr/bin/capsh --loader /bin/sh
+/usr/bin/capsh --loader="/bin/bash"
+/usr/bin/capsh --job=/bin/sh
+/usr/bin/capsh --job="/bin/bash"
+/usr/bin/capsh --core=/bin/sh
+/usr/bin/capsh --core="/bin/bash"
+capsh
+/usr/bin/capsh
+capsh --login
+/usr/bin/capsh --login
+capsh --user=
+/usr/bin/capsh --user=
+capsh --caps=
+/usr/bin/capsh --caps=
+capsh --
+capsh --n
+/usr/bin/capsh --n
+capsh --keep=
+/usr/bin/capsh --keep=
+capsh --inh=
+/usr/bin/capsh --inh=
+capsh --addamb=
+/usr/bin/capsh --addamb=
+capsh --uid=
+/usr/bin/capsh --uid=
+capsh --gid=
+/usr/bin/capsh --gid=
+capsh --root=
+/usr/bin/capsh --root=
+capsh --shell=
+/usr/bin/capsh --shell=
+capsh --chroot=
+/usr/bin/capsh --chroot=
+capsh --inh=0x0
+/usr/bin/capsh --inh=0x0
+capsh --securebits=0x0
+/usr/bin/capsh -
+/usr/bin/capsh --drop=
+/usr/bin/capsh --print
+/usr/bin/capsh --decode=
+/usr/bin/capsh -c
+/usr/bin/capsh --getuid
+/usr/bin/capsh --getgid
+/usr/bin/capsh --user
+/usr/bin/capsh --uid
+/usr/bin/capsh --groups
+/usr/bin/capsh --help
+/usr/bin/capsh --version
+capsh --getuid
+capsh --getgid
+capsh --groups
+capsh --drop
+capsh -c
+capsh --securebits
+capsh --caps
+capsh --inh
+capsh --ambient
+capsh --keep
+capsh --uid=0
+capsh --gid=0
+capsh --login
+capsh --shell
+capsh --fork
+capsh --chroot
+capsh --mount
+capsh --no-drop
+- /usr/bin/capsh
+capsh -- /usr/bin
+/capsh -- /usr/bin
+/usr/bin/-- capsh
+- capsh /usr/bin
+capsh /usr/bin --
+/usr/bin/capsh--
+/usr/bin -- capsh
+capsh /-- /usr/bin
+/-- /usr/bin capsh
+-/usr/bin capsh
+/usr/bin --capsh
+-/capsh /usr/bin
+capsh --usr/bin/
+- /bin/usr capsh
+/usr/bin capsh --
+- /usr/bin capsh
+capsh /usr/bin/ --
+/usr/bin/ -- capsh
+-capsh /usr/bin
+/usr/bin capsh--
+capsh --/usr/bin
+/usr/bin-- capsh
+/bin/usr capsh --
+/capsh /usr/bin --
+/usr/bin/capsh --shell
+/usr/bin/capsh shell --
+-shell /usr/bin/capsh
+capsh /usr/bin --shell
+/usr/bin --shell capsh
+/usr/bin -- capsh --
+- /usr/bin -- capsh
+capsh -- -- /usr/bin
+/usr/bin -- -- capsh
+- capsh -- /usr/bin
+/usr/bin capsh -- --
+- /usr/bin capsh --
+-capsh -- /usr/bin
+- /usr/bin/capsh
+/usr/bin/capsh --login
+-login /usr/bin/capsh
+capsh /usr/bin --login
+/usr/bin capsh --login
+/usr/bin --login capsh
+/usr/bin -- capsh --login
+-login capsh /usr/bin
+- -- /usr/bin/capsh
+- /usr/bin --login capsh
+- capsh /usr/bin --login
+capsh --login -- /usr/bin
+/usr/bin -- capsh --shell
+/usr/bin capsh --shell --
+-shell -- /usr/bin capsh
+capsh /usr/bin -- --shell
+/usr/bin --shell -- capsh
+- /usr/bin/capsh --shell
+-capsh /usr/bin --shell
+-shell /usr/bin capsh --
+capsh --shell /usr/bin --
+/usr/bin/capsh -- --shell
+/usr/bin/capsh --
+/usr/bin/capsh%20--
+/usr/bin/capsh%09--
+/usr/bin/capsh%0A--
+/usr/bin/capsh\x20--
+/usr/bin/capsh\x09--
+/usr/bin/capsh\x0A--
+/usr/bin/capsh\040--
+/usr/bin/capsh\011--
+/usr/bin/capsh\012--
+/usr/bin/capsh%u0020--
+/usr/bin/capsh%u0009--
+/usr/bin/capsh%u000A--
+/usr/bin/ca\u0070sh --
+/usr/bin/\x63apsh --
+/usr/bin/c\u0061psh --
+/usr/bin/ca\x70sh --
+/usr/bin/\143apsh --
+/usr/bin/\x63\x61\x70\x73\x68 --
+/usr/bin/\u0063\u0061\u0070\u0073\u0068 --
+/usr/bin/capsh \x2d\x2d
+/usr/bin/capsh \u002d\u002d
+/usr/bin/capsh \055\055
+/usr/bin/capsh \x2D\x2D
+/usr/bin/capsh%2D%2D
+/usr/bin/capsh%2d%2d
+/usr/bin/capsh&#45;&#45;
+/usr/bin/capsh&#x2D;&#x2D;
+/usr/bin/capsh%2520--
+/usr/bin/capsh%2F%2F--
+/usr/bin/./capsh --
+/usr/./bin/capsh --
+/usr/bin/capsh --\n
+/usr/bin/capsh --\r
+/usr/bin/capsh --\t
+$'\057usr\057bin\057capsh' --
+$'\x2fusr\x2fbin\x2fcapsh' --
+$'\u002fusr\u002fbin\u002fcapsh' --
+$(echo /usr/bin/capsh) --
+/usr/bin/`echo capsh` --
+/usr/bin/$('capsh') --
+`/usr/bin/c"$0"apsh --` (with `$0` resolving to nothing in some contexts)
+/usr/bin/capsh $'-'-
+$(printf /usr/bin/capsh) --
+`/usr/bin/capsh $@` (if $@ resolves to `-`)
+"/usr/bin/capsh" --
+'usr/bin/capsh' --
+"/usr"/"bin"/"capsh" --
+/usr/bin/c"$IFS"apsh --
+/usr/bin/capsh$IFS--
+/usr/bin/capsh$'\x20'--
+/usr/bin/capsh$'\n'--
+/usr/bin/capsh$'\t'--
+`capsh --` (relying on `$PATH` to resolve full path)
+/usr//bin///capsh --
+/usr/bin/capsh /**/--
+/usr/bin/capsh /*comment*/--
+/usr/bin/capsh --#
+/usr/bin/capsh --;
+/usr/bin/capsh --\`echo`
+cp /usr/bin/capsh /tmp/a; /tmp/a --
+cp /usr/bin/capsh /dev/shm/c; /dev/shm/c --
+cp /usr/bin/capsh ./mybin; ./mybin --
+install -m 755 /usr/bin/capsh ./x; ./x --
+cp /usr/bin/capsh /tmp/.hidden; /tmp/.hidden --
+cp /usr/bin/capsh /usr/local/bin/cx; /usr/local/bin/cx --
+cp /usr/bin/capsh cap; ./cap --
+cp /usr/bin/capsh capsh.fake; ./capsh.fake --
+ln /usr/bin/capsh ./custom; ./custom --
+cp /usr/bin/capsh /var/tmp/exec; /var/tmp/exec --
+cp /usr/bin/capsh /tmp/.cap_runner; /tmp/.cap_runner --
+cp /usr/bin/capsh cap_runner; ./cap_runner --
+cp /usr/bin/capsh /mnt/capsh_exec; /mnt/capsh_exec --
+cp /usr/bin/capsh /tmp/systemd; /tmp/systemd --
+cp /usr/bin/capsh /opt/update; /opt/update --
+cp /usr/bin/capsh /tmp/init; /tmp/init --
+cp /usr/bin/capsh /tmp/dbus-daemon; /tmp/dbus-daemon --
+cp /usr/bin/capsh ./runner; ./runner --
+cp /usr/bin/capsh ./bin; ./bin --
+cp /usr/bin/capsh /var/tmp/.x; /var/tmp/.x --
+cp /usr/bin/capsh /tmp/cp1; /tmp/cp1 --
+cp /usr/bin/capsh ./update_engine; ./update_engine --
+cp /usr/bin/capsh /usr/local/bin/syncd; /usr/local/bin/syncd --
+cp /usr/bin/capsh /tmp/netd; /tmp/netd --
+cp /usr/bin/capsh /tmp/shell; /tmp/shell --
+cp /usr/bin/capsh /var/tmp/bootd; /var/tmp/bootd --
+cp /usr/bin/capsh ./x0; ./x0 --
+cp /usr/bin/capsh ./a.out; ./a.out --
+cp /usr/bin/capsh /tmp/.sysinit; /tmp/.sysinit --
+cp /usr/bin/capsh /tmp/ld-linux; /tmp/ld-linux --
+cp /usr/bin/capsh /tmp/logrotate; /tmp/logrotate --
+cp /usr/bin/capsh /tmp/kmod; /tmp/kmod --
+cp /usr/bin/capsh /tmp/user-helper; /tmp/user-helper --
+cp /usr/bin/capsh /tmp/cronjob; /tmp/cronjob --
+cp /usr/bin/capsh /tmp/udevd; /tmp/udevd --
+cp /usr/bin/capsh /tmp/sysctl; /tmp/sysctl --
+cp /usr/bin/capsh /tmp/resolvconf; /tmp/resolvconf --
+cp /usr/bin/capsh /tmp/pam_exec; /tmp/pam_exec --
+cp /usr/bin/capsh /tmp/system-upgrade; /tmp/system-upgrade --
+cp /usr/bin/capsh /tmp/tmpfs_exec; /tmp/tmpfs_exec --
+cp /usr/bin/capsh /tmp/libcap; /tmp/libcap --
+cp /usr/bin/capsh /tmp/bootctl; /tmp/bootctl --
+cp /usr/bin/capsh /tmp/mountd; /tmp/mountd --
+cp /usr/bin/capsh /tmp/devscan; /tmp/devscan --
+cp /usr/bin/capsh /tmp/ifreload; /tmp/ifreload --
+cp /usr/bin/capsh /tmp/netwatch; /tmp/netwatch --
+cp /usr/bin/capsh /tmp/svcctl; /tmp/svcctl --
+cp /usr/bin/capsh /tmp/eventd; /tmp/eventd --
+cp /usr/bin/capsh /tmp/rsyslog; /tmp/rsyslog --
+cp /usr/bin/capsh /tmp/inetutils; /tmp/inetutils --
+cp /usr/bin/capsh /tmp/update-init; /tmp/update-init --
+cp /usr/bin/capsh /tmp/daemonize; /tmp/daemonize --
+cp /usr/bin/capsh /tmp/watchdog; /tmp/watchdog --
+cp /usr/bin/capsh /tmp/sysrunner; /tmp/sysrunner --
+cp /usr/bin/capsh /tmp/bridge-utils; /tmp/bridge-utils --
+cp /usr/bin/capsh /tmp/dhcp-helper; /tmp/dhcp-helper --
+cp /usr/bin/capsh /tmp/firewalld; /tmp/firewalld --
+cp /usr/bin/capsh /tmp/capwrap; /tmp/capwrap --

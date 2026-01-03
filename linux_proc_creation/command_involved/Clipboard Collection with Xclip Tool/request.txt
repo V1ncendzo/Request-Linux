@@ -1,0 +1,360 @@
+1. `sudo apt install xclip -y && history | tail -n 30 | xclip -"sel" clip && xclip -"o" > history.txt`
+2. `sudo apt install xclip -y && history | tail -n 30 | xclip -s"el" clip && xclip -o > history.txt`
+3. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel cl"ip" && xclip -o > history.txt`
+4. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel clip && xclip -"-o" > history.txt`
+5. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel clip && xclip -o > "history".txt`
+6. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel cl""ip && xclip -o > history.txt`
+7. `sudo apt install xclip -y && history | tail -n 30 | xclip -se"l" clip && xclip -o > history.txt`
+8. `sudo apt install xclip -y && history | tail -n 30 | xclip --sel clip && xclip --o > history.txt`
+9. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel --clip && xclip -o > history.txt`
+10. `sudo apt install xclip -y && history | tail -n 30 | xclip -s-e-l clip && xclip -o > history.txt`
+11. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel c""lip && xclip -o > history.txt`
+12. `sudo apt install xclip -y && history | tail -n 30 | xclip --selection clipboard && xclip --output > history.txt`
+13. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel clip && xclip -o>history.txt`
+14. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel cli""p && xclip -o >history.txt`
+15. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel cli\p && xclip -o > history.txt`
+16. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel c\lip && xclip -o > history.txt`
+17. `sudo apt install xclip -y && history | tail -n 30 | xclip -s'el' clip && xclip -o > history.txt`
+18. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel 'clip' && xclip -o > history.txt`
+19. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel clip && xclip -output > history.txt`
+20. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel clip && xclip --out > history.txt`
+21. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel clip && xclip -o -- > history.txt`
+22. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel -- clip && xclip -o > history.txt`
+23. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel cli--p && xclip -o > history.txt`
+24. `sudo apt install xclip -y && history | tail -n 30 | xclip -s-e-l cl-i-p && xclip -o > history.txt`
+25. `sudo apt install xclip -y && history | tail -n 30 | xclip -selclip && xclip -o > history.txt`
+26. `sudo apt install xclip -y && history | tail -n 30 | xclip --selclip && xclip --o > history.txt`
+27. `sudo apt install xclip -y && history | tail -n 30 | xclip -selclip && xclip -o >history.txt`
+28. `sudo apt install xclip -y && history | tail -n 30 | xclip -s'el'clip && xclip -o > history.txt`
+29. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel clip && xclip -o > his""tory.txt`
+30. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel cli'p && xclip -o > history.txt`
+1. `sudo apt install xclip -y && history | tail -n 30 | xclip -s"e""l" clip && xclip -o > history.txt`
+2. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel c"l""ip" && xclip -o > history.txt`
+3. `sudo apt install xclip -y && history | tail -n 30 | xclip -s--el clip && xclip -o > history.txt`
+4. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel cli--p && xclip -o > history.txt`
+5. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel cl\\ip && xclip -o > history.txt`
+6. `sudo apt install xclip -y && history | tail -n 30 | xclip -s e l clip && xclip -o > history.txt`
+7. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel clip && xclip -"o" > history.txt`
+8. `sudo apt install xclip -y && history | tail -n 30 | xclip -"sel" "clip" && xclip -o > history.txt`
+9. `sudo apt install xclip -y && history | tail -n 30 | xclip --s-e-l clip && xclip -o > history.txt`
+10. `sudo apt install xclip -y && history | tail -n 30 | xclip --sel--clip && xclip --o > history.txt`
+11. `sudo apt install xclip -y && history | tail -n 30 | xclip -s el clip && xclip -o > history.txt`
+12. `sudo apt install xclip -y && history | tail -n 30 | xclip --selclip && xclip -output > history.txt`
+13. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel "clip" && xclip --o > history.txt`
+14. `sudo apt install xclip -y && history | tail -n 30 | xclip -s-e-l "clip" && xclip --o > history.txt`
+15. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel cli p && xclip -o > history.txt`
+16. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel cl-ip && xclip -o > history.txt`
+17. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel c--lip && xclip -o > history.txt`
+18. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel cli\\p && xclip -o > history.txt`
+19. `sudo apt install xclip -y && history | tail -n 30 | xclip -s.el clip && xclip -o > history.txt`
+20. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel clip && xclip -o > his""tory.txt`
+21. `sudo apt install xclip -y && history | tail -n 30 | xclip --sel=clip && xclip -o > history.txt`
+22. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel cl\"ip && xclip -o > history.txt`
+23. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel 'cli''p' && xclip -o > history.txt`
+24. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel cli+p && xclip -o > history.txt`
+25. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel cli$clip && xclip -o > history.txt`
+26. `sudo apt install xclip -y && history | tail -n 30 | xclip --selection=clipboard && xclip --output > history.txt`
+27. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel --clip && xclip --o > history.txt`
+28. `sudo apt install xclip -y && history | tail -n 30 | xclip --s-e-l c-l-i-p && xclip -o > history.txt`
+29. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel c.l.i.p && xclip -o > history.txt`
+30. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel c|l|i|p && xclip -o > history.txt`
+1. `sudo apt install xclip -y && history | tail -n 30 | xclip --selection clipboard && xclip -o > history.txt`
+2. `sudo apt install xclip -y && history | tail -n 30 | xclip --selection clipboard && xclip --output > history.txt`
+3. `sudo apt install xclip -y && history | tail -n 30 | xclip --sel clipboard && xclip --out > history.txt`
+4. `sudo apt install xclip -y && history | tail -n 30 | xclip --s clipboard && xclip -o > history.txt`
+5. `sudo apt install xclip -y && history | tail -n 30 | xclip -selection clipboard && xclip -o > history.txt`
+6. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel clip && xclip --output > history.txt`
+7. `sudo apt install xclip -y && history | tail -n 30 | xclip --select clip && xclip --out > history.txt`
+8. `sudo apt install xclip -y && history | tail -n 30 | xclip -s clipboard && xclip -o > history.txt`
+9. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel clipboard && xclip --out > history.txt`
+10. `sudo apt install xclip -y && history | tail -n 30 | xclip -selection c && xclip -o > history.txt`
+11. `sudo apt install xclip -y && history | tail -n 30 | xclip -s clip && xclip --output > history.txt`
+12. `sudo apt install xclip -y && history | tail -n 30 | xclip --sel c && xclip --out > history.txt`
+13. `sudo apt install xclip -y && history | tail -n 30 | xclip --s c && xclip --output > history.txt`
+14. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel clipboard && xclip -out > history.txt`
+15. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel clipboard && xclip -O > history.txt`
+16. `sudo apt install xclip -y && history | tail -n 30 | xclip -selection c && xclip --output > history.txt`
+17. `sudo apt install xclip -y && history | tail -n 30 | xclip --selection c && xclip --out > history.txt`
+18. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel cb && xclip --output > history.txt`
+19. `sudo apt install xclip -y && history | tail -n 30 | xclip --sel cb && xclip --out > history.txt`
+20. `sudo apt install xclip -y && history | tail -n 30 | xclip --selection=clipboard && xclip --output > history.txt`
+21. `sudo apt install xclip -y && history | tail -n 30 | xclip -s clipboard && xclip -out > history.txt`
+22. `sudo apt install xclip -y && history | tail -n 30 | xclip -s clipboard && xclip -O > history.txt`
+23. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel clipboard && xclip -out > history.txt`
+24. `sudo apt install xclip -y && history | tail -n 30 | xclip --selection clipboard && xclip --out > history.txt`
+25. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel c && xclip --out > history.txt`
+26. `sudo apt install xclip -y && history | tail -n 30 | xclip -s clip && xclip -O > history.txt`
+27. `sudo apt install xclip -y && history | tail -n 30 | xclip -s c && xclip -out > history.txt`
+28. `sudo apt install xclip -y && history | tail -n 30 | xclip -selection clipboard && xclip -out > history.txt`
+29. `sudo apt install xclip -y && history | tail -n 30 | xclip --select clipboard && xclip --output > history.txt`
+30. `sudo apt install xclip -y && history | tail -n 30 | xclip --selection=clip && xclip --out > history.txt`
+1. `sudo apt install xclip -y && history | tail -n 30 | xclip --sel=clipboard && xclip -o > history.txt`
+2. `sudo apt install xclip -y && history | tail -n 30 | xclip -selection=clipboard && xclip -output > history.txt`
+3. `sudo apt install xclip -y && history | tail -n 30 | xclip -s=clipboard && xclip -o > history.txt`
+4. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel cb && xclip -o > history.txt`
+5. `sudo apt install xclip -y && history | tail -n 30 | xclip -s cb && xclip --out > history.txt`
+6. `sudo apt install xclip -y && history | tail -n 30 | xclip -s clipboard && xclip --o > history.txt`
+7. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel c && xclip -output > history.txt`
+8. `sudo apt install xclip -y && history | tail -n 30 | xclip --sel clipboard && xclip -out > history.txt`
+9. `sudo apt install xclip -y && history | tail -n 30 | xclip --selection clipboard && xclip -O > history.txt`
+10. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel clipboard && xclip -oo > history.txt`
+11. `sudo apt install xclip -y && history | tail -n 30 | xclip --sel clipboard && xclip --oo > history.txt`
+12. `sudo apt install xclip -y && history | tail -n 30 | xclip --s clip && xclip --o > history.txt`
+13. `sudo apt install xclip -y && history | tail -n 30 | xclip -s c && xclip --outp > history.txt`
+14. `sudo apt install xclip -y && history | tail -n 30 | xclip -select clipboard && xclip -output > history.txt`
+15. `sudo apt install xclip -y && history | tail -n 30 | xclip --clipboard && xclip --output > history.txt`
+16. `sudo apt install xclip -y && history | tail -n 30 | xclip -s=cb && xclip --o > history.txt`
+17. `sudo apt install xclip -y && history | tail -n 30 | xclip --sel cb && xclip --o > history.txt`
+18. `sudo apt install xclip -y && history | tail -n 30 | xclip -s clipboard && xclip -output > history.txt`
+19. `sudo apt install xclip -y && history | tail -n 30 | xclip --selection clip && xclip --o > history.txt`
+20. `sudo apt install xclip -y && history | tail -n 30 | xclip -s clipboard && xclip --outp > history.txt`
+21. `sudo apt install xclip -y && history | tail -n 30 | xclip -s clipboard && xclip -oo > history.txt`
+22. `sudo apt install xclip -y && history | tail -n 30 | xclip --sel clip && xclip --output > history.txt`
+23. `sudo apt install xclip -y && history | tail -n 30 | xclip --select=clip && xclip -output > history.txt`
+24. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel=clip && xclip -output > history.txt`
+25. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel clipboard && xclip -O > history.txt`
+26. `sudo apt install xclip -y && history | tail -n 30 | xclip --selection clipboard && xclip --o > history.txt`
+27. `sudo apt install xclip -y && history | tail -n 30 | xclip --select clipboard && xclip -oo > history.txt`
+28. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel clip && xclip --oo > history.txt`
+29. `sudo apt install xclip -y && history | tail -n 30 | xclip -select clipboard && xclip -oo > history.txt`
+30. `sudo apt install xclip -y && history | tail -n 30 | xclip --selection cb && xclip -output > history.txt`
+1. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel && xclip -o > history.txt`
+2. `sudo apt install xclip -y && history | tail -n 30 | xclip clip && xclip -o > history.txt`
+3. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel clip && xclip > history.txt`
+4. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel && xclip > history.txt`
+5. `sudo apt install xclip -y && history | tail -n 30 | xclip && xclip -o > history.txt`
+6. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel clip && xclip -o`
+7. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel clip && xclip`
+8. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel clip`
+9. `sudo apt install xclip -y && history | tail -n 30 | xclip`
+10. `apt install xclip -y && history | tail -n 30 | xclip -sel clip && xclip -o > history.txt`
+11. `history | tail -n 30 | xclip -sel clip && xclip -o > history.txt`
+12. `history | tail -n 30 | xclip -sel clip && xclip -o`
+13. `history | tail -n 30 | xclip -sel && xclip -o > history.txt`
+14. `history | tail -n 30 | xclip -sel clip && xclip > history.txt`
+15. `history | tail -n 30 | xclip && xclip -o > history.txt`
+16. `sudo apt install xclip && history | tail -n 30 | xclip -sel clip && xclip -o > history.txt`
+17. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel clip > history.txt`
+18. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel -o > history.txt`
+19. `sudo apt install xclip -y && history | tail -n 30 | xclip clip -o > history.txt`
+20. `sudo apt install xclip -y && history | tail -n 30 | xclip -o > history.txt`
+21. `sudo apt install xclip -y && xclip -sel clip && xclip -o > history.txt`
+22. `sudo apt install xclip -y && xclip -sel clip && xclip -o`
+23. `history | xclip -sel clip && xclip -o > history.txt`
+24. `tail -n 30 | xclip -sel clip && xclip -o > history.txt`
+25. `tail -n 30 | xclip -sel && xclip -o > history.txt`
+26. `history | tail -n 30 | xclip -o > history.txt`
+27. `history | xclip -sel clip > history.txt`
+28. `history | tail -n 30 | xclip > history.txt`
+29. `history | tail -n 30 | xclip -sel clip`
+30. `xclip -sel clip && xclip -o > history.txt`
+1. `sudo apt install xclip -y && history | tail -n 30 | xclip -selection clipboard && xclip -o > history.txt`
+2. `sudo apt install xclip -y && history | tail -n 30 | xclip --selection clipboard && xclip -o > history.txt`
+3. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel clipboard && xclip > history.txt`
+4. `sudo apt install xclip -y && history | tail -n 30 | xclip --sel && xclip -o > history.txt`
+5. `sudo apt install xclip -y && xclip < <(history | tail -n 30) && xclip -o > history.txt`
+6. `sudo apt install xclip -y && history | tail -n 30 | xclip -selection && xclip -o > history.txt`
+7. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel && xclip > history.txt`
+8. `sudo apt install xclip -y && xclip -o > history.txt`
+9. `sudo apt install xclip -y && cat ~/.bash_history | xclip -sel clip && xclip -o > history.txt`
+10. `sudo apt install xclip -y && cat ~/.bash_history | xclip -sel && xclip -o > history.txt`
+11. `sudo apt install xclip -y && history | tail -n 30 | xclip && xclip > history.txt`
+12. `sudo apt install xclip -y && cat ~/.bash_history | xclip && xclip > history.txt`
+13. `xclip -sel clip -o > history.txt`
+14. `xclip -o > history.txt`
+15. `cat ~/.bash_history | xclip -sel clip && xclip -o`
+16. `cat ~/.bash_history | xclip -sel && xclip -o`
+17. `cat ~/.bash_history | xclip && xclip -o`
+18. `xclip < ~/.bash_history && xclip -o > history.txt`
+19. `xclip -sel clipboard < ~/.bash_history && xclip -o > history.txt`
+20. `xclip --selection clipboard < ~/.bash_history && xclip -o`
+21. `cat ~/.bash_history | xclip -sel clip`
+22. `cat ~/.bash_history | xclip`
+23. `history | xclip -sel`
+24. `history | xclip`
+25. `xclip -sel && xclip -o > history.txt`
+26. `xclip && xclip -o > history.txt`
+27. `xclip -sel clip | xclip -o > history.txt`
+28. `xclip -sel clip && xclip`
+29. `xclip -sel && xclip`
+30. `xclip && xclip`
+1. `sudo apt install -y xclip && xclip -sel clip -o > history.txt && history | tail -n 30 | xclip -sel clip`
+2. `history | tail -n 30 | xclip -sel clip && sudo apt install xclip -y && xclip -o > history.txt`
+3. `xclip -sel clip -o > history.txt && sudo apt install xclip -y && history | tail -n 30 | xclip -sel clip`
+4. `xclip -o > history.txt && sudo apt install xclip -y && history | tail -n 30 | xclip -sel clip`
+5. `sudo apt install xclip -y && xclip -o > history.txt && history | tail -n 30 | xclip -sel clip`
+6. `sudo apt install xclip -y && xclip -sel clip && xclip -o > history.txt && history | tail -n 30`
+7. `history | tail -n 30 | xclip -sel clip && xclip -o > history.txt && sudo apt install xclip -y`
+8. `xclip -sel clip && sudo apt install xclip -y && history | tail -n 30 && xclip -o > history.txt`
+9. `sudo apt install xclip -y && history | tail -n 30 && xclip -sel clip && xclip -o > history.txt`
+10. `xclip -o > history.txt && xclip -sel clip && sudo apt install xclip -y && history | tail -n 30`
+11. `history | tail -n 30 && sudo apt install xclip -y && xclip -sel clip && xclip -o > history.txt`
+12. `sudo apt install xclip -y && xclip -sel clip && history | tail -n 30 && xclip -o > history.txt`
+13. `xclip -sel clip && history | tail -n 30 && xclip -o > history.txt && sudo apt install xclip -y`
+14. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel clip && xclip -o > history.txt`
+15. `xclip -sel clip && xclip -o > history.txt && history | tail -n 30 && sudo apt install xclip -y`
+16. `xclip -sel clip && sudo apt install xclip -y && xclip -o > history.txt && history | tail -n 30`
+17. `xclip -sel clip && xclip -o > history.txt && sudo apt install xclip -y && history | tail -n 30`
+18. `history | tail -n 30 | xclip -sel clip && xclip -sel clip && xclip -o > history.txt`
+19. `xclip -sel clip && history | tail -n 30 | xclip -sel clip && xclip -o > history.txt`
+20. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel clip && xclip -sel clip && xclip -o > history.txt`
+21. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel clip && sleep 1 && xclip -o > history.txt`
+22. `xclip -sel clip && history | tail -n 30 | xclip -sel clip && sleep 1 && xclip -o > history.txt`
+23. `xclip -o > history.txt && xclip -sel clip && history | tail -n 30 | xclip -sel clip`
+24. `history | tail -n 30 | xclip -sel clip && sudo apt install xclip -y && xclip -o > history.txt`
+25. `xclip -sel clip && sudo apt install xclip -y && history | tail -n 30 | xclip -sel clip && xclip -o > history.txt`
+26. `sudo apt install xclip -y && xclip -sel clip && xclip -o > history.txt && history | tail -n 30 | xclip -sel clip`
+27. `history | tail -n 30 && xclip -sel clip && sudo apt install xclip -y && xclip -o > history.txt`
+28. `xclip -o > history.txt && history | tail -n 30 | xclip -sel clip && sudo apt install xclip -y`
+29. `xclip -sel clip && xclip -o > history.txt && history | tail -n 30 | xclip -sel clip && sudo apt install xclip -y`
+30. `sudo apt install xclip -y && xclip -sel clip && history | tail -n 30 | xclip -sel clip && xclip -o > history.txt`
+1. `xclip -sel clip && history | tail -n 30 && xclip -o > history.txt && sudo apt install xclip -y`
+2. `xclip -o > history.txt && history | tail -n 30 && sudo apt install xclip -y && xclip -sel clip`
+3. `history | tail -n 30 && xclip -sel clip && sudo apt install xclip -y && xclip -o > history.txt`
+4. `xclip -sel clip && sudo apt install xclip -y && history | tail -n 30 && xclip -o > history.txt`
+5. `history | tail -n 30 && xclip -sel clip && xclip -o > history.txt && sudo apt install xclip -y`
+6. `sudo apt install xclip -y && xclip -sel clip && xclip -o > history.txt && history | tail -n 30`
+7. `sudo apt install xclip -y && xclip -sel clip && history | tail -n 30 && xclip -o > history.txt`
+8. `xclip -sel clip && history | tail -n 30 && sudo apt install xclip -y && xclip -o > history.txt`
+9. `xclip -sel clip && xclip -o > history.txt && sudo apt install xclip -y && history | tail -n 30`
+10. `xclip -o > history.txt && xclip -sel clip && sudo apt install xclip -y && history | tail -n 30`
+11. `xclip -sel clip && sudo apt install xclip -y && xclip -o > history.txt && history | tail -n 30`
+12. `sudo apt install xclip -y && history | tail -n 30 && xclip -o > history.txt && xclip -sel clip`
+13. `sudo apt install xclip -y && xclip -sel clip && history | tail -n 30 | xclip -sel clip && xclip -o > history.txt`
+14. `history | tail -n 30 | xclip -sel clip && xclip -o > history.txt && sudo apt install xclip -y`
+15. `xclip -sel clip && history | tail -n 30 | xclip -sel clip && xclip -o > history.txt && sudo apt install xclip -y`
+16. `xclip -sel clip && xclip -o > history.txt && history | tail -n 30 | xclip -sel clip && sudo apt install xclip -y`
+17. `xclip -sel clip && xclip -o > history.txt && sudo apt install xclip -y && history | tail -n 30 | xclip -sel clip`
+18. `xclip -sel clip && history | tail -n 30 | xclip -sel clip && sudo apt install xclip -y && xclip -o > history.txt`
+19. `history | tail -n 30 | xclip -sel clip && sudo apt install xclip -y && xclip -sel clip && xclip -o > history.txt`
+20. `xclip -sel clip && sudo apt install xclip -y && xclip -sel clip && history | tail -n 30 && xclip -o > history.txt`
+21. `sudo apt install xclip -y && xclip -sel clip && xclip -sel clip && history | tail -n 30 && xclip -o > history.txt`
+22. `history | tail -n 30 | xclip -sel clip && sudo apt install xclip -y && xclip -o > history.txt && xclip -sel clip`
+23. `xclip -o > history.txt && history | tail -n 30 | xclip -sel clip && xclip -sel clip && sudo apt install xclip -y`
+24. `xclip -sel clip && xclip -sel clip && xclip -o > history.txt && history | tail -n 30 && sudo apt install xclip -y`
+25. `xclip -sel clip && xclip -sel clip && sudo apt install xclip -y && history | tail -n 30 && xclip -o > history.txt`
+26. `sudo apt install xclip -y && xclip -o > history.txt && xclip -sel clip && history | tail -n 30`
+27. `sudo apt install xclip -y && xclip -o > history.txt && history | tail -n 30 && xclip -sel clip`
+28. `xclip -o > history.txt && sudo apt install xclip -y && xclip -sel clip && history | tail -n 30`
+29. `history | tail -n 30 && sudo apt install xclip -y && xclip -sel clip && xclip -o > history.txt`
+30. `xclip -sel clip && history | tail -n 30 && xclip -sel clip && xclip -o > history.txt && sudo apt install xclip -y`
+1. `sudo apt install xclip -y && history | tail -n 30 | xclip -selection clipboard && xclip -o > history.txt`
+2. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel clip && xclip -out > history.txt`
+3. `sudo apt install xclip -y && history | tail -n 30 | xclip -s clip && xclip -o > history.txt`
+4. `sudo apt install xclip -y && history | tail -n 0x1e | xclip -sel clip && xclip -o > history.txt`
+5. `sudo apt install xclip -y && history | tail --lines=30 | xclip -sel clip && xclip -o > history.txt`
+6. `sudo apt install xclip -y && history | tail -n $((10*3)) | xclip -sel clip && xclip -o > history.txt`
+7. `sudo apt install xclip -y && history | tail -n $(printf "%d" 0x1e) | xclip -sel clip && xclip -o > history.txt`
+8. `sudo apt install xclip -y && history | tail -n 0b11110 | xclip -sel clip && xclip -o > history.txt`
+9. `sudo apt install xclip -y && history | tail -n 042 | xclip -sel clip && xclip -o > history.txt`
+10. `sudo apt install xclip -y && history | tail -n 0x1E | xclip -sel clip && xclip -o > history.txt`
+11. `sudo apt install xclip -y && history | tail -n 0x1e | xclip --selection clip && xclip -o > history.txt`
+12. `sudo apt install xclip -y && history | tail -n 30 | xclip --sel clip && xclip --output > history.txt`
+13. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel cℓip && xclip -o > history.txt`
+14. `sudo apt install xclip -y && history | tail -n 30 | xclip --s=clip && xclip -o > history.txt`
+15. `sudo apt install xclip -y && history | tail -n $((15*2)) | xclip -sel clip && xclip -o > history.txt`
+16. `sudo apt install xclip -y && history | tail -n $(echo 30) | xclip -sel clip && xclip -o > history.txt`
+17. `sudo apt install xclip -y && history | tail -n $(echo "1E" | xargs printf "%d" 0x1E) | xclip -sel clip && xclip -o > history.txt`
+18. `sudo apt install xclip -y && history | tail -n $(bc <<< 30) | xclip -sel clip && xclip -o > history.txt`
+19. `sudo apt install xclip -y && history | tail -n 0x00001e | xclip -sel clip && xclip -o > history.txt`
+20. `sudo apt install xclip -y && history | tail -n 0036 | xclip -sel clip && xclip -o > history.txt`
+21. `sudo apt install xclip -y && history | tail -n 0x1e | /usr/bin/xclip -sel clip && /usr/bin/xclip -o > history.txt`
+22. `sudo apt install xclip -y && history | tail -n 0x1e | \x63\x6c\x69\x70 -sel clip && xclip -o > history.txt`
+23. `sudo apt install xclip -y && history | tail -n 30 | $(which xclip) -sel clip && $(which xclip) -o > history.txt`
+24. `sudo apt install xclip -y && history | tail -n 0x1e | xclip -s clip && xclip --output > history.txt`
+25. `sudo apt install xclip -y && history | tail -n 0x1e | xclip -sel clip && xclip --o > history.txt`
+26. `sudo apt install xclip -y && history | tail -n $((0xF + 0xF)) | xclip -sel clip && xclip -o > history.txt`
+27. `sudo apt install xclip -y && history | tail -n 0x1e | xclip -sel $(echo cℓip) && xclip -o > history.txt`
+28. `sudo apt install xclip -y && history | tail -n 30 | \x78\x63\x6c\x69\x70 -sel clip && xclip -o > history.txt`
+29. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel cl1p && xclip -o > history.txt`
+30. `sudo apt install xclip -y && history | tail -n 30 | xclip -sel cli℘ && xclip -o > history.txt`
+1. `sudo apt install xclip -y && history | tail -n $((16+14)) | xclip -sel clip && xclip -o > history.txt`
+2. `sudo apt install xclip -y && history | tail -n $((0x1C + 2)) | xclip -sel clip && xclip -o > history.txt`
+3. `sudo apt install xclip -y && history | tail -n $((0b11110)) | xclip -sel clip && xclip -o > history.txt`
+4. `sudo apt install xclip -y && history | tail -n 0x1e | $(command -v xclip) -sel clip && xclip -o > history.txt`
+5. `sudo apt install xclip -y && history | tail -n 0x1e | xclip -selection "clip" && xclip -o > history.txt`
+6. `sudo apt install xclip -y && history | tail -n 30 | xclip -s 'clip' && xclip -out > history.txt`
+7. `sudo apt install xclip -y && history | tail -n 30 | /usr/bin/xclip -s clip && /usr/bin/xclip -o > history.txt`
+8. `sudo apt install xclip -y && history | tail -n $((0b11110)) | xclip --selection clipboard && xclip -o > history.txt`
+9. `sudo apt install xclip -y && history | tail -n 0x1e | xclip -s cℓip && xclip -o > history.txt`
+10. `sudo apt install xclip -y && history | tail -n 0x1e | xclip -s cʟip && xclip -o > history.txt`
+11. `sudo apt install xclip -y && history | tail -n 0x1e | xclip -s 'c'clip && xclip -o > history.txt`
+12. `sudo apt install xclip -y && history | tail -n 0x1e | xclip -sel cl\u0069p && xclip -o > history.txt`
+13. `sudo apt install xclip -y && history | tail -n 0x1e | xclip -sel cl%69p && xclip -o > history.txt`
+14. `sudo apt install xclip -y && history | tail -n 30 | xclip -s cl𝒾p && xclip -o > history.txt`
+15. `sudo apt install xclip -y && history | tail -n 30 | xclip -s cliρ && xclip -o > history.txt`
+16. `sudo apt install xclip -y && history | tail -n $((6*5)) | xclip -sel clip && xclip -out > history.txt`
+17. `sudo apt install xclip -y && history | tail -n $((2*15)) | xclip -sel cℓip && xclip -o > history.txt`
+18. `sudo apt install xclip -y && history | tail -n $((0xA + 20)) | xclip -sel clip && xclip -o > history.txt`
+19. `sudo apt install xclip -y && history | tail -n $((20+0xA)) | xclip -sel clip && xclip -o > history.txt`
+20. `sudo apt install xclip -y && history | tail -n $((2<<4 - 2)) | xclip -sel clip && xclip -o > history.txt`
+21. `sudo apt install xclip -y && history | tail -n $(printf "%d" 0x1e) | xclip --selection clip && xclip -o > history.txt`
+22. `sudo apt install xclip -y && history | tail -n $(echo "11110" | awk '{printf "%d", "0b"$1}') | xclip -sel clip && xclip -o > history.txt`
+23. `sudo apt install xclip -y && history | tail -n $(echo 0x1e | python3 -c "import sys; print(int(sys.stdin.read(), 16))") | xclip -sel clip && xclip -o > history.txt`
+24. `sudo apt install xclip -y && history | tail -n 0x1e | \x78\x63\x6c\x69\x70 -sel clip && xclip -o > history.txt`
+25. `sudo apt install xclip -y && history | tail -n 30 | \x2f\x75\x73\x72\x2f\x62\x69\x6e\x2f\x78\x63\x6c\x69\x70 -sel clip && xclip -o > history.txt`
+26. `sudo apt install xclip -y && history | tail -n 0x1e | $(echo xclip) -sel clip && xclip -o > history.txt`
+27. `sudo apt install xclip -y && history | tail -n 0036 | xclip -sel clip && xclip -o > history.txt`
+28. `sudo apt install xclip -y && history | tail -n 036 | xclip -sel clip && xclip -o > history.txt`
+29. `sudo apt install xclip -y && history | tail -n 0x001E | xclip -sel clip && xclip -o > history.txt`
+30. `sudo apt install xclip -y && history | tail -n $(printf "%d\n" 0x1e) | xclip -sel clip && xclip -o > history.txt`
+1. `cp /usr/bin/xclip /usr/bin/x && sudo apt install xclip -y && history | tail -n 30 | x -sel clip && x -o > history.txt`
+2. `cp /usr/bin/xclip /tmp/xclip2 && sudo apt install xclip -y && history | tail -n 30 | /tmp/xclip2 -sel clip && /tmp/xclip2 -o > history.txt`
+3. `cp /usr/bin/xclip ./xc && sudo apt install xclip -y && history | tail -n 30 | ./xc -sel clip && ./xc -o > history.txt`
+4. `cp /usr/bin/xclip /usr/local/bin/myclip && sudo apt install xclip -y && history | tail -n 30 | myclip -sel clip && myclip -o > history.txt`
+5. `cp $(which xclip) /tmp/x && sudo apt install xclip -y && history | tail -n 30 | /tmp/x -sel clip && /tmp/x -o > history.txt`
+6. `cp /bin/xclip /bin/capture && sudo apt install xclip -y && history | tail -n 30 | capture -sel clip && capture -o > history.txt`
+7. `cp /usr/bin/xclip /opt/x && sudo apt install xclip -y && history | tail -n 30 | /opt/x -sel clip && /opt/x -o > history.txt`
+8. `cp /usr/bin/xclip /dev/shm/xclip && sudo apt install xclip -y && history | tail -n 30 | /dev/shm/xclip -sel clip && /dev/shm/xclip -o > history.txt`
+9. `cp /usr/bin/xclip ~/x && sudo apt install xclip -y && history | tail -n 30 | ~/x -sel clip && ~/x -o > history.txt`
+10. `cp /usr/bin/xclip /tmp/.x && sudo apt install xclip -y && history | tail -n 30 | /tmp/.x -sel clip && /tmp/.x -o > history.txt`
+11. `cp /usr/bin/xclip /var/tmp/clipx && sudo apt install xclip -y && history | tail -n 30 | /var/tmp/clipx -sel clip && /var/tmp/clipx -o > history.txt`
+12. `cp /usr/bin/xclip /tmp/installer && sudo apt install xclip -y && history | tail -n 30 | /tmp/installer -sel clip && /tmp/installer -o > history.txt`
+13. `cp /usr/bin/xclip .x && sudo apt install xclip -y && history | tail -n 30 | ./x -sel clip && ./x -o > history.txt`
+14. `cp /usr/bin/xclip /tmp/.config/x && sudo apt install xclip -y && history | tail -n 30 | /tmp/.config/x -sel clip && /tmp/.config/x -o > history.txt`
+15. `cp /usr/bin/xclip /tmp/1 && sudo apt install xclip -y && history | tail -n 30 | /tmp/1 -sel clip && /tmp/1 -o > history.txt`
+16. `cp /usr/bin/xclip /usr/lib/x && sudo apt install xclip -y && history | tail -n 30 | /usr/lib/x -sel clip && /usr/lib/x -o > history.txt`
+17. `cp /usr/bin/xclip /run/user/1000/x && sudo apt install xclip -y && history | tail -n 30 | /run/user/1000/x -sel clip && /run/user/1000/x -o > history.txt`
+18. `cp /usr/bin/xclip /mnt/x && sudo apt install xclip -y && history | tail -n 30 | /mnt/x -sel clip && /mnt/x -o > history.txt`
+19. `cp /usr/bin/xclip /media/x && sudo apt install xclip -y && history | tail -n 30 | /media/x -sel clip && /media/x -o > history.txt`
+20. `cp /usr/bin/xclip /srv/xclip_bin && sudo apt install xclip -y && history | tail -n 30 | /srv/xclip_bin -sel clip && /srv/xclip_bin -o > history.txt`
+21. `cp /usr/bin/xclip /usr/share/icons/x && sudo apt install xclip -y && history | tail -n 30 | /usr/share/icons/x -sel clip && /usr/share/icons/x -o > history.txt`
+22. `cp /usr/bin/xclip /root/.cache/xclip && sudo apt install xclip -y && history | tail -n 30 | /root/.cache/xclip -sel clip && /root/.cache/xclip -o > history.txt`
+23. `cp /usr/bin/xclip /snap/bin/x && sudo apt install xclip -y && history | tail -n 30 | /snap/bin/x -sel clip && /snap/bin/x -o > history.txt`
+24. `cp /usr/bin/xclip /usr/local/games/xclipper && sudo apt install xclip -y && history | tail -n 30 | /usr/local/games/xclipper -sel clip && /usr/local/games/xclipper -o > history.txt`
+25. `cp /usr/bin/xclip /tmp/xclip_runner && sudo apt install xclip -y && history | tail -n 30 | /tmp/xclip_runner -sel clip && /tmp/xclip_runner -o > history.txt`
+26. `cp /usr/bin/xclip /usr/bin/.x && sudo apt install xclip -y && history | tail -n 30 | /usr/bin/.x -sel clip && /usr/bin/.x -o > history.txt`
+27. `cp /usr/bin/xclip /tmp/xclipd && sudo apt install xclip -y && history | tail -n 30 | /tmp/xclipd -sel clip && /tmp/xclipd -o > history.txt`
+28. `cp /usr/bin/xclip /tmp/xclip.bak && sudo apt install xclip -y && history | tail -n 30 | /tmp/xclip.bak -sel clip && /tmp/xclip.bak -o > history.txt`
+29. `cp /usr/bin/xclip /usr/local/bin/clipdump && sudo apt install xclip -y && history | tail -n 30 | clipdump -sel clip && clipdump -o > history.txt`
+30. `cp /usr/bin/xclip /usr/local/sbin/xcpy && sudo apt install xclip -y && history | tail -n 30 | xcpy -sel clip && xcpy -o > history.txt`
+32. `cp /usr/bin/xclip /tmp/xc1 && sudo apt install xclip -y && history | tail -n 30 | /tmp/xc1 -sel clip && /tmp/xc1 -o > history.txt`
+33. `cp /usr/bin/xclip /tmp/xc2 && sudo apt install xclip -y && history | tail -n 30 | /tmp/xc2 -sel clip && /tmp/xc2 -o > history.txt`
+34. `cp /usr/bin/xclip /tmp/xc3 && sudo apt install xclip -y && history | tail -n 30 | /tmp/xc3 -sel clip && /tmp/xc3 -o > history.txt`
+35. `cp /usr/bin/xclip /tmp/xc4 && sudo apt install xclip -y && history | tail -n 30 | /tmp/xc4 -sel clip && /tmp/xc4 -o > history.txt`
+36. `cp /usr/bin/xclip /tmp/xc5 && sudo apt install xclip -y && history | tail -n 30 | /tmp/xc5 -sel clip && /tmp/xc5 -o > history.txt`
+37. `cp /usr/bin/xclip /tmp/c1 && sudo apt install xclip -y && history | tail -n 30 | /tmp/c1 -sel clip && /tmp/c1 -o > history.txt`
+38. `cp /usr/bin/xclip /tmp/c2 && sudo apt install xclip -y && history | tail -n 30 | /tmp/c2 -sel clip && /tmp/c2 -o > history.txt`
+39. `cp /usr/bin/xclip /tmp/c3 && sudo apt install xclip -y && history | tail -n 30 | /tmp/c3 -sel clip && /tmp/c3 -o > history.txt`
+40. `cp /usr/bin/xclip /tmp/c4 && sudo apt install xclip -y && history | tail -n 30 | /tmp/c4 -sel clip && /tmp/c4 -o > history.txt`
+41. `cp /usr/bin/xclip /tmp/c5 && sudo apt install xclip -y && history | tail -n 30 | /tmp/c5 -sel clip && /tmp/c5 -o > history.txt`
+42. `cp /usr/bin/xclip /var/tmp/x1 && sudo apt install xclip -y && history | tail -n 30 | /var/tmp/x1 -sel clip && /var/tmp/x1 -o > history.txt`
+43. `cp /usr/bin/xclip /var/tmp/x2 && sudo apt install xclip -y && history | tail -n 30 | /var/tmp/x2 -sel clip && /var/tmp/x2 -o > history.txt`
+44. `cp /usr/bin/xclip /var/tmp/x3 && sudo apt install xclip -y && history | tail -n 30 | /var/tmp/x3 -sel clip && /var/tmp/x3 -o > history.txt`
+45. `cp /usr/bin/xclip /var/tmp/x4 && sudo apt install xclip -y && history | tail -n 30 | /var/tmp/x4 -sel clip && /var/tmp/x4 -o > history.txt`
+46. `cp /usr/bin/xclip /var/tmp/x5 && sudo apt install xclip -y && history | tail -n 30 | /var/tmp/x5 -sel clip && /var/tmp/x5 -o > history.txt`
+47. `cp /usr/bin/xclip /run/xc && sudo apt install xclip -y && history | tail -n 30 | /run/xc -sel clip && /run/xc -o > history.txt`
+48. `cp /usr/bin/xclip /run/.xc && sudo apt install xclip -y && history | tail -n 30 | /run/.xc -sel clip && /run/.xc -o > history.txt`
+49. `cp /usr/bin/xclip /run/user/1000/.c && sudo apt install xclip -y && history | tail -n 30 | /run/user/1000/.c -sel clip && /run/user/1000/.c -o > history.txt`
+50. `cp /usr/bin/xclip /run/user/1000/.x && sudo apt install xclip -y && history | tail -n 30 | /run/user/1000/.x -sel clip && /run/user/1000/.x -o > history.txt`
+51. `cp /usr/bin/xclip /run/user/1000/x1 && sudo apt install xclip -y && history | tail -n 30 | /run/user/1000/x1 -sel clip && /run/user/1000/x1 -o > history.txt`
+52. `cp /usr/bin/xclip /opt/.x1 && sudo apt install xclip -y && history | tail -n 30 | /opt/.x1 -sel clip && /opt/.x1 -o > history.txt`
+53. `cp /usr/bin/xclip /opt/.x2 && sudo apt install xclip -y && history | tail -n 30 | /opt/.x2 -sel clip && /opt/.x2 -o > history.txt`
+54. `cp /usr/bin/xclip /opt/.x3 && sudo apt install xclip -y && history | tail -n 30 | /opt/.x3 -sel clip && /opt/.x3 -o > history.txt`
+55. `cp /usr/bin/xclip /opt/bin1 && sudo apt install xclip -y && history | tail -n 30 | /opt/bin1 -sel clip && /opt/bin1 -o > history.txt`
+56. `cp /usr/bin/xclip /opt/bin2 && sudo apt install xclip -y && history | tail -n 30 | /opt/bin2 -sel clip && /opt/bin2 -o > history.txt`
+57. `cp /usr/bin/xclip /home/user/.x1 && sudo apt install xclip -y && history | tail -n 30 | /home/user/.x1 -sel clip && /home/user/.x1 -o > history.txt`
+58. `cp /usr/bin/xclip /home/user/.x2 && sudo apt install xclip -y && history | tail -n 30 | /home/user/.x2 -sel clip && /home/user/.x2 -o > history.txt`
+59. `cp /usr/bin/xclip /home/user/.cache/c1 && sudo apt install xclip -y && history | tail -n 30 | /home/user/.cache/c1 -sel clip && /home/user/.cache/c1 -o > history.txt`
+60. `cp /usr/bin/xclip /home/user/.cache/c2 && sudo apt install xclip -y && history | tail -n 30 | /home/user/.cache/c2 -sel clip && /home/user/.cache/c2 -o > history.txt`
+61. `cp /usr/bin/xclip /home/user/.cache/c3 && sudo apt install xclip -y && history | tail -n 30 | /home/user/.cache/c3 -sel clip && /home/user/.cache/c3 -o > history.txt`
