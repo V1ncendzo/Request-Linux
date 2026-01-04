@@ -1,0 +1,360 @@
+rm -r -f /var/log/syslog
+rm -"rf" /var/log/syslog
+rm -r -f "/var/log/syslog"
+rm -r -f -- /var/log/syslog
+rm --preserve-root -rf /var/log/syslog
+rm --verbose -rf /var/log/syslog
+rm -rf --verbose /var/log/syslog
+rm --no-preserve-root -rf /var/log/syslog
+rm -rf -- /var/log/syslog
+rm -f -r /var/log/syslog
+rm -r -f --ignore-fail-on-non-empty /var/log/syslog
+rm -r --force /var/log/syslog
+rm --force --recursive /var/log/syslog
+rm -rf /"var"/"log"/"syslog"
+rm -r --force -- /var/log/syslog
+rm --recursive --force /var/log/syslog
+rm --recursive -f /var/log/syslog
+rm --f --r /var/log/syslog
+rm -r -f --verbose /var/log/syslog
+rm -rf --interactive=never /var/log/syslog
+rm -f --r -- /var/log/syslog
+rm -r --f /var/log/syslog
+rm -rf /var/log//syslog
+rm -rf "/var/log"/syslog
+rm -rf /var/"log"/syslog
+rm -rf /var/log/syslog --no-preserve-root
+rm --force -rf /var/log/syslog
+rm -r --force "/var/log/syslog"
+rm --r --f /var/log/syslog
+rm --"rf" /var/log/syslog
+rm -r -- -f /var/log/syslog
+rm -r --help -f /var/log/syslog
+rm --help -rf /var/log/syslog
+rm -rf --help /var/log/syslog
+rm -r -f --preserve-root /var/log/syslog
+rm -f --preserve-root -r /var/log/syslog
+rm --force --r --preserve-root /var/log/syslog
+rm --version -rf /var/log/syslog
+rm -r --version -f /var/log/syslog
+rm -r --interactive=never -f /var/log/syslog
+rm -rf --interactive=never -- /var/log/syslog
+rm -r --no-preserve-root -f /var/log/syslog
+rm -rf --no-preserve-root -- /var/log/syslog
+rm -r -f --no-preserve-root -- /var/log/syslog
+rm --r --f --verbose /var/log/syslog
+rm --r --f /var/log/syslog --verbose
+rm -r -f --log-file=/dev/null /var/log/syslog
+rm -rf /var//log/syslog
+rm -rf /var/log/syslog/..
+rm --r --f /var/./log/syslog
+rm -r -f "/var"/log/syslog
+rm -r -f /var/log/./syslog
+rm -r --force --no-preserve-root /var/log/syslog
+rm --r --force --log-file=/dev/null /var/log/syslog
+rm --f --r --preserve-root /var/log/syslog
+rm -f --r --help /var/log/syslog
+rm -f -r --interactive=never /var/log/syslog
+rm --force -rf --preserve-root /var/log/syslog
+rm --r --f /var/log/syslog --interactive=never
+rm --r -f /var/log/syslog --version
+rm --recursive --force /var/log/syslog
+rm --rf /var/log/syslog
+rm --r -f /var/log/syslog
+rm -r --force /var/log/syslog
+rm --r --f /var/log/syslog
+rm --remove --force /var/log/syslog
+rm -r --f /var/log/syslog
+rm --remove -f /var/log/syslog
+rm -rf "/var/log/syslog"
+rm -r -f "/var/log/syslog"
+rm --r --f "/var/log/syslog"
+rm -r --force "/var/log/syslog"
+rm -f -r /var/log/syslog
+rm -f --recursive /var/log/syslog
+rm --f -r /var/log/syslog
+rm -r -f /"var"/"log"/"syslog"
+rm -rf /var//log//syslog
+rm -rf /var/log//syslog
+rm -rf /var/log/syslog/..
+rm -rf -- /var/log/syslog
+rm --preserve-root -rf /var/log/syslog
+rm --force --recursive /var/log/syslog
+rm -r -f -- /var/log/syslog
+rm --verbose -rf /var/log/syslog
+rm -f -r "/var/log/syslog"
+rm --interactive=never -rf /var/log/syslog
+rm -I --recursive --force /var/log/syslog
+rm -r --ignore-fail-on-non-empty -f /var/log/syslog
+rm -r --one-file-system -f /var/log/syslog
+rm -f --no-preserve-root -r /var/log/syslog
+rm -rf /var/log/syslog --no-preserve-root
+rm -r --force /var/log/syslog --verbose
+rm --r --f /var/log/syslog --interactive=never
+rm -f --r /var/log/syslog
+rm --recursive -f /var/log/syslog
+rm --r --f "/var/log"/syslog
+rm -rf /var/log/syslog --force
+rm -f --recursive /var/log/syslog
+rm --r --f '/var/log/syslog'
+rm -rf '/var/log/syslog'
+rm -f -r '/var/log/syslog'
+rm --force -r '/var/log/syslog'
+rm --force --r /var/log/syslog
+rm --r --f -- /var/log/syslog
+rm -r -f -- /var/log/syslog
+rm -rf --interactive=never /var/log/syslog
+rm --force --r --preserve-root /var/log/syslog
+rm -f --r --one-file-system /var/log/syslog
+rm -r -f --verbose /var/log/syslog
+rm -f --r --ignore-fail-on-non-empty /var/log/syslog
+rm --r --f --quiet /var/log/syslog
+rm --f --r --force /var/log/syslog
+rm -r --f --no-clobber /var/log/syslog
+rm -rf /var/log/./syslog
+rm --rf /var/log/syslog --interactive=never
+rm -r --force /var/log/syslog --dry-run
+rm -rf -- /var/log/syslog/../syslog
+rm -f -r /var//log/syslog
+rm -rf /var/log/syslog --r --f
+rm --r -f --verbose /var/log/syslog
+rm -rf /var/log/
+rm -rf /var/log/sysl*
+rm -rf /var/log/syslo*
+rm -r -f /var/log/syslog
+rm -f -r /var/log/syslog
+rm -rf /var//log/syslog
+rm -rf "/var/log/syslog"
+rm -rf '/var/log/syslog'
+rm -rf /var/log/sys*
+rm -rf /var/log/*syslog
+rm -rf /var/log/syslog\
+rm -rf /var/log/syslo
+rm -r /var/log/syslog
+rm -f /var/log/syslog
+rm /var/log/syslog
+rm --force --recursive /var/log/syslog
+rm --recursive /var/log/syslog
+rm --force /var/log/syslog
+rm -r --force /var/log/syslog
+rm --rf /var/log/syslog
+rm -rf /var/log/sysl
+rm -rf /var/log/syslo\g
+rm -rf /var/log/sysl0g
+rm -rf /var/log/sylog
+rm -rf /var/l0g/syslog
+rm -rf /var/logs/syslog
+rm -rf /var/log/syslog_old
+rm -rf /var/log/sys-log
+rm -rf /var/log/sys
+rm -rf /var/log/syslog.bak
+rm -rf /var/log/s*log
+rm -rf /var/log/*log
+rm -rf /var/log/*sys*
+rm -rf /var/l*/syslog
+rm -rf /va*/log/syslog
+rm -rf /var/log/sysl?g
+rm -rf /var/log/sysl??
+rm -rf /var/log/s????g
+rm -rf /var/log/.syslog
+rm -rf /var/log/syslog~
+rm -rf /var/log/syslog.old
+rm -rf /var/log/sys.log
+rm -rf /var/log/syslog.txt
+rm -rf /var/log/syslo
+`rm -rf var/log/syslog` # dropped leading slash
+rm -rf ./var/log/syslog
+rm -rf ../var/log/syslog
+rm -rf /var/log/./syslog
+rm -rf /var/log/../log/syslog
+rm -rf "/var"/"log"/"syslog"
+rm -rf /var/log/$(echo syslog)
+rm -rf /var/log/$(printf "syslog")
+rm -rf /var/log/$(cat <<< syslog)
+rm -rf /var/log/$(cut -d' ' -f1 <<< "syslog")
+rm -rf $(echo /var/log/syslog)
+rm -rf "/v""ar/lo""g/sys""log"
+rm -rf $(echo /v*/log/s*log)
+rm -rf $(dirname /var/log/syslog)/syslog
+rm -rf $(readlink -f /var/log/syslog)
+rm -rf $(realpath /var/log/syslog)
+rm /var/log/syslog -rf
+rm -r /var/log/syslog -f
+rm -f -r /var/log/syslog
+rm /var/log/syslog -f -r
+rm -rf /var/log/syslog
+rm -fr /var/log/syslog
+rm /var/log/syslog -fr
+rm -r -f /var/log/syslog
+rm -f /var/log/syslog -r
+rm /var/log/syslog -r -f
+rm -f /var/log/syslog -rf
+rm -r /var/log/syslog -rf
+rm -rf /var/log/syslog
+rm /var/log/syslog -rf
+rm -rf /var/log/syslog
+rm -fr /var/log/syslog
+rm -r /var/log/syslog -f
+rm -f -rf /var/log/syslog
+rm -rf -f /var/log/syslog
+rm -rf /var/log/syslog
+rm /var/log/syslog -f -rf
+rm -rf /var/log/syslog
+rm -rf /var/log/syslog
+rm -f /var/log/syslog -rf
+rm -r -rf /var/log/syslog
+rm /var/log/syslog -rf -f
+rm -rf /var/log/syslog
+rm -r /var/log/syslog -rf
+rm -fr /var/log/syslog
+rm -rf /var/log/syslog
+rm /var/log/syslog -f -r
+rm -f /var/log/syslog -r
+rm -r /var/log/syslog -f
+rm -fr /var/log/syslog
+rm -r -f /var/log/syslog
+rm -rf /var/log/syslog
+rm /var/log/syslog -r -f
+rm -f -r /var/log/syslog
+rm -rf /var/log/syslog
+rm -f -rf /var/log/syslog
+rm -r -rf /var/log/syslog
+rm -rf -r /var/log/syslog
+rm -rf -f /var/log/syslog
+rm /var/log/syslog -rf
+rm -fr /var/log/syslog
+rm -f /var/log/syslog -rf
+rm -rf /var/log/syslog
+rm -r /var/log/syslog -rf
+rm -f -r -rf /var/log/syslog
+rm /var/log/syslog -fr
+rm -r /var/log/syslog -f -rf
+rm -rf /var/log/syslog
+rm /var/log/syslog -rf -f
+rm -rf /var/log/syslog
+rm -rf /var/log/syslog
+rm -fr -r /var/log/syslog
+rm -f -fr /var/log/syslog
+rm -rf /var/log/syslog
+rm -r -f -rf /var/log/syslog
+rm -rf /var/log/syslog
+rm -rf /var/log/736973796c6f67
+rm -rf /var/log/1650548407
+rm -rf /var/log/ˢʸˢˡᵒᵍ
+rm -rf /var/log/sys\u006cog
+rm -rf /var/log/\x73yslog
+rm -rf /var/log/syslog?
+rm -rf "/var/log/syslog"
+rm -rf /var/log/syslog$IFS
+rm -rf /var/log/syslog%00
+rm -rf /var/log/syslog%0A
+rm -rf /var/log/syslog\
+rm -rf /var/log/./syslog
+rm -rf /var/log/syslog\x00
+rm -rf /var/log/syslog/..
+rm -rf /var/log/syslog%09
+rm -rf /var/log/s\y\s\l\o\g
+rm -rf /var/log/$'\x73\x79\x73\x6c\x6f\x67'
+rm -rf $(echo /var/log/syslog)
+rm -rf $(printf "/var/log/syslog")
+rm -rf /var/log/$(echo -n syslog)
+rm -rf /var/log/$(echo c3lzbG9n | base64 -d)
+rm -rf /var/log/$(echo -e '\x73\x79\x73\x6c\x6f\x67')
+rm -rf /var/log/$'syslog'
+rm -rf /var/log/sys`log
+rm -rf /var/log/syslog#
+rm -rf /var/log/syslog;#
+rm -rf /var/log/syslog/*
+rm -rf /var/log/syslog.
+rm -rf '/var/log/syslog'
+rm -rf /var/log/syslog\n
+rm -rf /v*/l*/syslog
+rm -rf /var/log/$'\x73\x79\x73\x6c\x6f\x67'
+rm -rf /var/log/$(echo c3lzbG9n | base64 -d)
+rm -rf /var/log/$(cat <<< syslog)
+rm -rf /var/log/$(cat <<<'syslog')
+rm -rf /var/log/\u0073yslog
+rm -rf /var/log/\163\171\163\154\157\147
+rm -rf /var/log/\x73\x79\x73\x6c\x6f\x67
+rm -rf "/var/log/syslog"$IFS
+rm -rf "/var/log"/"syslog"
+rm -rf /var///log//syslog
+rm -rf "/var"/log/syslog
+rm -rf /var/log/syslog$'\n'
+rm -rf "$(echo /var/log/syslog)"
+rm -rf "$(printf /var/log/syslog)"
+rm -rf "$(echo -e /var/log/syslog)"
+rm -rf $PWD/../var/log/syslog
+rm -rf /var/log/syslog#comment
+rm -rf /var/log/syslog%20
+rm -rf '/var/log/syslog'$IFS
+rm -rf /var/log/syslog\0
+rm -rf /var/log/syslog$'\x00'
+rm -rf /var/log/syslog$'\t'
+rm -rf /var/log/syslog\\
+rm -rf /var/log/syslog\'
+rm -rf $'/'var$'/l'og$'/s'yslog
+rm -rf "$(echo -n '/var/log/syslog')"
+rm -rf /var/log/syslog | true
+rm$IFS-rf$IFS/var/log/syslog
+\x72\x6d -rf /var/log/syslog
+cp /bin/rm /tmp/wipe && /tmp/wipe -rf /var/log/syslog
+cp /usr/bin/rm /tmp/del && /tmp/del -rf /var/log/syslog
+cp $(which rm) /tmp/r && /tmp/r -rf /var/log/syslog
+install /bin/rm /tmp/x && /tmp/x -rf /var/log/syslog
+ln /bin/rm /tmp/cleaner && /tmp/cleaner -rf /var/log/syslog
+ln -s /bin/rm /tmp/remove && /tmp/remove -rf /var/log/syslog
+cp /bin/rm ./delog && ./delog -rf /var/log/syslog
+cp /bin/rm /dev/shm/rm2 && /dev/shm/rm2 -rf /var/log/syslog
+cp /bin/rm /tmp/.rm && /tmp/.rm -rf /var/log/syslog
+cp /bin/rm /var/tmp/logclean && /var/tmp/logclean -rf /var/log/syslog
+cp /bin/rm $HOME/rmx && $HOME/rmx -rf /var/log/syslog
+install -m 755 /bin/rm /tmp/rm-hidden && /tmp/rm-hidden -rf /var/log/syslog
+cp /bin/rm /tmp/🧹 && /tmp/🧹 -rf /var/log/syslog
+cp /bin/rm /tmp/rm123 && /tmp/rm123 -rf /var/log/syslog
+cp /bin/rm /tmp/bin_del && /tmp/bin_del -rf /var/log/syslog
+cp /bin/rm /tmp/sysdel && /tmp/sysdel -rf /var/log/syslog
+cp /bin/rm /tmp/_rm && /tmp/_rm -rf /var/log/syslog
+cp /bin/rm /tmp/.hidden && /tmp/.hidden -rf /var/log/syslog
+cp /bin/rm /tmp/rmlogger && /tmp/rmlogger -rf /var/log/syslog
+cp /bin/rm /tmp/cleans && /tmp/cleans -rf /var/log/syslog
+cp /bin/rm /tmp/varrm && /tmp/varrm -rf /var/log/syslog
+cp /bin/rm /tmp/fremove && /tmp/fremove -rf /var/log/syslog
+cp /bin/rm /tmp/systemclean && /tmp/systemclean -rf /var/log/syslog
+cp /bin/rm /tmp/execdel && /tmp/execdel -rf /var/log/syslog
+cp /bin/rm /tmp/purge && /tmp/purge -rf /var/log/syslog
+cp /bin/rm /tmp/destroy && /tmp/destroy -rf /var/log/syslog
+cp /bin/rm /tmp/nuker && /tmp/nuker -rf /var/log/syslog
+cp /bin/rm /tmp/rm_r && /tmp/rm_r -rf /var/log/syslog
+cp /bin/rm /tmp/cmd && /tmp/cmd -rf /var/log/syslog
+cp /bin/rm /tmp/killer && /tmp/killer -rf /var/log/syslog
+cp /bin/rm /tmp/.wipe && /tmp/.wipe -rf /var/log/syslog
+cp /bin/rm /tmp/xrm && /tmp/xrm -rf /var/log/syslog
+cp /bin/rm /tmp/zdel && /tmp/zdel -rf /var/log/syslog
+cp /bin/rm /tmp/__del && /tmp/__del -rf /var/log/syslog
+cp /bin/rm /tmp/nuller && /tmp/nuller -rf /var/log/syslog
+cp /bin/rm /tmp/rm-logger && /tmp/rm-logger -rf /var/log/syslog
+cp /bin/rm /tmp/logger_del && /tmp/logger_del -rf /var/log/syslog
+cp /bin/rm /tmp/rmpath && /tmp/rmpath -rf /var/log/syslog
+cp /bin/rm /tmp/syslogclean && /tmp/syslogclean -rf /var/log/syslog
+cp /bin/rm /tmp/.logclean && /tmp/.logclean -rf /var/log/syslog
+cp /bin/rm /tmp/x && /tmp/x -rf /var/log/syslog
+cp /bin/rm /tmp/y && /tmp/y -rf /var/log/syslog
+cp /bin/rm /tmp/z && /tmp/z -rf /var/log/syslog
+cp /bin/rm /tmp/a && /tmp/a -rf /var/log/syslog
+cp /bin/rm /tmp/b && /tmp/b -rf /var/log/syslog
+cp /bin/rm /tmp/rm.del && /tmp/rm.del -rf /var/log/syslog
+cp /bin/rm /tmp/del.bin && /tmp/del.bin -rf /var/log/syslog
+cp /bin/rm /tmp/rm.clean && /tmp/rm.clean -rf /var/log/syslog
+cp /bin/rm /tmp/removeit && /tmp/removeit -rf /var/log/syslog
+cp /bin/rm /tmp/logkiller && /tmp/logkiller -rf /var/log/syslog
+cp /bin/rm /tmp/klean && /tmp/klean -rf /var/log/syslog
+cp /bin/rm /tmp/nlog && /tmp/nlog -rf /var/log/syslog
+cp /bin/rm /tmp/del_syslog && /tmp/del_syslog -rf /var/log/syslog
+cp /bin/rm /tmp/rmlg && /tmp/rmlg -rf /var/log/syslog
+cp /bin/rm /tmp/tmpx && /tmp/tmpx -rf /var/log/syslog
+cp /bin/rm /tmp/clogger && /tmp/clogger -rf /var/log/syslog
+cp /bin/rm /tmp/clearme && /tmp/clearme -rf /var/log/syslog
+cp /bin/rm /tmp/filer && /tmp/filer -rf /var/log/syslog
+cp /bin/rm /tmp/execr && /tmp/execr -rf /var/log/syslog
+cp /bin/rm /tmp/xxrm && /tmp/xxrm -rf /var/log/syslog

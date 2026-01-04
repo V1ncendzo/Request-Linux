@@ -1,0 +1,361 @@
+f''ind /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f""ind /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+fi''nd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+fi""nd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+fin''d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+fin""d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f\i\n\d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+\f\i\nd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+\\f\\i\\n\\d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f\\in\\d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f\''ind /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+fi\"nd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f'i'n'd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+"f"ind /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f"i"nd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f'i'nd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f"in"d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+fi"n"d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f'""ind' /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f\i''n\d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f\\i''nd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f\i\\n\"d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f'\\''i'n'd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+"f''ind" /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+'f""ind' /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+\fi\nd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+fi\nd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f\\ind /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f\ind /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+'f'\''i'n'd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+"f"\''i"n"d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f'i''n'd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f\"i\"n\"d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f\\i\\nd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f\\i\\n\\d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f"''"ind /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+"f''"ind /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f'i\\n'd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f\'i\'n\'d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f\"i\"nd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f\\in\"d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+"f''i''n''d" /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+'f""i""n""d' /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+\\f''ind /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f'i\\nd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f\\i''nd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f\\"i\\"n\\"d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f\\\"ind /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+"f\"ind" /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f"i""n""d" /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f'\i\n\d' /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+"f\i\n\d" /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+'f\i\n\d' /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f\"in\"d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f\\in\\d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+fi'n'd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f\\''ind /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+\\f\\''i''n''d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f\'i"n"d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+"f\\ind" /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f"\\i\\nd" /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cmd="find"; $cmd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+a="fi"; b="nd"; $a$b /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f="f"; g="ind"; $f$g /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+_cmd=find; $_cmd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+__="find"; $__ /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+FIND_CMD="find"; $FIND_CMD /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+eval_cmd="fi""nd"; $eval_cmd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+x="f"; y="i"; z="nd"; $x$y$z /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cmd1="find"; nohup $cmd1 /etc -maxdepth 2 -name "*.conf" 2>/dev/null &
+cmd=$(echo find); $cmd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+c='fi'; d='nd'; $c$d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+fn="find"; $fn /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+COMMAND=find; $COMMAND /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+FIND=find; $FIND /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cmd_var="find"; $cmd_var /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+func(){ find "$@"; }; func /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+alias fnd='find'; fnd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+type="find"; $type /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+c="f"; d="i"; e="n"; f="d"; $c$d$e$f /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+VAR1="fi"; VAR2="nd"; $VAR1$VAR2 /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f_cmd="f""i""n""d"; $f_cmd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+eval "f""ind" /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+eval $(echo find) /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+eval_cmd="find"; eval $eval_cmd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cmd=$(printf "%s" find); $cmd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+F="fi"; N="nd"; $F$N /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+__cmd__="find"; $__cmd__ /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+command_var="f""i""nd"; $command_var /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cmd=fi; cmd=$cmd"nd"; $cmd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f1="f"; f2="i"; f3="nd"; $f1$f2$f3 /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+CMD="f""ind"; $CMD /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cmd=$(echo -n f; echo ind); $cmd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+fnd="f"; fnd=$fnd"i""n""d"; $fnd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+X=$(cat <<EOF find EOF ) $X /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cmd_part1="fi"; cmd_part2="nd"; $cmd_part1$cmd_part2 /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+export cmd_find="find"; $cmd_find /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+read f <<< "find"; $f /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+IFS=, read -r cmd <<< "find"; $cmd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+find_alias="f""i""nd"; $find_alias /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cmds=("find"); ${cmds[0]} /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+arr=(f i n d); $(${arr[0]}${arr[1]}${arr[2]}${arr[3]}) /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+CMD1="f"; CMD2="ind"; $CMD1$CMD2 /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+C1="f"; C2="i"; C3="n"; C4="d"; $C1$C2$C3$C4 /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+eval_cmd=$(echo "find"); $eval_cmd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cmd=$(cut -d: -f1 <<< "find:dummy"); $cmd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cmdname=$(printf 'f%s' 'ind'); $cmdname /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+F1=$(echo f); F2=ind; $F1$F2 /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+a="f"; b="i"; c="n"; d="d"; $a$b$c$d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cmd_func(){ command find "$@"; }; cmd_func /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+command_var_name="find"; eval "$command_var_name /etc -maxdepth 2 -name \"*.conf\" 2>/dev/null"
+cmd_name="f"; cmd_name=${cmd_name}ind; $cmd_name /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+v1=fi; v2=nd; v=$v1$v2; $v /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+x="f"; y="ind"; xy=$x$y; $xy /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+eval $(echo cmd=find); $cmd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+a=find; $a /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cmd=$(basename $(which find)); $cmd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cmd=fi; cmd=$cmd$(echo nd); $cmd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+read cmd <<< $(echo find); $cmd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+f="f"; i="i"; n="n"; d="d"; $f$i$n$d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+fncmd="find"; bash -c '$fncmd /etc -maxdepth 2 -name "*.conf" 2>/dev/null'
+/usr/bin/f??d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/usr/bin/fi?? /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/usr/bin/f*n? /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/usr/bin/fin* /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/usr/bin/f*d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+./f??d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+./f*n? /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+./fin* /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+./f*d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/path/to/f??d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/path/to/f*n? /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/path/to/f*d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/path/to/fin* /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/bin/f??d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/bin/f*d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/bin/fi?? /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/bin/fin* /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/usr/local/bin/f??d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/usr/local/bin/fi?? /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/usr/local/bin/f*n? /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/usr/local/bin/fin* /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/usr/local/bin/f*d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+~/f??d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+~/fin* /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+~/f*n? /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+~/f*d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+$PWD/f??d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+$PWD/fin* /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+$PWD/f*n? /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+$PWD/f*d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/usr/bin/*ind /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/usr/bin/f?nd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/usr/bin/fi*d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/usr/bin/fi?d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/usr/bin/f??n /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/usr/bin/fn?? /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/usr/bin/*n?d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/usr/bin/?ind /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/usr/bin/?i?? /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/usr/bin/f?i? /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/usr/bin/f?i*d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+/usr/bin/f?i?? /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+./*ind /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+./f?n* /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+./?i?? /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+./f*nd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+./fi*d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+./f??n /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+./fn?? /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+~/f*nd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+~/f?nd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+~/?ind /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+~/f?n? /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+~/f?i? /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+~/fi?? /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+~/fi*d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+$PWD/f?nd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+$PWD/fi*d /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+$PWD/?ind /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+$PWD/f??n /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+find /etc -name "*.conf" -maxdepth 2 2>/dev/null
+find /etc -name "*.conf" 2>/dev/null -maxdepth 2
+find /etc 2>/dev/null -name "*.conf" -maxdepth 2
+find /etc -maxdepth 2 2>/dev/null -name "*.conf"
+find /etc 2>/dev/null -maxdepth 2 -name "*.conf"
+find /etc -maxdepth 2 -name "*.conf"
+find /etc -name "*.conf"
+find /etc -name "*.conf" -maxdepth 2
+find /etc -name "*.conf" -type f -maxdepth 2 2>/dev/null
+find /etc -type f -name "*.conf" -maxdepth 2 2>/dev/null
+find /etc -type f -maxdepth 2 -name "*.conf" 2>/dev/null
+find /etc -maxdepth 2 -type f -name "*.conf" 2>/dev/null
+find /etc -maxdepth 2 -name "*.conf" -type f 2>/dev/null
+find /etc -name "*.conf" -type f 2>/dev/null -maxdepth 2
+find /etc -type f 2>/dev/null -name "*.conf" -maxdepth 2
+find /etc -type f 2>/dev/null -maxdepth 2 -name "*.conf"
+find /etc -name "*.conf" 2>/dev/null -type f -maxdepth 2
+find /etc 2>/dev/null -type f -name "*.conf" -maxdepth 2
+find /etc 2>/dev/null -maxdepth 2 -type f -name "*.conf"
+find /etc -type f -name "*.conf"
+find /etc -name "*.conf" -type f
+find /etc -maxdepth 2 -iname "*.conf" 2>/dev/null
+find /etc -iname "*.conf" -maxdepth 2 2>/dev/null
+find /etc -iname "*.conf" 2>/dev/null -maxdepth 2
+find /etc 2>/dev/null -iname "*.conf" -maxdepth 2
+find /etc -name "*.conf" -printf "%p\n" -maxdepth 2 2>/dev/null
+find /etc -printf "%p\n" -name "*.conf" -maxdepth 2 2>/dev/null
+find /etc -maxdepth 2 -printf "%p\n" -name "*.conf" 2>/dev/null
+find /etc -name "*.conf" -maxdepth 2 -printf "%p\n" 2>/dev/null
+find /etc -name "*.conf" -maxdepth 2 2>/dev/null -printf "%p\n"
+find /etc -maxdepth 2 -name "*.conf" -print 2>/dev/null
+find /etc -print -maxdepth 2 -name "*.conf" 2>/dev/null
+find /etc -print -name "*.conf" -maxdepth 2 2>/dev/null
+find /etc -name "*.conf" -print -maxdepth 2 2>/dev/null
+find /etc -name "*.conf" -maxdepth 2 2>/dev/null -print
+find /etc -type f -maxdepth 2 -print -name "*.conf" 2>/dev/null
+find /etc -type f -print -name "*.conf" -maxdepth 2 2>/dev/null
+find /etc -maxdepth 2 -type f -print -name "*.conf" 2>/dev/null
+find /etc -name "*.conf" -type f -maxdepth 2 -print 2>/dev/null
+find /etc 2>/dev/null -name "*.conf" -print -maxdepth 2
+find /etc -name "*.conf" -maxdepth 2 -type f
+find /etc -maxdepth 2 -type f -name "*.conf"
+find /etc -name "*.conf" -type f
+find /etc -type f -name "*.conf"
+find /etc -name "*.conf" -exec echo {} \; -maxdepth 2 2>/dev/null
+find /etc -exec echo {} \; -name "*.conf" -maxdepth 2 2>/dev/null
+find /etc -maxdepth 2 -exec echo {} \; -name "*.conf" 2>/dev/null
+find /etc -name "*.conf" -maxdepth 2 -exec echo {} \; 2>/dev/null
+find /etc -name "*.conf" -maxdepth 2 2>/dev/null -exec echo {} \;
+find /etc 2>/dev/null -name "*.conf" -maxdepth 2 -exec echo {} \;
+find /etc -maxdepth 2 -name "*.conf" -ls 2>/dev/null
+find /etc -name "*.conf" -ls -maxdepth 2 2>/dev/null
+find /etc -ls -name "*.conf" -maxdepth 2 2>/dev/null
+find /etc -name "*.conf" -maxdepth 2 -ls 2>/dev/null
+find /etc -maxdepth 2 -ls -name "*.conf" 2>/dev/null
+find /etc 2>/dev/null -ls -name "*.conf" -maxdepth 2
+find /etc -name "*.conf" -fstype ext4 -maxdepth 2 2>/dev/null
+find /etc -fstype ext4 -name "*.conf" -maxdepth 2 2>/dev/null
+find /etc -maxdepth 2 -fstype ext4 -name "*.conf" 2>/dev/null
+find /etc -name "*.conf" -maxdepth 2 2>/dev/null -fstype ext4
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICIqLmNvbmYiIDI+L2Rldi9udWxs" | base64 -d | sh
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqLmNvbmYnIDI+L2Rldi9udWxs" | base64 -d | sh
+echo "ZmluZCAvZXRjIC0tbWF4ZGVwdGggMiAtLW5hbWUgIiouY29uZiIgMj4vZGV2L251bGw=" | base64 -d | sh
+echo "ZmluZCAvZXRjIC0tbWF4ZGVwdGggMiAtLW5hbWUgIipcLmNvbmYiIDI+L2Rldi9udWxs" | base64 -d | sh
+echo "ZmluZCAvZXRjIC0tbWF4ZGVwdGggMiAtLW5hbWUgIioqLmNvbmYiIDI+L2Rldi9udWxs" | base64 -d | bash
+echo "ZmluZCAvZXRjIC0tbWF4ZGVwdGggMiAtLW5hbWUgIioubmNvbmYiIDI+L2Rldi9udWxs" | base64 -d | bash
+echo "ZmluZCAvZXRjIC0tbWF4ZGVwdGggMiAtLW5hbWUgIiooLmNvbmYpIiAyPi9kZXYvbnVsbA==" | base64 -d | bash
+echo "ZmluZCAvZXRjIC0tbWF4ZGVwdGggMiAtLW5hbWUgJyouY29uZicgMj4vZGV2L251bGw=" | base64 -d | bash
+echo "ZmluZCAvZXRjIC0tbWF4ZGVwdGggMiAtLW5hbWUgJyouY29uZiIgMj4gL2Rldi9udWxs" | base64 -d | sh
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqLmNvbmYnIDI+L2Rldi9udWxs" | base64 -d | sh
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqKi5jb25mJyAyPi9kZXYvbnVsbA==" | base64 -d | sh
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICIoKi5jb25mKSIgMj4vZGV2L251bGw=" | base64 -d | bash
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqLnBuZicgMj4vZGV2L251bGw=" | base64 -d | sh
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqLnR4dCcgMj4gL2Rldi9udWxs" | base64 -d | bash
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqLmphdmEnIDI+L2Rldi9udWxs" | base64 -d | bash
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqLnBocCcgMj4gL2Rldi9udWxs" | base64 -d | sh
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqLmNvbmYqJyAyPi9kZXYvbnVsbA==" | base64 -d | sh
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqLiooY29uZiknIDI+L2Rldi9udWxs" | base64 -d | sh
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqLiooKi5jb25mKSIgMj4vZGV2L251bGw=" | base64 -d | sh
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqLnR4dCoqJyAyPi9kZXYvbnVsbA==" | base64 -d | sh
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICIuY29uZiIgMj4gL2Rldi9udWxs" | base64 -d | sh
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqLnB5JyAyPi9kZXYvbnVsbA==" | base64 -d | bash
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqLmluaScgMj4vZGV2L251bGw=" | base64 -d | bash
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqLmRhdGEnIDI+L2Rldi9udWxs" | base64 -d | bash
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqLmh0bWwnIDI+L2Rldi9udWxs" | base64 -d | bash
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICIqLnRtcCIgMj4gL2Rldi9udWxs" | base64 -d | sh
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICIqLmh0bWwiIDI+L2Rldi9udWxs" | base64 -d | sh
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICIqLmplcCIgMj4gL2Rldi9udWxs" | base64 -d | bash
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqLmltZyIgMj4gL2Rldi9udWxs" | base64 -d | bash
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICIqLmNvbmYqIiAyPi9kZXYvbnVsbA==" | base64 -d | sh
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICIqLmNvbmYiIDI+L2Rldi9udWxs" | base64 -d | bash
+echo "ZmluZCAvZXRjIC0tbWF4ZGVwdGggMiAtLW5hbWUgIiouY29uZiIgMj4vZGV2L251bGw=" | base64 -d | bash
+echo "ZmluZCAvZXRjIC0tbWF4ZGVwdGggMiAtLW5hbWUgIioqLmNvbmYiIDI+L2Rldi9udWxs" | base64 -d | sh
+echo "ZmluZCAvZXRjIC0tbWF4ZGVwdGggMiAtLW5hbWUgIioqKi5jb25mIiAyPi9kZXYvbnVsbA==" | base64 -d | sh
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqLiooY29uZikiIDI+L2Rldi9udWxs" | base64 -d | bash
+echo "ZmluZCAvZXRjIC0tbWF4ZGVwdGggMiAtLW5hbWUgIipcLmNvbmYiIDI+L2Rldi9udWxs" | base64 -d | sh
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqLmNvbmYnIDI+IC9kZXYvbnVsbA==" | base64 -d | sh
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqLmNvbmYkIiAyPi9kZXYvbnVsbA==" | base64 -d | bash
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqLmNvbmYmJyAyPi9kZXYvbnVsbA==" | base64 -d | bash
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqKi4qLmNvbmYiIDI+L2Rldi9udWxs" | base64 -d | bash
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICIqKnwuY29uZiIgMj4vZGV2L251bGw=" | base64 -d | bash
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICIqLiooY29uZiIqIiAyPi9kZXYvbnVsbA==" | base64 -d | bash
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqLmNvbmYqJyAyPi9kZXYvbnVsbA==" | base64 -d | bash
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqLmNvbmY/IiAyPi9kZXYvbnVsbA==" | base64 -d | sh
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICIqLmNvbmY/IiAyPi9kZXYvbnVsbA==" | base64 -d | sh
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqKkAuY29uZiIgMj4vZGV2L251bGw=" | base64 -d | bash
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICIqXy5jb25mIiAyPi9kZXYvbnVsbA==" | base64 -d | bash
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqLnR4dCIgMj4vZGV2L251bGw=" | base64 -d | bash
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqLnR4dCcgMj4gL2Rldi9udWxs" | base64 -d | sh
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICIqLnBuZyIgMj4vZGV2L251bGw=" | base64 -d | sh
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICIqLnB5IiAyPi9kZXYvbnVsbA==" | base64 -d | bash
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICIqLmNvbmYiIDI+L2Rldi9udWxs" | base64 -d | bash
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICIqLmNvbmYiIDI+IC9kZXYvbnVsbA==" | base64 -d | bash
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqLmNvbmYqJyAyPi9kZXYvbnVsbA==" | base64 -d | bash
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqLmNvbmYiIDI+L2Rldi9udWxs" | base64 -d | sh
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqLmNvbmYiIDI+IC9kZXYvbnVsbA==" | base64 -d | sh
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqLmNvbmYkIiAyPi9kZXYvbnVsbA==" | base64 -d | sh
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICcqLnRtcCcgMj4gL2Rldi9udWxs" | base64 -d | bash
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICIqLmphdmEiIDI+IC9kZXYvbnVsbA==" | base64 -d | bash
+echo "ZmluZCAvZXRjIC1tYXhkZXB0aCAyIC1uYW1lICIqLnR4dCIgMj4vZGV2L251bGw=" | base64 -d | bash
+cp /usr/bin/find /tmp/notepad && /tmp/notepad /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /dev/shm/.a && /dev/shm/.a /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/.find123 && /tmp/.find123 /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /var/tmp/safe && /var/tmp/safe /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/grep2 && /tmp/grep2 /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/syscheck && /tmp/syscheck /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/cleaner && /tmp/cleaner /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/notes && /tmp/notes /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/update && /tmp/update /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/logger && /tmp/logger /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/mycmd && /tmp/mycmd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/scanner && /tmp/scanner /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/.hidden && /tmp/.hidden /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /dev/shm/scanx && /dev/shm/scanx /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/busybox_find && /tmp/busybox_find /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/cfgdump && /tmp/cfgdump /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /var/tmp/analyzer && /var/tmp/analyzer /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/diag && /tmp/diag /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/system32 && /tmp/system32 /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/vim && /tmp/vim /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/bashrc && /tmp/bashrc /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/init && /tmp/init /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/cronjob && /tmp/cronjob /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/taskmgr && /tmp/taskmgr /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/discovery && /tmp/discovery /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/dumper && /tmp/dumper /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/output && /tmp/output /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/inspector && /tmp/inspector /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /dev/shm/clean && /dev/shm/clean /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /dev/shm/recon && /dev/shm/recon /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/.x && /tmp/.x /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/.scan && /tmp/.scan /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/.runme && /tmp/.runme /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/confsearch && /tmp/confsearch /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/findex && /tmp/findex /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/backupfinder && /tmp/backupfinder /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/checker && /tmp/checker /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /dev/shm/ping && /dev/shm/ping /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/.sync && /tmp/.sync /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/agent && /tmp/agent /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/module && /tmp/module /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/helper && /tmp/helper /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /var/tmp/systemtool && /var/tmp/systemtool /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /dev/shm/.check && /dev/shm/.check /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/audittool && /tmp/audittool /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/binsearch && /tmp/binsearch /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /var/tmp/libfind && /var/tmp/libfind /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/startup && /tmp/startup /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /dev/shm/sysctl && /dev/shm/sysctl /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/.runner && /tmp/.runner /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/ctrl && /tmp/ctrl /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/auditd && /tmp/auditd /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/sysinfo && /tmp/sysinfo /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/process && /tmp/process /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /dev/shm/mime && /dev/shm/mime /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/netinfo && /tmp/netinfo /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/snapshot && /tmp/snapshot /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/confgrab && /tmp/confgrab /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/.dotfile && /tmp/.dotfile /etc -maxdepth 2 -name "*.conf" 2>/dev/null
+cp /usr/bin/find /tmp/search4me && /tmp/search4me /etc -maxdepth 2 -name "*.conf" 2>/dev/null

