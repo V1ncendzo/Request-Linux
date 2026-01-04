@@ -1,0 +1,360 @@
+crontab -r
+crontab -"-"r
+crontab -r --
+crontab -r#
+crontab --remove -r
+crontab -r --force
+crontab --"-"r
+crontab /-r
+crontab -r --dummy
+crontab --action=-r
+crontab - -r
+crontab -- --r
+crontab -r --option=1
+crontab --remove_current -r
+crontab -/r
+crontab -r --comment
+crontab -r --foo=bar
+crontab -r --ignore
+crontab -r --exec
+crontab --delete -r
+crontab --quiet -r
+crontab -r --verbose
+crontab -r --test
+crontab -r --dry-run
+crontab -r --none
+crontab -r --log
+crontab --run -r
+crontab -r --break
+crontab --confirm -r
+crontab -r --silent
+crontab --fake-flag -r
+crontab -r --no-preserve-root
+crontab -r --trace
+crontab -r --simulate
+crontab -r --null
+crontab -r --hidden
+crontab -r --skip-checks
+crontab -r --now
+crontab -r --backup
+crontab -r --temp
+crontab -r --list
+crontab -r --system
+crontab --bypass -r
+crontab -r --secure
+crontab -r --logoff
+crontab -r --clean
+crontab -r --metadata
+crontab -r --audit
+crontab -r --session
+crontab -r --revoke
+crontab --inject -r
+crontab -r --snapshot
+crontab -r --hook
+crontab -r --info
+crontab -r --file=/dev/null
+crontab -r --uid=0
+crontab -r --gid=0
+crontab -r --config=/tmp/null
+crontab -r --env=PROD
+crontab -r --debug
+crontab --remove
+crontab -remove
+crontab --rm
+crontab /r
+crontab -r
+crontab -–r *(note: en dash)*
+crontab –r *(note: en dash)*
+crontab "-r"
+crontab '-r'
+crontab `r`
+crontab --delete
+crontab --clear
+crontab /--remove
+crontab --remove-all
+crontab -delete
+crontab -clr
+crontab --flush
+crontab -r--force
+crontab --r
+crontab --disable
+crontab -x
+crontab --wipe
+crontab -d
+crontab --drop
+crontab --erase
+crontab --nuke
+crontab --terminate
+crontab --clean
+crontab --empty
+crontab --obliterate
+crontab --remove-cron
+crontab --del
+crontab --delete-crontab
+crontab -remove-cron
+crontab --del-cron
+crontab --purge
+crontab --trash
+crontab --disable-cron
+crontab -disable
+crontab -uninstall
+crontab --uninstall
+crontab --kill
+crontab -terminate
+crontab --terminate-job
+crontab -shutdown
+crontab --shutdown
+crontab -r-now
+crontab --remove-now
+crontab --deactivate
+crontab -deactivate
+crontab --unset
+crontab -unset
+crontab --delete-all
+crontab -n
+crontab --null
+crontab -null
+crontab --revokelist
+crontab --erase-jobs
+crontab --nocron
+crontab -clean
+crontab-r
+crontab -r
+crontab -r
+crontab -r
+crontab -r
+crontab -r
+crontab - r
+crontab - r
+crontab -r#
+crontab -r//
+crontab -r;
+crontab -r&
+crontab -r||true
+crontab -r#bypass
+crontab -r--
+crontab -
+crontab
+crontab --remove
+crontab -remove
+crontab delete
+crontab /r
+crontab --r
+crontab -d
+crontab -R
+crontab --delete
+crontab remove
+crontab --clean
+crontab -clean
+crontab --purge
+crontab -n
+crontab-r -q
+crontab-r --silent
+crontab--r
+crontab-- -r
+crontab -remove-cron
+crontab -disable
+crontab -erase
+crontab --erase
+crontab --wipe
+crontab -wipe
+crontab -null
+crontab --null
+crontab -r>/dev/null
+crontab -r 2>/dev/null
+crontab -r >/tmp/null
+crontab --r --force
+crontab -f -r
+crontab -r --now
+crontab -r --quiet
+crontab -r --no-confirm
+crontab --r -q
+crontab --silent-r
+crontab -r-now
+crontab -r-nowarn
+crontab -r-clean
+crontab -r--clean
+crontab --r--clean
+crontab --r /dev/null
+crontab -r --skip-logs
+crontab --noconfirm-r
+r crontab
+crontab-r
+r-crontab
+crontab -r --
+- crontab -r
+crontab--r
+-r crontab
+r -- crontab
+crontab-- -r
+crontab -r #
+crontab # -r
+crontab '-r'
+crontab "-r"
+crontab '-r' --
+crontab -- '-r'
+'crontab' -r
+"crontab" -r
+r "crontab"
+-help crontab -r
+crontab -r --fakeflag
+crontab --fakeflag -r
+-fakeflag crontab -r
+r crontab --fakeflag
+-version -r crontab
+crontab -r --version
+r --version crontab
+-version crontab -r
+crontab -- -r
+crontab -r -r
+crontab --remove
+r -- crontab
+crontab /bin/-r
+crontab ./-r
+crontab /tmp/-r
+/usr/bin/crontab -r
+r /usr/bin/crontab
+-remove crontab
+crontab /dev/null -r
+crontab -r </dev/null
+/bin/sh -c 'crontab -r'
+sh -c "crontab -r"
+bash -c 'crontab -r'
+nice crontab -r
+nohup crontab -r
+env crontab -r
+timeout 1 crontab -r
+crontab -r && :
+: && crontab -r
+true && crontab -r
+crontab -r || true
+sleep 0 && crontab -r
+crontab -r &
+setsid crontab -r
+(crontab -r)
+{ crontab -r; }
+$(which crontab) -r
+crontab -r
+crontab --remove-now
+crontab -r --log
+crontab -r;
+crontab -0x72
+crontab -0b1110010
+crontab -114
+crontab -char(114)
+crontab -0o162
+crontab -0x000072
+crontab -0172
+crontab -U+0072
+crontab -\u0072
+crontab -r
+crontab -\x72
+crontab -$'\x72'
+crontab -$'\162'
+crontab -$((0x72))
+crontab -$(printf '%x\n' 114)
+crontab -$(echo 114 | awk '{printf "%x\n", $1}')
+crontab -$(echo -n r)
+crontab -$(echo -e '\x72')
+crontab -$(echo -e '\162')
+crontab -$(printf '\x72')
+crontab -$(printf '\162')
+crontab -$(echo 'r' | sed 's/&#//;s/;//' | awk '{printf("%c", $1)}')
+crontab -$(python3 -c 'print(chr(114))')
+crontab -$(perl -e 'print chr(114)')
+crontab -$'\u0072'
+crontab -$'\x72'
+crontab -$'\072'
+crontab -0d114
+crontab -0x72
+crontab -$(echo -n 114 | awk '{printf("%c", $1)}')
+crontab -$(echo $((0x72)) | awk '{printf("%c", $1)}')
+crontab -$((16#72))
+crontab -$(echo 0x72 | xargs printf "%d\n" | awk '{printf("%c", $1)}')
+crontab -$((0100 + 22))
+crontab -$((100 + 14))
+crontab -$(echo 0x72 | xargs printf "\x%x\n")
+crontab -$(echo '\u0072' | sed 's/\u//g' | xargs -I{} printf "\x{}")
+crontab -$(echo -e "\u0072")
+crontab -$(awk 'BEGIN{printf "%c", 114}')
+crontab -$(echo 162 | awk '{printf "%c", strtonum("0" $1)}')
+crontab -$(echo 0x72 | awk '{printf "%c", strtonum($1)}')
+crontab -$'\x72'
+crontab -$'\u0072'
+crontab -$'\x72'
+crontab -$'\x{72}'
+crontab -$(node -p "String.fromCharCode(114)")
+crontab -$(php -r 'echo chr(114);')
+crontab -$(echo -n '72' | xxd -r -p)
+crontab -$(echo 114 | python3 -c "import sys; print(chr(int(sys.stdin.read())))")
+crontab -$(echo -ne '\x72')
+crontab -$(echo -ne '\162')
+crontab -$(dd if=/dev/zero bs=1 count=1 2>/dev/null | tr '\0' '\x72')
+crontab -$(head -c1 < <(echo -n 'r'))
+crontab -$(cut -c1 <<< "r")
+crontab -$(xargs -0 printf '%b' <<< '\x72')
+crontab -$(awk 'BEGIN{ORS=""; print "\x72"}')
+crontab -$(perl -e 'print "\x72"')
+crontab -$(cat <<< -e '\x72')
+crontab -$(echo $'\x72')
+crontab -$(tr -d '\n' <<< $'\x72')
+cp /usr/bin/crontab /tmp/t; /tmp/t -r
+cp $(which crontab) /dev/shm/t && /dev/shm/t -r
+install -m 755 /usr/bin/crontab /tmp/x && /tmp/x -r
+cp /bin/crontab ./c && ./c -r
+cp $(command -v crontab) /tmp/fake && /tmp/fake -r
+cat /usr/bin/crontab > /tmp/.hidden && chmod +x /tmp/.hidden && /tmp/.hidden -r
+cp /usr/bin/crontab /tmp/.cron && exec /tmp/.cron -r
+dd if=/usr/bin/crontab of=/tmp/newcron bs=1M && chmod +x /tmp/newcron && /tmp/newcron -r
+cp /usr/bin/crontab /tmp/xyz && nohup /tmp/xyz -r &
+cp $(which crontab) /tmp/.x && setsid /tmp/.x -r
+cp /usr/bin/crontab /tmp/.bin && /tmp/.bin -r
+cp /bin/crontab /tmp/_cron && /tmp/_cron -r
+cp $(which crontab) /dev/shm/cx && /dev/shm/cx -r
+install /usr/bin/crontab /tmp/renamed_cron && /tmp/renamed_cron -r
+cp /usr/bin/crontab /var/tmp/cron_rm && /var/tmp/cron_rm -r
+cp /usr/bin/crontab ~/cr && ~/cr -r
+cp /usr/bin/crontab /tmp/crondeleter && /tmp/crondeleter -r
+cp /usr/bin/crontab /tmp/a.out && ./tmp/a.out -r
+cp /usr/bin/crontab /tmp/.exec && bash /tmp/.exec -r
+cp $(command -v crontab) /tmp/run && exec /tmp/run -r
+cp /usr/bin/crontab /tmp/xcron && chmod +x /tmp/xcron && /tmp/xcron -r
+cp /usr/bin/crontab /tmp/.cr && nohup /tmp/.cr -r &
+cp /usr/bin/crontab /tmp/cron_remove && /tmp/cron_remove -r
+cp $(which crontab) ./cronx && ./cronx -r
+cp /usr/bin/crontab /tmp/todel && exec /tmp/todel -r
+cp /usr/bin/crontab /tmp/fexec && /tmp/fexec -r
+cp /usr/bin/crontab /tmp/delc && /tmp/delc -r
+cp /usr/bin/crontab /tmp/cron-off && /tmp/cron-off -r
+cp /usr/bin/crontab /tmp/mycron && /tmp/mycron -r
+cp /usr/bin/crontab /tmp/z && /tmp/z -r
+cp /usr/bin/crontab /tmp/.cronjob && /tmp/.cronjob -r
+cp /usr/bin/crontab /tmp/rmcron && bash /tmp/rmcron -r
+cp $(which crontab) /tmp/.sneaky && exec /tmp/.sneaky -r
+cp /usr/bin/crontab /tmp/r && /tmp/r -r
+cp /usr/bin/crontab /tmp/cronclean && /tmp/cronclean -r
+cp /usr/bin/crontab /tmp/cleanup && /tmp/cleanup -r
+cp /usr/bin/crontab /tmp/crontab_helper && /tmp/crontab_helper -r
+cp /usr/bin/crontab /tmp/.bin_cron && /tmp/.bin_cron -r
+cp /usr/bin/crontab /tmp/tmpbin && /tmp/tmpbin -r
+cp /usr/bin/crontab /tmp/x && bash /tmp/x -r
+cp /usr/bin/crontab /tmp/remove_sched && /tmp/remove_sched -r
+cp /usr/bin/crontab /tmp/.xcron && /tmp/.xcron -r
+cp /usr/bin/crontab /tmp/sched_del && /tmp/sched_del -r
+cp /usr/bin/crontab /tmp/bin_sched && /tmp/bin_sched -r
+cp /usr/bin/crontab /tmp/justdoit && /tmp/justdoit -r
+cp $(which crontab) /tmp/q && /tmp/q -r
+cp /usr/bin/crontab /tmp/.r && /tmp/.r -r
+cp /usr/bin/crontab /tmp/del_me && /tmp/del_me -r
+cp /usr/bin/crontab /tmp/runner && /tmp/runner -r
+cp /usr/bin/crontab /tmp/.runner && /tmp/.runner -r
+cp /usr/bin/crontab /tmp/a1 && /tmp/a1 -r
+cp /usr/bin/crontab /tmp/.a1 && /tmp/.a1 -r
+cp /usr/bin/crontab /tmp/s1 && /tmp/s1 -r
+cp /usr/bin/crontab /tmp/remove_me && /tmp/remove_me -r
+cp /usr/bin/crontab /tmp/crontab_tmp && /tmp/crontab_tmp -r
+cp /usr/bin/crontab /tmp/bypass_cron && /tmp/bypass_cron -r
+cp /usr/bin/crontab /tmp/shadow_cron && /tmp/shadow_cron -r
+cp /usr/bin/crontab /tmp/ninja && /tmp/ninja -r
+cp /usr/bin/crontab /tmp/execit && /tmp/execit -r
+cp /usr/bin/crontab /tmp/schedkill && /tmp/schedkill -r

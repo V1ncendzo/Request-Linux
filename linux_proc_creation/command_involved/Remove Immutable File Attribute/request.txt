@@ -1,0 +1,290 @@
+1. chattr /-i #{file_to_modify}
+2. chattr -/i #{file_to_modify}
+3. chattr -i /#{file_to_modify}
+4. chattr -i/#{file_to_modify}
+5. chattr -i /"#{file_to_modify}"
+6. chattr /"-i" #{file_to_modify}
+7. chattr -"-i" #{file_to_modify}
+8. chattr "-i" #{file_to_modify}
+9. chattr -i "#{file_to_modify}"
+10. chattr -i /tmp/./#{file_to_modify}
+11. chattr -i /tmp/../#{file_to_modify}
+12. chattr -i /tmp/#{file_to_modify}/.
+13. chattr -i /tmp/#{file_to_modify}/..
+14. chattr -i /tmp//#{file_to_modify}
+15. chattr -i /tmp///#{file_to_modify}
+16. chattr -i /"tmp"/#{file_to_modify}
+17. chattr -i /tmp/"#{file_to_modify}"
+18. chattr -i /t"mp"/#{file_to_modify}
+19. chattr -i /tm"p"/#{file_to_modify}
+20. chattr -i /t\mp/#{file_to_modify}
+21. chattr -i /tmp/#{file_to_modify}
+22. chattr -i /tmp/.#{file_to_modify}
+23. chattr -i /tmp/..#{file_to_modify}
+24. chattr -i /tmp/./#{file_to_modify}/.
+25. chattr -i /tmp/././#{file_to_modify}
+26. chattr -i /tmp/../tmp/#{file_to_modify}
+27. chattr -i /tmp/"/./"#{file_to_modify}
+28. chattr -i /"tmp/./#{file_to_modify}"
+29. chattr -i /tmp/./"#{file_to_modify}"
+30. chattr -i /t""mp/#{file_to_modify}
+1. chattr /--i #{file_to_modify}
+2. chattr -/--i #{file_to_modify}
+3. chattr -i /--#{file_to_modify}
+4. chattr --/-i #{file_to_modify}
+5. chattr -i --/#{file_to_modify}
+6. chattr --"-i" #{file_to_modify}
+7. chattr -i --"#{file_to_modify}"
+8. chattr /--"i" #{file_to_modify}
+9. chattr /tmp/--/#{file_to_modify}
+10. chattr -i /tmp/./--/#{file_to_modify}
+11. chattr /tmp/././--/#{file_to_modify}
+12. chattr /tmp/../--/#{file_to_modify}
+13. chattr -i /tmp/--/../#{file_to_modify}
+14. chattr -i /"tmp"/--/#{file_to_modify}
+15. chattr -i /tmp/--/"#{file_to_modify}"
+16. chattr -i /tmp/--/.#{file_to_modify}
+17. chattr -i /tmp/--/..#{file_to_modify}
+18. chattr -i /tmp/--/./#{file_to_modify}
+19. chattr -i /tmp///--/#{file_to_modify}
+20. chattr -i /tmp/--/././#{file_to_modify}
+21. chattr -i /tmp/--/../tmp/#{file_to_modify}
+22. chattr -i /tmp/--/"./"#{file_to_modify}
+23. chattr -i /"tmp/--/./#{file_to_modify}"
+24. chattr /tmp/--/../"#{file_to_modify}"
+25. chattr /tmp/"--"/#{file_to_modify}
+26. chattr /tmp/--/#{file_to_modify}""
+27. chattr -i /tmp/--/#{file_to_modify}#
+28. chattr -i /tmp/--/#{file_to_modify}?v=1
+29. chattr -i /tmp/--/#{file_to_modify}%20
+30. chattr -i /tmp/--/#{file_to_modify}%00
+1. `chattr --immutable-off #{file_to_modify}`
+2. `chattr --remove-i #{file_to_modify}`
+3. `chattr -immutable #{file_to_modify}`
+4. `chattr --unset=i #{file_to_modify}`
+5. `chattr --flags "-i" #{file_to_modify}`
+6. `chattr --attribute -i #{file_to_modify}`
+7. `chattr --remove=immutable #{file_to_modify}`
+8. `chattr --clear=i #{file_to_modify}`
+9. `chattr --disable=i #{file_to_modify}`
+10. `chattr --no-i #{file_to_modify}`
+11. `chattr -I #{file_to_modify}`
+12. `chattr --minus-i #{file_to_modify}`
+13. `chattr --noimmutable #{file_to_modify}`
+14. `chattr --switch-off=i #{file_to_modify}`
+15. `chattr --rm-i #{file_to_modify}`
+16. `chattr -–i #{file_to_modify}` *(en-dash substitution)*
+17. `chattr /i #{file_to_modify}` *(slash instead of dash)*
+18. `chattr \\i #{file_to_modify}` *(backslash)*
+19. `chattr -ⁱ #{file_to_modify}` *(Unicode superscript i)*
+20. `chattr --ʇ #{file_to_modify}` *(visual confuser - upside down i)*
+21. `chattr –i #{file_to_modify}` *(en-dash variant)*
+22. `chattr —i #{file_to_modify}` *(em-dash variant)*
+23. `chattr -\u0069 #{file_to_modify}` *(Unicode escaped 'i')*
+24. `chattr -i\t#{file_to_modify}` *(tab inserted)*
+25. `chattr "-i" #{file_to_modify}`
+26. `chattr '--i' #{file_to_modify}`
+27. `chattr -\i #{file_to_modify}`
+28. `chattr -i-- #{file_to_modify}`
+29. `chattr --i- #{file_to_modify}`
+30. `chattr -i# #{file_to_modify}` *(adding junk char after option)*
+1. `chattr --IMMUTABLE-OFF #{file_to_modify}`
+2. `chattr --rm_attr=i #{file_to_modify}`
+3. `chattr -disable-i #{file_to_modify}`
+4. `chattr --flag_remove=i #{file_to_modify}`
+5. `chattr --unset-flag=i #{file_to_modify}`
+6. `chattr --switch=i_off #{file_to_modify}`
+7. `chattr --modify=-i #{file_to_modify}`
+8. `chattr --ignore=-i #{file_to_modify}`
+9. `chattr --mask=-i #{file_to_modify}`
+10. `chattr --toggle-i #{file_to_modify}`
+11. `chattr --clear-flag=i #{file_to_modify}`
+12. `chattr --drop=i #{file_to_modify}`
+13. `chattr -d-i #{file_to_modify}`
+14. `chattr --undo=i #{file_to_modify}`
+15. `chattr --disable-attr=i #{file_to_modify}`
+16. `chattr -i --file=#{file_to_modify}`
+17. `chattr -flag -i #{file_to_modify}`
+18. `chattr --flags-to-remove=i #{file_to_modify}`
+19. `chattr --attr-rm i #{file_to_modify}`
+20. `chattr --cli="-i #{file_to_modify}"`
+21. `chattr --args -i #{file_to_modify}`
+22. `chattr --opt -i #{file_to_modify}`
+23. `chattr --action "-i" #{file_to_modify}`
+24. `chattr --param=-i #{file_to_modify}`
+25. `chattr --deactivate=i #{file_to_modify}`
+26. `chattr --cut-flag=i #{file_to_modify}`
+27. `chattr --negate=i #{file_to_modify}`
+28. `chattr --stop=i #{file_to_modify}`
+29. `chattr --noattr=i #{file_to_modify}`
+30. `chattr -/i #{file_to_modify}` 
+1. chattr #{file_to_modify}
+2. chattr - #{file_to_modify}
+3. chattr i #{file_to_modify}
+4. chattr --i #{file_to_modify}
+5. chattr -ii #{file_to_modify}
+6. chattr -i-i #{file_to_modify}
+7. chattr -i=#{file_to_modify}
+8. chattr -I #{file_to_modify}
+9. chattr - i #{file_to_modify}
+10. chattr ‑i #{file_to_modify} *(non-breaking hyphen)*
+11. chattr -i #{file_to_modify} *(non-breaking space)*
+12. chattr\t-i #{file_to_modify}
+13. chattr\n-i #{file_to_modify}
+14. chattr -i\t#{file_to_modify}
+15. chattr -i\n#{file_to_modify}
+16. chattr-i #{file_to_modify}
+17. chattr - i #{file_to_modify} *(narrow no-break space)*
+18. chattr--i #{file_to_modify}
+19. chattr -i-- #{file_to_modify}
+20. chattr -- #{file_to_modify}
+21. chattr --immutable #{file_to_modify}
+22. chattr -i#{file_to_modify}
+23. chattr —i #{file_to_modify} *(em dash)*
+24. chattr –i #{file_to_modify} *(en dash)*
+25. chattr -Ꭵ #{file_to_modify} *(Cyrillic or Greek lookalike i)*
+26. chattr -ι #{file_to_modify} *(Greek iota)*
+27. chattr -i --quiet #{file_to_modify}
+28. chattr --verbose -i #{file_to_modify}
+29. chattr #{file_to_modify} -i
+30. chattr #{file_to_modify} --i
+31. chattr #{file_to_modify} i
+32. chattr -i -- #{file_to_modify}
+33. chattr -i --target #{file_to_modify}
+34. chattr -I #{file_to_modify} *(uppercase i)*
+35. chattr --remove=immutable #{file_to_modify}
+36. chattr -attr -i #{file_to_modify}
+37. chattr -f -i #{file_to_modify}
+38. chattr -i --force #{file_to_modify}
+39. chattr -flags -i #{file_to_modify}
+40. chattr --flag -i #{file_to_modify}
+41. chattr -i --path #{file_to_modify}
+42. chattr --file #{file_to_modify} -i
+43. chattr --disable-immutable #{file_to_modify}
+44. chattr -option -i #{file_to_modify}
+45. chattr #{file_to_modify} --disable-flag=i
+46. chattr --config "-i" #{file_to_modify}
+47. chattr --change=-i #{file_to_modify}
+48. chattr -remove-flag=i #{file_to_modify}
+49. chattr --cmd=-i #{file_to_modify}
+50. chattr -i --apply #{file_to_modify}
+1. chattr #{file_to_modify} -i
+2. i chattr #{file_to_modify}
+3. #{file_to_modify} chattr -i
+4. #{file_to_modify} -i chattr
+5. i #{file_to_modify} chattr
+6. chattr -i /tmp/testfile
+7. chattr /tmp/testfile -i
+8. /tmp/testfile chattr -i
+9. /tmp/testfile -i chattr
+10. i /tmp/testfile chattr
+11. chattr /etc/passwd -i
+12. chattr -i /etc/passwd
+13. i chattr /etc/passwd
+14. /etc/passwd -i chattr
+15. /etc/passwd chattr -i
+16. chattr -i ./hidden.txt
+17. ./hidden.txt chattr -i
+18. ./hidden.txt -i chattr
+19. i ./hidden.txt chattr
+20. chattr ./hidden.txt -i
+21. chattr /root/secret -i
+22. chattr -i /root/secret
+23. i /root/secret chattr
+24. /root/secret -i chattr
+25. /root/secret chattr -i
+26. chattr -i /var/log/syslog
+27. /var/log/syslog chattr -i
+28. i chattr /var/log/syslog
+29. chattr /var/log/syslog -i
+30. /var/log/syslog -i chattr
+1. i chattr ./file1.txt
+2. ./file1.txt -i chattr
+3. ./file1.txt chattr -i
+4. chattr ./file1.txt -i
+5. chattr -i ./file1.txt
+6. i ./file1.txt chattr
+7. chattr -i -- ./file2.txt
+8. - ./file2.txt chattr -i
+9. ./file2.txt -- chattr -i
+10. ./file2.txt chattr -- -i
+11. i -- chattr ./file3.txt
+12. chattr -- -i ./file3.txt
+13. ./file3.txt -i -- chattr
+14. ./file3.txt chattr -i --
+15. - chattr ./file3.txt -i
+16. chattr -i /opt/config.lock
+17. /opt/config.lock chattr -i
+18. i /opt/config.lock chattr
+19. chattr /opt/config.lock -i
+20. /opt/config.lock -i chattr
+21. i chattr -- /home/user/fileA
+22. chattr /home/user/fileA -- -i
+23. /home/user/fileA -- -i chattr
+24. /home/user/fileA chattr -- -i
+25. chattr -- /home/user/fileA -i
+26. - chattr -i /home/user/fileA
+27. i /home/user/fileA -- chattr
+28. chattr -i /mnt/driveX/.lockfile
+29. /mnt/driveX/.lockfile -i chattr
+30. /mnt/driveX/.lockfile chattr -i
+1. `chattr -i /etc/passwd`
+2. `chattr -i /var/log/syslog`
+3. `chattr -\x69 /etc/shadow`
+4. `chattr -\u0069 /root/.ssh/authorized_keys`
+5. `chattr -i $(echo /etc/passwd)`
+6. `chattr -i $(printf "/etc/passwd")`
+7. `chattr -i $(cat <<EOF\n/etc/passwd\nEOF)`
+8. `chattr -$(echo i) /etc/passwd`
+9. `chattr $'-i' /etc/passwd`
+10. `chattr --$(echo i) /etc/passwd`
+11. `chattr -$(printf "\x69") /etc/passwd`
+12. `chattr -$(printf '\x69') /etc/passwd`
+13. `chattr -$(echo -n 'i') /etc/passwd`
+14. `chattr -\x69 /home/user/file.txt`
+15. `chattr --i /etc/passwd`
+16. `chattr -\141 /etc/passwd # octal`
+17. `chattr -\x69 "$(echo /etc/passwd)"`
+18. `\x63\x68\x61\x74\x74\x72 -\x69 /etc/passwd` # "chattr" fully hexed
+19. `\u0063\u0068\u0061\u0074\u0074\u0072 -\u0069 /etc/passwd`
+20. `chattr -\u0069 "/etc/passwd"`
+21. `chattr -i '/etc/passwd'`
+22. `chattr $'-\x69' /etc/passwd`
+23. `$(echo chattr) -i /etc/passwd`
+24. `$(printf chattr) -i /etc/passwd`
+25. `c$(echo hatt)r -i /etc/passwd`
+26. `ch$(echo att)r -i /etc/passwd`
+27. `cha$(echo ttr) -i /etc/passwd`
+28. `chattr -i $(echo /etc/passwd)`
+29. `$(echo chattr -i /etc/passwd)`
+30. `c\u0068\u0061\u0074\u0074\u0072 -i /etc/passwd`
+1. `chattr $'-i' "/etc/shadow"`
+2. `chattr -i $(echo -e "/etc/shadow")`
+3. `chattr -i "$(cat /tmp/file_path.txt)"`
+4. `chattr -\u0069 /etc/shadow`
+5. `chattr -\x69 /etc/shadow`
+6. `chattr -$(echo \x69) /etc/shadow`
+7. `chattr -\x69 $(echo "/etc/shadow")`
+8. `chattr $'-\x69' $(echo "/etc/shadow")`
+9. `$(echo chattr) -i /etc/shadow`
+10. `$(printf chattr) -i /etc/shadow`
+11. `\x63\x68\x61\x74\x74\x72 -i /etc/shadow`
+12. `\u0063\u0068\u0061\u0074\u0074\u0072 -i /etc/shadow`
+13. `$'\x63\x68\x61\x74\x74\x72' -i /etc/shadow`
+14. `$'\u0063\u0068\u0061\u0074\u0074\u0072' -i /etc/shadow`
+15. `c$(echo hatt)r -i /etc/shadow`
+16. `ch$(echo attr) -i /etc/shadow`
+17. `cha$(echo ttr) -i /etc/shadow`
+18. `chatt$(echo r) -i /etc/shadow`
+19. `$(echo cha)$(echo ttr) -i /etc/shadow`
+20. `chattr -i "/etc/shadow"`
+21. `"chattr" -i /etc/shadow`
+22. `'chattr' -i /etc/shadow`
+23. ``echo chattr` -i /etc/shadow`
+24. ``which chattr` -i /etc/shadow`
+25. `/bin/chattr -i /etc/shadow`
+26. `/usr/bin/chattr -i /etc/shadow`
+27. `$(which chattr) -i /etc/shadow`
+28. `$(cat <<EOF\nchattr -i /etc/shadow\nEOF)`
+29. `chattr -i "$(echo /etc/shadow)"`
+30. `chattr --immutable=no /etc/shadow # deceptive long flag`
