@@ -1,0 +1,360 @@
+1. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/./sh -c "id"`
+2. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin//sh -c "id"`
+3. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/s\h -c "id"`
+4. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/s''h -c "id"`
+5. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh$EMPTY -c "id"`
+6. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh\ -c "id"`
+7. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo '/bin/sh' -c "id"`
+8. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bi''n/sh -c "id"`
+9. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bi./n/sh -c "id"`
+10. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c 'i''d'`
+11. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "i""d"`
+12. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "i\dt"`
+13. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /b''in/sh -c "id"`
+14. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /b./in/sh -c "id"`
+15. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo //bin/sh -c "id"`
+16. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh/../sh -c "id"`
+17. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "id; #"`
+18. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "id > /dev/null"`
+19. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "id || true"`
+20. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c ":; id"`
+21. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "e''cho id | sh"`
+22. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "$(echo id)"`
+23. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "$(printf i%s d)"`
+24. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c $(echo id)`
+25. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c $'id'`
+26. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "i""d"`
+27. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "i\td"`
+28. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "i\nd"`
+29. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo '/bin//sh' -c "id"`
+30. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo .//bin/sh -c "id"`
+1. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo ./bin/sh -c "id"`
+2. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh$() -c "id"`
+3. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh$USER -c "id"`
+4. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/s""h -c "id"`
+5. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo "/bin/sh" -c "id"`
+6. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -""c "id"`
+7. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "i""d"""`
+8. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "i d"`
+9. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "id "`
+10. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c " id"`
+11. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "id;echo done"`
+12. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "i''d"""`
+13. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "i\\d"`
+14. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "$(echo -n id)"`
+15. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "$(cat <<<id)"`
+16. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "$(printf 'id')"`
+17. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "$(tr -d '\n' <<< id)"`
+18. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "$(echo aWQ= | base64 -d)"`
+19. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "$(perl -e 'print \"id\"')"`
+20. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "$(python3 -c 'print(\"id\")')"`
+21. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "$((1+1))&&id"`
+22. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh$IFS-c$IFS"id"`
+23. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh$IFS-c$IFS"id"$IFS`
+24. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -$IFS"c" "id"`
+25. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c 'id' #comment`
+26. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "i"$(echo d)"`
+27. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "$(echo i)d"`
+28. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "$(echo id|cat)"`
+29. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "$(echo -e i\\d)"`
+30. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "i$(echo d)"`
+1. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/bash -c "id"`
+2. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/dash -c "id"`
+3. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /usr/bin/bash -c "id"`
+4. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /usr/bin/dash -c "id"`
+5. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo bash -c "id"`
+6. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo dash -c "id"`
+7. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo env bash -c "id"`
+8. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo env dash -c "id"`
+9. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /usr/bin/env bash -c "id"`
+10. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /usr/bin/env dash -c "id"`
+11. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo busybox bash -c "id"`
+12. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo busybox dash -c "id"`
+13. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/busybox bash -c "id"`
+14. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/busybox dash -c "id"`
+15. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo bash -c 'id'`
+16. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo dash -c 'id'`
+17. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo env bash -c 'id'`
+18. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo env dash -c 'id'`
+19. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /usr/bin/bash -c 'id'`
+20. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /usr/bin/dash -c 'id'`
+21. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo bash -lc "id"`
+22. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo dash -lc "id"`
+23. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/bash -lc "id"`
+24. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/dash -lc "id"`
+25. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo env -i bash -c "id"`
+26. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo env -i dash -c "id"`
+27. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /usr/bin/env -i bash -c "id"`
+28. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /usr/bin/env -i dash -c "id"`
+29. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo bash --noprofile --norc -c "id"`
+30. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo dash -c "$(echo id)"`
+1. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/bash -c $(echo id)`
+2. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/dash -c $(echo id)`
+3. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo bash -c $(echo id)`
+4. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo dash -c $(echo id)`
+5. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/bash -c "$(cat <<EOF id EOF )"`
+6. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/dash -c "$(cat <<EOF id EOF )"`
+7. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo bash -c "$(cat <<EOF id EOF )"`
+8. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo dash -c "$(cat <<EOF id EOF )"`
+9. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/bash -c "$(echo 'id')"`
+10. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/dash -c "$(echo 'id')"`
+11. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo bash -c "$(echo 'id')"`
+12. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo dash -c "$(echo 'id')"`
+13. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/bash -c "i""d"`
+14. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/dash -c "i""d"`
+15. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo bash -c "i""d"`
+16. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo dash -c "i""d"`
+17. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/bash -c 'i'"d"`
+18. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/dash -c 'i'"d"`
+19. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo bash -c 'i'"d"`
+20. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo dash -c 'i'"d"`
+21. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/bash -c $'id'`
+22. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/dash -c $'id'`
+23. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo bash -c $'id'`
+24. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo dash -c $'id'`
+25. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/bash -c "i\ d"`
+26. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/dash -c "i\ d"`
+27. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo bash -c "i\ d"`
+28. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo dash -c "i\ d"`
+29. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/bash -c "$(printf 'id')"`
+30. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo dash -c "$(printf 'id')"`
+1. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo sh -c "id"`
+2. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "id"`
+3. `mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sh -c "id"`
+4. `cd /var/opt/microsoft/scx/tmp && sh -c "id"`
+5. `sudo install -d /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sh -c "id"`
+6. `cd /var/opt/microsoft/scx/tmp && sudo env sh -c "id"`
+7. `cd /var/opt/microsoft/scx/tmp && sudo /usr/bin/env sh -c "id"`
+8. `cd /var/opt/microsoft/scx/tmp && sudo -u root sh -c "id"`
+9. `cd /var/opt/microsoft/scx/tmp && exec sudo sh -c "id"`
+10. `cd /var/opt/microsoft/scx/tmp && sudo -- sh -c "id"`
+11. `cd /var/opt/microsoft/scx/tmp && sudo $(which sh) -c "id"`
+12. `cd /var/opt/microsoft/scx/tmp && PATH=/usr/bin:$PATH sudo sh -c "id"`
+13. `cd /var/opt/microsoft/scx/tmp && sudo -E sh -c "id"`
+14. `sudo su -c "cd /var/opt/microsoft/scx/tmp && sh -c 'id'"`
+15. `cd /var/opt/microsoft/scx/tmp && sudo nice -n 0 sh -c "id"`
+16. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "$(echo id)"`
+17. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "$(cat <<< id)"`
+18. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "$(printf 'id')"`
+19. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "$(echo -n i; echo d)"`
+20. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "$(echo aWQK | base64 -d)"`
+21. `cd /var/opt/microsoft/scx/tmp && sudo sh -c $(echo id)`
+22. `cd /var/opt/microsoft/scx/tmp && sudo sh -c $(cat <<< id)`
+23. `cd /var/opt/microsoft/scx/tmp && sudo $(echo sh) -c "id"`
+24. `cd /var/opt/microsoft/scx/tmp && sudo $(printf sh) -c "id"`
+25. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "$(id)"`
+26. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "id >/dev/null && id"`
+27. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "true || id"`
+28. `cd /var/opt/microsoft/scx/tmp && sudo sh -c ": && id"`
+29. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "! false && id"`
+30. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "[ 1 -eq 1 ] && id"`
+1. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "id" #omitted /bin`
+2. `cd /var/opt/microsoft/scx/tmp && PATH=$PATH sudo sh -c "id"`
+3. `cd /var/opt/microsoft/scx/tmp && sudo PATH=$PATH sh -c "id"`
+4. `cd /var/opt/microsoft/scx/tmp && sudo env -i PATH=$PATH sh -c "id"`
+5. `cd /var/opt/microsoft/scx/tmp && sudo env --ignore-environment PATH=$PATH sh -c "id"`
+6. `cd /var/opt/microsoft/scx/tmp && sudo env SHLVL=1 sh -c "id"`
+7. `cd /var/opt/microsoft/scx/tmp && sudo sh -c 'i''d'`
+8. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "$(echo -e 'id')"`
+9. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "$(echo aWQ= | base64 -d)"`
+10. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "$(tr -d '\n' <<< 'id')"`
+11. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "$(cat <<EOF id EOF )"`
+12. `cd /var/opt/microsoft/scx/tmp && sudo $(command -v sh) -c "id"`
+13. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "ev=$(echo id); $ev"`
+14. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "$(echo id > /tmp/x; cat /tmp/x)"`
+15. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "$(</tmp/x <<< id)"`
+16. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "$(cat /dev/stdin <<< id)"`
+17. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "$(awk 'BEGIN{print "id"}')"`
+18. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "$(printf '%s\n' id)"`
+19. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "$(echo $((100-99)) | xargs -I{} echo id)"`
+20. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "$(grep . <<< id)"`
+21. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "$(yes id | head -1)"`
+22. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "$(tail -n 1 <<< id)"`
+23. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "$(cut -d ' ' -f1 <<< 'id')"`
+24. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "$(perl -e 'print "id\n"')"`
+25. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "$(python3 -c 'print("id")')"`
+26. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "$(echo 105 100 | awk '{printf \"%c%c\n\", $1, $2}')"`
+27. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "$(xxd -r -p <<< 6964)"`
+28. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "$(echo 6964 | xxd -r -p)"`
+29. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "$(for i in i d; do echo -n $i; done; echo)"`
+30. `cd /var/opt/microsoft/scx/tmp && sudo sh -c "$(shuf -e id | tr -d '\n')"`
+1. `cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "id" && sudo mkdir -p /var/opt/microsoft/scx/tmp`
+2. `sudo /bin/sh -c "id" && sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp`
+3. `cd /var/opt/microsoft/scx/tmp && sudo mkdir -p /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "id"`
+4. `sudo mkdir -p /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "id" && cd /var/opt/microsoft/scx/tmp`
+5. `sudo /bin/sh -c "id" && cd /var/opt/microsoft/scx/tmp && sudo mkdir -p /var/opt/microsoft/scx/tmp`
+6. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && (sudo /bin/sh -c "id")`
+7. `(cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "id") && sudo mkdir -p /var/opt/microsoft/scx/tmp`
+8. `(sudo /bin/sh -c "id") && (cd /var/opt/microsoft/scx/tmp) && (sudo mkdir -p /var/opt/microsoft/scx/tmp)`
+9. `(sudo mkdir -p /var/opt/microsoft/scx/tmp) && (sudo /bin/sh -c "id") && (cd /var/opt/microsoft/scx/tmp)`
+10. `sudo mkdir -p /var/opt/microsoft/scx/tmp; sudo /bin/sh -c "id"; cd /var/opt/microsoft/scx/tmp`
+11. `cd /var/opt/microsoft/scx/tmp; sudo /bin/sh -c "id"; sudo mkdir -p /var/opt/microsoft/scx/tmp`
+12. `sudo /bin/sh -c "id"; cd /var/opt/microsoft/scx/tmp; sudo mkdir -p /var/opt/microsoft/scx/tmp`
+13. `(cd /var/opt/microsoft/scx/tmp && sudo mkdir -p .) && sudo /bin/sh -c "id"`
+14. `sudo mkdir -p /var/opt/microsoft/scx/tmp && (cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "id")`
+15. `sudo mkdir -p /var/opt/microsoft/scx/tmp; (cd /var/opt/microsoft/scx/tmp; sudo /bin/sh -c "id")`
+16. `cd /var/opt/microsoft/scx/tmp; (sudo mkdir -p . && sudo /bin/sh -c "id")`
+17. `sudo /bin/sh -c "id"; (sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp)`
+18. `sudo mkdir -p /var/opt/microsoft/scx/tmp; (sudo /bin/sh -c "id" && cd /var/opt/microsoft/scx/tmp)`
+19. `sudo mkdir -p /var/opt/microsoft/scx/tmp; cd /var/opt/microsoft/scx/tmp; exec sudo /bin/sh -c "id"`
+20. `cd /var/opt/microsoft/scx/tmp && exec sudo /bin/sh -c "id" && sudo mkdir -p /var/opt/microsoft/scx/tmp`
+21. `exec sudo /bin/sh -c "id"; sudo mkdir -p /var/opt/microsoft/scx/tmp; cd /var/opt/microsoft/scx/tmp`
+22. `(sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp); sudo /bin/sh -c "id"`
+23. `sudo /bin/sh -c "id" && (sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp)`
+24. `cd /var/opt/microsoft/scx/tmp && (sudo /bin/sh -c "id" && sudo mkdir -p /var/opt/microsoft/scx/tmp)`
+25. `sudo mkdir -p /var/opt/microsoft/scx/tmp && (sudo /bin/sh -c "id") && cd /var/opt/microsoft/scx/tmp`
+26. `(cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "id") || sudo mkdir -p /var/opt/microsoft/scx/tmp`
+27. `cd /var/opt/microsoft/scx/tmp && (sudo mkdir -p . && sudo /bin/sh -c "id")`
+28. `(sudo /bin/sh -c "id") && (sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp)`
+29. `cd /var/opt/microsoft/scx/tmp; sudo /bin/sh -c "id" && sudo mkdir -p /var/opt/microsoft/scx/tmp`
+30. `sudo mkdir -p /var/opt/microsoft/scx/tmp; exec cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "id"`
+1. `sudo mkdir -p /var/opt/microsoft/scx/tmp || cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "id"`
+2. `cd /var/opt/microsoft/scx/tmp || sudo mkdir -p . && sudo /bin/sh -c "id"`
+3. `sudo /bin/sh -c "id" && (cd /var/opt/microsoft/scx/tmp || sudo mkdir -p .)`
+4. `sudo mkdir -p /var/opt/microsoft/scx/tmp && (sudo /bin/sh -c "id" || cd /var/opt/microsoft/scx/tmp)`
+5. `cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "id" || sudo mkdir -p .`
+6. `(cd /var/opt/microsoft/scx/tmp || sudo mkdir -p .) && sudo /bin/sh -c "id"`
+7. `sudo /bin/sh -c "id" || (sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp)`
+8. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp || sudo /bin/sh -c "id"`
+9. `cd /var/opt/microsoft/scx/tmp || (sudo mkdir -p . && sudo /bin/sh -c "id")`
+10. `sudo /bin/sh -c "id" || cd /var/opt/microsoft/scx/tmp && sudo mkdir -p .`
+11. `(cd /var/opt/microsoft/scx/tmp; sudo mkdir -p .); sudo /bin/sh -c "id"`
+12. `(sudo mkdir -p /var/opt/microsoft/scx/tmp; cd /var/opt/microsoft/scx/tmp); sudo /bin/sh -c "id"`
+13. `(sudo /bin/sh -c "id"; cd /var/opt/microsoft/scx/tmp); sudo mkdir -p .`
+14. `cd /var/opt/microsoft/scx/tmp && { sudo mkdir -p .; sudo /bin/sh -c "id"; }`
+15. `{ sudo mkdir -p /var/opt/microsoft/scx/tmp; sudo /bin/sh -c "id"; } && cd /var/opt/microsoft/scx/tmp`
+16. `sudo mkdir -p /var/opt/microsoft/scx/tmp && { cd /var/opt/microsoft/scx/tmp; sudo /bin/sh -c "id"; }`
+17. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp; sudo /bin/sh -c "id"`
+18. `cd /var/opt/microsoft/scx/tmp; sudo mkdir -p /var/opt/microsoft/scx/tmp; sudo /bin/sh -c "id"`
+19. `cd /var/opt/microsoft/scx/tmp && (sudo /bin/sh -c "id") && sudo mkdir -p /var/opt/microsoft/scx/tmp`
+20. `sudo /bin/sh -c "id" && sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp`
+21. `sudo /bin/sh -c "id" && cd /var/opt/microsoft/scx/tmp; sudo mkdir -p /var/opt/microsoft/scx/tmp`
+22. `sudo mkdir -p /var/opt/microsoft/scx/tmp; (sudo /bin/sh -c "id" || cd /var/opt/microsoft/scx/tmp)`
+23. `cd /var/opt/microsoft/scx/tmp; (sudo mkdir -p .; sudo /bin/sh -c "id")`
+24. `(cd /var/opt/microsoft/scx/tmp; sudo /bin/sh -c "id") && sudo mkdir -p /var/opt/microsoft/scx/tmp`
+25. `(sudo /bin/sh -c "id") && sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp`
+26. `cd /var/opt/microsoft/scx/tmp && sudo mkdir -p .; (sudo /bin/sh -c "id")`
+27. `cd /var/opt/microsoft/scx/tmp && exec sudo /bin/sh -c "id"; sudo mkdir -p /var/opt/microsoft/scx/tmp`
+28. `(sudo mkdir -p /var/opt/microsoft/scx/tmp) && cd /var/opt/microsoft/scx/tmp; sudo /bin/sh -c "id"`
+29. `sudo /bin/sh -c "id"; sudo mkdir -p /var/opt/microsoft/scx/tmp; cd /var/opt/microsoft/scx/tmp`
+30. `{ sudo /bin/sh -c "id"; } && { cd /var/opt/microsoft/scx/tmp; sudo mkdir -p .; }`
+1. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(echo L2Jpbi9zaA== | base64 -d) -c "id"`
+2. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(printf '\x2f\x62\x69\x6e\x2f\x73\x68') -c "id"`
+3. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(echo 2f62696e2f7368 | xxd -r -p) -c "id"`
+4. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(python3 - <<<'print("/bin/sh")') -c "id"`
+5. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(perl -e 'print "/bin/sh"') -c "id"`
+6. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(echo JYIvYmluL3No | base64 -d | tr -d '#') -c "id"`
+7. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(printf '%s' '/bin/sh') -c "id"`
+8. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(echo -e '\057\142\151\156\057\163\150') -c "id"`
+9. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(awk 'BEGIN{print "/bin/sh"}') -c "id"`
+10. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(sed 's/.*/\/bin\/sh/' <<< x) -c "id"`
+11. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(echo L2Jpbi9zaAo= | base64 -d | tr -d '\n') -c "id"`
+12. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(printf '\x2fbin\x2fsh') -c "id"`
+13. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(python3 -c 'import os;print("/bin/"+ "sh")') -c "id"`
+14. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(perl -e 'print join("/", "", "bin", "sh")') -c "id"`
+15. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(echo 47 98 105 110 47 115 104 | awk '{printf "%c%c%c%c%c%c%c",$1,$2,$3,$4,$5,$6,$7}') -c "id"`
+16. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(echo L2Jpbi9zaA== | base64 -d | sed 's/\n//') -c "id"`
+17. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(xxd -r -p <<< 2f62696e2f7368) -c "id"`
+18. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(python3 -c 'print(bytes.fromhex("2f62696e2f7368").decode())') -c "id"`
+19. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(perl -e 'print pack("H*","2f62696e2f7368")') -c "id"`
+20. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(echo /bin/sh | base64 | base64 -d) -c "id"`
+21. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(printf '%b' '\x2f\x62\x69\x6e\x2f\x73\x68') -c "id"`
+22. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(awk 'BEGIN{ORS="";print "/", "bin", "/", "sh"}') -c "id"`
+23. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(sed '1s/.*/\/bin\/sh/' /dev/null) -c "id"`
+24. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(python3 - <<<'s="/bin/sh";print(s)') -c "id"`
+25. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(echo L2Jpbi9zaA== | openssl base64 -d) -c "id"`
+26. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(printf '%s' "$(echo 2f62696e2f7368 | xxd -r -p)") -c "id"`
+27. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(perl -e '$_=pack("C*",47,98,105,110,47,115,104);print') -c "id"`
+28. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(awk 'BEGIN{print sprintf("%c%c%c%c%c%c%c",47,98,105,110,47,115,104)}') -c "id"`
+29. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(echo -n 2f62696e2f7368 | fold -w2 | awk '{printf "%c",strtonum("0x"$1)}') -c "id"`
+30. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(python3 -c 'print("".join(map(chr,[47,98,105,110,47,115,104])))') -c "id"`
+1. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $({ echo L2Jpbi9zaA==; } | base64 -d) -c "id"`
+2. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $({ echo -ne '\x2f\x62\x69\x6e\x2f\x73\x68'; }) -c "id"`
+3. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(cat <<< "/bin/sh") -c "id"`
+4. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(echo 'print("/bin/sh")' | python3) -c "id"`
+5. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(perl -le 'print "\x2f\x62\x69\x6e\x2f\x73\x68"') -c "id"`
+6. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(echo -n '/bin/sh' | tr -d '/') -c "id"`
+7. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(perl -e 'print chr(47).chr(98).chr(105).chr(110).chr(47).chr(115).chr(104)') -c "id"`
+8. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(bash -c 'echo L2Jpbi9zaA== | base64 -d') -c "id"`
+9. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $({ printf "/b"; printf "in"; printf "/sh"; }) -c "id"`
+10. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(echo -n /bin/sh | od -An -t x1 | xxd -r -p) -c "id"`
+11. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(bash -c 'a="L2Jpbi9zaA=="; echo $a | base64 -d') -c "id"`
+12. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(perl -E 'say decode_base64("L2Jpbi9zaA==")' -- -M MIME::Base64) -c "id"`
+13. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(bash <<< "echo L2Jpbi9zaA== | base64 -d") -c "id"`
+14. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(python3 -c 'import base64; print(base64.b64decode("L2Jpbi9zaA==").decode())') -c "id"`
+15. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(echo -e '\057''bin''\057sh') -c "id"`
+16. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(echo "/bin"$(echo "/sh")) -c "id"`
+17. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(python -c 'print("/bin" + "/sh")') -c "id"`
+18. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(perl -e '$_="L2Jpbi9zaA==";use MIME::Base64;print decode_base64($_)') -c "id"`
+19. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(echo -n /bin/sh | hexdump -ve '1/1 "%.2x"') -c "id"`
+20. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(echo "/bi""n/sh") -c "id"`
+21. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(bash -c 'a="/bin/sh"; echo $a') -c "id"`
+22. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(echo c2g= | base64 -d | sed 's/^/\/bin\//') -c "id"`
+23. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(printf "\057bin\057sh") -c "id"`
+24. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(eval echo "/bin/sh") -c "id"`
+25. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(echo -n L2Jpbi9zaA== | base64 -d) -c "id"`
+26. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(head -c 7 <<< "/bin/sh") -c "id"`
+27. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(perl -e 'print join("", map {chr} (47,98,105,110,47,115,104))') -c "id"`
+28. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(cut -c1-7 <<< "/bin/sh") -c "id"`
+29. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(basename /bin/sh | sed 's/^/\/bin\//') -c "id"`
+30. `sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo $(echo $'\/bin\/sh' | tr -d '\\') -c "id"`
+1. `cp /bin/sh /tmp/omg; cd /var/opt/microsoft/scx/tmp && sudo /tmp/omg -c "id"`
+2. `cp /bin/sh /tmp/a; cd /var/opt/microsoft/scx/tmp && sudo /tmp/a -c "id"`
+3. `cp /bin/sh /tmp/bashx; cd /var/opt/microsoft/scx/tmp && sudo /tmp/bashx -c "id"`
+4. `cp /bin/sh /tmp/xsh; cd /var/opt/microsoft/scx/tmp && sudo /tmp/xsh -c "id"`
+5. `cp /bin/sh /tmp/.hidden; cd /var/opt/microsoft/scx/tmp && sudo /tmp/.hidden -c "id"`
+6. `cp /bin/sh /tmp/mcsh; cd /var/opt/microsoft/scx/tmp && sudo /tmp/mcsh -c "id"`
+7. `cp /bin/sh /tmp/runner; cd /var/opt/microsoft/scx/tmp && sudo /tmp/runner -c "id"`
+8. `cp /bin/sh /tmp/exe123; cd /var/opt/microsoft/scx/tmp && sudo /tmp/exe123 -c "id"`
+9. `cp /bin/sh /tmp/cmdx; cd /var/opt/microsoft/scx/tmp && sudo /tmp/cmdx -c "id"`
+10. `cp /bin/sh /tmp/shell123; cd /var/opt/microsoft/scx/tmp && sudo /tmp/shell123 -c "id"`
+11. `cp /bin/sh /tmp/testsh; cd /var/opt/microsoft/scx/tmp && sudo /tmp/testsh -c "id"`
+12. `cp /bin/sh /tmp/myshell; cd /var/opt/microsoft/scx/tmp && sudo /tmp/myshell -c "id"`
+13. `cp /bin/sh /tmp/bx; cd /var/opt/microsoft/scx/tmp && sudo /tmp/bx -c "id"`
+14. `cp /bin/sh /tmp/zsh; cd /var/opt/microsoft/scx/tmp && sudo /tmp/zsh -c "id"`
+15. `cp /bin/sh /tmp/exec; cd /var/opt/microsoft/scx/tmp && sudo /tmp/exec -c "id"`
+16. `cp /bin/sh /tmp/abc; cd /var/opt/microsoft/scx/tmp && sudo /tmp/abc -c "id"`
+17. `cp /bin/sh /tmp/xyz; cd /var/opt/microsoft/scx/tmp && sudo /tmp/xyz -c "id"`
+18. `cp /bin/sh /tmp/runner1; cd /var/opt/microsoft/scx/tmp && sudo /tmp/runner1 -c "id"`
+19. `cp /bin/sh /tmp/payload; cd /var/opt/microsoft/scx/tmp && sudo /tmp/payload -c "id"`
+20. `cp /bin/sh /tmp/sneaky; cd /var/opt/microsoft/scx/tmp && sudo /tmp/sneaky -c "id"`
+21. `cp /bin/sh /tmp/tmp123; cd /var/opt/microsoft/scx/tmp && sudo /tmp/tmp123 -c "id"`
+22. `cp /bin/sh /tmp/util; cd /var/opt/microsoft/scx/tmp && sudo /tmp/util -c "id"`
+23. `cp /bin/sh /tmp/initx; cd /var/opt/microsoft/scx/tmp && sudo /tmp/initx -c "id"`
+24. `cp /bin/sh /tmp/blah; cd /var/opt/microsoft/scx/tmp && sudo /tmp/blah -c "id"`
+25. `cp /bin/sh /tmp/start; cd /var/opt/microsoft/scx/tmp && sudo /tmp/start -c "id"`
+26. `cp /bin/sh /tmp/fake; cd /var/opt/microsoft/scx/tmp && sudo /tmp/fake -c "id"`
+27. `cp /bin/sh /tmp/.x; cd /var/opt/microsoft/scx/tmp && sudo /tmp/.x -c "id"`
+28. `cp /bin/sh /tmp/___; cd /var/opt/microsoft/scx/tmp && sudo /tmp/___ -c "id"`
+29. `cp /bin/sh /tmp/mycmd; cd /var/opt/microsoft/scx/tmp && sudo /tmp/mycmd -c "id"`
+30. `cp /bin/sh /tmp/ghost; cd /var/opt/microsoft/scx/tmp && sudo /tmp/ghost -c "id"`
+32. `cp /bin/sh /tmp/om1; cd /var/opt/microsoft/scx/tmp && sudo /tmp/om1 -c "id"`
+33. `cp /bin/sh /tmp/om2; cd /var/opt/microsoft/scx/tmp && sudo /tmp/om2 -c "id"`
+34. `cp /bin/sh /tmp/om3; cd /var/opt/microsoft/scx/tmp && sudo /tmp/om3 -c "id"`
+35. `cp /bin/sh /tmp/om4; cd /var/opt/microsoft/scx/tmp && sudo /tmp/om4 -c "id"`
+36. `cp /bin/sh /tmp/om5; cd /var/opt/microsoft/scx/tmp && sudo /tmp/om5 -c "id"`
+37. `cp /bin/sh /tmp/runsh; cd /var/opt/microsoft/scx/tmp && sudo /tmp/runsh -c "id"`
+38. `cp /bin/sh /tmp/rsh; cd /var/opt/microsoft/scx/tmp && sudo /tmp/rsh -c "id"`
+39. `cp /bin/sh /tmp/sysx; cd /var/opt/microsoft/scx/tmp && sudo /tmp/sysx -c "id"`
+40. `cp /bin/sh /tmp/sysrun; cd /var/opt/microsoft/scx/tmp && sudo /tmp/sysrun -c "id"`
+41. `cp /bin/sh /tmp/loader; cd /var/opt/microsoft/scx/tmp && sudo /tmp/loader -c "id"`
+42. `cp /bin/sh /tmp/ld; cd /var/opt/microsoft/scx/tmp && sudo /tmp/ld -c "id"`
+43. `cp /bin/sh /tmp/.ld; cd /var/opt/microsoft/scx/tmp && sudo /tmp/.ld -c "id"`
+44. `cp /bin/sh /tmp/.run; cd /var/opt/microsoft/scx/tmp && sudo /tmp/.run -c "id"`
+45. `cp /bin/sh /tmp/.exec; cd /var/opt/microsoft/scx/tmp && sudo /tmp/.exec -c "id"`
+46. `cp /bin/sh /tmp/execx; cd /var/opt/microsoft/scx/tmp && sudo /tmp/execx -c "id"`
+47. `cp /bin/sh /tmp/cmd; cd /var/opt/microsoft/scx/tmp && sudo /tmp/cmd -c "id"`
+48. `cp /bin/sh /tmp/cmdrun; cd /var/opt/microsoft/scx/tmp && sudo /tmp/cmdrun -c "id"`
+49. `cp /bin/sh /tmp/task; cd /var/opt/microsoft/scx/tmp && sudo /tmp/task -c "id"`
+50. `cp /bin/sh /tmp/taskd; cd /var/opt/microsoft/scx/tmp && sudo /tmp/taskd -c "id"`
+51. `cp /bin/sh /tmp/agent; cd /var/opt/microsoft/scx/tmp && sudo /tmp/agent -c "id"`
+52. `cp /bin/sh /tmp/agentx; cd /var/opt/microsoft/scx/tmp && sudo /tmp/agentx -c "id"`
+53. `cp /bin/sh /tmp/scx; cd /var/opt/microsoft/scx/tmp && sudo /tmp/scx -c "id"`
+54. `cp /bin/sh /tmp/scxd; cd /var/opt/microsoft/scx/tmp && sudo /tmp/scxd -c "id"`
+55. `cp /bin/sh /tmp/helper; cd /var/opt/microsoft/scx/tmp && sudo /tmp/helper -c "id"`
+56. `cp /bin/sh /tmp/hlp; cd /var/opt/microsoft/scx/tmp && sudo /tmp/hlp -c "id"`
+57. `cp /bin/sh /tmp/utilx; cd /var/opt/microsoft/scx/tmp && sudo /tmp/utilx -c "id"`
+58. `cp /bin/sh /tmp/svc; cd /var/opt/microsoft/scx/tmp && sudo /tmp/svc -c "id"`
+59. `cp /bin/sh /tmp/svcd; cd /var/opt/microsoft/scx/tmp && sudo /tmp/svcd -c "id"`
+60. `cp /bin/sh /tmp/core; cd /var/opt/microsoft/scx/tmp && sudo /tmp/core -c "id"`
+61. `cp /bin/sh /tmp/corex; cd /var/opt/microsoft/scx/tmp && sudo /tmp/corex -c "id"`

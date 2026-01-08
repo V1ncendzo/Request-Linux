@@ -1,0 +1,360 @@
+1. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" |ba"se64" -d| bash'
+2. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d |/ba"sh"'
+3. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba\se64 -d | bash'
+4. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba\\se64 -d | bash'
+5. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b"a"s"e"6"4 -d | bash'
+6. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba${EMPTY}se64 -d | bash'
+7. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b''ase64 -d | bash'
+8. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b\ase64 -d | bash'
+9. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d|/bin/./bash'
+10. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="| base64 -d |/bin//bash'
+11. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b"ase64" -d | b"ash"'
+12. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | ba\sh'
+13. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="|ba""se64 -d|bash'
+14. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" |ba\tse64 -d | bash'
+15. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /ba"sh"'
+16. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="| base64 -d | `which bash`'
+17. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="| ba""se64 -d| ba""sh'
+18. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" |ba$EMPTYse64 -d|bash'
+19. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" |ba\se64 -d|bash'
+20. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | .bash'
+21. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin/ba""sh'
+22. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d |/bin/sh;:'
+23. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="| base64 -d|bash #comment'
+24. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="|base64\ -d|bash'
+25. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="|base64 -d |/b""ash'
+26. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b""a""s""e64 -d | bash'
+27. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b\\ase64 -d | bash'
+28. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d| /bin/ba\sh'
+29. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d| /bin/b"ash"'
+30. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba\se64 -d | /bin/sh'
+31. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="|b"a"se64 -d|bash'
+32. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba"s"e64 -d | bash'
+33. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="|bas""e64 -d|bash'
+34. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba''se64 -d | bash'
+35. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="|ba\ se64 -d|bash'
+36. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b\a\se64 -d | bash'
+37. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="| base64 -d | b\a\sh'
+38. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | ba"s"h'
+39. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="| base64 -d | ba''sh'
+40. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | b""ash'
+41. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="|base64 -d|/bin/ba\sh'
+42. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin/b"a"sh'
+43. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="| base64 -d | /bin//ba""sh'
+44. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin/./ba\sh'
+45. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="|ba$IFSse64 -d|bash'
+46. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba${IFS}se64 -d | bash'
+47. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="| base64 -d | ba$IFSsh'
+48. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | ba${IFS}sh'
+49. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="| b"a"s"e"6"4 -d|bash'
+50. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba""s""e64 -d | bash'
+51. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="|base6""4 -d|bash'
+52. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba\se\64 -d | bash'
+53. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="|base\64 -d|bash'
+54. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | b\as\h'
+55. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="| base64 -d | b"a""sh'
+56. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | ba""s""h'
+57. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="|base64 -d|/bin/b\a\s\h'
+58. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin/b""a""sh'
+59. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="| base64 -d | /bin/ba${IFS}sh'
+60. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin/ba$IFSsh'
+1. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | bash'`
+2. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /ba"sh'`
+3. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | ba"sh"'`
+4. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | ba'"sh"'`
+5. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | b\ash'`
+6. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | b''ash'`
+7. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | b"a""sh"'`
+8. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin/ba"sh'`
+9. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin/./bash'`
+10. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin//bash'`
+11. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | bash'`
+12. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | bash'`
+13. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | bash'`
+14. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | "base64" -d | bash'`
+15. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | bas"e64" -d | bash'`
+16. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba"se"64 -d | bash'`
+17. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b\ase64 -d | bash'`
+18. `/bin/bash -c 'ec""ho "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | bash'`
+19. `/bin/bash -c 'e"c"h"o "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | bash'`
+20. `/bin/bash -c 'ec\ho "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | bash'`
+21. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="|base64 -d|bash'`
+22. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="|b"a"s"e64 -d|ba"sh'`
+23. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b''a''s''e64 -d | ba''sh'`
+24. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | b\\ash'`
+25. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | "bash"'`
+26. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | (base64 -d) | (bash)'`
+27. `/bin/bash -c "echo 'ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==' | base64 -d | bash"`
+28. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b''as''e64 -d | b''ash'`
+29. `/bin/bash -c 'echo ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg== | base64 -d | bash'`
+30. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b\a\s\e\64 -d | b\a\s\h'`
+1. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | /"base64" -d | /"bash"'`
+2. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | /b"a"se64 -d | /ba"sh"'`
+3. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | /ba\\se64 -d | /b\\ash'`
+4. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | /ba\se64 -d | /b\ash'`
+5. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b\"ase64\" -d | b\"ash\"'`
+6. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba'"se64"' -d | ba'"sh"'`
+7. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /usr/bin/"bash"'`
+8. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | /bin/ba"sh" -c'`
+9. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | /b\\a\\sh'`
+10. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | /usr/bin/base64 -d | /bin/ba"sh"'`
+11. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | sh'"''"`
+12. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba\se64 -d | b\ash'`
+13. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba""se64 -d | ba""sh'`
+14. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | \base64 -d | \bash'`
+15. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba$IFS"se64" -d | ba$IFS"sh"'`
+16. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba$IFS""se64 -d | ba$IFS""sh'`
+17. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b"a""se64" -d | b"a""sh"'`
+18. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b"a"s"e64 -d | b"a"s"h'`
+19. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b''a''se64 -d | b''a''sh'`
+20. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | $(which base64) -d | $(which bash)'`
+21. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | $(echo base64) -d | $(echo bash)'`
+22. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64${IFS}-d | bash'`
+23. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64${IFS}${IFS}-d | bash'`
+24. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | bas"$IFS"e64 -d | ba"$IFS"sh'`
+25. `/bin/bash -c "echo 'ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==' | base64 -d | bash"`
+26. `/bin/bash -c "echo ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg== | base64 -d | bash"`
+27. `/bin/bash -c "echo ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg== | /bin/base64 -d | /bin/bash"`
+28. `/bin/bash -c "e""cho ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg== | ba""se64 -d | ba""sh"`
+29. `/bin/bash -c 'e\cho "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b\ase64 -d | b\ash'`
+30. `/bin/bash -c 'e"c"h"o "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b"a"s"e64 -d | b"a"s"h'`
+1. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | bash'
+2. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d |ba"sh"'
+3. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d |/bin/ba\sh'
+4. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d |/bin//bash'
+5. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d |/bin/./bash'
+6. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | "base64" -d | bash'
+7. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b\a\s\e64 -d | bash'
+8. /bin/bash -c 'ec""ho "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | bash'
+9. /bin/bash -c "echo 'ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==' | base64 -d | bash"
+10. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d|b''ash'
+11. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="|base64 -d|ba\sh'
+12. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="|base64 -d|sh'
+13. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d|bash #dummy'
+14. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b''ase64 -d | bash'
+15. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="|base64    -d|bash'
+16. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="| base64 -d | /bin/bash'
+17. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="|/usr/bin/base64 -d | bash'
+18. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d|/bin/bash'
+19. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | ba""sh'
+20. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="|base64 -d | /bin/ba""sh'
+21. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="| base64 -d|bash #insertion'
+22. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /b""in/bash'
+23. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin/bash # comment'
+24. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | \base64 -d | bash'
+25. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="| base64 -d| "bash"'
+26. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | b\ash'
+27. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b""ase64 -d | b""ash'
+28. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba\\se64 -d | ba\\sh'
+29. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /usr/bin/bash'
+30. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba""se64 -d |/bin/b""ash'
+1. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="|base64 -d|b"a"sh'
+2. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" |base64 -d|b\a\sh'
+3. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="| base64 -d |ba''sh'
+4. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba""se64 -d | bash'
+5. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="|b"ase64" -d|bash'
+6. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b\a\s\e64 -d | bash'
+7. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="|/usr/bin/base64 -d|ba""sh'
+8. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | /usr/bin/ba""se64 -d | bash'
+9. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="| base64 -d |/bin/ba\sh'
+10. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d |/bin//bash'
+11. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="| base64 -d |/bin/./bash'
+12. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" |base64 -d| "bash"'
+13. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="| base64 -d|"ba""sh"'
+14. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba""se64 -d|/usr/bin/bash'
+15. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="|b""ase64 -d|/bin/bash'
+16. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d|/bin/b""ash'
+17. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="| base64 -d | ba\sh'
+18. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b""ase64 -d | b""ash'
+19. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="| ba\\se64 -d|bash'
+20. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | ba\\sh'
+21. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="| base64 -d |bash	'
+22. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d|bash#x'
+23. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="| base64 -d|bash;'
+24. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba""se64 -d|ba""sh'
+25. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="| b"a""se64" -d | bash'
+26. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | b"a""sh"'
+27. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="| /bin/b""ase64 -d | bash'
+28. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | /bin/ba""se64 -d|ba\sh'
+29. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="| base64 -d | /usr/bin/ba""sh'
+30. /bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b""ase64 -d | /bin/./ba""sh'
+1. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | "ba"sh'`
+2. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | "base"64 -d | bash'`
+3. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba\se64 -d | bash'`
+4. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | ba\sh'`
+5. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="|"base64" -d|bash'`
+6. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin/./bash'`
+7. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | /usr/bin/base64 -d | bash'`
+8. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | /usr/bin/./base64 -d | bash'`
+9. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin//bash'`
+10. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba""se64 -d | bash'`
+11. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base""64 -d | bash'`
+12. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | ba""sh'`
+13. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b"a"se64 -d | bash'`
+14. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | b"a"sh'`
+15. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba"s"e64 -d | bash'`
+16. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | ba"s"h'`
+17. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba\se64 -d | /bin/bash'`
+18. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | /bin/base64 -d | ba\sh'`
+19. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | bas\ e64 -d | bash'`
+20. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | bas\ h'`
+21. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="|/usr/bin/base64 -d|/bin/bash'`
+22. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /usr/bin/bash'`
+23. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b"a"s"e"64 -d | bash'`
+24. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | b"a"s"h'`
+25. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba""s""e64 -d | bash'`
+26. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | ba""s""h'`
+27. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | /usr/bin/ba""se64 -d | bash'`
+28. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin/ba""sh'`
+29. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b\ase64 -d | bash'`
+30. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | b\ash'`
+1. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg=="|ba\\se64 -d|bash'`
+2. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin/ba.sh'`
+3. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | /bin/base64 -d | /bin/bash'`
+4. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | /bin/../bin/base64 -d | /bin/bash'`
+5. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin/../bin/bash'`
+6. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | "/bin/base64" -d | "/bin/bash"'`
+7. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin/b\ash'`
+8. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b\\a\\se64 -d | b\\a\\sh'`
+9. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | '"/bin/"'bash'`
+10. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b'ase64 -d | bash'`
+11. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | ba'\"'sh'`
+12. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | /bin/./base64 -d | /bin/bash'`
+13. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b\a\s\e64 -d | bash'`
+14. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | b\a\s\h'`
+15. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b\\ase64 -d | b\\ash'`
+16. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b'a'se64 -d | b'a'sh'`
+17. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | /bin/bas\te64 -d | /bin/bas\th'`
+18. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | $(which base64) -d | $(which bash)'`
+19. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | $(echo base64) -d | $(echo bash)'`
+20. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | $(echo ba""se64) -d | $(echo ba""sh)'`
+21. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | $(/bin/echo base64) -d | $(/bin/echo bash)'`
+22. `/bin/bash -c 'eval "$(echo ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg== | base64 -d)"'`
+23. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin/b\\ash'`
+24. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b\\a\\se64 -d | /bin/bash'`
+25. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba\se64 -d | /usr/bin/bash'`
+26. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b""a""s""e64 -d | b""a""s""h'`
+27. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | "bash"'`
+28. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | "base64" -d | /bin/bash'`
+29. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | /bin/base64 -d | /bin/./bash'`
+30. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | /bin//base64 -d | /bin//bash'`
+1. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | bash'`
+2. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | "base64" -d | bash'`
+3. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba"se"64 -d | bash'`
+4. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin/ba"sh"'`
+5. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin/./bash'`
+6. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin//bash'`
+7. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | "ba""sh"'`
+8. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba\\se64 -d | bash'`
+9. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base\\64 -d | bash'`
+10. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base6\\4 -d | bash'`
+11. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b""ase64 -d | bash'`
+12. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | bas\\h'`
+13. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | b"a"sh'`
+14. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | b'ash'`
+15. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | "bash"'`
+16. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin/b\\ash'`
+17. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin/b'ash'`
+18. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin/"bash"'`
+19. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b'ase64' -d | bash'`
+20. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba\\se64 -d | /bin/bash'`
+21. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | sh'`
+22. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin/s"h"'`
+23. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba"se64" -d | /bin/sh'`
+24. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | "base64" -d | "bash"'`
+25. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d|bash'`
+26. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d| bash'`
+27. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" |base64 -d | bash'`
+28. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64-d | bash'`
+29. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b\\a\\se\\64 -d | bash'`
+30. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba"se""64" -d | ba"sh"'`
+1. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba"se"64 -d | /bin/sh'`
+2. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b\\ase64 -d | bash'`
+3. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base6"4" -d | /bin/sh'`
+4. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /b"i"n/bash'`
+5. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin/bas"h"'`
+6. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /b"ash"'`
+7. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b"a"se64 -d | sh'`
+8. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin/ba\\sh'`
+9. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | \\bash'`
+10. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | b\\ash'`
+11. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba""se64 -d | /bin/sh'`
+12. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | bas\\e64 -d | bash'`
+13. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | /usr/bin/base64 -d | bash'`
+14. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /usr/bin/bash'`
+15. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base6\\4 -d | /bin/ba\\sh'`
+16. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b"a"s"e"64 -d | /bin/sh'`
+17. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bi"n"/bash'`
+18. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | "bash"'`
+19. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba\\se64 -d | /bin/./bash'`
+20. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin/bash #injected'`
+21. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | bash'`
+22. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 \ -d | bash'`
+23. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin/sh # benign'`
+24. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d|/bin/sh'`
+25. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | /usr/bi"n"/base64 -d | /bin/bash'`
+26. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | /bin/bas"h" -c'`
+27. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b\\ase64 -d | /bin/bash'`
+28. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin/ba"sh"'`
+29. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /b"i"n//bash'`
+30. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba"s"e64 -d | b"a"sh'`
+1. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | bash'`
+2. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d |"bash"'`
+3. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d |/bin/bash'`
+4. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin/bash'`
+5. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | b"a"sh'`
+6. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | ba\\sh'`
+7. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | b\\ash'`
+8. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | "ba""sh"'`
+9. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | 'ba'sh'`
+10. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /b"in"/bash'`
+11. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin/./bash'`
+12. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bin//bash'`
+13. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | "base64" -d | bash'`
+14. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba"se"64 -d | bash'`
+15. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba\\se64 -d | bash'`
+16. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b""ase64 -d | bash'`
+17. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | /usr/bin/base64 -d | bash'`
+18. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | /usr/bin/./base64 -d | bash'`
+19. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | /usr/bin//base64 -d | bash'`
+20. `/bin/bash -c 'e"cho" "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | bash'`
+21. `/bin/bash -c 'e\\cho "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | bash'`
+22. `/bin/bash -c 'e""cho "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | bash'`
+23. `/bin/bash -c '"/bin"/bash -c "echo ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg== | base64 -d | bash"'`
+24. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | bas\h'`
+25. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | b\\a\\sh'`
+26. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | b$IFSash'`
+27. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba$IFSse64 -d | bash'`
+28. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | bas'$IFS'e64 -d | bash'`
+29. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | b"as"h'`
+30. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | "ba"sh'`
+1. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba\\se\\64 -d | bash'`
+2. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b$0ase64 -d | bash'`
+3. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | b$a$h'`
+4. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | b\ash'`
+5. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | ba$IFSsh'`
+6. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba$'\x73'64 -d | bash'`
+7. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b"ase"64 -d | bash'`
+8. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | ba"sh"'`
+9. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | \b\a\s\h'`
+10. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | $(echo bash)'`
+11. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | ba'"sh"'`
+12. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | /bi"n"/bash'`
+13. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | /us"r"/bin/base64 -d | bash'`
+14. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | "base"64 -d | bash'`
+15. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | ba$'\x73'e64 -d | bash'`
+16. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | b$'\x61'$'\x73'$'\x68'`
+17. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | b\ase64 -d | b\a\s\h'`
+18. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | /bin/base64 -d | /bin/bash'`
+19. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | b\\a\\sh'`
+20. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | b$RANDOMash'`
+21. `/bin/bash -c 'echo "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | ${0#b}bash'`
+22. `/bin/bash -c 'e"ch"o "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | bash'`
+23. `/bin/bash -c 'e$IFScho "ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg==" | base64 -d | bash'`
+24. `/bin/bash -c "$(echo ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg== | base64 -d)"`
+25. `/bin/bash -c "$(e""cho ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg== | ba""se""64 -d)"`
+26. `/bin/bash -c 'echo ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg== | b\ase64 -d | b$a$h'`
+27. `/bin/bash -c 'echo ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg== | b$a$IFSse64 -d | b$IFSash'`
+28. `/bin/bash -c 'echo ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg== | ba$IFSse64 -d | ba$IFSsh'`
+29. `/bin/bash -c 'echo ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg== | ba"$IFS"se64 -d | ba"$IFS"sh'`
+30. `/bin/bash -c 'echo ZWNobyAiVHJpZ2dlcmluZyBTaWdtYSBSdWxlIiA7IGlkCg== | base64 -d | /b/i/n/bash'`
