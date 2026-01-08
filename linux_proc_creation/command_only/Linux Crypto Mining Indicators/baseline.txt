@@ -1,0 +1,1 @@
+sudo sh -c '/sbin/modprobe msr allow_writes=on' 

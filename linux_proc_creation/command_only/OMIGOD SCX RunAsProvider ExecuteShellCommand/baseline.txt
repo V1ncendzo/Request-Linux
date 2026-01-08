@@ -1,0 +1,1 @@
+sudo mkdir -p /var/opt/microsoft/scx/tmp && cd /var/opt/microsoft/scx/tmp && sudo /bin/sh -c "id"
