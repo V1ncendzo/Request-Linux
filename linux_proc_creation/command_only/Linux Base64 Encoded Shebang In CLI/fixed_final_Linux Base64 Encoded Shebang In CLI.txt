@@ -1,0 +1,358 @@
+/bin/echo "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWNobyAiU2lt""dWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZW""NobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/bin/echo 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d | bash
+/bin/echo I"yEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/bin/echo "IyEvYmlu"/"L2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/bin/echo I\yEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWC\nobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZW\tNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/bin/echo 'IyEvYmluL2Jhc2gKZWNob''yAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZy" "BNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI="|base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" |base64 -d|bash
+/bin/echo "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZy BNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWC"nobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWC\rnobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/bin/echo 'IyEvYmluL2Jhc2gKZWC\aNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZE""NobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5""bG9hZCI=" | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWC\nohbyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxh""dGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWNobyAiU2lt\\tdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWNoby AiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWNobyAiU2lt$'\x64'$'WxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWNoby"AiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/bin/echo 'IyEvYmluL2Jhc2gKZW'$(echo 'NobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=') | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWC\bNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWC\fNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWC\vNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWC\0NobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNY""WxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyB""NYWxpY2lvdXMgUGF5bG9hZCI=" |base64 -d|bash
+/bin/echo 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI='|base64 -d|bash
+/bin/echo "IyEvYmluL2Jhc2gKZW""NobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d|bash
+/bin/echo "IyEvYmluL2Jhc2gKZW\tNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" |base64 -d|bash
+/bin/echo "IyEvYmluL2Jhc2gKZWNoby AiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" |base64 -d |bash
+/bin/echo "IyEvYmluL2Jhc2gKZWNoby AiU2ltdWxhdGluZy BNYWxpY2lvdXMgUGF5bG9hZCI="| base64 -d|bash
+/bin/echo "IyEvYmluL2Jhc2gKZWC\rnoby AiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI="|base64 -d|bash
+/bin/echo "IyEvYmluL2Jhc2gKZE\nNoby AiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI="|base64 -d|bash
+/bin/echo "IyEvYmluL2Jhc2gKZWC\fNoby AiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI="| base64 -d|bash
+/bin/echo "IyEvYmluL2Jhc2gKZWNob""yAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI="| base64 -d |bash
+/bin/echo "IyEvYmluL2Jhc2gKZWNoby""AiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI="|base64 -d|bash
+/bin/echo "IyEvYmluL2Jhc2gKZWC\\Noby AiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI="| base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWC/./Noby AiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI="| base64 -d |bash
+/bin/echo "IyEvYmluL2Jhc2gKZWC//Noby AiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI="| base64 -d |bash
+/bin/echo "IyEvYmluL2Jhc2gKZWNoby""AiU2lt""dWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI="| base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWC$'Noby' AiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" |base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWC\noby AiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" |base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZW$(echo 'Noby') AiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWNoby AiU2ltdWxhdGluZy BN""YWxpY2lvdXMgUGF5bG9hZCI="| base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWNoby AiU2lt""dWxhdGluZyBNYWxpY2lvdX MgUGF5bG9hZCI="| base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWNoby AiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5""bG9hZCI="| base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWNoby AiU2lt$'\x64WxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI='" | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWNoby AiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI="|base64 -d|bash
+/bin/echo "IyEvYmluL2Jhc2gKZWC\aNoby AiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWC\bNoby AiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWC\vNoby AiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWC\0Noby AiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/bin/echo 'IyEvYmluL2Jhc2gKZWC\noby AiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWC\x0aNoby AiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/usr/bin/echo "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 --decode | bash
+/bin/echo 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d | /bin/bash
+printf %s "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cat <<EOF | base64 -d | bash\nIyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=\nEOF
+base64 -d <<< "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | bash
+echo "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 --decode | /bin/sh
+printf "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+echo -n "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | sh
+python3 -c 'import base64,os;os.system(base64.b64decode("IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=").decode())'
+perl -MMIME::Base64 -e 'system(decode_base64("IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI="))'
+echo "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | /usr/bin/base64 -d | bash
+sh -c "$(echo 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d)"
+bash -c "$(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d)"
+export CMD=IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=; echo $CMD | base64 -d | bash
+VAR="IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI="; echo $VAR | base64 -d | bash
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | /bin/bash
+echo 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d | eval "$(cat)"
+echo 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d > /tmp/p.sh && bash /tmp/p.sh
+base64 -d <<<IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | bash
+echo 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | openssl base64 -d | bash
+bash -c "$(base64 -d <<< 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=')"
+bash <<< $(echo "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d)
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | tr -d '\n' | base64 -d | bash
+base64 -d <<<'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | bash
+TMP=$(mktemp); echo "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" > $TMP; base64 -d $TMP | bash
+echo $'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d | bash
+sed 's/.*/&/' <<< "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+echo "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | tee /dev/stdout | base64 -d | bash
+awk 'BEGIN{print "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI="}' | base64 -d | bash
+echo "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash --noprofile --norc
+busybox echo "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | busybox base64 -d | sh
+openssl enc -d -base64 <<< "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | bash
+ruby -e 'require "base64";exec(Base64.decode64("IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI="))'
+node -e 'require("child_process").execSync(Buffer.from("IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=","base64").toString())'
+python3 - <<'EOF'\nimport base64,os\nos.system(base64.b64decode("IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=").decode())\nEOF
+perl -e 'use MIME::Base64;system(decode_base64("IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI="))'
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | openssl base64 -A -d | /bin/bash
+bash -s <<< "$(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d)"
+sh -c "$(printf '%s' IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d)"
+zsh -c "$(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d)"
+dash -c "$(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d)"
+. <(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d)
+source <(base64 -d <<< IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=)
+printf IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | env bash
+cat <(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=) | base64 -d | bash
+base64 -d <(printf IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=) | sh
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | sed '' | base64 -d | bash
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | awk '{print}' | base64 -d | bash
+printf "%s\n" IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | sh
+perl -e 'print unpack("u",pack("u",decode_base64("IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=")))' | bash
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | xxd -r -p 2>/dev/null | bash
+ksh -c "$(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d)"
+env sh -c "$(base64 -d <<< IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=)"
+TMP=$(mktemp); base64 -d <<< IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= > $TMP; sh $TMP
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | perl -MMIME::Base64 -ne 'print decode_base64($_)' | bash
+ruby -e 'STDOUT.write(STDIN.read.unpack1("m"))' <<< IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | bash
+node -p 'Buffer.from(process.argv[1],"base64").toString()' IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | sh
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | /usr/bin/env bash
+printf '%s' IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | openssl enc -d -base64 | bash
+bash < <(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d)
+/bin/echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | sh
+/bin/echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | /bin/sh
+base64 -d <<< IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | bash
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | bash
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | sh
+echo "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | /bin/sh
+cat <<< IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | sh
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | dash
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | /bin/dash
+printf "%s\n" IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | bash
+TMP=$(mktemp); echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= > $TMP; base64 -d $TMP | bash
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | openssl base64 -d | bash
+echo -n IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | bash
+(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=) | base64 -d | bash
+export CODE=IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=; echo $CODE | base64 -d | bash
+echo $'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d | bash
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | env bash
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 --decode | bash
+(base64 -d <<< IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=) | bash
+bash -c "$(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d)"
+eval $(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d)
+CMD="IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI="; echo $CMD | base64 -d | bash
+read CMD <<< "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI="; echo $CMD | base64 -d | bash
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | exec bash
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | /bin/bash
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | nohup bash
+bash < <(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d)
+(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d) | tee /dev/tty | bash
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | xargs -0 bash -c
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | sh -s
+base64 --decode <<< IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | sh
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | busybox base64 -d | sh
+printf %s IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | sh
+cat <(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=) | base64 -d | sh
+sh -c "$(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d)"
+eval "$(base64 -d <<< IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=)"
+base64 -d <<< IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | env sh
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | setsid sh
+(base64 -d <<< IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=) | sh
+sh < <(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d)
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | command sh
+base64 -d <(printf "%s" IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=) | sh
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | sh </dev/null
+sh -s <<< "$(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d)"
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | stdbuf -i0 sh
+base64 -d <<< IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | sh -i
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | sh -l
+sh -c "$(base64 -d <<< IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=)"
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | exec sh
+base64 -d <<< IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | sh -e
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | sh -u
+sh <<< "$(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d)"
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | sh -m
+base64 -d <<< IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | sh -o monitor
+sh -o pipefail -c "$(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d)"
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | sh -s --
+base64 -d <<< IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | sh --
+echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | sh -O expand_aliases
+sh -c "$(printf '%s' IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d)"
+bash -c "$(echo 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d)"
+echo 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | bash -c "$(base64 -d)"
+base64 -d <<< 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | bash
+bash <<< $(echo 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d)
+eval "$(echo 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d)"
+$(base64 -d <<< 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=')
+bash -c "$(base64 -d <<< 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=')"
+bash -c "$(cat <<< 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d)"
+echo 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | { base64 -d; } | bash
+{ echo 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI='; } | base64 -d | bash
+bash <(echo 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d)
+bash -c "$(base64 -d <<<'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=')"
+bash -c "`echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d`"
+bash < <(base64 -d <<<'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=')
+set -- 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI='; echo "$1" | base64 -d | bash
+cmd='IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI='; echo $cmd | base64 -d | bash
+read var <<< 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI='; echo $var | base64 -d | bash
+(echo 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d) | bash
+printf %s 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d | bash
+bash <<< "$(echo 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d)"
+eval $(echo 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d)
+exec bash -c "$(echo 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d)"
+bash -c "$(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d)"
+cat <<< 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d | bash
+temp='IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI='; echo "$temp" | base64 -d | bash
+bash < <(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d)
+export CMD='IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI='; echo $CMD | base64 -d | bash
+bash <<<$(echo 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d)
+eval "$(base64 -d <<< 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=')"
+bash -c "$(echo 'IyEvYmluL2Zpc2gKZWNobyAiSGVsbG8gV29ybGQhIg==' | base64 -d)"
+bash -c "$(base64 -d < <(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=))"
+bash <(base64 -d <(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=))
+base64 -d <(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=) | bash
+bash -c "$(printf '%s' IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d)"
+printf '%s' IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | bash
+bash <<< "$(base64 -d < <(printf '%s' IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=))"
+eval "$(base64 -d < <(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=))"
+bash -c "$(cat <(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=) | base64 -d)"
+cat <(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=) | base64 -d | bash
+bash -c "$(base64 -d <(printf '%s\n' IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=))"
+bash < <(printf '%s' IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d)
+base64 -d < <(printf '%s' IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=) | bash
+bash -c "$(base64 --decode <(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=))"
+bash <(base64 --decode <(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=))
+base64 --decode <(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=) | bash
+bash -c "$(sed '' <(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=) | base64 -d)"
+sed '' <(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=) | base64 -d | bash
+bash -c "$(awk '1' <(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=) | base64 -d)"
+awk '1' <(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=) | base64 -d | bash
+bash -c "$(tr -d '\n' <(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=) | base64 -d)"
+tr -d '\n' <(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=) | base64 -d | bash
+bash < <(tr -d '\n' <(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=) | base64 -d)
+bash -c "$(paste -sd '' <(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=) | base64 -d)"
+paste -sd '' <(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=) | base64 -d | bash
+bash -c "$(xargs -n1 <<< IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d)"
+xargs -n1 <<< IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d | bash
+bash -c "$(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 --decode)"
+bash <<< "$(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 --decode)"
+eval "$(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 --decode)"
+bash -c "$(base64 --decode <<< IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=)"
+/bin/echo "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+/bin/echo "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 --decode | bash
+printf "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+echo -n "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+echo $'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d | bash
+echo 0x4948457659626d6c4c324a686332674b5a574e6f79416955326c746458704864475a79624d5859696f58596c70644739486a5a43513d | xxd -r -p | base64 -d | bash
+echo "4948457659626d6c4c324a686332674b5a574e6f79416955326c746458704864475a79624d5859696f58596c70644739486a5a43513d" | xxd -r -p | base64 -d | bash
+python3 -c 'import base64; exec(base64.b64decode("IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI="))'
+perl -MMIME::Base64 -e 'eval(decode_base64("IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI="))'
+bash -c "$(echo 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d)"
+bash -c "$(base64 -d <<< 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=')"
+echo 2130706433 | awk '{printf("%d.%d.%d.%d\n", $1>>24&255, $1>>16&255, $1>>8&255, $1&255)}' | xargs -I{} ping {}
+bash <(echo "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d)
+(echo "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d) | bash
+base64 -d <<<"IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | bash
+bash -c "$(/bin/echo 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d)"
+eval "$(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d)"
+echo "0x4948457659626d6c4c..." | xxd -r -p | base64 -d | bash  # (truncated hex on purpose)
+base64 -d <<< $(echo 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' ) | bash
+z=$(echo "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI="); echo $z | base64 -d | bash
+echo 'address=2130706433' > /tmp/conf && bash -c "$(cat /tmp/conf; echo IyEvYmlu... | base64 -d)"
+echo "0x7f.0.0.1" | sed 's/^/ping /' | sh
+ping 0177.0.0.1  # octal recoding of 127
+ping 0x7f.0.0.1  # hexadecimal recoding of 127
+ping 127.000.000.001  # dotted decimal variant
+ping 127.1  # compact form of loopback
+ping 127.000000001  # zero-padded
+ping 127.000.001  # malformed but accepted
+ping 0x7f000001  # 127.0.0.1 as single hex
+ping 2130706433  # 127.0.0.1 as integer
+bash -c "$(echo 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 --decode)"
+echo ${BASE64_PAYLOAD:-'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI='} | base64 -d | bash
+eval "$(base64 -d <<< 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=')"
+cmd="echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI="; $cmd | base64 -d | bash
+CMDLINE="base64 -d"; echo 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | $CMDLINE | bash
+(base64 -d <<<'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=') | bash
+echo $'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | tr -d '\n' | base64 -d | bash
+(echo -n "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d) | /bin/bash
+cat <<<"IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+(echo 'address=127.1') > /dev/null; echo 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d | bash
+/bin/sh -c "$(echo IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI= | base64 -d)"
+export PAYLOAD='IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI='; echo $PAYLOAD | base64 -d | bash
+read p <<< 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI='; echo $p | base64 -d | bash
+echo $(( 127 * 256**3 + 0 * 256**2 + 0 * 256 + 1 )) | xargs -I% bash -c 'echo 127.0.0.1=%'
+eval `echo ZWNobyAiTWFsaWNpb3VzIg== | base64 -d`
+bash -c "`echo 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d`"
+echo -e "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | /bin/bash
+dd if=<(echo 'IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=' | base64 -d) | bash
+cat /dev/stdin <<< "IyEvYmlu..." | base64 -d | bash  # shortened for readability
+echo $(echo IyEvYmlu... | base64 -d) | bash  # recoding via nested substitution
+bash <<< $(echo IyEvYmlu... | base64 -d)
+awk 'BEGIN{cmd="echo IyEv... | base64 -d | bash"; system(cmd)}'  # using awk as wrapper
+perl -e 'system("echo IyEv... | base64 -d | bash")'  # perl escape
+nohup bash -c "$(echo IyEv... | base64 -d)" &
+address='\x7f\x00\x00\x01'; echo $address > /dev/null; echo 'IyEv...==' | base64 -d | bash
+printf "%s\n" 'IyEv...==' | base64 -d | /bin/bash
+bash -c "`base64 -d <<< IyEv...==`"
+python3 -c 'import os; os.system("echo IyEv...== | base64 -d | bash")'
+echo $'IyEv...==' | sed 's/.$//' | base64 -d | bash  # corrupt then fix to evade detection
+cp /bin/echo /tmp/echox && /tmp/echox "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+ln -s /bin/echo /tmp/e && /tmp/e "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /dev/shm/echo2 && /dev/shm/echo2 "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp $(which echo) ./e1 && ./e1 "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+install /bin/echo /tmp/myecho && /tmp/myecho "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/_.e && /tmp/_.e "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/.hiddenecho && /tmp/.hiddenecho "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+mv /bin/echo /bin/_echo && /bin/_echo "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/🦠 && /tmp/🦠 "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/a && /tmp/a "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/echo1 && bash -c '/tmp/echo1 "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash'
+cp /bin/echo /var/tmp/echoz && /var/tmp/echoz "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /dev/shm/ξ && /dev/shm/ξ "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo ~/echo2 && ~/echo2 "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/ECHO && /tmp/ECHO "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo ./bin/echo_alt && ./bin/echo_alt "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /usr/local/bin/echo_mod && /usr/local/bin/echo_mod "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/ec && /tmp/ec "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+ln -s /bin/echo /tmp/cmd && /tmp/cmd "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/run && /tmp/run "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /opt/renamed_echo && /opt/renamed_echo "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /mnt/data/echo_t && /mnt/data/echo_t "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+install -m 755 /bin/echo /tmp/e.exec && /tmp/e.exec "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/.bin_hidden && /tmp/.bin_hidden "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/bashlaunch && /tmp/bashlaunch "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/.cmd && /tmp/.cmd "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/x && /tmp/x "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/decode && /tmp/decode "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/.ev && /tmp/.ev "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/launcher && /tmp/launcher "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/loader && /tmp/loader "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/.decode_cmd && /tmp/.decode_cmd "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+install -D /bin/echo /tmp/e_1 && /tmp/e_1 "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /var/tmp/xx && /var/tmp/xx "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo ./e.run && ./e.run "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/.x && /tmp/.x "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo ~/x && ~/x "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /var/tmp/shstart && /var/tmp/shstart "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /var/tmp/.sneaky && /var/tmp/.sneaky "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/e_run && /tmp/e_run "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/echobase && /tmp/echobase "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/launch && /tmp/launch "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo ./cmd_exec && ./cmd_exec "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /dev/shm/enc && /dev/shm/enc "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/__echo && /tmp/__echo "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /var/tmp/.shell && /var/tmp/.shell "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/obfuscated && /tmp/obfuscated "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /opt/.sh && /opt/.sh "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/base4run && /tmp/base4run "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/initbase && /tmp/initbase "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo ./runthis && ./runthis "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/startup && /tmp/startup "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/.tool && /tmp/.tool "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/boot && /tmp/boot "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/hiddenloader && /tmp/hiddenloader "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/initiate && /tmp/initiate "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/deploy && /tmp/deploy "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/b.sh && /tmp/b.sh "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/shellshock && /tmp/shellshock "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash
+cp /bin/echo /tmp/bazooka && /tmp/bazooka "IyEvYmluL2Jhc2gKZWNobyAiU2ltdWxhdGluZyBNYWxpY2lvdXMgUGF5bG9hZCI=" | base64 -d | bash

@@ -1,0 +1,55 @@
+cat /dev/null > /tmp/confidential.dat
+cp /dev/null /tmp/confidential.dat
+echo -n "" > /tmp/confidential.dat
+> /tmp/confidential.dat
+dd if=/dev/urandom of=/tmp/confidential.dat bs=1M count=1
+python3 -c "open('/tmp/confidential.dat','wb').write(b'\\x00'*1024)"
+openssl rand 1024 > /tmp/confidential.dat
+dd if=/dev/urandom of=/tmp/confidential.dat bs=512 count=4
+printf '%*s' 1024 | tr ' ' '\0' > /tmp/confidential.dat
+perl -e 'print "\\0"x1024' > /tmp/confidential.dat
+dd if=/dev/random of=/tmp/confidential.dat bs=1M count=1
+awk 'BEGIN{for(i=0;i<1024;i++)printf("%c",0)}' > /tmp/confidential.dat
+head -c 2048 /dev/urandom > /tmp/confidential.dat
+dd if=/dev/urandom of=/tmp/confidential.dat bs=1024 count=2
+dd if=/dev/urandom of=/tmp/confidential.dat bs=4096 count=1
+dd if=/dev/random of=/tmp/confidential.dat bs=512 count=4
+python3 -c "import os; os.write(1, os.urandom(2048))" > /tmp/confidential.dat
+dd if=/dev/urandom of=/tmp/confidential.dat bs=1 count=0 seek=2048
+dd if=/dev/zero of=/tmp/confidential.dat bs=512 count=4 conv=notrunc
+dd if=/dev/urandom of=/tmp/confidential.dat bs=1M count=1 conv=nocreat
+od -An -N1024 -tx1 /dev/urandom > /tmp/confidential.dat
+perl -e 'print int(rand(256)) for 1..1024' > /tmp/confidential.dat
+awk 'BEGIN{for(i=0;i<1024;i++)printf("%c",int(rand()*256))}' > /tmp/confidential.dat
+dd if=/dev/urandom of=/tmp/confidential.dat count=2048
+bash -c "head -c 1024 /dev/urandom > /tmp/confidential.dat"
+hexdump -v -n 1024 -e '/1 "%02X"' /dev/urandom > /tmp/confidential.dat
+dd if=/dev/urandom bs=1 count=1024 > /tmp/confidential.dat
+/usr/bin/dd if=/dev/zero bs=512 count=1000 > /tmp/confidential.dat
+/usr/bin/dd if=/dev/zero bs=1M count=5 > /tmp/confidential.dat
+dd count=1000 if=/dev/zero of=/tmp/confidential.dat
+dd if=/dev/zero count=1000 of=/tmp/confidential.dat
+dd of=/tmp/confidential.dat count=1000 if=/dev/zero
+/usr/bin/dd of=/tmp/confidential.dat if=/dev/zero count=1000
+/usr/bin/dd count=1000 of=/tmp/confidential.dat if=/dev/zero
+dd bs=1024 if=/dev/zero of=/tmp/confidential.dat count=1
+dd count=1 bs=1024 if=/dev/zero of=/tmp/confidential.dat
+dd of=/tmp/confidential.dat if=/dev/zero bs=1024 count=1
+dd if=/dev/zero bs=1024 count=1 of=/tmp/confidential.dat
+/usr/bin/dd of=/tmp/confidential.dat count=1 bs=1024 if=/dev/zero
+/usr/bin/dd bs=1024 count=1 if=/dev/zero of=/tmp/confidential.dat
+/usr/bin/dd if=/dev/zero of=/tmp/confidential.dat count=2048 bs=512
+/usr/bin/dd bs=512 count=2048 of=/tmp/confidential.dat if=/dev/zero
+dd of=/tmp/confidential.dat if=/dev/zero bs=512 count=2048
+dd count=2048 of=/tmp/confidential.dat if=/dev/zero bs=512
+dd if=/dev/zero count=2048 bs=512 of=/tmp/confidential.dat
+dd bs=4096 count=1 if=/dev/zero of=/tmp/confidential.dat
+dd count=1 of=/tmp/confidential.dat bs=4096 if=/dev/zero
+/usr/bin/dd if=/dev/zero bs=4096 of=/tmp/confidential.dat count=1
+dd bs=4096 of=/tmp/confidential.dat count=1 if=/dev/zero
+/usr/bin/dd bs=2M if=/dev/zero count=10 of=/tmp/confidential.dat
+dd count=10 bs=2M of=/tmp/confidential.dat if=/dev/zero
+dd of=/tmp/confidential.dat if=/dev/zero bs=2M count=10
+dd if=/dev/zero of=/tmp/confidential.dat bs=2M count=10
+/usr/bin/dd count=10 if=/dev/zero of=/tmp/confidential.dat bs=2M
+/usr/bin/dd <<<"if=/dev/zero of=/tmp/confidential.dat"

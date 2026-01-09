@@ -1,0 +1,186 @@
+sudo sh -c '/sbin/modprobe "msr" allow_writes=on'
+sudo sh -c '/sbin/modprobe ms"r" allow_writes=on'
+sudo sh -c '/sbin/modprobe m"sr" allow_writes=on'
+sudo sh -c '/sbin/modprobe msr allow_"writes"=on'
+sudo sh -c '/sbin/modprobe msr "allow"_writes=on'
+sudo sh -c '/sbin/modprobe msr allow_writes="on"'
+sudo sh -c '/sbin/modprobe msr allo"w"_writes=on'
+sudo sh -c '/sbin/modprobe msr allow_wri"t"es=on'
+sudo sh -c '/sbin/modprobe msr allo--w_writes=on'
+sudo sh -c '/sbin/modprobe "m""s""r" allow_writes=on'
+sudo sh -c '/sbin/modprobe $(echo msr) allow_writes=on'
+sudo sh -c "/sbin/modprobe 'msr' allow_writes=on"
+sudo sh -c '/sbin/modprobe msr al""low_writes=on'
+sudo sh -c '/sbin/modprobe msr allow_writes=o""n'
+sudo sh -c '/sbin/modprobe m\sr allow_writes=on'
+sudo sh -c '/sbin/modprobe msr allow=write:s on'
+sudo sh -c '/sbin/modprobe msr allow_writes==on'
+sudo sh -c '/sbin/modprobe msr allow_writes=on;#'
+sudo sh -c '/sbin/modprobe msr allow_writes=on || true'
+sudo sh -c '/sbin/modprobe msr allow_writes=on # legit'
+sudo sh -c '/sbin/modprobe msr allow_writes=on; sleep 0'
+sudo sh -c '/sbin/modprobe --verbose msr allow_writes=on'
+sudo sh -c '/sbin/modprobe "ms""r" allow_writes=on'
+sudo sh -c '/sbin/modprobe m""s""r allow=write:s=on'
+sudo sh -c '/sbin/modprobe "msr" allo""w_writes=on'
+sudo sh -c '/sbin/modprobe --help msr allow_writes=on'
+sudo sh -c '/sbin/modprobe "msr" allow_writes=on #comment'
+sudo sh -c '/sbin/modprobe msr allow_writes=on; echo done'
+sudo sh -c '/sbin/modprobe msr; allow_writes=on'
+sudo sh -c '/sbin/modprobe msr && echo allow_writes=on'
+sudo sh -c '/sbin/modprobe m''sr allow_writes=on'
+sudo sh -c '/sbin/modprobe msr allo\w_writes=on'
+sudo sh -c '/sbin/modprobe m\sr allow_writes=\on'
+sudo sh -c '/sbin/modprobe msr al""low_writes=on'
+sudo sh -c '/sbin/modprobe msr allow="writes=on"'
+sudo sh -c '/sbin/modprobe msr all_ow_writes=on'
+sudo sh -c '/sbin/modprobe msr allow_writes==on'
+sudo sh -c '/sbin/modprobe msr allow_writes:="on"'
+sudo sh -c '/sbin/modprobe msr allo\w_writes=on'
+sudo sh -c '/sbin/modprobe "m""sr" allow_writes=on'
+sudo sh -c '/sbin/modprobe msr allow_write""s=on'
+sudo sh -c '/sbin/modprobe msr allow_write=true'
+sudo sh -c '/sbin/modprobe msr allow_writes yes'
+sudo sh -c '/sbin/modprobe msr enable_write=1'
+sudo sh -c '/sbin/modprobe msr enable-msr-writes'
+sudo sh -c '/sbin/modprobe msr write-enable=1'
+sudo sh -c '/sbin/modprobe msr set_write_permission=on'
+sudo sh -c '/sbin/modprobe msr allow_writes=1'
+sudo sh -c '/sbin/modprobe msr --config allow_writes=on'
+sudo sh -c "/sbin/modprobe msr allow-writes=on"
+sudo sh -c "/sbin/modprobe msr allow.writes=on"
+sudo sh -c "/sbin/modprobe msr allow_writes yes"
+sudo sh -c "/sbin/modprobe msr allow_writes 1"
+sudo sh -c "/sbin/modprobe msr enable_write_mode=on"
+sudo sh -c "/sbin/modprobe msr write_control=allow"
+sudo sh -c "/sbin/modprobe msr write_perm=enabled"
+sudo sh -c "/sbin/modprobe msr +allow_writes=on"
+sudo sh -c "/sbin/modprobe msr allow_writes==on"
+sudo sh -c "/sbin/modprobe msr allow_writes:on"
+sudo sh -c "/sbin/modprobe msr allowWrites=on"
+sudo sh -c "/sbin/modprobe msr allow_writes = on"
+sudo sh -c "/sbin/modprobe msr allow_writes true"
+sudo sh -c "/sbin/modprobe msr allow_writes enabled"
+sudo sh -c "/sbin/modprobe msr allow_writes=enabled"
+sudo sh -c "/sbin/modprobe msr +set allow_writes=on"
+sudo /sbin/modprobe msr allow_writes=on
+sh -c "/sbin/modprobe msr allow_writes=on"
+sh -c '/sbin/modprobe msr allow_writes=on'
+/sbin/modprobe msr allow_writes=on
+modprobe msr allow_writes=on
+bash -c '/sbin/modprobe msr allow_writes=on'
+bash -c "/sbin/modprobe msr allow_writes=on"
+sudo bash -c '/sbin/modprobe msr allow_writes=on'
+sudo bash -c "/sbin/modprobe msr allow_writes=on"
+sudo modprobe msr allow_writes=on
+/bin/sh -c '/sbin/modprobe msr allow_writes=on'
+/bin/bash -c '/sbin/modprobe msr allow_writes=on'
+setsid /sbin/modprobe msr allow_writes=on
+nohup /sbin/modprobe msr allow_writes=on &
+timeout 1 /sbin/modprobe msr allow_writes=on
+nice -n -10 /sbin/modprobe msr allow_writes=on
+sudo env "A=1" /sbin/modprobe msr allow_writes=on
+sudo -- /sbin/modprobe msr allow_writes=on
+exec /sbin/modprobe msr allow_writes=on
+( /sbin/modprobe msr allow_writes=on )
+command /sbin/modprobe msr allow_writes=on
+eval "/sbin/modprobe msr allow_writes=on"
+sudo -n /sbin/modprobe msr allow_writes=on
+sudo su -c '/sbin/modprobe msr allow_writes=on'
+sudo /bin/sh -c '/sbin/modprobe msr allow_writes=on'
+sudo /usr/bin/env /sbin/modprobe msr allow_writes=on
+sudo --preserve-env /sbin/modprobe msr allow_writes=on
+sudo env --ignore-environment /sbin/modprobe msr allow_writes=on
+sudo $(which modprobe) msr allow_writes=on
+sudo `which modprobe` msr allow_writes=on
+sudo -E /sbin/modprobe msr allow_writes=on
+sudo -i /sbin/modprobe msr allow_writes=on
+/usr/bin/env sudo /sbin/modprobe msr allow_writes=on
+sudo $(echo /sbin/modprobe) msr allow_writes=on
+sudo $(printf "/%s/%s" "sbin" "modprobe") msr allow_writes=on
+sudo $(basename /sbin/modprobe) msr allow_writes=on
+sudo /sbin/modprobe $(echo msr) allow_writes=on
+sudo /sbin/modprobe msr $(echo allow_writes=on)
+sudo /sbin/modprobe "msr" "allow_writes=on"
+sudo "/sbin/modprobe" msr allow_writes=on
+sudo /sbin/modprobe "msr" allow_writes=on
+sudo /sbin/modprobe msr "allow_writes=on"
+sudo "$(echo /sbin/modprobe)" msr allow_writes=on
+sudo $(cat <<< /sbin/modprobe) msr allow_writes=on
+sudo `cat <<< /sbin/modprobe` msr allow_writes=on
+sudo $'/sbin/modprobe' msr allow_writes=on
+sudo /sbin/modprobe msr$IFS$allow_writes=on
+sudo /sbin/modprobe msr `echo allow_writes=on`
+sudo /sbin/modprobe `echo msr` `echo allow_writes=on`
+sudo `echo /sbin/modprobe` msr allow_writes=on
+sudo $(echo -n /sbin/modprobe) msr allow_writes=on
+sudo true && /sbin/modprobe msr allow_writes=on
+sudo ifconfig >/dev/null; /sbin/modprobe msr allow_writes=on
+sudo sh -c 'allow_writes=on /sbin/modprobe msr'
+sudo sh -c 'writes=on /sbin/modprobe msr enable'
+sudo sh -c 'modprobe msr /sbin/allow_writes=on'
+sudo sh -c 'modprobe msr /sbin allow_writes=on'
+sudo sh -c 'modprobe msr allow_writes=on /sbin'
+sudo sh -c 'modprobe msr /sbin allow_writes=on'
+sudo sh -c 'echo allow_writes=on && /sbin/modprobe msr'
+sudo sh -c '/sbin/modprobe msr && echo allow_writes=on'
+sudo sh -c '/sbin/modprobe msr; echo allow_writes=on'
+sudo sh -c 'modprobe /sbin msr; allow_writes=on'
+sudo sh -c 'allow_writes=on; /sbin/modprobe msr'
+sudo sh -c 'modprobe msr allow_writes=on /sbin'
+sudo sh -c '/sbin/modprobe msr && : # allow_writes=on'
+sudo sh -c ': | /sbin/modprobe msr allow_writes=on'
+sudo sh -c 'true && /sbin/modprobe msr allow_writes=on'
+sudo sh -c 'exec /sbin/modprobe msr allow_writes=on'
+sudo sh -c 'ALLOW=/sbin/modprobe; $ALLOW msr allow_writes=on'
+sudo sh -c 'MOD=/sbin/modprobe; $MOD msr allow_writes=on'
+sudo sh -c 'eval "/sbin/modprobe msr allow_writes=on"'
+sudo sh -c 'bash -c "/sbin/modprobe msr allow_writes=on"'
+sudo sh -c '/sbin/modprobe $(echo bXNy | base64 -d) allow_writes=on'
+sudo sh -c '/sbin/modprobe $(echo 6d 73 72 | xxd -r -p) allow_writes=on'
+sudo sh -c "/sbin/modprobe $(tr -d '\n' <<< 'msr') allow_writes=on"
+sudo sh -c '/sbin/modprobe msr $(echo YWxsb3dfd3JpdGVzPW9u | base64 -d)'
+sudo sh -c '/sbin/modprobe msr $(echo \x61\x6c\x6c\x6f\x77\x5f\x77\x72\x69\x74\x65\x73\x3d\x6f\x6e)'
+sudo sh -c "/sbin/modprobe msr $(cat <<< 'allow_writes=on')"
+sudo sh -c "/sbin/modprobe msr $(tr -d '\n' <<< 'allow_writes=on')"
+sudo sh -c "/sbin/modprobe msr $((97))$((108))$((108))$((111))$((119))_writes=on"
+sudo sh -c "/sbin/modprobe msr $(echo allow_writes=on | rev | rev)"
+sudo sh -c '/sbin/modprobe "ms""r" allow_writes=on'
+sudo sh -c "/sbin/modprobe m$(echo s)r allow_writes=on"
+sudo sh -c "/sbin/modprobe msr allo$(echo w_)writes=on"
+sudo sh -c "/sbin/modprobe msr all""ow""_writes=on"
+sudo sh -c "/sbin/modprobe msr $(echo 'allow'_'writes=on')"
+sudo sh -c '/sbin/modprobe msr al\l\ow\_w\ri\te\s=on'
+sudo sh -c '/sbin/modprobe msr al\x6cow\x5fwr\x69tes=on'
+sudo sh -c '/sbin/modprobe msr all'$'\x6f\x77''_writes=on'
+sudo sh -c '/sbin/modprobe msr $(printf allow_writes)=$(echo b24= | base64 -d)'
+sudo sh -c '/sbin/modprobe msr allow_writes=$((0x6f))$((0x6e))'
+sudo sh -c '/sbin/modprobe msr $(echo YWxsb3dfd3JpdGVzPW9uCg== | base64 -d)'
+sudo sh -c '/sbin/modprobe msr allow_writes=0x1'
+sudo sh -c '/sbin/modprobe msr allow_writes=1'
+sudo sh -c '/sbin/modprobe msr allow_writes=true'
+sudo sh -c '/sbin/modprobe msr allow_writes=0b1'
+sudo sh -c '/sbin/modprobe msr allow_writes=on'
+sudo sh -c '/sbin/modprobe msr allow_writes=0x00000001'
+sudo sh -c '/sbin/modprobe msr allow_writes=0o1'
+sudo sh -c "/sbin/modprobe msr allow_writes='on'"
+sudo sh -c "/sbin/modprobe msr 'allow_writes=on'"
+sudo sh -c "/sbin/modprobe msr allow_writes=$((1))"
+sudo sh -c '/sbin/modprobe msr allow_writes=0x1UL'
+sudo sh -c '/sbin/modprobe msr allow_writes=0X01'
+sudo sh -c '/sbin/modprobe msr allow_writes=0001'
+sudo sh -c '/sbin/modprobe msr allow_writes=\x6f\x6e'
+sudo sh -c '/sbin/modprobe msr allow_writes=\157\156'
+sudo sh -c '/sbin/modprobe msr allow_writes=$(echo on)'
+sudo sh -c '/sbin/modprobe msr allow_writes=$(printf "on")'
+sudo sh -c '/sbin/modprobe msr allow_writes=$(echo 1)'
+sudo sh -c '/sbin/modprobe msr allow_writes=`echo on`'
+sudo sh -c '/sbin/modprobe msr allow_writes=`printf "on"`'
+sudo sh -c "$(echo /sbin/modprobe) msr allow_writes=on"
+sudo sh -c "$(echo '/sbin/modprobe msr allow_writes=on')"
+sudo sh -c 'modprobe msr allow_writes=on'
+sudo bash -c '/sbin/modprobe msr allow_writes=on'
+sudo su -c '/sbin/modprobe msr allow_writes=on'
+sudo sh -c "$(printf '/sbin/modprobe msr allow_writes=on')"
+sudo sh -c "$(echo L3NiaW4vbW9kcHJvYmUgbXNyIGFsbG93X3dyaXRlcz1vbg== | base64 -d)"
+echo '/sbin/modprobe msr allow_writes=on' | sudo sh
