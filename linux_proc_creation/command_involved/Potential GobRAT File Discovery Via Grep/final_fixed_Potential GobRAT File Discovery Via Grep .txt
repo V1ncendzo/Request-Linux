@@ -1,0 +1,360 @@
+/usr/bin/grep "fr""pc" /var/log/syslog
+/usr/bin/grep 'fr'pc /var/log/syslog
+/usr/bin/grep fr'pc' /var/log/syslog
+/usr/bin/grep f'rp'c /var/log/syslog
+/usr/bin/grep frp'c' /var/log/syslog
+/usr/bin/grep f"r""p""c" /var/log/syslog
+/usr/bin/grep fr${EMPTY}pc /var/log/syslog
+/usr/bin/grep f${UNDEF}rpc /var/log/syslog
+/usr/bin/grep fr${UNDEFINED}pc /var/log/syslog
+/usr/bin/grep fr${x}pc /var/log/syslog
+/usr/bin/grep fr$p$c /var/log/syslog
+/usr/bin/grep f\rrpc /var/log/syslog
+/usr/bin/grep f\trpc /var/log/syslog
+/usr/bin/grep f\\rpc /var/log/syslog
+/usr/bin/grep fr\pc /var/log/syslog
+/usr/bin/grep f\\\rpc /var/log/syslog
+/usr/bin/grep "f""r""p""c" /var/log/syslog
+/usr/bin/grep f"rp"c /var/log/syslog
+/usr/bin/grep fr"p"c /var/log/syslog
+/usr/bin/grep f""r""pc /var/log/syslog
+/usr/bin/grep frpc"" /var/log/syslog
+/usr/bin/grep "frpc" </var/log/syslog
+/usr/bin/grep 'frpc' </var/log/syslog
+/usr/bin/grep frpc </var/log/syslog
+/usr/bin/grep "f${null}rpc" /var/log/syslog
+/usr/bin/grep "f""r${UNDEF}p""c" /var/log/syslog
+/usr/bin/grep f"${EMPTY}"r"${EMPTY}"p"${EMPTY}"c /var/log/syslog
+/usr/bin/grep "f${0}r${0}p${0}c" /var/log/syslog
+/usr/bin/grep "frpc"${EMPTY} /var/log/syslog
+/usr/bin/grep "f""r""p""c" </var/log/syslog
+/usr/bin/grep "f""r"p"c" /var/log/syslog
+/usr/bin/grep fr${:+" "}pc /var/log/syslog
+/usr/bin/grep f"$((1-1))"rpc /var/log/syslog
+/usr/bin/grep f$((0+0))rpc /var/log/syslog
+/usr/bin/grep f$(echo -n "")rpc /var/log/syslog
+/usr/bin/grep fr$(echo -n "")pc /var/log/syslog
+/usr/bin/grep f$(echo r)p$(echo c) /var/log/syslog
+/usr/bin/grep $'frpc' /var/log/syslog
+/usr/bin/grep fr$''pc /var/log/syslog
+/usr/bin/grep 'f'"r"'p'"c" /var/log/syslog
+/usr/bin/grep f"r"'p'c /var/log/syslog
+/usr/bin/grep f$EMPTYrpc /var/log/syslog
+/usr/bin/grep f${IFS}rpc /var/log/syslog
+/usr/bin/grep frp\c /var/log/syslog
+/usr/bin/grep f\rp\c /var/log/syslog
+/usr/bin/grep fr${null:-}pc /var/log/syslog
+/usr/bin/grep fr${0}pc /var/log/syslog
+/usr/bin/grep fr$((5-5))pc /var/log/syslog
+/usr/bin/grep fr$((2*0))pc /var/log/syslog
+/usr/bin/grep f$(printf '')rpc /var/log/syslog
+/usr/bin/grep $(echo frpc) /var/log/syslog
+/usr/bin/grep "fr""pc"${EMPTY} /var/log/syslog
+/usr/bin/grep "$(< <(echo frpc))" /var/log/syslog
+/usr/bin/grep "frpc"${NULL+x} /var/log/syslog
+/usr/bin/grep fr"$EMPTY"pc /var/log/syslog
+/usr/bin/grep fr"$null"pc /var/log/syslog
+/usr/bin/grep f${__:-}r${__:-}p${__:-}c /var/log/syslog
+/usr/bin/grep f'${EMPTY}'rpc /var/log/syslog
+/usr/bin/grep fr\p\c /var/log/syslog
+/usr/bin/grep fr\\\p\\\c /var/log/syslog
+awk '/frpc/' /var/log/syslog
+sed -n '/frpc/p' /var/log/syslog
+perl -ne 'print if /frpc/' /var/log/syslog
+egrep "frpc" /var/log/syslog
+grep "fr?c" /var/log/syslog
+grep "f*pc" /var/log/syslog
+grep "fr.p" /var/log/syslog
+grep "[f]rpc" /var/log/syslog
+grep "f[r]pc" /var/log/syslog
+grep "frp[c]" /var/log/syslog
+grep "$(echo ZnJwYw== | base64 -d)" /var/log/syslog
+grep $(echo ZnJwYw== | base64 -d) /var/log/syslog
+grep $(printf "frpc") /var/log/syslog
+grep $(echo frpc) /var/log/syslog
+grep $(cat <<EOF frpc EOF ) /var/log/syslog
+grep "$(tr -d '\n' <<< 'frpc')" /var/log/syslog
+grep "$(echo -n f; echo -n rpc)" /var/log/syslog
+grep "fr""pc" /var/log/syslog
+grep 'fr'pc /var/log/syslog
+grep frpc < /var/log/syslog
+grep frpc <<< "$(cat /var/log/syslog)"
+/bin/grep "frpc" /var/log/syslog
+/usr/local/bin/grep "frpc" /var/log/syslog
+command grep "frpc" /var/log/syslog
+\grep "frpc" /var/log/syslog
+env grep "frpc" /var/log/syslog
+$(which grep) "frpc" /var/log/syslog
+$(echo grep) "frpc" /var/log/syslog
+bash -c 'grep "frpc" /var/log/syslog'
+nice grep "frpc" /var/log/syslog
+awk '$0 ~ /frpc/' /var/log/syslog
+awk '{if ($0 ~ /frpc/) print $0}' /var/log/syslog
+sed -n '/fr.p.c/p' /var/log/syslog
+sed -n '/fr[[:alpha:]]pc/p' /var/log/syslog
+perl -ne 'print if /fr.p.c/' /var/log/syslog
+perl -ne 'print if /f.r.p.c/' /var/log/syslog
+grep "frpc" /var/log/syslog | cat
+cat /var/log/syslog | grep "frpc"
+zgrep "frpc" /var/log/syslog.gz
+`rg "frpc" /var/log/syslog` *(ripgrep if installed)*
+grep $(echo -e 'frpc') /var/log/syslog
+grep $'frpc' /var/log/syslog
+`grep $frpc /var/log/syslog` *(with `frpc=frpc` set beforehand)*
+f=frpc; grep "$f" /var/log/syslog
+g=grep; $g frpc /var/log/syslog
+eval "grep frpc /var/log/syslog"
+sh -c 'grep frpc /var/log/syslog'
+cat /var/log/syslog | awk '/frpc/'
+cat /var/log/syslog | sed -n '/frpc/p'
+perl -ne 'print if /fr..c/' /var/log/syslog
+grep '[fF][rR][pP][cC]' /var/log/syslog
+grep "[f]r[p]c" /var/log/syslog
+grep "fr[c]" /var/log/syslog
+grep frpc /var//log/syslog
+grep frpc /var/log/./syslog
+grep frpc /var/log/syslog#
+grep frpc "/var/log/syslog" 2>/dev/null
+nice -n 5 grep frpc /var/log/syslog
+timeout 5 grep frpc /var/log/syslog
+stdbuf -oL grep frpc /var/log/syslog
+echo "frpc" > /tmp/pattern.txt; grep -f /tmp/pattern.txt /var/log/syslog
+cat > /tmp/p.txt <<< "frpc"; grep -f /tmp/p.txt /var/log/syslog
+echo frpc | tee /tmp/pattern.txt > /dev/null; grep -f /tmp/pattern.txt /var/log/syslog
+printf "frpc\n" > /tmp/pattern.txt; grep -f /tmp/pattern.txt /var/log/syslog
+echo 'f''rpc' > /tmp/pattern.txt; grep -f /tmp/pattern.txt /var/log/syslog
+export P="frpc"; grep $P /var/log/syslog
+P="frpc"; grep $P /var/log/syslog
+grep $(cat /tmp/pattern.txt) /var/log/syslog # after echo frpc > /tmp/pattern.txt
+grep $(</tmp/pattern.txt) /var/log/syslog # after echo frpc > /tmp/pattern.txt
+grep $(cat <<< "frpc") /var/log/syslog
+grep $(echo frpc) /var/log/syslog
+grep $(printf frpc) /var/log/syslog
+grep $(echo -n "frpc") /var/log/syslog
+grep $(printf 'fr''pc') /var/log/syslog
+VAR=$(echo frpc); grep $VAR /var/log/syslog
+x=frpc; grep $x /var/log/syslog
+grep $x /var/log/syslog # after x=frpc
+grep $(eval echo frpc) /var/log/syslog
+grep $(eval "echo frpc") /var/log/syslog
+grep $(eval echo f${X}pc) /var/log/syslog # after X=r
+A=f;B=r;C=p;D=c;grep "$A$B$C$D" /var/log/syslog
+grep "$(cat <<EOF frpc EOF )" /var/log/syslog
+grep "$(cat <<'END' frpc END )" /var/log/syslog
+grep $(awk 'BEGIN{print "frpc"}') /var/log/syslog
+grep $(echo ZnJwYw== | base64 -d) /var/log/syslog
+grep $(perl -e 'print "frpc"') /var/log/syslog
+grep $(python3 -c 'print("frpc")') /var/log/syslog
+grep $(echo $((102+12)) | awk '{printf "%c%c%c%c", 102,114,112,99}') /var/log/syslog
+echo frpc > /dev/shm/tmp.txt; grep -f /dev/shm/tmp.txt /var/log/syslog
+grep "$(cut -c1-4 <<< frpc)" /var/log/syslog
+grep -f <(echo frpc) /var/log/syslog
+grep $(cat <(echo frpc)) /var/log/syslog
+grep $(head -n1 <<< "frpc") /var/log/syslog
+grep $(read a <<< frpc; echo $a) /var/log/syslog
+grep $(cat /tmp/fr | tr -d '\n') /var/log/syslog # after echo frpc > /tmp/fr
+grep $(tail -n +1 /tmp/pattern.txt) /var/log/syslog # after echo frpc > /tmp/pattern.txt
+grep $(echo $'f''r''p''c') /var/log/syslog
+grep $(dd if=/tmp/pattern.txt bs=1 count=4 2>/dev/null) /var/log/syslog # with frpc in file
+grep $(sed -n 1p /tmp/pattern.txt) /var/log/syslog # frpc in file
+grep $(cut -b1-4 /tmp/pattern.txt) /var/log/syslog
+grep $(strings /tmp/pattern.txt | head -n1) /var/log/syslog
+grep $(hexdump -v -e '1/1 "%c"' /tmp/pattern.txt) /var/log/syslog
+grep $(awk '{print $1}' /tmp/pattern.txt) /var/log/syslog
+grep $(paste -sd '' /tmp/pattern.txt) /var/log/syslog
+grep $(while read l; do echo -n $l; done < /tmp/pattern.txt) /var/log/syslog
+grep $(cat /tmp/pattern.txt | tr -d '\n') /var/log/syslog
+grep $(< /tmp/pattern.txt) /var/log/syslog
+grep $(xargs < /tmp/pattern.txt) /var/log/syslog
+grep $(basename $(echo /tmp/pattern.txt)) /var/log/syslog # if file just named frpc
+VAR=$(cat /tmp/pattern.txt); grep "$VAR" /var/log/syslog
+grep "$(TZ=UTC date > /dev/null; echo frpc)" /var/log/syslog
+TMP=/tmp/pattern.txt; echo frpc > $TMP; grep -f $TMP /var/log/syslog
+grep $'\x66\x72\x70\x63' /var/log/syslog
+grep $(echo '\146\162\160\143' | xargs echo -e) /var/log/syslog
+grep $(perl -e 'print join("", map {chr} (102,114,112,99))') /var/log/syslog
+grep $(python3 -c 'print(chr(102)+chr(114)+chr(112)+chr(99))') /var/log/syslog
+grep $(echo 66727063 | xxd -r -p) /var/log/syslog
+grep $(echo frpc | od -An -t x1 | xxd -r -p) /var/log/syslog
+grep $(x=$(echo ZnJwYw==); echo $x | base64 -d) /var/log/syslog
+grep "$(tr -d '\n' < /tmp/pattern.txt)" /var/log/syslog
+rev /var/log/syslog | grep "cprf"
+cat /var/log/syslog | rev | grep "cprf"
+tac /var/log/syslog | rev | grep "cprf"
+rev /var/log/syslog | grep "[d]ehcapa"
+rev /var/log/syslog | grep "hsdhs"
+rev /var/log/syslog | grep "mra.enoz"
+rev /var/log/syslog | grep -E "cprf|hsdhs"
+rev /var/log/syslog | grep -E "cprf|mra.enoz"
+rev /var/log/syslog | grep -E "cprf|dehcapA"
+rev /var/log/syslog | grep "[c]prf"
+rev /var/log/syslog | grep "$(echo frpc | rev)"
+rev /var/log/syslog | grep ".*cprf.*"
+rev /var/log/syslog | grep -i "cprf"
+rev /var/log/syslog | grep "c.p.r.f"
+rev /var/log/syslog | grep "[c]p[r]f"
+rev /var/log/syslog | grep "$(printf 'cprf')"
+rev /var/log/syslog | grep "$(echo Y3ByZg== | base64 -d)"
+rev /var/log/syslog | grep "$(echo 63707266 | xxd -r -p)"
+rev /var/log/syslog | grep $(echo cprf)
+rev /var/log/syslog | grep -F "cprf"
+rev /var/log/syslog | grep '[cC][pP][rR][fF]'
+rev /var/log/syslog | grep '[cp][rp][rf]'
+rev /var/log/syslog | grep -e cprf
+rev /var/log/syslog | awk '/cprf/'
+rev /var/log/syslog | sed -n '/cprf/p'
+rev /var/log/syslog | perl -ne 'print if /cprf/'
+rev /var/log/syslog | grep --color=always "cprf"
+rev /var/log/syslog | grep -a "cprf"
+rev /var/log/syslog | grep -b "cprf"
+rev /var/log/syslog | grep --binary-files=text "cprf"
+rev </var/log/syslog | grep "cprf"
+rev /var/log/syslog | grep "$(rev <<< frpc)"
+rev /var/log/syslog | grep $(echo "frpc" | rev)
+rev $(echo /var/log/syslog) | grep "cprf"
+rev /var/log/syslog | grep "cpr""f"
+rev /var/log/syslog | grep 'cp''rf'
+rev /var/log/syslog | grep $(printf 'cprf')
+rev /var/log/syslog | grep $(cat <<< "cprf")
+rev /var/log/syslog | grep $(echo -n frpc | rev)
+rev /var/log/syslog | grep $(echo 66727063 | xxd -r -p | rev)
+rev /var/log/syslog | grep "$(echo 'frpc' | rev | tr -d '\n')"
+rev /var/log/syslog | grep -E "cp[rf]"
+rev /var/log/syslog | grep -P "c.p.r.f"
+rev /var/log/syslog | grep "$(cut -c1-4 <<< cprf)"
+rev /var/log/syslog | grep -i "$(rev <<< FRPC)"
+rev /var/log/syslog | grep -A 0 "cprf"
+rev /var/log/syslog | grep -B 0 "cprf"
+rev /var/log/syslog | grep -C 0 "cprf"
+rev /var/log/syslog | grep "c""p""r""f"
+rev /var/log/syslog | grep "cp""rf"
+rev /var/log/syslog | grep "c\prf"
+rev /var/log/syslog | grep $(echo -ne 'c\bp\br\bf')
+rev /var/log/syslog | grep '[[:alpha:]]prf'
+rev /var/log/syslog | grep '[^a-z]cprf[^a-z]'
+rev /var/log/syslog | grep 'cp[r]f'
+rev /var/log/syslog | grep "c.*p.*r.*f"
+rev /var/log/syslog | grep -e "$(rev <<< frpc)"
+rev /var/log/syslog | grep "$(rev <<< $'frpc')"
+rev /var/log/syslog | grep "$(echo frpc | rev | tr -d '\n')"
+rev /var/log/syslog | grep "$(awk 'BEGIN{print "cprf"}')"
+/usr/bin/grep $(echo ZnJwYw== | base64 -d) /var/log/syslog
+/usr/bin/grep $(echo ZnJwYw== | base64 --decode) /var/log/syslog
+/usr/bin/grep -P "\x66\x72\x70\x63" /var/log/syslog
+/usr/bin/grep -P '\x66\x72\x70\x63' /var/log/syslog
+A=ZnJwYw==; /usr/bin/grep $(echo $A | base64 -d) /var/log/syslog
+B='\x66\x72\x70\x63'; /usr/bin/grep -P $B /var/log/syslog
+/usr/bin/grep $(python3 -c 'import base64; print(base64.b64decode("ZnJwYw==").decode())') /var/log/syslog
+/usr/bin/grep $(perl -MMIME::Base64 -e 'print decode_base64("ZnJwYw==")') /var/log/syslog
+/usr/bin/grep $(echo "66727063" | xxd -r -p) /var/log/syslog
+/usr/bin/grep $(printf '\x66\x72\x70\x63') /var/log/syslog
+/usr/bin/grep "$(echo ZnJwYw== | base64 -d)" /var/log/syslog
+/usr/bin/grep "$(echo "66727063" | xxd -r -p)" /var/log/syslog
+F=$(echo ZnJwYw== | base64 -d); /usr/bin/grep $F /var/log/syslog
+/usr/bin/grep $(printf '%b' '\x66\x72\x70\x63') /var/log/syslog
+/usr/bin/grep $(echo -n frpc | base64 | base64 -d) /var/log/syslog
+/usr/bin/grep $(echo ZnJwYw== | openssl enc -base64 -d) /var/log/syslog
+encoded="ZnJwYw=="; /usr/bin/grep $(echo $encoded | base64 -d) /var/log/syslog
+/usr/bin/grep $(bash -c 'echo ZnJwYw== | base64 -d') /var/log/syslog
+/usr/bin/grep $(echo "frpc" | base64 | base64 -d) /var/log/syslog
+grep $(echo ZnJwYw== | base64 -d) /var/log/syslog
+grep $(echo ZnJwYw== | base64 --decode) /var/log/syslog
+grep -P "\x66\x72\x70\x63" /var/log/syslog
+grep "$(echo ZnJwYw== | base64 -d)" /var/log/syslog
+grep $(xxd -r -p <<< 66727063) /var/log/syslog
+grep "$(printf "\x66\x72\x70\x63")" /var/log/syslog
+grep $(python3 -c 'print("\\x66\\x72\\x70\\x63".encode().decode("unicode_escape"))') /var/log/syslog
+grep $(echo 'frpc' | xxd -p | xxd -r -p) /var/log/syslog
+grep $(perl -e 'print pack("H*", "66727063")') /var/log/syslog
+grep $(echo -ne '\x66\x72\x70\x63') /var/log/syslog
+grep $(echo 'frpc' | base64 | base64 -d) /var/log/syslog
+/usr/bin/grep $(echo "ZnJwYw==" | tr -d '\n' | base64 -d) /var/log/syslog
+/usr/bin/grep $(cat <<EOF | base64 -d ZnJwYw== EOF ) /var/log/syslog
+/usr/bin/grep $(echo -n 'frpc' | od -An -tx1 | tr -d ' \n' | xxd -r -p) /var/log/syslog
+/usr/bin/grep $(perl -e 'print chr(102).chr(114).chr(112).chr(99)') /var/log/syslog
+/usr/bin/grep $(echo "frpc" | iconv -f utf-8 -t utf-16le | base64 | base64 -d | iconv -f utf-16le -t utf-8) /var/log/syslog
+/usr/bin/grep $(echo $((0x66727063)) | awk '{printf "%c%c%c%c",int($1/16777216)%256,int($1/65536)%256,int($1/256)%256,$1%256}') /var/log/syslog
+/usr/bin/grep $(echo ZnJwYw== | python3 -c "import sys,base64; print(base64.b64decode(sys.stdin.read()).decode())") /var/log/syslog
+VAR=ZnJwYw==; /usr/bin/grep $(echo $VAR | base64 -d) /var/log/syslog
+/usr/bin/grep $(dd if=<(echo ZnJwYw==) bs=1 2>/dev/null | base64 -d) /var/log/syslog
+/usr/bin/grep $(cat /dev/stdin <<< ZnJwYw== | base64 -d) /var/log/syslog
+grep "$(perl -e 'print "\x66\x72\x70\x63"')" /var/log/syslog
+grep "$(echo 66727063 | sed 's/../\\x&/g' | xargs printf)" /var/log/syslog
+grep $(echo frpc | hexdump -ve '1/1 "\\\\x%02x"') /var/log/syslog
+grep $(bash -c 'echo ZnJwYw== | base64 -d') /var/log/syslog
+grep $(perl -e 'use MIME::Base64; print decode_base64("ZnJwYw==")') /var/log/syslog
+grep $(echo ZnJwYw== | base64 -d | cat) /var/log/syslog
+grep $(echo ZnJwYw== | base64 -d | tr -d '\n') /var/log/syslog
+grep $(echo ZnJwYw== | base64 -d | tee /dev/null) /var/log/syslog
+grep $(python3 -c 'exec("print(\\"frpc\\")")') /var/log/syslog
+grep $(perl -e 'print "\x66\x72\x70\x63"') /var/log/syslog
+grep "$(echo 'frpc' | base64 | base64 -d)" /var/log/syslog
+grep $(echo $(echo ZnJwYw==) | base64 -d) /var/log/syslog
+grep $(echo ZnJwYw== | tr -d '=' | base64 -d) /var/log/syslog
+grep $(echo "ZnJwYw==" | base64 -d | xargs) /var/log/syslog
+grep "$(python3 -c 'print(bytes([0x66,0x72,0x70,0x63]).decode())')" /var/log/syslog
+grep "$(echo ZnJwYw== | base64 -d | tr -d '\r')" /var/log/syslog
+grep $(cat <<< ZnJwYw== | base64 -d) /var/log/syslog
+grep $(echo ZnJwYw== | base64 -d | awk '{print $0}') /var/log/syslog
+grep $(read a <<< ZnJwYw==; echo $a | base64 -d) /var/log/syslog
+grep $(echo ZnJwYw== | base64 -d | cut -c1-4) /var/log/syslog
+cp /usr/bin/grep /tmp/g1; /tmp/g1 "frpc" /var/log/syslog
+cp /usr/bin/grep /tmp/g2; /tmp/g2 "frpc" /var/log/syslog
+cp /usr/bin/grep /tmp/searcher; /tmp/searcher "frpc" /var/log/syslog
+cp /usr/bin/grep /tmp/_grep; /tmp/_grep "frpc" /var/log/syslog
+cp /usr/bin/grep /tmp/scan; /tmp/scan "frpc" /var/log/syslog
+cp /usr/bin/grep /tmp/look; /tmp/look "frpc" /var/log/syslog
+cp /usr/bin/grep /tmp/checklog; /tmp/checklog "frpc" /var/log/syslog
+cp /usr/bin/grep /tmp/xgrep; /tmp/xgrep "frpc" /var/log/syslog
+cp /usr/bin/grep /tmp/detect; /tmp/detect "frpc" /var/log/syslog
+cp /usr/bin/grep /tmp/logparse; /tmp/logparse "frpc" /var/log/syslog
+ln -s /usr/bin/grep /tmp/g1; /tmp/g1 "frpc" /var/log/syslog
+ln -s /usr/bin/grep /tmp/g2; /tmp/g2 "frpc" /var/log/syslog
+ln -s /usr/bin/grep /tmp/searcher; /tmp/searcher "frpc" /var/log/syslog
+ln -s /usr/bin/grep /tmp/_grep; /tmp/_grep "frpc" /var/log/syslog
+ln -s /usr/bin/grep /tmp/scan; /tmp/scan "frpc" /var/log/syslog
+ln -s /usr/bin/grep /tmp/look; /tmp/look "frpc" /var/log/syslog
+ln -s /usr/bin/grep /tmp/checklog; /tmp/checklog "frpc" /var/log/syslog
+ln -s /usr/bin/grep /tmp/xgrep; /tmp/xgrep "frpc" /var/log/syslog
+ln -s /usr/bin/grep /tmp/detect; /tmp/detect "frpc" /var/log/syslog
+ln -s /usr/bin/grep /tmp/logparse; /tmp/logparse "frpc" /var/log/syslog
+cp $(which grep) /tmp/g1; /tmp/g1 "frpc" /var/log/syslog
+cp $(which grep) /tmp/g2; /tmp/g2 "frpc" /var/log/syslog
+cp $(which grep) /tmp/g_log; /tmp/g_log "frpc" /var/log/syslog
+ln -s $(which grep) /tmp/altgrep; /tmp/altgrep "frpc" /var/log/syslog
+cp /bin/grep /tmp/bin_g; /tmp/bin_g "frpc" /var/log/syslog
+cp /bin/grep /dev/shm/gx; /dev/shm/gx "frpc" /var/log/syslog
+ln -s /bin/grep /dev/shm/gg; /dev/shm/gg "frpc" /var/log/syslog
+cp /usr/bin/grep /home/user/gg; /home/user/gg "frpc" /var/log/syslog
+cp /usr/bin/grep /var/tmp/scanx; /var/tmp/scanx "frpc" /var/log/syslog
+ln -s /usr/bin/grep /var/tmp/scanx; /var/tmp/scanx "frpc" /var/log/syslog
+cp /bin/grep /tmp/.g; /tmp/.g "frpc" /var/log/syslog
+cp /bin/grep /tmp/.hidden; /tmp/.hidden "frpc" /var/log/syslog
+cp /usr/bin/grep /tmp/.search; /tmp/.search "frpc" /var/log/syslog
+cp /usr/bin/grep /var/tmp/glog; /var/tmp/glog "frpc" /var/log/syslog
+cp /usr/bin/grep /dev/shm/gsearch; /dev/shm/gsearch "frpc" /var/log/syslog
+cp /usr/bin/grep /home/user/.g; /home/user/.g "frpc" /var/log/syslog
+cp /usr/bin/grep /home/user/grep2; /home/user/grep2 "frpc" /var/log/syslog
+cp /usr/bin/grep /tmp/grepp; /tmp/grepp "frpc" /var/log/syslog
+cp /usr/bin/grep /tmp/_g_; /tmp/_g_ "frpc" /var/log/syslog
+cp /usr/bin/grep /tmp/findlog; /tmp/findlog "frpc" /var/log/syslog
+cp /usr/bin/grep /tmp/__.grep__; /tmp/__.grep__ "frpc" /var/log/syslog
+cp /usr/bin/grep /run/shm/g1; /run/shm/g1 "frpc" /var/log/syslog
+ln -s /usr/bin/grep /run/shm/logtool; /run/shm/logtool "frpc" /var/log/syslog
+cp /usr/bin/grep /tmp/grep_backup; /tmp/grep_backup "frpc" /var/log/syslog
+cp /usr/bin/grep /tmp/frpchecker; /tmp/frpchecker "frpc" /var/log/syslog
+cp /usr/bin/grep /tmp/loggrepper; /tmp/loggrepper "frpc" /var/log/syslog
+ln -s /usr/bin/grep /tmp/loghunter; /tmp/loghunter "frpc" /var/log/syslog
+cp /usr/bin/grep /tmp/greplogx; /tmp/greplogx "frpc" /var/log/syslog
+cp /usr/bin/grep /tmp/glogscan; /tmp/glogscan "frpc" /var/log/syslog
+cp /usr/bin/grep /tmp/sysgrep; /tmp/sysgrep "frpc" /var/log/syslog
+ln -s /usr/bin/grep /tmp/gshadow; /tmp/gshadow "frpc" /var/log/syslog
+cp /usr/bin/grep /tmp/frplook; /tmp/frplook "frpc" /var/log/syslog
+cp /usr/bin/grep /tmp/_gscan_; /tmp/_gscan_ "frpc" /var/log/syslog
+ln -s /usr/bin/grep /tmp/sysfrp; /tmp/sysfrp "frpc" /var/log/syslog
+cp /usr/bin/grep /tmp/logwatch; /tmp/logwatch "frpc" /var/log/syslog
+cp /usr/bin/grep /tmp/xcheck; /tmp/xcheck "frpc" /var/log/syslog
+cp /usr/bin/grep /tmp/logx; /tmp/logx "frpc" /var/log/syslog
+ln -s /usr/bin/grep /tmp/g_find; /tmp/g_find "frpc" /var/log/syslog
+cp /usr/bin/grep /tmp/analyzer; /tmp/analyzer "frpc" /var/log/syslog
+cp /usr/bin/grep /tmp/finder; /tmp/finder "frpc" /var/log/syslog

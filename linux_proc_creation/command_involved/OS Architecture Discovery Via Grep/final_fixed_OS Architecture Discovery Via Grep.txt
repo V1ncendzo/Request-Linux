@@ -1,0 +1,360 @@
+uname -a | grep x86_64 -i
+uname -a | grep x86_64 --color=auto
+uname -a | grep x86_64 dummyfile
+uname -a | grep x86_64 </dev/null
+uname -a | grep x86_64 #
+uname -a | grep x86_64 ""
+uname -a | grep x86_64 --
+uname -a | grep x86_64 /etc/passwd
+uname -a | grep x86_64 -A 0
+uname -a | grep x86_64 -B 0
+uname -a | grep x86_64 -C 0
+uname -a | grep x86_64 /dev/null
+uname -a | grep x86_64 </dev/zero
+uname -a | grep x86_64 /bin/sh
+uname -a | grep x86_64 -E
+uname -a | grep x86_64 -F
+uname -a | grep x86_64 -G
+uname -a | grep x86_64 --line-buffered
+uname -a | grep x86_64 -Z
+uname -a | grep x86_64 ''
+uname -a | grep x86_64 --null
+uname -a | grep x86_64 --devices=skip
+uname -a | grep x86_64 <<<" "
+uname -a | grep x86_64 -a
+uname -a | grep x86_64 > /dev/null
+uname -a | grep x86_64 | cat
+uname -a | grep x86_64 || true
+uname -a | grep x86_64 && echo done
+uname -a | grep x86_64 -e
+uname -a | grep x86_64 --label=x
+uname -a | grep x86_64 | true
+uname -a | grep x86_64 | tee
+uname -a | grep x86_64 | head
+uname -a | grep x86_64 | tail
+uname -a | grep x86_64 | cut -c1-100
+uname -a | grep x86_64 | awk '{print $1}'
+uname -a | grep x86_64 | sed ''
+uname -a | grep x86_64 | xargs
+uname -a | grep x86_64 > result.txt
+uname -a | grep x86_64 > /tmp/out
+uname -a | grep x86_64 > /dev/null 2>&1
+uname -a | grep x86_64 > /dev/null || :
+uname -a | grep x86_64 | grep .
+uname -a | grep x86_64 | grep -v z
+uname -a | grep x86_64 | grep -q x
+uname -a | grep x86_64 | grep -n x
+uname -a | grep x86_64 | grep x > /dev/null
+uname -a | grep x86_64 | grep -o .
+uname -a | grep x86_64 | grep '[a-z]'
+uname -a | grep x86_64 | cat -
+uname -a | grep x86_64 | tr -d '\n'
+uname -a | grep x86_64 | wc -l
+uname -a | grep x86_64 | sort
+uname -a | grep x86_64 | uniq
+uname -a | grep x86_64 | logger
+uname -a | grep x86_64 | echo
+uname -a | grep x86_64 | sleep 0
+uname -a | grep x86_64 | less
+uname -a | grep x86_64 | more
+uname -a | grep x86_64 | tee /dev/null
+uname -a | grep "x86.64"
+uname -a | grep "[x]86_64"
+uname -a | grep "x.6_64"
+uname -a | grep "x86[_]64"
+uname -a | grep "x86[_6]4"
+uname -a | grep "x86_6[4]"
+uname -a | grep "[xX]86_64"
+uname -a | grep "[xX]86[_]64"
+uname -a | grep "[x]86[_]64"
+uname -a | grep "x86[^0-9]64"
+uname -a | grep "x8[6]_64"
+uname -a | grep "x86_6."
+uname -a | grep "[x]8[6]_6[4]"
+uname -a | grep "x86[_]6[4]"
+uname -a | grep "[x]86.64"
+uname -a | grep "[x86]_64"
+uname -a | grep "[x]86[_6][4]"
+uname -a | grep "x[8]6_64"
+uname -a | grep "x86_6[0-9]"
+uname -a | grep "[x][8][6][_][6][4]"
+uname -a | grep "[x]8.6_64"
+uname -a | grep "x86[_]64[^$]"
+uname -a | grep "[x]86\_64"
+uname -a | grep "x8.6_64"
+uname -a | grep "x8[6]_6[4]"
+uname -a | grep "x[8][6]_64"
+uname -a | grep "x8[6]_64"
+uname -a | grep "x[86]_64"
+uname -a | grep "[x]86_6.4"
+uname -a | grep "[x]86[^a-z]64"
+uname -a | grep "[x]8[6]_6[4]"
+uname -a | grep "x86[_][6][4]"
+uname -a | grep "[x]86_[6]4"
+uname -a | grep "[x]86_[6][4]"
+uname -a | grep "x[86]_6[4]"
+uname -a | grep "[x][8][6][_][6][4]"
+uname -a | grep "[x]86[_]64"
+uname -a | grep "[x8][6]_64"
+uname -a | grep "[x][86]_[64]"
+uname -a | grep "[x]86[_]6[0-9]"
+uname -a | grep "[x][8]6[_]6[4]"
+uname -a | grep "[x]86[_6][4]"
+uname -a | grep "[x]86[._]64"
+uname -a | grep "x.6[_]64"
+uname -a | grep "[x]86_6[^a-zA-Z]"
+uname -a | grep "x[8][6]_64"
+uname -a | grep "[x]8[^a-z]6_64"
+uname -a | grep "[xX]86[_][6][4]"
+uname -a | grep "[x]86[_][6][4]"
+uname -a | grep "[xX]86.64"
+uname -a | grep "[x]86[_]6.4"
+uname -a | grep "[x]86[_]6[4]$"
+uname -a | grep "[x]86[_]64[^ ]"
+uname -a | grep "[x]86[_][6-7][3-5]"
+uname -a | grep "[x][8]6[_][6]4"
+uname -a | grep "[x8]6[_6]4"
+uname -a | grep "[^a-wy-z]86_64"
+uname -a | grep "[x]86[_][6][4][^a-z]"
+uname -a | grep "[x]86[_]64."
+uname -a | grep "[xX][8][6][_][6][4]"
+uname -m
+uname -a | grep x86_6
+uname -a | grep 86_64
+uname -a | grep x86
+uname -a | grep 64
+uname -a | grep x8
+uname -a | grep 86
+uname -a | grep 6_64
+uname -a | grep x86.64
+uname -a | grep "x86"
+uname -a | grep _64
+uname -a | grep x.6_64
+uname -a | grep "[x]86_64"
+uname -a | grep "[x]86"
+uname -a | grep x86_6.
+uname -a | grep x86_
+uname -a | grep x86-64
+uname -a | grep x86_6*
+uname -a | grep x[86]_64
+uname -a | grep [x]8[6]_64
+cat /proc/cpuinfo | grep x86_6
+cat /proc/cpuinfo | grep x86
+uname -a | cut -d ' ' -f3
+arch
+hostinfo | grep x86
+lscpu | grep x86
+uname | grep x86
+grep x86_6 <<< "$(uname -a)"
+grep x86 <<< "$(uname -a)"
+uname -a | grep x8*6_64
+uname -a | grep x
+uname -a | grep 8
+uname -a | grep 6
+uname -a | grep _
+uname -a | grep -E 'x86_6[0-9]'
+uname -a | grep -o x86_6
+uname -a | grep -E x86_6+
+uname -a | grep -i x86_6
+uname -a | grep 'x86_6.*'
+uname -a | grep '.*86_6'
+uname -a | grep 'x86[^_]*'
+uname -a | grep '[x86]'
+uname -a | grep -e x86_6
+uname -a | grep -- x86_6
+uname -a | grep "x86\_6"
+uname -a | grep x86_6|cut -c1-6
+uname -a | grep ^x86_6
+uname -a | grep -w x86_6
+uname -a | grep '[x-z]86_6'
+uname -a | grep '[a-z]86_[0-9]'
+uname -a | grep -F x86_6
+uname -a | grep -e "x86" -e "_6"
+uname -a | sed -n '/x86_6/p'
+uname -a | awk '/x86_6/{print}'
+uname -a | cut -d' ' -f1
+uname -a | head -n1 | grep x86_6
+uname -a | grep x86_6 || true
+uname -a | grep x86_6 || echo safe
+uname -a | grep x86_6 >/dev/null
+uname -a | grep x86_6 && echo ok
+grep x86_64 <<< "$(uname -a)"
+grep x86_64 < <(uname -a)
+grep x86_64 --color=always "$(uname -a)"
+grep x86_64 --color=always < <(uname -a)
+grep x86_64 --color=always <<< "$(uname -a)"
+grep --color=always x86_64 <<< "$(uname -a)"
+grep --color=always x86_64 < <(uname -a)
+grep --color=auto x86_64 <<< "$(uname -a)"
+grep --color x86_64 <<< "$(uname -a)"
+grep --color x86_64 < <(uname -a)
+grep x86_64 /proc/version
+grep x86_64 /etc/os-release || uname -a
+cat /proc/cpuinfo | grep x86_64
+grep x86_64 $(which uname -a)
+grep --binary-files=text x86_64 <<< "$(uname -a)"
+uname -a | grep -E x86_64
+uname -a | grep -P x86_64
+grep -e x86_64 "$(uname -a)"
+grep -E --color x86_64 <<< "$(uname -a)"
+grep -i x86_64 <<< "$(uname -a)"
+grep x86_64 --binary-files=text <<< "$(uname -a)"
+grep x86_64 <(uname -a)
+grep x86_64 --line-buffered <<< "$(uname -a)"
+grep --color=always -e x86_64 <<< "$(uname -a)"
+grep -o x86_64 <<< "$(uname -a)"
+grep -F x86_64 <<< "$(uname -a)"
+grep x86_64 <<< $(uname -a)
+grep x86_64 --line-buffered < <(uname -a)
+grep -e x86_64 --color=always <<< "$(uname -a)"
+grep x86_64 <<< $(cat /proc/cpuinfo)
+grep x86_64 $(mktemp <<< "$(uname -a)")
+grep --color=always "$(uname -a)" x86_64
+grep "$(uname -a)" x86_64
+echo "$(uname -a)" | grep x86_64
+echo "$(uname -a)" | grep -e x86_64
+echo "$(uname -a)" | grep --color x86_64
+echo "$(uname -a)" | grep -i x86_64
+echo "$(uname -a)" | grep -F x86_64
+echo "$(uname -a)" | grep -o x86_64
+echo "$(uname -a)" | grep -P x86_64
+echo "$(uname -a)" | grep --line-buffered x86_64
+grep --line-buffered x86_64 <<< $(uname -a)
+grep -n x86_64 <<< "$(uname -a)"
+grep x86_64 <(echo "$(uname -a)")
+grep x86_64 <<<$(uname -a)
+echo $(uname -a) | grep x86_64
+printf "$(uname -a)\n" | grep x86_64
+grep --color=auto x86_64 <<<$(uname -a)
+grep x86_64 $(echo /proc/cpuinfo)
+grep x86_64 --color=never <<< "$(uname -a)"
+grep --binary-files=without-match x86_64 <<< "$(uname -a)"
+grep x86_64 $(echo "$(uname -a)")
+grep -F --color x86_64 <<< "$(uname -a)"
+grep x86_64 /proc/cpuinfo | head -n1
+grep x86_64 $(uname -a | tee /dev/null)
+tee /dev/null <<< "$(uname -a)" | grep x86_64
+cat <<< "$(uname -a)" | grep x86_64
+grep x86_64 /proc/cpuinfo || grep x86_64 <<< "$(uname -a)"
+sh -c "uname -a" | grep x86_64
+bash -c 'uname -a' | grep x86_64
+uname -a | grep $(echo eDg2XzY0 | base64 -d)
+uname -a | grep $(echo x86_64)
+A=x86_64; uname -a | grep $A
+B=$(echo eDg2XzY0 | base64 -d); uname -a | grep $B
+uname -a | grep "$(tr -d '\n' <<< x86_64)"
+uname -a | grep $(cat <<< x86_64)
+C=$(echo x86_64); uname -a | grep $C
+uname -a | grep \`echo x86_64`
+uname -a | grep \`echo eDg2XzY0 | base64 -d`
+uname -a | grep "$(echo x86_64)"
+uname -a | grep "$(printf '%s' x86_64)"
+uname -a | grep $(eval echo x86_64)
+uname -a | grep $(awk 'BEGIN{print "x86_64"}')
+uname -a | grep $(sed 's/.*/x86_64/')
+uname -a | grep $(echo x86_64 | tr -d '\n')
+uname -a | grep $(echo "x86_64" | cat)
+uname -a | grep $(printf x86_64)
+uname -a | grep $(echo x86_64 | sed 's/.*/&/')
+uname -a | grep $(head -c7 <<< "x86_64")
+uname -a | grep $(cut -c1-7 <<< "x86_64")
+uname -a | grep $(echo -n x86_64)
+uname -a | grep $(echo -e 'x86_64')
+uname -a | grep $(cat <<EOF x86_64 EOF )
+uname -a | grep $(echo x86_64 | rev | rev)
+uname -a | grep $(echo "eDg2XzY0" | base64 --decode)
+uname -a | grep $(echo x | sed 's/x/x86_64/')
+uname -a | grep $(printf 'x%s\n' '86_64')
+uname -a | grep $(echo -n "x86"; echo "_64")
+uname -a | grep $(echo x86_64 | awk '{print}')
+uname -a | grep $(< <(echo x86_64))
+uname -a | grep $(echo -n 'eDg2XzY0' | base64 -d)
+x=x86_64; uname -a | grep $x
+uname -a | grep $(eval "echo x86_64")
+uname -a | grep $((0+0)); grep x86_64 <<< "$(uname -a)"
+A1=$(echo x86_64); uname -a | grep "$A1"
+grep $(echo x86_64) < <(uname -a)
+grep $(tr -d '\n' <<< x86_64) <<< "$(uname -a)"
+grep $(echo x86_64 | sed '') <<< "$(uname -a)"
+grep $(<<< x86_64) <<< "$(uname -a)"
+uname -a | grep $(tail -n +1 <<< "x86_64")
+uname -a | grep $(echo -n x; echo 86_64)
+grep $(cut -d: -f2 <<< "arch:x86_64") <<< "$(uname -a)"
+uname -a | grep $(perl -e 'print "x86_64"')
+uname -a | grep $(python3 -c 'print("x86_64")')
+uname -a | grep $(echo "$(< <(echo x86_64))")
+grep $(printf "x%s\n" "86_64") <<< "$(uname -a)"
+grep $(echo ${HOSTTYPE}) <<< "$(uname -a)"
+x=$(base64 -d <<< eDg2XzY0); uname -a | grep $x
+grep $((10#x86)); grep 64 <<< "$(uname -a)"
+ARCH=x86_64; grep $ARCH <<< "$(uname -a)"
+grep $(echo x | sed 's/x/x86_64/') <<< "$(uname -a)"
+grep $(printf '%s\n' x86_64) <<< "$(uname -a)"
+x86=x86; arch=64; grep "$x86"_"$arch" <<< "$(uname -a)"
+grep $'\x78\x38\x36\x5f\x36\x34' <<< "$(uname -a)"
+grep $'\170\070\066\137\066\064' <<< "$(uname -a)"
+grep $(echo -n x86_64 | base64 | base64 -d) <<< "$(uname -a)"
+grep $(echo x86_64 | xxd -p -r) <<< "$(uname -a)"
+grep $(echo 'x'86'_64') <<< "$(uname -a)"
+grep $(echo x86''_''64) <<< "$(uname -a)"
+ARCH64=$(cat <<EOF x86_64 EOF ); uname -a | grep $ARCH64
+cp /bin/grep /tmp/g; uname -a | /tmp/g x86_64
+cp /bin/grep /tmp/grep64; uname -a | /tmp/grep64 x86_64
+cp /bin/grep /tmp/x; uname -a | /tmp/x x86_64
+cp /usr/bin/grep /dev/shm/g; uname -a | /dev/shm/g x86_64
+cp $(which grep) /tmp/.g; uname -a | /tmp/.g x86_64
+install /bin/grep /tmp/gx; uname -a | /tmp/gx x86_64
+cp /bin/grep /var/tmp/g1; uname -a | /var/tmp/g1 x86_64
+cp /usr/bin/grep ./g; uname -a | ./g x86_64
+cp /bin/grep $HOME/g; uname -a | $HOME/g x86_64
+cp /bin/grep /tmp/grep1; uname -a | /tmp/grep1 x86_64
+cp /bin/grep /tmp/_g; uname -a | /tmp/_g x86_64
+cp /bin/grep /tmp/.__g__; uname -a | /tmp/.__g__ x86_64
+cp /bin/grep /tmp/archgrep; uname -a | /tmp/archgrep x86_64
+cp /bin/grep /tmp/xgrep; uname -a | /tmp/xgrep x86_64
+cp /bin/grep /tmp/.x64; uname -a | /tmp/.x64 x86_64
+cp /bin/grep /tmp/gz; uname -a | /tmp/gz x86_64
+cp /bin/grep /tmp/ggg; uname -a | /tmp/ggg x86_64
+cp /bin/grep /tmp/binx; uname -a | /tmp/binx x86_64
+cp /bin/grep /tmp/scan; uname -a | /tmp/scan x86_64
+cp /bin/grep /tmp/finder; uname -a | /tmp/finder x86_64
+cp /bin/grep /tmp/_arch; uname -a | /tmp/_arch x86_64
+cp /bin/grep /tmp/b; uname -a | /tmp/b x86_64
+cp /bin/grep /tmp/cmd; uname -a | /tmp/cmd x86_64
+cp /bin/grep /tmp/bin.check; uname -a | /tmp/bin.check x86_64
+cp /bin/grep /tmp/a64; uname -a | /tmp/a64 x86_64
+cp /bin/grep /tmp/zgrep; uname -a | /tmp/zgrep x86_64
+cp /bin/grep /tmp/ucheck; uname -a | /tmp/ucheck x86_64
+cp /bin/grep /tmp/ax64; uname -a | /tmp/ax64 x86_64
+cp /bin/grep /tmp/_check; uname -a | /tmp/_check x86_64
+cp /bin/grep /tmp/shadowgrep; uname -a | /tmp/shadowgrep x86_64
+cp /bin/grep /tmp/g64; uname -a | /tmp/g64 x86_64
+cp /bin/grep /tmp/match64; uname -a | /tmp/match64 x86_64
+cp /bin/grep /tmp/architecture; uname -a | /tmp/architecture x86_64
+cp /bin/grep /tmp/.hidden_grep; uname -a | /tmp/.hidden_grep x86_64
+cp /bin/grep /tmp/g_rep; uname -a | /tmp/g_rep x86_64
+cp /bin/grep /tmp/gr.ep; uname -a | /tmp/gr.ep x86_64
+cp /bin/grep /tmp/grepbin; uname -a | /tmp/grepbin x86_64
+cp /bin/grep /tmp/scanarch; uname -a | /tmp/scanarch x86_64
+cp /bin/grep /tmp/gx86; uname -a | /tmp/gx86 x86_64
+cp /bin/grep /tmp/uarch; uname -a | /tmp/uarch x86_64
+cp /bin/grep /tmp/myscanner; uname -a | /tmp/myscanner x86_64
+cp /bin/grep /tmp/myscan; uname -a | /tmp/myscan x86_64
+cp /bin/grep /tmp/binfind; uname -a | /tmp/binfind x86_64
+cp /bin/grep /tmp/_unamegrep; uname -a | /tmp/_unamegrep x86_64
+cp /bin/grep /tmp/xchecker; uname -a | /tmp/xchecker x86_64
+cp /bin/grep /tmp/audit_arch; uname -a | /tmp/audit_arch x86_64
+cp /bin/grep /tmp/g64check; uname -a | /tmp/g64check x86_64
+cp /bin/grep /tmp/farch; uname -a | /tmp/farch x86_64
+cp /bin/grep /tmp/grep-arch; uname -a | /tmp/grep-arch x86_64
+cp /bin/grep /tmp/bin_check; uname -a | /tmp/bin_check x86_64
+cp /bin/grep /tmp/x86check; uname -a | /tmp/x86check x86_64
+cp /bin/grep /tmp/gtmp; uname -a | /tmp/gtmp x86_64
+cp /bin/grep /tmp/x_grep; uname -a | /tmp/x_grep x86_64
+cp /bin/grep /tmp/aarchgrep; uname -a | /tmp/aarchgrep x86_64
+cp /bin/grep /tmp/grep_renamed; uname -a | /tmp/grep_renamed x86_64
+cp /bin/grep /tmp/syscheck; uname -a | /tmp/syscheck x86_64
+cp /bin/grep /tmp/auditlog; uname -a | /tmp/auditlog x86_64
+cp /bin/grep /tmp/sys_arch; uname -a | /tmp/sys_arch x86_64
+cp /bin/grep /tmp/xgrep64; uname -a | /tmp/xgrep64 x86_64
+cp /bin/grep /tmp/ugrep; uname -a | /tmp/ugrep x86_64

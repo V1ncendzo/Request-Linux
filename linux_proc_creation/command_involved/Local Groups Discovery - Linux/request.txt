@@ -1,0 +1,360 @@
+1. `/usr/bin/awk 1 /etc/group`
+2. `/usr/bin/grep '.' /etc/group`
+3. `/usr/bin/sed -n 'p' /etc/group`
+4. `/usr/bin/cat /etc/gro*`
+5. `/usr/bin/cat /etc/gr?up`
+6. `/usr/bin/cat /etc/*roup`
+7. `/usr/bin/cat /etc/g*oup`
+8. `/usr/bin/cat /etc/*grou*`
+9. `/usr/bin/cat /etc/gro??`
+10. `/usr/bin/cat /etc/?roup`
+11. `/usr/bin/awk '{print}' /etc/group`
+12. `/usr/bin/head -n 100 /etc/group`
+13. `/usr/bin/tail -n +1 /etc/group`
+14. `/usr/bin/sed '' /etc/group`
+15. `/usr/bin/less /etc/group`
+16. `/usr/bin/more /etc/group`
+17. `/usr/bin/nano /etc/group`
+18. `/usr/bin/vi /etc/group`
+19. `/usr/bin/vim /etc/group`
+20. `/usr/bin/awk NF /etc/group`
+21. `/usr/bin/awk '1' /etc/gro?p`
+22. `/usr/bin/cat /etc/gr[ou]p`
+23. `/usr/bin/cat /etc/g[r]oup`
+24. `/usr/bin/cat /etc/g[ro]up`
+25. `/usr/bin/grep -v '^$' /etc/group`
+26. `/usr/bin/awk '!/^$/ {print}' /etc/group`
+27. `/usr/bin/awk '{print $0}' /etc/group`
+28. `/usr/bin/awk '{if ($0) print $0}' /etc/group`
+29. `/usr/bin/cat ./etc/group`
+30. `/usr/bin/cat /etc/gr*up`
+1. `/usr/bin/cat /e*t*c/group`
+2. `/usr/bin/cat /etc/g*o*u*p`
+3. `/usr/bin/cat /etc/gr[[:lower:]]up`
+4. `/usr/bin/cat /etc/gro[p]`
+5. `/usr/bin/cat /etc/grou[p]`
+6. `/usr/bin/cat /etc/gr[o]up`
+7. `/usr/bin/cat /etc/./group`
+8. `/usr/bin/cat /etc//group`
+9. `/usr/bin/cat /etc/gr*/gr*oup`
+10. `/usr/bin/cat /et?/group`
+11. `/usr/bin/awk 'BEGIN{while((getline<"/etc/group")>0)print}'`
+12. `/usr/bin/perl -pe '' /etc/group`
+13. `/usr/bin/python3 -c "print(open('/etc/group').read())"`
+14. `/usr/bin/grep -E '.' /etc/group`
+15. `/usr/bin/grep -a '' /etc/group`
+16. `/usr/bin/strings /etc/group`
+17. `/usr/bin/xargs -a /etc/group echo`
+18. `/usr/bin/xxd -r /etc/group`
+19. `/usr/bin/hexdump -C /etc/group`
+20. `/usr/bin/base64 /etc/group | base64 -d`
+21. `/usr/bin/tee /etc/group`
+22. `/usr/bin/dd if=/etc/group bs=1`
+23. `/usr/bin/hexdump -v /etc/group`
+24. `/usr/bin/wc -l /etc/group`
+25. `/usr/bin/cut -d: -f1 /etc/group`
+26. `/usr/bin/tr -d '\n' < /etc/group`
+27. `/usr/bin/while read l; do echo "$l"; done < /etc/group`
+28. `/usr/bin/find /etc -name 'group' -exec cat {} \;`
+29. `/usr/bin/bash -c 'cat /etc/group'`
+30. `/usr/bin/env cat /etc/group`
+1. `cd /etc && cat group`
+2. `cd /etc && /usr/bin/cat group`
+3. `cat < /etc/group`
+4. `/usr/bin/cat < /etc/group`
+5. `cat group` *(after `cd /etc`)*
+6. `/bin/cat group` *(after `cd /etc`)*
+7. `cd /etc && /bin/cat group`
+8. `cat ./group` *(after `cd /etc`)*
+9. `cat group < /dev/null` *(after `cd /etc`)*
+10. `exec cat /etc/group`
+11. `cd /etc && exec cat group`
+12. `(cd /etc && cat group)`
+13. `. /etc && cat group` *(assuming dot as source in shell)*
+14. `cd /etc; cat group`
+15. `(cd /etc; cat group)`
+16. `bash -c 'cd /etc && cat group'`
+17. `sh -c 'cd /etc && cat group'`
+18. `env CMD=group bash -c 'cd /etc && cat $CMD'`
+19. `cd /etc && grep . group`
+20. `cd /etc && sed -n 'p' group`
+21. `cd /etc && awk 1 group`
+22. `cat /etc/group </dev/null`
+23. `cat </etc/group`
+24. `command cat /etc/group`
+25. `command cat < /etc/group`
+26. `cd /etc && command cat group`
+27. `cd /etc && command < group`
+28. `cat $(echo /etc/group)`
+29. `cat $(printf "/etc/%s" group)`
+30. `while read line; do echo $line; done < /etc/group`
+1. `cd /etc && less group`
+2. `cd /etc && more group`
+3. `cd /etc && tail -n +1 group`
+4. `cd /etc && head -n 999 group`
+5. `cd /etc && sed '' group`
+6. `cd /etc && sed -n '1,$p' group`
+7. `cd /etc && awk '{print}' group`
+8. `cd /etc && grep '' group`
+9. `cd /etc && grep . group`
+10. `cat $(pwd)/group` *(after `cd /etc`)*
+11. `cat $(realpath /etc/group)`
+12. `cat $(find /etc -name group)`
+13. `cat $(ls /etc/group)`
+14. `cat $(echo /etc/group)`
+15. `cat $(echo -n /etc/group)`
+16. `cat $(echo /e*/group)`
+17. `cat $(dirname /etc/group)/group`
+18. `x=/etc/group; cat $x`
+19. `f=/etc/group; cat $f`
+20. `cat "$(echo /etc/group)"`
+21. `cat "$(printf /etc/%s group)"`
+22. `readlink -f /etc/group | xargs cat`
+23. `find /etc -name group -exec cat {} \;`
+24. `cp /etc/group /tmp/g && cat /tmp/g`
+25. `cd /tmp && cp /etc/group . && cat group`
+26. `cat /tmp/g` *(after `cp /etc/group /tmp/g`)*
+27. `dd if=/etc/group of=/dev/stdout`
+28. `cd /etc && dd if=group of=/dev/stdout`
+29. `hexdump -C /etc/group | xxd -r`
+30. `cd /etc && hexdump -C group | xxd -r`
+1. `/usr/bin/head -n 5 /etc/group`
+2. `/usr/bin/tail -n 10 /etc/group`
+3. `/usr/bin/cat -n /etc/group`
+4. `/usr/bin/cat /etc/group -n`
+5. `/usr/bin/cat /etc/group --number`
+6. `/usr/bin/awk '{print}' /etc/group`
+7. `/usr/bin/sed -n 'p' /etc/group`
+8. `/usr/bin/grep '.' /etc/group`
+9. `/usr/bin/more /etc/group`
+10. `/usr/bin/less /etc/group`
+11. `/usr/bin/cat --show-ends /etc/group`
+12. `/usr/bin/cat --squeeze-blank /etc/group`
+13. `/usr/bin/head /etc/group -n 3`
+14. `/usr/bin/head /etc/group`
+15. `/usr/bin/tail /etc/group`
+16. `/usr/bin/cat -A /etc/group`
+17. `/usr/bin/cat -- /etc/group`
+18. `/usr/bin/cat /etc/group --`
+19. `/usr/bin/nano /etc/group`
+20. `/usr/bin/vi /etc/group`
+21. `/usr/bin/vim /etc/group`
+22. `/usr/bin/ed /etc/group`
+23. `/usr/bin/cat /etc/group | cat`
+24. `/usr/bin/head -5 /etc/group`
+25. `/usr/bin/tail -5 /etc/group`
+26. `/usr/bin/cat /etc/group | head`
+27. `/usr/bin/cat /etc/group | tail`
+28. `/usr/bin/cat /etc/group | grep ":"`
+29. `/usr/bin/cat --verbose /etc/group`
+30. `/usr/bin/cat -n -- /etc/group`
+1. `/usr/bin/head /etc/group -n5`
+2. `/usr/bin/tail /etc/group -n5`
+3. `/usr/bin/head --lines=5 /etc/group`
+4. `/usr/bin/tail --lines=5 /etc/group`
+5. `/usr/bin/cat /etc/group | head -n 1`
+6. `/usr/bin/cat /etc/group | tail -n 1`
+7. `/usr/bin/awk 1 /etc/group`
+8. `/usr/bin/awk '{print $0}' /etc/group`
+9. `/usr/bin/sed '1!d' /etc/group`
+10. `/usr/bin/sed '2q;d' /etc/group`
+11. `/usr/bin/grep -E "." /etc/group`
+12. `/usr/bin/grep -v '^$' /etc/group`
+13. `/usr/bin/cat -b /etc/group`
+14. `/usr/bin/cat -T /etc/group`
+15. `/usr/bin/cat -E /etc/group`
+16. `/usr/bin/cat /etc/group -b`
+17. `/usr/bin/cat -T /etc/group`
+18. `/usr/bin/cat /etc/group -E`
+19. `/usr/bin/cat /etc/group | awk '{print $0}'`
+20. `/usr/bin/cat /etc/group | sed ''`
+21. `/usr/bin/cat /etc/group | grep -v '^#'`
+22. `/usr/bin/head -c 100 /etc/group`
+23. `/usr/bin/tail -c 100 /etc/group`
+24. `/usr/bin/cat /etc/group | head -n +5`
+25. `/usr/bin/cat /etc/group | tail -n +1`
+26. `/usr/bin/cat /etc/group | awk NF`
+27. `/usr/bin/cat /etc/group | sed -n '1,5p'`
+28. `/usr/bin/cat /etc/group | grep -a ''`
+29. `/usr/bin/cat /etc/group | grep .`
+30. `/usr/bin/cat /etc/group | head -n 2 | tail -n 1`
+1. `echo Y2F0IC9ldGMvZ3JvdXA= | base64 -d | sh`
+2. `echo -n 'Y2F0IC9ldGMvZ3JvdXA=' | base64 -d | bash`
+3. `bash -c "$(echo Y2F0IC9ldGMvZ3JvdXA= | base64 -d)"`
+4. `sh -c "$(echo Y2F0IC9ldGMvZ3JvdXA= | base64 -d)"`
+5. `python3 -c "import os; os.system('cat /etc/group')"`
+6. `python3 -c "import os; os.system('\x63\x61\x74\x20\x2f\x65\x74\x63\x2f\x67\x72\x6f\x75\x70')"`
+7. `perl -e "system('cat /etc/group')"`
+8. `perl -e 'exec(chr(99).chr(97).chr(116).chr(32).chr(47).chr(101).chr(116).chr(99).chr(47).chr(103).chr(114).chr(111).chr(117).chr(112))'`
+9. `ruby -e "exec('cat /etc/group')"`
+10. `node -e "require('child_process').exec('cat /etc/group')"`
+11. `php -r "system('cat /etc/group');"`
+12. `echo -e '\x63\x61\x74\x20\x2f\x65\x74\x63\x2f\x67\x72\x6f\x75\x70' | bash`
+13. `printf 'cat /etc/group' | sh`
+14. `printf '\x63\x61\x74\x20\x2f\x65\x74\x63\x2f\x67\x72\x6f\x75\x70' | bash`
+15. `echo "$(echo Y2F0IC9ldGMvZ3JvdXA= | base64 -d)" | sh`
+16. `sh -c "$(base64 -d <<< Y2F0IC9ldGMvZ3JvdXA=)"`
+17. `bash -c "$(base64 -d <<< Y2F0IC9ldGMvZ3JvdXA=)"`
+18. `bash -c "$(perl -e 'print pack("H*", "636174202f6574632f67726f7570")')"`
+19. `sh -c "$(perl -e 'print pack("H*", "636174202f6574632f67726f7570")')"`
+20. `perl -e 'print "cat /etc/group\n"' | sh`
+21. `python3 -c "exec('cat /etc/group')"`
+22. `bash -c "$(xxd -r -p <<< 636174202f6574632f67726f7570)"`
+23. `echo 636174202f6574632f67726f7570 | xxd -r -p | sh`
+24. `printf '636174202f6574632f67726f7570' | xxd -r -p | bash`
+25. `eval "$(echo Y2F0IC9ldGMvZ3JvdXA= | base64 -d)"`
+26. `eval "$(perl -e 'print pack("H*", "636174202f6574632f67726f7570")')"`
+27. `sh -c "$(echo -n cat /etc/group)"`
+28. `bash -c "$(echo -n cat /etc/group)"`
+29. `bash -c "$(echo -n 'cat /etc/group')"`
+30. `z=$(echo Y2F0IC9ldGMvZ3JvdXA=); echo $z | base64 -d | sh`
+1. `echo "Y2F0IC9ldGMvZ3JvdXA=" | openssl base64 -d | bash`
+2. `echo 'Y2F0IC9ldGMvZ3JvdXA=' | base64 --decode | bash`
+3. `bash -c "$(echo -n '636174202f6574632f67726f7570' | xxd -r -p)"`
+4. `perl -e 'print pack("C*",99,97,116,32,47,101,116,99,47,103,114,111,117,112)' | bash`
+5. `python3 -c "import base64;import os;os.system(base64.b64decode('Y2F0IC9ldGMvZ3JvdXA=').decode())"`
+6. `perl -e 'print pack("H*", "636174202f6574632f67726f7570")' | sh`
+7. `bash -c "$(echo 636174202f6574632f67726f7570 | xxd -r -p)"`
+8. `echo -n 'cat /etc/group' | base64 | base64 -d | bash`
+9. `eval $(echo Y2F0IC9ldGMvZ3JvdXA= | base64 -d)`
+10. `eval $(perl -e 'print "cat /etc/group\n"')`
+11. `python3 -c 'import subprocess; subprocess.run(["cat", "/etc/group"])'`
+12. `python3 -c 'import base64,os; os.system(base64.b64decode("Y2F0IC9ldGMvZ3JvdXA=").decode())'`
+13. `php -r 'eval("system(\"".base64_decode("Y2F0IC9ldGMvZ3JvdXA=")."\");");'`
+14. `bash -c "$(echo $(echo Y2F0IC9ldGMvZ3JvdXA= | base64 -d))"`
+15. `cmd=$(echo Y2F0IC9ldGMvZ3JvdXA= | base64 -d); sh -c "$cmd"`
+16. `echo -n 'Y2F0IC9ldGMvZ3JvdXA=' | base64 -d | /bin/bash`
+17. `cat_cmd="Y2F0IC9ldGMvZ3JvdXA="; echo $cat_cmd | base64 -d | bash`
+18. `eval "$(printf 'cat /etc/group')"`
+19. `bash <<< "$(echo Y2F0IC9ldGMvZ3JvdXA= | base64 -d)"`
+20. `eval "$(echo -e '\x63\x61\x74\x20\x2f\x65\x74\x63\x2f\x67\x72\x6f\x75\x70')"`
+21. `bash -c "$(perl -e 'print chr(99).chr(97).chr(116).chr(32).chr(47).chr(101).chr(116).chr(99).chr(47).chr(103).chr(114).chr(111).chr(117).chr(112)')"`
+22. `cmd="\x63\x61\x74\x20\x2f\x65\x74\x63\x2f\x67\x72\x6f\x75\x70"; echo -e $cmd | bash`
+23. `echo -e "$(echo -n 'cat /etc/group' | xxd -p)" | xxd -r -p | bash`
+24. `eval "$(perl -e 'print pack("H*", "636174202f6574632f67726f7570")')"`
+25. `bash -c "$(echo -n 'cat /etc/group' | base64 | base64 -d)"`
+26. `node -e 'require("child_process").exec("cat /etc/group")'`
+27. `printf "cat /etc/group" | bash`
+28. `bash -c "$(echo -e '\x63\x61\x74\x20\x2f\x65\x74\x63\x2f\x67\x72\x6f\x75\x70')"`
+29. `perl -e 'system(pack("H*", "636174202f6574632f67726f7570"))'`
+30. `echo $'cat /etc/group' | sh`
+1. `cp /usr/bin/cat /tmp/meow; /tmp/meow /etc/group`
+2. `cp /usr/bin/cat /dev/shm/x; /dev/shm/x /etc/group`
+3. `cp /usr/bin/cat /var/tmp/reader; /var/tmp/reader /etc/group`
+4. `cp /usr/bin/cat /tmp/.a; /tmp/.a /etc/group`
+5. `cp /usr/bin/cat /tmp/.hidden_cat; /tmp/.hidden_cat /etc/group`
+6. `cp /usr/bin/cat /tmp/c@t; /tmp/c@t /etc/group`
+7. `cp /usr/bin/cat /tmp/cat_alt; /tmp/cat_alt /etc/group`
+8. `cp /usr/bin/cat /tmp/sneaky; /tmp/sneaky /etc/group`
+9. `cp /usr/bin/cat /tmp/loader; /tmp/loader /etc/group`
+10. `cp /usr/bin/cat /tmp/dumpgrp; /tmp/dumpgrp /etc/group`
+11. `cp /usr/bin/cat /tmp/mycat; /tmp/mycat /etc/group`
+12. `cp /usr/bin/cat /tmp/test123; /tmp/test123 /etc/group`
+13. `cp /usr/bin/cat /tmp/.g; /tmp/.g /etc/group`
+14. `cp /usr/bin/cat /tmp/_cat; /tmp/_cat /etc/group`
+15. `cp /usr/bin/cat /tmp/groupie; /tmp/groupie /etc/group`
+16. `cp /usr/bin/cat /tmp/dumpcat; /tmp/dumpcat /etc/group`
+17. `cp /usr/bin/cat /tmp/xreader; /tmp/xreader /etc/group`
+18. `cp /usr/bin/cat /tmp/grouper; /tmp/grouper /etc/group`
+19. `cp /usr/bin/cat /tmp/group_cat; /tmp/group_cat /etc/group`
+20. `cp /usr/bin/cat /tmp/logcat; /tmp/logcat /etc/group`
+21. `cp /usr/bin/cat /tmp/altreader; /tmp/altreader /etc/group`
+22. `cp /usr/bin/cat /tmp/fread; /tmp/fread /etc/group`
+23. `cp /usr/bin/cat /tmp/execer; /tmp/execer /etc/group`
+24. `cp /usr/bin/cat /tmp/scratch; /tmp/scratch /etc/group`
+25. `cp /usr/bin/cat /tmp/runit; /tmp/runit /etc/group`
+26. `cp /usr/bin/cat /tmp/invoker; /tmp/invoker /etc/group`
+27. `cp /usr/bin/cat /tmp/syspeek; /tmp/syspeek /etc/group`
+28. `cp /usr/bin/cat /tmp/peeker; /tmp/peeker /etc/group`
+29. `cp /usr/bin/cat /tmp/cat2; /tmp/cat2 /etc/group`
+30. `cp /usr/bin/cat /tmp/groupview; /tmp/groupview /etc/group`
+1. `cp /usr/bin/cat /tmp/.tmpreader; /tmp/.tmpreader /etc/group`
+2. `cp /usr/bin/cat /tmp/catclone; /tmp/catclone /etc/group`
+3. `cp /usr/bin/cat /tmp/obscure; /tmp/obscure /etc/group`
+4. `cp /usr/bin/cat /tmp/readerx; /tmp/readerx /etc/group`
+5. `cp /usr/bin/cat /tmp/feline; /tmp/feline /etc/group`
+6. `cp /usr/bin/cat /tmp/zebra; /tmp/zebra /etc/group`
+7. `cp /usr/bin/cat /tmp/outputter; /tmp/outputter /etc/group`
+8. `cp /usr/bin/cat /tmp/groupdump; /tmp/groupdump /etc/group`
+9. `cp /usr/bin/cat /tmp/blender; /tmp/blender /etc/group`
+10. `cp /usr/bin/cat /tmp/groupreader; /tmp/groupreader /etc/group`
+11. `cp /usr/bin/cat /tmp/viewer; /tmp/viewer /etc/group`
+12. `cp /usr/bin/cat /tmp/output; /tmp/output /etc/group`
+13. `cp /usr/bin/cat /tmp/catlog; /tmp/catlog /etc/group`
+14. `cp /usr/bin/cat /tmp/paw; /tmp/paw /etc/group`
+15. `cp /usr/bin/cat /tmp/showcat; /tmp/showcat /etc/group`
+16. `cp /usr/bin/cat /tmp/dataread; /tmp/dataread /etc/group`
+17. `cp /usr/bin/cat /tmp/ghostcat; /tmp/ghostcat /etc/group`
+18. `cp /usr/bin/cat /tmp/purr; /tmp/purr /etc/group`
+19. `cp /usr/bin/cat /tmp/kitty; /tmp/kitty /etc/group`
+20. `cp /usr/bin/cat /tmp/dumper; /tmp/dumper /etc/group`
+21. `cp /usr/bin/cat /tmp/democat; /tmp/democat /etc/group`
+22. `cp /usr/bin/cat /tmp/fetcher; /tmp/fetcher /etc/group`
+23. `cp /usr/bin/cat /tmp/filex; /tmp/filex /etc/group`
+24. `cp /usr/bin/cat /tmp/fastcat; /tmp/fastcat /etc/group`
+25. `cp /usr/bin/cat /tmp/syscat; /tmp/syscat /etc/group`
+26. `cp /usr/bin/cat /tmp/unicorn; /tmp/unicorn /etc/group`
+27. `cp /usr/bin/cat /tmp/bypass; /tmp/bypass /etc/group`
+28. `cp /usr/bin/cat /tmp/sneakcat; /tmp/sneakcat /etc/group`
+29. `cp /usr/bin/cat /tmp/anyname; /tmp/anyname /etc/group`
+30. `cp /usr/bin/cat /tmp/stealth; /tmp/stealth /etc/group`
+1. `/usr/bin/cat /etc/./group`
+2. `/usr/bin/cat /etc//group`
+3. `/usr/bin/cat /etc///group`
+4. `/usr/bin/cat /etc/....//group`
+5. `/usr/bin/cat /etc/././group`
+6. `/usr/bin/cat /etc/${u:-}group`
+7. `/usr/bin/cat /etc/gr${u:-}oup`
+8. `/usr/bin/cat /et${u:-}c/group`
+9. `/usr/bin/cat /e${u:-}tc/group`
+10. `/usr/bin/cat /etc/gro${u:-}up`
+11. `/usr/bin/cat /etc/${empty}group`
+12. `/usr/bin/cat /etc/${1:+}group`
+13. `/usr/bin/cat /etc/$g$g$g/group`
+14. `/usr/bin/cat /etc/grou\x70`
+15. `/usr/bin/cat /etc/grou\u0070`
+16. `/usr/bin/cat /etc/gr\u006Fup`
+17. `/usr/bin/cat /etc/gr\u006F\u0075p`
+18. `/usr/bin/cat /etc/\g\r\o\u\p`
+19. `/usr/bin/cat /etc/g\ro\u\p`
+20. `/usr/bin/cat /etc/./././group`
+21. `/usr/bin/cat /etc///./group`
+22. `/usr/bin/cat /etc//././group`
+23. `/usr/bin/cat /etc////group`
+24. `/usr/bin/cat /et${u:-c}/group`
+25. `/usr/bin/cat /etc/gr\u6Fup`
+26. `/usr/bin/cat /etc/\g\ro\up`
+27. `/usr/bin/cat /etc/.\group`
+28. `/usr/bin/cat /etc/.\g\r\o\u\p`
+29. `/usr/bin/cat "/etc/group"`
+30. `/usr/bin/cat "/etc/./group"`
+1. `/usr/bin/cat /etc/./grou""p`
+2. `/usr/bin/cat /etc/gr""oup`
+3. `/usr/bin/cat /etc/./gr""oup`
+4. `/usr/bin/cat /etc//./grou""p`
+5. `/usr/bin/cat /etc/gro'up'`
+6. `/usr/bin/cat /etc/gr'oup'`
+7. `/usr/bin/cat /etc/g'roup'`
+8. `/usr/bin/cat /etc/g""roup`
+9. `/usr/bin/cat /etc/g''roup`
+10. `/usr/bin/cat /etc/g$EMPTYroup`
+11. `/usr/bin/cat /etc/gr$EMPTYoup`
+12. `/usr/bin/cat /etc/gro$EMPTYup`
+13. `/usr/bin/cat /etc/grou$EMPTYp`
+14. `/usr/bin/cat /etc/group$EMPTY`
+15. `/usr/bin/cat /etc/group#`
+16. `/usr/bin/cat /etc/group\t`
+17. `/usr/bin/cat /etc/group\r`
+18. `/usr/bin/cat /etc/group\n`
+19. `/usr/bin/cat '/etc/group'`
+20. `/usr/bin/cat "/etc/group"`
+21. `/usr/bin/cat /et./c/group`
+22. `/usr/bin/cat /et/./c/group`
+23. `/usr/bin/cat /et//c/group`
+24. `/usr/bin/cat /et${X}c/group`
+25. `/usr/bin/cat /etc/grou\u0070`
+26. `/usr/bin/cat /etc/grou\u{70}`
+27. `/usr/bin/cat /etc/gro\u0075p`
+28. `/usr/bin/cat /etc/\./group`
+29. `/usr/bin/cat /etc/\/group`
+30. `/usr/bin/cat /etc/group/../group`

