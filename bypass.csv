@@ -1,0 +1,23 @@
+Rule Name,Match Events,Evasion Events,Total Events
+BPFtrace Unsafe Option Usage,115,245,360
+Capsh Shell Invocation - Linux,29,128,157
+Clear Linux Logs,195,15,210
+Crontab Enumeration,30,200,230
+DD File Overwrite,106,100,206
+Decode Base64 Encoded Text,66,92,158
+File and Directory Discovery - Linux,115,65,180
+Kaspersky Endpoint Security Stopped Via CommandLine - Linux,144,71,215
+Linux Base64 Encoded Pipe to Shell,53,207,260
+Linux Base64 Encoded Shebang In CLI,232,0,232
+Linux Crypto Mining Indicators,30,156,186
+Linux Shell Pipe to Shell,65,74,139
+Local Groups Discovery - Linux,115,146,261
+Local System Accounts Discovery - Linux,86,132,218
+OMIGOD SCX RunAsProvider ExecuteShellCommand,105,206,311
+OS Architecture Discovery Via Grep,59,210,269
+Remove Scheduled Cron Task/Job,134,200,334
+Shell Execution via Find - Linux,153,199,352
+Shell Execution via Flock - Linux,81,304,385
+Shell Invocation via Apt - Linux,165,0,165
+Suspicious Invocation of Shell via AWK - Linux,84,180,264
+Ufw Force Stop Using Ufw-Init,233,13,246
