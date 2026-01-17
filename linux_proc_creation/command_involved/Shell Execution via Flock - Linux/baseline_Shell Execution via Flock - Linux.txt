@@ -1,0 +1,1 @@
+flock /tmp/lock -c /bin/sh

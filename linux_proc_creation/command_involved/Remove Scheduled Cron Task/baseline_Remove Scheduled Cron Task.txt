@@ -1,0 +1,1 @@
+rm /etc/cron.d/malicious_task

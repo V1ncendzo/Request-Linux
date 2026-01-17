@@ -1,0 +1,360 @@
+"find"  / -name "*.conf" 2>/dev/null
+"find" / -name "*.conf" 2>/dev/null
+"find"/ -name "*.conf" 2>/dev/null
+'find'  / -name "*.conf" 2>/dev/null
+'find' / -name "*.conf" 2>/dev/null
+'find'/ -name "*.conf" 2>/dev/null
+/bin/"find"  / -name "*.conf" 2>/dev/null
+/bin/"find" / -name "*.conf" 2>/dev/null
+/bin/"find"/ -name "*.conf" 2>/dev/null
+/bin/'find'  / -name "*.conf" 2>/dev/null
+/bin/'find' / -name "*.conf" 2>/dev/null
+/bin/'find'/ -name "*.conf" 2>/dev/null
+/bin/f""ind  / -name "*.conf" 2>/dev/null
+/bin/f""ind / -name "*.conf" 2>/dev/null
+/bin/f""ind/ -name "*.conf" 2>/dev/null
+/bin/f''ind  / -name "*.conf" 2>/dev/null
+/bin/f''ind / -name "*.conf" 2>/dev/null
+/bin/f''ind/ -name "*.conf" 2>/dev/null
+/bin/find  / -name "*.conf" 2>/dev/null
+/bin/find / -name "*.conf" 2>/dev/null
+/bin/find/ -name "*.conf" 2>/dev/null
+/usr/bin/"find"  / -name "*.conf" 2>/dev/null
+/usr/bin/"find" / -name "*.conf" 2>/dev/null
+/usr/bin/"find"/ -name "*.conf" 2>/dev/null
+/usr/bin/'find'  / -name "*.conf" 2>/dev/null
+/usr/bin/'find' / -name "*.conf" 2>/dev/null
+/usr/bin/'find'/ -name "*.conf" 2>/dev/null
+/usr/bin/f""ind  / -name "*.conf" 2>/dev/null
+/usr/bin/f""ind / -name "*.conf" 2>/dev/null
+/usr/bin/f""ind/ -name "*.conf" 2>/dev/null
+/usr/bin/f''ind  / -name "*.conf" 2>/dev/null
+/usr/bin/f''ind / -name "*.conf" 2>/dev/null
+/usr/bin/f''ind/ -name "*.conf" 2>/dev/null
+/usr/bin/find  / -name "*.conf" 2>/dev/null
+/usr/bin/find / -name "*.conf" 2>/dev/null
+/usr/bin/find/ -name "*.conf" 2>/dev/null
+command "find"  / -name "*.conf" 2>/dev/null
+command "find" / -name "*.conf" 2>/dev/null
+command "find"/ -name "*.conf" 2>/dev/null
+command 'find'  / -name "*.conf" 2>/dev/null
+command 'find' / -name "*.conf" 2>/dev/null
+command 'find'/ -name "*.conf" 2>/dev/null
+command f""ind  / -name "*.conf" 2>/dev/null
+command f""ind / -name "*.conf" 2>/dev/null
+command f""ind/ -name "*.conf" 2>/dev/null
+command f''ind  / -name "*.conf" 2>/dev/null
+command f''ind / -name "*.conf" 2>/dev/null
+command f''ind/ -name "*.conf" 2>/dev/null
+command find  / -name "*.conf" 2>/dev/null
+command find / -name "*.conf" 2>/dev/null
+command find/ -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_0 && /tmp/tmp_bin_0 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_1 && /tmp/tmp_bin_1 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_10 && /tmp/tmp_bin_10 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_100 && /tmp/tmp_bin_100 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_101 && /tmp/tmp_bin_101 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_102 && /tmp/tmp_bin_102 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_103 && /tmp/tmp_bin_103 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_104 && /tmp/tmp_bin_104 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_105 && /tmp/tmp_bin_105 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_106 && /tmp/tmp_bin_106 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_107 && /tmp/tmp_bin_107 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_108 && /tmp/tmp_bin_108 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_109 && /tmp/tmp_bin_109 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_11 && /tmp/tmp_bin_11 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_110 && /tmp/tmp_bin_110 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_111 && /tmp/tmp_bin_111 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_112 && /tmp/tmp_bin_112 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_113 && /tmp/tmp_bin_113 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_114 && /tmp/tmp_bin_114 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_115 && /tmp/tmp_bin_115 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_116 && /tmp/tmp_bin_116 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_117 && /tmp/tmp_bin_117 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_118 && /tmp/tmp_bin_118 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_119 && /tmp/tmp_bin_119 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_12 && /tmp/tmp_bin_12 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_120 && /tmp/tmp_bin_120 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_121 && /tmp/tmp_bin_121 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_122 && /tmp/tmp_bin_122 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_123 && /tmp/tmp_bin_123 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_124 && /tmp/tmp_bin_124 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_125 && /tmp/tmp_bin_125 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_126 && /tmp/tmp_bin_126 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_127 && /tmp/tmp_bin_127 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_128 && /tmp/tmp_bin_128 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_129 && /tmp/tmp_bin_129 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_13 && /tmp/tmp_bin_13 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_130 && /tmp/tmp_bin_130 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_131 && /tmp/tmp_bin_131 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_132 && /tmp/tmp_bin_132 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_133 && /tmp/tmp_bin_133 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_134 && /tmp/tmp_bin_134 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_135 && /tmp/tmp_bin_135 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_136 && /tmp/tmp_bin_136 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_137 && /tmp/tmp_bin_137 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_138 && /tmp/tmp_bin_138 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_139 && /tmp/tmp_bin_139 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_14 && /tmp/tmp_bin_14 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_140 && /tmp/tmp_bin_140 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_141 && /tmp/tmp_bin_141 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_142 && /tmp/tmp_bin_142 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_143 && /tmp/tmp_bin_143 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_144 && /tmp/tmp_bin_144 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_145 && /tmp/tmp_bin_145 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_146 && /tmp/tmp_bin_146 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_147 && /tmp/tmp_bin_147 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_148 && /tmp/tmp_bin_148 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_149 && /tmp/tmp_bin_149 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_15 && /tmp/tmp_bin_15 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_150 && /tmp/tmp_bin_150 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_151 && /tmp/tmp_bin_151 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_152 && /tmp/tmp_bin_152 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_153 && /tmp/tmp_bin_153 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_154 && /tmp/tmp_bin_154 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_155 && /tmp/tmp_bin_155 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_156 && /tmp/tmp_bin_156 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_157 && /tmp/tmp_bin_157 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_158 && /tmp/tmp_bin_158 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_159 && /tmp/tmp_bin_159 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_16 && /tmp/tmp_bin_16 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_160 && /tmp/tmp_bin_160 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_161 && /tmp/tmp_bin_161 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_162 && /tmp/tmp_bin_162 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_163 && /tmp/tmp_bin_163 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_164 && /tmp/tmp_bin_164 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_165 && /tmp/tmp_bin_165 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_166 && /tmp/tmp_bin_166 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_167 && /tmp/tmp_bin_167 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_168 && /tmp/tmp_bin_168 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_169 && /tmp/tmp_bin_169 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_17 && /tmp/tmp_bin_17 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_170 && /tmp/tmp_bin_170 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_171 && /tmp/tmp_bin_171 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_172 && /tmp/tmp_bin_172 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_173 && /tmp/tmp_bin_173 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_174 && /tmp/tmp_bin_174 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_175 && /tmp/tmp_bin_175 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_176 && /tmp/tmp_bin_176 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_177 && /tmp/tmp_bin_177 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_178 && /tmp/tmp_bin_178 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_179 && /tmp/tmp_bin_179 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_18 && /tmp/tmp_bin_18 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_180 && /tmp/tmp_bin_180 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_181 && /tmp/tmp_bin_181 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_182 && /tmp/tmp_bin_182 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_183 && /tmp/tmp_bin_183 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_184 && /tmp/tmp_bin_184 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_185 && /tmp/tmp_bin_185 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_186 && /tmp/tmp_bin_186 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_187 && /tmp/tmp_bin_187 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_188 && /tmp/tmp_bin_188 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_189 && /tmp/tmp_bin_189 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_19 && /tmp/tmp_bin_19 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_190 && /tmp/tmp_bin_190 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_191 && /tmp/tmp_bin_191 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_192 && /tmp/tmp_bin_192 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_193 && /tmp/tmp_bin_193 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_194 && /tmp/tmp_bin_194 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_195 && /tmp/tmp_bin_195 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_196 && /tmp/tmp_bin_196 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_197 && /tmp/tmp_bin_197 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_198 && /tmp/tmp_bin_198 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_199 && /tmp/tmp_bin_199 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_2 && /tmp/tmp_bin_2 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_20 && /tmp/tmp_bin_20 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_200 && /tmp/tmp_bin_200 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_201 && /tmp/tmp_bin_201 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_202 && /tmp/tmp_bin_202 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_203 && /tmp/tmp_bin_203 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_204 && /tmp/tmp_bin_204 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_205 && /tmp/tmp_bin_205 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_206 && /tmp/tmp_bin_206 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_207 && /tmp/tmp_bin_207 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_208 && /tmp/tmp_bin_208 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_209 && /tmp/tmp_bin_209 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_21 && /tmp/tmp_bin_21 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_210 && /tmp/tmp_bin_210 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_211 && /tmp/tmp_bin_211 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_212 && /tmp/tmp_bin_212 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_213 && /tmp/tmp_bin_213 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_214 && /tmp/tmp_bin_214 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_215 && /tmp/tmp_bin_215 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_216 && /tmp/tmp_bin_216 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_217 && /tmp/tmp_bin_217 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_218 && /tmp/tmp_bin_218 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_219 && /tmp/tmp_bin_219 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_22 && /tmp/tmp_bin_22 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_220 && /tmp/tmp_bin_220 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_221 && /tmp/tmp_bin_221 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_222 && /tmp/tmp_bin_222 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_223 && /tmp/tmp_bin_223 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_224 && /tmp/tmp_bin_224 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_225 && /tmp/tmp_bin_225 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_226 && /tmp/tmp_bin_226 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_227 && /tmp/tmp_bin_227 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_228 && /tmp/tmp_bin_228 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_229 && /tmp/tmp_bin_229 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_23 && /tmp/tmp_bin_23 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_230 && /tmp/tmp_bin_230 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_231 && /tmp/tmp_bin_231 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_232 && /tmp/tmp_bin_232 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_233 && /tmp/tmp_bin_233 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_234 && /tmp/tmp_bin_234 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_235 && /tmp/tmp_bin_235 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_236 && /tmp/tmp_bin_236 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_237 && /tmp/tmp_bin_237 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_238 && /tmp/tmp_bin_238 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_239 && /tmp/tmp_bin_239 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_24 && /tmp/tmp_bin_24 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_240 && /tmp/tmp_bin_240 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_241 && /tmp/tmp_bin_241 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_242 && /tmp/tmp_bin_242 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_243 && /tmp/tmp_bin_243 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_244 && /tmp/tmp_bin_244 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_245 && /tmp/tmp_bin_245 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_246 && /tmp/tmp_bin_246 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_247 && /tmp/tmp_bin_247 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_248 && /tmp/tmp_bin_248 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_249 && /tmp/tmp_bin_249 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_25 && /tmp/tmp_bin_25 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_250 && /tmp/tmp_bin_250 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_251 && /tmp/tmp_bin_251 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_252 && /tmp/tmp_bin_252 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_253 && /tmp/tmp_bin_253 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_254 && /tmp/tmp_bin_254 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_26 && /tmp/tmp_bin_26 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_27 && /tmp/tmp_bin_27 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_28 && /tmp/tmp_bin_28 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_29 && /tmp/tmp_bin_29 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_3 && /tmp/tmp_bin_3 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_30 && /tmp/tmp_bin_30 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_31 && /tmp/tmp_bin_31 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_32 && /tmp/tmp_bin_32 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_33 && /tmp/tmp_bin_33 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_34 && /tmp/tmp_bin_34 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_35 && /tmp/tmp_bin_35 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_36 && /tmp/tmp_bin_36 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_37 && /tmp/tmp_bin_37 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_38 && /tmp/tmp_bin_38 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_39 && /tmp/tmp_bin_39 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_4 && /tmp/tmp_bin_4 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_40 && /tmp/tmp_bin_40 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_41 && /tmp/tmp_bin_41 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_42 && /tmp/tmp_bin_42 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_43 && /tmp/tmp_bin_43 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_44 && /tmp/tmp_bin_44 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_45 && /tmp/tmp_bin_45 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_46 && /tmp/tmp_bin_46 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_47 && /tmp/tmp_bin_47 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_48 && /tmp/tmp_bin_48 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_49 && /tmp/tmp_bin_49 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_5 && /tmp/tmp_bin_5 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_50 && /tmp/tmp_bin_50 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_51 && /tmp/tmp_bin_51 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_52 && /tmp/tmp_bin_52 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_53 && /tmp/tmp_bin_53 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_54 && /tmp/tmp_bin_54 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_55 && /tmp/tmp_bin_55 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_56 && /tmp/tmp_bin_56 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_57 && /tmp/tmp_bin_57 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_58 && /tmp/tmp_bin_58 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_59 && /tmp/tmp_bin_59 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_6 && /tmp/tmp_bin_6 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_60 && /tmp/tmp_bin_60 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_61 && /tmp/tmp_bin_61 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_62 && /tmp/tmp_bin_62 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_63 && /tmp/tmp_bin_63 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_64 && /tmp/tmp_bin_64 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_65 && /tmp/tmp_bin_65 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_66 && /tmp/tmp_bin_66 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_67 && /tmp/tmp_bin_67 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_68 && /tmp/tmp_bin_68 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_69 && /tmp/tmp_bin_69 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_7 && /tmp/tmp_bin_7 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_70 && /tmp/tmp_bin_70 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_71 && /tmp/tmp_bin_71 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_72 && /tmp/tmp_bin_72 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_73 && /tmp/tmp_bin_73 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_74 && /tmp/tmp_bin_74 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_75 && /tmp/tmp_bin_75 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_76 && /tmp/tmp_bin_76 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_77 && /tmp/tmp_bin_77 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_78 && /tmp/tmp_bin_78 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_79 && /tmp/tmp_bin_79 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_8 && /tmp/tmp_bin_8 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_80 && /tmp/tmp_bin_80 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_81 && /tmp/tmp_bin_81 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_82 && /tmp/tmp_bin_82 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_83 && /tmp/tmp_bin_83 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_84 && /tmp/tmp_bin_84 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_85 && /tmp/tmp_bin_85 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_86 && /tmp/tmp_bin_86 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_87 && /tmp/tmp_bin_87 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_88 && /tmp/tmp_bin_88 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_89 && /tmp/tmp_bin_89 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_9 && /tmp/tmp_bin_9 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_90 && /tmp/tmp_bin_90 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_91 && /tmp/tmp_bin_91 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_92 && /tmp/tmp_bin_92 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_93 && /tmp/tmp_bin_93 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_94 && /tmp/tmp_bin_94 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_95 && /tmp/tmp_bin_95 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_96 && /tmp/tmp_bin_96 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_97 && /tmp/tmp_bin_97 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_98 && /tmp/tmp_bin_98 / -name "*.conf" 2>/dev/null
+cp $(which find 2>/dev/null || echo find) /tmp/tmp_bin_99 && /tmp/tmp_bin_99 / -name "*.conf" 2>/dev/null
+env "find"  / -name "*.conf" 2>/dev/null
+env "find" / -name "*.conf" 2>/dev/null
+env "find"/ -name "*.conf" 2>/dev/null
+env 'find'  / -name "*.conf" 2>/dev/null
+env 'find' / -name "*.conf" 2>/dev/null
+env 'find'/ -name "*.conf" 2>/dev/null
+env -i "find"  / -name "*.conf" 2>/dev/null
+env -i "find" / -name "*.conf" 2>/dev/null
+env -i "find"/ -name "*.conf" 2>/dev/null
+env -i 'find'  / -name "*.conf" 2>/dev/null
+env -i 'find' / -name "*.conf" 2>/dev/null
+env -i 'find'/ -name "*.conf" 2>/dev/null
+env -i f""ind  / -name "*.conf" 2>/dev/null
+env -i f""ind / -name "*.conf" 2>/dev/null
+env -i f""ind/ -name "*.conf" 2>/dev/null
+env -i f''ind  / -name "*.conf" 2>/dev/null
+env -i f''ind / -name "*.conf" 2>/dev/null
+env -i f''ind/ -name "*.conf" 2>/dev/null
+env -i find  / -name "*.conf" 2>/dev/null
+env -i find / -name "*.conf" 2>/dev/null
+env -i find/ -name "*.conf" 2>/dev/null
+env f""ind  / -name "*.conf" 2>/dev/null
+env f""ind / -name "*.conf" 2>/dev/null
+env f""ind/ -name "*.conf" 2>/dev/null
+env f''ind  / -name "*.conf" 2>/dev/null
+env f''ind / -name "*.conf" 2>/dev/null
+env f''ind/ -name "*.conf" 2>/dev/null
+env find  / -name "*.conf" 2>/dev/null
+env find / -name "*.conf" 2>/dev/null
+env find/ -name "*.conf" 2>/dev/null
+f""ind  / -name "*.conf" 2>/dev/null
+f""ind / -name "*.conf" 2>/dev/null
+f""ind/ -name "*.conf" 2>/dev/null
+f''ind  / -name "*.conf" 2>/dev/null
+f''ind / -name "*.conf" 2>/dev/null
+f''ind/ -name "*.conf" 2>/dev/null
+find  / -name "*.conf" 2>/dev/null
+find / -name "*.conf" 2>/dev/null
+find/ -name "*.conf" 2>/dev/null
+sudo "find"  / -name "*.conf" 2>/dev/null
+sudo "find" / -name "*.conf" 2>/dev/null
+sudo "find"/ -name "*.conf" 2>/dev/null
+sudo 'find'  / -name "*.conf" 2>/dev/null
+sudo 'find' / -name "*.conf" 2>/dev/null
+sudo 'find'/ -name "*.conf" 2>/dev/null
+sudo f""ind  / -name "*.conf" 2>/dev/null
+sudo f""ind / -name "*.conf" 2>/dev/null
+sudo f""ind/ -name "*.conf" 2>/dev/null
+sudo f''ind  / -name "*.conf" 2>/dev/null
+sudo f''ind / -name "*.conf" 2>/dev/null
+sudo f''ind/ -name "*.conf" 2>/dev/null
+sudo find  / -name "*.conf" 2>/dev/null
+sudo find / -name "*.conf" 2>/dev/null
+sudo find/ -name "*.conf" 2>/dev/null

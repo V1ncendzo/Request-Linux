@@ -1,0 +1,362 @@
+dd if=/dev/zero of=/proc/./1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1.337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/pro.c/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/pr.oc/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/.1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1337/./mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1337/m.em bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1337/mem. bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/.proc/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/13.37/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1337/me.m bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1/../1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/pr.oc/1/../1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1/../1337/./mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1/../13.37/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc//1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=//proc/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/p.ro/c/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1337/mem./ bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/13/37/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of='/proc/1337/mem' bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1337/mem bs=1 count=1 seek=1024 conv=no'trunc
+dd if=/dev/zero of=/proc/1337/mem bs=1 count=1 seek=1024 conv=no"."trunc
+dd if=/dev/zero of=/proc/1337/mem bs=1 count=1 seek=1024 co"nv=notrunc"
+dd if=/dev/zero of=/proc/1337/mem bs=1 count=1 seek=1024 con"."v=notrunc
+dd if=/dev/zero of=/proc/1337/mem bs=1 count=1 seek=10"."24 conv=notrunc
+dd if=/dev/zero of=/proc/1337/mem bs=1 count=1 seek=1024 conv=no\ttrunc
+dd if=/dev/zero of=/proc/1337/mem bs=1 count=1 seek=1024 co\nv=notrunc
+dd if=/dev/zero of=/pr""oc/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/pro'c'/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1/3/3/7/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/././1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1337/../1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1337/mem# bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/\1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1337/\mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/./1337/./mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of="/proc"/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1337/mem bs=1 count=1 seek=10$24 conv=notrunc
+dd if=/dev/zero of=/proc/1\\337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/pro.c/.1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1337/mem bs=1 count=1 seek=1024 con\v=notrunc
+dd if=/dev/zero of=/proc/1.3.3.7/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/pro./c/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/././1337/./mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/pro__c/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1337/mem --bs=1 --count=1 --seek=1024 --conv=notrunc
+dd if=/dev/zero of="/proc/1337"/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1337/mem bs=1 c\\ount=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1+3+3+7/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/pr🍣oc/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/pr\oc/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1__337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/01337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/0x539/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/0o2471/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of="/pr""oc/1337/mem" bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/13//37/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/pro..c/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/./1/./3/./3/./7/mem bs=1 count=1 seek=1024 conv=notrunc
+TARGET_PID=1337; dd if=/dev/zero of=/proc/$TARGET_PID/mem bs=1 count=1 seek=1024 conv=notrunc
+pid=1337; dd if=/dev/zero of=/proc/${pid}/mem bs=1 count=1 seek=1024 conv=notrunc
+export P=1337; dd if=/dev/zero of=/proc/$P/mem bs=1 count=1 seek=1024 conv=notrunc
+PROC_ID=1337; dd if=/dev/zero of=/proc/${PROC_ID}/mem bs=1 count=1 seek=1024 conv=notrunc
+_PID=1337; dd if=/dev/zero of=/proc/${_PID}/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/$(echo 1337)/mem bs=1 count=1 seek=1024 conv=notrunc
+pidnum=1337;dd if=/dev/zero of=/proc/$pidnum/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/`echo 1337`/mem bs=1 count=1 seek=1024 conv=notrunc
+id=13;id=$id"37";dd if=/dev/zero of=/proc/$id/mem bs=1 count=1 seek=1024 conv=notrunc
+let pid=1300+37; dd if=/dev/zero of=/proc/$pid/mem bs=1 count=1 seek=1024 conv=notrunc
+p=1337; path="/proc/$p/mem"; dd if=/dev/zero of=$path bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$(echo /proc/1337/mem) bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/${1337}/mem bs=1 count=1 seek=1024 conv=notrunc
+_pId="1337";dd if=/dev/zero of=/proc/${_pId}/mem bs=1 count=1 seek=1024 conv=notrunc
+PROC=1337; dd if=/dev/zero of=/proc/"$PROC"/mem bs=1 count=1 seek=1024 conv=notrunc
+i=13; j=37; dd if=/dev/zero of=/proc/$i$j/mem bs=1 count=1 seek=1024 conv=notrunc
+eval "dd if=/dev/zero of=/proc/1337/mem bs=1 count=1 seek=1024 conv=notrunc"
+PID_NUM=0x539; dd if=/dev/zero of=/proc/$((PID_NUM))/mem bs=1 count=1 seek=1024 conv=notrunc
+pid='1337'; dd if=/dev/zero of=/proc/"$pid"/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/`printf "1337"`/mem bs=1 count=1 seek=1024 conv=notrunc
+
+PID="1337";MEM="/proc/$PID/mem";dd if=/dev/zero of=$MEM bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of="/proc/${1337}/mem" bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/$(expr 1000 + 337)/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/$(bc <<< "1300 + 37")/mem bs=1 count=1 seek=1024 conv=notrunc
+eval dd if=/dev/zero of=/proc/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+target=1337; memfile="/proc/$target/mem"; dd if=/dev/zero of=$memfile bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/$((1000+337))/mem bs=1 count=1 seek=1024 conv=notrunc
+set -- 1337; dd if=/dev/zero of=/proc/$1/mem bs=1 count=1 seek=1024 conv=notrunc
+PID_="1337"; dd if=/dev/zero of=/proc/$PID_/mem bs=1 count=1 seek=1024 conv=notrunc
+eval "pid=1337; dd if=/dev/zero of=/proc/\$pid/mem bs=1 count=1 seek=1024 conv=notrunc"
+dd if=/dev/zero of=/proc/${TARGET:-1337}/mem bs=1 count=1 seek=1024 conv=notrunc
+PRC=13; PRC=$PRC"37"; dd if=/dev/zero of=/proc/$PRC/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/$(cat <<< 1337)/mem bs=1 count=1 seek=1024 conv=notrunc
+procid=1337; dd if=/dev/zero of="/proc/$procid/mem" bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$(echo -n "/proc/1337/mem") bs=1 count=1 seek=1024 conv=notrunc
+echo 1337 > /tmp/.pid; dd if=/dev/zero of=/proc/$(cat /tmp/.pid)/mem bs=1 count=1 seek=1024 conv=notrunc
+read PID <<< 1337; dd if=/dev/zero of=/proc/$PID/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/`awk 'BEGIN{print 1337}'`/mem bs=1 count=1 seek=1024 conv=notrunc
+PID=$((1300+37)); dd if=/dev/zero of=/proc/$PID/mem bs=1 count=1 seek=1024 conv=notrunc
+{ pid=1337; } && dd if=/dev/zero of=/proc/$pid/mem bs=1 count=1 seek=1024 conv=notrunc
+
+proc=0x539; dd if=/dev/zero of=/proc/$((proc))/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/$(tr -d '\n' <<< "1337")/mem bs=1 count=1 seek=1024 conv=notrunc
+printf -v PID 1337; dd if=/dev/zero of=/proc/$PID/mem bs=1 count=1 seek=1024 conv=notrunc
+x=1300; y=37; dd if=/dev/zero of=/proc/$(($x + $y))/mem bs=1 count=1 seek=1024 conv=notrunc
+[[ $((1337)) -eq 1337 ]] && dd if=/dev/zero of=/proc/$((1337))/mem bs=1 count=1 seek=1024 conv=notrunc
+PIDNUM=01337; dd if=/dev/zero of=/proc/$((10#$PIDNUM))/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/`basename /proc/1337/mem`/mem bs=1 count=1 seek=1024 conv=notrunc
+eval $(echo "dd if=/dev/zero of=/proc/1337/mem bs=1 count=1 seek=1024 conv=notrunc")
+p=1;p=$p"337";dd if=/dev/zero of=/proc/$p/mem bs=1 count=1 seek=1024 conv=notrunc
+echo "dd if=/dev/zero of=/proc/1337/mem bs=1 count=1 seek=1024 conv=notrunc" | bash
+exec dd if=/dev/zero of=/proc/$((1300+37))/mem bs=1 count=1 seek=1024 conv=notrunc
+command dd if=/dev/zero of=/proc/${1337}/mem bs=1 count=1 seek=1024 conv=notrunc
+(pid=1337; dd if=/dev/zero of=/proc/$pid/mem bs=1 count=1 seek=1024 conv=notrunc)
+eval "TARGET_PID=1337"; eval "dd if=/dev/zero of=/proc/\$TARGET_PID/mem bs=1 count=1 seek=1024 conv=notrunc"
+x="dd if=/dev/zero of=/proc/1337/mem bs=1 count=1 seek=1024 conv=notrunc"; eval $x
+export pid1337="1337"; dd if=/dev/zero of=/proc/$pid1337/mem bs=1 count=1 seek=1024 conv=notrunc
+declare -i PID=1337; dd if=/dev/zero of=/proc/$PID/mem bs=1 count=1 seek=1024 conv=notrunc
+: ${PID:=1337}; dd if=/dev/zero of=/proc/$PID/mem bs=1 count=1 seek=1024 conv=notrunc
+p='1''3''3''7'; dd if=/dev/zero of=/proc/$p/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of="/proc/$(echo 1337)/mem" bs=1 count=1 seek=1024 conv=notrunc**
+cd /proc/1337 && dd if=/dev/zero of=mem bs=1 count=1 seek=1024 conv=notrunc
+cd /proc/1337 && dd if=/dev/zero of=./mem bs=1 count=1 seek=1024 conv=notrunc
+cd /proc/1337 && dd if=/dev/zero of=../1337/mem bs=1 count=1 seek=1024 conv=notrunc
+cd /proc/1337 && dd if=/dev/zero of=mem bs=1 seek=1024 count=1 conv=notrunc
+cd /proc/1337 && ./dd if=/dev/zero of=mem bs=1 count=1 seek=1024 conv=notrunc
+cd /proc && cd 1337 && dd if=/dev/zero of=mem bs=1 count=1 seek=1024 conv=notrunc
+(cd /proc/1337 && dd if=/dev/zero of=mem bs=1 count=1 seek=1024 conv=notrunc)
+cd /proc/1337 && dd bs=1 if=/dev/zero of=mem count=1 seek=1024 conv=notrunc
+pushd /proc/1337 && dd if=/dev/zero of=mem bs=1 count=1 seek=1024 conv=notrunc && popd
+(cd /proc/1337; dd if=/dev/zero of=mem bs=1 count=1 seek=1024 conv=notrunc)
+cd /proc/1337 && dd if=/dev/zero of=$PWD/mem bs=1 count=1 seek=1024 conv=notrunc
+cd /proc/1337 && /bin/dd if=/dev/zero of=mem bs=1 count=1 seek=1024 conv=notrunc
+cd /proc/1337 && dd if=/dev/zero of=./mem bs=1 count=1 seek=1024 conv=notrunc
+cd /proc/1337 && dd of=mem if=/dev/zero bs=1 count=1 seek=1024 conv=notrunc
+cd /proc/1337 && dd seek=1024 count=1 bs=1 if=/dev/zero of=mem conv=notrunc
+(cd /proc/1337 && /usr/bin/dd if=/dev/zero of=mem bs=1 count=1 seek=1024 conv=notrunc)
+cd /proc/1337 && /usr/bin/dd bs=1 count=1 if=/dev/zero of=mem seek=1024 conv=notrunc
+cd /proc/1337 && dd if=/dev/zero of=mem seek=1024 bs=1 count=1 conv=notrunc
+cd /proc/1337 && dd conv=notrunc seek=1024 if=/dev/zero of=mem bs=1 count=1
+cd /proc/1337 && dd if=/dev/zero bs=1 count=1 of=mem seek=1024 conv=notrunc
+cd /proc/1337 && dd bs=1 if=/dev/zero seek=1024 conv=notrunc of=mem count=1
+cd /proc/1337 && dd seek=1024 of=mem if=/dev/zero count=1 bs=1 conv=notrunc
+(cd /proc/1337 && dd conv=notrunc of=mem seek=1024 bs=1 if=/dev/zero count=1)
+cd /proc/1337 && dd if=/dev/zero of="mem" bs=1 count=1 seek=1024 conv=notrunc
+cd /proc/1337 && dd if=/dev/zero of=$((echo mem)) bs=1 count=1 seek=1024 conv=notrunc
+cd /proc/1337 && eval "dd if=/dev/zero of=mem bs=1 count=1 seek=1024 conv=notrunc"
+cd /proc/1337 && sh -c 'dd if=/dev/zero of=mem bs=1 count=1 seek=1024 conv=notrunc'
+cd /proc && cd 1337 && /bin/dd if=/dev/zero of=mem bs=1 count=1 seek=1024 conv=notrunc
+(cd /proc && cd 1337 && dd if=/dev/zero of=mem bs=1 count=1 seek=1024 conv=notrunc)
+cd /proc/1337 && exec dd if=/dev/zero of=mem bs=1 count=1 seek=1024 conv=notrunc
+cd /proc/1337 && dd if=/dev/zero of=././mem bs=1 count=1 seek=1024 conv=notrunc
+cd /proc/1337 && dd if=/dev/zero of=mem bs=1 seek=1024 conv=notrunc count=1
+cd /proc/1337 && dd if=/dev/zero of=mem conv=notrunc bs=1 count=1 seek=1024
+cd /proc/1337 && dd if=/dev/zero of=mem count=1 conv=notrunc bs=1 seek=1024
+cd /proc/1337 && dd conv=notrunc bs=1 if=/dev/zero of=mem count=1 seek=1024
+cd /proc/1337 && dd count=1 seek=1024 if=/dev/zero of=mem bs=1 conv=notrunc
+(cd /proc/1337; /bin/dd if=/dev/zero of=mem bs=1 count=1 seek=1024 conv=notrunc)
+cd /proc/1337 && dd if=/dev/zero of=$PWD/mem count=1 seek=1024 bs=1 conv=notrunc
+cd /proc/1337 && dd of=mem if=/dev/zero seek=1024 count=1 bs=1 conv=notrunc
+cd /proc/1337 && /bin/dd seek=1024 of=mem count=1 if=/dev/zero bs=1 conv=notrunc
+cd /proc/1337 && dd of=mem bs=1 seek=1024 conv=notrunc count=1 if=/dev/zero
+(cd /proc/1337 && dd of=mem if=/dev/zero bs=1 count=1 conv=notrunc seek=1024)
+cd /proc/1337 && dd bs=1 of=mem if=/dev/zero conv=notrunc count=1 seek=1024
+cd /proc/1337 && dd if=/dev/zero bs=1 of=mem conv=notrunc count=1 seek=1024
+cd /proc/1337 && dd of=mem seek=1024 bs=1 count=1 conv=notrunc if=/dev/zero
+cd /proc/1337 && dd seek=1024 count=1 of=mem bs=1 if=/dev/zero conv=notrunc
+(cd /proc/1337 && dd count=1 bs=1 of=mem seek=1024 conv=notrunc if=/dev/zero)
+cd /proc/1337 && /usr/bin/dd if=/dev/zero of=mem seek=1024 count=1 bs=1 conv=notrunc
+cd /proc/1337 && /usr/bin/dd of=mem if=/dev/zero bs=1 conv=notrunc seek=1024 count=1
+cd /proc/1337 && dd if=/dev/zero of=mem conv=notrunc seek=1024 bs=1 count=1
+cd /proc/1337 && ./dd if=/dev/zero of=mem count=1 seek=1024 bs=1 conv=notrunc
+cd /proc/1337 && /bin/dd of=mem bs=1 count=1 conv=notrunc if=/dev/zero seek=1024
+cd /proc/1337 && sh -c "dd if=/dev/zero of=mem bs=1 count=1 seek=1024 conv=notrunc"
+cd /proc/1337 && printf 'running\n' && dd if=/dev/zero of=mem bs=1 count=1 seek=1024 conv=notrunc
+cd /proc/1337 && (dd if=/dev/zero of=mem bs=1 count=1 seek=1024 conv=notrunc)
+cd /proc/1337 && exec /bin/dd if=/dev/zero of=mem bs=1 count=1 seek=1024 conv=notrunc
+cd /proc/1337 && sudo dd if=/dev/zero of=mem bs=1 count=1 seek=1024 conv=notrunc
+cd /proc/1337 && bash -c 'dd if=/dev/zero of=mem bs=1 count=1 seek=1024 conv=notrunc'
+cd /proc && cd 1337 && exec dd if=/dev/zero of=mem bs=1 count=1 seek=1024 conv=notrunc
+cd /proc/1337 && $(which dd) if=/dev/zero of=mem bs=1 count=1 seek=1024 conv=notrunc
+bs=1 dd if=/dev/zero count=1 of=/proc/1337/mem seek=1024 conv=notrunc
+conv=notrunc dd bs=1 if=/dev/zero seek=1024 count=1 of=/proc/1337/mem
+seek=1024 if=/dev/zero count=1 bs=1 dd of=/proc/1337/mem conv=notrunc
+dd count=1 seek=1024 if=/dev/zero of=/proc/1337/mem bs=1 conv=notrunc
+dd bs=1 count=1 conv=notrunc of=/proc/1337/mem if=/dev/zero seek=1024
+dd of=/proc/1337/mem conv=notrunc bs=1 if=/dev/zero seek=1024 count=1
+conv=notrunc seek=1024 dd count=1 if=/dev/zero of=/proc/1337/mem bs=1
+count=1 bs=1 dd seek=1024 if=/dev/zero conv=notrunc of=/proc/1337/mem
+if=/dev/zero seek=1024 conv=notrunc dd of=/proc/1337/mem bs=1 count=1
+seek=1024 dd bs=1 count=1 conv=notrunc of=/proc/1337/mem if=/dev/zero
+dd conv=notrunc of=/proc/1337/mem count=1 bs=1 seek=1024 if=/dev/zero
+of=/proc/1337/mem bs=1 dd count=1 conv=notrunc seek=1024 if=/dev/zero
+if=/dev/zero bs=1 dd conv=notrunc of=/proc/1337/mem seek=1024 count=1
+conv=notrunc dd of=/proc/1337/mem count=1 seek=1024 bs=1 if=/dev/zero
+bs=1 of=/proc/1337/mem dd seek=1024 count=1 conv=notrunc if=/dev/zero
+of=/proc/1337/mem dd if=/dev/zero conv=notrunc count=1 bs=1 seek=1024
+seek=1024 conv=notrunc count=1 dd of=/proc/1337/mem bs=1 if=/dev/zero
+dd seek=1024 of=/proc/1337/mem bs=1 if=/dev/zero count=1 conv=notrunc
+count=1 of=/proc/1337/mem if=/dev/zero dd bs=1 conv=notrunc seek=1024
+dd if=/dev/zero seek=1024 bs=1 of=/proc/1337/mem count=1 conv=notrunc
+of=/proc/1337/mem count=1 seek=1024 dd conv=notrunc if=/dev/zero bs=1
+conv=notrunc bs=1 count=1 dd if=/dev/zero seek=1024 of=/proc/1337/mem
+dd if=/dev/zero of=/proc/1337/mem seek=1024 count=1 conv=notrunc bs=1
+dd of=/proc/1337/mem seek=1024 if=/dev/zero conv=notrunc bs=1 count=1
+if=/dev/zero dd of=/proc/1337/mem count=1 bs=1 seek=1024 conv=notrunc
+seek=1024 dd of=/proc/1337/mem count=1 conv=notrunc if=/dev/zero bs=1
+dd count=1 if=/dev/zero of=/proc/1337/mem bs=1 conv=notrunc seek=1024
+bs=1 seek=1024 of=/proc/1337/mem dd if=/dev/zero count=1 conv=notrunc
+conv=notrunc if=/dev/zero seek=1024 dd bs=1 count=1 of=/proc/1337/mem
+dd if=/dev/zero count=1 seek=1024 bs=1 conv=notrunc of=/proc/1337/mem
+of=/proc/1337/mem conv=notrunc seek=1024 bs=1 dd if=/dev/zero count=1
+seek=1024 of=/proc/1337/mem dd bs=1 if=/dev/zero conv=notrunc count=1
+conv=notrunc of=/proc/1337/mem dd count=1 bs=1 if=/dev/zero seek=1024
+if=/dev/zero dd bs=1 seek=1024 of=/proc/1337/mem count=1 conv=notrunc
+count=1 dd seek=1024 if=/dev/zero conv=notrunc bs=1 of=/proc/1337/mem
+bs=1 seek=1024 count=1 conv=notrunc of=/proc/1337/mem dd if=/dev/zero
+dd if=/dev/zero count=1 bs=1 of=/proc/1337/mem conv=notrunc seek=1024
+dd bs=1 if=/dev/zero of=/proc/1337/mem seek=1024 conv=notrunc count=1
+count=1 conv=notrunc if=/dev/zero of=/proc/1337/mem dd bs=1 seek=1024
+of=/proc/1337/mem dd count=1 seek=1024 bs=1 if=/dev/zero conv=notrunc
+conv=notrunc count=1 dd if=/dev/zero of=/proc/1337/mem seek=1024 bs=1
+seek=1024 dd if=/dev/zero conv=notrunc of=/proc/1337/mem count=1 bs=1
+dd seek=1024 bs=1 of=/proc/1337/mem conv=notrunc count=1 if=/dev/zero
+bs=1 dd seek=1024 if=/dev/zero of=/proc/1337/mem conv=notrunc count=1
+conv=notrunc of=/proc/1337/mem bs=1 seek=1024 if=/dev/zero dd count=1
+if=/dev/zero seek=1024 dd bs=1 count=1 conv=notrunc of=/proc/1337/mem
+seek=1024 count=1 conv=notrunc dd if=/dev/zero bs=1 of=/proc/1337/mem
+dd if=/dev/zero conv=notrunc bs=1 of=/proc/1337/mem seek=1024 count=1
+dd bs=1 conv=notrunc seek=1024 of=/proc/1337/mem if=/dev/zero count=1
+conv=notrunc if=/dev/zero dd seek=1024 count=1 of=/proc/1337/mem bs=1
+bs=1 dd count=1 if=/dev/zero conv=notrunc seek=1024 of=/proc/1337/mem
+count=1 seek=1024 if=/dev/zero of=/proc/1337/mem bs=1 dd conv=notrunc
+dd of=/proc/1337/mem if=/dev/zero count=1 seek=1024 conv=notrunc bs=1
+seek=1024 of=/proc/1337/mem if=/dev/zero bs=1 count=1 conv=notrunc dd
+bs=1 count=1 of=/proc/1337/mem seek=1024 dd conv=notrunc if=/dev/zero
+count=1 conv=notrunc seek=1024 bs=1 dd of=/proc/1337/mem if=/dev/zero
+if=/dev/zero count=1 conv=notrunc dd of=/proc/1337/mem seek=1024 bs=1
+dd seek=1024 of=/proc/1337/mem count=1 conv=notrunc bs=1 if=/dev/zero
+conv=notrunc dd if=/dev/zero bs=1 of=/proc/1337/mem count=1 seek=1024
+dd of=/proc/1337/mem seek=1024 count=1 if=/dev/zero bs=1 conv=notrunc
+dd if=/dev/zero of=/pr%6Fc/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$(echo -e "/proc/1337/mem") bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$(printf "/proc/%s/%s" 1337 mem) bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/pr\x6Fc/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1337/$(echo mem) bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/$(echo 1337)/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of="/proc/1337/mem" bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=\057proc\0571337\057mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$(echo /proc/1337/mem | base64 -d <<< cHJvYy8xMzM3L21lbQo=) bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$(echo -n "/proc/1337/mem" | tr -d "\n") bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/$(echo proc)/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/$((1300+37))/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$(echo -e '\x2fproc\x2f1337\x2fmem') bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1337/$(printf "\x6d\x65\x6d") bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$(echo /proc/1337/mem | sed 's/.*/\/proc\/1337\/mem/') bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/pr$(echo oc)/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$(cut -c1-18 <<<"/proc/1337/mem") bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/$(echo -n 1337)/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$(echo /proc/1337/mem | awk '{print $1}') bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1337/$(cat <<<"mem") bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$(eval echo /proc/1337/mem) bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of="/proc/1337/""mem" bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$'/proc/1337/mem' bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$(echo -ne "/proc/1337/mem") bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$(echo /proc/1337/mem | xargs) bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$(basename /proc/1337/mem | sed 's/^/\/proc\/1337\//') bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$(dirname /proc/1337/mem)/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$(echo "/proc/1337/mem" | tee /dev/null) bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of="$(echo /proc)/1337/mem" bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of="/proc"/"1337"/"mem" bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$(echo -n "/proc/1337/mem" | rev | rev) bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of="$(cat <<< /proc/1337/mem)" bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$(echo -n /proc/1337/mem | sed 's/\//\\x2f/g' | xargs printf) bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$(echo -n "/proc/1337/mem" | base64 | base64 -d) bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/`echo -n 1337`/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$(echo -n '/proc/1337/mem' | tr -d '\n') bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of="/pro""c/133""7/mem" bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$(echo /proc/1${3}3${7}/mem) bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of="/proc/$(echo 1337)/mem" bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of="$(printf '/proc/1337/mem')" bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$((0/1))/proc/1337/mem bs=1 count=1 seek=1024 conv=notrunc || dd if=/dev/zero of=/proc/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of="/proc"/1337"/"mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$(eval echo $(echo /proc)/1337/mem) bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of="/proc"/"1337"/"$(echo mem)" bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$(IFS=/; echo /proc/1337/mem) bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/$(printf 'proc')/$(printf '1337')/$(printf 'mem') bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$'\057proc\0571337\057mem' bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/$((1000+337))/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$(echo "/proc/1337/mem" | cut -c1-17)mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$(echo -n "/proc/1337" && echo "/mem") bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$(echo /proc/ | sed 's/$/1337\/mem/') bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/$(echo -n "proc/1337/mem") bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of="/""proc/1337/""mem" bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/$(echo p)roc/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/13$((30+7))/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$(echo /proc; echo /1337/mem) bs=1 count=1 seek=1024 conv=notrunc
+`dd if=/dev/zero of=/proc/$USER/../1337/mem bs=1 count=1 seek=1024 conv=notrunc` (fake obfuscation)
+dd if=/dev/zero of=$(eval echo -n /proc/1337/mem) bs=1 count=1 seek=1024 conv=notrunc
+`dd if=/dev/zero of=/proc//1337//mem bs=1 count=1 seek=1024 conv=notrunc` (extra slashes)
+dd if=/dev/zero of="/pr""oc/13""37/m""em" bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/./1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1337/./mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc//1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1337//mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1337/m""em bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/13$((30+7))/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/pro""c/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero o"f"=/proc/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/pro\\c/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/pr\oc/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/"proc"/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1337/mem bs=1 coun"t"=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/13"37"/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1""337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/13\\37/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/pro\c/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of="/proc"/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1337/mem b""s=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1337/mem bs=1 co""unt=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1337/mem bs=1 count=1 seek=10""24 conv=notrunc
+dd if=/dev/zero of=/proc/1/../1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1337/././mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of='/proc/1337/mem' bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/$(echo 1337)/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/$((1300+37))/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/pro""c/13""37/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/'proc'/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of="/proc/1337/mem" bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/13\37/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1\337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1337/m""e""m bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/13'37'/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/$'proc'/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/pro\tc/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/pro%c/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1$((300+1037))/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/$(echo 13$((10+27)))/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/$("proc")/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1337/mem bs=1 count=1 seek=10$((1000+24)) conv=notrunc
+dd if=/dev/zero of=/proc/13"/"37/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/pr""oc/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero o""f""=/proc/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/procc/../1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1/3/3/7/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc///1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1337/m\em bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/pr🙃oc/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1️⃣3️⃣3️⃣7️⃣/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/pro%c/$(printf '1%03d\n' 337)/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1/../1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/./1337/./mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/pro%c/1../1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of="/pr""oc/1337/mem" bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1"/"337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/1_3_3_7/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/proc/13/../1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/$("proc")/$(("1300"+"37"))/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/$((0+47))/proc/1337/mem bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=$(echo /proc/1337/mem) bs=1 count=1 seek=1024 conv=notrunc
+dd if=/dev/zero of=/pro/c/1337/mem bs=1 count=1 seek=1024 conv=notrunc

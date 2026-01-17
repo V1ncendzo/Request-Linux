@@ -1,0 +1,360 @@
+/usr/bin/dd "if"=/dev/zero "of"=/tmp/confidential.dat
+/usr/bin/dd 'if'=/dev/zero 'of'=/tmp/confidential.dat
+/usr/bin/dd i"f"=/dev/zero o"f"=/tmp/confidential.dat
+/usr/bin/dd i'f'=/dev/zero o'f'=/tmp/confidential.dat
+/usr/bin/dd i\f=/dev/zero o\f=/tmp/confidential.dat
+/usr/bin/dd i\f=/dev/zero o\f=/tmp/confidential.dat
+/usr/bin/dd i$()f=/dev/zero o$()f=/tmp/confidential.dat
+/usr/bin/dd i""f=/dev/zero o""f=/tmp/confidential.dat
+/usr/bin/dd "i""f"=/dev/zero "o""f"=/tmp/confidential.dat
+/usr/bin/dd "i""f"='/dev/zero' "o""f"='/tmp/confidential.dat'
+/usr/bin/dd 'i''f'="/dev/zero" 'o''f'="/tmp/confidential.dat"
+/usr/bin/dd 'i''f''='"/dev/zero" 'o''f''='"/tmp/confidential.dat"
+/usr/bin/dd "if"=</dev/zero "of"=</tmp/confidential.dat
+/usr/bin/dd "i"f="/dev/zero" "o"f="/tmp/confidential.dat"
+/usr/bin/dd "if="/dev/zero "of="/tmp/confidential.dat
+/usr/bin/dd i'"f"'=/dev/zero o'"f"'=/tmp/confidential.dat
+/usr/bin/dd \i\f=/dev/zero \o\f=/tmp/confidential.dat
+/usr/bin/dd 'i'\''f'=/dev/zero 'o'\''f'=/tmp/confidential.dat
+/usr/bin/dd i""f=/dev/zero o""f=/tmp/confidential.dat
+/usr/bin/dd 'i'""f=/dev/zero 'o'""f=/tmp/confidential.dat
+/usr/bin/dd i=f/dev/zero o=f/tmp/confidential.dat
+/usr/bin/dd "i=f"=/dev/zero "o=f"=/tmp/confidential.dat
+/usr/bin/dd i""=""f=/dev/zero o""=""f=/tmp/confidential.dat
+/usr/bin/dd "i"="f"=/dev/zero "o"="f"=/tmp/confidential.dat
+/usr/bin/dd i\"f=/dev/zero o\"f=/tmp/confidential.dat
+/usr/bin/dd i\=f=/dev/zero o\=f=/tmp/confidential.dat
+/usr/bin/dd if\==/dev/zero of\==/tmp/confidential.dat
+/usr/bin/dd if=""/dev/zero of=""/tmp/confidential.dat
+/usr/bin/dd i=f/dev/zero o=f/tmp/confidential.dat
+/usr/bin/dd 'i=f'='/dev/zero' 'o=f'='/tmp/confidential.dat'
+/usr/bin/dd --"if"=/dev/zero --"of"=/tmp/confidential.dat
+/usr/bin/dd --i"f"=/dev/zero --o"f"=/tmp/confidential.dat
+/usr/bin/dd --'if'=/dev/zero --'of'=/tmp/confidential.dat
+/usr/bin/dd --i'f'=/dev/zero --o'f'=/tmp/confidential.dat
+/usr/bin/dd --i""f=/dev/zero --o""f=/tmp/confidential.dat
+/usr/bin/dd -i"f"=/dev/zero -o"f"=/tmp/confidential.dat
+/usr/bin/dd -'if'=/dev/zero -'of'=/tmp/confidential.dat
+/usr/bin/dd -i'f'=/dev/zero -o'f'=/tmp/confidential.dat
+/usr/bin/dd --i"f"==/dev/zero --o"f"==/tmp/confidential.dat
+/usr/bin/dd -i"f"==/dev/zero -o"f"==/tmp/confidential.dat
+/usr/bin/dd i"f"==/dev/zero o"f"==/tmp/confidential.dat
+/usr/bin/dd "i"f==/dev/zero "o"f==/tmp/confidential.dat
+/usr/bin/dd 'i'='f'=/dev/zero 'o'='f'=/tmp/confidential.dat
+/usr/bin/dd i='f'=/dev/zero o='f'=/tmp/confidential.dat
+/usr/bin/dd "i=f"="/dev/zero" "o=f"="/tmp/confidential.dat"
+/usr/bin/dd --"i""f"=/dev/zero --"o""f"=/tmp/confidential.dat
+/usr/bin/dd "i"f""=/dev/zero "o"f""=/tmp/confidential.dat
+/usr/bin/dd i''f=/dev/zero o''f=/tmp/confidential.dat
+/usr/bin/dd i%%f=/dev/zero o%%f=/tmp/confidential.dat
+/usr/bin/dd i@@f=/dev/zero o@@f=/tmp/confidential.dat
+/usr/bin/dd i\=f\=/dev/zero o\=f\=/tmp/confidential.dat
+/usr/bin/dd i\_f=/dev/zero o\_f=/tmp/confidential.dat
+/usr/bin/dd i%f=/dev/zero o%f=/tmp/confidential.dat
+/usr/bin/dd if =/dev/zero of =/tmp/confidential.dat
+/usr/bin/dd 'i''f'==/dev/zero 'o''f'==/tmp/confidential.dat
+/usr/bin/dd --i--f=/dev/zero --o--f=/tmp/confidential.dat
+/usr/bin/dd --i__f=/dev/zero --o__f=/tmp/confidential.dat
+/usr/bin/dd i=f=/dev/zero o=f=/tmp/confidential.dat
+/usr/bin/dd i=f::/dev/zero o=f::/tmp/confidential.dat
+/usr/bin/dd "i=f"::/dev/zero "o=f"::/tmp/confidential.dat
+/usr/bin/shred -u /tmp/confidential.dat
+cat /dev/zero > /tmp/confidential.dat
+cat /dev/null > /tmp/confidential.dat
+cat /dev/urandom > /tmp/confidential.dat
+dd if=/dev/urandom of=/tmp/confidential.dat
+shred /tmp/confidential.dat
+shred -n 3 -z -u /tmp/confidential.dat
+cp /dev/null /tmp/confidential.dat
+cp /dev/zero /tmp/confidential.dat
+cp /dev/urandom /tmp/confidential.dat
+tr -dc A-Za-z0-9 </dev/urandom | head -c 1024 > /tmp/confidential.dat
+yes | head -c 1024 > /tmp/confidential.dat
+echo -n "" > /tmp/confidential.dat
+> /tmp/confidential.dat
+dd if=/dev/urandom of=/tmp/confidential.dat bs=1M count=1
+cat /dev/urandom | head -c 2048 > /tmp/confidential.dat
+python3 -c "open('/tmp/confidential.dat','wb').write(b'\\x00'*1024)"
+openssl rand 1024 > /tmp/confidential.dat
+base64 /dev/urandom | head -c 1024 > /tmp/confidential.dat
+dd if=/dev/urandom of=/tmp/confidential.dat bs=512 count=4
+yes "0" | head -c 1024 > /tmp/confidential.dat
+printf '%*s' 1024 | tr ' ' '\0' > /tmp/confidential.dat
+perl -e 'print "\\0"x1024' > /tmp/confidential.dat
+dd if=/dev/urandom of=/tmp/confidential.dat conv=notrunc
+dd if=/dev/urandom of=/tmp/confidential.dat status=none
+cat /dev/zero | dd of=/tmp/confidential.dat
+dd if=/dev/random of=/tmp/confidential.dat bs=1M count=1
+hexdump /dev/urandom | head -c 1024 > /tmp/confidential.dat
+pv /dev/urandom > /tmp/confidential.dat
+awk 'BEGIN{for(i=0;i<1024;i++)printf("%c",0)}' > /tmp/confidential.dat
+head -c 2048 /dev/urandom > /tmp/confidential.dat
+dd if=/dev/urandom of=/tmp/confidential.dat bs=1024 count=2
+dd if=/dev/urandom of=/tmp/confidential.dat oflag=direct
+dd if=/dev/urandom of=/tmp/confidential.dat seek=0
+shred -n 5 -z /tmp/confidential.dat
+dd if=/dev/urandom of=/tmp/confidential.dat bs=4096 count=1
+dd if=/dev/random of=/tmp/confidential.dat bs=512 count=4
+base64 /dev/urandom | dd of=/tmp/confidential.dat bs=1M count=1
+cat /dev/urandom | dd of=/tmp/confidential.dat
+tr -dc A-F0-9 < /dev/urandom | head -c 1024 > /tmp/confidential.dat
+python3 -c "import os; os.write(1, os.urandom(2048))" > /tmp/confidential.dat
+dd if=/dev/urandom of=/tmp/confidential.dat bs=1 count=0 seek=2048
+dd if=/dev/zero of=/tmp/confidential.dat bs=512 count=4 conv=notrunc
+dd if=/dev/urandom of=/tmp/confidential.dat bs=1M count=1 conv=nocreat
+yes A | head -c 4096 > /tmp/confidential.dat
+cat /dev/urandom | tr -dc 'A-Za-z0-9' | head -c 1024 > /tmp/confidential.dat
+od -An -N1024 -tx1 /dev/urandom > /tmp/confidential.dat
+perl -e 'print int(rand(256)) for 1..1024' > /tmp/confidential.dat
+awk 'BEGIN{for(i=0;i<1024;i++)printf("%c",int(rand()*256))}' > /tmp/confidential.dat
+dd if=/dev/urandom of=/tmp/confidential.dat count=2048
+openssl enc -aes-256-cbc -nosalt -in /dev/zero -out /tmp/confidential.dat -pass pass:1234
+cat /dev/urandom | tee /tmp/confidential.dat > /dev/null
+dd if=/dev/urandom | gzip > /tmp/confidential.dat
+dd if=/dev/urandom | bzip2 > /tmp/confidential.dat
+yes "$(date)" | head -c 1024 > /tmp/confidential.dat
+bash -c "head -c 1024 /dev/urandom > /tmp/confidential.dat"
+hexdump -v -n 1024 -e '/1 "%02X"' /dev/urandom > /tmp/confidential.dat
+dd if=/dev/urandom bs=1 count=1024 > /tmp/confidential.dat
+pv -q /dev/urandom | head -c 1024 > /tmp/confidential.dat
+gzip -c /dev/urandom | dd of=/tmp/confidential.dat bs=1K count=1
+/usr/bin/dd if=/dev/zero > /tmp/confidential.dat
+/bin/dd if=/dev/zero > /tmp/confidential.dat
+/usr/bin/dd if=/dev/zero > /tmp/secret.txt
+/usr/bin/dd if=/dev/zero > /tmp/data.wipe
+/usr/bin/dd if=/dev/zero > /tmp/.hidden
+/usr/bin/dd if=/dev/zero > /var/tmp/confidential.dat
+/usr/bin/dd if=/dev/zero > ~/zero_out
+/usr/bin/dd if=/dev/zero > /tmp/tmpfile1
+/usr/bin/dd if=/dev/zero > /tmp/tmpfile2
+/usr/bin/dd if=/dev/zero > /tmp/tmpfile3
+/usr/bin/dd if=/dev/zero > /root/wiped
+/usr/bin/dd if=/dev/zero > ./confidential.dat
+/usr/bin/dd if=/dev/zero > confidential.dat
+/usr/bin/dd if=/dev/zero > /dev/shm/wipefile
+/usr/bin/dd if=/dev/zero > /tmp/output.bin
+/usr/bin/dd if=/dev/zero bs=512 count=1000 > /tmp/confidential.dat
+/usr/bin/dd if=/dev/zero status=none > /tmp/confidential.dat
+/usr/bin/dd if=/dev/zero conv=notrunc > /tmp/confidential.dat
+/usr/bin/dd if=/dev/zero bs=1M count=5 > /tmp/confidential.dat
+/usr/bin/dd if=/dev/zero > /tmp/f1
+/usr/bin/dd if=/dev/zero > /tmp/f2
+/usr/bin/dd if=/dev/zero > /tmp/f3
+/usr/bin/dd if=/dev/zero > /tmp/f4
+/usr/bin/dd if=/dev/zero > /tmp/f5
+/usr/bin/dd if=/dev/zero > /tmp/.cachefile
+/usr/bin/dd if=/dev/zero > /tmp/.datfile
+/usr/bin/dd if=/dev/zero > /tmp/dd_out
+/usr/bin/dd if=/dev/zero > /tmp/wiper.log
+/usr/bin/dd if=/dev/zero > /tmp/.tmp123
+/usr/bin/dd if=/dev/zero > /tmp/output123.txt
+/usr/bin/dd if=/dev/zero > /tmp/zfile01.bin
+/usr/bin/dd if=/dev/zero > /tmp/delete.me
+/usr/bin/dd if=/dev/zero > /tmp/nullpad.img
+/usr/bin/dd if=/dev/zero > /tmp/zeroout.dump
+/usr/bin/dd if=/dev/zero > /tmp/zeroed.disk
+/usr/bin/dd if=/dev/zero > /tmp/clean.txt
+/usr/bin/dd if=/dev/zero > /tmp/_wipe.log
+/usr/bin/dd if=/dev/zero > /tmp/logs/wipe1
+/usr/bin/dd if=/dev/zero > /tmp/logs/wipe2
+/usr/bin/dd if=/dev/zero > /tmp/logs/wipe3
+/usr/bin/dd if=/dev/zero > /home/user/wiped.dat
+/usr/bin/dd if=/dev/zero > /var/log/.dd_wipe
+/usr/bin/dd if=/dev/zero > $(mktemp /tmp/ddXXXX)
+/usr/bin/dd if=/dev/zero > $(mktemp -u)
+/usr/bin/dd if=/dev/zero > "$(echo /tmp/file1)"
+/usr/bin/dd if=/dev/zero > "$(dirname /tmp/abc)/file2"
+/usr/bin/dd if=/dev/zero > "/tmp/$(echo wiped.dat)"
+/usr/bin/dd if=/dev/zero > /tmp/$(date +%s).bin
+/usr/bin/dd if=/dev/zero > /tmp/zero-$(uuidgen)
+/usr/bin/dd if=/dev/zero > /tmp/dd$(whoami).log
+/usr/bin/dd if=/dev/zero > "/tmp/$(hostname)_wipe.log"
+/usr/bin/dd if=/dev/zero > /tmp/file`date +%s`
+/usr/bin/dd if=/dev/zero > /tmp/dd_output_$(id -u)
+/usr/bin/dd if=/dev/zero > /tmp/temp-$$.bin
+/usr/bin/dd if=/dev/zero > /tmp/.${RANDOM}.dat
+/usr/bin/dd if=/dev/zero > /tmp/zero_block.$RANDOM
+/usr/bin/dd if=/dev/zero > /tmp/`uuidgen`.tmp
+/usr/bin/dd if=/dev/zero > /tmp/zero_fill_${USER}
+/usr/bin/dd if=/dev/zero > /tmp/noof_flag_used
+/usr/bin/dd if=/dev/zero > /tmp/finalwipe.txt
+/usr/bin/dd of=/tmp/confidential.dat if=/dev/zero
+dd of=/tmp/confidential.dat if=/dev/zero
+dd if=/dev/zero of=/tmp/confidential.dat
+dd of=/tmp/confidential.dat if=/dev/zero bs=1M
+dd bs=1M of=/tmp/confidential.dat if=/dev/zero
+dd if=/dev/zero bs=1M of=/tmp/confidential.dat
+/usr/bin/dd bs=512 if=/dev/zero of=/tmp/confidential.dat
+/usr/bin/dd of=/tmp/confidential.dat bs=512 if=/dev/zero
+dd count=1000 if=/dev/zero of=/tmp/confidential.dat
+dd if=/dev/zero count=1000 of=/tmp/confidential.dat
+dd of=/tmp/confidential.dat count=1000 if=/dev/zero
+/usr/bin/dd of=/tmp/confidential.dat if=/dev/zero count=1000
+/usr/bin/dd count=1000 of=/tmp/confidential.dat if=/dev/zero
+dd if=/dev/zero of=/tmp/confidential.dat conv=notrunc
+dd of=/tmp/confidential.dat conv=notrunc if=/dev/zero
+dd conv=notrunc if=/dev/zero of=/tmp/confidential.dat
+/usr/bin/dd conv=notrunc of=/tmp/confidential.dat if=/dev/zero
+/usr/bin/dd if=/dev/zero conv=notrunc of=/tmp/confidential.dat
+dd bs=1024 if=/dev/zero of=/tmp/confidential.dat count=1
+dd count=1 bs=1024 if=/dev/zero of=/tmp/confidential.dat
+dd of=/tmp/confidential.dat if=/dev/zero bs=1024 count=1
+dd if=/dev/zero bs=1024 count=1 of=/tmp/confidential.dat
+/usr/bin/dd of=/tmp/confidential.dat count=1 bs=1024 if=/dev/zero
+/usr/bin/dd bs=1024 count=1 if=/dev/zero of=/tmp/confidential.dat
+/usr/bin/dd if=/dev/zero of=/tmp/confidential.dat status=none
+dd status=none if=/dev/zero of=/tmp/confidential.dat
+dd of=/tmp/confidential.dat status=none if=/dev/zero
+dd if=/dev/zero status=none of=/tmp/confidential.dat
+/usr/bin/dd status=none of=/tmp/confidential.dat if=/dev/zero
+/usr/bin/dd if=/dev/zero status=none of=/tmp/confidential.dat bs=1M
+dd of=/tmp/confidential.dat bs=1M if=/dev/zero status=progress
+/usr/bin/dd status=progress if=/dev/zero of=/tmp/confidential.dat bs=1M
+dd bs=1M status=progress of=/tmp/confidential.dat if=/dev/zero
+dd if=/dev/zero status=progress bs=1M of=/tmp/confidential.dat
+/usr/bin/dd if=/dev/zero of=/tmp/confidential.dat count=2048 bs=512
+/usr/bin/dd bs=512 count=2048 of=/tmp/confidential.dat if=/dev/zero
+dd of=/tmp/confidential.dat if=/dev/zero bs=512 count=2048
+dd count=2048 of=/tmp/confidential.dat if=/dev/zero bs=512
+dd if=/dev/zero count=2048 bs=512 of=/tmp/confidential.dat
+/usr/bin/dd if=/dev/zero of=/tmp/confidential.dat seek=0
+dd seek=0 if=/dev/zero of=/tmp/confidential.dat
+dd of=/tmp/confidential.dat seek=0 if=/dev/zero
+dd if=/dev/zero of=/tmp/confidential.dat conv=fdatasync
+dd conv=fdatasync of=/tmp/confidential.dat if=/dev/zero
+dd of=/tmp/confidential.dat conv=fdatasync if=/dev/zero
+/usr/bin/dd conv=fdatasync if=/dev/zero of=/tmp/confidential.dat
+dd bs=4096 count=1 if=/dev/zero of=/tmp/confidential.dat
+dd count=1 of=/tmp/confidential.dat bs=4096 if=/dev/zero
+/usr/bin/dd if=/dev/zero bs=4096 of=/tmp/confidential.dat count=1
+dd bs=4096 of=/tmp/confidential.dat count=1 if=/dev/zero
+dd if=/dev/zero of=/tmp/confidential.dat status=progress conv=fsync
+/usr/bin/dd status=progress conv=fsync of=/tmp/confidential.dat if=/dev/zero
+dd conv=fsync status=progress if=/dev/zero of=/tmp/confidential.dat
+dd of=/tmp/confidential.dat conv=fsync if=/dev/zero status=progress
+dd if=/dev/zero conv=fsync of=/tmp/confidential.dat status=progress
+/usr/bin/dd bs=2M if=/dev/zero count=10 of=/tmp/confidential.dat
+dd count=10 bs=2M of=/tmp/confidential.dat if=/dev/zero
+dd of=/tmp/confidential.dat if=/dev/zero bs=2M count=10
+dd if=/dev/zero of=/tmp/confidential.dat bs=2M count=10
+/usr/bin/dd count=10 if=/dev/zero of=/tmp/confidential.dat bs=2M
+/usr/bin/dd if=/dev/zero of=/tmp/$(echo 636f6e666964656e7469616c2e646174 | xxd -r -p)
+/usr/bin/dd if=$(echo /dev/zero) of=/tmp/confidential.dat
+/usr/bin/dd if=/dev/zero of=$(printf '/tmp/%s' confidential.dat)
+/usr/bin/dd if=/dev/zero of=$(echo /tmp/confidential.dat | base64 -d <<< L3RtcC9jb25maWRlbnRpYWwuZGF0)
+/usr/bin/dd if=$'\057dev\057zero' of=$'\057tmp\057confidential.dat'
+/usr/bin/dd if=$(echo -n /dev/zero) of=$(echo -n /tmp/confidential.dat)
+/usr/bin/dd if=$(cat <<< "/dev/zero") of=$(cat <<< "/tmp/confidential.dat")
+/usr/bin/dd if=$(echo "/dev"/zero) of=$(echo "/tmp"/confidential.dat)
+/usr/bin/dd if=$(echo -e "/dev/zero") of=$(echo -e "/tmp/confidential.dat")
+/usr/bin/dd if=/dev/zero of=$(perl -e 'print "/tmp/confidential.dat"')
+/usr/bin/dd if=$(python3 -c 'print("/dev/zero")') of=$(python3 -c 'print("/tmp/confidential.dat")')
+/usr/bin/dd if=$(printf "/dev/%s" "zero") of=$(printf "/tmp/%s" "confidential.dat")
+/usr/bin/dd if=/dev/$(echo "zero") of=/tmp/$(echo "confidential.dat")
+/usr/bin/dd if=/dev/zero of=/tmp/$(echo "confidential.dat")
+/usr/bin/dd $(echo "if=/dev/zero") $(echo "of=/tmp/confidential.dat")
+/usr/bin/dd $(cat <<EOF if=/dev/zero of=/tmp/confidential.dat EOF )
+/usr/bin/dd if=/dev/zero of=/tmp/$(tr -d '\n' <<< "confidential.dat")
+/usr/bin/dd if=$(cat /proc/self/fd/0 <<< "/dev/zero") of=$(cat /proc/self/fd/0 <<< "/tmp/confidential.dat")
+/usr/bin/dd if=$(/bin/echo /dev/zero) of=$(/bin/echo /tmp/confidential.dat)
+/usr/bin/dd if="/dev"/zero of="/tmp"/confidential.dat
+/usr/bin/dd if=/dev/$(echo -n "zero") of=/tmp/$(echo -n "confidential.dat")
+/usr/bin/dd if=$'\057dev\057zero' of=$'\057tmp\057confidential\056dat'
+/usr/bin/dd of=/tmp/confidential.dat if=/dev/zero
+/usr/bin/dd if=/dev/zero of=/tmp/$(echo 636f6e66 | xxd -r -p)$(echo 6964656e7469616c2e646174 | xxd -r -p)
+/usr/bin/dd if=$(echo -n "/dev/zero") of=$HOME/../tmp/confidential.dat
+/usr/bin/dd if=/dev/zero of=$(readlink -f /tmp/confidential.dat)
+/usr/bin/dd if=/dev/$(echo -n 'z' ; echo 'ero') of=/tmp/confidential.dat
+/usr/bin/dd if=$(echo /d*/z*) of=$(echo /t*/c*)
+/usr/bin/dd if="$(echo /dev)/zero" of="$(echo /tmp)/confidential.dat"
+/usr/bin/dd "$(echo if=/dev/zero)" "$(echo of=/tmp/confidential.dat)"
+/usr/bin/dd $(printf 'if=%s' /dev/zero) $(printf 'of=%s' /tmp/confidential.dat)
+/usr/bin/dd $((0+0))$(echo if=/dev/zero) $(echo of=/tmp/confidential.dat)
+/usr/bin/dd if=/d$(echo ev)/zero of=/t$(echo mp)/confidential.dat
+/usr/bin/dd if=/dev/zero of=$(cat <<<"/tmp/confidential.dat")
+/usr/bin/dd "i""f=/dev/zero" "o""f=/tmp/confidential.dat"
+/usr/bin/dd if=/dev/zero of="/tmp"/"confidential.dat"
+/usr/bin/dd if=/dev/zero of="/tmp/""confidential.dat"
+/usr/bin/dd $(echo -n "if")=/dev/zero $(echo -n "of")=/tmp/confidential.dat
+/usr/bin/dd $(eval echo "if=/dev/zero") $(eval echo "of=/tmp/confidential.dat")
+/usr/bin/dd $(basename if)=/dev/zero $(basename of)=/tmp/confidential.dat
+/usr/bin/dd if="/d""ev/ze""ro" of="/tm""p/co""nfidential.dat"
+/usr/bin/dd if=$(echo '/dev/zero') of=$(echo '/tmp/confidential.dat')
+/usr/bin/dd if=/dev/zero of=$TMPDIR/confidential.dat
+/usr/bin/dd if="/dev/zero" of=/tmp/$(echo c$(echo onfidential).dat)
+/usr/bin/dd --if=/dev/zero --of=/tmp/confidential.dat
+/usr/bin/dd if=</dev/zero of=>/tmp/confidential.dat
+/usr/bin/dd i\f=/dev/zero o\f=/tmp/confidential.dat
+/usr/bin/dd i\\f=/dev/zero o\\f=/tmp/confidential.dat
+/usr/bin/dd --input-file=/dev/zero --output-file=/tmp/confidential.dat
+/usr/bin/dd <<<"if=/dev/zero of=/tmp/confidential.dat"
+/usr/bin/dd $(cat <<< "if=/dev/zero") $(cat <<< "of=/tmp/confidential.dat")
+/usr/bin/dd $(cut -d'#' -f1 <<< "if=/dev/zero # input") $(cut -d'#' -f1 <<< "of=/tmp/confidential.dat # output")
+/usr/bin/dd if="/dev"/"zero" of="/tmp"/"confidential.dat"
+/usr/bin/dd if="/dev"/$(echo zero) of="/tmp"/$(echo confidential.dat)
+/usr/bin/dd if="$(printf /dev/%s zero)" of="$(printf /tmp/%s confidential.dat)"
+/usr/bin/dd $(echo -n "if=/dev/zero of=/tmp/confidential.dat")
+/usr/bin/dd i$(echo f)=/dev/zero o$(echo f)=/tmp/confidential.dat
+/usr/bin/dd if=/dev/zero o$(echo f)=/tmp/confidential.dat
+/usr/bin/dd i$(echo f)=/dev/zero of=$(echo /tmp/confidential.dat)
+/usr/bin/dd if=/dev/zero of=/tmp/$((1+1))confidential.dat
+cp /usr/bin/dd /tmp/wiper; /tmp/wiper if=/dev/zero of=/tmp/confidential.dat
+cp /bin/dd /tmp/cleaner; /tmp/cleaner if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/x; /tmp/x if=/dev/zero of=/tmp/confidential.dat
+cp /bin/dd /tmp/a.out; /tmp/a.out if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /dev/shm/dd1; /dev/shm/dd1 if=/dev/zero of=/tmp/confidential.dat
+cp /bin/dd /dev/shm/.wipe; /dev/shm/.wipe if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /var/tmp/dd2; /var/tmp/dd2 if=/dev/zero of=/tmp/confidential.dat
+cp /bin/dd /tmp/.hidden; /tmp/.hidden if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/confuse; /tmp/confuse if=/dev/zero of=/tmp/confidential.dat
+cp /bin/dd /tmp/randomizer; /tmp/randomizer if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/datawriter; /tmp/datawriter if=/dev/zero of=/tmp/confidential.dat
+cp /bin/dd /tmp/zxcvbn; /tmp/zxcvbn if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/logrotator; /tmp/logrotator if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/initctl; /tmp/initctl if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/syswipe; /tmp/syswipe if=/dev/zero of=/tmp/confidential.dat
+cp /bin/dd /tmp/filezeroer; /tmp/filezeroer if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/tmpwriter; /tmp/tmpwriter if=/dev/zero of=/tmp/confidential.dat
+cp /bin/dd /tmp/destroyer; /tmp/destroyer if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/filler; /tmp/filler if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/nullifier; /tmp/nullifier if=/dev/zero of=/tmp/confidential.dat
+cp /bin/dd /tmp/noisegen; /tmp/noisegen if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/override; /tmp/override if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/wipeit; /tmp/wipeit if=/dev/zero of=/tmp/confidential.dat
+cp /bin/dd /tmp/nuke; /tmp/nuke if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/binclean; /tmp/binclean if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/clearzone; /tmp/clearzone if=/dev/zero of=/tmp/confidential.dat
+cp /bin/dd /tmp/burnit; /tmp/burnit if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/truncate; /tmp/truncate if=/dev/zero of=/tmp/confidential.dat
+cp /bin/dd /tmp/remover; /tmp/remover if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/bypassdd; /tmp/bypassdd if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/zeroing; /tmp/zeroing if=/dev/zero of=/tmp/confidential.dat
+cp /bin/dd /tmp/dd_rebrand; /tmp/dd_rebrand if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/notdd; /tmp/notdd if=/dev/zero of=/tmp/confidential.dat
+cp /bin/dd /tmp/cleanse; /tmp/cleanse if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/masker; /tmp/masker if=/dev/zero of=/tmp/confidential.dat
+cp /bin/dd /tmp/mimic; /tmp/mimic if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/ghost; /tmp/ghost if=/dev/zero of=/tmp/confidential.dat
+cp /bin/dd /tmp/erase_tool; /tmp/erase_tool if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/fakebin; /tmp/fakebin if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/dd_clone; /tmp/dd_clone if=/dev/zero of=/tmp/confidential.dat
+cp /bin/dd /tmp/writeme; /tmp/writeme if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/altdd; /tmp/altdd if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/sysclear; /tmp/sysclear if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/bitdrop; /tmp/bitdrop if=/dev/zero of=/tmp/confidential.dat
+cp /bin/dd /tmp/bufferflush; /tmp/bufferflush if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/nullpad; /tmp/nullpad if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/overwriter; /tmp/overwriter if=/dev/zero of=/tmp/confidential.dat
+cp /bin/dd /tmp/hider; /tmp/hider if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/padzero; /tmp/padzero if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/zapfile; /tmp/zapfile if=/dev/zero of=/tmp/confidential.dat
+cp /bin/dd /tmp/blinddd; /tmp/blinddd if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/dd_masked; /tmp/dd_masked if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/flushit; /tmp/flushit if=/dev/zero of=/tmp/confidential.dat
+cp /bin/dd /tmp/zero_bin; /tmp/zero_bin if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/fwrite; /tmp/fwrite if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/nulldump; /tmp/nulldump if=/dev/zero of=/tmp/confidential.dat
+cp /bin/dd /tmp/tmpcleaner; /tmp/tmpcleaner if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/ddengine; /tmp/ddengine if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/writex; /tmp/writex if=/dev/zero of=/tmp/confidential.dat
+cp /usr/bin/dd /tmp/datadrop; /tmp/datadrop if=/dev/zero of=/tmp/confidential.dat

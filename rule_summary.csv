@@ -1,0 +1,51 @@
+Rule Name,Command Count
+Access of Sudoers File Content,360
+Audit Rules Deleted Via Auditctl,300
+BPFtrace Unsafe Option Usage,360
+Bash Interactive Shell,99
+Capsh Shell Invocation,358
+Clear Linux Logs,360
+Clipboard Collection with Xclip Tool,360
+Connection Proxy,300
+Copy Passwd Or Shadow From TMP Path,180
+Crontab Enumeration,360
+DD File Overwrite,360
+Decode Base64 Encoded Text,351
+Enable BPF Kprobes Tracing,300
+Execution Of Script Located In Potentially Suspicious Directory,360
+File and Directory Discovery - Linux,361
+History File Deletion,360
+Interactive Bash Suspicious Children,360
+Kaspersky Endpoint Security Stopped Via CommandLine,252
+Linux Base64 Encoded Pipe to Shell,360
+Linux Base64 Encoded Shebang In CLI,358
+Linux Crypto Mining Indicators,300
+Linux Network Service Scanning - Auditd,360
+Linux Recon Indicators,300
+Linux Shell Pipe to Shell,300
+Linux Sudo Chroot Execution,360
+Local Groups Discovery - Linux,360
+Local System Accounts Discovery - Linux,360
+OMIGOD SCX RunAsProvider ExecuteScript,300
+OMIGOD SCX RunAsProvider ExecuteShellCommand,360
+OS Architecture Discovery Via Grep,360
+Pnscan Binary Data Transmission Activity,300
+Potential Container Discovery Via Inodes Listing,360
+Potential Discovery Activity Using Find - Linux,360
+Potential GobRAT File Discovery Via Grep,360
+Potential Linux Process Code Injection Via DD Utility,360
+Potential Suspicious Change To Sensitive,360
+Print History File Contents,360
+Remove Immutable File Attribute,290
+Remove Scheduled Cron Task,360
+Setuid and Setgid,300
+Shell Execution via Find - Linux,360
+Shell Execution via Flock - Linux,390
+Shell Invocation via Apt,300
+Shell Invocation via Env Command,360
+Suspicious Download and Execute Pattern via Curl,301
+Suspicious Git Clone - Linux,360
+Suspicious Invocation of Shell via AWK,301
+Suspicious Java Children Processes,360
+Syslog Clearing or Removal Via System Utilities,360
+Ufw Force Stop Using Ufw-Init,360

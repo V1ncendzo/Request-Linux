@@ -1,0 +1,360 @@
+"ls"  -i /
+"ls" -i /
+"ls"-i /
+'ls'  -i /
+'ls' -i /
+'ls'-i /
+/bin/"ls"  -i /
+/bin/"ls" -i /
+/bin/"ls"-i /
+/bin/'ls'  -i /
+/bin/'ls' -i /
+/bin/'ls'-i /
+/bin/l""s  -i /
+/bin/l""s -i /
+/bin/l""s-i /
+/bin/l''s  -i /
+/bin/l''s -i /
+/bin/l''s-i /
+/bin/ls  -i /
+/bin/ls -i /
+/bin/ls-i /
+/usr/bin/"ls"  -i /
+/usr/bin/"ls" -i /
+/usr/bin/"ls"-i /
+/usr/bin/'ls'  -i /
+/usr/bin/'ls' -i /
+/usr/bin/'ls'-i /
+/usr/bin/l""s  -i /
+/usr/bin/l""s -i /
+/usr/bin/l""s-i /
+/usr/bin/l''s  -i /
+/usr/bin/l''s -i /
+/usr/bin/l''s-i /
+/usr/bin/ls  -i /
+/usr/bin/ls -i /
+/usr/bin/ls-i /
+command "ls"  -i /
+command "ls" -i /
+command "ls"-i /
+command 'ls'  -i /
+command 'ls' -i /
+command 'ls'-i /
+command l""s  -i /
+command l""s -i /
+command l""s-i /
+command l''s  -i /
+command l''s -i /
+command l''s-i /
+command ls  -i /
+command ls -i /
+command ls-i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_0 && /tmp/tmp_bin_0 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_1 && /tmp/tmp_bin_1 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_10 && /tmp/tmp_bin_10 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_100 && /tmp/tmp_bin_100 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_101 && /tmp/tmp_bin_101 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_102 && /tmp/tmp_bin_102 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_103 && /tmp/tmp_bin_103 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_104 && /tmp/tmp_bin_104 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_105 && /tmp/tmp_bin_105 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_106 && /tmp/tmp_bin_106 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_107 && /tmp/tmp_bin_107 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_108 && /tmp/tmp_bin_108 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_109 && /tmp/tmp_bin_109 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_11 && /tmp/tmp_bin_11 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_110 && /tmp/tmp_bin_110 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_111 && /tmp/tmp_bin_111 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_112 && /tmp/tmp_bin_112 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_113 && /tmp/tmp_bin_113 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_114 && /tmp/tmp_bin_114 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_115 && /tmp/tmp_bin_115 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_116 && /tmp/tmp_bin_116 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_117 && /tmp/tmp_bin_117 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_118 && /tmp/tmp_bin_118 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_119 && /tmp/tmp_bin_119 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_12 && /tmp/tmp_bin_12 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_120 && /tmp/tmp_bin_120 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_121 && /tmp/tmp_bin_121 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_122 && /tmp/tmp_bin_122 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_123 && /tmp/tmp_bin_123 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_124 && /tmp/tmp_bin_124 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_125 && /tmp/tmp_bin_125 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_126 && /tmp/tmp_bin_126 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_127 && /tmp/tmp_bin_127 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_128 && /tmp/tmp_bin_128 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_129 && /tmp/tmp_bin_129 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_13 && /tmp/tmp_bin_13 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_130 && /tmp/tmp_bin_130 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_131 && /tmp/tmp_bin_131 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_132 && /tmp/tmp_bin_132 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_133 && /tmp/tmp_bin_133 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_134 && /tmp/tmp_bin_134 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_135 && /tmp/tmp_bin_135 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_136 && /tmp/tmp_bin_136 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_137 && /tmp/tmp_bin_137 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_138 && /tmp/tmp_bin_138 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_139 && /tmp/tmp_bin_139 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_14 && /tmp/tmp_bin_14 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_140 && /tmp/tmp_bin_140 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_141 && /tmp/tmp_bin_141 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_142 && /tmp/tmp_bin_142 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_143 && /tmp/tmp_bin_143 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_144 && /tmp/tmp_bin_144 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_145 && /tmp/tmp_bin_145 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_146 && /tmp/tmp_bin_146 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_147 && /tmp/tmp_bin_147 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_148 && /tmp/tmp_bin_148 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_149 && /tmp/tmp_bin_149 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_15 && /tmp/tmp_bin_15 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_150 && /tmp/tmp_bin_150 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_151 && /tmp/tmp_bin_151 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_152 && /tmp/tmp_bin_152 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_153 && /tmp/tmp_bin_153 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_154 && /tmp/tmp_bin_154 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_155 && /tmp/tmp_bin_155 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_156 && /tmp/tmp_bin_156 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_157 && /tmp/tmp_bin_157 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_158 && /tmp/tmp_bin_158 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_159 && /tmp/tmp_bin_159 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_16 && /tmp/tmp_bin_16 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_160 && /tmp/tmp_bin_160 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_161 && /tmp/tmp_bin_161 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_162 && /tmp/tmp_bin_162 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_163 && /tmp/tmp_bin_163 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_164 && /tmp/tmp_bin_164 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_165 && /tmp/tmp_bin_165 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_166 && /tmp/tmp_bin_166 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_167 && /tmp/tmp_bin_167 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_168 && /tmp/tmp_bin_168 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_169 && /tmp/tmp_bin_169 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_17 && /tmp/tmp_bin_17 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_170 && /tmp/tmp_bin_170 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_171 && /tmp/tmp_bin_171 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_172 && /tmp/tmp_bin_172 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_173 && /tmp/tmp_bin_173 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_174 && /tmp/tmp_bin_174 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_175 && /tmp/tmp_bin_175 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_176 && /tmp/tmp_bin_176 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_177 && /tmp/tmp_bin_177 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_178 && /tmp/tmp_bin_178 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_179 && /tmp/tmp_bin_179 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_18 && /tmp/tmp_bin_18 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_180 && /tmp/tmp_bin_180 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_181 && /tmp/tmp_bin_181 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_182 && /tmp/tmp_bin_182 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_183 && /tmp/tmp_bin_183 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_184 && /tmp/tmp_bin_184 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_185 && /tmp/tmp_bin_185 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_186 && /tmp/tmp_bin_186 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_187 && /tmp/tmp_bin_187 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_188 && /tmp/tmp_bin_188 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_189 && /tmp/tmp_bin_189 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_19 && /tmp/tmp_bin_19 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_190 && /tmp/tmp_bin_190 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_191 && /tmp/tmp_bin_191 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_192 && /tmp/tmp_bin_192 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_193 && /tmp/tmp_bin_193 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_194 && /tmp/tmp_bin_194 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_195 && /tmp/tmp_bin_195 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_196 && /tmp/tmp_bin_196 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_197 && /tmp/tmp_bin_197 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_198 && /tmp/tmp_bin_198 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_199 && /tmp/tmp_bin_199 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_2 && /tmp/tmp_bin_2 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_20 && /tmp/tmp_bin_20 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_200 && /tmp/tmp_bin_200 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_201 && /tmp/tmp_bin_201 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_202 && /tmp/tmp_bin_202 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_203 && /tmp/tmp_bin_203 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_204 && /tmp/tmp_bin_204 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_205 && /tmp/tmp_bin_205 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_206 && /tmp/tmp_bin_206 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_207 && /tmp/tmp_bin_207 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_208 && /tmp/tmp_bin_208 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_209 && /tmp/tmp_bin_209 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_21 && /tmp/tmp_bin_21 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_210 && /tmp/tmp_bin_210 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_211 && /tmp/tmp_bin_211 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_212 && /tmp/tmp_bin_212 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_213 && /tmp/tmp_bin_213 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_214 && /tmp/tmp_bin_214 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_215 && /tmp/tmp_bin_215 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_216 && /tmp/tmp_bin_216 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_217 && /tmp/tmp_bin_217 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_218 && /tmp/tmp_bin_218 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_219 && /tmp/tmp_bin_219 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_22 && /tmp/tmp_bin_22 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_220 && /tmp/tmp_bin_220 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_221 && /tmp/tmp_bin_221 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_222 && /tmp/tmp_bin_222 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_223 && /tmp/tmp_bin_223 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_224 && /tmp/tmp_bin_224 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_225 && /tmp/tmp_bin_225 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_226 && /tmp/tmp_bin_226 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_227 && /tmp/tmp_bin_227 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_228 && /tmp/tmp_bin_228 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_229 && /tmp/tmp_bin_229 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_23 && /tmp/tmp_bin_23 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_230 && /tmp/tmp_bin_230 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_231 && /tmp/tmp_bin_231 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_232 && /tmp/tmp_bin_232 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_233 && /tmp/tmp_bin_233 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_234 && /tmp/tmp_bin_234 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_235 && /tmp/tmp_bin_235 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_236 && /tmp/tmp_bin_236 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_237 && /tmp/tmp_bin_237 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_238 && /tmp/tmp_bin_238 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_239 && /tmp/tmp_bin_239 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_24 && /tmp/tmp_bin_24 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_240 && /tmp/tmp_bin_240 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_241 && /tmp/tmp_bin_241 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_242 && /tmp/tmp_bin_242 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_243 && /tmp/tmp_bin_243 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_244 && /tmp/tmp_bin_244 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_245 && /tmp/tmp_bin_245 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_246 && /tmp/tmp_bin_246 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_247 && /tmp/tmp_bin_247 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_248 && /tmp/tmp_bin_248 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_249 && /tmp/tmp_bin_249 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_25 && /tmp/tmp_bin_25 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_250 && /tmp/tmp_bin_250 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_251 && /tmp/tmp_bin_251 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_252 && /tmp/tmp_bin_252 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_253 && /tmp/tmp_bin_253 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_254 && /tmp/tmp_bin_254 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_26 && /tmp/tmp_bin_26 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_27 && /tmp/tmp_bin_27 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_28 && /tmp/tmp_bin_28 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_29 && /tmp/tmp_bin_29 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_3 && /tmp/tmp_bin_3 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_30 && /tmp/tmp_bin_30 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_31 && /tmp/tmp_bin_31 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_32 && /tmp/tmp_bin_32 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_33 && /tmp/tmp_bin_33 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_34 && /tmp/tmp_bin_34 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_35 && /tmp/tmp_bin_35 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_36 && /tmp/tmp_bin_36 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_37 && /tmp/tmp_bin_37 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_38 && /tmp/tmp_bin_38 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_39 && /tmp/tmp_bin_39 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_4 && /tmp/tmp_bin_4 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_40 && /tmp/tmp_bin_40 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_41 && /tmp/tmp_bin_41 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_42 && /tmp/tmp_bin_42 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_43 && /tmp/tmp_bin_43 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_44 && /tmp/tmp_bin_44 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_45 && /tmp/tmp_bin_45 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_46 && /tmp/tmp_bin_46 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_47 && /tmp/tmp_bin_47 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_48 && /tmp/tmp_bin_48 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_49 && /tmp/tmp_bin_49 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_5 && /tmp/tmp_bin_5 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_50 && /tmp/tmp_bin_50 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_51 && /tmp/tmp_bin_51 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_52 && /tmp/tmp_bin_52 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_53 && /tmp/tmp_bin_53 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_54 && /tmp/tmp_bin_54 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_55 && /tmp/tmp_bin_55 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_56 && /tmp/tmp_bin_56 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_57 && /tmp/tmp_bin_57 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_58 && /tmp/tmp_bin_58 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_59 && /tmp/tmp_bin_59 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_6 && /tmp/tmp_bin_6 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_60 && /tmp/tmp_bin_60 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_61 && /tmp/tmp_bin_61 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_62 && /tmp/tmp_bin_62 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_63 && /tmp/tmp_bin_63 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_64 && /tmp/tmp_bin_64 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_65 && /tmp/tmp_bin_65 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_66 && /tmp/tmp_bin_66 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_67 && /tmp/tmp_bin_67 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_68 && /tmp/tmp_bin_68 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_69 && /tmp/tmp_bin_69 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_7 && /tmp/tmp_bin_7 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_70 && /tmp/tmp_bin_70 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_71 && /tmp/tmp_bin_71 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_72 && /tmp/tmp_bin_72 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_73 && /tmp/tmp_bin_73 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_74 && /tmp/tmp_bin_74 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_75 && /tmp/tmp_bin_75 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_76 && /tmp/tmp_bin_76 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_77 && /tmp/tmp_bin_77 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_78 && /tmp/tmp_bin_78 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_79 && /tmp/tmp_bin_79 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_8 && /tmp/tmp_bin_8 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_80 && /tmp/tmp_bin_80 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_81 && /tmp/tmp_bin_81 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_82 && /tmp/tmp_bin_82 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_83 && /tmp/tmp_bin_83 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_84 && /tmp/tmp_bin_84 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_85 && /tmp/tmp_bin_85 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_86 && /tmp/tmp_bin_86 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_87 && /tmp/tmp_bin_87 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_88 && /tmp/tmp_bin_88 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_89 && /tmp/tmp_bin_89 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_9 && /tmp/tmp_bin_9 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_90 && /tmp/tmp_bin_90 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_91 && /tmp/tmp_bin_91 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_92 && /tmp/tmp_bin_92 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_93 && /tmp/tmp_bin_93 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_94 && /tmp/tmp_bin_94 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_95 && /tmp/tmp_bin_95 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_96 && /tmp/tmp_bin_96 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_97 && /tmp/tmp_bin_97 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_98 && /tmp/tmp_bin_98 -i /
+cp $(which ls 2>/dev/null || echo ls) /tmp/tmp_bin_99 && /tmp/tmp_bin_99 -i /
+env "ls"  -i /
+env "ls" -i /
+env "ls"-i /
+env 'ls'  -i /
+env 'ls' -i /
+env 'ls'-i /
+env -i "ls"  -i /
+env -i "ls" -i /
+env -i "ls"-i /
+env -i 'ls'  -i /
+env -i 'ls' -i /
+env -i 'ls'-i /
+env -i l""s  -i /
+env -i l""s -i /
+env -i l""s-i /
+env -i l''s  -i /
+env -i l''s -i /
+env -i l''s-i /
+env -i ls  -i /
+env -i ls -i /
+env -i ls-i /
+env l""s  -i /
+env l""s -i /
+env l""s-i /
+env l''s  -i /
+env l''s -i /
+env l''s-i /
+env ls  -i /
+env ls -i /
+env ls-i /
+l""s  -i /
+l""s -i /
+l""s-i /
+l''s  -i /
+l''s -i /
+l''s-i /
+ls  -i /
+ls -i /
+ls-i /
+sudo "ls"  -i /
+sudo "ls" -i /
+sudo "ls"-i /
+sudo 'ls'  -i /
+sudo 'ls' -i /
+sudo 'ls'-i /
+sudo l""s  -i /
+sudo l""s -i /
+sudo l""s-i /
+sudo l''s  -i /
+sudo l''s -i /
+sudo l''s-i /
+sudo ls  -i /
+sudo ls -i /
+sudo ls-i /

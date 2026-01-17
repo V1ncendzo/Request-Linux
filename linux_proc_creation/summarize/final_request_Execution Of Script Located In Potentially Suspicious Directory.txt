@@ -1,0 +1,360 @@
+"/tmp/malscript.sh"
+'/tmp/malscript.sh'
+/""tmp/malscript.sh
+/''tmp/malscript.sh
+/bin/"/tmp/malscript.sh"
+/bin/'/tmp/malscript.sh'
+/bin//""tmp/malscript.sh
+/bin//''tmp/malscript.sh
+/bin//tmp/malscript.sh
+/tmp/malscript.sh
+/usr/bin/"/tmp/malscript.sh"
+/usr/bin/'/tmp/malscript.sh'
+/usr/bin//""tmp/malscript.sh
+/usr/bin//''tmp/malscript.sh
+/usr/bin//tmp/malscript.sh
+command "/tmp/malscript.sh"
+command '/tmp/malscript.sh'
+command /""tmp/malscript.sh
+command /''tmp/malscript.sh
+command /tmp/malscript.sh
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_0 && /tmp/tmp_bin_0 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_1 && /tmp/tmp_bin_1 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_10 && /tmp/tmp_bin_10 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_100 && /tmp/tmp_bin_100 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_101 && /tmp/tmp_bin_101 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_102 && /tmp/tmp_bin_102 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_103 && /tmp/tmp_bin_103 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_104 && /tmp/tmp_bin_104 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_105 && /tmp/tmp_bin_105 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_106 && /tmp/tmp_bin_106 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_107 && /tmp/tmp_bin_107 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_108 && /tmp/tmp_bin_108 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_109 && /tmp/tmp_bin_109 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_11 && /tmp/tmp_bin_11 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_110 && /tmp/tmp_bin_110 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_111 && /tmp/tmp_bin_111 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_112 && /tmp/tmp_bin_112 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_113 && /tmp/tmp_bin_113 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_114 && /tmp/tmp_bin_114 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_115 && /tmp/tmp_bin_115 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_116 && /tmp/tmp_bin_116 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_117 && /tmp/tmp_bin_117 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_118 && /tmp/tmp_bin_118 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_119 && /tmp/tmp_bin_119 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_12 && /tmp/tmp_bin_12 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_120 && /tmp/tmp_bin_120 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_121 && /tmp/tmp_bin_121 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_122 && /tmp/tmp_bin_122 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_123 && /tmp/tmp_bin_123 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_124 && /tmp/tmp_bin_124 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_125 && /tmp/tmp_bin_125 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_126 && /tmp/tmp_bin_126 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_127 && /tmp/tmp_bin_127 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_128 && /tmp/tmp_bin_128 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_129 && /tmp/tmp_bin_129 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_13 && /tmp/tmp_bin_13 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_130 && /tmp/tmp_bin_130 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_131 && /tmp/tmp_bin_131 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_132 && /tmp/tmp_bin_132 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_133 && /tmp/tmp_bin_133 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_134 && /tmp/tmp_bin_134 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_135 && /tmp/tmp_bin_135 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_136 && /tmp/tmp_bin_136 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_137 && /tmp/tmp_bin_137 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_138 && /tmp/tmp_bin_138 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_139 && /tmp/tmp_bin_139 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_14 && /tmp/tmp_bin_14 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_140 && /tmp/tmp_bin_140 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_141 && /tmp/tmp_bin_141 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_142 && /tmp/tmp_bin_142 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_143 && /tmp/tmp_bin_143 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_144 && /tmp/tmp_bin_144 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_145 && /tmp/tmp_bin_145 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_146 && /tmp/tmp_bin_146 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_147 && /tmp/tmp_bin_147 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_148 && /tmp/tmp_bin_148 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_149 && /tmp/tmp_bin_149 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_15 && /tmp/tmp_bin_15 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_150 && /tmp/tmp_bin_150 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_151 && /tmp/tmp_bin_151 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_152 && /tmp/tmp_bin_152 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_153 && /tmp/tmp_bin_153 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_154 && /tmp/tmp_bin_154 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_155 && /tmp/tmp_bin_155 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_156 && /tmp/tmp_bin_156 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_157 && /tmp/tmp_bin_157 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_158 && /tmp/tmp_bin_158 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_159 && /tmp/tmp_bin_159 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_16 && /tmp/tmp_bin_16 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_160 && /tmp/tmp_bin_160 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_161 && /tmp/tmp_bin_161 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_162 && /tmp/tmp_bin_162 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_163 && /tmp/tmp_bin_163 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_164 && /tmp/tmp_bin_164 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_165 && /tmp/tmp_bin_165 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_166 && /tmp/tmp_bin_166 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_167 && /tmp/tmp_bin_167 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_168 && /tmp/tmp_bin_168 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_169 && /tmp/tmp_bin_169 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_17 && /tmp/tmp_bin_17 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_170 && /tmp/tmp_bin_170 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_171 && /tmp/tmp_bin_171 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_172 && /tmp/tmp_bin_172 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_173 && /tmp/tmp_bin_173 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_174 && /tmp/tmp_bin_174 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_175 && /tmp/tmp_bin_175 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_176 && /tmp/tmp_bin_176 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_177 && /tmp/tmp_bin_177 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_178 && /tmp/tmp_bin_178 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_179 && /tmp/tmp_bin_179 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_18 && /tmp/tmp_bin_18 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_180 && /tmp/tmp_bin_180 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_181 && /tmp/tmp_bin_181 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_182 && /tmp/tmp_bin_182 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_183 && /tmp/tmp_bin_183 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_184 && /tmp/tmp_bin_184 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_185 && /tmp/tmp_bin_185 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_186 && /tmp/tmp_bin_186 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_187 && /tmp/tmp_bin_187 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_188 && /tmp/tmp_bin_188 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_189 && /tmp/tmp_bin_189 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_19 && /tmp/tmp_bin_19 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_190 && /tmp/tmp_bin_190 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_191 && /tmp/tmp_bin_191 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_192 && /tmp/tmp_bin_192 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_193 && /tmp/tmp_bin_193 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_194 && /tmp/tmp_bin_194 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_195 && /tmp/tmp_bin_195 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_196 && /tmp/tmp_bin_196 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_197 && /tmp/tmp_bin_197 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_198 && /tmp/tmp_bin_198 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_199 && /tmp/tmp_bin_199 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_2 && /tmp/tmp_bin_2 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_20 && /tmp/tmp_bin_20 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_200 && /tmp/tmp_bin_200 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_201 && /tmp/tmp_bin_201 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_202 && /tmp/tmp_bin_202 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_203 && /tmp/tmp_bin_203 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_204 && /tmp/tmp_bin_204 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_205 && /tmp/tmp_bin_205 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_206 && /tmp/tmp_bin_206 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_207 && /tmp/tmp_bin_207 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_208 && /tmp/tmp_bin_208 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_209 && /tmp/tmp_bin_209 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_21 && /tmp/tmp_bin_21 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_210 && /tmp/tmp_bin_210 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_211 && /tmp/tmp_bin_211 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_212 && /tmp/tmp_bin_212 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_213 && /tmp/tmp_bin_213 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_214 && /tmp/tmp_bin_214 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_215 && /tmp/tmp_bin_215 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_216 && /tmp/tmp_bin_216 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_217 && /tmp/tmp_bin_217 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_218 && /tmp/tmp_bin_218 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_219 && /tmp/tmp_bin_219 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_22 && /tmp/tmp_bin_22 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_220 && /tmp/tmp_bin_220 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_221 && /tmp/tmp_bin_221 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_222 && /tmp/tmp_bin_222 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_223 && /tmp/tmp_bin_223 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_224 && /tmp/tmp_bin_224 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_225 && /tmp/tmp_bin_225 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_226 && /tmp/tmp_bin_226 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_227 && /tmp/tmp_bin_227 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_228 && /tmp/tmp_bin_228 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_229 && /tmp/tmp_bin_229 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_23 && /tmp/tmp_bin_23 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_230 && /tmp/tmp_bin_230 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_231 && /tmp/tmp_bin_231 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_232 && /tmp/tmp_bin_232 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_233 && /tmp/tmp_bin_233 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_234 && /tmp/tmp_bin_234 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_235 && /tmp/tmp_bin_235 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_236 && /tmp/tmp_bin_236 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_237 && /tmp/tmp_bin_237 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_238 && /tmp/tmp_bin_238 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_239 && /tmp/tmp_bin_239 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_24 && /tmp/tmp_bin_24 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_240 && /tmp/tmp_bin_240 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_241 && /tmp/tmp_bin_241 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_242 && /tmp/tmp_bin_242 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_243 && /tmp/tmp_bin_243 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_244 && /tmp/tmp_bin_244 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_245 && /tmp/tmp_bin_245 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_246 && /tmp/tmp_bin_246 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_247 && /tmp/tmp_bin_247 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_248 && /tmp/tmp_bin_248 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_249 && /tmp/tmp_bin_249 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_25 && /tmp/tmp_bin_25 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_250 && /tmp/tmp_bin_250 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_251 && /tmp/tmp_bin_251 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_252 && /tmp/tmp_bin_252 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_253 && /tmp/tmp_bin_253 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_254 && /tmp/tmp_bin_254 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_255 && /tmp/tmp_bin_255 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_256 && /tmp/tmp_bin_256 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_257 && /tmp/tmp_bin_257 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_258 && /tmp/tmp_bin_258 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_259 && /tmp/tmp_bin_259 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_26 && /tmp/tmp_bin_26 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_260 && /tmp/tmp_bin_260 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_261 && /tmp/tmp_bin_261 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_262 && /tmp/tmp_bin_262 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_263 && /tmp/tmp_bin_263 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_264 && /tmp/tmp_bin_264 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_265 && /tmp/tmp_bin_265 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_266 && /tmp/tmp_bin_266 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_267 && /tmp/tmp_bin_267 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_268 && /tmp/tmp_bin_268 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_269 && /tmp/tmp_bin_269 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_27 && /tmp/tmp_bin_27 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_270 && /tmp/tmp_bin_270 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_271 && /tmp/tmp_bin_271 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_272 && /tmp/tmp_bin_272 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_273 && /tmp/tmp_bin_273 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_274 && /tmp/tmp_bin_274 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_275 && /tmp/tmp_bin_275 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_276 && /tmp/tmp_bin_276 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_277 && /tmp/tmp_bin_277 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_278 && /tmp/tmp_bin_278 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_279 && /tmp/tmp_bin_279 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_28 && /tmp/tmp_bin_28 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_280 && /tmp/tmp_bin_280 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_281 && /tmp/tmp_bin_281 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_282 && /tmp/tmp_bin_282 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_283 && /tmp/tmp_bin_283 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_284 && /tmp/tmp_bin_284 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_285 && /tmp/tmp_bin_285 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_286 && /tmp/tmp_bin_286 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_287 && /tmp/tmp_bin_287 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_288 && /tmp/tmp_bin_288 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_289 && /tmp/tmp_bin_289 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_29 && /tmp/tmp_bin_29 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_290 && /tmp/tmp_bin_290 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_291 && /tmp/tmp_bin_291 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_292 && /tmp/tmp_bin_292 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_293 && /tmp/tmp_bin_293 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_294 && /tmp/tmp_bin_294 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_295 && /tmp/tmp_bin_295 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_296 && /tmp/tmp_bin_296 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_297 && /tmp/tmp_bin_297 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_298 && /tmp/tmp_bin_298 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_299 && /tmp/tmp_bin_299 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_3 && /tmp/tmp_bin_3 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_30 && /tmp/tmp_bin_30 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_300 && /tmp/tmp_bin_300 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_301 && /tmp/tmp_bin_301 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_302 && /tmp/tmp_bin_302 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_303 && /tmp/tmp_bin_303 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_304 && /tmp/tmp_bin_304 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_305 && /tmp/tmp_bin_305 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_306 && /tmp/tmp_bin_306 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_307 && /tmp/tmp_bin_307 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_308 && /tmp/tmp_bin_308 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_309 && /tmp/tmp_bin_309 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_31 && /tmp/tmp_bin_31 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_310 && /tmp/tmp_bin_310 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_311 && /tmp/tmp_bin_311 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_312 && /tmp/tmp_bin_312 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_313 && /tmp/tmp_bin_313 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_314 && /tmp/tmp_bin_314 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_315 && /tmp/tmp_bin_315 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_316 && /tmp/tmp_bin_316 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_317 && /tmp/tmp_bin_317 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_318 && /tmp/tmp_bin_318 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_319 && /tmp/tmp_bin_319 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_32 && /tmp/tmp_bin_32 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_320 && /tmp/tmp_bin_320 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_321 && /tmp/tmp_bin_321 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_322 && /tmp/tmp_bin_322 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_323 && /tmp/tmp_bin_323 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_324 && /tmp/tmp_bin_324 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_33 && /tmp/tmp_bin_33 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_34 && /tmp/tmp_bin_34 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_35 && /tmp/tmp_bin_35 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_36 && /tmp/tmp_bin_36 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_37 && /tmp/tmp_bin_37 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_38 && /tmp/tmp_bin_38 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_39 && /tmp/tmp_bin_39 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_4 && /tmp/tmp_bin_4 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_40 && /tmp/tmp_bin_40 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_41 && /tmp/tmp_bin_41 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_42 && /tmp/tmp_bin_42 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_43 && /tmp/tmp_bin_43 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_44 && /tmp/tmp_bin_44 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_45 && /tmp/tmp_bin_45 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_46 && /tmp/tmp_bin_46 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_47 && /tmp/tmp_bin_47 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_48 && /tmp/tmp_bin_48 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_49 && /tmp/tmp_bin_49 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_5 && /tmp/tmp_bin_5 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_50 && /tmp/tmp_bin_50 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_51 && /tmp/tmp_bin_51 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_52 && /tmp/tmp_bin_52 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_53 && /tmp/tmp_bin_53 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_54 && /tmp/tmp_bin_54 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_55 && /tmp/tmp_bin_55 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_56 && /tmp/tmp_bin_56 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_57 && /tmp/tmp_bin_57 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_58 && /tmp/tmp_bin_58 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_59 && /tmp/tmp_bin_59 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_6 && /tmp/tmp_bin_6 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_60 && /tmp/tmp_bin_60 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_61 && /tmp/tmp_bin_61 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_62 && /tmp/tmp_bin_62 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_63 && /tmp/tmp_bin_63 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_64 && /tmp/tmp_bin_64 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_65 && /tmp/tmp_bin_65 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_66 && /tmp/tmp_bin_66 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_67 && /tmp/tmp_bin_67 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_68 && /tmp/tmp_bin_68 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_69 && /tmp/tmp_bin_69 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_7 && /tmp/tmp_bin_7 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_70 && /tmp/tmp_bin_70 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_71 && /tmp/tmp_bin_71 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_72 && /tmp/tmp_bin_72 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_73 && /tmp/tmp_bin_73 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_74 && /tmp/tmp_bin_74 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_75 && /tmp/tmp_bin_75 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_76 && /tmp/tmp_bin_76 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_77 && /tmp/tmp_bin_77 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_78 && /tmp/tmp_bin_78 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_79 && /tmp/tmp_bin_79 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_8 && /tmp/tmp_bin_8 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_80 && /tmp/tmp_bin_80 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_81 && /tmp/tmp_bin_81 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_82 && /tmp/tmp_bin_82 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_83 && /tmp/tmp_bin_83 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_84 && /tmp/tmp_bin_84 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_85 && /tmp/tmp_bin_85 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_86 && /tmp/tmp_bin_86 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_87 && /tmp/tmp_bin_87 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_88 && /tmp/tmp_bin_88 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_89 && /tmp/tmp_bin_89 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_9 && /tmp/tmp_bin_9 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_90 && /tmp/tmp_bin_90 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_91 && /tmp/tmp_bin_91 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_92 && /tmp/tmp_bin_92 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_93 && /tmp/tmp_bin_93 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_94 && /tmp/tmp_bin_94 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_95 && /tmp/tmp_bin_95 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_96 && /tmp/tmp_bin_96 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_97 && /tmp/tmp_bin_97 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_98 && /tmp/tmp_bin_98 
+cp $(which /tmp/malscript.sh 2>/dev/null || echo /tmp/malscript.sh) /tmp/tmp_bin_99 && /tmp/tmp_bin_99 
+env "/tmp/malscript.sh"
+env '/tmp/malscript.sh'
+env -i "/tmp/malscript.sh"
+env -i '/tmp/malscript.sh'
+env -i /""tmp/malscript.sh
+env -i /''tmp/malscript.sh
+env -i /tmp/malscript.sh
+env /""tmp/malscript.sh
+env /''tmp/malscript.sh
+env /tmp/malscript.sh
+sudo "/tmp/malscript.sh"
+sudo '/tmp/malscript.sh'
+sudo /""tmp/malscript.sh
+sudo /''tmp/malscript.sh
+sudo /tmp/malscript.sh
