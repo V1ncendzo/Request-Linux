@@ -56,10 +56,44 @@ if os.path.exists(rule_summary_path):
 fieldnames = [
     "Rule Name", 
     "Command Count (Summarize)", 
-    "Match Events (Bypass)", 
+    "Match Events (Trigger)", 
     "Evasion Events (Bypass)", 
-    "Total Events (Bypass)"
+    "Total Training Events (Match + Evasion)",
+    "Bypass Rate (%)"
 ]
+
+# Process data and calculate rates
+for row in combined_data:
+    match = row.get("Match Events (Bypass)", "") or row.get("Match Events (Trigger)", "")
+    evasion = row.get("Evasion Events (Bypass)", "")
+    total_ev = row.get("Total Events (Bypass)", "") or row.get("Total Training Events (Match + Evasion)", "")
+    
+    # Normalize internal keys
+    row["Match Events (Trigger)"] = match
+    row["Evasion Events (Bypass)"] = evasion
+    row["Total Training Events (Match + Evasion)"] = total_ev
+    
+    for k in ["Match Events (Bypass)", "Total Events (Bypass)"]:
+        if k in row: del row[k]
+
+    try:
+        e_val = float(evasion)
+        t_val = float(total_ev)
+        if t_val > 0:
+            row["Bypass Rate (%)"] = round((e_val / t_val) * 100, 2)
+        else:
+            row["Bypass Rate (%)"] = 0.0
+    except (ValueError, TypeError):
+        row["Bypass Rate (%)"] = -1.0 # Placeholder for rules without bypass data
+
+# Sort rules: Put rules with data first, sorted by Bypass Rate DESC, then rules without data
+data_rows = [r for r in combined_data if r["Bypass Rate (%)"] != -1.0]
+nodata_rows = [r for r in combined_data if r["Bypass Rate (%)"] == -1.0]
+
+data_rows.sort(key=lambda x: x["Bypass Rate (%)"], reverse=True)
+nodata_rows.sort(key=lambda x: x["Rule Name"]) # Alphabetical for the rest
+
+final_data = data_rows + nodata_rows
 
 # Calculate grand totals
 total_summarize = 0
@@ -67,28 +101,36 @@ total_match = 0
 total_evasion = 0
 total_bypass = 0
 
-for row in combined_data:
+for row in final_data:
     try: total_summarize += int(row["Command Count (Summarize)"])
     except: pass
-    try: total_match += int(row["Match Events (Bypass)"])
+    try: total_match += int(row["Match Events (Trigger)"])
     except: pass
     try: total_evasion += int(row["Evasion Events (Bypass)"])
     except: pass
-    try: total_bypass += int(row["Total Events (Bypass)"])
+    try: total_bypass += int(row["Total Training Events (Match + Evasion)"])
     except: pass
 
-combined_data.append({
+grand_total_bypass_rate = round((total_evasion / total_bypass * 100), 2) if total_bypass > 0 else 0
+
+final_data.append({
     "Rule Name": "GRAND TOTAL",
     "Command Count (Summarize)": str(total_summarize),
-    "Match Events (Bypass)": str(total_match),
+    "Match Events (Trigger)": str(total_match),
     "Evasion Events (Bypass)": str(total_evasion),
-    "Total Events (Bypass)": str(total_bypass)
+    "Total Training Events (Match + Evasion)": str(total_bypass),
+    "Bypass Rate (%)": grand_total_bypass_rate
 })
+
+# Final string conversion for CSV output (replacing -1.0 placeholders)
+for row in final_data:
+    if row["Bypass Rate (%)"] == -1.0:
+        row["Bypass Rate (%)"] = ""
 
 with open(output_path, "w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f, fieldnames=fieldnames)
     writer.writeheader()
-    for row in combined_data:
+    for row in final_data:
         writer.writerow(row)
 
 print(f"Combined CSV written to {output_path}")
