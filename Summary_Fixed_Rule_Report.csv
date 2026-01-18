@@ -1,6 +1,6 @@
 Rule Name,Command Count (Summarize),Match Events (Trigger),Evasion Events (Bypass),Total Training Events (Match + Evasion),Bypass Rate (%)
 Capsh_Shell_Invocation,157,62,95,157,60.51
-Crontab_Enumeration,230,0,230,230,100.00
+Crontab_Enumeration,230,30,200,230,86.96
 Linux_Base64_Encoded_Pipe_to_Shell,260,147,113,260,43.46
 Linux_Crypto_Mining_Indicators,186,165,21,186,11.29
 OS_Architecture_Discovery_Via_Grep,269,81,188,269,69.89

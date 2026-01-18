@@ -30,7 +30,7 @@ def main():
     base_dir = r"d:\Downloads in D\Request Linux"
     original_file = os.path.join(base_dir, "combined_rule_summary.csv")
     fixed_file = os.path.join(base_dir, "Summary_Fixed_Rule_Report.csv")
-    output_file = os.path.join(base_dir, "combined_rule_change_report.csv")
+    output_file = os.path.join(base_dir, "final_combined_rule_change_report.csv")
 
     print(f"Reading original file: {original_file}")
     original_data = read_csv(original_file)

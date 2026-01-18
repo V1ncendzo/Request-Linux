@@ -1,5 +1,5 @@
 Rule Name,Command Count,Original Match Events,Fixed Match Events,Match Events Change,Original Evasion Events,Fixed Evasion Events,Evasion Events Change,Original Bypass Rate (%),Fixed Bypass Rate (%),Bypass Rate Change (%)
-Crontab Enumeration,360,30,0,-30,200,230,30,86.96,100.00,13.04
+Crontab Enumeration,360,30,30,0,200,200,0,86.96,86.96,0.00
 Linux Crypto Mining Indicators,300,30,165,135,156,21,-135,83.87,11.29,-72.58
 Capsh Shell Invocation,358,29,62,33,128,95,-33,81.53,60.51,-21.02
 Linux Base64 Encoded Pipe to Shell,360,53,147,94,207,113,-94,79.62,43.46,-36.16
